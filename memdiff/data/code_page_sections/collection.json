@@ -1,0 +1,1778 @@
+{
+  "ip": "192.168.108.26",
+  "started_utc": "2026-11-11T12:29:59.723982+00:00",
+  "commands": [
+    {
+      "label": "identity_arch",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "uname -m"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_arch.stdout",
+      "stderr_file": "raw/identity_arch.stderr"
+    },
+    {
+      "label": "identity_model",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/device-tree/model"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_model.stdout",
+      "stderr_file": "raw/identity_model.stderr"
+    },
+    {
+      "label": "identity_cmdline",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/cmdline"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_cmdline.stdout",
+      "stderr_file": "raw/identity_cmdline.stderr"
+    },
+    {
+      "label": "identity_version",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/version"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_version.stdout",
+      "stderr_file": "raw/identity_version.stderr"
+    },
+    {
+      "label": "identity_os_release",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /etc/os-release"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_os_release.stdout",
+      "stderr_file": "raw/identity_os_release.stderr"
+    },
+    {
+      "label": "identity_uname",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "uname -a"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_uname.stdout",
+      "stderr_file": "raw/identity_uname.stderr"
+    },
+    {
+      "label": "identity_uptime",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/uptime"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_uptime.stdout",
+      "stderr_file": "raw/identity_uptime.stderr"
+    },
+    {
+      "label": "identity_boot_id",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/sys/kernel/random/boot_id"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_boot_id.stdout",
+      "stderr_file": "raw/identity_boot_id.stderr"
+    },
+    {
+      "label": "identity_uid_before",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "id -u"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/identity_uid_before.stdout",
+      "stderr_file": "raw/identity_uid_before.stderr"
+    },
+    {
+      "label": "root_on",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "root",
+        "on"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/root_on.stdout",
+      "stderr_file": "raw/root_on.stderr"
+    },
+    {
+      "label": "uid_root_0",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "id -u"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/uid_root_0.stdout",
+      "stderr_file": "raw/uid_root_0.stderr"
+    },
+    {
+      "label": "boot_id_after_root",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/sys/kernel/random/boot_id"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/boot_id_after_root.stdout",
+      "stderr_file": "raw/boot_id_after_root.stderr"
+    },
+    {
+      "label": "page_size",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "getconf PAGESIZE"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/page_size.stdout",
+      "stderr_file": "raw/page_size.stderr"
+    },
+    {
+      "label": "pidof_tvs-daemon",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "pidof tvs-daemon"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pidof_tvs-daemon.stdout",
+      "stderr_file": "raw/pidof_tvs-daemon.stderr"
+    },
+    {
+      "label": "exe_tvs-daemon_691",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "readlink -f /proc/691/exe"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/exe_tvs-daemon_691.stdout",
+      "stderr_file": "raw/exe_tvs-daemon_691.stderr"
+    },
+    {
+      "label": "maps_tvs-daemon_691",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/691/maps"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/maps_tvs-daemon_691.stdout",
+      "stderr_file": "raw/maps_tvs-daemon_691.stderr"
+    },
+    {
+      "label": "smaps_tvs-daemon_691",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/691/smaps"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/smaps_tvs-daemon_691.stdout",
+      "stderr_file": "raw/smaps_tvs-daemon_691.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_000",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=736642 count=144 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_000.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_000.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_001",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=736786 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_001.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_001.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_002",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=736789 count=2 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_002.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_002.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_003",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=740545 count=157 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_003.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_003.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_004",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=740702 count=4 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_004.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_004.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_005",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=740706 count=2 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_005.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_005.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_006",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=740904 count=233 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_006.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_006.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_007",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=741137 count=9 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_007.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_007.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_008",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=741146 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_008.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_008.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_009",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=741484 count=153 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_009.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_009.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_010",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=741637 count=4 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_010.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_010.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_011",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=741641 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_011.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_011.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_012",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742061 count=181 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_012.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_012.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_013",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742242 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_013.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_013.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_014",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742245 count=2 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_014.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_014.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_015",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742249 count=273 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_015.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_015.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_016",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742522 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_016.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_016.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_017",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742525 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_017.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_017.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_018",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742742 count=131 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_018.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_018.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_019",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742873 count=2 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_019.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_019.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_020",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=742875 count=2 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_020.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_020.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_021",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=744220 count=276 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_021.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_021.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_022",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=744496 count=4 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_022.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_022.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_023",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=744500 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_023.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_023.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_024",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=744503 count=257 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_024.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_024.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_025",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=744760 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_025.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_025.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_026",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=744763 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_026.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_026.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_027",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=745242 count=367 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_027.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_027.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_028",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=745609 count=4 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_028.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_028.stderr"
+    },
+    {
+      "label": "pagemap_tvs-daemon_029",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/691/pagemap bs=8 skip=745613 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tvs-daemon_029.stdout",
+      "stderr_file": "raw/pagemap_tvs-daemon_029.stderr"
+    },
+    {
+      "label": "smaps_after_tvs-daemon_691",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/691/smaps"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/smaps_after_tvs-daemon_691.stdout",
+      "stderr_file": "raw/smaps_after_tvs-daemon_691.stderr"
+    },
+    {
+      "label": "pidof_tv-viewer",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "pidof tv-viewer"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pidof_tv-viewer.stdout",
+      "stderr_file": "raw/pidof_tv-viewer.stderr"
+    },
+    {
+      "label": "exe_tv-viewer_548",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "readlink -f /proc/548/exe"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/exe_tv-viewer_548.stdout",
+      "stderr_file": "raw/exe_tv-viewer_548.stderr"
+    },
+    {
+      "label": "maps_tv-viewer_548",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/548/maps"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/maps_tv-viewer_548.stdout",
+      "stderr_file": "raw/maps_tv-viewer_548.stderr"
+    },
+    {
+      "label": "smaps_tv-viewer_548",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/548/smaps"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/smaps_tv-viewer_548.stdout",
+      "stderr_file": "raw/smaps_tv-viewer_548.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_000",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=1082 count=1628 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_000.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_000.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_001",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=2710 count=10 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_001.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_001.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_002",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=2720 count=2 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_002.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_002.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_003",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=744043 count=227 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_003.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_003.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_004",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=744270 count=6 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_004.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_004.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_005",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=744276 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_005.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_005.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_006",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=744344 count=387 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_006.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_006.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_007",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=744731 count=8 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_007.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_007.stderr"
+    },
+    {
+      "label": "pagemap_tv-viewer_008",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "bash -c 'set -o pipefail; dd if=/proc/548/pagemap bs=8 skip=744739 count=3 2>/dev/null | od -An -tx8 -v'"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pagemap_tv-viewer_008.stdout",
+      "stderr_file": "raw/pagemap_tv-viewer_008.stderr"
+    },
+    {
+      "label": "smaps_after_tv-viewer_548",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "cat /proc/548/smaps"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/smaps_after_tv-viewer_548.stdout",
+      "stderr_file": "raw/smaps_after_tv-viewer_548.stderr"
+    },
+    {
+      "label": "pull_/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/apps/org.tizen.tv-viewer/bin/tv-viewer"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_apps_org.tizen.tv-viewer_bin_tv-viewer.stdout",
+      "stderr_file": "raw/pull__usr_apps_org.tizen.tv-viewer_bin_tv-viewer.stderr"
+    },
+    {
+      "label": "sha256_/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/apps/org.tizen.tv-viewer/bin/tv-viewer"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_apps_org.tizen.tv-viewer_bin_tv-viewer.stdout",
+      "stderr_file": "raw/sha256__usr_apps_org.tizen.tv-viewer_bin_tv-viewer.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-api-native.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-api-native.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-api-native.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-api-native.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-api-native.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-api-native.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-api-native.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-api-native.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-api-native.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-api.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-api.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-api.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-api.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-api.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-api.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-api.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-api.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-api.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-atsc30-parser.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-atsc30-parser.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-atsc30-parser.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-atsc30-parser.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-atsc30-parser.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-atsc30-parser.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-atsc30-parser.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-atsc30-parser.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-atsc30-parser.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-b2b.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-b2b.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-b2b.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-b2b.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-b2b.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-b2b.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-b2b.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-b2b.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-b2b.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-dsm.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-dsm.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-dsm.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-dsm.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-dsm.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-dsm.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-dsm.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-dsm.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-dsm.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-dvb-si.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-dvb-si.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-dvb-si.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-dvb-si.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-dvb-si.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-dvb-si.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-dvb-si.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-dvb-si.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-dvb-si.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-dvbbase-scan.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-dvbbase-scan.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-dvbbase-scan.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-dvbbase-scan.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-dvbbase-scan.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-dvbbase-scan.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-dvbbase-scan.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-dvbbase-scan.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-dvbbase-scan.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-ext.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-ext.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-ext.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-ext.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-ext.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-ext.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-ext.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-ext.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-ext.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-iss.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-iss.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-iss.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-iss.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-iss.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-iss.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-iss.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-iss.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-iss.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-parser.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-parser.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-parser.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-parser.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-parser.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-parser.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-parser.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-parser.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-parser.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-si.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-si.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-si.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-si.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-si.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-si.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-si.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-si.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-si.so.stderr"
+    },
+    {
+      "label": "pull_/usr/lib/libtvs-util.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "pull",
+        "/usr/lib/libtvs-util.so",
+        "/home/linhao/lss/memory_check/TPMS/memdiff/data/code_page_sections/elf/usr/lib/libtvs-util.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/pull__usr_lib_libtvs-util.so.stdout",
+      "stderr_file": "raw/pull__usr_lib_libtvs-util.so.stderr"
+    },
+    {
+      "label": "sha256_/usr/lib/libtvs-util.so",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "sha256sum /usr/lib/libtvs-util.so"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/sha256__usr_lib_libtvs-util.so.stdout",
+      "stderr_file": "raw/sha256__usr_lib_libtvs-util.so.stderr"
+    },
+    {
+      "label": "root_off",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "root",
+        "off"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/root_off.stdout",
+      "stderr_file": "raw/root_off.stderr"
+    },
+    {
+      "label": "uid_after_0",
+      "argv": [
+        "sdb",
+        "-s",
+        "192.168.108.26",
+        "shell",
+        "id -u"
+      ],
+      "rc": 0,
+      "stdout_file": "raw/uid_after_0.stdout",
+      "stderr_file": "raw/uid_after_0.stderr"
+    }
+  ],
+  "identity": {
+    "arch": "armv7l\n",
+    "model": "Novatek NT72671D",
+    "cmdline": "dtsversion=260727.0_KSU2E_1_kantsu2e-2.0G-Builtin console=ttyS0,115200 earlycon rs232=0 maxcpus=4 no_console_suspend only_entry_model root=/dev/dm-1       KDUMP=16 SELP_ENABLE=20102011 _nvtca9-16m rootfstype=erofs rw init=/sbin/iniz mem=703744K@64M mem=394M@2048M mem=512M@2560M vmalloc=300M rootwait quiet trace_event=early_event,user bdinfo=00000010 model=4kbtin   blperf=8_2_426           pba_none partition_ab=a dm-mod.waitfor=/dev/mmcblk0p18 dm-mod.create=\"plt_linear, , 0, ro, 0 2289664 linear /dev/mmcblk0p18 2048;plt_verity, , 1, ro, 0 2251928 verity 1 /dev/dm-0 /dev/dm-0 4096 4096 281491 281491 sha256 dce7a1564f28c4dfa3901fbe323b06290539bdefa9bf31d87d49c74c38c6c48d 2e10ecfab2568479b7c3565985b28fe6972cd0513972d46f88ef148a6a2c97ea 11 check_at_most_once ignore_zero_blocks panic_on_corruption use_fec_from_device /dev/dm-0 fec_roots 2 fec_blocks 283710 fec_start 283710;prd_linear, , 2, ro, 0 81920 linear /dev/mmcblk0p18 2291712;prd_verity, , 3, ro, 0 78840 verity 1 /dev/dm-2 /dev/dm-2 4096 4096 9855 9855 sha256 f930b65524a683867c33f8c1b92ead361f542fd19ad09c69af5b7462e2b9d0c9 2ea1e668af4a5ca6966e1eb5ac96a85d7b7f93f2786a1629042b28712da68b2d 11 check_at_most_once ignore_zero_blocks panic_on_corruption use_fec_from_device /dev/dm-2 fec_roots 2 fec_blocks 9933 fec_start 9933\"                                                                                                                                                                              \n",
+    "version": "Linux version 6.12.60 (abuild@A1408LMG) (clang version 22.1.8, LLD 22.1.8) #1 SMP PREEMPT Fri Nov  6 04:17:15 UTC 2026\n",
+    "os_release": "NAME=Tizen\nVERSION=\"10.0.0 (Tizen10/TV)\"\nID=tizen\nVERSION_ID=10.0.0\nPRETTY_NAME=\"Tizen 10.0.0 (Tizen10/TV)\"\nANSI_COLOR=\"0;36\"\nCPE_NAME=\"cpe:/o:tizen:tizen:10.0.0\"\nBUILD_ID=T-KSU2EJAKUC-0101-PERF-202611061751\n",
+    "uname": "Linux localhost 6.12.60 #1 SMP PREEMPT Fri Nov  6 04:17:15 UTC 2026 armv7l GNU/Linux\n",
+    "uptime": "14955.64 48123.12\n",
+    "boot_id": "0d30d3eb-a65b-44e2-b1d6-ee93e2c39af5\n",
+    "uid_before": "5001\n"
+  },
+  "build_id": "T-KSU2EJAKUC-0101-PERF-202611061751",
+  "checks": {
+    "armv7l": true,
+    "NT72671D": true,
+    "KSU2E": true,
+    "clang_kernel": true,
+    "BUILD_ID": true
+  },
+  "page_size": 4096,
+  "pids": {
+    "tvs-daemon": 691,
+    "tv-viewer": 548
+  },
+  "mappings": [
+    {
+      "start": 3017285632,
+      "end": 3017875456,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-atsc30-parser.so",
+      "maps_line": "b3d82000-b3e12000 r-xp 00000000 00:14 17335503   /usr/lib/libtvs-atsc30-parser.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 144,
+      "pagemap_file": "raw/pagemap_tvs-daemon_000.stdout"
+    },
+    {
+      "start": 3017875456,
+      "end": 3017887744,
+      "perms": "r--p",
+      "offset": 589824,
+      "path": "/usr/lib/libtvs-atsc30-parser.so",
+      "maps_line": "b3e12000-b3e15000 r--p 00090000 00:14 17335503   /usr/lib/libtvs-atsc30-parser.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_001.stdout"
+    },
+    {
+      "start": 3017887744,
+      "end": 3017895936,
+      "perms": "rw-p",
+      "offset": 602112,
+      "path": "/usr/lib/libtvs-atsc30-parser.so",
+      "maps_line": "b3e15000-b3e17000 rw-p 00093000 00:14 17335503   /usr/lib/libtvs-atsc30-parser.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 2,
+      "pagemap_file": "raw/pagemap_tvs-daemon_002.stdout"
+    },
+    {
+      "start": 3033272320,
+      "end": 3033915392,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-b2b.so",
+      "maps_line": "b4cc1000-b4d5e000 r-xp 00000000 00:14 17327282   /usr/lib/libtvs-b2b.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 157,
+      "pagemap_file": "raw/pagemap_tvs-daemon_003.stdout"
+    },
+    {
+      "start": 3033915392,
+      "end": 3033931776,
+      "perms": "r--p",
+      "offset": 643072,
+      "path": "/usr/lib/libtvs-b2b.so",
+      "maps_line": "b4d5e000-b4d62000 r--p 0009d000 00:14 17327282   /usr/lib/libtvs-b2b.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 4,
+      "pagemap_file": "raw/pagemap_tvs-daemon_004.stdout"
+    },
+    {
+      "start": 3033931776,
+      "end": 3033939968,
+      "perms": "rw-p",
+      "offset": 659456,
+      "path": "/usr/lib/libtvs-b2b.so",
+      "maps_line": "b4d62000-b4d64000 rw-p 000a1000 00:14 17327282   /usr/lib/libtvs-b2b.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 2,
+      "pagemap_file": "raw/pagemap_tvs-daemon_005.stdout"
+    },
+    {
+      "start": 3034742784,
+      "end": 3035697152,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-dvb-si.so",
+      "maps_line": "b4e28000-b4f11000 r-xp 00000000 00:14 17338496   /usr/lib/libtvs-dvb-si.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 233,
+      "pagemap_file": "raw/pagemap_tvs-daemon_006.stdout"
+    },
+    {
+      "start": 3035697152,
+      "end": 3035734016,
+      "perms": "r--p",
+      "offset": 954368,
+      "path": "/usr/lib/libtvs-dvb-si.so",
+      "maps_line": "b4f11000-b4f1a000 r--p 000e9000 00:14 17338496   /usr/lib/libtvs-dvb-si.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 9,
+      "pagemap_file": "raw/pagemap_tvs-daemon_007.stdout"
+    },
+    {
+      "start": 3035734016,
+      "end": 3035746304,
+      "perms": "rw-p",
+      "offset": 991232,
+      "path": "/usr/lib/libtvs-dvb-si.so",
+      "maps_line": "b4f1a000-b4f1d000 rw-p 000f2000 00:14 17338496   /usr/lib/libtvs-dvb-si.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_008.stdout"
+    },
+    {
+      "start": 3037118464,
+      "end": 3037745152,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-dvbbase-scan.so",
+      "maps_line": "b506c000-b5105000 r-xp 00000000 00:14 17330115   /usr/lib/libtvs-dvbbase-scan.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 153,
+      "pagemap_file": "raw/pagemap_tvs-daemon_009.stdout"
+    },
+    {
+      "start": 3037745152,
+      "end": 3037761536,
+      "perms": "r--p",
+      "offset": 626688,
+      "path": "/usr/lib/libtvs-dvbbase-scan.so",
+      "maps_line": "b5105000-b5109000 r--p 00099000 00:14 17330115   /usr/lib/libtvs-dvbbase-scan.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 4,
+      "pagemap_file": "raw/pagemap_tvs-daemon_010.stdout"
+    },
+    {
+      "start": 3037761536,
+      "end": 3037773824,
+      "perms": "rw-p",
+      "offset": 643072,
+      "path": "/usr/lib/libtvs-dvbbase-scan.so",
+      "maps_line": "b5109000-b510c000 rw-p 0009d000 00:14 17330115   /usr/lib/libtvs-dvbbase-scan.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_011.stdout"
+    },
+    {
+      "start": 3039481856,
+      "end": 3040223232,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-ext.so",
+      "maps_line": "b52ad000-b5362000 r-xp 00000000 00:14 17335738   /usr/lib/libtvs-ext.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 181,
+      "pagemap_file": "raw/pagemap_tvs-daemon_012.stdout"
+    },
+    {
+      "start": 3040223232,
+      "end": 3040235520,
+      "perms": "r--p",
+      "offset": 741376,
+      "path": "/usr/lib/libtvs-ext.so",
+      "maps_line": "b5362000-b5365000 r--p 000b5000 00:14 17335738   /usr/lib/libtvs-ext.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_013.stdout"
+    },
+    {
+      "start": 3040235520,
+      "end": 3040243712,
+      "perms": "rw-p",
+      "offset": 753664,
+      "path": "/usr/lib/libtvs-ext.so",
+      "maps_line": "b5365000-b5367000 rw-p 000b8000 00:14 17335738   /usr/lib/libtvs-ext.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 2,
+      "pagemap_file": "raw/pagemap_tvs-daemon_014.stdout"
+    },
+    {
+      "start": 3040251904,
+      "end": 3041370112,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-dsm.so",
+      "maps_line": "b5369000-b547a000 r-xp 00000000 00:14 17335552   /usr/lib/libtvs-dsm.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 273,
+      "pagemap_file": "raw/pagemap_tvs-daemon_015.stdout"
+    },
+    {
+      "start": 3041370112,
+      "end": 3041382400,
+      "perms": "r--p",
+      "offset": 1118208,
+      "path": "/usr/lib/libtvs-dsm.so",
+      "maps_line": "b547a000-b547d000 r--p 00111000 00:14 17335552   /usr/lib/libtvs-dsm.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_016.stdout"
+    },
+    {
+      "start": 3041382400,
+      "end": 3041394688,
+      "perms": "rw-p",
+      "offset": 1130496,
+      "path": "/usr/lib/libtvs-dsm.so",
+      "maps_line": "b547d000-b5480000 rw-p 00114000 00:14 17335552   /usr/lib/libtvs-dsm.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_017.stdout"
+    },
+    {
+      "start": 3042271232,
+      "end": 3042807808,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-si.so",
+      "maps_line": "b5556000-b55d9000 r-xp 00000000 00:14 17319422   /usr/lib/libtvs-si.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 131,
+      "pagemap_file": "raw/pagemap_tvs-daemon_018.stdout"
+    },
+    {
+      "start": 3042807808,
+      "end": 3042816000,
+      "perms": "r--p",
+      "offset": 536576,
+      "path": "/usr/lib/libtvs-si.so",
+      "maps_line": "b55d9000-b55db000 r--p 00083000 00:14 17319422   /usr/lib/libtvs-si.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 2,
+      "pagemap_file": "raw/pagemap_tvs-daemon_019.stdout"
+    },
+    {
+      "start": 3042816000,
+      "end": 3042824192,
+      "perms": "rw-p",
+      "offset": 544768,
+      "path": "/usr/lib/libtvs-si.so",
+      "maps_line": "b55db000-b55dd000 rw-p 00085000 00:14 17319422   /usr/lib/libtvs-si.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 2,
+      "pagemap_file": "raw/pagemap_tvs-daemon_020.stdout"
+    },
+    {
+      "start": 3048325120,
+      "end": 3049455616,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-iss.so",
+      "maps_line": "b5b1c000-b5c30000 r-xp 00000000 00:14 17330334   /usr/lib/libtvs-iss.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 276,
+      "pagemap_file": "raw/pagemap_tvs-daemon_021.stdout"
+    },
+    {
+      "start": 3049455616,
+      "end": 3049472000,
+      "perms": "r--p",
+      "offset": 1130496,
+      "path": "/usr/lib/libtvs-iss.so",
+      "maps_line": "b5c30000-b5c34000 r--p 00114000 00:14 17330334   /usr/lib/libtvs-iss.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 4,
+      "pagemap_file": "raw/pagemap_tvs-daemon_022.stdout"
+    },
+    {
+      "start": 3049472000,
+      "end": 3049484288,
+      "perms": "rw-p",
+      "offset": 1146880,
+      "path": "/usr/lib/libtvs-iss.so",
+      "maps_line": "b5c34000-b5c37000 rw-p 00118000 00:14 17330334   /usr/lib/libtvs-iss.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_023.stdout"
+    },
+    {
+      "start": 3049484288,
+      "end": 3050536960,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-util.so",
+      "maps_line": "b5c37000-b5d38000 r-xp 00000000 00:14 17335826   /usr/lib/libtvs-util.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 257,
+      "pagemap_file": "raw/pagemap_tvs-daemon_024.stdout"
+    },
+    {
+      "start": 3050536960,
+      "end": 3050549248,
+      "perms": "r--p",
+      "offset": 1052672,
+      "path": "/usr/lib/libtvs-util.so",
+      "maps_line": "b5d38000-b5d3b000 r--p 00101000 00:14 17335826   /usr/lib/libtvs-util.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_025.stdout"
+    },
+    {
+      "start": 3050549248,
+      "end": 3050561536,
+      "perms": "rw-p",
+      "offset": 1064960,
+      "path": "/usr/lib/libtvs-util.so",
+      "maps_line": "b5d3b000-b5d3e000 rw-p 00104000 00:14 17335826   /usr/lib/libtvs-util.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_026.stdout"
+    },
+    {
+      "start": 3052511232,
+      "end": 3054014464,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-api-native.so",
+      "maps_line": "b5f1a000-b6089000 r-xp 00000000 00:14 17338368   /usr/lib/libtvs-api-native.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 367,
+      "pagemap_file": "raw/pagemap_tvs-daemon_027.stdout"
+    },
+    {
+      "start": 3054014464,
+      "end": 3054030848,
+      "perms": "r--p",
+      "offset": 1503232,
+      "path": "/usr/lib/libtvs-api-native.so",
+      "maps_line": "b6089000-b608d000 r--p 0016f000 00:14 17338368   /usr/lib/libtvs-api-native.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 4,
+      "pagemap_file": "raw/pagemap_tvs-daemon_028.stdout"
+    },
+    {
+      "start": 3054030848,
+      "end": 3054043136,
+      "perms": "rw-p",
+      "offset": 1519616,
+      "path": "/usr/lib/libtvs-api-native.so",
+      "maps_line": "b608d000-b6090000 rw-p 00173000 00:14 17338368   /usr/lib/libtvs-api-native.so",
+      "process": "tvs-daemon",
+      "pid": 691,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tvs-daemon_029.stdout"
+    },
+    {
+      "start": 4431872,
+      "end": 11100160,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "maps_line": "0043a000-00a96000 r-xp 00000000 00:14 9737984    /usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 1628,
+      "pagemap_file": "raw/pagemap_tv-viewer_000.stdout"
+    },
+    {
+      "start": 11100160,
+      "end": 11141120,
+      "perms": "r--p",
+      "offset": 6668288,
+      "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "maps_line": "00a96000-00aa0000 r--p 0065c000 00:14 9737984    /usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 10,
+      "pagemap_file": "raw/pagemap_tv-viewer_001.stdout"
+    },
+    {
+      "start": 11141120,
+      "end": 11149312,
+      "perms": "rw-p",
+      "offset": 6709248,
+      "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "maps_line": "00aa0000-00aa2000 rw-p 00666000 00:14 9737984    /usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 2,
+      "pagemap_file": "raw/pagemap_tv-viewer_002.stdout"
+    },
+    {
+      "start": 3047600128,
+      "end": 3048529920,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-parser.so",
+      "maps_line": "b5a6b000-b5b4e000 r-xp 00000000 00:14 17338623   /usr/lib/libtvs-parser.so",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 227,
+      "pagemap_file": "raw/pagemap_tv-viewer_003.stdout"
+    },
+    {
+      "start": 3048529920,
+      "end": 3048554496,
+      "perms": "r--p",
+      "offset": 929792,
+      "path": "/usr/lib/libtvs-parser.so",
+      "maps_line": "b5b4e000-b5b54000 r--p 000e3000 00:14 17338623   /usr/lib/libtvs-parser.so",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 6,
+      "pagemap_file": "raw/pagemap_tv-viewer_004.stdout"
+    },
+    {
+      "start": 3048554496,
+      "end": 3048566784,
+      "perms": "rw-p",
+      "offset": 954368,
+      "path": "/usr/lib/libtvs-parser.so",
+      "maps_line": "b5b54000-b5b57000 rw-p 000e9000 00:14 17338623   /usr/lib/libtvs-parser.so",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tv-viewer_005.stdout"
+    },
+    {
+      "start": 3048833024,
+      "end": 3050418176,
+      "perms": "r-xp",
+      "offset": 0,
+      "path": "/usr/lib/libtvs-api.so",
+      "maps_line": "b5b98000-b5d1b000 r-xp 00000000 00:14 17327102   /usr/lib/libtvs-api.so",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 387,
+      "pagemap_file": "raw/pagemap_tv-viewer_006.stdout"
+    },
+    {
+      "start": 3050418176,
+      "end": 3050450944,
+      "perms": "r--p",
+      "offset": 1585152,
+      "path": "/usr/lib/libtvs-api.so",
+      "maps_line": "b5d1b000-b5d23000 r--p 00183000 00:14 17327102   /usr/lib/libtvs-api.so",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 8,
+      "pagemap_file": "raw/pagemap_tv-viewer_007.stdout"
+    },
+    {
+      "start": 3050450944,
+      "end": 3050463232,
+      "perms": "rw-p",
+      "offset": 1617920,
+      "path": "/usr/lib/libtvs-api.so",
+      "maps_line": "b5d23000-b5d26000 rw-p 0018b000 00:14 17327102   /usr/lib/libtvs-api.so",
+      "process": "tv-viewer",
+      "pid": 548,
+      "pages": 3,
+      "pagemap_file": "raw/pagemap_tv-viewer_008.stdout"
+    }
+  ],
+  "pulled": [
+    {
+      "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "local": "elf/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "size_bytes": 6719102,
+      "board_sha256": "8f4720ec7072d3acd2bbd841742ace102078eadda87dfdb24bebbe2957531d8d",
+      "host_sha256": "8f4720ec7072d3acd2bbd841742ace102078eadda87dfdb24bebbe2957531d8d"
+    },
+    {
+      "path": "/usr/lib/libtvs-api-native.so",
+      "local": "elf/usr/lib/libtvs-api-native.so",
+      "size_bytes": 1533224,
+      "board_sha256": "0fa3c653b8487d0a1dd2d4957335d9e0342a75002e7c7d42f200bd6963a89473",
+      "host_sha256": "0fa3c653b8487d0a1dd2d4957335d9e0342a75002e7c7d42f200bd6963a89473"
+    },
+    {
+      "path": "/usr/lib/libtvs-api.so",
+      "local": "elf/usr/lib/libtvs-api.so",
+      "size_bytes": 1631104,
+      "board_sha256": "ac65a3069cb31251934cce6c757a7a8e2c1d0839b9c209d96d65efd50e465983",
+      "host_sha256": "ac65a3069cb31251934cce6c757a7a8e2c1d0839b9c209d96d65efd50e465983"
+    },
+    {
+      "path": "/usr/lib/libtvs-atsc30-parser.so",
+      "local": "elf/usr/lib/libtvs-atsc30-parser.so",
+      "size_bytes": 609028,
+      "board_sha256": "17f16c2d00161903a6dc4d9cc38f7441951d369f65ee334f828b0461a7a4a342",
+      "host_sha256": "17f16c2d00161903a6dc4d9cc38f7441951d369f65ee334f828b0461a7a4a342"
+    },
+    {
+      "path": "/usr/lib/libtvs-b2b.so",
+      "local": "elf/usr/lib/libtvs-b2b.so",
+      "size_bytes": 665472,
+      "board_sha256": "1cbf72a6982ac5002f7305510e037559ba7110895033c4bca15f21015002f947",
+      "host_sha256": "1cbf72a6982ac5002f7305510e037559ba7110895033c4bca15f21015002f947"
+    },
+    {
+      "path": "/usr/lib/libtvs-dsm.so",
+      "local": "elf/usr/lib/libtvs-dsm.so",
+      "size_bytes": 1141716,
+      "board_sha256": "b83ba98bbec2a1ee8356a9c30e1cf69310c3a25d1d5450c6f411481c253e61cc",
+      "host_sha256": "b83ba98bbec2a1ee8356a9c30e1cf69310c3a25d1d5450c6f411481c253e61cc"
+    },
+    {
+      "path": "/usr/lib/libtvs-dvb-si.so",
+      "local": "elf/usr/lib/libtvs-dvb-si.so",
+      "size_bytes": 1001964,
+      "board_sha256": "071333e21a61b79e6f962f2dd50039a0a96ceb43779fa9147318038646c1e11d",
+      "host_sha256": "071333e21a61b79e6f962f2dd50039a0a96ceb43779fa9147318038646c1e11d"
+    },
+    {
+      "path": "/usr/lib/libtvs-dvbbase-scan.so",
+      "local": "elf/usr/lib/libtvs-dvbbase-scan.so",
+      "size_bytes": 653860,
+      "board_sha256": "8e9959082807f75a446b91219fbbae75075e63e75620f5b8ff96a7bc7e764b9f",
+      "host_sha256": "8e9959082807f75a446b91219fbbae75075e63e75620f5b8ff96a7bc7e764b9f"
+    },
+    {
+      "path": "/usr/lib/libtvs-ext.so",
+      "local": "elf/usr/lib/libtvs-ext.so",
+      "size_bytes": 760364,
+      "board_sha256": "8ede96c0d03db708b2cb6cef35d4cbccbab95155afaf37a42fe3d12b1d583bc2",
+      "host_sha256": "8ede96c0d03db708b2cb6cef35d4cbccbab95155afaf37a42fe3d12b1d583bc2"
+    },
+    {
+      "path": "/usr/lib/libtvs-iss.so",
+      "local": "elf/usr/lib/libtvs-iss.so",
+      "size_bytes": 1157760,
+      "board_sha256": "7c0798cb0e03e248659af12250ff8cf01462c19741081b0a097dee45faff715c",
+      "host_sha256": "7c0798cb0e03e248659af12250ff8cf01462c19741081b0a097dee45faff715c"
+    },
+    {
+      "path": "/usr/lib/libtvs-parser.so",
+      "local": "elf/usr/lib/libtvs-parser.so",
+      "size_bytes": 965268,
+      "board_sha256": "f4ea85e4f12f8b5eaa9576c99d265dfdf68369343cbb142b59f326751af33145",
+      "host_sha256": "f4ea85e4f12f8b5eaa9576c99d265dfdf68369343cbb142b59f326751af33145"
+    },
+    {
+      "path": "/usr/lib/libtvs-si.so",
+      "local": "elf/usr/lib/libtvs-si.so",
+      "size_bytes": 551280,
+      "board_sha256": "27153a89f3c522254028492f576ccdf6dc6bab6a42ddb01c3e7ce45c879657b6",
+      "host_sha256": "27153a89f3c522254028492f576ccdf6dc6bab6a42ddb01c3e7ce45c879657b6"
+    },
+    {
+      "path": "/usr/lib/libtvs-util.so",
+      "local": "elf/usr/lib/libtvs-util.so",
+      "size_bytes": 1077244,
+      "board_sha256": "3efe012a6967894dee8e2b73b11e953ba0ca78016e5993e97114bad6d9a30b12",
+      "host_sha256": "3efe012a6967894dee8e2b73b11e953ba0ca78016e5993e97114bad6d9a30b12"
+    }
+  ],
+  "root_restored": true,
+  "ended_utc": "2026-11-11T12:30:16.323494+00:00"
+}

@@ -1,0 +1,39 @@
+rc=0
+There are 27 section headers, starting at offset 0x1760f0:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            00000134 000134 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        00000158 000158 0078f0 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          00007a48 007a48 014900 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          0001c348 01c348 05d106 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          0007944e 07944e 002920 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         0007bd70 07bd70 000180 00   A  4   5  4
+  [ 7] .rel.dyn          REL             0007bef0 07bef0 007bf0 08   A  3   0  4
+  [ 8] .rel.plt          REL             00083ae0 083ae0 004e58 08  AI  3  22  4
+  [ 9] .init             PROGBITS        00088938 088938 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        00088944 088944 00821c 04  AX  0   0  4
+  [11] .text             PROGBITS        00090b60 090b60 095300 00  AX  0   0  8
+  [12] .fini             PROGBITS        00125e60 125e60 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        00125e68 125e68 02d61c 00   A  0   0  8
+  [14] .ARM.extab        PROGBITS        00153484 153484 014698 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       00167b1c 167b1c 0068a8 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        0016e3c4 16e3c4 000004 00   A  0   0  4
+  [17] .tbss             NOBITS          0016f000 16f000 000004 00 WAT  0   0  4
+  [18] .init_array       INIT_ARRAY      0016f000 16f000 000098 04  WA  0   0  4
+  [19] .fini_array       FINI_ARRAY      0016f098 16f098 000004 04  WA  0   0  4
+  [20] .data.rel.ro      PROGBITS        0016f09c 16f09c 0038f4 00  WA  0   0  4
+  [21] .dynamic          DYNAMIC         00172990 172990 0001b8 08  WA  4   0  4
+  [22] .got              PROGBITS        00173000 173000 002fbc 04  WA  0   0  4
+  [23] .data             PROGBITS        00175fbc 175fbc 000004 00  WA  0   0  4
+  [24] .bss              NOBITS          00175fc0 175fc0 0003fc 00  WA  0   0  4
+  [25] .comment          PROGBITS        00000000 175fc0 000042 01  MS  0   0  1
+  [26] .shstrtab         STRTAB          00000000 176002 0000ed 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:

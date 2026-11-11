@@ -1,0 +1,14 @@
+process	object	current_rx_Rss_kB	current_rx_loader_resident_kB	current_rx_text_resident_kB	current_rx_loader_fraction_pct	current_rx_text_fraction_pct	LLVM3_boot1_rx_Rss_kB	LLVM3_boot2_rx_Rss_kB	GCC_boot1_rx_Rss_kB	GCC_boot2_rx_Rss_kB	GCC_mean_rx_Rss_kB	GCC_loader_sections_size_kB	GCC_Rss_lt_loader_size
+tv-viewer	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	2436.0	589.938477	1528.28125	24.218	62.737	2432	2432	2024	2012	2018.0	876.679	False
+tv-viewer	/usr/lib/libtvs-api.so	860.0	612.152344	162.632812	71.181	18.911	860	860	264	264	264.0	351.812	True
+tv-viewer	/usr/lib/libtvs-parser.so	480.0	445.977539	16.140625	92.912	3.363	480	480	56	56	56.0	342.861	True
+tvs-daemon	/usr/lib/libtvs-api-native.so	1060.0	545.966797	356.75	51.506	33.656	1052	1052	604	596	600.0	305.092	False
+tvs-daemon	/usr/lib/libtvs-atsc30-parser.so	240.0	223.799805	4.296875	93.25	1.79	240	240	32	32	32.0	155.001	True
+tvs-daemon	/usr/lib/libtvs-b2b.so	432.0	325.544922	59.091797	75.358	13.679	432	432	128	128	128.0	171.091	True
+tvs-daemon	/usr/lib/libtvs-dsm.so	380.0	340.928711	12.039062	89.718	3.168	380	380	56	56	56.0	229.839	True
+tvs-daemon	/usr/lib/libtvs-dvb-si.so	408.0	373.474609	11.484375	91.538	2.815	408	408	36	36	36.0	183.811	True
+tvs-daemon	/usr/lib/libtvs-dvbbase-scan.so	248.0	235.336914	1.304688	94.894	0.526	248	248	36	36	36.0	169.327	True
+tvs-daemon	/usr/lib/libtvs-ext.so	440.0	263.791016	109.355469	59.953	24.854	440	440	232	232	232.0	151.233	False
+tvs-daemon	/usr/lib/libtvs-iss.so	764.0	442.12793	201.292969	57.87	26.347	764	764	412	412	412.0	216.126	False
+tvs-daemon	/usr/lib/libtvs-si.so	264.0	214.445312	27.984375	81.229	10.6	264	264	56	56	56.0	170.8	True
+tvs-daemon	/usr/lib/libtvs-util.so	808.0	428.192383	254.222656	52.994	31.463	808	808	464	464	464.0	237.922	False

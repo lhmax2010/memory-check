@@ -460,3 +460,11 @@ systemd 实例：新 `nopie_capture_instances.sh` 为未来普查记录每个进
 已闭合：tvs-daemon 的 `other` Pss 差 +5768.5 KiB 全部为主程序或 `.so` 的 r-x 映射差；前五对象 `libtvs-api-native`、`libtvs-dvb-si`、`libtvs-iss`、`libtvs-util`、`libtvs-dsm` 分别 +452、+372、+352、+344、+324 KiB，Rss 同量增加、映射进程数不变。按报告列明的 Rss/进程数观察规则，(a) +5446.0 KiB，(b) +351.5 KiB，另有正差 +99.0 KiB 未确定、负向抵消 -128.0 KiB。GCC 前十对象的板上副本均无 `.symtab`，LTO 痕迹规则下无法判定是否做过 LTO；不能把差额归因于 LTO。tv-viewer 的 `other` 差 +963.5 KiB，其中 r-x 对象 +856.0 KiB、非目标残差 +107.5 KiB。证据 `object_summary.tsv`、`other_coverage.tsv`、`object_classification.tsv`、`top10_elf.tsv`。
 
 挂账：Rss 及映射进程数只能区分观察模式，无法逐页证明代码触发路径或共享因果；若需确认 LTO，须取得未 strip 的对应 GCC 构建产物或构建日志。此次只将新报告、数据与本节状态上传到 `lhmax2010/memory-check`，不推送本机 TPMS 分支的其他内容。
+
+### 当前 LLVM 代码驻留页 ELF 节归属（2026-11-11）
+
+计划与进度：用户确认 IP `192.168.108.26` 后，先核对 armv7l、NT72671D、KSU2E、clang 内核及 `BUILD_ID=T-KSU2EJAKUC-0101-PERF-202611061751`；全部通过。只读采 tvs-daemon 与 tv-viewer 的 maps、前后 smaps、13 个对象的 39 个文件 VMA 的完整 pagemap（每 VMA 一次 dd+od），并原样拉回 13 个 ELF。任务文字称 12 个对象，但清单实际 13 个，按清单全部处理。板上未写文件、未重启；root off 后 UID 恢复 5001。原始命令与返回码 `memdiff/data/code_page_sections/collection.json`、`raw/`，板上与主机 ELF SHA256 逐一相同。开发机命令 CPU0/nice19 串行。
+
+已闭合：交叉 readelf `-SW/-lW` 加文件偏移逐页交集，跨节页按字节分摊；39 个 VMA 的 pagemap present×页大小与 smaps Rss 全部相同。13 对象当前 r-x 驻留 8820.0 KiB，其中加载器相关节 5041.7 KiB（57.2%）、`.text` 2744.9 KiB（31.1%）。GCC 两次的同对象 r-x Rss 均值 4390.0 KiB；由 GCC 每对象加载器节静态大小与 Rss 上界可严格推出加载器节驻留净增长至少 2590.6 KiB（总 r-x 差 4430.0 KiB 的 58.5%），但精确增长无法确定。8 个对象的 GCC r-x Rss 小于其加载器相关节静态大小，证明这些表未整段驻留；12 个库与第三轮 LLVM ELF 逐字节相同，tv-viewer 主程序不同。报告 `memdiff/reports/code_page_sections.md`；逐节及逐对象数据在 `memdiff/data/code_page_sections/sections.tsv`、`section_residency.tsv`、`object_sections_wide.tsv`、`object_summary.tsv`。
+
+挂账：历史 GCC 没有逐页 pagemap，故不能精确分解 ELF 节的 LLVM−GCC 差值；当前不同 BUILD_ID 与未锁定工作负载也限制跨镜像因果判断。恢复预链接能否省这部分 r-x 驻留仍未确定，需要用户和 Claude 另行设计同版镜像实验。只把本次报告、数据与状态上传到 `lhmax2010/memory-check`，不带本机仓库其他改动。

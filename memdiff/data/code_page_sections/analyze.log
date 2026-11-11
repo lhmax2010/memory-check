@@ -1,0 +1,27 @@
+readelf LLVM_current /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+readelf LLVM_current /usr/lib/libtvs-api-native.so
+readelf LLVM_current /usr/lib/libtvs-api.so
+readelf LLVM_current /usr/lib/libtvs-atsc30-parser.so
+readelf LLVM_current /usr/lib/libtvs-b2b.so
+readelf LLVM_current /usr/lib/libtvs-dsm.so
+readelf LLVM_current /usr/lib/libtvs-dvb-si.so
+readelf LLVM_current /usr/lib/libtvs-dvbbase-scan.so
+readelf LLVM_current /usr/lib/libtvs-ext.so
+readelf LLVM_current /usr/lib/libtvs-iss.so
+readelf LLVM_current /usr/lib/libtvs-parser.so
+readelf LLVM_current /usr/lib/libtvs-si.so
+readelf LLVM_current /usr/lib/libtvs-util.so
+readelf GCC /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+readelf GCC /usr/lib/libtvs-api-native.so
+readelf GCC /usr/lib/libtvs-api.so
+readelf GCC /usr/lib/libtvs-atsc30-parser.so
+readelf GCC /usr/lib/libtvs-b2b.so
+readelf GCC /usr/lib/libtvs-dsm.so
+readelf GCC /usr/lib/libtvs-dvb-si.so
+readelf GCC /usr/lib/libtvs-dvbbase-scan.so
+readelf GCC /usr/lib/libtvs-ext.so
+readelf GCC /usr/lib/libtvs-iss.so
+readelf GCC /usr/lib/libtvs-parser.so
+readelf GCC /usr/lib/libtvs-si.so
+readelf GCC /usr/lib/libtvs-util.so
+DONE 39 VMAs 13 objects
