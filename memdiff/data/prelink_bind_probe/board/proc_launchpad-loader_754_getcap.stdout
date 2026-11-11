@@ -1,0 +1,1 @@
+/usr/bin/launchpad-loader cap_setgid,cap_sys_admin,cap_sys_nice,cap_mac_admin=ei

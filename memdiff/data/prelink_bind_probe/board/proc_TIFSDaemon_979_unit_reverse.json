@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:40.957243+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "systemctl list-dependencies --reverse org.tizen.tv.factory-service.service --all --no-pager"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_TIFSDaemon_979_unit_reverse.stdout",
+  "stderr_file": "proc_TIFSDaemon_979_unit_reverse.stderr"
+}

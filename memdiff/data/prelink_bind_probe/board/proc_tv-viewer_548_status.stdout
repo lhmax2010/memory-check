@@ -1,0 +1,58 @@
+Name:	tv-viewer
+Umask:	0022
+State:	S (sleeping)
+Tgid:	548
+Ngid:	0
+Pid:	548
+PPid:	260
+TracerPid:	0
+Uid:	5001	5001	5001	5001
+Gid:	100	100	100	100
+FDSize:	128
+Groups:	29 44 100 201 6509 10001 10212 10502 10704 10705 
+NStgid:	548
+NSpid:	548
+NSpgid:	548
+NSsid:	548
+Kthread:	0
+VmPeak:	  282472 kB
+VmSize:	  274164 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   37620 kB
+VmRSS:	   31524 kB
+RssAnon:	    4084 kB
+RssFile:	   27020 kB
+RssShmem:	     420 kB
+VmData:	   75192 kB
+VmStk:	     136 kB
+VmExe:	    6512 kB
+VmLib:	  103404 kB
+VmPTE:	     188 kB
+VmSwap:	    5876 kB
+CoreDumping:	0
+THP_enabled:	0
+untag_mask:	0xffffffff
+Threads:	22
+SigQ:	0/10080
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000100016a47
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	unknown
+SpeculationIndirectBranch:	unsupported
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	1862
+nonvoluntary_ctxt_switches:	1948

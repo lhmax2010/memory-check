@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:33.009984+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "readlink -f /proc/548/exe"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tv-viewer_548_exe.stdout",
+  "stderr_file": "proc_tv-viewer_548_exe.stderr"
+}

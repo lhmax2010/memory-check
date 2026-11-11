@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:01:49.166658+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "id -u"
+  ],
+  "rc": 0,
+  "stdout_file": "uid_restored_bind_retry_0.stdout",
+  "stderr_file": "uid_restored_bind_retry_0.stderr"
+}

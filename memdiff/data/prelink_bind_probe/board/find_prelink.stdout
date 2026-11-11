@@ -1,0 +1,2 @@
+/etc/prelink.conf
+find: `/zone/template/securedata': Permission denied

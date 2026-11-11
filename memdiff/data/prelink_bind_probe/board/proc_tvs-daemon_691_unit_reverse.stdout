@@ -1,0 +1,1580 @@
+aaa_tvs_deamon.service
+[0;1;32m●[0m └─sysinit.target
+[0m●[0m   ├─aaa_wasdb_server.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0m●[0m   ├─accounts-service.service
+[0;1;32m●[0m   ├─aifw-data-manager.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─aitech.path
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─allshare-svc.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─aot-manager-server.service
+[0m●[0m   ├─aot-manager-server.timer
+[0;1;32m●[0m   │ └─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-delayed.service
+[0m●[0m   ├─app2sd-server.service
+[0;1;32m●[0m   ├─app_ready.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─app_ready.service
+[0;1;32m●[0m   ├─askuser-notification-stream.socket
+[0m●[0m   │ ├─askuser-notification.service
+    │ │   └─...
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─askuser-notification.service
+    │   └─...
+[0;1;32m●[0m   ├─AT-HUB.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─auto-test-tv-trigger.service
+[0;1;32m●[0m   ├─auto-test-tv-trigger.timer
+[0;1;32m●[0m   │ └─timers.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─bluetooth-monitor.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─booting-done.service
+[0;1;32m●[0m   │ └─delayed.target
+[0m●[0m   ├─bootmode-graphical.service
+[0;1;32m●[0m   │ └─bootmode.target
+[0m●[0m   ├─bootmode-swu-standalone.service
+[0;1;32m●[0m   │ └─bootmode.target
+[0m●[0m   ├─bootmode-system-update.service
+[0;1;32m●[0m   │ └─bootmode.target
+[0m●[0m   ├─bt.irmonitor.service
+[0m●[0m   ├─bt.updatemanager.service
+[0m●[0m   ├─camera-conf-mgr-abm-tv.service
+[0;1;32m●[0m   ├─camera-conf-mgr-abm-tv.timer
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─canalysis-service.path
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   ├─canalysis-service.service
+[0;1;32m●[0m   ├─central-key-manager-api-control.socket
+[0;1;32m●[0m   │ ├─central-key-manager.service
+[0;1;32m●[0m   │ │ ├─webappenc-initializer.service
+[0;1;32m●[0m   │ │ │ └─multi-user.target
+[0;1;32m●[0m   │ │ │   └─graphical.target
+[0;1;32m●[0m   │ │ │     └─app_ready.service
+[0;1;32m●[0m   │ │ └─multi-user.target
+[0;1;32m●[0m   │ │   └─graphical.target
+[0;1;32m●[0m   │ │     └─app_ready.service
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─central-key-manager-api-encryption.socket
+[0;1;32m●[0m   │ ├─central-key-manager.service
+[0;1;32m●[0m   │ │ ├─webappenc-initializer.service
+[0;1;32m●[0m   │ │ │ └─multi-user.target
+[0;1;32m●[0m   │ │ │   └─graphical.target
+[0;1;32m●[0m   │ │ │     └─app_ready.service
+[0;1;32m●[0m   │ │ └─multi-user.target
+[0;1;32m●[0m   │ │   └─graphical.target
+[0;1;32m●[0m   │ │     └─app_ready.service
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─central-key-manager-api-extended.socket
+[0;1;32m●[0m   │ ├─central-key-manager.service
+[0;1;32m●[0m   │ │ ├─webappenc-initializer.service
+[0;1;32m●[0m   │ │ │ └─multi-user.target
+[0;1;32m●[0m   │ │ │   └─graphical.target
+[0;1;32m●[0m   │ │ │     └─app_ready.service
+[0;1;32m●[0m   │ │ └─multi-user.target
+[0;1;32m●[0m   │ │   └─graphical.target
+[0;1;32m●[0m   │ │     └─app_ready.service
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─central-key-manager-api-ocsp.socket
+[0;1;32m●[0m   │ ├─central-key-manager.service
+[0;1;32m●[0m   │ │ ├─webappenc-initializer.service
+[0;1;32m●[0m   │ │ │ └─multi-user.target
+[0;1;32m●[0m   │ │ │   └─graphical.target
+[0;1;32m●[0m   │ │ │     └─app_ready.service
+[0;1;32m●[0m   │ │ └─multi-user.target
+[0;1;32m●[0m   │ │   └─graphical.target
+[0;1;32m●[0m   │ │     └─app_ready.service
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─central-key-manager-api-storage.socket
+[0;1;32m●[0m   │ ├─central-key-manager.service
+[0;1;32m●[0m   │ │ ├─webappenc-initializer.service
+[0;1;32m●[0m   │ │ │ └─multi-user.target
+[0;1;32m●[0m   │ │ │   └─graphical.target
+[0;1;32m●[0m   │ │ │     └─app_ready.service
+[0;1;32m●[0m   │ │ └─multi-user.target
+[0;1;32m●[0m   │ │   └─graphical.target
+[0;1;32m●[0m   │ │     └─app_ready.service
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─cert-server.service
+[0;1;32m●[0m   ├─cert-server.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─chromium-efl-vd.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─com.native.RunningAppsServiceDBUS.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─com.samsung.ep-plateau-agent-service.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0m●[0m   ├─com.samsung.ep-plateau-agent.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─com.samsung.tizen.argot.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─com.samsung.tv.airplay-service-2.path
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─com.samsung.tv.airplay-service-2.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─com.samsung.tv.billing-helper.service
+[0;1;32m●[0m   ├─com.samsung.tv.billinghelper.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─com.samsung.tv.bt.irmonitor.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─com.samsung.tv.bt.updatemanager.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─com.samsung.tv.ccsf.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─com.samsung.tv.cis-api-service-app.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─com.samsung.tv.context-aware-service.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─com.samsung.tv.context-aware-service.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─com.samsung.tv.googlecast-service.path
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─com.samsung.tv.googlecast-service.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─com.samsung.tv.hfpAgent.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─com.samsung.tv.multiscreen.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─com.samsung.tv.notification-app.path
+[0m●[0m   │ └─vdtizen-bootseq-PNP-after.target
+[0m●[0m   ├─com.samsung.tv.notification-app.service
+[0m●[0m   ├─com.samsung.tv.targeted-ad-service.service
+[0;1;32m●[0m   ├─com.samsung.tv.termsclient.message.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─com.samsung.tv.termsclient.message.service
+[0m●[0m   ├─com.samsung.tv.termsclient.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─com.samsung.tv.termsclient.timer
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─com.samsung.tv.visualcontroller.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─com.samsung.tv.wifi-motion-mgr.service
+[0;1;32m●[0m   ├─com.tizen.csf.engine.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─comss-watcherd@canary-id-list.service
+[0m●[0m   ├─comss-watcherd@countrycode.service
+[0m●[0m   ├─comss-watcherd@instant-on.service
+[0m●[0m   ├─comss-watcherd@invalid-atoken.service
+[0m●[0m   ├─comss-watcherd@network.service
+[0m●[0m   ├─comss-watcherd@si-token.service
+[0m●[0m   ├─comss-watcherd@sso-login.service
+[0m●[0m   ├─comss-watcherd@term.service
+[0m●[0m   ├─comss-watcherd@timeset.service
+[0;1;32m●[0m   ├─comss.canary-id-list.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.countrycode.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.instant-on.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.invalid-atoken.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.network.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─comss.service
+[0;1;32m●[0m   │ ├─org.tizen.ssoservice.service
+[0;1;32m●[0m   │ │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   │ ├─org.tizen.webappservice.service
+[0m●[0m   │ │ ├─vdtizen-bootseq-d2tv-starter.target
+[0;1;32m●[0m   │ │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ │ ├─vdtizen-bootseq-morningbrief-starter.target
+[0m●[0m   │ │ ├─vdtizen-bootseq-PNP-preload.target
+[0m●[0m   │ │ └─vdtizen-bootseq-WC-starter.target
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-after.target
+[0;1;32m●[0m   ├─comss.si-token.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.sso-login.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.term.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─comss.timer
+[0;1;32m●[0m   │ └─timers.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─comss.timer.service
+[0;1;32m●[0m   ├─comss.timeset.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─content-db-provider.service
+[0m●[0m   ├─content-grab-service.service
+[0m●[0m   ├─ContentServiceManager.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─context-engine.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─coreapp-service.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─coreapp-service.service
+[0m●[0m   ├─crash-manager.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─crash-manager.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─csf-content-engine.service
+[0m●[0m   │ └─vdtizen-bootseq-factory-starter.target
+[0;1;32m●[0m   ├─custom-service.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─dapi-provider.service
+[0;1;32m●[0m   ├─dapi-provider.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─dbus-com.samsung.tv.ccsf.service
+[0m●[0m   ├─dbus-org.O1.SecurityAccounts.gUserManagement.service
+[0m●[0m   ├─dbus-org.tizen.capi_smsource.server.service
+[0m●[0m   ├─dbus-org.tizen.voice.sttserver.service
+[0m●[0m   ├─dbus-org.tizen.voice.sttservercustom.service
+[0m●[0m   ├─dbus-org.tizen.voice.ttsinterruptserver.service
+[0m●[0m   ├─dbus-org.tizen.voice.ttsnotiserver.service
+[0m●[0m   ├─dbus-org.tizen.voice.ttsserver.service
+[0m●[0m   ├─dbus-org.tizen.voice.ttssrserver.service
+[0m●[0m   ├─device-certificate-manager.service
+[0;1;32m●[0m   ├─device-certificate-manager.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─device-policy-manager.service
+    │   └─...
+[0;1;32m●[0m   ├─device-policy-manager.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─display-manager.path
+[0;1;32m●[0m   │ └─graphical.target
+[0;1;32m●[0m   │   └─app_ready.service
+[0;1;32m●[0m   ├─display-manager.service
+[0;1;32m●[0m   │ └─graphical.target
+[0;1;32m●[0m   │   └─app_ready.service
+[0;1;32m●[0m   ├─dlogutil.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─dlogutil.service
+[0;1;32m●[0m   ├─dlogutil.timer
+[0;1;32m●[0m   │ └─timers.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─dotnet-init.service
+[0;1;32m●[0m   │ └─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-delayed.service
+[0m●[0m   ├─download-provider.service
+[0m●[0m   │ └─vdtizen-bootseq-factory-starter.target
+[0;1;32m●[0m   ├─download-provider.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─dta-agent.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─dta-agent.service
+[0m●[0m   ├─ep-power-manager.service
+    │   └─...
+[0m●[0m   ├─focus-server.service
+[0m●[0m   ├─hfp-agent.service
+[0m●[0m   ├─inm-manager.service
+[0;1;32m●[0m   ├─internal-storage-monitor.timer
+[0;1;32m●[0m   │ └─timers.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─ipcontrol.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─issue_report_agent.service
+[0;1;32m●[0m   │ ├─starter.target
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─libsessiond-watcher.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─license-manager-agent.service
+[0;1;32m●[0m   │ └─cynara.service
+[0;1;32m●[0m   │   ├─org.tizen.webappservice.service
+[0m●[0m   │   │ ├─vdtizen-bootseq-d2tv-starter.target
+[0;1;32m●[0m   │   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │   │ ├─vdtizen-bootseq-morningbrief-starter.target
+[0m●[0m   │   │ ├─vdtizen-bootseq-PNP-preload.target
+[0m●[0m   │   │ └─vdtizen-bootseq-WC-starter.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+    │     └─...
+[0m●[0m   ├─lightweight-web-engine-update.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─MaintModeApp.service
+[0;1;32m●[0m   ├─MaintModeApp.vconf.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─mcp_server.service
+[0m●[0m   ├─mde-framework.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   ├─mdnsd.service
+[0;1;32m●[0m   ├─mdnsd.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─media-analytics-service.service
+[0m●[0m   ├─media-server.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-factory-starter.target
+[0;1;32m●[0m   ├─media-server.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─mediacontroller.service
+[0;1;32m●[0m   ├─mediacontroller.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─msf-server.service
+[0;1;32m●[0m   ├─msf-server.socket
+[0;1;32m●[0m   │ ├─sockets.target
+[0;1;32m●[0m   │ │ └─basic.target
+[0;1;32m●[0m   │ │   ├─app-starter.target
+[0;1;32m●[0m   │ │   ├─bootmode.target
+[0;1;32m●[0m   │ │   ├─multi-user.target
+[0;1;32m●[0m   │ │   │ └─graphical.target
+[0;1;32m●[0m   │ │   │   └─app_ready.service
+[0;1;32m●[0m   │ │   └─starter.target
+[0;1;32m●[0m   │ └─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-delayed.service
+[0m●[0m   ├─muse-server.service
+[0m●[0m   │ └─vdtizen-bootseq-BB-starter.target
+[0;1;32m●[0m   ├─muse-server.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─nan-manager.service
+[0;1;32m●[0m   ├─net.inm_manager.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─net.nan.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─net.p2plegacy.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─net.stc.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─net.uamd.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─niu_app_handler.service
+[0;1;32m●[0m   │ └─bootmode.target
+[0;1;32m●[0m   ├─nsjail.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─org.freedesktop.systemd1.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.O1.SecurityAccounts.gUserManagement.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.account.manager.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.acm-service.path
+[0m●[0m   │ ├─org.tizen.acm-service.service
+[0m●[0m   │ │ └─vdtizen-bootseq-MCS-starter.target
+    │   └─...
+[0m●[0m   ├─org.tizen.AISControlManager.busname
+[0;1;32m●[0m   ├─org.tizen.AISControlManager.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─org.tizen.aitech_daemon_service.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-sysinit.target
+[0;1;32m●[0m   ├─org.tizen.aot_manager.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.app2sd.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.capi_smsource.server.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.content_db_provider.dbus.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─org.tizen.device-detector-service.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─org.tizen.dseal.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─org.tizen.dseal.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─org.tizen.easysetup-daemon.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-sysinit.target
+[0;1;32m●[0m   ├─org.tizen.GDBus.RemoteManagement.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.GDBus.SmartHubConnectionTest.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.multi-assistant-service.service
+    │ │ └─...
+[0m●[0m   │ └─vdtizen-bootseq-PNP-preload.target
+[0;1;32m●[0m   ├─org.tizen.pkgdir_tool.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─org.tizen.rdm-client.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─org.tizen.RunningApps.service
+[0;1;32m●[0m   ├─org.tizen.scmirroring.server.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.ses.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.smsrc.server.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─org.tizen.smsrc.service
+[0;1;32m●[0m   ├─org.tizen.ssoservice.service
+[0;1;32m●[0m   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─org.tizen.stand-by-scan.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─org.tizen.stand-by-scan.service
+[0;1;32m●[0m   ├─org.tizen.system.crash.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.system.storage.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.appbinarymanager.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.automation-service.path
+    │   └─...
+[0;1;32m●[0m   ├─org.tizen.tv.automationservice.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.cdminsmod.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─org.tizen.tv.cdminsmod.service
+[0;1;32m●[0m   ├─org.tizen.tv.fwupdateservice.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.initdownload.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.media.analytics.service.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.reminder.service.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─org.tizen.tv.signlanguage.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.ssoservice.server.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.swu.core.TV.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.swu.otascheduler.otascheduler.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.swu.service.servicemanager.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.swu.verifier.TV.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.tv.webappservice.server.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.unifiedAuthenticationService.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─org.tizen.unifiedAuthenticationService.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   ├─org.tizen.UsbSyncDisplay.service
+[0;1;32m●[0m   │ └─vdtizen-bootseq-idle.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-idle.service
+[0;1;32m●[0m   ├─org.tizen.voice.sttserver.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.voice.sttservercustom.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.voice.ttsinterruptserver.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.voice.ttsnotiserver.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.voice.ttsserver.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.voice.ttssrserver.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─org.tizen.webappservice.service
+[0m●[0m   │ ├─vdtizen-bootseq-d2tv-starter.target
+[0;1;32m●[0m   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ ├─vdtizen-bootseq-morningbrief-starter.target
+[0m●[0m   │ ├─vdtizen-bootseq-PNP-preload.target
+[0m●[0m   │ └─vdtizen-bootseq-WC-starter.target
+[0;1;32m●[0m   ├─org.tizen.webserver.service
+[0;1;32m●[0m   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ ├─vdtizen-bootseq-morningbrief-starter.target
+[0m●[0m   │ └─vdtizen-bootseq-WC-starter.target
+[0m●[0m   ├─p2p-legacy-manager.service
+[0m●[0m   ├─package-manager.service
+[0;1;32m●[0m   ├─pisa-service.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   ├─pisa-service.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─pkgdir-tool.service
+[0m●[0m   ├─playready.service
+[0;1;32m●[0m   │ ├─playready_hdssmack.service
+[0;1;32m●[0m   │ │ └─multi-user.target
+[0;1;32m●[0m   │ │   └─graphical.target
+[0;1;32m●[0m   │ │     └─app_ready.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─playready_hdssmack.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─product-operating.service
+[0;1;32m●[0m   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ └─vdtizen-bootseq-factory-starter.target
+[0m●[0m   ├─psid-checker.service
+[0;1;32m●[0m   ├─pushd.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─pushd.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─pvod-appfw.pvodservice.path
+[0;1;32m●[0m   │ └─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-delayed.service
+[0;1;32m●[0m   ├─pvod-appfw.pvodservice.service
+[0m●[0m   ├─pvr-service.service
+[0;1;32m●[0m   │ └─vdtizen-bootseq-predelayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-predelayed.service
+[0;1;32m●[0m   ├─register-device.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─reminder-service.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ ├─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   │ └─vdtizen-bootseq-TIMER-starter.target
+[0m●[0m   ├─remote-management.service
+[0;1;32m●[0m   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─remote-server.service
+[0;1;32m●[0m   │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m   │ ├─vdtizen-bootseq-morningbrief-starter.target
+[0m●[0m   │ ├─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   │ ├─vdtizen-bootseq-rvu-starter.target
+[0m●[0m   │ └─vdtizen-bootseq-WC-starter.target
+[0m●[0m   ├─reporterCA.service
+[0;1;32m●[0m   ├─reporterCA.timer
+[0;1;32m●[0m   │ └─timers.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─resourced.service
+[0m●[0m   │ ├─vdtizen-bootseq-PNP-sysinit.target
+[0;1;32m●[0m   │ └─vdtizen-bootseq-predelayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-predelayed.service
+[0;1;32m●[0m   ├─route-webproxy.path
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─route-webproxy.service
+[0m●[0m   ├─samsung-easy-support.service
+[0;1;32m●[0m   │ └─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-delayed.service
+[0;1;32m●[0m   ├─samsung.tizen.dseal.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─samsunghealth-service-tv-path-activation.path
+    │   └─...
+[0;1;32m●[0m   ├─samsunghealth-service-tv.path
+    │   └─...
+[0;1;32m●[0m   ├─scenario_manager_tv.service
+    │   └─...
+[0;1;32m●[0m   ├─scim.path
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─scim.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-sysinit.target
+[0m●[0m   ├─scmirroring.server.service
+[0;1;32m●[0m   ├─screend.message.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─screend.powercontrol.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─scs-agent.service
+[0;1;32m●[0m   ├─scs-agent.timer
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─sct-packet-dump.service
+[0;1;32m●[0m   │ └─vdtizen-bootseq-idle.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-idle.service
+[0;1;32m●[0m   ├─sdbd.service
+[0;1;32m●[0m   ├─sdbd_tcp.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─sddp.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─sddp.service
+[0;1;32m●[0m   ├─security-manager-cleanup.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0m●[0m   ├─ses-reset-handler.service
+[0;1;32m●[0m   │ ├─org.tizen.easysetup-daemon.service
+[0;1;32m●[0m   │ │ ├─multi-user.target
+[0;1;32m●[0m   │ │ │ └─graphical.target
+[0;1;32m●[0m   │ │ │   └─app_ready.service
+[0m●[0m   │ │ └─vdtizen-bootseq-PNP-sysinit.target
+[0m●[0m   │ └─vdtizen-bootseq-PNP-sysinit.target
+[0;1;31m●[0m   ├─ses-usb-installer@sda1.service
+[0;1;32m●[0m   │ └─sys-devices-platform-fc1a0000.ehci-usb3-3\x2d1-3\x2d1:1.0-host0-target0:0…
+[0;1;32m●[0m   ├─sesd.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-preload.target
+[0m●[0m   ├─sessiond-generate-cache.service
+[0;1;32m●[0m   │ └─delayed.target
+[0;1;32m●[0m   ├─settings-service.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─sliveutil.service
+[0m●[0m   ├─SmartRC-service.service
+[0m●[0m   │ └─vdtizen-bootseq-PNP-sysinit.target
+[0;1;32m●[0m   ├─source-service.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─sp-service.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─sp-service.service
+[0;1;32m●[0m   ├─ssc-service.path
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0m●[0m   ├─ssc-service.service
+[0m●[0m   │ └─ssdm-service.service
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─ssdm-service.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─sshd.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─sshd.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─stc-manager.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─svc_db_backup.path
+    │   └─...
+[0m●[0m   ├─svc_db_backup.service
+[0;1;32m●[0m   ├─swu-auto-upgrade.service
+[0;1;32m●[0m   ├─swu-auto-upgrade.timer
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-factory-starter.target
+[0m●[0m   ├─swu-core-tv.service
+[0m●[0m   ├─swu-service.service
+[0;1;32m●[0m   ├─swu-verifier-tv.service
+[0m●[0m   │ ├─swu-core-tv.service
+[0m●[0m   │ ├─swu-service.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ ├─vdtizen-bootseq-factory-starter.target
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   ├─swu-verifier-tv.timer
+[0;1;32m●[0m   ├─system-default-target-done.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─system-delayed-target-trigger.service
+[0;1;32m●[0m   │ └─graphical.target
+[0;1;32m●[0m   │   └─app_ready.service
+[0;1;32m●[0m   ├─system-graphical-target-done.service
+[0;1;32m●[0m   │ └─graphical.target
+[0;1;32m●[0m   │   └─app_ready.service
+[0m●[0m   ├─target_view.service
+[0;1;32m●[0m   ├─target_view.socket
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─test-oqc-tv-agent.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─test-oqc-tv.path
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─TGServiceApp.path
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─tizen-action-plugin-launcher.service
+[0;1;32m●[0m   ├─tizen-generate-env.path
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0m●[0m   ├─tizen-theme-manager.service
+[0m●[0m   ├─tizenid.service
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0m●[0m   │ └─vdtizen-bootseq-factory-starter.target
+[0m●[0m   ├─tpad-agent.service
+[0m●[0m   ├─tpad-test.service
+    │   └─...
+[0m●[0m   ├─trace_recorder.service
+    │   └─...
+[0m●[0m   ├─turn_off_rcu_expedited.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─TVGuardAgent-service.path
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─TVGuardAgent-service.service
+[0m●[0m   ├─TVGuardPlugin-service.service
+[0m●[0m   ├─ua-manager.service
+[0;1;32m●[0m   ├─usb-launcher-service.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─UsdManagerLauncher.vconf.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─user-presence.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─vd-cacert-service.path
+    │   └─...
+[0m●[0m   ├─vd-cacert-service.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;32m●[0m   ├─vd.cacert.service.busname
+[0;1;32m●[0m   │ └─busnames.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0;1;32m●[0m   ├─vdca-check.service
+[0;1;32m●[0m   │ └─basic.target
+[0;1;32m●[0m   │   ├─app-starter.target
+[0;1;32m●[0m   │   ├─bootmode.target
+[0;1;32m●[0m   │   ├─multi-user.target
+[0;1;32m●[0m   │   │ └─graphical.target
+[0;1;32m●[0m   │   │   └─app_ready.service
+[0;1;32m●[0m   │   └─starter.target
+[0;1;31m●[0m   ├─vdca-update.service
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─vddebugmenu.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdsystem-update-manager.service
+[0;1;32m●[0m   ├─vdsystem-update-manager.timer
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-BB-starter.path
+    │   └─...
+[0;1;32m●[0m   ├─vdtizen-bootseq-d2tv-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-delayed.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-delayed.timer
+[0;1;32m●[0m   │ └─vdtizen-bootseq-predelayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-predelayed.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-factory-early.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-factory-starter.path
+[0;1;32m●[0m   ├─vdtizen-bootseq-factory-starter.timer
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-idle.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-idle.timer
+[0;1;32m●[0m   │ └─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-delayed.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-morningbrief-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   ├─vdtizen-bootseq-PNP-after.path
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0m●[0m   ├─vdtizen-bootseq-PNP-preload.path
+[0m●[0m   │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-PNP-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-PNP-sysinit.path
+    │   └─...
+[0;1;32m●[0m   ├─vdtizen-bootseq-predelayed.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-predelayed.timer
+[0;1;32m●[0m   │ └─multi-user.target
+[0;1;32m●[0m   │   └─graphical.target
+[0;1;32m●[0m   │     └─app_ready.service
+[0m●[0m   ├─vdtizen-bootseq-preload.timer
+[0;1;32m●[0m   │ └─vdtizen-bootseq-idle.target
+[0;1;32m●[0m   │   └─vdtizen-bootseq-idle.service
+[0;1;32m●[0m   ├─vdtizen-bootseq-rvu-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-SI-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-SM-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-TIMER-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─vdtizen-bootseq-WC-starter.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─virtual-mic-service.path
+[0;1;32m●[0m   │ └─paths.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─virtual-mic-service.service
+[0;1;32m●[0m   ├─was-background-update.path
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─was-background-update.service
+[0;1;32m●[0m   │ └─starter.target
+[0;1;32m●[0m   ├─webauthn.socket
+[0m●[0m   │ ├─webauthn.service
+[0;1;32m●[0m   │ └─sockets.target
+[0;1;32m●[0m   │   └─basic.target
+[0;1;32m●[0m   │     ├─app-starter.target
+[0;1;32m●[0m   │     ├─bootmode.target
+[0;1;32m●[0m   │     ├─multi-user.target
+[0;1;32m●[0m   │     │ └─graphical.target
+[0;1;32m●[0m   │     │   └─app_ready.service
+[0;1;32m●[0m   │     └─starter.target
+[0m●[0m   ├─zbooting-done.service
+[0;1;32m●[0m   │ └─graphical.target
+[0;1;32m●[0m   │   └─app_ready.service
+[0;1;32m●[0m   ├─basic.target
+[0;1;32m●[0m   │ ├─app-starter.target
+[0;1;32m●[0m   │ ├─bootmode.target
+[0;1;32m●[0m   │ ├─multi-user.target
+[0;1;32m●[0m   │ │ └─graphical.target
+[0;1;32m●[0m   │ │   └─app_ready.service
+[0;1;32m●[0m   │ └─starter.target
+[0m●[0m   └─rescue.target

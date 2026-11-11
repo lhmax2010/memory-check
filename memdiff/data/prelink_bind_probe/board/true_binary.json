@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:41.205006+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "if [ -x /bin/true ]; then echo /bin/true; elif [ -x /usr/bin/true ]; then echo /usr/bin/true; else echo NONE; fi"
+  ],
+  "rc": 0,
+  "stdout_file": "true_binary.stdout",
+  "stderr_file": "true_binary.stderr"
+}

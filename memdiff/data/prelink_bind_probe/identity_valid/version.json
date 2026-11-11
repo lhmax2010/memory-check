@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-11-11T08:51:32.245255+00:00",
+  "command": "cat /proc/version",
+  "rc": 0,
+  "stdout": "Linux version 6.12.60 (abuild@A1408LMG) (clang version 22.1.8, LLD 22.1.8) #1 SMP PREEMPT Fri Nov  6 04:17:15 UTC 2026\r\n",
+  "stderr": ""
+}

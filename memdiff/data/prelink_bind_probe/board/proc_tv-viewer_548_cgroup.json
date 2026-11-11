@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:33.364025+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "cat /proc/548/cgroup"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tv-viewer_548_cgroup.stdout",
+  "stderr_file": "proc_tv-viewer_548_cgroup.stderr"
+}

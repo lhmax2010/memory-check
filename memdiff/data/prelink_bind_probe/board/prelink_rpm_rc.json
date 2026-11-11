@@ -1,0 +1,4 @@
+{
+  "command": "sh -c 'rpm -qa | grep -i prelink; printf \"REMOTE_RC=%s\\n\" \"$?\"'",
+  "sdb_rc": 0
+}

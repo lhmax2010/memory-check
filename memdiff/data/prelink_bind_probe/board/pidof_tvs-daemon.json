@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:12.221126+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "pidof tvs-daemon"
+  ],
+  "rc": 0,
+  "stdout_file": "pidof_tvs-daemon.stdout",
+  "stderr_file": "pidof_tvs-daemon.stderr"
+}

@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-11-11T08:51:32.477956+00:00",
+  "command": "cat /proc/sys/kernel/random/boot_id",
+  "rc": 0,
+  "stdout": "0d30d3eb-a65b-44e2-b1d6-ee93e2c39af5\r\n",
+  "stderr": ""
+}

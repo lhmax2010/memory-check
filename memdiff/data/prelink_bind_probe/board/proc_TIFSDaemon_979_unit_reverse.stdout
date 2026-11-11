@@ -1,0 +1,18 @@
+org.tizen.tv.factory-service.service
+[0m●[0m ├─comss.service
+[0;1;32m●[0m │ ├─org.tizen.ssoservice.service
+[0;1;32m●[0m │ │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m │ │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m │ │ └─vdtizen-bootseq-PNP-starter.target
+[0;1;32m●[0m │ ├─org.tizen.webappservice.service
+[0m●[0m │ │ ├─vdtizen-bootseq-d2tv-starter.target
+[0;1;32m●[0m │ │ ├─vdtizen-bootseq-delayed.target
+[0;1;32m●[0m │ │ │ └─vdtizen-bootseq-delayed.service
+[0m●[0m │ │ ├─vdtizen-bootseq-morningbrief-starter.target
+[0m●[0m │ │ ├─vdtizen-bootseq-PNP-preload.target
+[0m●[0m │ │ └─vdtizen-bootseq-WC-starter.target
+[0;1;32m●[0m │ ├─multi-user.target
+[0;1;32m●[0m │ │ └─graphical.target
+[0;1;32m●[0m │ │   └─app_ready.service
+[0m●[0m │ └─vdtizen-bootseq-PNP-after.target
+[0m●[0m └─comss.timer.service

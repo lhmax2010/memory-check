@@ -1,0 +1,10 @@
+9:name=resourced_cgroup:/
+8:blkio:/
+7:net_cls:/
+6:freezer:/
+5:devices:/system.slice/aaa_tvs_deamon.service
+4:cpuacct:/
+3:cpu:/default
+2:cpuset:/
+1:name=systemd:/system.slice/aaa_tvs_deamon.service
+0::/system.slice/aaa_tvs_deamon.service

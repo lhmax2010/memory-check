@@ -1,0 +1,9 @@
+Id=init.scope
+Requires=-.slice
+Wants=
+PartOf=
+After=-.slice
+Triggers=
+TriggeredBy=
+ActiveState=active
+SubState=running

@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:34.195244+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "od -An -tu4 /proc/548/auxv"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tv-viewer_548_auxv.stdout",
+  "stderr_file": "proc_tv-viewer_548_auxv.stderr"
+}

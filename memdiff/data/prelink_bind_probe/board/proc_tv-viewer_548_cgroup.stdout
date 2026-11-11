@@ -1,0 +1,10 @@
+9:name=resourced_cgroup:/Apps
+8:blkio:/
+7:net_cls:/
+6:freezer:/
+5:devices:/
+4:cpuacct:/
+3:cpu:/default
+2:cpuset:/
+1:name=systemd:/init.scope
+0::/init.scope

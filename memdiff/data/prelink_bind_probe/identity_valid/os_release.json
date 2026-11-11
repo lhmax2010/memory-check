@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-11-11T08:51:31.662155+00:00",
+  "command": "cat /etc/os-release",
+  "rc": 0,
+  "stdout": "NAME=Tizen\r\nVERSION=\"10.0.0 (Tizen10/TV)\"\r\nID=tizen\r\nVERSION_ID=10.0.0\r\nPRETTY_NAME=\"Tizen 10.0.0 (Tizen10/TV)\"\r\nANSI_COLOR=\"0;36\"\r\nCPE_NAME=\"cpe:/o:tizen:tizen:10.0.0\"\r\nBUILD_ID=T-KSU2EJAKUC-0101-PERF-202611061751\r\n",
+  "stderr": ""
+}

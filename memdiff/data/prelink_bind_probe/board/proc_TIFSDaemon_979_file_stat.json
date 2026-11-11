@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:39.925333+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "stat -c '%a %A %f %n' /usr/bin/TIFSDaemon"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_TIFSDaemon_979_file_stat.stdout",
+  "stderr_file": "proc_TIFSDaemon_979_file_stat.stderr"
+}

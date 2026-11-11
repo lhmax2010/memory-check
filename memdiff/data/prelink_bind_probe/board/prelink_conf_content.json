@@ -1,0 +1,4 @@
+{
+  "command": "cat /etc/prelink.conf",
+  "sdb_rc": 0
+}

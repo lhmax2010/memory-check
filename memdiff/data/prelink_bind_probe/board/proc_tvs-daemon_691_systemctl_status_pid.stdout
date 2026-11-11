@@ -1,0 +1,7 @@
+[0;1;32m●[0m aaa_tvs_deamon.service - Start the TV service daemon
+     Loaded: loaded (]8;;file://localhost/usr/lib/systemd/system/aaa_tvs_deamon.service/usr/lib/systemd/system/aaa_tvs_deamon.service]8;;; disabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 1969-12-31 16:00:12 PST; 56 years 10 months ago
+    Process: 689 ExecStart=/usr/bin/tvs-daemon.sh (code=exited, status=0/SUCCESS)
+   Main PID: 691 (tvs-daemon)
+     CGroup: /system.slice/aaa_tvs_deamon.service
+             └─691 /usr/bin/tvs-daemon

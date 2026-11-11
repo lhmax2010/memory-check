@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:04.737066+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "df -k /opt/usr"
+  ],
+  "rc": 0,
+  "stdout_file": "df_opt_usr.stdout",
+  "stderr_file": "df_opt_usr.stderr"
+}

@@ -1,0 +1,4 @@
+{
+  "command": "if [ -e /opt/usr/tmp_probe ]; then echo tmp_probe_exists; else echo tmp_probe_absent; fi; id -u; cat /proc/sys/kernel/random/boot_id",
+  "sdb_rc": 0
+}

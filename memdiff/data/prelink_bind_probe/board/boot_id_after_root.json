@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:04.503094+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "cat /proc/sys/kernel/random/boot_id"
+  ],
+  "rc": 0,
+  "stdout_file": "boot_id_after_root.stdout",
+  "stderr_file": "boot_id_after_root.stderr"
+}

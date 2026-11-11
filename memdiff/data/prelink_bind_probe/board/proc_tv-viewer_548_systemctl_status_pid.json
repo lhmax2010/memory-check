@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:34.846146+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "systemctl status 548 --no-pager --full"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tv-viewer_548_systemctl_status_pid.stdout",
+  "stderr_file": "proc_tv-viewer_548_systemctl_status_pid.stderr"
+}

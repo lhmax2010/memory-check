@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:01:48.994320+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "test ! -e /opt/usr/tmp_probe/prelink_bind_source_20261111_090148_1962156 && test ! -e /opt/usr/prelink_bind_target_20261111_090148_1962156 && ! grep -Fq /opt/usr/prelink_bind_target_20261111_090148_1962156 /proc/self/mountinfo"
+  ],
+  "rc": 0,
+  "stdout_file": "bind_cleanup_verify.stdout",
+  "stderr_file": "bind_cleanup_verify.stderr"
+}

@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:04.879739+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "stat -f -c '%T %m %n' / /usr /usr/lib /usr/bin /opt/usr"
+  ],
+  "rc": 0,
+  "stdout_file": "fs_stat.stdout",
+  "stderr_file": "fs_stat.stderr"
+}

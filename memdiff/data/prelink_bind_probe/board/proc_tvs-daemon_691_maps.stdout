@@ -1,0 +1,1073 @@
+0046a000-004b7000 r-xp 00000000 00:14 11892419   /usr/bin/tvs-daemon
+004b7000-004b9000 r--p 0004d000 00:14 11892419   /usr/bin/tvs-daemon
+004b9000-004ba000 rw-p 0004f000 00:14 11892419   /usr/bin/tvs-daemon
+00693000-00730000 rw-p 00000000 00:00 0          [heap]
+a7300000-a732c000 rw-p 00000000 00:00 0 
+a732c000-a7400000 ---p 00000000 00:00 0 
+a7446000-a7448000 r-xp 00000000 00:14 17336490   /usr/lib/libpvr-control.so
+a7448000-a7449000 r--p 00002000 00:14 17336490   /usr/lib/libpvr-control.so
+a7449000-a744a000 rw-p 00003000 00:14 17336490   /usr/lib/libpvr-control.so
+a744a000-a744d000 r-xp 00000000 00:14 17306877   /usr/lib/libdemux-control.so.0.1
+a744d000-a744e000 r--p 00003000 00:14 17306877   /usr/lib/libdemux-control.so.0.1
+a744e000-a744f000 rw-p 00004000 00:14 17306877   /usr/lib/libdemux-control.so.0.1
+a7474000-a74a0000 r-xp 00000000 00:14 17307652   /usr/lib/libgst-ext-lib.so.0.1.0
+a74a0000-a74a1000 r--p 0002c000 00:14 17307652   /usr/lib/libgst-ext-lib.so.0.1.0
+a74a1000-a74a2000 rw-p 0002d000 00:14 17307652   /usr/lib/libgst-ext-lib.so.0.1.0
+a74a2000-a74a3000 ---p 00000000 00:00 0 
+a74a3000-a76a3000 rw-p 00000000 00:00 0          [tstack: ScreenSaverUtil: 1711]
+a76a3000-a76a4000 ---p 00000000 00:00 0 
+a76a4000-a78a4000 rw-p 00000000 00:00 0          [tstack: atv_caption: 3318]
+a78a4000-a78a5000 ---p 00000000 00:00 0 
+a78a5000-a7aa5000 rw-p 00000000 00:00 0          [tstack: analog_mts: 3319]
+a7aa5000-a7aa6000 ---p 00000000 00:00 0 
+a7aa6000-a7ca6000 rw-p 00000000 00:00 0 
+a7ca6000-a7caa000 r-xp 00000000 00:1a 1155199    /prd/usr/lib/libanalog-input-control-impl-sec.so.0.1
+a7caa000-a7cab000 r--p 00004000 00:1a 1155199    /prd/usr/lib/libanalog-input-control-impl-sec.so.0.1
+a7cab000-a7cac000 rw-p 00005000 00:1a 1155199    /prd/usr/lib/libanalog-input-control-impl-sec.so.0.1
+a7cac000-a7cad000 ---p 00000000 00:00 0 
+a7cad000-a7ead000 rw-p 00000000 00:00 0          [tstack: GsttvWlDisplay: 3314]
+a7ead000-a7eb5000 r-xp 00000000 00:1a 1160402    /prd/usr/lib/libvideo-mm-control-impl-sec.so.0.1.0
+a7eb5000-a7eb6000 r--p 00008000 00:1a 1160402    /prd/usr/lib/libvideo-mm-control-impl-sec.so.0.1.0
+a7eb6000-a7eb7000 rw-p 00009000 00:1a 1160402    /prd/usr/lib/libvideo-mm-control-impl-sec.so.0.1.0
+a7eb7000-a7eb8000 ---p 00000000 00:00 0 
+a7eb8000-a80b8000 rw-p 00000000 00:00 0          [tstack: PipelineTV: 1669]
+a80b8000-a80b9000 ---p 00000000 00:00 0 
+a80b9000-a82b9000 rw-p 00000000 00:00 0          [tstack: atv_thread: 3317]
+a82b9000-a92b9000 r--s 00000000 00:01 2157       /kdbus-conn:gdbus-kdbus (deleted)
+a92b9000-a92be000 r-xp 00000000 00:14 17309077   /usr/lib/libtuner-control.so.0.1
+a92be000-a92bf000 r--p 00005000 00:14 17309077   /usr/lib/libtuner-control.so.0.1
+a92bf000-a92c0000 rw-p 00006000 00:14 17309077   /usr/lib/libtuner-control.so.0.1
+a92c0000-a92c3000 r-xp 00000000 00:14 17305213   /usr/lib/libbroadcast-diagnosis.so.0.1
+a92c3000-a92c4000 r--p 00003000 00:14 17305213   /usr/lib/libbroadcast-diagnosis.so.0.1
+a92c4000-a92c5000 rw-p 00004000 00:14 17305213   /usr/lib/libbroadcast-diagnosis.so.0.1
+a92c5000-a92cc000 r-xp 00000000 00:1a 1158088    /prd/usr/lib/libtuner-control-impl-sec.so.0.1
+a92cc000-a92cd000 r--p 00007000 00:1a 1158088    /prd/usr/lib/libtuner-control-impl-sec.so.0.1
+a92cd000-a92ce000 rw-p 00008000 00:1a 1158088    /prd/usr/lib/libtuner-control-impl-sec.so.0.1
+a92ce000-a92d3000 r-xp 00000000 00:1a 1158612    /prd/usr/lib/bufmgr/libbuffer-control-kantsu.so.2.0.1
+a92d3000-a92d4000 r--p 00005000 00:1a 1158612    /prd/usr/lib/bufmgr/libbuffer-control-kantsu.so.2.0.1
+a92d4000-a92d5000 rw-p 00006000 00:1a 1158612    /prd/usr/lib/bufmgr/libbuffer-control-kantsu.so.2.0.1
+a92d5000-a92de000 r-xp 00000000 00:14 2750519    /hal/lib/bufmgr/libhal-backend-tbm-entry.so.2.1.0
+a92de000-a92df000 r--p 00009000 00:14 2750519    /hal/lib/bufmgr/libhal-backend-tbm-entry.so.2.1.0
+a92df000-a92e0000 rw-p 0000a000 00:14 2750519    /hal/lib/bufmgr/libhal-backend-tbm-entry.so.2.1.0
+a92e0000-a92e8000 r-xp 00000000 00:14 20452834   /usr/lib/gstreamer-1.0/libgsttvaudiosink.so
+a92e8000-a92e9000 r--p 00008000 00:14 20452834   /usr/lib/gstreamer-1.0/libgsttvaudiosink.so
+a92e9000-a92ea000 rw-p 00009000 00:14 20452834   /usr/lib/gstreamer-1.0/libgsttvaudiosink.so
+a92ea000-a9307000 r-xp 00000000 00:14 20452759   /usr/lib/gstreamer-1.0/libgstsstuner.so
+a9307000-a9308000 r--p 0001d000 00:14 20452759   /usr/lib/gstreamer-1.0/libgstsstuner.so
+a9308000-a9309000 rw-p 0001e000 00:14 20452759   /usr/lib/gstreamer-1.0/libgstsstuner.so
+a9309000-a930a000 rw-p 00000000 00:00 0 
+a930a000-a932b000 r-xp 00000000 00:14 17330849   /usr/lib/libvideoenhance.so.0.1
+a932b000-a932c000 r--p 00021000 00:14 17330849   /usr/lib/libvideoenhance.so.0.1
+a932c000-a932d000 rw-p 00022000 00:14 17330849   /usr/lib/libvideoenhance.so.0.1
+a932f000-a9332000 r-xp 00000000 00:14 17303603   /usr/lib/libanalog-input-control.so.0.1
+a9332000-a9333000 r--p 00003000 00:14 17303603   /usr/lib/libanalog-input-control.so.0.1
+a9333000-a9334000 rw-p 00004000 00:14 17303603   /usr/lib/libanalog-input-control.so.0.1
+a9334000-a934b000 r-xp 00000000 00:1a 1160079    /prd/usr/lib/libfactory-data-config.so.00.00.0057
+a934b000-a934c000 r--p 00017000 00:1a 1160079    /prd/usr/lib/libfactory-data-config.so.00.00.0057
+a934c000-a934d000 rw-p 00018000 00:1a 1160079    /prd/usr/lib/libfactory-data-config.so.00.00.0057
+a934d000-a9350000 r-xp 00000000 00:1a 1157627    /prd/usr/lib/libfactory-api-impl-sec.so
+a9350000-a9351000 r--p 00003000 00:1a 1157627    /prd/usr/lib/libfactory-api-impl-sec.so
+a9351000-a9352000 rw-p 00004000 00:1a 1157627    /prd/usr/lib/libfactory-api-impl-sec.so
+a9352000-a9355000 r-xp 00000000 00:14 17340026   /usr/lib/libvideo-mm-control.so.0.1.0
+a9355000-a9356000 r--p 00003000 00:14 17340026   /usr/lib/libvideo-mm-control.so.0.1.0
+a9356000-a9357000 rw-p 00004000 00:14 17340026   /usr/lib/libvideo-mm-control.so.0.1.0
+a9357000-a94c9000 r-xp 00000000 00:14 17315070   /usr/lib/libopencv_core.so.4.7.0
+a94c9000-a94ce000 r--p 00172000 00:14 17315070   /usr/lib/libopencv_core.so.4.7.0
+a94ce000-a94d0000 rw-p 00177000 00:14 17315070   /usr/lib/libopencv_core.so.4.7.0
+a94d0000-a94d2000 rw-p 00000000 00:00 0 
+a94d2000-a94e5000 r-xp 00000000 00:14 17330831   /usr/lib/libvideo-sink.so.0.1.0
+a94e5000-a94e6000 r--p 00013000 00:14 17330831   /usr/lib/libvideo-sink.so.0.1.0
+a94e6000-a94e7000 rw-p 00014000 00:14 17330831   /usr/lib/libvideo-sink.so.0.1.0
+a94e7000-a94ed000 r-xp 00000000 00:14 17339979   /usr/lib/libvideo-capture.so.0.1.0
+a94ed000-a94ee000 r--p 00006000 00:14 17339979   /usr/lib/libvideo-capture.so.0.1.0
+a94ee000-a94ef000 rw-p 00007000 00:14 17339979   /usr/lib/libvideo-capture.so.0.1.0
+a94f1000-a94f4000 r-xp 00000000 00:14 17314232   /usr/lib/libecs-sec-tv.so.0.1
+a94f4000-a94f5000 r--p 00003000 00:14 17314232   /usr/lib/libecs-sec-tv.so.0.1
+a94f5000-a94f6000 rw-p 00004000 00:14 17314232   /usr/lib/libecs-sec-tv.so.0.1
+a94f6000-a94f9000 r-xp 00000000 00:1a 1157543    /prd/usr/lib/libdrm-util.so.0.1.0
+a94f9000-a94fa000 r--p 00003000 00:1a 1157543    /prd/usr/lib/libdrm-util.so.0.1.0
+a94fa000-a94fb000 rw-p 00004000 00:1a 1157543    /prd/usr/lib/libdrm-util.so.0.1.0
+a94fb000-a9512000 r-xp 00000000 00:1a 1160361    /prd/usr/lib/libvideo-dp-control-impl-sec.so.0.1.0
+a9512000-a9513000 r--p 00017000 00:1a 1160361    /prd/usr/lib/libvideo-dp-control-impl-sec.so.0.1.0
+a9513000-a9514000 rw-p 00018000 00:1a 1160361    /prd/usr/lib/libvideo-dp-control-impl-sec.so.0.1.0
+a9514000-a9532000 r-xp 00000000 00:14 20452498   /usr/lib/gstreamer-1.0/libgsttvvideosink.so
+a9532000-a9533000 r--p 0001e000 00:14 20452498   /usr/lib/gstreamer-1.0/libgsttvvideosink.so
+a9533000-a9534000 rw-p 0001f000 00:14 20452498   /usr/lib/gstreamer-1.0/libgsttvvideosink.so
+a9534000-a9535000 ---p 00000000 00:00 0 
+a9535000-a9735000 rw-p 00000000 00:00 0          [tstack: rm_client: 1656]
+a9735000-a9736000 ---p 00000000 00:00 0 
+a9736000-a9936000 rw-p 00000000 00:00 0          [tstack: sstuner1-src: 3316]
+a9936000-a993c000 r-xp 00000000 00:14 17314191   /usr/lib/libecore_ipc.so.1.25.1
+a993c000-a993d000 r--p 00006000 00:14 17314191   /usr/lib/libecore_ipc.so.1.25.1
+a993d000-a993e000 rw-p 00007000 00:14 17314191   /usr/lib/libecore_ipc.so.1.25.1
+a993e000-a995c000 r-xp 00000000 00:14 17330431   /usr/lib/libudev.so.1.6.16
+a995c000-a995d000 r--p 0001e000 00:14 17330431   /usr/lib/libudev.so.1.6.16
+a995d000-a995e000 rw-p 0001f000 00:14 17330431   /usr/lib/libudev.so.1.6.16
+a995e000-a996f000 r-xp 00000000 00:14 20452899   /usr/lib/hal/libhal-api-common.so.0.1.0
+a996f000-a9970000 r--p 00011000 00:14 20452899   /usr/lib/hal/libhal-api-common.so.0.1.0
+a9970000-a9972000 rw-p 00012000 00:14 20452899   /usr/lib/hal/libhal-api-common.so.0.1.0
+a9972000-a9974000 rw-p 00000000 00:00 0 
+a9974000-a99cc000 r-xp 00000000 00:14 17316658   /usr/lib/libecore_con.so.1.25.1
+a99cc000-a99ce000 r--p 00058000 00:14 17316658   /usr/lib/libecore_con.so.1.25.1
+a99ce000-a99d0000 rw-p 0005a000 00:14 17316658   /usr/lib/libecore_con.so.1.25.1
+a99d0000-a9a35000 r-xp 00000000 00:14 17325224   /usr/lib/libjpeg.so.8.3.2
+a9a35000-a9a36000 r--p 00065000 00:14 17325224   /usr/lib/libjpeg.so.8.3.2
+a9a36000-a9a37000 rw-p 00066000 00:14 17325224   /usr/lib/libjpeg.so.8.3.2
+a9a37000-a9a55000 r-xp 00000000 00:14 17314570   /usr/lib/libemile.so.1.25.1
+a9a55000-a9a56000 r--p 0001e000 00:14 17314570   /usr/lib/libemile.so.1.25.1
+a9a56000-a9a57000 rw-p 0001f000 00:14 17314570   /usr/lib/libemile.so.1.25.1
+a9a57000-a9a5f000 rw-p 00000000 00:00 0 
+a9a5f000-a9a77000 r-xp 00000000 00:14 17307069   /usr/lib/libefreet.so.1.25.1
+a9a77000-a9a78000 r--p 00018000 00:14 17307069   /usr/lib/libefreet.so.1.25.1
+a9a78000-a9a79000 rw-p 00019000 00:14 17307069   /usr/lib/libefreet.so.1.25.1
+a9a79000-a9a7a000 rw-p 00000000 00:00 0 
+a9a7a000-a9aea000 r-xp 00000000 00:14 17326372   /usr/lib/libpixman-1.so.0.38.4
+a9aea000-a9af0000 r--p 00070000 00:14 17326372   /usr/lib/libpixman-1.so.0.38.4
+a9af0000-a9af1000 rw-p 00076000 00:14 17326372   /usr/lib/libpixman-1.so.0.38.4
+a9af1000-a9af2000 ---p 00000000 00:00 0 
+a9af2000-a9cf2000 rw-p 00000000 00:00 0          [tstack: HyperFastAPIThr: 958]
+a9cf2000-a9cf3000 ---p 00000000 00:00 0 
+a9cf3000-a9ef3000 rw-p 00000000 00:00 0          [tstack: PipelineAPIThre: 957]
+a9ef3000-a9ef4000 ---p 00000000 00:00 0 
+a9ef4000-aa0f4000 rw-p 00000000 00:00 0          [tstack: ServiceDbAPIThr: 956]
+aa0f4000-aa0f5000 ---p 00000000 00:00 0 
+aa0f5000-aa2f5000 rw-p 00000000 00:00 0          [tstack: TVServiceAPIAPI: 955]
+aa2f5000-aa2f6000 ---p 00000000 00:00 0 
+aa2f6000-aa4f6000 rw-p 00000000 00:00 0          [tstack: TCClearScramble: 952]
+aa4f6000-aa4f7000 ---p 00000000 00:00 0 
+aa4f7000-aa6f7000 rw-p 00000000 00:00 0          [tstack: PipelineTV: 951]
+aa6f7000-aa6f8000 ---p 00000000 00:00 0 
+aa6f8000-aa8f8000 rw-p 00000000 00:00 0 
+aa8f8000-aa8f9000 ---p 00000000 00:00 0 
+aa8f9000-aaaf9000 rw-p 00000000 00:00 0          [tstack: TCVBIUserDataCE: 949]
+aaaf9000-aaafa000 ---p 00000000 00:00 0 
+aaafa000-aacfa000 rw-p 00000000 00:00 0          [tstack: TCATSC3UserData: 948]
+aacfa000-aacfb000 ---p 00000000 00:00 0 
+aacfb000-aaefb000 rw-p 00000000 00:00 0          [tstack: TCGuideManager: 944]
+aaefb000-aaefc000 ---p 00000000 00:00 0 
+aaefc000-ab0fc000 rw-p 00000000 00:00 0          [tstack: TVSWNR: 943]
+ab0fc000-ab0fd000 ---p 00000000 00:00 0 
+ab0fd000-ab2fd000 rw-p 00000000 00:00 0 
+ab2fd000-ab2fe000 ---p 00000000 00:00 0 
+ab2fe000-ab9ff000 rw-p 00000000 00:00 0          [tstack: TCTVSKpiManager: 954]
+ab9ff000-aba00000 ---p 00000000 00:00 0 
+aba00000-abc56000 rw-p 00000000 00:00 0          [tstack: TCAlarm:tvs-dae: 940]
+abc56000-abd00000 ---p 00000000 00:00 0 
+abd00000-abd04000 r-xp 00000000 00:14 17319546   /usr/lib/libtzcapturec.so
+abd04000-abd05000 r--p 00004000 00:14 17319546   /usr/lib/libtzcapturec.so
+abd05000-abd06000 rw-p 00005000 00:14 17319546   /usr/lib/libtzcapturec.so
+abd06000-abd11000 r-xp 00000000 00:14 17307017   /usr/lib/libeeze.so.1.25.1
+abd11000-abd12000 r--p 0000b000 00:14 17307017   /usr/lib/libeeze.so.1.25.1
+abd12000-abd13000 rw-p 0000c000 00:14 17307017   /usr/lib/libeeze.so.1.25.1
+abd13000-abd4e000 r-xp 00000000 00:14 17307043   /usr/lib/libefl.so.1.25.1
+abd4e000-abd51000 r--p 0003b000 00:14 17307043   /usr/lib/libefl.so.1.25.1
+abd51000-abd52000 rw-p 0003e000 00:14 17307043   /usr/lib/libefl.so.1.25.1
+abd52000-abd54000 rw-p 00000000 00:00 0 
+abd54000-abd5f000 r-xp 00000000 00:14 17313583   /usr/lib/libdrm.so.2.124.0
+abd5f000-abd60000 r--p 0000b000 00:14 17313583   /usr/lib/libdrm.so.2.124.0
+abd60000-abd61000 rw-p 0000c000 00:14 17313583   /usr/lib/libdrm.so.2.124.0
+abd61000-abd66000 r-xp 00000000 00:14 20452975   /usr/lib/hal/libhal-api-tbm.so.1.1
+abd66000-abd67000 r--p 00005000 00:14 20452975   /usr/lib/hal/libhal-api-tbm.so.1.1
+abd67000-abd68000 rw-p 00006000 00:14 20452975   /usr/lib/hal/libhal-api-tbm.so.1.1
+abd68000-abd69000 r-xp 00000000 00:14 17314031   /usr/lib/libcursor-shape-v1-client.so.0.0.0
+abd69000-abd6a000 r--p 00001000 00:14 17314031   /usr/lib/libcursor-shape-v1-client.so.0.0.0
+abd6a000-abd6b000 rw-p 00002000 00:14 17314031   /usr/lib/libcursor-shape-v1-client.so.0.0.0
+abd6b000-abd6c000 r-xp 00000000 00:14 17308254   /usr/lib/libpointer-warp-v1-client.so.0.0.0
+abd6c000-abd6d000 r--p 00001000 00:14 17308254   /usr/lib/libpointer-warp-v1-client.so.0.0.0
+abd6d000-abd6e000 rw-p 00002000 00:14 17308254   /usr/lib/libpointer-warp-v1-client.so.0.0.0
+abd6e000-abd6f000 r-xp 00000000 00:14 17328159   /usr/lib/libwtz-blur-client.so.0.0.0
+abd6f000-abd70000 r--p 00001000 00:14 17328159   /usr/lib/libwtz-blur-client.so.0.0.0
+abd70000-abd71000 rw-p 00002000 00:14 17328159   /usr/lib/libwtz-blur-client.so.0.0.0
+abd71000-abd72000 r-xp 00000000 00:14 17333629   /usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0
+abd72000-abd73000 r--p 00001000 00:14 17333629   /usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0
+abd73000-abd74000 rw-p 00002000 00:14 17333629   /usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0
+abd74000-abd75000 r-xp 00000000 00:14 17336989   /usr/lib/librelative-pointer-unstable-v1-client.so.0.0.0
+abd75000-abd76000 r--p 00001000 00:14 17336989   /usr/lib/librelative-pointer-unstable-v1-client.so.0.0.0
+abd76000-abd77000 rw-p 00002000 00:14 17336989   /usr/lib/librelative-pointer-unstable-v1-client.so.0.0.0
+abd77000-abd78000 r-xp 00000000 00:14 17320454   /usr/lib/libwtz-video-shell-client.so.0.0.0
+abd78000-abd79000 r--p 00001000 00:14 17320454   /usr/lib/libwtz-video-shell-client.so.0.0.0
+abd79000-abd7a000 rw-p 00002000 00:14 17320454   /usr/lib/libwtz-video-shell-client.so.0.0.0
+abd7a000-abd7b000 r-xp 00000000 00:14 17328210   /usr/lib/libwtz-screen-client.so.0.0.0
+abd7b000-abd7c000 r--p 00001000 00:14 17328210   /usr/lib/libwtz-screen-client.so.0.0.0
+abd7c000-abd7d000 rw-p 00002000 00:14 17328210   /usr/lib/libwtz-screen-client.so.0.0.0
+abd7d000-abd7e000 r-xp 00000000 00:14 17328227   /usr/lib/libwtz-shell-client.so.0.0.0
+abd7e000-abd7f000 r--p 00001000 00:14 17328227   /usr/lib/libwtz-shell-client.so.0.0.0
+abd7f000-abd80000 rw-p 00002000 00:14 17328227   /usr/lib/libwtz-shell-client.so.0.0.0
+abd80000-abd81000 r-xp 00000000 00:14 17335302   /usr/lib/libtizen-policy-ext-client.so.0.0.0
+abd81000-abd82000 r--p 00001000 00:14 17335302   /usr/lib/libtizen-policy-ext-client.so.0.0.0
+abd82000-abd83000 rw-p 00002000 00:14 17335302   /usr/lib/libtizen-policy-ext-client.so.0.0.0
+abd83000-abd85000 r-xp 00000000 00:14 17320129   /usr/lib/libwayland-egl-tizen.so.1.0.1
+abd85000-abd86000 r--p 00002000 00:14 17320129   /usr/lib/libwayland-egl-tizen.so.1.0.1
+abd86000-abd87000 rw-p 00003000 00:14 17320129   /usr/lib/libwayland-egl-tizen.so.1.0.1
+abd87000-abd9e000 r-xp 00000000 00:14 17307006   /usr/lib/libeet.so.1.25.1
+abd9e000-abd9f000 r--p 00017000 00:14 17307006   /usr/lib/libeet.so.1.25.1
+abd9f000-abda0000 rw-p 00018000 00:14 17307006   /usr/lib/libeet.so.1.25.1
+abda0000-abda8000 rw-p 00000000 00:00 0 
+abda8000-abdfc000 r-xp 00000000 00:14 17307099   /usr/lib/libeina.so.1.25.1
+abdfc000-abdfd000 r--p 00054000 00:14 17307099   /usr/lib/libeina.so.1.25.1
+abdfd000-abdfe000 rw-p 00055000 00:14 17307099   /usr/lib/libeina.so.1.25.1
+abdfe000-abdff000 rw-p 00000000 00:00 0 
+abdff000-abe00000 ---p 00000000 00:00 0 
+abe00000-ac000000 rw-p 00000000 00:00 0          [tstack: MainDBusThread: 930]
+ac000000-ad000000 r--s 00000000 00:01 2077       /kdbus-conn:gdbus-kdbus (deleted)
+ad000000-ad02c000 rw-p 00000000 00:00 0 
+ad02c000-ad100000 ---p 00000000 00:00 0 
+ad101000-ad10d000 r-xp 00000000 00:14 17320143   /usr/lib/libwayland-server.so.0.23.1
+ad10d000-ad10e000 r--p 0000c000 00:14 17320143   /usr/lib/libwayland-server.so.0.23.1
+ad10e000-ad10f000 rw-p 0000d000 00:14 17320143   /usr/lib/libwayland-server.so.0.23.1
+ad10f000-ad114000 r-xp 00000000 00:14 17316709   /usr/lib/libecore_file.so.1.25.1
+ad114000-ad115000 r--p 00005000 00:14 17316709   /usr/lib/libecore_file.so.1.25.1
+ad115000-ad116000 rw-p 00006000 00:14 17316709   /usr/lib/libecore_file.so.1.25.1
+ad116000-ad128000 r-xp 00000000 00:14 17314303   /usr/lib/libeio.so.1.25.1
+ad128000-ad129000 r--p 00012000 00:14 17314303   /usr/lib/libeio.so.1.25.1
+ad129000-ad12a000 rw-p 00013000 00:14 17314303   /usr/lib/libeio.so.1.25.1
+ad12a000-ad13c000 r-xp 00000000 00:14 17314174   /usr/lib/libecore_input.so.1.25.1
+ad13c000-ad13d000 r--p 00012000 00:14 17314174   /usr/lib/libecore_input.so.1.25.1
+ad13d000-ad13e000 rw-p 00013000 00:14 17314174   /usr/lib/libecore_input.so.1.25.1
+ad13e000-ad152000 r-xp 00000000 00:14 17314639   /usr/lib/libeo.so.1.25.1
+ad152000-ad153000 r--p 00014000 00:14 17314639   /usr/lib/libeo.so.1.25.1
+ad153000-ad154000 rw-p 00015000 00:14 17314639   /usr/lib/libeo.so.1.25.1
+ad154000-ad19f000 r-xp 00000000 00:14 17316614   /usr/lib/libecore.so.1.25.1
+ad19f000-ad1a1000 r--p 0004b000 00:14 17316614   /usr/lib/libecore.so.1.25.1
+ad1a1000-ad1a2000 rw-p 0004d000 00:14 17316614   /usr/lib/libecore.so.1.25.1
+ad1a2000-ad1a4000 rw-p 00000000 00:00 0 
+ad1a4000-ad1c9000 r-xp 00000000 00:14 17308802   /usr/lib/libtbm.so.1.0.0
+ad1c9000-ad1ca000 r--p 00025000 00:14 17308802   /usr/lib/libtbm.so.1.0.0
+ad1ca000-ad1cb000 rw-p 00026000 00:14 17308802   /usr/lib/libtbm.so.1.0.0
+ad1cb000-ad1fb000 r-xp 00000000 00:14 17314205   /usr/lib/libecore_wl2.so.1.25.1
+ad1fb000-ad1fc000 r--p 00030000 00:14 17314205   /usr/lib/libecore_wl2.so.1.25.1
+ad1fc000-ad1fd000 rw-p 00031000 00:14 17314205   /usr/lib/libecore_wl2.so.1.25.1
+ad1fd000-ad1fe000 ---p 00000000 00:00 0 
+ad1fe000-ad3fe000 rw-p 00000000 00:00 0          [tstack: ScopeTraceTVP: 927]
+ad3fe000-ad3ff000 ---p 00000000 00:00 0 
+ad3ff000-ad5ff000 rw-p 00000000 00:00 0          [tstack: TCMPEGUserDataH: 947]
+ad5ff000-ad600000 ---p 00000000 00:00 0 
+ad600000-ad830000 rw-p 00000000 00:00 0          [tstack: IssDbFlusher: 924]
+ad830000-ad900000 ---p 00000000 00:00 0 
+ad900000-ad921000 rw-p 00000000 00:00 0 
+ad921000-ada00000 ---p 00000000 00:00 0 
+ada00000-ada4d000 rw-p 00000000 00:00 0 
+ada4d000-adb00000 ---p 00000000 00:00 0 
+adb02000-adb03000 r-xp 00000000 00:14 17320136   /usr/lib/libwayland-egl.so.1.23.1
+adb03000-adb04000 r--p 00001000 00:14 17320136   /usr/lib/libwayland-egl.so.1.23.1
+adb04000-adb05000 rw-p 00002000 00:14 17320136   /usr/lib/libwayland-egl.so.1.23.1
+adb05000-adb25000 r-xp 00000000 00:14 17333610   /usr/lib/libpng16.so.16.44.0
+adb25000-adb26000 r--p 00020000 00:14 17333610   /usr/lib/libpng16.so.16.44.0
+adb26000-adb27000 rw-p 00021000 00:14 17333610   /usr/lib/libpng16.so.16.44.0
+adb27000-adbb7000 r-xp 00000000 00:14 17304309   /usr/lib/libasound.so.2.0.0
+adbb7000-adbba000 r--p 00090000 00:14 17304309   /usr/lib/libasound.so.2.0.0
+adbba000-adbbb000 rw-p 00093000 00:14 17304309   /usr/lib/libasound.so.2.0.0
+adbbb000-add00000 r--s 00000000 00:21 6          /dev/shm/shm_vconf_str_storage
+add00000-addc1000 rw-p 00000000 00:00 0 
+addc1000-ade00000 ---p 00000000 00:00 0 
+ade00000-ade39000 r-xp 00000000 00:14 17320554   /usr/lib/libxkbcommon.so.0.8.0
+ade39000-ade3a000 r--p 00039000 00:14 17320554   /usr/lib/libxkbcommon.so.0.8.0
+ade3a000-ade3b000 rw-p 0003a000 00:14 17320554   /usr/lib/libxkbcommon.so.0.8.0
+ade3b000-ade3d000 r-xp 00000000 00:14 2750508    /hal/lib/bufmgr/libbuffer-control.so
+ade3d000-ade3e000 r--p 00002000 00:14 2750508    /hal/lib/bufmgr/libbuffer-control.so
+ade3e000-ade3f000 rw-p 00003000 00:14 2750508    /hal/lib/bufmgr/libbuffer-control.so
+ade3f000-ade47000 r-xp 00000000 00:14 17340001   /usr/lib/libvideo-dp-control.so.0.1.0
+ade47000-ade48000 r--p 00008000 00:14 17340001   /usr/lib/libvideo-dp-control.so.0.1.0
+ade48000-ade49000 rw-p 00009000 00:14 17340001   /usr/lib/libvideo-dp-control.so.0.1.0
+ade49000-ade4a000 r-xp 00000000 00:14 17320530   /usr/lib/libxdg-shell-unstable-v6-client.so.0.0.0
+ade4a000-ade4b000 r--p 00001000 00:14 17320530   /usr/lib/libxdg-shell-unstable-v6-client.so.0.0.0
+ade4b000-ade4c000 rw-p 00002000 00:14 17320530   /usr/lib/libxdg-shell-unstable-v6-client.so.0.0.0
+ade4c000-ade4d000 r-xp 00000000 00:14 17337307   /usr/lib/libscaler-client.so.0.0.0
+ade4d000-ade4e000 r--p 00001000 00:14 17337307   /usr/lib/libscaler-client.so.0.0.0
+ade4e000-ade4f000 rw-p 00002000 00:14 17337307   /usr/lib/libscaler-client.so.0.0.0
+ade4f000-ade50000 r-xp 00000000 00:14 17338083   /usr/lib/libtizen-hwc-client.so.0.0.0
+ade50000-ade51000 r--p 00001000 00:14 17338083   /usr/lib/libtizen-hwc-client.so.0.0.0
+ade51000-ade52000 rw-p 00002000 00:14 17338083   /usr/lib/libtizen-hwc-client.so.0.0.0
+ade52000-ade56000 r-xp 00000000 00:14 17307677   /usr/lib/libgst-plugins-tvbase-1.0.so.0.0.0
+ade56000-ade57000 r--p 00004000 00:14 17307677   /usr/lib/libgst-plugins-tvbase-1.0.so.0.0.0
+ade57000-ade58000 rw-p 00005000 00:14 17307677   /usr/lib/libgst-plugins-tvbase-1.0.so.0.0.0
+ade58000-ade60000 r--s 00000000 00:21 30         /dev/shm/shm_rm
+ade60000-adefd000 r--s 00000000 00:21 5          /dev/shm/shm_vconf_key_str_storage
+adefd000-aeefd000 r--s 00000000 00:01 3082       /kdbus-conn:gdbus-kdbus (deleted)
+aeefd000-aeefe000 ---p 00000000 00:00 0 
+aeefe000-af0fe000 rw-p 00000000 00:00 0          [tstack: gkdbus: 921]
+af0fe000-af0ff000 ---p 00000000 00:00 0 
+af0ff000-af2ff000 rw-p 00000000 00:00 0          [tstack: gmain: 920]
+af2ff000-af300000 ---p 00000000 00:00 0 
+af300000-af600000 rw-p 00000000 00:00 0          [tstack: pool-spawner: 919]
+af601000-af60a000 r-xp 00000000 00:14 17320150   /usr/lib/libwayland-tbm-client.so.0.0.0
+af60a000-af60b000 r--p 00009000 00:14 17320150   /usr/lib/libwayland-tbm-client.so.0.0.0
+af60b000-af60c000 rw-p 0000a000 00:14 17320150   /usr/lib/libwayland-tbm-client.so.0.0.0
+af60c000-af60f000 r-xp 00000000 00:14 17320118   /usr/lib/libwayland-cursor.so.0.23.1
+af60f000-af610000 r--p 00003000 00:14 17320118   /usr/lib/libwayland-cursor.so.0.23.1
+af610000-af613000 rw-p 00004000 00:14 17320118   /usr/lib/libwayland-cursor.so.0.23.1
+af613000-af614000 r-xp 00000000 00:14 17338100   /usr/lib/libtizen-launch-client.so.0.0.0
+af614000-af615000 r--p 00001000 00:14 17338100   /usr/lib/libtizen-launch-client.so.0.0.0
+af615000-af616000 rw-p 00002000 00:14 17338100   /usr/lib/libtizen-launch-client.so.0.0.0
+af616000-af630000 r-xp 00000000 00:14 17339953   /usr/lib/libvd-win-util.so.0.0.509
+af630000-af631000 r--p 0001a000 00:14 17339953   /usr/lib/libvd-win-util.so.0.0.509
+af631000-af632000 rw-p 0001b000 00:14 17339953   /usr/lib/libvd-win-util.so.0.0.509
+af632000-af640000 rw-p 00000000 00:00 0 
+af640000-af649000 r-xp 00000000 00:1a 1160225    /prd/usr/lib/libsec-audio.so.0.1
+af649000-af64a000 r--p 00009000 00:1a 1160225    /prd/usr/lib/libsec-audio.so.0.1
+af64a000-af64b000 rw-p 0000a000 00:1a 1160225    /prd/usr/lib/libsec-audio.so.0.1
+af64b000-af64c000 rw-p 00000000 00:00 0 
+af64c000-af664000 r-xp 00000000 00:1a 1157865    /prd/usr/lib/libmicom.so.0.1
+af664000-af665000 r--p 00018000 00:1a 1157865    /prd/usr/lib/libmicom.so.0.1
+af665000-af666000 rw-p 00019000 00:1a 1157865    /prd/usr/lib/libmicom.so.0.1
+af666000-af66a000 r-xp 00000000 00:14 20280328   /usr/lib/gconv/UTF-16.so
+af66a000-af66b000 r--p 00004000 00:14 20280328   /usr/lib/gconv/UTF-16.so
+af66b000-af66c000 rw-p 00005000 00:14 20280328   /usr/lib/gconv/UTF-16.so
+af66c000-af685000 r-xp 00000000 00:1a 1155746    /prd/usr/lib/libaudio-control-impl-sec.so.0.1
+af685000-af686000 r--p 00019000 00:1a 1155746    /prd/usr/lib/libaudio-control-impl-sec.so.0.1
+af686000-af687000 rw-p 0001a000 00:1a 1155746    /prd/usr/lib/libaudio-control-impl-sec.so.0.1
+af687000-af68b000 r--s 00000000 00:17 569        /factory_peq/factory-data/FactoryIndexFile_Part2.dat
+af68b000-af6da000 r--s 00000000 00:21 4          /dev/shm/shm_vconf_key_list
+af6da000-af6f8000 r--p 00000000 00:14 24305626   /usr/share/dbus-1/system.conf.serialized
+af6f8000-af6f9000 ---p 00000000 00:00 0 
+af6f9000-af8f9000 rw-p 00000000 00:00 0          [tstack: tvs-daemon: 941]
+af8f9000-af8fa000 ---p 00000000 00:00 0 
+af8fa000-afafa000 rw-p 00000000 00:00 0          [tstack: TCScanManager: 938]
+afafa000-afafb000 ---p 00000000 00:00 0 
+afafb000-afcfb000 rw-p 00000000 00:00 0          [tstack: TCSystemTimeMan: 939]
+afcfb000-afcfc000 ---p 00000000 00:00 0 
+afcfc000-afefc000 rw-p 00000000 00:00 0          [tstack: EMSHelper: 922]
+afefc000-afefd000 ---p 00000000 00:00 0 
+afefd000-b00fd000 rw-p 00000000 00:00 0          [tstack: TimersScheduler: 904]
+b00fd000-b00fe000 ---p 00000000 00:00 0 
+b00fe000-b02fe000 rw-p 00000000 00:00 0          [tstack: TvsTraceManager: 903]
+b02fe000-b02ff000 ---p 00000000 00:00 0 
+b02ff000-b04ff000 rw-p 00000000 00:00 0 
+b04ff000-b0500000 ---p 00000000 00:00 0 
+b0500000-b07fe000 rw-p 00000000 00:00 0          [tstack: WatchdogNotifie: 901]
+b07fe000-b0800000 ---p 00000000 00:00 0 
+b0801000-b0802000 rw-s 00000000 00:06 314        /dev/dri/card0
+b0802000-b080b000 r-xp 00000000 00:1a 1160756    /prd/usr/lib/libpower-control-impl-sec.so.0.1
+b080b000-b080c000 r--p 00009000 00:1a 1160756    /prd/usr/lib/libpower-control-impl-sec.so.0.1
+b080c000-b080d000 rw-p 0000a000 00:1a 1160756    /prd/usr/lib/libpower-control-impl-sec.so.0.1
+b080d000-b0814000 r--s 00000000 00:14 20280346   /usr/lib/gconv/gconv-modules.cache
+b0814000-b081f000 r-xp 00000000 00:1a 1159967    /prd/usr/lib/libbuxton2_lite.so.1.1
+b081f000-b0820000 r--p 0000b000 00:1a 1159967    /prd/usr/lib/libbuxton2_lite.so.1.1
+b0820000-b0821000 rw-p 0000c000 00:1a 1159967    /prd/usr/lib/libbuxton2_lite.so.1.1
+b0821000-b083e000 r-xp 00000000 00:14 17333719   /usr/lib/libprd-factory-interface-ATSC.so
+b083e000-b083f000 r--p 0001d000 00:14 17333719   /usr/lib/libprd-factory-interface-ATSC.so
+b083f000-b0840000 rw-p 0001e000 00:14 17333719   /usr/lib/libprd-factory-interface-ATSC.so
+b0840000-b0841000 rw-s 00000000 00:1f 1783       /run/wayland-tvshm-1-KYCOAA (deleted)
+b0841000-b0843000 r--s 00000000 00:21 33         /dev/shm/shm_deviced
+b0843000-b0844000 r--s 00000000 00:1d 2          /tmp/ttrace_tag
+b0844000-b084c000 r--s 00000000 00:21 7          /dev/shm/shm_vconf_dbl_storage
+b084c000-b0854000 r-xp 00000000 00:14 17325667   /usr/lib/libnss_securitymanager.so.2.0.0
+b0854000-b0855000 r--p 00008000 00:14 17325667   /usr/lib/libnss_securitymanager.so.2.0.0
+b0855000-b0856000 rw-p 00009000 00:14 17325667   /usr/lib/libnss_securitymanager.so.2.0.0
+b0856000-b0858000 r-xp 00000000 00:1a 1157610    /prd/usr/lib/libeeprom-map.so.0.1
+b0858000-b0859000 r--p 00002000 00:1a 1157610    /prd/usr/lib/libeeprom-map.so.0.1
+b0859000-b085a000 rw-p 00003000 00:1a 1157610    /prd/usr/lib/libeeprom-map.so.0.1
+b085a000-b085c000 r-xp 00000000 00:1a 1157885    /prd/usr/lib/libnvram-impl-sec.so.0.1
+b085c000-b085d000 r--p 00002000 00:1a 1157885    /prd/usr/lib/libnvram-impl-sec.so.0.1
+b085d000-b085e000 rw-p 00003000 00:1a 1157885    /prd/usr/lib/libnvram-impl-sec.so.0.1
+b085e000-b0865000 r--s 00000000 00:17 568        /factory_peq/factory-data/FactoryIndexFile_Part1.dat
+b0865000-b0888000 r--s 00000000 00:21 8          /dev/shm/shm_fms
+b0888000-b0889000 ---p 00000000 00:00 0 
+b0889000-b0a89000 rw-p 00000000 00:00 0 
+b0a89000-b0a90000 r-xp 00000000 00:14 17325645   /usr/lib/libnss_compat.so.2
+b0a90000-b0a91000 r--p 00007000 00:14 17325645   /usr/lib/libnss_compat.so.2
+b0a91000-b0a92000 rw-p 00008000 00:14 17325645   /usr/lib/libnss_compat.so.2
+b0a92000-b0e92000 rw-s 00000000 00:06 190        /dev/vlog
+b0e92000-b0ec4000 r-xp 00000000 00:14 17337885   /usr/lib/libteec_trustware_common.so
+b0ec4000-b0ec5000 r--p 00032000 00:14 17337885   /usr/lib/libteec_trustware_common.so
+b0ec5000-b0ec6000 rw-p 00033000 00:14 17337885   /usr/lib/libteec_trustware_common.so
+b0ec6000-b0ecd000 r-xp 00000000 00:1a 1158141    /prd/usr/lib/libvconf_lite.so.0.3.1
+b0ecd000-b0ece000 r--p 00007000 00:1a 1158141    /prd/usr/lib/libvconf_lite.so.0.3.1
+b0ece000-b0ecf000 rw-p 00008000 00:1a 1158141    /prd/usr/lib/libvconf_lite.so.0.3.1
+b0ecf000-b0ed1000 r-xp 00000000 00:1a 1158134    /prd/usr/lib/libvconf-prd.so.1.0
+b0ed1000-b0ed2000 r--p 00002000 00:1a 1158134    /prd/usr/lib/libvconf-prd.so.1.0
+b0ed2000-b0ed3000 rw-p 00003000 00:1a 1158134    /prd/usr/lib/libvconf-prd.so.1.0
+b0ed3000-b0edf000 r-xp 00000000 00:1a 1158036    /prd/usr/lib/libsystem-info-external-plugin.so
+b0edf000-b0ee0000 r--p 0000c000 00:1a 1158036    /prd/usr/lib/libsystem-info-external-plugin.so
+b0ee0000-b0ee2000 rw-p 0000d000 00:1a 1158036    /prd/usr/lib/libsystem-info-external-plugin.so
+b0ee2000-b0ee4000 r-xp 00000000 00:1a 1160317    /prd/usr/lib/libsystem-info-impl-sec.so.0.1
+b0ee4000-b0ee5000 r--p 00002000 00:1a 1160317    /prd/usr/lib/libsystem-info-impl-sec.so.0.1
+b0ee5000-b0ee6000 rw-p 00003000 00:1a 1160317    /prd/usr/lib/libsystem-info-impl-sec.so.0.1
+b0ee6000-b0eeb000 r--s 00000000 00:21 2          /dev/shm/shm_buxton
+b0eeb000-b0eee000 rw-p 00000000 00:00 0 
+b0eee000-b0ef1000 rw-p 00000000 00:00 0 
+b0ef1000-b0ef3000 rw-p 00000000 00:00 0 
+b0ef3000-b0ef5000 rw-p 00000000 00:00 0 
+b0ef5000-b0ef7000 rw-p 00000000 00:00 0 
+b0ef7000-b0ef9000 rw-p 00000000 00:00 0 
+b0ef9000-b0efb000 rw-p 00000000 00:00 0 
+b0efb000-b0efd000 rw-p 00000000 00:00 0 
+b0efd000-b0eff000 rw-p 00000000 00:00 0 
+b0eff000-b0f02000 r-xp 00000000 00:14 17304420   /usr/lib/libattr.so.1.1.2501
+b0f02000-b0f03000 r--p 00003000 00:14 17304420   /usr/lib/libattr.so.1.1.2501
+b0f03000-b0f04000 rw-p 00004000 00:14 17304420   /usr/lib/libattr.so.1.1.2501
+b0f04000-b0f26000 r-xp 00000000 00:14 17314138   /usr/lib/libcynara-storage.so.0.26.0
+b0f26000-b0f27000 r--p 00022000 00:14 17314138   /usr/lib/libcynara-storage.so.0.26.0
+b0f27000-b0f28000 rw-p 00023000 00:14 17314138   /usr/lib/libcynara-storage.so.0.26.0
+b0f28000-b0f51000 r-xp 00000000 00:14 17311571   /usr/lib/libcrypt.so.1.1.0
+b0f51000-b0f52000 r--p 00029000 00:14 17311571   /usr/lib/libcrypt.so.1.1.0
+b0f52000-b0f53000 rw-p 0002a000 00:14 17311571   /usr/lib/libcrypt.so.1.1.0
+b0f53000-b0f5b000 rw-p 00000000 00:00 0 
+b0f5b000-b0f5f000 r-xp 00000000 00:14 17303199   /usr/lib/libacl.so.1.1.2302
+b0f5f000-b0f60000 r--p 00004000 00:14 17303199   /usr/lib/libacl.so.1.1.2302
+b0f60000-b0f61000 rw-p 00005000 00:14 17303199   /usr/lib/libacl.so.1.1.2302
+b0f61000-b0f6e000 r-xp 00000000 00:14 17334631   /usr/lib/libsecurity-privilege-manager.so.1.4.3
+b0f6e000-b0f6f000 r--p 0000d000 00:14 17334631   /usr/lib/libsecurity-privilege-manager.so.1.4.3
+b0f6f000-b0f70000 rw-p 0000e000 00:14 17334631   /usr/lib/libsecurity-privilege-manager.so.1.4.3
+b0f70000-b0f84000 r-xp 00000000 00:14 17306283   /usr/lib/libcynara-admin.so.0.26.0
+b0f84000-b0f85000 r--p 00014000 00:14 17306283   /usr/lib/libcynara-admin.so.0.26.0
+b0f85000-b0f86000 rw-p 00015000 00:14 17306283   /usr/lib/libcynara-admin.so.0.26.0
+b0f86000-b104b000 r-xp 00000000 00:14 17334562   /usr/lib/libsecurity-manager-commons.so.1.0.2
+b104b000-b104d000 r--p 000c5000 00:14 17334562   /usr/lib/libsecurity-manager-commons.so.1.0.2
+b104d000-b104f000 rw-p 000c7000 00:14 17334562   /usr/lib/libsecurity-manager-commons.so.1.0.2
+b104f000-b1051000 r-xp 00000000 00:14 17314105   /usr/lib/libcynara-creds-socket.so.0.26.0
+b1051000-b1052000 r--p 00002000 00:14 17314105   /usr/lib/libcynara-creds-socket.so.0.26.0
+b1052000-b1053000 rw-p 00003000 00:14 17314105   /usr/lib/libcynara-creds-socket.so.0.26.0
+b1053000-b2eb4000 r-xp 00000000 00:14 17322880   /usr/lib/libicudata.so.76.1
+b2eb4000-b2eb5000 r--p 01e61000 00:14 17322880   /usr/lib/libicudata.so.76.1
+b2eb5000-b2eb6000 rw-p 01e62000 00:14 17322880   /usr/lib/libicudata.so.76.1
+b2eb6000-b2eb8000 rw-p 00000000 00:00 0 
+b2eb8000-b2eb9000 r-xp 00000000 00:14 17304526   /usr/lib/libaul-ex.so.0.1.0
+b2eb9000-b2eba000 r--p 00001000 00:14 17304526   /usr/lib/libaul-ex.so.0.1.0
+b2eba000-b2ebb000 rw-p 00002000 00:14 17304526   /usr/lib/libaul-ex.so.0.1.0
+b2ebb000-b2ee8000 r-xp 00000000 00:14 17334541   /usr/lib/libsecurity-manager-client.so.3.0.0
+b2ee8000-b2ee9000 r--p 0002d000 00:14 17334541   /usr/lib/libsecurity-manager-client.so.3.0.0
+b2ee9000-b2eea000 rw-p 0002e000 00:14 17334541   /usr/lib/libsecurity-manager-client.so.3.0.0
+b2eea000-b2eec000 rw-p 00000000 00:00 0 
+b2eec000-b2f05000 r-xp 00000000 00:14 17313500   /usr/lib/libdbus-glib-1.so.2.2.2
+b2f05000-b2f06000 r--p 00019000 00:14 17313500   /usr/lib/libdbus-glib-1.so.2.2.2
+b2f06000-b2f07000 rw-p 0001a000 00:14 17313500   /usr/lib/libdbus-glib-1.so.2.2.2
+b2f07000-b2f22000 r-xp 00000000 00:14 17335274   /usr/lib/libtizen-core.so.0.2.4
+b2f22000-b2f23000 r--p 0001b000 00:14 17335274   /usr/lib/libtizen-core.so.0.2.4
+b2f23000-b2f24000 rw-p 0001c000 00:14 17335274   /usr/lib/libtizen-core.so.0.2.4
+b2f24000-b2f6f000 r-xp 00000000 00:14 17334190   /usr/lib/librpc-port.so.1.21.18
+b2f6f000-b2f70000 r--p 0004b000 00:14 17334190   /usr/lib/librpc-port.so.1.21.18
+b2f70000-b2f72000 rw-p 0004c000 00:14 17334190   /usr/lib/librpc-port.so.1.21.18
+b2f72000-b2f76000 r-xp 00000000 00:14 17314083   /usr/lib/libcynara-creds-pid.so.0.26.0
+b2f76000-b2f77000 r--p 00004000 00:14 17314083   /usr/lib/libcynara-creds-pid.so.0.26.0
+b2f77000-b2f78000 rw-p 00005000 00:14 17314083   /usr/lib/libcynara-creds-pid.so.0.26.0
+b2f78000-b2fb6000 r-xp 00000000 00:14 17308070   /usr/lib/libpkgmgr_installer.so.0.23.4
+b2fb6000-b2fb8000 rw-p 0003d000 00:14 17308070   /usr/lib/libpkgmgr_installer.so.0.23.4
+b2fb8000-b2fbb000 r-xp 00000000 00:14 17326453   /usr/lib/libpkgmgr_common.so.0.23.4
+b2fbb000-b2fbc000 r--p 00003000 00:14 17326453   /usr/lib/libpkgmgr_common.so.0.23.4
+b2fbc000-b2fbd000 rw-p 00004000 00:14 17326453   /usr/lib/libpkgmgr_common.so.0.23.4
+b2fbd000-b2fbf000 r-xp 00000000 00:14 17334531   /usr/lib/libsecurestorage-credential.so.0.1.0
+b2fbf000-b2fc0000 r--p 00002000 00:14 17334531   /usr/lib/libsecurestorage-credential.so.0.1.0
+b2fc0000-b2fc1000 rw-p 00003000 00:14 17334531   /usr/lib/libsecurestorage-credential.so.0.1.0
+b2fc1000-b2fc3000 rw-p 00000000 00:00 0 
+b2fc3000-b2ffc000 r-xp 00000000 00:14 17311587   /usr/lib/libcryptocore.so.0.1.0
+b2ffc000-b2ffd000 r--p 00039000 00:14 17311587   /usr/lib/libcryptocore.so.0.1.0
+b2ffd000-b2ffe000 rw-p 0003a000 00:14 17311587   /usr/lib/libcryptocore.so.0.1.0
+b2ffe000-b3135000 r-xp 00000000 00:14 17325056   /usr/lib/libicuuc.so.76.1
+b3135000-b3140000 r--p 00137000 00:14 17325056   /usr/lib/libicuuc.so.76.1
+b3140000-b3141000 rw-p 00142000 00:14 17325056   /usr/lib/libicuuc.so.76.1
+b3141000-b3144000 rw-p 00000000 00:00 0 
+b3144000-b3146000 r-xp 00000000 00:14 17308920   /usr/lib/libteec_ppi.so
+b3146000-b3147000 r--p 00002000 00:14 17308920   /usr/lib/libteec_ppi.so
+b3147000-b3148000 rw-p 00003000 00:14 17308920   /usr/lib/libteec_ppi.so
+b3148000-b314b000 r-xp 00000000 00:14 17308914   /usr/lib/libteec.so
+b314b000-b314c000 r--p 00003000 00:14 17308914   /usr/lib/libteec.so
+b314c000-b314d000 rw-p 00004000 00:14 17308914   /usr/lib/libteec.so
+b314d000-b3166000 r-xp 00000000 00:14 17322313   /usr/lib/libnagsam-api.so
+b3166000-b3168000 r--p 00019000 00:14 17322313   /usr/lib/libnagsam-api.so
+b3168000-b3169000 rw-p 0001b000 00:14 17322313   /usr/lib/libnagsam-api.so
+b3169000-b31dc000 r-xp 00000000 00:14 17305871   /usr/lib/libci-api.so
+b31dc000-b31de000 r--p 00073000 00:14 17305871   /usr/lib/libci-api.so
+b31de000-b31e0000 rw-p 00075000 00:14 17305871   /usr/lib/libci-api.so
+b31e0000-b31e2000 rw-p 00000000 00:00 0 
+b31e2000-b320c000 r-xp 00000000 00:14 17308013   /usr/lib/libpkgmgr-client.so.0.23.4
+b320c000-b320d000 r--p 0002a000 00:14 17308013   /usr/lib/libpkgmgr-client.so.0.23.4
+b320d000-b320e000 rw-p 0002b000 00:14 17308013   /usr/lib/libpkgmgr-client.so.0.23.4
+b320e000-b3255000 r-xp 00000000 00:14 17334973   /usr/lib/libssl.so.1.1
+b3255000-b325a000 r--p 00047000 00:14 17334973   /usr/lib/libssl.so.1.1
+b325a000-b325e000 rw-p 0004c000 00:14 17334973   /usr/lib/libssl.so.1.1
+b325e000-b3279000 r-xp 00000000 00:14 17325444   /usr/lib/libnghttp2.so.14.24.1
+b3279000-b327b000 r--p 0001b000 00:14 17325444   /usr/lib/libnghttp2.so.14.24.1
+b327b000-b327c000 rw-p 0001d000 00:14 17325444   /usr/lib/libnghttp2.so.14.24.1
+b327c000-b328a000 r-xp 00000000 00:14 17312631   /usr/lib/libcares.so.2.7.2
+b328a000-b328b000 r--p 0000e000 00:14 17312631   /usr/lib/libcares.so.2.7.2
+b328b000-b328c000 rw-p 0000f000 00:14 17312631   /usr/lib/libcares.so.2.7.2
+b328c000-b328e000 rw-p 00000000 00:00 0 
+b328e000-b3291000 r-xp 00000000 00:14 17314072   /usr/lib/libcynara-creds-gdbus.so.0.26.0
+b3291000-b3292000 r--p 00003000 00:14 17314072   /usr/lib/libcynara-creds-gdbus.so.0.26.0
+b3292000-b3293000 rw-p 00004000 00:14 17314072   /usr/lib/libcynara-creds-gdbus.so.0.26.0
+b3293000-b329e000 r-xp 00000000 00:14 17310524   /usr/lib/libcapi-appfw-package-manager.so.0.15.2
+b329e000-b329f000 r--p 0000b000 00:14 17310524   /usr/lib/libcapi-appfw-package-manager.so.0.15.2
+b329f000-b32a0000 rw-p 0000c000 00:14 17310524   /usr/lib/libcapi-appfw-package-manager.so.0.15.2
+b32a0000-b32c5000 r-xp 00000000 00:14 17334512   /usr/lib/libsecurestorage-client.so.1.0.0
+b32c5000-b32c6000 r--p 00025000 00:14 17334512   /usr/lib/libsecurestorage-client.so.1.0.0
+b32c6000-b32c7000 rw-p 00026000 00:14 17334512   /usr/lib/libsecurestorage-client.so.1.0.0
+b32c7000-b3325000 r-xp 00000000 00:14 17318173   /usr/lib/libgstbase-1.0.so.0.2411.0
+b3325000-b3326000 r--p 0005e000 00:14 17318173   /usr/lib/libgstbase-1.0.so.0.2411.0
+b3326000-b3327000 rw-p 0005f000 00:14 17318173   /usr/lib/libgstbase-1.0.so.0.2411.0
+b3327000-b332c000 r-xp 00000000 00:14 17306354   /usr/lib/libcynara-creds-commons.so.0.26.0
+b332c000-b332d000 r--p 00005000 00:14 17306354   /usr/lib/libcynara-creds-commons.so.0.26.0
+b332d000-b332e000 rw-p 00006000 00:14 17306354   /usr/lib/libcynara-creds-commons.so.0.26.0
+b332e000-b3332000 r-xp 00000000 00:14 17314156   /usr/lib/libcynara-uid-creds.so..26.0
+b3332000-b3333000 r--p 00004000 00:14 17314156   /usr/lib/libcynara-uid-creds.so..26.0
+b3333000-b3334000 rw-p 00005000 00:14 17314156   /usr/lib/libcynara-uid-creds.so..26.0
+b3334000-b337d000 r-xp 00000000 00:14 17314047   /usr/lib/libcynara-commons.so.0.26.0
+b337d000-b337f000 r--p 00049000 00:14 17314047   /usr/lib/libcynara-commons.so.0.26.0
+b337f000-b3380000 rw-p 0004b000 00:14 17314047   /usr/lib/libcynara-commons.so.0.26.0
+b3380000-b3387000 r-xp 00000000 00:14 17306324   /usr/lib/libcynara-client-commons.so.0.26.0
+b3387000-b3388000 r--p 00007000 00:14 17306324   /usr/lib/libcynara-client-commons.so.0.26.0
+b3388000-b3389000 rw-p 00008000 00:14 17306324   /usr/lib/libcynara-client-commons.so.0.26.0
+b3389000-b3585000 r-xp 00000000 00:14 17318667   /usr/lib/libicui18n.so.76.1
+b3585000-b358e000 r--p 001fc000 00:14 17318667   /usr/lib/libicui18n.so.76.1
+b358e000-b3590000 rw-p 00205000 00:14 17318667   /usr/lib/libicui18n.so.76.1
+b3590000-b3592000 rw-p 00000000 00:00 0 
+b3592000-b3596000 r-xp 00000000 00:14 17310466   /usr/lib/libcapi-appfw-app-control-uri.so.0.26.2
+b3596000-b3597000 r--p 00004000 00:14 17310466   /usr/lib/libcapi-appfw-app-control-uri.so.0.26.2
+b3597000-b3598000 rw-p 00005000 00:14 17310466   /usr/lib/libcapi-appfw-app-control-uri.so.0.26.2
+b3598000-b35a1000 r-xp 00000000 00:14 17335908   /usr/lib/libtzfr_utility_nwd.so.0.1.0
+b35a1000-b35a2000 r--p 00009000 00:14 17335908   /usr/lib/libtzfr_utility_nwd.so.0.1.0
+b35a2000-b35a3000 rw-p 0000a000 00:14 17335908   /usr/lib/libtzfr_utility_nwd.so.0.1.0
+b35a3000-b35bc000 r-xp 00000000 00:14 17305452   /usr/lib/libca-api.so
+b35bc000-b35bd000 r--p 00019000 00:14 17305452   /usr/lib/libca-api.so
+b35bd000-b35be000 rw-p 0001a000 00:14 17305452   /usr/lib/libca-api.so
+b35be000-b35c5000 r-xp 00000000 00:14 17311427   /usr/lib/libcomss-api.so
+b35c5000-b35c6000 r--p 00007000 00:14 17311427   /usr/lib/libcomss-api.so
+b35c6000-b35c7000 rw-p 00008000 00:14 17311427   /usr/lib/libcomss-api.so
+b35c7000-b35d1000 r-xp 00000000 00:14 17310489   /usr/lib/libcapi-appfw-app-manager.so.0.17.0
+b35d1000-b35d2000 r--p 0000a000 00:14 17310489   /usr/lib/libcapi-appfw-app-manager.so.0.17.0
+b35d2000-b35d3000 rw-p 0000b000 00:14 17310489   /usr/lib/libcapi-appfw-app-manager.so.0.17.0
+b35d3000-b363b000 r-xp 00000000 00:14 17306239   /usr/lib/libcurl.so.4.8.0
+b363b000-b363d000 r--p 00068000 00:14 17306239   /usr/lib/libcurl.so.4.8.0
+b363d000-b3640000 rw-p 0006a000 00:14 17306239   /usr/lib/libcurl.so.4.8.0
+b3640000-b3677000 r-xp 00000000 00:14 17308544   /usr/lib/libsso_api.so
+b3677000-b3678000 r--p 00037000 00:14 17308544   /usr/lib/libsso_api.so
+b3678000-b3679000 rw-p 00038000 00:14 17308544   /usr/lib/libsso_api.so
+b3679000-b387b000 r-xp 00000000 00:14 17313792   /usr/lib/libcrypto.so.3
+b387b000-b38a6000 r--p 00202000 00:14 17313792   /usr/lib/libcrypto.so.3
+b38a6000-b38a8000 rw-p 0022d000 00:14 17313792   /usr/lib/libcrypto.so.3
+b38a8000-b38aa000 rw-p 00000000 00:00 0 
+b38aa000-b38fe000 r-xp 00000000 00:14 17335000   /usr/lib/libssl.so.3
+b38fe000-b3903000 r--p 00054000 00:14 17335000   /usr/lib/libssl.so.3
+b3903000-b3907000 rw-p 00059000 00:14 17335000   /usr/lib/libssl.so.3
+b3907000-b3909000 rw-p 00000000 00:00 0 
+b3909000-b3918000 r-xp 00000000 00:14 17329639   /usr/lib/libkeystone-ppi.so.0.1
+b3918000-b3919000 r--p 0000f000 00:14 17329639   /usr/lib/libkeystone-ppi.so.0.1
+b3919000-b391a000 rw-p 00010000 00:14 17329639   /usr/lib/libkeystone-ppi.so.0.1
+b391a000-b391d000 r-xp 00000000 00:14 17339990   /usr/lib/libvideo-decoder-control.so.0.1
+b391d000-b391e000 r--p 00003000 00:14 17339990   /usr/lib/libvideo-decoder-control.so.0.1
+b391e000-b391f000 rw-p 00004000 00:14 17339990   /usr/lib/libvideo-decoder-control.so.0.1
+b391f000-b3923000 r-xp 00000000 00:14 17305645   /usr/lib/libcapi-boost-tv.so.0.0.1
+b3923000-b3924000 r--p 00004000 00:14 17305645   /usr/lib/libcapi-boost-tv.so.0.0.1
+b3924000-b3925000 rw-p 00005000 00:14 17305645   /usr/lib/libcapi-boost-tv.so.0.0.1
+b3925000-b39fe000 r-xp 00000000 00:14 17321404   /usr/lib/libgstreamer-1.0.so.0.2411.0
+b39fe000-b3a01000 r--p 000d9000 00:14 17321404   /usr/lib/libgstreamer-1.0.so.0.2411.0
+b3a01000-b3a03000 rw-p 000dc000 00:14 17321404   /usr/lib/libgstreamer-1.0.so.0.2411.0
+b3a03000-b3a04000 rw-p 00000000 00:00 0 
+b3a04000-b3a76000 r-xp 00000000 00:14 17321471   /usr/lib/libgstvideo-1.0.so.0.2411.0
+b3a76000-b3a86000 r--p 00072000 00:14 17321471   /usr/lib/libgstvideo-1.0.so.0.2411.0
+b3a86000-b3a87000 rw-p 00082000 00:14 17321471   /usr/lib/libgstvideo-1.0.so.0.2411.0
+b3a87000-b3a8d000 r-xp 00000000 00:14 17310459   /usr/lib/libcap.so.2.73
+b3a8d000-b3a8e000 r--p 00006000 00:14 17310459   /usr/lib/libcap.so.2.73
+b3a8e000-b3a8f000 rw-p 00007000 00:14 17310459   /usr/lib/libcap.so.2.73
+b3a8f000-b3a98000 r-xp 00000000 00:14 17326764   /usr/lib/libsessiond.so.11.0.0
+b3a98000-b3a99000 r--p 00009000 00:14 17326764   /usr/lib/libsessiond.so.11.0.0
+b3a99000-b3a9a000 rw-p 0000a000 00:14 17326764   /usr/lib/libsessiond.so.11.0.0
+b3a9a000-b3a9c000 r-xp 00000000 00:14 17314094   /usr/lib/libcynara-creds-self.so.0.26.0
+b3a9c000-b3a9d000 r--p 00002000 00:14 17314094   /usr/lib/libcynara-creds-self.so.0.26.0
+b3a9d000-b3a9e000 rw-p 00003000 00:14 17314094   /usr/lib/libcynara-creds-self.so.0.26.0
+b3a9e000-b3a9f000 r-xp 00000000 00:14 17314127   /usr/lib/libcynara-session.so.0.26.0
+b3a9f000-b3aa0000 r--p 00001000 00:14 17314127   /usr/lib/libcynara-session.so.0.26.0
+b3aa0000-b3aa1000 rw-p 00002000 00:14 17314127   /usr/lib/libcynara-session.so.0.26.0
+b3aa1000-b3aa8000 r-xp 00000000 00:14 17306335   /usr/lib/libcynara-client.so.0.26.0
+b3aa8000-b3aa9000 r--p 00007000 00:14 17306335   /usr/lib/libcynara-client.so.0.26.0
+b3aa9000-b3aaa000 rw-p 00008000 00:14 17306335   /usr/lib/libcynara-client.so.0.26.0
+b3aaa000-b3aac000 rw-p 00000000 00:00 0 
+b3aac000-b3acc000 r-xp 00000000 00:14 17304988   /usr/lib/libblkid.so.1.1.0
+b3acc000-b3acf000 r--p 00020000 00:14 17304988   /usr/lib/libblkid.so.1.1.0
+b3acf000-b3ad0000 rw-p 00023000 00:14 17304988   /usr/lib/libblkid.so.1.1.0
+b3ad0000-b3ae0000 r-xp 00000000 00:14 17303678   /usr/lib/libapp-core-cpp.so.1.27.17
+b3ae0000-b3ae1000 r--p 00010000 00:14 17303678   /usr/lib/libapp-core-cpp.so.1.27.17
+b3ae1000-b3ae2000 rw-p 00011000 00:14 17303678   /usr/lib/libapp-core-cpp.so.1.27.17
+b3ae2000-b3ae4000 r-xp 00000000 00:14 17304516   /usr/lib/libaul-blink.so.0.83.21
+b3ae4000-b3ae5000 r--p 00002000 00:14 17304516   /usr/lib/libaul-blink.so.0.83.21
+b3ae5000-b3ae6000 rw-p 00003000 00:14 17304516   /usr/lib/libaul-blink.so.0.83.21
+b3ae6000-b3af0000 r-xp 00000000 00:14 17330537   /usr/lib/libunwind-arm.so.8.0.1
+b3af0000-b3af1000 r--p 0000a000 00:14 17330537   /usr/lib/libunwind-arm.so.8.0.1
+b3af1000-b3af2000 rw-p 0000b000 00:14 17330537   /usr/lib/libunwind-arm.so.8.0.1
+b3af2000-b3b0b000 rw-p 00000000 00:00 0 
+b3b0b000-b3b0d000 r-xp 00000000 00:14 17330551   /usr/lib/libunwind-ptrace.so.0.0.0
+b3b0d000-b3b0e000 r--p 00002000 00:14 17330551   /usr/lib/libunwind-ptrace.so.0.0.0
+b3b0e000-b3b0f000 rw-p 00003000 00:14 17330551   /usr/lib/libunwind-ptrace.so.0.0.0
+b3b0f000-b3b15000 r-xp 00000000 00:14 17320547   /usr/lib/libxdgmime.so.1.1.0
+b3b15000-b3b16000 r--p 00006000 00:14 17320547   /usr/lib/libxdgmime.so.1.1.0
+b3b16000-b3b17000 rw-p 00007000 00:14 17320547   /usr/lib/libxdgmime.so.1.1.0
+b3b17000-b3b1c000 r-xp 00000000 00:14 17339885   /usr/lib/libuuid.so.1.3.0
+b3b1c000-b3b1d000 r--p 00005000 00:14 17339885   /usr/lib/libuuid.so.1.3.0
+b3b1d000-b3b1e000 rw-p 00006000 00:14 17339885   /usr/lib/libuuid.so.1.3.0
+b3b1e000-b3b94000 r-xp 00000000 00:14 17308032   /usr/lib/libpkgmgr-info.so.0.37.5
+b3b94000-b3b95000 r--p 00076000 00:14 17308032   /usr/lib/libpkgmgr-info.so.0.37.5
+b3b95000-b3b96000 rw-p 00077000 00:14 17308032   /usr/lib/libpkgmgr-info.so.0.37.5
+b3b96000-b3b97000 rw-p 00000000 00:00 0 
+b3b97000-b3b9d000 r-xp 00000000 00:14 17326252   /usr/lib/libparcel.so.0.18.15
+b3b9d000-b3b9e000 r--p 00006000 00:14 17326252   /usr/lib/libparcel.so.0.18.15
+b3b9e000-b3b9f000 rw-p 00007000 00:14 17326252   /usr/lib/libparcel.so.0.18.15
+b3b9f000-b3ba1000 rw-p 00000000 00:00 0 
+b3ba1000-b3ba2000 r-xp 00000000 00:14 17314171   /usr/lib/libcynara-uid.so.0.26.0
+b3ba2000-b3ba3000 r--p 00001000 00:14 17314171   /usr/lib/libcynara-uid.so.0.26.0
+b3ba3000-b3ba4000 rw-p 00002000 00:14 17314171   /usr/lib/libcynara-uid.so.0.26.0
+b3ba4000-b3bb0000 r-xp 00000000 00:14 17305631   /usr/lib/libcapi-base-common.so.0.4.82
+b3bb0000-b3bb3000 r--p 0000c000 00:14 17305631   /usr/lib/libcapi-base-common.so.0.4.82
+b3bb3000-b3bb4000 rw-p 0000f000 00:14 17305631   /usr/lib/libcapi-base-common.so.0.4.82
+b3bb4000-b3c03000 r-xp 00000000 00:14 17304957   /usr/lib/libbase-utils-i18n.so.3.1.5
+b3c03000-b3c04000 r--p 0004f000 00:14 17304957   /usr/lib/libbase-utils-i18n.so.3.1.5
+b3c04000-b3c05000 rw-p 00050000 00:14 17304957   /usr/lib/libbase-utils-i18n.so.3.1.5
+b3c05000-b3c1f000 r-xp 00000000 00:14 17318923   /usr/lib/libjson-glib-1.0.so.0.800.0
+b3c1f000-b3c20000 r--p 0001a000 00:14 17318923   /usr/lib/libjson-glib-1.0.so.0.800.0
+b3c20000-b3c21000 rw-p 0001b000 00:14 17318923   /usr/lib/libjson-glib-1.0.so.0.800.0
+b3c21000-b3cd4000 r-xp 00000000 00:14 17328277   /usr/lib/libxml2.so.2.13.5
+b3cd4000-b3cd9000 r--p 000b3000 00:14 17328277   /usr/lib/libxml2.so.2.13.5
+b3cd9000-b3cdb000 rw-p 000b8000 00:14 17328277   /usr/lib/libxml2.so.2.13.5
+b3cdb000-b3d23000 r-xp 00000000 00:14 17313475   /usr/lib/libdbus-1.so.3.19.13
+b3d23000-b3d24000 r--p 00048000 00:14 17313475   /usr/lib/libdbus-1.so.3.19.13
+b3d24000-b3d25000 rw-p 00049000 00:14 17313475   /usr/lib/libdbus-1.so.3.19.13
+b3d25000-b3d3d000 r-xp 00000000 00:14 17310473   /usr/lib/libcapi-appfw-app-control.so.0.26.2
+b3d3d000-b3d3e000 r--p 00018000 00:14 17310473   /usr/lib/libcapi-appfw-app-control.so.0.26.2
+b3d3e000-b3d3f000 rw-p 00019000 00:14 17310473   /usr/lib/libcapi-appfw-app-control.so.0.26.2
+b3d3f000-b3d45000 r-xp 00000000 00:14 17303903   /usr/lib/libappcore-agent.so.1.7.5
+b3d45000-b3d46000 r--p 00006000 00:14 17303903   /usr/lib/libappcore-agent.so.1.7.5
+b3d46000-b3d47000 rw-p 00007000 00:14 17303903   /usr/lib/libappcore-agent.so.1.7.5
+b3d47000-b3d49000 r-xp 00000000 00:14 17310157   /usr/lib/libboost_atomic.so.1.83.0
+b3d49000-b3d4a000 rw-p 00001000 00:14 17310157   /usr/lib/libboost_atomic.so.1.83.0
+b3d4a000-b3d4e000 rw-p 00000000 00:00 0 
+b3d4e000-b3d50000 rw-p 00000000 00:00 0 
+b3d50000-b3d6a000 r-xp 00000000 00:14 17314761   /usr/lib/libep-iptv-service-api.so
+b3d6a000-b3d6b000 r--p 0001a000 00:14 17314761   /usr/lib/libep-iptv-service-api.so
+b3d6b000-b3d6c000 rw-p 0001b000 00:14 17314761   /usr/lib/libep-iptv-service-api.so
+b3d6c000-b3d74000 r-xp 00000000 00:14 17333892   /usr/lib/libres-lookup.so.0.1
+b3d74000-b3d75000 r--p 00008000 00:14 17333892   /usr/lib/libres-lookup.so.0.1
+b3d75000-b3d76000 rw-p 00009000 00:14 17333892   /usr/lib/libres-lookup.so.0.1
+b3d76000-b3d78000 r-xp 00000000 00:14 17319798   /usr/lib/libug_duck.so
+b3d78000-b3d79000 r--p 00002000 00:14 17319798   /usr/lib/libug_duck.so
+b3d79000-b3d7a000 rw-p 00003000 00:14 17319798   /usr/lib/libug_duck.so
+b3d7a000-b3d80000 r-xp 00000000 00:14 17334501   /usr/lib/libsecure-clock.so.0.1.0
+b3d80000-b3d81000 r--p 00006000 00:14 17334501   /usr/lib/libsecure-clock.so.0.1.0
+b3d81000-b3d82000 rw-p 00007000 00:14 17334501   /usr/lib/libsecure-clock.so.0.1.0
+b3d82000-b3e12000 r-xp 00000000 00:14 17335503   /usr/lib/libtvs-atsc30-parser.so
+b3e12000-b3e15000 r--p 00090000 00:14 17335503   /usr/lib/libtvs-atsc30-parser.so
+b3e15000-b3e17000 rw-p 00093000 00:14 17335503   /usr/lib/libtvs-atsc30-parser.so
+b3e17000-b3e1c000 r-xp 00000000 00:14 17334858   /usr/lib/libsmack.so.1.3.1
+b3e1c000-b3e1d000 r--p 00005000 00:14 17334858   /usr/lib/libsmack.so.1.3.1
+b3e1d000-b3e1e000 rw-p 00006000 00:14 17334858   /usr/lib/libsmack.so.1.3.1
+b3e1e000-b3e20000 rw-p 00000000 00:00 0 
+b3e20000-b3e5f000 r-xp 00000000 00:14 17336499   /usr/lib/libpvr-service-api.so
+b3e5f000-b3e62000 r--p 0003f000 00:14 17336499   /usr/lib/libpvr-service-api.so
+b3e62000-b3e63000 rw-p 00042000 00:14 17336499   /usr/lib/libpvr-service-api.so
+b3e63000-b3e7d000 r-xp 00000000 00:14 17302842   /usr/lib/libVDCurl.so.0.9
+b3e7d000-b3e7e000 r--p 0001a000 00:14 17302842   /usr/lib/libVDCurl.so.0.9
+b3e7e000-b3e7f000 rw-p 0001b000 00:14 17302842   /usr/lib/libVDCurl.so.0.9
+b3e7f000-b3f8c000 r-xp 00000000 00:14 17304844   /usr/lib/libavoc.so
+b3f8c000-b3f9c000 r--p 0010d000 00:14 17304844   /usr/lib/libavoc.so
+b3f9c000-b3f9d000 rw-p 0011d000 00:14 17304844   /usr/lib/libavoc.so
+b3f9d000-b408a000 r-xp 00000000 00:14 17338293   /usr/lib/libtv_player.so.0.0.0
+b408a000-b408b000 r--p 000ed000 00:14 17338293   /usr/lib/libtv_player.so.0.0.0
+b408b000-b408d000 rw-p 000ee000 00:14 17338293   /usr/lib/libtv_player.so.0.0.0
+b408d000-b40fe000 r-xp 00000000 00:14 17337792   /usr/lib/libsystemd.so.0.27.1
+b40fe000-b4100000 r--p 00071000 00:14 17337792   /usr/lib/libsystemd.so.0.27.1
+b4100000-b4101000 rw-p 00073000 00:14 17337792   /usr/lib/libsystemd.so.0.27.1
+b4101000-b4103000 r-xp 00000000 00:14 17338198   /usr/lib/libttrace.so.1.1.0
+b4103000-b4104000 r--p 00002000 00:14 17338198   /usr/lib/libttrace.so.1.1.0
+b4104000-b4105000 rw-p 00003000 00:14 17338198   /usr/lib/libttrace.so.1.1.0
+b4105000-b4116000 r-xp 00000000 00:14 17305332   /usr/lib/libbuxton2.so.1.1
+b4116000-b4117000 r--p 00011000 00:14 17305332   /usr/lib/libbuxton2.so.1.1
+b4117000-b4118000 rw-p 00012000 00:14 17305332   /usr/lib/libbuxton2.so.1.1
+b4118000-b411b000 r-xp 00000000 00:14 17325174   /usr/lib/libiniparser.so.4.2.4
+b411b000-b411c000 r--p 00003000 00:14 17325174   /usr/lib/libiniparser.so.4.2.4
+b411c000-b411d000 rw-p 00004000 00:14 17325174   /usr/lib/libiniparser.so.4.2.4
+b411d000-b411f000 r-xp 00000000 00:14 17333716   /usr/lib/libppi-system-info.so.0.1
+b411f000-b4120000 r--p 00002000 00:14 17333716   /usr/lib/libppi-system-info.so.0.1
+b4120000-b4121000 rw-p 00003000 00:14 17333716   /usr/lib/libppi-system-info.so.0.1
+b4121000-b4123000 rw-p 00000000 00:00 0 
+b4123000-b4124000 r-xp 00000000 00:14 17328176   /usr/lib/libwtz-foreign-client.so.0.0.0
+b4124000-b4125000 r--p 00001000 00:14 17328176   /usr/lib/libwtz-foreign-client.so.0.0.0
+b4125000-b4126000 rw-p 00002000 00:14 17328176   /usr/lib/libwtz-foreign-client.so.0.0.0
+b4126000-b412f000 r-xp 00000000 00:14 17316994   /usr/lib/libffi.so.8.1.4
+b412f000-b4130000 r--p 00009000 00:14 17316994   /usr/lib/libffi.so.8.1.4
+b4130000-b4131000 rw-p 0000a000 00:14 17316994   /usr/lib/libffi.so.8.1.4
+b4131000-b4148000 r-xp 00000000 00:14 17313512   /usr/lib/libdbuspolicy1.so.1.1.0
+b4148000-b4149000 r--p 00017000 00:14 17313512   /usr/lib/libdbuspolicy1.so.1.1.0
+b4149000-b414a000 rw-p 00018000 00:14 17313512   /usr/lib/libdbuspolicy1.so.1.1.0
+b414a000-b4178000 r-xp 00000000 00:14 17322124   /usr/lib/libmount.so.1.1.0
+b4178000-b4179000 r--p 0002e000 00:14 17322124   /usr/lib/libmount.so.1.1.0
+b4179000-b417a000 rw-p 0002f000 00:14 17322124   /usr/lib/libmount.so.1.1.0
+b417a000-b417c000 rw-p 00000000 00:00 0 
+b417c000-b417e000 r-xp 00000000 00:14 17307308   /usr/lib/libgmodule-2.0.so.0.8000.5
+b417e000-b417f000 r--p 00002000 00:14 17307308   /usr/lib/libgmodule-2.0.so.0.8000.5
+b417f000-b4180000 rw-p 00003000 00:14 17307308   /usr/lib/libgmodule-2.0.so.0.8000.5
+b4180000-b41bb000 r-xp 00000000 00:14 17309137   /usr/lib/libtv-resource-information.so.1.24
+b41bb000-b41bf000 r--p 0003b000 00:14 17309137   /usr/lib/libtv-resource-information.so.1.24
+b41bf000-b41c0000 rw-p 0003f000 00:14 17309137   /usr/lib/libtv-resource-information.so.1.24
+b41c0000-b41e6000 r-xp 00000000 00:14 17309163   /usr/lib/libtv-resource-manager.so.1.43
+b41e6000-b41e7000 r--p 00026000 00:14 17309163   /usr/lib/libtv-resource-manager.so.1.43
+b41e7000-b41e8000 rw-p 00027000 00:14 17309163   /usr/lib/libtv-resource-manager.so.1.43
+b41e8000-b41e9000 rw-p 00000000 00:00 0 
+b41e9000-b41ed000 r-xp 00000000 00:14 17310065   /usr/lib/libbattery-control.so.0.1
+b41ed000-b41ee000 r--p 00004000 00:14 17310065   /usr/lib/libbattery-control.so.0.1
+b41ee000-b41ef000 rw-p 00005000 00:14 17310065   /usr/lib/libbattery-control.so.0.1
+b41ef000-b41f4000 r-xp 00000000 00:14 17319287   /usr/lib/liblink.so.0.1
+b41f4000-b41f5000 r--p 00005000 00:14 17319287   /usr/lib/liblink.so.0.1
+b41f5000-b41f6000 rw-p 00006000 00:14 17319287   /usr/lib/liblink.so.0.1
+b41f6000-b4205000 r-xp 00000000 00:14 17336400   /usr/lib/libpower-control.so.0.1
+b4205000-b4206000 r--p 0000f000 00:14 17336400   /usr/lib/libpower-control.so.0.1
+b4206000-b4207000 rw-p 00010000 00:14 17336400   /usr/lib/libpower-control.so.0.1
+b4207000-b4209000 rw-p 00000000 00:00 0 
+b4209000-b4212000 r-xp 00000000 00:14 17336413   /usr/lib/libpower-defs.so.0.1.1
+b4212000-b4213000 r--p 00009000 00:14 17336413   /usr/lib/libpower-defs.so.0.1.1
+b4213000-b4214000 rw-p 0000a000 00:14 17336413   /usr/lib/libpower-defs.so.0.1.1
+b4214000-b4215000 r-xp 00000000 00:14 17337294   /usr/lib/librt.so.1
+b4215000-b4216000 r--p 00001000 00:14 17337294   /usr/lib/librt.so.1
+b4216000-b4217000 rw-p 00002000 00:14 17337294   /usr/lib/librt.so.1
+b4217000-b421d000 r-xp 00000000 00:14 17305592   /usr/lib/libcapi-appfw-app-common.so.0.16.4
+b421d000-b421e000 r--p 00006000 00:14 17305592   /usr/lib/libcapi-appfw-app-common.so.0.16.4
+b421e000-b421f000 rw-p 00007000 00:14 17305592   /usr/lib/libcapi-appfw-app-common.so.0.16.4
+b421f000-b4229000 r-xp 00000000 00:14 17318916   /usr/lib/libjson-c.so.5.4.0
+b4229000-b422a000 r--p 0000a000 00:14 17318916   /usr/lib/libjson-c.so.5.4.0
+b422a000-b422b000 rw-p 0000b000 00:14 17318916   /usr/lib/libjson-c.so.5.4.0
+b422b000-b422e000 r-xp 00000000 00:14 17336438   /usr/lib/libppi-factory-api.so
+b422e000-b422f000 r--p 00003000 00:14 17336438   /usr/lib/libppi-factory-api.so
+b422f000-b4230000 rw-p 00004000 00:14 17336438   /usr/lib/libppi-factory-api.so
+b4230000-b423b000 r-xp 00000000 00:14 17316944   /usr/lib/libfconfig.so
+b423b000-b423c000 r--p 0000b000 00:14 17316944   /usr/lib/libfconfig.so
+b423c000-b423d000 rw-p 0000c000 00:14 17316944   /usr/lib/libfconfig.so
+b423d000-b423f000 r-xp 00000000 00:14 17305200   /usr/lib/libbptime.so
+b423f000-b4240000 r--p 00002000 00:14 17305200   /usr/lib/libbptime.so
+b4240000-b4241000 rw-p 00003000 00:14 17305200   /usr/lib/libbptime.so
+b4241000-b4251000 r-xp 00000000 00:14 17316934   /usr/lib/libfbproxyserver.so.0.2.0
+b4251000-b4252000 r--p 00010000 00:14 17316934   /usr/lib/libfbproxyserver.so.0.2.0
+b4252000-b4253000 rw-p 00011000 00:14 17316934   /usr/lib/libfbproxyserver.so.0.2.0
+b4253000-b4254000 rw-p 00000000 00:00 0 
+b4254000-b4268000 r-xp 00000000 00:14 17315790   /usr/lib/libexpat.so.1.9.2
+b4268000-b426a000 r--p 00014000 00:14 17315790   /usr/lib/libexpat.so.1.9.2
+b426a000-b426b000 rw-p 00016000 00:14 17315790   /usr/lib/libexpat.so.1.9.2
+b426b000-b43d5000 r-xp 00000000 00:14 17306112   /usr/lib/libcrypto.so.1.1
+b43d5000-b43eb000 r--p 0016a000 00:14 17306112   /usr/lib/libcrypto.so.1.1
+b43eb000-b43ed000 rw-p 00180000 00:14 17306112   /usr/lib/libcrypto.so.1.1
+b43ed000-b43f1000 rw-p 00000000 00:00 0 
+b43f1000-b43f3000 rw-p 00000000 00:00 0 
+b43f3000-b4409000 r-xp 00000000 00:14 17305317   /usr/lib/libbundle.so.0.18.15
+b4409000-b440a000 r--p 00016000 00:14 17305317   /usr/lib/libbundle.so.0.18.15
+b440a000-b440b000 rw-p 00017000 00:14 17305317   /usr/lib/libbundle.so.0.18.15
+b440b000-b4491000 r-xp 00000000 00:14 17304560   /usr/lib/libaul.so.0.83.21
+b4491000-b4492000 r--p 00086000 00:14 17304560   /usr/lib/libaul.so.0.83.21
+b4492000-b4494000 rw-p 00087000 00:14 17304560   /usr/lib/libaul.so.0.83.21
+b4494000-b4497000 r-xp 00000000 00:14 17312292   /usr/lib/libcapi-screensaver.so
+b4497000-b4498000 r--p 00003000 00:14 17312292   /usr/lib/libcapi-screensaver.so
+b4498000-b4499000 rw-p 00004000 00:14 17312292   /usr/lib/libcapi-screensaver.so
+b4499000-b44ab000 r-xp 00000000 00:14 17305167   /usr/lib/libboost_thread.so.1.83.0
+b44ab000-b44ac000 rw-p 00012000 00:14 17305167   /usr/lib/libboost_thread.so.1.83.0
+b44ac000-b44b2000 r-xp 00000000 00:14 17321934   /usr/lib/libminizip.so.1.0.0
+b44b2000-b44b3000 r--p 00006000 00:14 17321934   /usr/lib/libminizip.so.1.0.0
+b44b3000-b44b4000 rw-p 00007000 00:14 17321934   /usr/lib/libminizip.so.1.0.0
+b44b4000-b44b6000 r-xp 00000000 00:14 17325692   /usr/lib/libnvram.so.0.1
+b44b6000-b44b7000 r--p 00002000 00:14 17325692   /usr/lib/libnvram.so.0.1
+b44b7000-b44b8000 rw-p 00003000 00:14 17325692   /usr/lib/libnvram.so.0.1
+b44b8000-b44ce000 r-xp 00000000 00:14 17311037   /usr/lib/libcapi-system-system-settings.so.0.0.6
+b44ce000-b44cf000 r--p 00016000 00:14 17311037   /usr/lib/libcapi-system-system-settings.so.0.0.6
+b44cf000-b44d4000 rw-p 00017000 00:14 17311037   /usr/lib/libcapi-system-system-settings.so.0.0.6
+b44d4000-b44d8000 r-xp 00000000 00:14 17311769   /usr/lib/libcapi-hbbtv-tv.so.0.1
+b44d8000-b44d9000 r--p 00004000 00:14 17311769   /usr/lib/libcapi-hbbtv-tv.so.0.1
+b44d9000-b44da000 rw-p 00005000 00:14 17311769   /usr/lib/libcapi-hbbtv-tv.so.0.1
+b44da000-b44db000 rw-p 00000000 00:00 0 
+b44db000-b44e3000 r-xp 00000000 00:14 17311023   /usr/lib/libcapi-system-runtime-info.so.0.0.200
+b44e3000-b44e4000 r--p 00008000 00:14 17311023   /usr/lib/libcapi-system-runtime-info.so.0.0.200
+b44e4000-b44e5000 rw-p 00009000 00:14 17311023   /usr/lib/libcapi-system-runtime-info.so.0.0.200
+b44e5000-b4509000 r-xp 00000000 00:14 17318935   /usr/lib/libjsoncpp.so.1.9.2
+b4509000-b450a000 r--p 00024000 00:14 17318935   /usr/lib/libjsoncpp.so.1.9.2
+b450a000-b450b000 rw-p 00025000 00:14 17318935   /usr/lib/libjsoncpp.so.1.9.2
+b450b000-b450d000 rw-p 00000000 00:00 0 
+b450d000-b4523000 r-xp 00000000 00:14 17311052   /usr/lib/libcapi-system-usbdevice.so
+b4523000-b4526000 r--p 00016000 00:14 17311052   /usr/lib/libcapi-system-usbdevice.so
+b4526000-b4527000 rw-p 00019000 00:14 17311052   /usr/lib/libcapi-system-usbdevice.so
+b4527000-b452d000 r-xp 00000000 00:14 17325806   /usr/lib/libopen-debugmenu.so
+b452d000-b452e000 r--p 00006000 00:14 17325806   /usr/lib/libopen-debugmenu.so
+b452e000-b452f000 rw-p 00007000 00:14 17325806   /usr/lib/libopen-debugmenu.so
+b452f000-b457a000 r-xp 00000000 00:14 17329827   /usr/lib/libm.so.6
+b457a000-b457b000 r--p 0004b000 00:14 17329827   /usr/lib/libm.so.6
+b457b000-b457c000 rw-p 0004c000 00:14 17329827   /usr/lib/libm.so.6
+b457c000-b4582000 r-xp 00000000 00:14 17301599   /usr/lib/libCLogger.so
+b4582000-b4583000 r--p 00006000 00:14 17301599   /usr/lib/libCLogger.so
+b4583000-b4584000 rw-p 00007000 00:14 17301599   /usr/lib/libCLogger.so
+b4584000-b458b000 r-xp 00000000 00:14 17321706   /usr/lib/libhdmi-control.so.0.1
+b458b000-b458c000 r--p 00007000 00:14 17321706   /usr/lib/libhdmi-control.so.0.1
+b458c000-b458d000 rw-p 00008000 00:14 17321706   /usr/lib/libhdmi-control.so.0.1
+b458d000-b45c7000 r-xp 00000000 00:14 17305560   /usr/lib/libcapi-aov-tv.so
+b45c7000-b45c8000 r--p 0003a000 00:14 17305560   /usr/lib/libcapi-aov-tv.so
+b45c8000-b45c9000 rw-p 0003b000 00:14 17305560   /usr/lib/libcapi-aov-tv.so
+b45c9000-b45e3000 r-xp 00000000 00:14 17310166   /usr/lib/libboost_filesystem.so.1.83.0
+b45e3000-b45e4000 rw-p 0001a000 00:14 17310166   /usr/lib/libboost_filesystem.so.1.83.0
+b45e4000-b45f2000 r-xp 00000000 00:14 17328483   /usr/lib/libz.so.1.3.1
+b45f2000-b45f3000 r--p 0000e000 00:14 17328483   /usr/lib/libz.so.1.3.1
+b45f3000-b45f4000 rw-p 0000f000 00:14 17328483   /usr/lib/libz.so.1.3.1
+b45f4000-b46b3000 r-xp 00000000 00:14 17334910   /usr/lib/libsqlite3.so.3.50.2
+b46b3000-b46b5000 r--p 000bf000 00:14 17334910   /usr/lib/libsqlite3.so.3.50.2
+b46b5000-b46b8000 rw-p 000c1000 00:14 17334910   /usr/lib/libsqlite3.so.3.50.2
+b46b8000-b479b000 r-xp 00000000 00:14 17338623   /usr/lib/libtvs-parser.so
+b479b000-b47a1000 r--p 000e3000 00:14 17338623   /usr/lib/libtvs-parser.so
+b47a1000-b47a4000 rw-p 000e9000 00:14 17338623   /usr/lib/libtvs-parser.so
+b47a4000-b47a6000 rw-p 00000000 00:00 0 
+b47a6000-b47a8000 r-xp 00000000 00:14 17308401   /usr/lib/libpthread.so.0
+b47a8000-b47a9000 r--p 00002000 00:14 17308401   /usr/lib/libpthread.so.0
+b47a9000-b47aa000 rw-p 00003000 00:14 17308401   /usr/lib/libpthread.so.0
+b47aa000-b4810000 r-xp 00000000 00:14 17333252   /usr/lib/libpcre2-8.so.0.14.0
+b4810000-b4811000 r--p 00066000 00:14 17333252   /usr/lib/libpcre2-8.so.0.14.0
+b4811000-b4812000 rw-p 00067000 00:14 17333252   /usr/lib/libpcre2-8.so.0.14.0
+b4812000-b496b000 r-xp 00000000 00:14 17305342   /usr/lib/libc-2.40.so
+b496b000-b496d000 r--p 00159000 00:14 17305342   /usr/lib/libc-2.40.so
+b496d000-b496e000 rw-p 0015b000 00:14 17305342   /usr/lib/libc-2.40.so
+b496e000-b4973000 rw-p 00000000 00:00 0 
+b4973000-b498e000 r-xp 00000000 00:14 17317257   /usr/lib/libgcc_s.so.1
+b498e000-b498f000 rw-p 0001a000 00:14 17317257   /usr/lib/libgcc_s.so.1
+b498f000-b4b21000 r-xp 00000000 00:14 17326974   /usr/lib/libstdc++.so.6.0.33
+b4b21000-b4b26000 r--p 00192000 00:14 17326974   /usr/lib/libstdc++.so.6.0.33
+b4b26000-b4b28000 rw-p 00197000 00:14 17326974   /usr/lib/libstdc++.so.6.0.33
+b4b28000-b4b2b000 rw-p 00000000 00:00 0 
+b4b2b000-b4cae000 r-xp 00000000 00:14 17327102   /usr/lib/libtvs-api.so
+b4cae000-b4cb6000 r--p 00183000 00:14 17327102   /usr/lib/libtvs-api.so
+b4cb6000-b4cb9000 rw-p 0018b000 00:14 17327102   /usr/lib/libtvs-api.so
+b4cb9000-b4cc1000 rw-p 00000000 00:00 0 
+b4cc1000-b4d5e000 r-xp 00000000 00:14 17327282   /usr/lib/libtvs-b2b.so
+b4d5e000-b4d62000 r--p 0009d000 00:14 17327282   /usr/lib/libtvs-b2b.so
+b4d62000-b4d64000 rw-p 000a1000 00:14 17327282   /usr/lib/libtvs-b2b.so
+b4d64000-b4d66000 r-xp 00000000 00:14 17338493   /usr/lib/libtvs-dtmb-sospec.so
+b4d66000-b4d67000 r--p 00002000 00:14 17338493   /usr/lib/libtvs-dtmb-sospec.so
+b4d67000-b4d68000 rw-p 00003000 00:14 17338493   /usr/lib/libtvs-dtmb-sospec.so
+b4d68000-b4d96000 r-xp 00000000 00:14 17330317   /usr/lib/libtvs-isdb-si.so
+b4d96000-b4d98000 r--p 0002e000 00:14 17330317   /usr/lib/libtvs-isdb-si.so
+b4d98000-b4d99000 rw-p 00030000 00:14 17330317   /usr/lib/libtvs-isdb-si.so
+b4d99000-b4d9d000 r-xp 00000000 00:14 17338617   /usr/lib/libtvs-isdb-sospec.so
+b4d9d000-b4d9e000 r--p 00004000 00:14 17338617   /usr/lib/libtvs-isdb-sospec.so
+b4d9e000-b4d9f000 rw-p 00005000 00:14 17338617   /usr/lib/libtvs-isdb-sospec.so
+b4d9f000-b4dc4000 r-xp 00000000 00:14 17330302   /usr/lib/libtvs-isdb-scan.so
+b4dc4000-b4dc5000 r--p 00025000 00:14 17330302   /usr/lib/libtvs-isdb-scan.so
+b4dc5000-b4dc6000 rw-p 00026000 00:14 17330302   /usr/lib/libtvs-isdb-scan.so
+b4dc6000-b4dc8000 rw-p 00000000 00:00 0 
+b4dc8000-b4dd7000 r-xp 00000000 00:14 17338598   /usr/lib/libtvs-dvbbase-live.so
+b4dd7000-b4dd8000 r--p 0000f000 00:14 17338598   /usr/lib/libtvs-dvbbase-live.so
+b4dd8000-b4dd9000 rw-p 00010000 00:14 17338598   /usr/lib/libtvs-dvbbase-live.so
+b4dd9000-b4deb000 r-xp 00000000 00:14 17316917   /usr/lib/libfbclient.so.0.2.0
+b4deb000-b4dec000 r--p 00012000 00:14 17316917   /usr/lib/libfbclient.so.0.2.0
+b4dec000-b4ded000 rw-p 00013000 00:14 17316917   /usr/lib/libfbclient.so.0.2.0
+b4ded000-b4dee000 rw-p 00000000 00:00 0 
+b4dee000-b4e01000 r-xp 00000000 00:14 17330292   /usr/lib/libtvs-isdb-live.so
+b4e01000-b4e02000 r--p 00013000 00:14 17330292   /usr/lib/libtvs-isdb-live.so
+b4e02000-b4e03000 rw-p 00014000 00:14 17330292   /usr/lib/libtvs-isdb-live.so
+b4e03000-b4e26000 r-xp 00000000 00:14 17335724   /usr/lib/libtvs-ewbs.so
+b4e26000-b4e27000 r--p 00023000 00:14 17335724   /usr/lib/libtvs-ewbs.so
+b4e27000-b4e28000 rw-p 00024000 00:14 17335724   /usr/lib/libtvs-ewbs.so
+b4e28000-b4f11000 r-xp 00000000 00:14 17338496   /usr/lib/libtvs-dvb-si.so
+b4f11000-b4f1a000 r--p 000e9000 00:14 17338496   /usr/lib/libtvs-dvb-si.so
+b4f1a000-b4f1d000 rw-p 000f2000 00:14 17338496   /usr/lib/libtvs-dvb-si.so
+b4f1d000-b4f47000 r-xp 00000000 00:14 17335635   /usr/lib/libtvs-dvb-chms.so
+b4f47000-b4f48000 r--p 0002a000 00:14 17335635   /usr/lib/libtvs-dvb-chms.so
+b4f48000-b4f49000 rw-p 0002b000 00:14 17335635   /usr/lib/libtvs-dvb-chms.so
+b4f49000-b4f4e000 r-xp 00000000 00:14 17327349   /usr/lib/libtvs-dvb-sospec.so
+b4f4e000-b4f4f000 r--p 00005000 00:14 17327349   /usr/lib/libtvs-dvb-sospec.so
+b4f4f000-b4f50000 rw-p 00006000 00:14 17327349   /usr/lib/libtvs-dvb-sospec.so
+b4f50000-b4fe0000 r-xp 00000000 00:14 17335679   /usr/lib/libtvs-dvbbase-si.so
+b4fe0000-b4fe2000 r--p 00090000 00:14 17335679   /usr/lib/libtvs-dvbbase-si.so
+b4fe2000-b4fe4000 rw-p 00092000 00:14 17335679   /usr/lib/libtvs-dvbbase-si.so
+b4fe4000-b4ffd000 r-xp 00000000 00:14 17335651   /usr/lib/libtvs-dvbbase-chms.so
+b4ffd000-b4ffe000 r--p 00019000 00:14 17335651   /usr/lib/libtvs-dvbbase-chms.so
+b4ffe000-b4fff000 rw-p 0001a000 00:14 17335651   /usr/lib/libtvs-dvbbase-chms.so
+b4fff000-b5013000 r-xp 00000000 00:14 17330165   /usr/lib/libtvs-dvbbase-udm.so
+b5013000-b5014000 r--p 00014000 00:14 17330165   /usr/lib/libtvs-dvbbase-udm.so
+b5014000-b5015000 rw-p 00015000 00:14 17330165   /usr/lib/libtvs-dvbbase-udm.so
+b5015000-b5067000 r-xp 00000000 00:14 17338569   /usr/lib/libtvs-dvbbase-guide.so
+b5067000-b5069000 r--p 00052000 00:14 17338569   /usr/lib/libtvs-dvbbase-guide.so
+b5069000-b506a000 rw-p 00054000 00:14 17338569   /usr/lib/libtvs-dvbbase-guide.so
+b506a000-b506c000 rw-p 00000000 00:00 0 
+b506c000-b5105000 r-xp 00000000 00:14 17330115   /usr/lib/libtvs-dvbbase-scan.so
+b5105000-b5109000 r--p 00099000 00:14 17330115   /usr/lib/libtvs-dvbbase-scan.so
+b5109000-b510c000 rw-p 0009d000 00:14 17330115   /usr/lib/libtvs-dvbbase-scan.so
+b510c000-b5134000 r-xp 00000000 00:14 17335663   /usr/lib/libtvs-dvbbase-ics.so
+b5134000-b5136000 r--p 00028000 00:14 17335663   /usr/lib/libtvs-dvbbase-ics.so
+b5136000-b5137000 rw-p 0002a000 00:14 17335663   /usr/lib/libtvs-dvbbase-ics.so
+b5137000-b518f000 r-xp 00000000 00:14 17327230   /usr/lib/libtvs-atsc30-si.so
+b518f000-b5190000 r--p 00058000 00:14 17327230   /usr/lib/libtvs-atsc30-si.so
+b5190000-b5191000 rw-p 00059000 00:14 17327230   /usr/lib/libtvs-atsc30-si.so
+b5191000-b519b000 r-xp 00000000 00:14 17327216   /usr/lib/libtvs-atsc30-guide.so
+b519b000-b519c000 r--p 0000a000 00:14 17327216   /usr/lib/libtvs-atsc30-guide.so
+b519c000-b519d000 rw-p 0000b000 00:14 17327216   /usr/lib/libtvs-atsc30-guide.so
+b519d000-b51b1000 r-xp 00000000 00:14 17327219   /usr/lib/libtvs-atsc30-scan.so
+b51b1000-b51b3000 r--p 00014000 00:14 17327219   /usr/lib/libtvs-atsc30-scan.so
+b51b3000-b51b4000 rw-p 00016000 00:14 17327219   /usr/lib/libtvs-atsc30-scan.so
+b51b4000-b51c4000 r-xp 00000000 00:14 17338476   /usr/lib/libtvs-atsc30-udm.so
+b51c4000-b51c5000 r--p 00010000 00:14 17338476   /usr/lib/libtvs-atsc30-udm.so
+b51c5000-b51c6000 rw-p 00011000 00:14 17338476   /usr/lib/libtvs-atsc30-udm.so
+b51c6000-b520a000 r-xp 00000000 00:14 17335479   /usr/lib/libtvs-atsc30-live.so
+b520a000-b520b000 r--p 00044000 00:14 17335479   /usr/lib/libtvs-atsc30-live.so
+b520b000-b520c000 rw-p 00045000 00:14 17335479   /usr/lib/libtvs-atsc30-live.so
+b520c000-b523a000 r-xp 00000000 00:14 17337421   /usr/lib/libtvs-nrt.so
+b523a000-b523b000 r--p 0002e000 00:14 17337421   /usr/lib/libtvs-nrt.so
+b523b000-b523c000 rw-p 0002f000 00:14 17337421   /usr/lib/libtvs-nrt.so
+b523c000-b5259000 r-xp 00000000 00:14 17319250   /usr/lib/liblibtv-plpmanager.so
+b5259000-b525a000 r--p 0001d000 00:14 17319250   /usr/lib/liblibtv-plpmanager.so
+b525a000-b525b000 rw-p 0001e000 00:14 17319250   /usr/lib/liblibtv-plpmanager.so
+b525b000-b52aa000 r-xp 00000000 00:14 17319464   /usr/lib/libtvs-tpms-base.so
+b52aa000-b52ac000 r--p 0004f000 00:14 17319464   /usr/lib/libtvs-tpms-base.so
+b52ac000-b52ad000 rw-p 00051000 00:14 17319464   /usr/lib/libtvs-tpms-base.so
+b52ad000-b5362000 r-xp 00000000 00:14 17335738   /usr/lib/libtvs-ext.so
+b5362000-b5365000 r--p 000b5000 00:14 17335738   /usr/lib/libtvs-ext.so
+b5365000-b5367000 rw-p 000b8000 00:14 17335738   /usr/lib/libtvs-ext.so
+b5367000-b5369000 rw-p 00000000 00:00 0 
+b5369000-b547a000 r-xp 00000000 00:14 17335552   /usr/lib/libtvs-dsm.so
+b547a000-b547d000 r--p 00111000 00:14 17335552   /usr/lib/libtvs-dsm.so
+b547d000-b5480000 rw-p 00114000 00:14 17335552   /usr/lib/libtvs-dsm.so
+b5480000-b5491000 rw-p 00000000 00:00 0 
+b5491000-b54c4000 r-xp 00000000 00:14 17335808   /usr/lib/libtvs-udm.so
+b54c4000-b54c5000 r--p 00033000 00:14 17335808   /usr/lib/libtvs-udm.so
+b54c5000-b54c6000 rw-p 00034000 00:14 17335808   /usr/lib/libtvs-udm.so
+b54c6000-b54d4000 r-xp 00000000 00:14 17327352   /usr/lib/libtvs-sospec.so
+b54d4000-b54d5000 r--p 0000e000 00:14 17327352   /usr/lib/libtvs-sospec.so
+b54d5000-b54d6000 rw-p 0000f000 00:14 17327352   /usr/lib/libtvs-sospec.so
+b54d6000-b5546000 r-xp 00000000 00:14 17338693   /usr/lib/libtvs-scan.so
+b5546000-b5549000 r--p 00070000 00:14 17338693   /usr/lib/libtvs-scan.so
+b5549000-b554a000 rw-p 00073000 00:14 17338693   /usr/lib/libtvs-scan.so
+b554a000-b5556000 rw-p 00000000 00:00 0 
+b5556000-b55d9000 r-xp 00000000 00:14 17319422   /usr/lib/libtvs-si.so
+b55d9000-b55db000 r--p 00083000 00:14 17319422   /usr/lib/libtvs-si.so
+b55db000-b55dd000 rw-p 00085000 00:14 17319422   /usr/lib/libtvs-si.so
+b55dd000-b562a000 r-xp 00000000 00:14 17330176   /usr/lib/libtvs-guide.so
+b562a000-b562b000 r--p 0004d000 00:14 17330176   /usr/lib/libtvs-guide.so
+b562b000-b562c000 rw-p 0004e000 00:14 17330176   /usr/lib/libtvs-guide.so
+b562c000-b5669000 r-xp 00000000 00:14 17327260   /usr/lib/libtvs-av.so
+b5669000-b566a000 r--p 0003d000 00:14 17327260   /usr/lib/libtvs-av.so
+b566a000-b566b000 rw-p 0003e000 00:14 17327260   /usr/lib/libtvs-av.so
+b566b000-b576c000 r-xp 00000000 00:14 17337342   /usr/lib/libtvs-live.so
+b576c000-b5770000 r--p 00101000 00:14 17337342   /usr/lib/libtvs-live.so
+b5770000-b5772000 rw-p 00105000 00:14 17337342   /usr/lib/libtvs-live.so
+b5772000-b578c000 r-xp 00000000 00:14 17304442   /usr/lib/libaudio-control.so.0.1
+b578c000-b578d000 r--p 0001a000 00:14 17304442   /usr/lib/libaudio-control.so.0.1
+b578d000-b578e000 rw-p 0001b000 00:14 17304442   /usr/lib/libaudio-control.so.0.1
+b578e000-b57b6000 r-xp 00000000 00:14 17338730   /usr/lib/libtvs-tvplus.so
+b57b6000-b57b7000 r--p 00028000 00:14 17338730   /usr/lib/libtvs-tvplus.so
+b57b7000-b57b8000 rw-p 00029000 00:14 17338730   /usr/lib/libtvs-tvplus.so
+b57b8000-b57c6000 r-xp 00000000 00:14 17330687   /usr/lib/libvconf.so.0.3.1
+b57c6000-b57c7000 r--p 0000e000 00:14 17330687   /usr/lib/libvconf.so.0.3.1
+b57c7000-b57c8000 rw-p 0000f000 00:14 17330687   /usr/lib/libvconf.so.0.3.1
+b57c8000-b57ca000 rw-p 00000000 00:00 0 
+b57ca000-b57cc000 r-xp 00000000 00:14 17331818   /usr/lib/liblwipc.so
+b57cc000-b57cd000 r--p 00002000 00:14 17331818   /usr/lib/liblwipc.so
+b57cd000-b57ce000 rw-p 00003000 00:14 17331818   /usr/lib/liblwipc.so
+b57ce000-b57d1000 r-xp 00000000 00:14 17306914   /usr/lib/libdlog.so.0.0.0
+b57d1000-b57d2000 r--p 00003000 00:14 17306914   /usr/lib/libdlog.so.0.0.0
+b57d2000-b57d3000 rw-p 00004000 00:14 17306914   /usr/lib/libdlog.so.0.0.0
+b57d3000-b57dd000 r-xp 00000000 00:14 17310984   /usr/lib/libcapi-system-info.so.0.2.1
+b57dd000-b57de000 r--p 0000a000 00:14 17310984   /usr/lib/libcapi-system-info.so.0.2.1
+b57de000-b57df000 rw-p 0000b000 00:14 17310984   /usr/lib/libcapi-system-info.so.0.2.1
+b57df000-b57e9000 r-xp 00000000 00:14 17320111   /usr/lib/libwayland-client.so.0.23.1
+b57e9000-b57ea000 r--p 0000a000 00:14 17320111   /usr/lib/libwayland-client.so.0.23.1
+b57ea000-b57eb000 rw-p 0000b000 00:14 17320111   /usr/lib/libwayland-client.so.0.23.1
+b57eb000-b57f0000 r-xp 00000000 00:14 17338065   /usr/lib/libtizen-extension-tv-client.so.0.0.0
+b57f0000-b57f2000 r--p 00005000 00:14 17338065   /usr/lib/libtizen-extension-tv-client.so.0.0.0
+b57f2000-b57f3000 rw-p 00007000 00:14 17338065   /usr/lib/libtizen-extension-tv-client.so.0.0.0
+b57f3000-b57f7000 r-xp 00000000 00:14 17335293   /usr/lib/libtizen-extension-client.so.0.0.0
+b57f7000-b57f8000 r--p 00004000 00:14 17335293   /usr/lib/libtizen-extension-client.so.0.0.0
+b57f8000-b57f9000 rw-p 00005000 00:14 17335293   /usr/lib/libtizen-extension-client.so.0.0.0
+b57f9000-b57fe000 r-xp 00000000 00:14 17335927   /usr/lib/libtzplatform-config-2.0.so.2.0.0
+b57fe000-b57ff000 r--p 00005000 00:14 17335927   /usr/lib/libtzplatform-config-2.0.so.2.0.0
+b57ff000-b5800000 rw-p 00006000 00:14 17335927   /usr/lib/libtzplatform-config-2.0.so.2.0.0
+b5800000-b5805000 rw-p 00000000 00:00 0 
+b5805000-b583e000 r-xp 00000000 00:14 17307315   /usr/lib/libgobject-2.0.so.0.8000.5
+b583e000-b5840000 r--p 00039000 00:14 17307315   /usr/lib/libgobject-2.0.so.0.8000.5
+b5840000-b5841000 rw-p 0003b000 00:14 17307315   /usr/lib/libgobject-2.0.so.0.8000.5
+b5841000-b595f000 r-xp 00000000 00:14 17315995   /usr/lib/libgio-2.0.so.0.8000.5
+b595f000-b5963000 r--p 0011e000 00:14 17315995   /usr/lib/libgio-2.0.so.0.8000.5
+b5963000-b5965000 rw-p 00122000 00:14 17315995   /usr/lib/libgio-2.0.so.0.8000.5
+b5965000-b5966000 rw-p 00000000 00:00 0 
+b5966000-b597b000 r-xp 00000000 00:14 17333902   /usr/lib/libresource-center-api.so.0.9
+b597b000-b597c000 r--p 00015000 00:14 17333902   /usr/lib/libresource-center-api.so.0.9
+b597c000-b597d000 rw-p 00016000 00:14 17333902   /usr/lib/libresource-center-api.so.0.9
+b597d000-b5984000 r-xp 00000000 00:14 12234746   /usr/lib/libAppBinaryMgrServiceAPI.so
+b5984000-b5985000 r--p 00007000 00:14 12234746   /usr/lib/libAppBinaryMgrServiceAPI.so
+b5985000-b5986000 rw-p 00008000 00:14 12234746   /usr/lib/libAppBinaryMgrServiceAPI.so
+b5986000-b5988000 rw-p 00000000 00:00 0 
+b5988000-b59c7000 r-xp 00000000 00:14 17335457   /usr/lib/libtvs-api-lite.so
+b59c7000-b59c8000 r--p 0003f000 00:14 17335457   /usr/lib/libtvs-api-lite.so
+b59c8000-b59c9000 rw-p 00040000 00:14 17335457   /usr/lib/libtvs-api-lite.so
+b59c9000-b59e9000 r-xp 00000000 00:14 17335443   /usr/lib/libtvs-api-ipc.so
+b59e9000-b59ea000 r--p 00020000 00:14 17335443   /usr/lib/libtvs-api-ipc.so
+b59ea000-b59eb000 rw-p 00021000 00:14 17335443   /usr/lib/libtvs-api-ipc.so
+b59eb000-b59ed000 r-xp 00000000 00:14 17334861   /usr/lib/libsmart-deadlock.so
+b59ed000-b59ee000 r--p 00002000 00:14 17334861   /usr/lib/libsmart-deadlock.so
+b59ee000-b59ef000 rw-p 00003000 00:14 17334861   /usr/lib/libsmart-deadlock.so
+b59ef000-b59f1000 r-xp 00000000 00:14 17311016   /usr/lib/libcapi-system-resource.so.1.0.0
+b59f1000-b59f2000 r--p 00002000 00:14 17311016   /usr/lib/libcapi-system-resource.so.1.0.0
+b59f2000-b59f3000 rw-p 00003000 00:14 17311016   /usr/lib/libcapi-system-resource.so.1.0.0
+b59f3000-b5a30000 r-xp 00000000 00:14 17316564   /usr/lib/libdeviced.so.1.0.3
+b5a30000-b5a31000 r--p 0003d000 00:14 17316564   /usr/lib/libdeviced.so.1.0.3
+b5a31000-b5a32000 rw-p 0003e000 00:14 17316564   /usr/lib/libdeviced.so.1.0.3
+b5a32000-b5a3e000 r-xp 00000000 00:14 17303983   /usr/lib/libapputil.so.0.1.0
+b5a3e000-b5a3f000 r--p 0000c000 00:14 17303983   /usr/lib/libapputil.so.0.1.0
+b5a3f000-b5a40000 rw-p 0000d000 00:14 17303983   /usr/lib/libapputil.so.0.1.0
+b5a40000-b5a45000 r-xp 00000000 00:14 17311049   /usr/lib/libcapi-system-tvtimer.so
+b5a45000-b5a46000 r--p 00005000 00:14 17311049   /usr/lib/libcapi-system-tvtimer.so
+b5a46000-b5a47000 rw-p 00006000 00:14 17311049   /usr/lib/libcapi-system-tvtimer.so
+b5a47000-b5a98000 r-xp 00000000 00:14 17315808   /usr/lib/libfactory-interface-ATSC.so
+b5a98000-b5a9b000 r--p 00051000 00:14 17315808   /usr/lib/libfactory-interface-ATSC.so
+b5a9b000-b5a9d000 rw-p 00054000 00:14 17315808   /usr/lib/libfactory-interface-ATSC.so
+b5a9d000-b5aa5000 r-xp 00000000 00:14 17338620   /usr/lib/libtvs-objectfactory.so
+b5aa5000-b5aa6000 r--p 00008000 00:14 17338620   /usr/lib/libtvs-objectfactory.so
+b5aa6000-b5aa7000 rw-p 00009000 00:14 17338620   /usr/lib/libtvs-objectfactory.so
+b5aa7000-b5ab5000 r-xp 00000000 00:14 17327355   /usr/lib/libtvs-time.so
+b5ab5000-b5ab6000 r--p 0000e000 00:14 17327355   /usr/lib/libtvs-time.so
+b5ab6000-b5ab7000 rw-p 0000f000 00:14 17327355   /usr/lib/libtvs-time.so
+b5ab7000-b5b0d000 r-xp 00000000 00:14 17330262   /usr/lib/libtvs-ics.so
+b5b0d000-b5b0f000 r--p 00056000 00:14 17330262   /usr/lib/libtvs-ics.so
+b5b0f000-b5b10000 rw-p 00058000 00:14 17330262   /usr/lib/libtvs-ics.so
+b5b10000-b5b12000 rw-p 00000000 00:00 0 
+b5b12000-b5b1a000 r-xp 00000000 00:14 17335549   /usr/lib/libtvs-config.so
+b5b1a000-b5b1b000 r--p 00008000 00:14 17335549   /usr/lib/libtvs-config.so
+b5b1b000-b5b1c000 rw-p 00009000 00:14 17335549   /usr/lib/libtvs-config.so
+b5b1c000-b5c30000 r-xp 00000000 00:14 17330334   /usr/lib/libtvs-iss.so
+b5c30000-b5c34000 r--p 00114000 00:14 17330334   /usr/lib/libtvs-iss.so
+b5c34000-b5c37000 rw-p 00118000 00:14 17330334   /usr/lib/libtvs-iss.so
+b5c37000-b5d38000 r-xp 00000000 00:14 17335826   /usr/lib/libtvs-util.so
+b5d38000-b5d3b000 r--p 00101000 00:14 17335826   /usr/lib/libtvs-util.so
+b5d3b000-b5d3e000 rw-p 00104000 00:14 17335826   /usr/lib/libtvs-util.so
+b5d3e000-b5d3f000 rw-p 00000000 00:00 0 
+b5d3f000-b5d4f000 r-xp 00000000 00:14 17338607   /usr/lib/libtvs-ems.so
+b5d4f000-b5d50000 r--p 00010000 00:14 17338607   /usr/lib/libtvs-ems.so
+b5d50000-b5d51000 rw-p 00011000 00:14 17338607   /usr/lib/libtvs-ems.so
+b5d51000-b5d7d000 r-xp 00000000 00:14 17316480   /usr/lib/libdebug_rcv.so
+b5d7d000-b5d7e000 r--p 0002c000 00:14 17316480   /usr/lib/libdebug_rcv.so
+b5d7e000-b5d7f000 rw-p 0002d000 00:14 17316480   /usr/lib/libdebug_rcv.so
+b5d7f000-b5da6000 r-xp 00000000 00:14 17327331   /usr/lib/libtvs-core.so.0.1
+b5da6000-b5da7000 r--p 00027000 00:14 17327331   /usr/lib/libtvs-core.so.0.1
+b5da7000-b5da8000 rw-p 00028000 00:14 17327331   /usr/lib/libtvs-core.so.0.1
+b5da8000-b5e3c000 r-xp 00000000 00:14 17319491   /usr/lib/libtvs-tpms.so
+b5e3c000-b5e3e000 r--p 00094000 00:14 17319491   /usr/lib/libtvs-tpms.so
+b5e3e000-b5e40000 rw-p 00096000 00:14 17319491   /usr/lib/libtvs-tpms.so
+b5e40000-b5e84000 r-xp 00000000 00:14 17330091   /usr/lib/libtvs-dbms.so
+b5e84000-b5e85000 r--p 00044000 00:14 17330091   /usr/lib/libtvs-dbms.so
+b5e85000-b5e86000 rw-p 00045000 00:14 17330091   /usr/lib/libtvs-dbms.so
+b5e86000-b5f15000 r-xp 00000000 00:14 17330046   /usr/lib/libtvs-chms.so
+b5f15000-b5f17000 r--p 0008f000 00:14 17330046   /usr/lib/libtvs-chms.so
+b5f17000-b5f19000 rw-p 00091000 00:14 17330046   /usr/lib/libtvs-chms.so
+b5f19000-b5f1a000 rw-p 00000000 00:00 0 
+b5f1a000-b6089000 r-xp 00000000 00:14 17338368   /usr/lib/libtvs-api-native.so
+b6089000-b608d000 r--p 0016f000 00:14 17338368   /usr/lib/libtvs-api-native.so
+b608d000-b6090000 rw-p 00173000 00:14 17338368   /usr/lib/libtvs-api-native.so
+b6090000-b6091000 rw-p 00000000 00:00 0 
+b6091000-b6173000 r-xp 00000000 00:14 17317404   /usr/lib/libglib-2.0.so.0.8000.5
+b6173000-b6174000 r--p 000e2000 00:14 17317404   /usr/lib/libglib-2.0.so.0.8000.5
+b6174000-b6175000 rw-p 000e3000 00:14 17317404   /usr/lib/libglib-2.0.so.0.8000.5
+b6175000-b6177000 rw-p 00000000 00:00 0 
+b6177000-b6178000 r-xp 00000000 00:14 17328125   /usr/lib/libwifi-vendor.so
+b6178000-b6179000 r--p 00001000 00:14 17328125   /usr/lib/libwifi-vendor.so
+b6179000-b617a000 rw-p 00002000 00:14 17328125   /usr/lib/libwifi-vendor.so
+b617a000-b617b000 r--p 00000000 00:00 0 
+b617b000-b617c000 rw-s 00000000 00:21 42         /dev/shm/TVS
+b617c000-b617d000 r--s 00000000 00:21 9          /dev/shm/shm_fms_hdr
+b617d000-b618f000 r--p 06da0000 00:06 190        /dev/vlog
+b618f000-b6196000 r-xp 00000000 00:14 17337879   /usr/lib/libteec_trustware.so
+b6196000-b6197000 r--p 00007000 00:14 17337879   /usr/lib/libteec_trustware.so
+b6197000-b6198000 rw-p 00008000 00:14 17337879   /usr/lib/libteec_trustware.so
+b6198000-b619a000 r-xp 00000000 00:14 17311009   /usr/lib/libcapi-system-resource-plugin.so.0.0.1
+b619a000-b619b000 r--p 00002000 00:14 17311009   /usr/lib/libcapi-system-resource-plugin.so.0.0.1
+b619b000-b619c000 rw-p 00003000 00:14 17311009   /usr/lib/libcapi-system-resource-plugin.so.0.0.1
+b619c000-b61c5000 r-xp 00000000 00:14 17301504   /usr/lib/ld-linux.so.3
+b61c5000-b61c7000 r--p 00029000 00:14 17301504   /usr/lib/ld-linux.so.3
+b61c7000-b61c8000 rw-p 0002b000 00:14 17301504   /usr/lib/ld-linux.so.3
+be0a6000-be0c7000 rw-p 00000000 00:00 0          [stack]
+be115000-be116000 r-xp 00000000 00:00 0          [sigpage]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]

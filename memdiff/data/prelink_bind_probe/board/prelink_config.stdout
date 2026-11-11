@@ -1,0 +1,2 @@
+ls: cannot access /etc/prelink.conf.d: No such file or directory
+-rwxrwxrwx 1 root root 195 Nov  6 01:45 /etc/prelink.conf

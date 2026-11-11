@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:12.510993+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "cat /proc/691/comm"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tvs-daemon_691_comm.stdout",
+  "stderr_file": "proc_tvs-daemon_691_comm.stderr"
+}

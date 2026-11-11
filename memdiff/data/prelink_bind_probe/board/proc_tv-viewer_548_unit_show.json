@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:34.995355+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "systemctl show init.scope -p Id,Type,Restart,User,Group,SmackProcessLabel,CapabilityBoundingSet,Requires,Wants,After,PartOf,TriggeredBy,Triggers,ActiveState,SubState --no-pager"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tv-viewer_548_unit_show.stdout",
+  "stderr_file": "proc_tv-viewer_548_unit_show.stderr"
+}

@@ -1,0 +1,4 @@
+{
+  "command": "sh -c 'command -v prelink; printf \"REMOTE_RC=%s\\n\" \"$?\"'",
+  "sdb_rc": 0
+}

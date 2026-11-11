@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-11-11T08:51:32.361861+00:00",
+  "command": "cat /proc/uptime",
+  "rc": 0,
+  "stdout": "1847.14 5751.04\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:07.905569+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "ls -ld /etc/prelink.conf /etc/prelink.conf.d"
+  ],
+  "rc": 0,
+  "stdout_file": "prelink_config.stdout",
+  "stderr_file": "prelink_config.stderr"
+}

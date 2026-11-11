@@ -1,0 +1,4 @@
+{
+  "command": "systemctl show aaa_tvs_deamon.service -p RequiredBy,WantedBy,BoundBy,PartOf,ConsistsOf,TriggeredBy,Triggers --no-pager",
+  "sdb_rc": 0
+}

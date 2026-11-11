@@ -1,0 +1,15 @@
+[0;1;34m# ]8;;file://localhost/usr/lib/systemd/system/./org.tizen.tv.factory-service.service/usr/lib/systemd/system/./org.tizen.tv.factory-service.service]8;;[0m
+[Unit]
+Description=factory-service service
+Requires=dbus.service
+After=dbus.service
+DefaultDependencies=no
+
+[Service]
+Type=simple
+Environment=LD_USE_LOAD_BIAS=1
+ExecStart=/usr/bin/TIFSDaemon
+Restart=always
+
+[Install]
+WantedBy=sysinit.target

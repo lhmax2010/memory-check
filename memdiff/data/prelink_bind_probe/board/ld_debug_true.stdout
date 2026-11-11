@@ -1,0 +1,25 @@
+      3254:	find library=libc.so.6 [0]; searching
+      3254:	 search cache=/etc/ld.so.cache
+      3254:	  trying file=/usr/lib/libc.so.6
+      3254:	
+      3254:	find library=libgcc_s.so.1 [0]; searching
+      3254:	 search cache=/etc/ld.so.cache
+      3254:	  trying file=/usr/lib/libgcc_s.so.1
+      3254:	
+      3254:	
+      3254:	[vdprelink failed] /bin/true: not prelinked
+      3254:	
+      3254:	calling init: /lib/ld-linux.so.3
+      3254:	
+      3254:	
+      3254:	calling init: /usr/lib/libc.so.6
+      3254:	
+      3254:	
+      3254:	calling init: /usr/lib/libgcc_s.so.1
+      3254:	
+      3254:	
+      3254:	initialize program: /bin/true
+      3254:	
+      3254:	
+      3254:	transferring control: /bin/true
+      3254:	

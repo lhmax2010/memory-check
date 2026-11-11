@@ -1,0 +1,7 @@
+{
+  "name": "model",
+  "command": "cat /proc/device-tree/model",
+  "rc": 1,
+  "stdout": "",
+  "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+}

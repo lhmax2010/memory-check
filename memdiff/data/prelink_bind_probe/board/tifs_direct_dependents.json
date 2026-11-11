@@ -1,0 +1,4 @@
+{
+  "command": "systemctl show org.tizen.tv.factory-service.service -p RequiredBy,WantedBy,BoundBy,PartOf,ConsistsOf,TriggeredBy,Triggers --no-pager",
+  "sdb_rc": 0
+}

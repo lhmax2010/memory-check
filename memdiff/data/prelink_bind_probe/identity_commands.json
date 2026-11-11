@@ -1,0 +1,72 @@
+[
+  {
+    "name": "id",
+    "command": "id -u",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "os_release",
+    "command": "cat /etc/os-release",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "build_id",
+    "command": "cat /etc/os-release; cat /etc/tizen-release 2>/dev/null || :",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "uname",
+    "command": "uname -a",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "arch",
+    "command": "uname -m",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "model",
+    "command": "cat /proc/device-tree/model",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "cmdline",
+    "command": "cat /proc/cmdline",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "version",
+    "command": "cat /proc/version",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "uptime",
+    "command": "cat /proc/uptime",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  },
+  {
+    "name": "boot_id",
+    "command": "cat /proc/sys/kernel/random/boot_id",
+    "rc": 1,
+    "stdout": "",
+    "stderr": "error: target not found\nerror: serial number '192.168.108.26' wrong\n"
+  }
+]

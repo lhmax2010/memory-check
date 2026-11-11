@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:04.620820+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "cat /proc/self/mountinfo"
+  ],
+  "rc": 0,
+  "stdout_file": "mountinfo.stdout",
+  "stderr_file": "mountinfo.stderr"
+}

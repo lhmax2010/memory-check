@@ -1,0 +1,4 @@
+{
+  "command": "systemctl status 260 --no-pager --full",
+  "sdb_rc": 0
+}

@@ -1,0 +1,4 @@
+org.tizen.tv.factory-service.service
+[0m●[0m ├─dbus.service
+[0;1;32m●[0m └─system.slice
+[0;1;32m●[0m   └─-.slice

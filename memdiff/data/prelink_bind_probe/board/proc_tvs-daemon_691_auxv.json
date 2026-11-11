@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:13.554950+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "od -An -tu4 /proc/691/auxv"
+  ],
+  "rc": 0,
+  "stdout_file": "proc_tvs-daemon_691_auxv.stdout",
+  "stderr_file": "proc_tvs-daemon_691_auxv.stderr"
+}

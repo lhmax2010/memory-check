@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-11-11T08:51:32.009592+00:00",
+  "command": "cat /proc/device-tree/model",
+  "rc": 0,
+  "stdout": "Novatek NT72671D\u0000",
+  "stderr": ""
+}

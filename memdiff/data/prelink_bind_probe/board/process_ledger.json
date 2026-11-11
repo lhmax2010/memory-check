@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tvs-daemon",
+    "pid": 691,
+    "exe": "/usr/bin/tvs-daemon",
+    "unit_from_cgroup": "aaa_tvs_deamon.service"
+  },
+  {
+    "name": "tv-viewer",
+    "pid": 548,
+    "exe": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "unit_from_cgroup": "init.scope"
+  },
+  {
+    "name": "launchpad-loader",
+    "pid": 754,
+    "exe": "/usr/bin/launchpad-loader",
+    "unit_from_cgroup": "init.scope"
+  },
+  {
+    "name": "TIFSDaemon",
+    "pid": 979,
+    "exe": "/usr/bin/TIFSDaemon",
+    "unit_from_cgroup": "org.tizen.tv.factory-service.service"
+  }
+]

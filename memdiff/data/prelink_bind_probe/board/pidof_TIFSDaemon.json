@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:38.301440+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "pidof TIFSDaemon"
+  ],
+  "rc": 0,
+  "stdout_file": "pidof_TIFSDaemon.stdout",
+  "stderr_file": "pidof_TIFSDaemon.stderr"
+}

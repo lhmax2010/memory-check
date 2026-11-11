@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:08.030283+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "find / -xdev \\( -path /proc -o -path /sys \\) -prune -o -iname '*prelink*' -print"
+  ],
+  "rc": 0,
+  "stdout_file": "find_prelink.stdout",
+  "stderr_file": "find_prelink.stderr"
+}

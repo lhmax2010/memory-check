@@ -1,0 +1,7 @@
+{
+  "rc": true,
+  "armv7l": true,
+  "model": true,
+  "dtsversion": true,
+  "clang": true
+}

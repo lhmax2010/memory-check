@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-11T09:00:04.999261+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c '\nset -u\nsrc=/opt/usr/tmp_probe/prelink_bind_source_20261111_090004_1961645\ndst=/opt/usr/prelink_bind_target_20261111_090004_1961645\nbase=/opt/usr/tmp_probe\ncreated_dir=0\nmounted=0\ncleanup() {\n  if [ \"$mounted\" = 1 ]; then\n    if umount \"$dst\"; then echo '\"'\"'cleanup_umount=ok'\"'\"'; mounted=0; else echo '\"'\"'cleanup_umount=FAILED'\"'\"'; return 1; fi\n  fi\n  rm -f \"$src\" \"$dst\" || return 1\n  if [ \"$created_dir\" = 1 ]; then rmdir \"$base\" || return 1; fi\n  echo '\"'\"'cleanup_files=ok'\"'\"'\n}\ntrap cleanup EXIT\nif [ -e \"$src\" ] || [ -e \"$dst\" ]; then echo '\"'\"'probe_file_collision'\"'\"'; exit 2; fi\nif [ -d \"$base\" ]; then echo '\"'\"'tmp_probe_preexisting=1'\"'\"'; else\n  mkdir \"$base\" || exit 3\n  created_dir=1\n  echo '\"'\"'tmp_probe_preexisting=0'\"'\"'\nfi\nprintf '\"'\"'prelink-bind-source:20261111_090004\n'\"'\"' > \"$src\" || exit 4\n: > \"$dst\" || exit 5\nif [ -s \"$dst\" ]; then echo '\"'\"'target_not_empty'\"'\"'; exit 6; fi\necho '\"'\"'target_initially_empty=1'\"'\"'\nmount --bind \"$src\" \"$dst\" || exit 7\nmounted=1\necho '\"'\"'bind_mount=ok'\"'\"'\ncat \"$dst\" || exit 8\nif ! cmp -s \"$src\" \"$dst\"; then echo '\"'\"'content_mismatch'\"'\"'; exit 9; fi\necho '\"'\"'content_matches=1'\"'\"'\n'"
+  ],
+  "rc": 0,
+  "stdout_file": "bind_selftest.stdout",
+  "stderr_file": "bind_selftest.stderr"
+}

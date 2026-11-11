@@ -1,0 +1,7 @@
+[0;1;32m●[0m org.tizen.tv.factory-service.service - factory-service service
+     Loaded: loaded (]8;;file://localhost/usr/lib/systemd/system/./org.tizen.tv.factory-service.service/usr/lib/systemd/system/./org.tizen.tv.factory-service.service]8;;; disabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 1969-12-31 16:00:09 PST; 56 years 10 months ago
+TriggeredBy: [0;1;32m●[0m factory-init.path
+   Main PID: 979 (TIFSDaemon)
+     CGroup: /system.slice/org.tizen.tv.factory-service.service
+             └─979 /usr/bin/TIFSDaemon
