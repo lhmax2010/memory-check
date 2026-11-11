@@ -1,0 +1,10 @@
+{
+  "GCC_ELF_count": 1463,
+  "LLVM_ELF_count": 1452,
+  "common_paths": 1365,
+  "extra_exported_symbols": 114903,
+  "readelf_errors": 0,
+  "readelf": "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-readelf",
+  "cxxfilt": "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-c++filt",
+  "cxxfilt_LD_LIBRARY_PATH": "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/lib64"
+}

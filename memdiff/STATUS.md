@@ -468,3 +468,13 @@ systemd 实例：新 `nopie_capture_instances.sh` 为未来普查记录每个进
 已闭合：交叉 readelf `-SW/-lW` 加文件偏移逐页交集，跨节页按字节分摊；39 个 VMA 的 pagemap present×页大小与 smaps Rss 全部相同。13 对象当前 r-x 驻留 8820.0 KiB，其中加载器相关节 5041.7 KiB（57.2%）、`.text` 2744.9 KiB（31.1%）。GCC 两次的同对象 r-x Rss 均值 4390.0 KiB；由 GCC 每对象加载器节静态大小与 Rss 上界可严格推出加载器节驻留净增长至少 2590.6 KiB（总 r-x 差 4430.0 KiB 的 58.5%），但精确增长无法确定。8 个对象的 GCC r-x Rss 小于其加载器相关节静态大小，证明这些表未整段驻留；12 个库与第三轮 LLVM ELF 逐字节相同，tv-viewer 主程序不同。报告 `memdiff/reports/code_page_sections.md`；逐节及逐对象数据在 `memdiff/data/code_page_sections/sections.tsv`、`section_residency.tsv`、`object_sections_wide.tsv`、`object_summary.tsv`。
 
 挂账：历史 GCC 没有逐页 pagemap，故不能精确分解 ELF 节的 LLVM−GCC 差值；当前不同 BUILD_ID 与未锁定工作负载也限制跨镜像因果判断。恢复预链接能否省这部分 r-x 驻留仍未确定，需要用户和 Claude 另行设计同版镜像实验。只把本次报告、数据与状态上传到 `lhmax2010/memory-check`，不带本机仓库其他改动。
+
+### 全系统代码映射 ELF 节归属与动态表复核（2026-11-11）
+
+计划与进度：同一 IP `192.168.108.26` 先核对 armv7l、NT72671D、KSU2E、clang 内核及与上轮相同的 `BUILD_ID=T-KSU2EJAKUC-0101-PERF-202611061751`，全部通过。板上 root 只读采初始 322 个 PID：316 个完整，6 个退出/不完整不重试；每 PID 一次 SDB shell，在其内对每个 r-xp 文件 VMA 一次 dd+od 读取完整 pagemap。拉回 1555 个映射路径，1549 个 SHA256 两侧一致、6 个失败；其中可用 ELF 1452 个。root off 后 UID 和 boot ID 均恢复/不变。板上无文件写入、无重启、无部署。原始命令、返回码、输出与 SHA 在 `memdiff/data/system_code_page_sections/collection.json`、`raw/`、`elf/`；进度日志 `collect.log` 以“已结束 … 状态=DONE”结束。
+
+已闭合：解析 16414 个 r-xp 文件 VMA，pagemap present×页大小与 smaps Rss 逐 VMA 完全相同；同文件偏移取并集，r-x 私脏、TEXTREL、inode 异常等单列排除，节归属仍用上轮按字节交集的算法。可信共同文件 1360 个，LLVM 唯一 r-x 驻留 191844.0 KiB，GCC 两次 Pss 和均值 174892.5 KiB，差 +16951.5 KiB；LLVM 加载器节驻留 62256.4 KiB，加载器节净增下界 +8902.4 KiB；去加载器后 ≤GCC 1102 个、>GCC 258 个。prelink.conf 8 个目录内子集 1072 个，差 +16973.0 KiB、加载器节 47686.0 KiB、下界 +10322.1 KiB、≤/> 为 831/241。周报“clang r-x +5.168457 MiB”是第三轮 1292 匹配路径的逐映射 Pss，而非本次唯一页；本次同路径同 Pss 口径相对历史 GCC 为 +9912.5 KiB，BUILD_ID 和运行集合不同，不解释为编译器效应。来源 `memdiff/reports/system_code_page_sections.md` 与 `summary.tsv`、`weekly_reconciliation.json`、`file_residency.tsv`。
+
+离线核对：GCC 板上 ELF 副本 1463 个，带任一预链接标记 425 个；LLVM 当前 ELF 1452 个，带标记 0 个。`.rel.dyn` 为 REL/RELA 的 GCC 1300/163、LLVM 1452/0。共同 ELF 1365 个，其动态符号 WEAK 已定义合计 GCC 62857、LLVM 188193；13 个上轮对象逐项见 `thirteen_dynamic.tsv`。交叉 c++filt 首次缺 libbfd 失败的日志保留，改用同一 GBS root 的 `usr/lib64` 后仅重跑符号反解并成功；readelf 错误 0。`qa.json` 八项一致性检查全部通过。原始表、脚本和日志在 `memdiff/data/system_code_page_sections/`。
+
+挂账：6 个采集时退出的 PID、6 个拉取失败路径、114 个共同文件因非 ELF/缺副本或无法可靠去重不进入 ELF 节汇总；完整清单在报告及数据表。GCC Pss 逐映射舍入且两侧镜像/进程集合不同，跨镜像差额不能直接归因于编译器。ELF 符号名可识别模板候选和类成员，但无法单凭 c++filt 证明类内定义或 inline，报告标“未确定”。只把本次结果推到用户指定的 `lhmax2010/memory-check`。

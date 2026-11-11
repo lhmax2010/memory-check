@@ -1,0 +1,178 @@
+path	population	eligible	exclude_reasons	LLVM_unique_rx_Rss_kB	LLVM_loader_resident_kB	LLVM_without_loader_kB	LLVM_text_resident_kB	GCC1_rx_Pss_sum_kB	GCC2_rx_Pss_sum_kB	GCC_mean_rx_Pss_sum_kB	GCC_loader_sections_size_kB	loader_growth_strict_lower_kB	LLVM_nonloader_minus_GCC_kB	in_prelink_dir	LLVM_mappers	GCC1_mappers	GCC2_mappers	cross_section_pages	rx_Private_Dirty_kB
+/opt/dotnet/tac/Libraries/libhrs_api.so..27934b43766f529df8e9b7f064c133c351ab7cd8ab063d3be6029028272ac8f2	LLVM_only	False		76	14.919922	61.080078	51.390625	0	0	0.0	MISSING		61.080078	False	1	0	0	5	0
+/opt/usr/apps/Ddrm/WidevineCdm/lib/libwvcdm.so.0.1.1	LLVM_only	False		760	525.091797	234.908203	194.570312	0	0	0.0	MISSING		234.908203	False	1	0	0	9	0
+/opt/usr/apps/com.samsung.tizen.contextengine/lib/libcontext-aware-service-common.so	GCC_only	False						96	96	96.0	33.386719			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/lib/libsmartthings-client.so	GCC_only	False						40	40	40.0	40.982422			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/lib/plugins/libcontextengine-plugin-multiprofile.so	GCC_only	False						56	56	56.0	9.664062			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/lib/plugins/libcontextengine-plugin-perception.so	GCC_only	False						128	128	128.0	15.501953			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/lib/plugins/libcontextengine-plugin-setting.so	GCC_only	False						156	156	156.0	19.620117			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/lib/plugins/libcontextengine-plugin-userplatform.so	GCC_only	False						64	64	64.0	13.275391			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libCtxAppProvider.so	GCC_only	False						12	12	12.0	4.743164			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libCtxEnvProvider.so	GCC_only	False						36	36	36.0	12.388672			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libCtxMediaProvider.so	GCC_only	False						52	48	50.0	12.750977			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libCtxSoundProvider.so	GCC_only	False						60	60	60.0	17.303711			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libDataSessionProvider.so	GCC_only	False						96	96	96.0	21.907227			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libPrefAppProvider.so	GCC_only	False						84	84	84.0	17.548828			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libPrefChannelProvider.so	GCC_only	False						140	140	140.0	27.944336			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/lib/libSettingProvider.so	GCC_only	False						80	80	80.0	17.255859			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-caf/libcontextengine-plugin-caf.so	GCC_only	False						500	500	500.0	109.902344			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-systeminfo/libcontextengine-plugin-systeminfo.so	GCC_only	False						48	48	48.0	6.826172			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.hrs-agent.storage/bin/hrs-agent.storage	LLVM_only	False		632	26.594727	605.405273	527.476562	0	0	0.0	MISSING		605.405273	False	1	0	0	7	0
+/opt/usr/apps/com.samsung.tizen.hrs-agent.storage/lib/libmcf_api.so	LLVM_only	False		1260	423.860352	836.139648	697.582031	0	0	0.0	MISSING		836.139648	False	1	0	0	12	0
+/opt/usr/apps/com.samsung.tizen.perception-engine/bin/com.samsung.tizen.perception-engine	GCC_only	False						588	588	588.0	24.842773			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/lib/libargot.so.1	GCC_only	False						80	80	80.0	48.817383			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/lib/libmmi.so.2	GCC_only	False						208	244	226.0	45.245117			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/lib/libmmi_manager.so.2	GCC_only	False						200	200	200.0	66.0625			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_conditional_bypass.so	GCC_only	False						16	16	16.0	3.648438			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_ocr.so	GCC_only	False						52	52	52.0	30.848633			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_scene_change_detector.so	GCC_only	False						12	12	12.0	4.380859			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_screen_capture.so	GCC_only	False						16	16	16.0	4.40625			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_screen_content.so	GCC_only	False						48	48	48.0	28.774414			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_signal_to_data.so	GCC_only	False						12	12	12.0	3.62207			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_struct_aggregator.so	GCC_only	False						16	16	16.0	3.408203			False	0	1	1	0	
+/opt/usr/apps/com.samsung.tizen.perception-engine/res/plugins/libmmi_module_timer.so	GCC_only	False						12	12	12.0	3.095703			False	0	1	1	0	
+/opt/usr/share/argot/.local/bin/tsr	LLVM_only	False		460	14.860352	445.139648	400.886719	0	0	0.0	MISSING		445.139648	False	2	0	0	7	0
+/opt/usr/share/argot/.local/bin/tsr-bwrap	LLVM_only	False		68	4.709961	63.290039	45.296875	0	0	0.0	MISSING		63.290039	False	1	0	0	4	0
+/prd/usr/lib/libSDP.API.so.1.1.0	LLVM_only	False		8	3.084961	4.915039	4.265625	0	0	0.0	MISSING		4.915039	True	1	0	0	1	0
+/prd/usr/lib/libSEC_OMX_Adec.so.1.1.0	LLVM_only	False		16	5.390625	10.609375	6.003906	0	0	0.0	MISSING		10.609375	True	1	0	0	3	0
+/prd/usr/lib/libSEC_OMX_BaseComponent.so.1.1.0	LLVM_only	False		24	4.936523	19.063477	14.199219	0	0	0.0	MISSING		19.063477	True	1	0	0	3	0
+/prd/usr/lib/libSEC_OMX_Core.so.1.1.0	LLVM_only	False		12	2.392578	9.607422	4.191406	0	0	0.0	MISSING		9.607422	True	1	0	0	3	0
+/prd/usr/lib/libSEC_OMX_OSAL.so.1.1.0	LLVM_only	False		16	5.313477	10.686523	4.542969	0	0	0.0	MISSING		10.686523	True	1	0	0	4	0
+/prd/usr/lib/libSEC_OMX_Vdec.so.1.1.0	LLVM_only	False		16	4.319336	11.680664	6.054688	0	0	0.0	MISSING		11.680664	True	1	0	0	4	0
+/prd/usr/lib/libacm-core-acmd-impl-sec.so.0.1	GCC_only	False						32	32	32.0	11.015625			True	0	1	1	0	
+/prd/usr/lib/liblink-impl-sec.so.0.1	GCC_only	False						56	56	56.0	11.775391			True	0	1	1	0	
+/prd/usr/lib/libvideo-capture-impl-sec.so.0.1.0	GCC_only	False						48	48	48.0	11.188477			True	0	1	1	0	
+/prd/usr/lib/openmax/libOMX.SDP.AUDIO.DECODER.INST.so.1.1.0	LLVM_only	False		16	5.466797	10.533203	4.347656	0	0	0.0	MISSING		10.533203	True	1	0	0	3	0
+/prd/usr/lib/openmax/libOMX.SDP.DVDE.Decoder.so.1.1.0	LLVM_only	False		20	3.873047	16.126953	7.066406	0	0	0.0	MISSING		16.126953	True	1	0	0	4	0
+/usr/apps/capi-bnr-tv/bin/bnr-service	LLVM_only	False		576	215.888672	360.111328	312.496094	0	0	0.0	MISSING		360.111328	False	1	0	0	8	0
+/usr/apps/com.samsung.tizen.argot/bin/argot	LLVM_only	False		5536	316.792969	5219.207031	4503.347656	0	0	0.0	MISSING		5219.207031	False	1	0	0	9	0
+/usr/apps/com.samsung.tv.native-home/bin/libma_com.samsung.tv.mycontents.so	LLVM_only	False		864	85.473633	778.526367	682.427734	0	0	0.0	MISSING		778.526367	False	1	0	0	8	0
+/usr/apps/com.samsung.tv.virtual-remote/bin/VirtualRemoteControl.Core.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/apps/com.samsung.tv.virtual-remote/bin/VirtualRemoteControl.TextResources.dll	LLVM_only	False	rx_Private_Dirty,missing_or_nonELF_current_copy,missing_current_sections	4	0	4	0	0	0	0.0	MISSING		4.0	False	1	0	0	0	4
+/usr/apps/com.samsung.tv.virtual-remote/bin/VirtualRemoteControl.TizenTV.dll	LLVM_only	False	rx_Private_Dirty,missing_or_nonELF_current_copy,missing_current_sections	16	0	16	0	0	0	0.0	MISSING		16.0	False	1	0	0	0	8
+/usr/apps/org.tizen.acm-service/bin/acm-service	GCC_only	False						808	808	808.0	185.834961			False	0	1	1	0	
+/usr/apps/org.tizen.video-player-tv/bin/video-player-tv	LLVM_only	False		328	49.145508	278.854492	190.292969	0	0	0.0	MISSING		278.854492	False	1	0	0	9	0
+/usr/bin/csf-content-engine	LLVM_only	False		284	84.273438	199.726562	143.5625	0	0	0.0	MISSING		199.726562	False	1	0	0	10	0
+/usr/bin/gzip	GCC_only	False						36	36	36.0	MISSING			False	0	1	1	0	
+/usr/bin/muse-server	LLVM_only	False		12	3.56543	8.43457	4.25	0	0	0.0	MISSING		8.43457	False	1	0	0	3	0
+/usr/bin/sleep	GCC_only	False						12	0	6.0	1.975586			False	0	1	0	0	
+/usr/bin/storaged	GCC_only	False						36	36	36.0	7.21582			False	0	1	1	0	
+/usr/lib/evas/modules/image_loaders/bmp/v-1.25/module.so	LLVM_only	False		8	1.535156	6.464844	4.539062	0	0	0.0	MISSING		6.464844	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/generic/v-1.25/module.so	LLVM_only	False		8	2.303711	5.696289	2.316406	0	0	0.0	MISSING		5.696289	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/gif/v-1.25/module.so	LLVM_only	False		8	1.902344	6.097656	3.460938	0	0	0.0	MISSING		6.097656	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/ico/v-1.25/module.so	LLVM_only	False		8	1.825195	6.174805	3.636719	0	0	0.0	MISSING		6.174805	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/pmaps/v-1.25/module.so	LLVM_only	False		8	1.567383	6.432617	1.992188	0	0	0.0	MISSING		6.432617	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/psd/v-1.25/module.so	LLVM_only	False		8	1.49707	6.50293	3.371094	0	0	0.0	MISSING		6.50293	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/tga/v-1.25/module.so	LLVM_only	False		8	1.37207	6.62793	2.566406	0	0	0.0	MISSING		6.62793	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/tiff/v-1.25/module.so	LLVM_only	False		8	1.975586	6.024414	1.644531	0	0	0.0	MISSING		6.024414	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/wbmp/v-1.25/module.so	LLVM_only	False		4	1.211914	2.788086	0.871094	0	0	0.0	MISSING		2.788086	True	1	0	0	1	0
+/usr/lib/evas/modules/image_loaders/webp/v-1.25/module.so	LLVM_only	False		8	2.288086	5.711914	3.183594	0	0	0.0	MISSING		5.711914	True	1	0	0	2	0
+/usr/lib/evas/modules/image_loaders/xpm/v-1.25/module.so	LLVM_only	False		8	2.15918	5.84082	3.617188	0	0	0.0	MISSING		5.84082	True	1	0	0	2	0
+/usr/lib/gstreamer-1.0/libgstapp.so	GCC_only	False						4	4	4.0	0.930664			True	0	1	1	0	
+/usr/lib/gstreamer-1.0/libgstcoreelements.so	LLVM_only	False		172	25.832031	146.167969	94.796875	0	0	0.0	MISSING		146.167969	True	1	0	0	7	0
+/usr/lib/gstreamer-1.0/libgstdirectvideosink.so	LLVM_only	False		56	23.852539	32.147461	11.195312	0	0	0.0	MISSING		32.147461	True	1	0	0	6	0
+/usr/lib/gstreamer-1.0/libgstffmpeg.so	LLVM_only	False		188	48.219727	139.780273	69.03125	0	0	0.0	MISSING		139.780273	True	2	0	0	8	0
+/usr/lib/gstreamer-1.0/libgstffmpegscale.so	LLVM_only	False		8	4.375977	3.624023	2.519531	0	0	0.0	MISSING		3.624023	True	1	0	0	2	0
+/usr/lib/gstreamer-1.0/libgstmmaudiosink.so	LLVM_only	False		24	7.834961	16.165039	3.539062	0	0	0.0	MISSING		16.165039	True	1	0	0	5	0
+/usr/lib/gstreamer-1.0/libgstomx.so	LLVM_only	False		88	15.912109	72.087891	37.8125	0	0	0.0	MISSING		72.087891	True	1	0	0	5	0
+/usr/lib/gstreamer-1.0/libgstplayback.so	LLVM_only	False		116	26.883789	89.116211	35.796875	0	0	0.0	MISSING		89.116211	True	1	0	0	7	0
+/usr/lib/gstreamer-1.0/libgsttypefindfunctions.so	LLVM_only	False		48	3.904297	44.095703	33.707031	0	0	0.0	MISSING		44.095703	True	1	0	0	3	0
+/usr/lib/gstreamer-1.0/libgstvideoconvertscale.so	GCC_only	False						36	36	36.0	8.62207			True	0	1	1	0	
+/usr/lib/gstreamer-1.0/libgstvideofilter.so	GCC_only	False						40	40	40.0	6.375			True	0	1	1	0	
+/usr/lib/libAcmEngine.so	GCC_only	False						68	68	68.0	90.064453			True	0	1	1	0	
+/usr/lib/libBixby-menu-util.so.0.1.0	GCC_only	False						100	100	100.0	43.62793			True	0	1	1	0	
+/usr/lib/libSNAP.so	GCC_only	False						456	456	456.0	65.595703			True	0	1	1	0	
+/usr/lib/libabsl_civil_time.so.2407.0.0	GCC_only	False						8	8	8.0	3.466797			True	0	1	1	0	
+/usr/lib/libabsl_crc_cpu_detect.so.2407.0.0	GCC_only	False						4	4	4.0	0.473633			True	0	1	1	0	
+/usr/lib/libabsl_die_if_null.so.2407.0.0	GCC_only	False						4	4	4.0	1.405273			True	0	1	1	0	
+/usr/lib/libabsl_flags_commandlineflag.so.2407.0.0	GCC_only	False						4	4	4.0	1.133789			True	0	1	1	0	
+/usr/lib/libabsl_flags_commandlineflag_internal.so.2407.0.0	GCC_only	False						4	4	4.0	1.131836			True	0	1	1	0	
+/usr/lib/libabsl_flags_config.so.2407.0.0	GCC_only	False						12	12	12.0	5.842773			True	0	1	1	0	
+/usr/lib/libabsl_flags_internal.so.2407.0.0	GCC_only	False						16	16	16.0	11.092773			True	0	1	1	0	
+/usr/lib/libabsl_flags_marshalling.so.2407.0.0	GCC_only	False						12	12	12.0	10.494141			True	0	1	1	0	
+/usr/lib/libabsl_flags_private_handle_accessor.so.2407.0.0	GCC_only	False						4	4	4.0	1.525391			True	0	1	1	0	
+/usr/lib/libabsl_flags_program_name.so.2407.0.0	GCC_only	False						4	4	4.0	2.125977			True	0	1	1	0	
+/usr/lib/libabsl_flags_reflection.so.2407.0.0	GCC_only	False						28	28	28.0	8.705078			True	0	1	1	0	
+/usr/lib/libabsl_hashtablez_sampler.so.2407.0.0	GCC_only	False						8	8	8.0	4.40332			True	0	1	1	0	
+/usr/lib/libabsl_log_entry.so.2407.0.0	GCC_only	False						4	4	4.0	0.458008			True	0	1	1	0	
+/usr/lib/libabsl_log_internal_conditions.so.2407.0.0	GCC_only	False						4	4	4.0	1.0625			True	0	1	1	0	
+/usr/lib/libabsl_log_internal_fnmatch.so.2407.0.0	GCC_only	False						4	4	4.0	0.916992			True	0	1	1	0	
+/usr/lib/libabsl_log_severity.so.2407.0.0	GCC_only	False						4	4	4.0	0.882812			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_platform.so.2407.0.0	GCC_only	False						4	4	4.0	0.490234			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_pool_urbg.so.2407.0.0	GCC_only	False						8	8	8.0	5.139648			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_randen.so.2407.0.0	GCC_only	False						4	4	4.0	1.272461			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_randen_hwaes.so.2407.0.0	GCC_only	False						4	4	4.0	0.642578			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_randen_hwaes_impl.so.2407.0.0	GCC_only	False						4	4	4.0	0.958008			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_randen_slow.so.2407.0.0	GCC_only	False						4	4	4.0	0.923828			True	0	1	1	0	
+/usr/lib/libabsl_random_internal_seed_material.so.2407.0.0	GCC_only	False						4	4	4.0	1.448242			True	0	1	1	0	
+/usr/lib/libabsl_random_seed_gen_exception.so.2407.0.0	GCC_only	False						4	4	4.0	1.567383			True	0	1	1	0	
+/usr/lib/libabsl_status.so.2407.0.0	GCC_only	False						12	12	12.0	9.470703			True	0	1	1	0	
+/usr/lib/libabsl_statusor.so.2407.0.0	GCC_only	False						8	8	8.0	4.089844			True	0	1	1	0	
+/usr/lib/libabsl_vlog_config_internal.so.2407.0.0	GCC_only	False						8	8	8.0	4.179688			True	0	1	1	0	
+/usr/lib/libaddress_sorting.so.44.1.1	GCC_only	False						4	4	4.0	1.44043			True	0	1	1	0	
+/usr/lib/libargot-platform.so.1.5.4	LLVM_only	False		100	12.683594	87.316406	77.826172	0	0	0.0	MISSING		87.316406	True	1	0	0	5	0
+/usr/lib/libbroadcastapp-util.so.0.1.0	LLVM_only	False		104	72.873047	31.126953	16.054688	0	0	0.0	MISSING		31.126953	True	2	0	0	9	0
+/usr/lib/libcapi-appfw-tizen-action.so.1.7.0	LLVM_only	False		156	61.224609	94.775391	84.503906	0	0	0.0	MISSING		94.775391	True	1	0	0	8	0
+/usr/lib/libcapi-appfw-united-service.so.1.7.5	LLVM_only	False		24	19.029297	4.970703	2.828125	0	0	0.0	MISSING		4.970703	True	1	0	0	4	0
+/usr/lib/libclearkey.so.0.1.0	LLVM_only	False		36	26.291992	9.708008	3.039062	0	0	0.0	MISSING		9.708008	True	2	0	0	5	0
+/usr/lib/libcsf-uhd.so	LLVM_only	False		36	31.969727	4.030273	1.101562	0	0	0.0	MISSING		4.030273	True	1	0	0	4	0
+/usr/lib/libdrm-service.so.0.1.0	LLVM_only	False		16	5.579102	10.420898	5.425781	0	0	0.0	MISSING		10.420898	True	1	0	0	2	0
+/usr/lib/libdrm-specinfo.so	LLVM_only	False		8	3.344727	4.655273	4.03125	0	0	0.0	MISSING		4.655273	True	2	0	0	1	0
+/usr/lib/libgmock.so.1.12.1	GCC_only	False						32	32	32.0	23.819336			True	0	1	1	0	
+/usr/lib/libgomp.so.1.0.0	GCC_only	False						70	70	70.0	31.800781			True	0	3	3	0	
+/usr/lib/libgpr.so.44.1.1	GCC_only	False						52	52	52.0	33.366211			True	0	1	1	0	
+/usr/lib/libgrpc++.so.1.68.2	GCC_only	False						212	212	212.0	194.874023			True	0	1	1	0	
+/usr/lib/libgrpc.so.44.1.1	GCC_only	False						2276	2276	2276.0	1931.195312			True	0	1	1	0	
+/usr/lib/libgstaudio-1.0.so.0.2411.0	LLVM_only	False		76	42.880859	33.119141	15.578125	0	0	0.0	MISSING		33.119141	True	2	0	0	6	0
+/usr/lib/libgstpbutils-1.0.so.0.2411.0	LLVM_only	False		52	38.704102	13.295898	3.65625	0	0	0.0	MISSING		13.295898	True	2	0	0	6	0
+/usr/lib/libgsttag-1.0.so.0.2411.0	LLVM_only	False		28	21.769531	6.230469	2.171875	0	0	0.0	MISSING		6.230469	True	2	0	0	6	0
+/usr/lib/libheifparser.so.0.0.1	LLVM_only	False		56	51.489258	4.510742	0.492188	0	0	0.0	MISSING		4.510742	True	2	0	0	6	0
+/usr/lib/liblegacy-drm.so.0.1.0	LLVM_only	False		8	5.748047	2.251953	1.105469	0	0	0.0	MISSING		2.251953	True	1	0	0	2	0
+/usr/lib/liblegacy-player.so.0.4.1	LLVM_only	False		80	35.384766	44.615234	28.097656	0	0	0.0	MISSING		44.615234	True	1	0	0	7	0
+/usr/lib/libmmfplayer.so.0.0.0	LLVM_only	False		564	197.833008	366.166992	145.769531	0	0	0.0	MISSING		366.166992	True	1	0	0	11	0
+/usr/lib/libmmutils.so.0.0.0	LLVM_only	False		8	1.527344	6.472656	1.527344	0	0	0.0	MISSING		6.472656	True	1	0	0	2	0
+/usr/lib/libmuse-player.so.0.4.1	LLVM_only	False		88	43.789062	44.210938	22.988281	0	0	0.0	MISSING		44.210938	True	1	0	0	7	0
+/usr/lib/libmuse-server.so.0.6.1	LLVM_only	False		80	17.032227	62.967773	40.816406	0	0	0.0	MISSING		62.967773	True	1	0	0	7	0
+/usr/lib/libnetcom.so	GCC_only	False						24	24	24.0	14.416992			True	0	1	1	0	
+/usr/lib/libomp.so	LLVM_only	False		72	67.0	5.0	1.984375	0	0	0.0	MISSING		5.0	True	4	0	0	7	0
+/usr/lib/libpango-1.0.so.0.3600.6	LLVM_only	False		44	36.944336	7.055664	1.742188	0	0	0.0	MISSING		7.055664	True	2	0	0	7	0
+/usr/lib/libppi-acm-core-acmd.so.0.1	GCC_only	False						12	12	12.0	2.480469			True	0	1	1	0	
+/usr/lib/libprotobuf.so.25.0.0	GCC_only	False						748	748	748.0	402.12207			True	0	1	1	0	
+/usr/lib/libpsl.so.5.3.2	GCC_only	False						0	0	0.0	2.40332			True	0	34	34	0	
+/usr/lib/libre2.so.11.0.0	GCC_only	False						32	32	32.0	24.820312			True	0	1	1	0	
+/usr/lib/libupb_base_lib.so.44.1.1	GCC_only	False						4	4	4.0	1.06543			True	0	1	1	0	
+/usr/lib/libupb_json_lib.so.44.1.1	GCC_only	False						28	28	28.0	24.085938			True	0	1	1	0	
+/usr/lib/libupb_mem_lib.so.44.1.1	GCC_only	False						4	4	4.0	1.459961			True	0	1	1	0	
+/usr/lib/libupb_message_lib.so.44.1.1	GCC_only	False						8	8	8.0	6.498047			True	0	1	1	0	
+/usr/lib/libupb_mini_descriptor_lib.so.44.1.1	GCC_only	False						8	8	8.0	4.912109			True	0	1	1	0	
+/usr/lib/libupb_textformat_lib.so.44.1.1	GCC_only	False						32	32	32.0	24.341797			True	0	1	1	0	
+/usr/lib/libupb_wire_lib.so.44.1.1	GCC_only	False						4	4	4.0	2.791016			True	0	1	1	0	
+/usr/lib/libutf8_range_lib.so.44.1.1	GCC_only	False						4	4	4.0	0.393555			True	0	1	1	0	
+/usr/lib/libvc.so	LLVM_only	False		68	44.947266	23.052734	11.695312	0	0	0.0	MISSING		23.052734	True	1	0	0	8	0
+/usr/lib/libvd-elementary.so.0.1.0	LLVM_only	False		44	37.460938	6.539062	2.359375	0	0	0.0	MISSING		6.539062	True	2	0	0	6	0
+/usr/lib/libvideo-render-ctrl-c-glue.so.0.1	LLVM_only	False		4	2.286133	1.713867	0.533203	0	0	0.0	MISSING		1.713867	True	1	0	0	1	0
+/usr/lib/libvorbisenc.so.2.0.12	LLVM_only	False		28	26.47168	1.52832	1.085938	0	0	0.0	MISSING		1.52832	True	21	0	0	2	0
+/usr/lib/libzone.so.5.0.0	GCC_only	False						8	8	8.0	5.24707			True	0	1	1	0	
+/usr/lib/storaged/module_block.so	GCC_only	False						160	160	160.0	14.575195			True	0	1	1	0	
+/usr/lib/storaged/module_usbdevices.so	GCC_only	False						48	48	48.0	8.75293			True	0	1	1	0	
+/usr/local/lib/libavcodec.so	LLVM_only	False		1456	256.746094	1199.253906	816.601562	0	0	0.0	MISSING		1199.253906	False	2	0	0	9	0
+/usr/local/lib/libavformat.so	LLVM_only	False		600	53.335938	546.664062	431.65625	0	0	0.0	MISSING		546.664062	False	2	0	0	10	0
+/usr/local/lib/libavutil.so	LLVM_only	False		224	39.514648	184.485352	161.890625	0	0	0.0	MISSING		184.485352	False	2	0	0	7	0
+/usr/local/lib/libswresample.so	LLVM_only	False		12	6.50293	5.49707	4.6875	0	0	0.0	MISSING		5.49707	False	2	0	0	2	0
+/usr/local/lib/libswscale.so	LLVM_only	False		112	5.553711	106.446289	97.273438	0	0	0.0	MISSING		106.446289	False	2	0	0	4	0
+/usr/share/dotnet.tizen/framework/Tizen.Applications.MessagePort.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet.tizen/framework/Tizen.Multimedia.MediaPlayer.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet.tizen/framework/Tizen.Network.Bluetooth.ni.dll	GCC_only	False						0	0	0.0	MISSING			False	0	1	0	0	
+/usr/share/dotnet.tizen/framework/Tizen.System.ni.dll	GCC_only	False						0	0	0.0	MISSING			False	0	1	1	0	
+/usr/share/dotnet.tizen/framework/Tizen.TV.Accessory.Usbsound.ni.dll	GCC_only	False						0	0	0.0	MISSING			False	0	1	1	0	
+/usr/share/dotnet.tizen/framework/Tizen.TV.Connectivity.WocConManager.ni.dll	GCC_only	False						0	0	0.0	MISSING			False	0	1	1	0	
+/usr/share/dotnet.tizen/framework/Tizen.TV.Multimedia.ContentService.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet.tizen/framework/Tizen.TV.Multimedia.Unipicture.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet.tizen/framework/Tizen.TV.Network.Bluetooth.ni.dll	GCC_only	False						0	0	0.0	MISSING			False	0	1	0	0	
+/usr/share/dotnet.tizen/framework/Tizen.TV.System.DeviceTracker.ni.dll	GCC_only	False						0	0	0.0	MISSING			False	0	1	1	0	
+/usr/share/dotnet.tizen/framework/Tizen.TV.System.UsbSwitch.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/System.Numerics.Vectors.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/System.Reflection.Emit.ILGeneration.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/System.Reflection.Emit.Lightweight.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/System.Reflection.Primitives.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/System.Text.Encodings.Web.ni.dll	LLVM_only	False	missing_or_nonELF_current_copy,missing_current_sections	0	0	0	0	0	0	0.0	MISSING		0.0	False	1	0	0	0	0

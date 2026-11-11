@@ -1,0 +1,11 @@
+{
+  "source": "data/llvm_round3/analysis/clang_matched_paths_detail.tsv",
+  "paths_in_historical_set": 1292,
+  "paths_present_current": 1291,
+  "paths_absent_current": 1,
+  "current_per_mapping_rx_Pss_sum_kB": 153827.0,
+  "GCC_historical_mean_kB": 143914.5,
+  "LLVM3_historical_mean_kB": 149207.0,
+  "LLVM3_minus_GCC_kB": 5292.5,
+  "current_minus_GCC_historical_kB": 9912.5
+}

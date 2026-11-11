@@ -1,0 +1,65 @@
+GCC 50 / 1463 readelf complete
+GCC 100 / 1463 readelf complete
+GCC 150 / 1463 readelf complete
+GCC 200 / 1463 readelf complete
+GCC 250 / 1463 readelf complete
+GCC 300 / 1463 readelf complete
+GCC 350 / 1463 readelf complete
+GCC 400 / 1463 readelf complete
+GCC 450 / 1463 readelf complete
+GCC 500 / 1463 readelf complete
+GCC 550 / 1463 readelf complete
+GCC 600 / 1463 readelf complete
+GCC 650 / 1463 readelf complete
+GCC 700 / 1463 readelf complete
+GCC 750 / 1463 readelf complete
+GCC 800 / 1463 readelf complete
+GCC 850 / 1463 readelf complete
+GCC 900 / 1463 readelf complete
+GCC 950 / 1463 readelf complete
+GCC 1000 / 1463 readelf complete
+GCC 1050 / 1463 readelf complete
+GCC 1100 / 1463 readelf complete
+GCC 1150 / 1463 readelf complete
+GCC 1200 / 1463 readelf complete
+GCC 1250 / 1463 readelf complete
+GCC 1300 / 1463 readelf complete
+GCC 1350 / 1463 readelf complete
+GCC 1400 / 1463 readelf complete
+GCC 1450 / 1463 readelf complete
+LLVM 50 / 1452 readelf complete
+LLVM 100 / 1452 readelf complete
+LLVM 150 / 1452 readelf complete
+LLVM 200 / 1452 readelf complete
+LLVM 250 / 1452 readelf complete
+LLVM 300 / 1452 readelf complete
+LLVM 350 / 1452 readelf complete
+LLVM 400 / 1452 readelf complete
+LLVM 450 / 1452 readelf complete
+LLVM 500 / 1452 readelf complete
+LLVM 550 / 1452 readelf complete
+LLVM 600 / 1452 readelf complete
+LLVM 650 / 1452 readelf complete
+LLVM 700 / 1452 readelf complete
+LLVM 750 / 1452 readelf complete
+LLVM 800 / 1452 readelf complete
+LLVM 850 / 1452 readelf complete
+LLVM 900 / 1452 readelf complete
+LLVM 950 / 1452 readelf complete
+LLVM 1000 / 1452 readelf complete
+LLVM 1050 / 1452 readelf complete
+LLVM 1100 / 1452 readelf complete
+LLVM 1150 / 1452 readelf complete
+LLVM 1200 / 1452 readelf complete
+LLVM 1250 / 1452 readelf complete
+LLVM 1300 / 1452 readelf complete
+LLVM 1350 / 1452 readelf complete
+LLVM 1400 / 1452 readelf complete
+LLVM 1450 / 1452 readelf complete
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/system_code_page_sections/analyze_elf.py", line 183, in <module>
+    main()
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/system_code_page_sections/analyze_elf.py", line 163, in main
+    raise RuntimeError(f"cross c++filt rc={result.returncode}: {result.stderr}")
+RuntimeError: cross c++filt rc=127: /home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-c++filt: error while loading shared libraries: libbfd-2.43.so: cannot open shared object file: No such file or directory
+

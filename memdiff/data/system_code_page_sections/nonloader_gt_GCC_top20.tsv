@@ -1,0 +1,21 @@
+path	population	eligible	exclude_reasons	LLVM_unique_rx_Rss_kB	LLVM_loader_resident_kB	LLVM_without_loader_kB	LLVM_text_resident_kB	GCC1_rx_Pss_sum_kB	GCC2_rx_Pss_sum_kB	GCC_mean_rx_Pss_sum_kB	GCC_loader_sections_size_kB	loader_growth_strict_lower_kB	LLVM_nonloader_minus_GCC_kB	in_prelink_dir	LLVM_mappers	GCC1_mappers	GCC2_mappers	cross_section_pages	rx_Private_Dirty_kB
+/usr/lib/driver/libmali.so	common	True		10024	422.422852	9601.577148	8705.476562	10076	7805	8940.5	450.422852	-28.0	661.077148	True	10	7	7	10	0
+/usr/lib/libavformat.so.61.7.100	common	True		348	35.604492	312.395508	231.21875	44	44	44.0	38.529297	-2.924805	268.395508	True	3	1	1	7	0
+/usr/lib/libavcodec.so.61.19.100	common	True		348	83.268555	264.731445	156.789062	81	81	81.0	77.771484	5.49707	183.731445	True	4	3	3	6	0
+/opt/usr/apps/com.samsung.tv.ContentsBrowser/shared/res/libcompcb.so	common	True		1720	210.211914	1509.788086	1428.09375	1340	1340	1340.0	235.601562	-25.389648	169.788086	False	1	1	1	9	0
+/usr/lib/libGLESv2.so.2.0	common	True		216	18.02832	197.97168	185.132812	66	67	66.5	17.956055	0.072266	131.47168	True	13	10	10	6	0
+/usr/lib/librlottie.so.0.2	common	True		144	12.603516	131.396484	119.949219	0	0	0.0	13.286133	12.603516	131.396484	True	23	19	19	4	0
+/usr/lib/libturbojpeg.so.0.3.0	common	True		140	8.691406	131.308594	116.410156	0	0	0.0	8.27832	8.691406	131.308594	True	23	19	19	4	0
+/usr/lib/libcairo.so.2.11400.2	common	True		192	42.15625	149.84375	138.71875	46	46	46.0	41.266602	0.889648	103.84375	True	5	4	4	7	0
+/usr/bin/avocd	common	True		1080	85.706055	994.293945	732.410156	896	892	894.0	45.0625	40.643555	100.293945	False	1	1	1	8	0
+/usr/lib/libavutil.so.59.39.100	common	True		192	46.185547	145.814453	127.414062	54	54	54.0	50.705078	-4.519531	91.814453	True	4	3	3	6	0
+/usr/lib/libflux-manager.so.0.1.0	common	True		364	109.649414	254.350586	144.875	165	165	165.0	98.43457	11.214844	89.350586	True	5	4	4	9	0
+/opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine	common	True		548	20.794922	527.205078	465.394531	440	440	440.0	19.416992	1.37793	87.205078	False	1	1	1	7	0
+/usr/lib/libcsf-thumbnail.so.25.02.03.1	common	True		308	110.769531	197.230469	150.195312	116	116	116.0	103.09375	7.675781	81.230469	True	3	1	1	9	0
+/usr/lib/libcsf-content-agent.so.25.02.03.1	common	True		620	252.147461	367.852539	265.171875	288	288	288.0	223.297852	28.849609	79.852539	True	2	1	1	9	0
+/usr/lib/libcapi-content-media-content.so.0.6.12	common	True		108	20.4375	87.5625	50.699219	32	32	32.0	20.227539	0.209961	55.5625	True	3	2	2	5	0
+/usr/lib/ld-linux.so.3	common	True		160	2.15918	157.84082	134.480469	105	103	104.0	2.436523	-0.277344	53.84082	True	111	106	104	3	0
+/usr/lib/libbuxton2.so.1.1	common	True		60	10.138672	49.861328	31.542969	0	0	0.0	7.814453	10.138672	49.861328	True	96	89	88	6	0
+/opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp	common	True		724	30.25293	693.74707	567.15625	648	644	646.0	33.609375	-3.356445	47.74707	False	1	1	1	7	0
+/usr/lib/systemd/systemd	common	True		660	89.966797	570.033203	391.019531	524	524	524.0	88.041016	1.925781	46.033203	True	2	2	2	9	0
+/usr/lib/libvconf.so.0.3.1	common	True		52	11.150391	40.849609	30.632812	0	0	0.0	10.449219	11.150391	40.849609	True	96	89	88	5	0

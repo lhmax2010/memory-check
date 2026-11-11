@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-11-11T13:24:05.832373+00:00",
+  "checks": {
+    "identity": true,
+    "board_restored": true,
+    "sha_pairs": true,
+    "pagemap_matches_smaps": true,
+    "section_allocation_conserved": true,
+    "eligible_count_matches_summary": true,
+    "prior_13_present": true,
+    "both_sides_elf_count": true,
+    "report_has_no_template_tokens": true
+  },
+  "vmas": 16414,
+  "eligible_common_files": 1360,
+  "hash_matched_files": 1549,
+  "max_section_allocation_error_kB": 3.000000106112566e-06,
+  "pagemap_smaps_mismatched_vmas": 0
+}
