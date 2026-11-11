@@ -1,0 +1,7 @@
+/usr/lib/libcynara-creds-pid.so.0.26.0	9e87578d5ecd4230848f857cc5f6848eff305c914edbedb61d3ad8b7b95854fa	libcynara-creds-pid-0.26.0-1.armv7l	     3	21824
+/usr/lib/libcynara-creds-self.so.0.26.0	85b82e08ce927601e7bc6cab0e2be71e4d7e0407d14ef7fdbc4b0702b2b3df56	libcynara-creds-self-0.26.0-1.armv7l	     3	13632
+/usr/lib/libcynara-creds-socket.so.0.26.0	d4a3b9e2c3b61557584cddade89db4a10194003bb17dc528345c802da1cb7e87	libcynara-creds-socket-0.26.0-1.armv7l	     3	13576
+/usr/lib/libcynara-session.so.0.26.0	4d62224616b5ecae299741f1c6f4d788413c49a837298a86773b5be0bc6f9878	libcynara-session-0.26.0-1.armv7l	     3	9480
+/usr/lib/libcynara-storage.so.0.26.0	1204a088f9d9fc482a9641fddb59dab53fbb6a543a07618dac8059093032b6eb	libcynara-commons-0.26.0-1.armv7l	     3	144772
+
+__PREP_REMOTE_RC=0

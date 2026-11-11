@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:33.930915+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'find /opt/.overlay -xdev -type d -name upperdir -print'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "upperdirs.stdout",
+  "stderr_file": "upperdirs.stderr",
+  "stdout_bytes": 119
+}

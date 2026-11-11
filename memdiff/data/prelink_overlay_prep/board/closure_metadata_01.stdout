@@ -1,0 +1,7 @@
+/prd/usr/lib/libanalog-input-control-impl-sec.so.0.1	b525719316237c25c738cecbe9deb9629f4c65b386d5bfab626f1747d50f2cf6	analog-input-control-impl-sec-0.0.1-1.armv7l	     3	28538
+/prd/usr/lib/libaudio-control-impl-sec.so.0.1	7713a1b7d155364803c84e90f96284b7474a9a3f5e0fc0c933f37730b31460bf	audio-control-impl-sec-0.0.1-1.armv7l	     3	137874
+/prd/usr/lib/libbuxton2_lite.so.1.1	9de20c037a9e5f13441d4b11a4a84c486004dd731202179fd808d295e2b00317	buxton2_lite-1.1-0.armv7l	     3	65934
+/prd/usr/lib/libdrm-util.so.0.1.0	3d7f79efd52297be299ad46ffa24b5db9aa0ca595c8bcb20f99255350ec15ecd	drm-util-0.1.0-1.armv7l	     3	23226
+/prd/usr/lib/libeeprom-map.so.0.1	53bba62f18bf9c460f0d0de95d4869bdc0523edf98f398586fa6ff1f97d133d0	libeeprom-map-0.0.1-1.armv7l	     3	17550
+
+__PREP_REMOTE_RC=0

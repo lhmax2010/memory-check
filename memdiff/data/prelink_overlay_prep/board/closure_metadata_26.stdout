@@ -1,0 +1,7 @@
+/usr/lib/libcares.so.2.7.2	9bd4e400402152bad90380eb2ecf13f630518feee68953e6f319403bcd8ec73f	libcares-1.21.0-1.11.armv7l	     3	63144
+/usr/lib/libcdmbase.so.0.1.0	8e7b7b9c911c61af96c9101622bb17cd6031f815020c0824a130c16fc69b5b2e	drmdecrypt-26.09.16.0-1.armv7l	     3	158440
+/usr/lib/libci-api.so	3a9094f48daafb22f04e1ff71c0e4cfe338e9f18019346cbb85b451e2f2a177e	ci-api-0.4.02-1.armv7l	     3	484672
+/usr/lib/libcomss-api.so	3b2e1e9390da156c01a3c3469c99ff3b9cfc683fa7973823598f2e654dd5fac4	comss-api-0.1-1.armv7l	     3	34388
+/usr/lib/libcontent-db-api.so.0.6.0	a4e41139e968235d6ba1789d132152bc5cbee56150c9cf807a91d441129920a5	content-db-api-2.0.6-1.armv7l	     3	146524
+
+__PREP_REMOTE_RC=0

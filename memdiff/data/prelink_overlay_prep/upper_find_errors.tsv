@@ -1,0 +1,4 @@
+upper_index	phase	error
+1	inventory	find: `/opt/.overlay/platform/upperdir/zone/securezone': Permission denied
+1	compare	find: `/opt/.overlay/platform/upperdir/zone/securezone': Permission denied
+1	whiteouts	find: `/opt/.overlay/platform/upperdir/zone/securezone': Permission denied

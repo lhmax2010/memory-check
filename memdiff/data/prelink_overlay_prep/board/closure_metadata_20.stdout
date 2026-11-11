@@ -1,0 +1,7 @@
+/usr/lib/libcapi-appfw-app-control.so.0.26.2	b5ff0dccd6205aefbcb28f5670bc743f23a44cedc2738f701886b1578a603656	capi-appfw-app-control-0.26.2-0.armv7l	     3	105008
+/usr/lib/libcapi-appfw-app-manager.so.0.17.0	8aa190d8256d83f0f9af51de5aad4dfcae00062ac3874867bb4a92417ca36ce6	capi-appfw-app-manager-0.17.0-1.armv7l	     3	46852
+/usr/lib/libcapi-appfw-app-operation-tv.so.0.1.0	019f96c227c3de39c20fbe5a226dd10a3f9d3c3ff3282011f6adf40ebccb6bfd	capi-appfw-app-operation-tv-0.1.6-1.armv7l	     3	13648
+/usr/lib/libcapi-appfw-application.so.0.10.0	e82f031fb11669b061b2eb04a56725eeffc5fc1b692fb7b9955aaec6cd5a762f	capi-appfw-application-0.10.0-0.armv7l	     3	17960
+/usr/lib/libcapi-appfw-package-manager.so.0.15.2	98c7cd0205441034dcd651f59b2a06c9fd0b9a05b55a10bacfe85e851636c219	capi-appfw-package-manager-0.15.2-1.armv7l	     3	51156
+
+__PREP_REMOTE_RC=0

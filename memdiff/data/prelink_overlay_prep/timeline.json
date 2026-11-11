@@ -1,0 +1,11 @@
+{
+  "build_id": "T-KSU2EJAKUC-0101-PERF-202611061751",
+  "build_timestamp_interpretation": "202611061751",
+  "timezone_assumption": "UTC-08:00",
+  "build_epoch_assumed": 1794016260.0,
+  "original_os_release_mtime_epoch": 1793958180,
+  "board_epoch": 1794389283,
+  "uptime_seconds": 4013.34,
+  "boot_epoch": 1794385269.66,
+  "boot_id": "0d30d3eb-a65b-44e2-b1d6-ee93e2c39af5"
+}

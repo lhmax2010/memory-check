@@ -1,0 +1,7 @@
+/usr/lib/libvideo-capture.so.0.1.0	cb5216a23bcc5a8be5432a73fa902d1384e903cbd7703e61e242cbde5a9cfb39	ppi-video-capture-0.1.0-1.armv7l	     3	30252
+/usr/lib/libvideo-decoder-control.so.0.1	f9d90b0404b1161102e9cdccda9de062a1ed71ae79d3bdc828f477b07f2b9a0a	ppi-broadcast-control-0.0.1-1.armv7l	     3	17688
+/usr/lib/libvideo-dp-control.so.0.1.0	b41bb3efa48feb8c9c28c66d785cae811d11d5968ec91b034fbae889edecb5e2	ppi-video-control-1.0.0-1.armv7l	     3	38168
+/usr/lib/libvideo-misc.so.0.1.0	0ee73fdb082644b55ecd8e71b204f7f048ca42da84300841a69afaaa3ec7eb33	ppi-video-control-1.0.0-1.armv7l	     3	17680
+/usr/lib/libvideo-mm-control.so.0.1.0	b22d67d5d6e03562d31f8c84e1a2b3aeaf86a1385df6df2564e791edd44d2830	ppi-video-control-1.0.0-1.armv7l	     3	17692
+
+__PREP_REMOTE_RC=0

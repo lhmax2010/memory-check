@@ -1,0 +1,7 @@
+/usr/lib/libtv-resource-manager.so.1.43	5722344175908d78cef1bd9dc3099f105028f96d3e9018d2a677a123b1fedc06	tv-resource-manager-1.43-1.armv7l	     3	162660
+/usr/lib/libtv-viewer-api.so.0.1.0	854cebbe4f5305bb4315fb749c0e0f1869774d719291080fe0918be9fe348477	tv-viewer-api-0.2.1-1.armv7l	     3	245180
+/usr/lib/libtv-viewer-kevent.so.0.1.0	a93a1494136709c98c53ed6cb95bd96e8c9e2bf33cddf36b2564e55e49464c80	tv-viewer-kevent-0.2.1-1.armv7l	     3	137936
+/usr/lib/libtv_player.so.0.0.0	a9b7efaf18db724dc1648690cfc9e8c57c6293a12b7362902bb1d517d60fa96f	libtv-player-9.0.0-1.armv7l	     3	980348
+/usr/lib/libtvs-api-ipc.so	b58fcea4ae89d285312393690212630e5c50b80089d5fb735ffdd16e310315da	tvs-api-ipc-0.5.18-1.armv7l	     3	138072
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libpower-control-diagnosis.so	4d63df0ba4605803068f79d1b1431597ca50f69cd52a8dee7b0be9c199a86e8d	ppi-power-control-0.1.0-1.armv7l	     3	66836
+/usr/lib/libpower-control.so.0.1	71c16cf294c50dc1790e2a5e0cd059c587b7aef0f7f892ec558723178fe4faa8	ppi-power-control-0.1.0-1.armv7l	     3	66836
+/usr/lib/libpower-defs.so.0.1.1	a44662d94cc08b672112172ffe7a0fc8bde50bcc76797e63a4608dfca071445d	power-defs-0.1.1-1.armv7l	     3	42676
+/usr/lib/libppi-factory-api.so	d1342ed7a8018283a759e8ebe0d5c6570266aac6dfab5aed683ed2178d12d37b	ppi-factory-api-0.1.0-1.armv7l	     3	17732
+/usr/lib/libppi-system-info.so.0.1	0e2a5da2fea1c96b48795a8a762c5be69a201232ac7def40a14399590d43e598	ppi-system-info-0.1.0-1.armv7l	     3	13584
+
+__PREP_REMOTE_RC=0

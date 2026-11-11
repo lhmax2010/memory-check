@@ -1,0 +1,7 @@
+/usr/lib/hal/libhal-api-common.so.0.1.0	5dc721d87502cf5757ae521093aebf2dbf799a7a4873861fbacb1e25a49bc5ef	hal-api-common-2.0.0-2.armv7l	     3	79252
+/usr/lib/hal/libhal-api-tbm.so.1.1	36fb29d9b6b755e4f69ab1a89a7af274534d049f54d1e6a7800089315107fae2	hal-api-tbm-1.1-1.armv7l	     3	26048
+/usr/lib/ld-linux.so.3	b34c045fea2a4ec732a33815b346ef80e9c03fa5c3080bcaf981192594bd05e1	glibc-2.40-1.72.armv7l	     3	179512
+/usr/lib/libAppBinaryMgrServiceAPI.so	586b8bb4477ed870111be4225c35972682fde544cd31a81162a0670a33b3a535	appbinary-manager-0.0.1-1.armv7l	     3	34392
+/usr/lib/libCLogger.so	0a8d19db820c1bfafdb852a81065d3b71104794ac9401e0e06e2d43cfb32d804	logger-2.0-1.armv7l	     3	30016
+
+__PREP_REMOTE_RC=0

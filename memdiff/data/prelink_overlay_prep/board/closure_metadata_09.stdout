@@ -1,0 +1,7 @@
+/usr/lib/libQSysLink.so	0382a8e8086b29784fd7682ecac0bbcd36f9418d488f8a258b4f564aef7ed501	AT-HUB-perf-1.8-0.armv7l	     3	58640
+/usr/lib/libSLP-db-util.so.0.1.2	fbd27e375cebf620fe55ab54b724211be70f13887e80f826c9c6a7bd1da546f8	libslp-db-util-0.1.2-0.armv7l	     3	13700
+/usr/lib/libSWUProductionConfig.so	9ce1ca85b6536fdb0328f72846d149574a2bf2c64eb2b220433bf364f6c62fff	org.tizen.tv.swu-config-dev-17.037.0-1.armv7l	     3	9360
+/usr/lib/libSoftwareUpgradeAPI.so	7f11effd058a9199b5fbfc137cd83c579b8bbf9af78b6b38559f45ba0bcee166	org.tizen.tv.swu-17.037.0-1.armv7l	     3	1654828
+/usr/lib/libVDCurl.so.0.9	776d39956ec7c1c3095dfec39ffa4f617d6c82b0a62217d69acec5d404809fbc	VDCurl-1.27-4.armv7l	     3	113028
+
+__PREP_REMOTE_RC=0

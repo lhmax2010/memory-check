@@ -1,0 +1,26 @@
+[
+  {
+    "mountpoint": "/",
+    "source": "overlay",
+    "options": "rw,relatime,lowerdir=/,upperdir=/opt/.overlay/platform/upperdir,workdir=/opt/.overlay/platform/workdir",
+    "lowerdir": "/",
+    "upperdir": "/opt/.overlay/platform/upperdir",
+    "workdir": "/opt/.overlay/platform/workdir"
+  },
+  {
+    "mountpoint": "/factory_peq",
+    "source": "overlay",
+    "options": "rw,relatime,lowerdir=/factory_peq,upperdir=/opt/.overlay/factory_peq/upperdir,workdir=/opt/.overlay/factory_peq/workdir",
+    "lowerdir": "/factory_peq",
+    "upperdir": "/opt/.overlay/factory_peq/upperdir",
+    "workdir": "/opt/.overlay/factory_peq/workdir"
+  },
+  {
+    "mountpoint": "/prd",
+    "source": "overlay",
+    "options": "rw,relatime,lowerdir=/prd,upperdir=/opt/.overlay/prd/upperdir,workdir=/opt/.overlay/prd/workdir",
+    "lowerdir": "/prd",
+    "upperdir": "/opt/.overlay/prd/upperdir",
+    "workdir": "/opt/.overlay/prd/workdir"
+  }
+]

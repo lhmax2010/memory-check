@@ -1,0 +1,16 @@
+{
+  "upperdirs": 3,
+  "inventory_entries": 107,
+  "find_permission_errors": 3,
+  "regular_files": 55,
+  "whiteouts_0_0": 14,
+  "system_elf_overrides": [],
+  "comparison_counts": {
+    "identical": 6,
+    "different": 2,
+    "new_no_lower": 47
+  },
+  "libraries_union": 480,
+  "libraries_outside_prelink_conf": 6,
+  "libraries_missing_or_unowned": 1
+}

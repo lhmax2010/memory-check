@@ -1,0 +1,7 @@
+/usr/lib/libim-control.so.0.1	5e193b295c3c715eb683e9549ebb4c3d3f0c471df48ff44474978d7acfb4831f	ppi-im-control-0.1.0-1.armv7l	     3	13588
+/usr/lib/libiniparser.so.4.2.4	05b6b331c742e7b85d9622d3dd2961fe445206a0b343b09f0e07ddf54423b9db	iniparser-4.2.4-1.11.armv7l	     3	17864
+/usr/lib/libipg-data-provider.so.0.1.0	51728d0e3ec854d7f8b511b4c89fb9034c5da322094195a9a560638b33e25ba6	ipg-data-provider-0.2-1.armv7l	     3	159212
+/usr/lib/libitvs-hybrid-info.so.0.1.0	b896bfbe004ef8ec86b884debd2ead5e376661e01c438d539c67c59dd254c743	itvs-hybrid-info-0.3.0-1.armv7l	     3	204580
+/usr/lib/libjpeg.so.8.3.2	e5ff6adb5e93864b54903ee0d22fedb206c042ab32196e476a43b0a22c66411f	libjpeg-8.2.2-1.17.armv7l	     3	420060
+
+__PREP_REMOTE_RC=0

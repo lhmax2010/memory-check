@@ -1,0 +1,7 @@
+/prd/usr/lib/libfactory-api-impl-sec.so	85c4b69671c7d0cc918ec97e28cdf8444a4ea7edff94579ce441ba9741a3fb95	factory-api-impl-sec-0.1.0-1.armv7l	     3	23878
+/prd/usr/lib/libfactory-data-config.so.00.00.0057	e75b8227aa8e52bd548d71f65eb152e737869b1150637ddd93fae5ee01cec1f8	factory-data-config-00.00.0057-0000.armv7l	     3	141866
+/prd/usr/lib/libmicom.so.0.1	e3fe6a7f673f6d7d0c5f8952987e51579cd3bdf4ea248375d2e43a0978eb0b75	libmicom-0.0.1-1.armv7l	     3	130814
+/prd/usr/lib/libnvram-impl-sec.so.0.1	411007b2634cb6ef6604835c254b035f6694b5a33ca6932ab387177d76ecf39a	nvram-impl-sec-0.0.1-1.armv7l	     3	20174
+/prd/usr/lib/libpower-control-impl-sec-diagnosis.so	b7bc1b12129f9e0a9ddd835bb07ed2f2f8ad9c673642aaceb0cdbcb21bf2c482	power-control-impl-sec-0.0.1-1.armv7l	     3	40914
+
+__PREP_REMOTE_RC=0

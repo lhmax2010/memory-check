@@ -1,0 +1,7 @@
+/usr/lib/libfluxpolicymanager-tv.so.0.1.0	8ee938c70143a2d59d1c83f25215e3580e9cc08d862b01bc180d4b6a80cca354	lib-fluxpolicymanager-tv-6-0.armv7l	     3	63576
+/usr/lib/libfontconfig.so.1.12.0	3faa6d91d6c2f2f3a3f9e1f37467ba2769336fcbc74abccf2d3553d740604e47	fontconfig-2.14.2-1.armv7l	     3	182116
+/usr/lib/libfreetype.so.6.20.1	1247d15b4a41599ab616321410f1b99151935282d054b12aea983d734620bc66	libfreetype-2.13.2-1.armv7l	     3	427960
+/usr/lib/libfribidi.so.0.4.0	a2b02773895f0ded0020fa42531395f7f4fae4da9eea880cbf32a454ae4dfaaa	fribidi-1.0.10-1.12.armv7l	     3	103924
+/usr/lib/libgcc_s.so.1	9e8b82692c65a3830800a6de7bf68ffa4b71fdb24f36ebfe178fdec4356b3534	libgcc-14.2.0-1.49.armv7l	     3	108384
+
+__PREP_REMOTE_RC=0

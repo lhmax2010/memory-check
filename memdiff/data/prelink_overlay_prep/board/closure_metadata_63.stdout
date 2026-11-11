@@ -1,0 +1,7 @@
+/usr/lib/libreminder-api.so.0.1.0	7b4d3f315cbdabb8961d5187082c22de9d118869cc590bac56bb3565a5eff3b1	reminder-api-0.2-1.armv7l	     3	320132
+/usr/lib/libres-lookup.so.0.1	29e7ec2a77da515877ce08eecd2b74fb66d9f5d37782317c76a1715e37b249a8	libres-lookup-0.1.2-1.armv7l	     3	38264
+/usr/lib/libresource-center-api.so.0.9	3cc7832fa17fed4db5f8b275300ff91d056746860ced44ee68ab0faea305c1ed	resource-center-api-0.9-0.armv7l	     3	92384
+/usr/lib/librlottie.so.0.2	951d3fa8a63222ee8861a88901b85bdbae9a7fe19e815c17464a9cca81cb7074	lottie-player-0.2.5-1.armv7l	     3	182204
+/usr/lib/librobot-projector.so.0.1	6f76b0327aa4f22f408709ee53cf56fefcfdfd689e7abcb27d98dafc5f68ef51	ppi-robot-projector-0.0.1-1.armv7l	     3	13580
+
+__PREP_REMOTE_RC=0

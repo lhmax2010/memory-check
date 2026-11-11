@@ -1,0 +1,7 @@
+/usr/lib/libwtz-screen-client.so.0.0.0	f71161a582b590f0c33c9d9163277b612a0237cb4bec54dbb57e164337eb06fc	libwayland-extension-client-1.3.75-0.armv7l	     3	9504
+/usr/lib/libwtz-shell-client.so.0.0.0	ce049a41fda75da04918cc61757bf07aabf9a5cca22bdadded6ced5fce68e6ee	libwayland-extension-client-1.3.75-0.armv7l	     3	9484
+/usr/lib/libwtz-video-shell-client.so.0.0.0	a46407fde62ed45dccd399e79c0fdfea06fb082183681f74b9b2abcd022849f6	libwayland-extension-client-1.3.75-0.armv7l	     3	9516
+/usr/lib/libxdg-shell-unstable-v6-client.so.0.0.0	b8e53a1c53f88752d7b3748118680a639a4a6cb19dbcd0bdedf8c518319ed416	libwayland-extension-client-1.3.75-0.armv7l	     3	9564
+/usr/lib/libxdgmime.so.1.1.0	d88c42bbfc64d4ba56c6bd72167b5cd440e190a37731db90b5aba3fe023e727f	xdgmime-0.0.17-1.11.armv7l	     3	30244
+
+__PREP_REMOTE_RC=0

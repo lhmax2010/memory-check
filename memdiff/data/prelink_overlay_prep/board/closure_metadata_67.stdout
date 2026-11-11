@@ -1,0 +1,7 @@
+/usr/lib/libsensord-shared.so	278ddd4bf7af4682535ffc3aaca4f2dca2543ba08c1762c2fb4ac27856dc2028	sensord-4.1.0-1.armv7l	     3	79956
+/usr/lib/libsessiond.so.11.0.0	3e45acf49934f997ba811605ea828766b3b64a60779809a268cf1e6a5dafdfe1	libsessiond-11.0.0-1.armv7l	     3	42800
+/usr/lib/libsettings-api.so	5f7a13fef4829abf35f0a918d451dbc59be63e3e60c368a66369474ed05d95ae	settings-api-0.1.3-1.armv7l	     3	161840
+/usr/lib/libslive-dbus-proxy.so.0.1	a0989f09606614bac2f1861f3a1a03656aec30fcec12f8b1c52724acdcfea7cd	libslive-dbus-proxy-0.2-1.armv7l	     3	38800
+/usr/lib/libslive-framework.so.0.1.0	120d9367f904d59fa2f1f729c950e57fbb32432bccd5195869e900a729e1d5f6	slive-framework-0.1.0-1.armv7l	     3	47044
+
+__PREP_REMOTE_RC=0

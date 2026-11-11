@@ -1,0 +1,7 @@
+/usr/lib/libtvs-udm.so	625bbf73a80dcd4b7eeed64314a7cf4ebf8423a466fdbc8f64b72c02adb20ae1	tvs-udm-0.1.1-1.armv7l	     3	216544
+/usr/lib/libtvs-util.so	3efe012a6967894dee8e2b73b11e953ba0ca78016e5993e97114bad6d9a30b12	tvs-util-0.1.1-1.armv7l	     3	1077244
+/usr/lib/libtzcapturec.so	7b186521bc2d3042cec3ca5ad076426bdc5363152453d86753d6f30ae34e153a	tzcapture-1.0-1.armv7l	     3	21908
+/usr/lib/libtzfr_utility_nwd.so.0.1.0	5815b79efc8224625e8142d4b9f0a0e6a4d0ce335de5bbc00525d7f91bc8cc45	trustzone_nwd_ext-26.08.27.0-1.armv7l	     3	42308
+/usr/lib/libtzplatform-config-2.0.so.2.0.0	3edb7dee63f1a843719095755f2d3638c0fe04e3278ef5fddc06d33ae179761c	libtzplatform-config-5.0-1.armv7l	     3	26728
+
+__PREP_REMOTE_RC=0

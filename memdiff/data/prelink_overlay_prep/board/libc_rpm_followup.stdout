@@ -1,0 +1,5 @@
+-rwxr-xr-x 1 root root 1429596 Nov  6 01:44 /usr/lib/libc-2.40.so
+lrwxrwxrwx 1 root root      12 Nov  6 01:42 /usr/lib/libc.so.6 -> libc-2.40.so
+file /usr/lib/libc-2.40.so is not owned by any package
+glibc-2.40-1.72.armv7l
+glibc-2.40-1.72.armv7l

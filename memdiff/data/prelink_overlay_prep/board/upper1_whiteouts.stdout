@@ -1,0 +1,17 @@
+find: `/opt/.overlay/platform/upperdir/zone/securezone': Permission denied
+/opt/.overlay/platform/upperdir/etc/emanual_icon/104x104.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/152x152.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/208x208.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/224x224.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/304x304.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/40x40.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/448x448.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/608x608.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/80x80.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/emanual_accelerator_apps.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/emanual_launcher_focused.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/emanual_launcher_normal.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/emanual_loading_screen_bg.png\t0\t0
+/opt/.overlay/platform/upperdir/etc/emanual_icon/emanual_myapps.png\t0\t0
+
+__PREP_REMOTE_RC=1

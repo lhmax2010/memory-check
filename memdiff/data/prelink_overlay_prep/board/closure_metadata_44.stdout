@@ -1,0 +1,7 @@
+/usr/lib/libfconfig.so	8a8bd4e708b0fcb67b31bbf867d525acebee58b1607f0a2e27a7e556e2f52428	feature-config-1.0.0-0.armv7l	     3	51024
+/usr/lib/libfeedback.so.0.1.4	b9aac786fee02b9caff22b658d569a0e95292fd9d576e91e1249a658f2b1d5d3	libfeedback-0.1.4-1.armv7l	     3	26704
+/usr/lib/libffi.so.8.1.4	61ca62f5e3b4dccbb14bbea0de482dd5171ab0691167ddf60cb14c7d801a10b8	libffi-3.4.7-1.47.armv7l	     3	42632
+/usr/lib/libfkp.so.0.1.0	d687e3644940534deb36e0ba7e78ff8dbe87c48189f7abc49daa44835c92af14	fkp-26.09.29.0-1.armv7l	     3	9524
+/usr/lib/libflux-manager.so.0.1.0	f1c2b0fd303a866caceba3b98730dab52512c58e9df3d79a65edd37331fa7e57	flux-manager-0.1-20190703.armv7l	     3	686564
+
+__PREP_REMOTE_RC=0

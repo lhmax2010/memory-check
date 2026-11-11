@@ -1,0 +1,7 @@
+/usr/lib/libacl.so.1.1.2302	6c64549faa3678e4400464c4cb2db627df281618351d79af6d8ef6b3f0fb5557	libacl-2.3.2-1.125.armv7l	     3	21876
+/usr/lib/libanalog-input-control.so.0.1	c8484ca60da2d1b562d2152085c6193e50dca4d8c783dbe9c8903596028badd3	ppi-analog-input-control-0.0.1-1.armv7l	     3	17688
+/usr/lib/libapp-control-api.so	eed226ab8b29eb5c6630ee2896625ada0cac0150132afac2a55a2717bb1345fb	app-control-api-0.1.1-1.armv7l	     3	13760
+/usr/lib/libapp-core-cpp.so.1.27.17	2359cc7cbbb6d76330763695a9edd49f7109508c5cc392e1263f8a692d88ca52	app-core-common-1.27.17-0.armv7l	     3	71936
+/usr/lib/libapp-core-efl-cpp.so.1.27.17	4d0e52c7498bdda30d658fb7a2ab8fb76dee8f8b7cac16e8cbc1b9df45699e91	app-core-efl-1.27.17-0.armv7l	     3	26344
+
+__PREP_REMOTE_RC=0

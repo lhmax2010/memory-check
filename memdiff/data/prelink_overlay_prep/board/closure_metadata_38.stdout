@@ -1,0 +1,7 @@
+/usr/lib/libedje.so.1.25.1	7528a918f20bf658fca03855248a1ef13c810709d03d87d9731301e25245eed3	edje-1.25.1-0.armv7l	     3	571540
+/usr/lib/libeet.so.1.25.1	8f40eb417348357abd8bee77fb850c89b02f2b77be2bc5e89ac7ed8ef8a1830d	eet-1.25.1-0.armv7l	     3	100704
+/usr/lib/libeeze.so.1.25.1	393be671cd03a48438d6f3a8d2583e26c749b595986c7e9da74aceda6b11d52a	eeze-1.25.1-0.armv7l	     3	51424
+/usr/lib/libefl-assist.so.0.1.0	023ea722165d0bf71bfa95f7e29116a82683123a527bccd7401d01a9a11f8ad2	efl-assist-0.1.18-20141217.armv7l	     3	67632
+/usr/lib/libefl.so.1.25.1	a292a829eeffe651370c8cc29120d14435853c95491cbf81ebac2ad052d15467	efl-1.25.1-0.armv7l	     3	259200
+
+__PREP_REMOTE_RC=0

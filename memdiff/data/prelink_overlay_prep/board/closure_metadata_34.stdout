@@ -1,0 +1,7 @@
+/usr/lib/libdl.so.2	7ae00f9118ade5442f4c6e703e654adabe42dfcca2713ff1a87269f316bb3069	glibc-2.40-1.72.armv7l	     3	13712
+/usr/lib/libdlog.so.0.0.0	fd3f507c0c6acef7f926cbf063ce3bdbc77c30da686d9bb61c4c4b54c3b70d38	libdlog-0.5.5-1.armv7l	     3	18060
+/usr/lib/libdrm.so.2.124.0	607a354c810d34243174f84daa0d2aaa643649c412142eab27b2d2ff37745dbf	libdrm-2.4.124-1.15.armv7l	     3	50896
+/usr/lib/libdrmdec_net.so.0.1.0	34d34325457dab01f8ee1f24de0ff942b7098808082e48c453f24d7119c17cf2	drmdecrypt-26.09.16.0-1.armv7l	     3	17892
+/usr/lib/libdrmdecrypt.so.0.1.0	9a3f455410e111efc5fc841a2cc01209936f194b5556d3b86de906bb4760fc5e	drmdecrypt-26.09.16.0-1.armv7l	     3	46896
+
+__PREP_REMOTE_RC=0

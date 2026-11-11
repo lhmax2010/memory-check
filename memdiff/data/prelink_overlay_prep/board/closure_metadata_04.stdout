@@ -1,0 +1,7 @@
+/prd/usr/lib/libvconf-prd.so.1.0	3cc52de0bb45ab7d7a149ca02f2ea62ca05ec58cdbc24e95474dc49e918fd1a2	vconf-prd-1.0-1.armv7l	     3	19734
+/prd/usr/lib/libvconf_lite.so.0.3.1	35af7baca214da822c4a7a63a4a715e485f9ab2f4d28fa3b23d60f1e75ebc63d	vconf-compat-prd-1.1-0.armv7l	     3	47134
+/prd/usr/lib/libvideo-dp-control-impl-sec.so.0.1.0	24641ff4432f1653db9481dad06b2e226f8a739fcdcb87e81ce80999da1beff4	video-control-impl-sec-0.1.0-1.armv7l	     3	126914
+/prd/usr/lib/libvideo-mm-control-impl-sec.so.0.1.0	94f1e1dd72c776d1ebfc2ef9c80b9aef46f3fa52e2beb3ac94260763e1e98894	video-control-impl-sec-0.1.0-1.armv7l	     3	49754
+/usr/lib/driver/libmali.so	114e4aa48efe94752e6ff3d1a4eae8fbca35241610a2a1bec88a7fe71b16208a	lib-opengl-es-g52-tv-54.0-0.armv7l	     3	17168660
+
+__PREP_REMOTE_RC=0

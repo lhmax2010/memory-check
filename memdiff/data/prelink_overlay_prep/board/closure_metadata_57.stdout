@@ -1,0 +1,7 @@
+/usr/lib/libopencv_core.so.4.7.0	14b1807363adb3030fa4a47951a885090d17155f9510edcedadd71bb551d9d43	opencv-4.7.0-7.armv7l	     3	1541868
+/usr/lib/libparcel.so.0.18.15	ccd1465c072ef911b586d623e650bc7efe7911b0b4bbe26d165d79a8d76fa1a6	parcel-0.18.15-0.armv7l	     3	30404
+/usr/lib/libpba-inspection.so	68651fd2152cd0a82664659af603127358b3ab3b8b881fe4a6021c04cf54f619	ppi-soc-pba-0.0.1-0.armv7l	     3	34076
+/usr/lib/libpcre2-8.so.0.14.0	93832a0b36d00bd9a4430e4231739749f37ea04749cd19216aad99533c9b153a	pcre2-10.45-1.armv7l	     3	423692
+/usr/lib/libpepper-efl.so.0.0.0	7db0c83fbc6d3ab9e21f23547b1819ea18dc50948210ab6bc915b14a1f27d31c	libpepper-efl-0.0.26-0.armv7l	     3	34844
+
+__PREP_REMOTE_RC=0

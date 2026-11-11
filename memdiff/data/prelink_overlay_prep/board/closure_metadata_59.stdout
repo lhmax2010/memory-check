@@ -1,0 +1,7 @@
+/usr/lib/libpkgmgr_common.so.0.23.4	de858e3d77740e142e1e21f56222c984a3027d49f6922e76edb619a7a49711b8	pkgmgr-0.23.4-0.armv7l	     3	17928
+/usr/lib/libpkgmgr_installer.so.0.23.4	aeee325e2343c31d38c87bef3f82e1dcd0133e17c1d93effca1eda5f0b94632e	pkgmgr-installer-0.23.4-0.armv7l	     3	257824
+/usr/lib/libpng16.so.16.44.0	ecf8184c535e29a7da0bae032599d36769f1318a9014e2cacd2af9703f2317a0	libpng-1.6.44-0.armv7l	     3	137208
+/usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0	a4c85c12e03eea2cd7cc070458ba90a5d6109f45e508f8ead9f1badca596a645	libwayland-extension-client-1.3.75-0.armv7l	     3	9524
+/usr/lib/libpointer-warp-v1-client.so.0.0.0	d703506c15806aa796b4071fd0790fa009e778d2609d78b3e593b4a0646b6b4b	libwayland-extension-client-1.3.75-0.armv7l	     3	9488
+
+__PREP_REMOTE_RC=0

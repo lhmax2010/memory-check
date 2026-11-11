@@ -1,0 +1,4 @@
+{
+  "command": "sh -c 'ls -l /usr/lib/libc-2.40.so /usr/lib/libc.so.6; rpm -qf /usr/lib/libc-2.40.so; rpm -qf /usr/lib/libc.so.6; rpm -q glibc'",
+  "sdb_rc": 0
+}

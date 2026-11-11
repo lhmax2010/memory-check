@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:59.042942+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'sh -c '\"'\"'\nfor path do\n  if [ -f \"$path\" ]; then\n    hash=$(sha256sum \"$path\" 2>/dev/null) || hash=\n    [ -n \"$hash\" ] || hash=ERROR\n    hash=${hash%% *}\n    pkg=$(rpm -qf \"$path\" 2>/dev/null) || pkg=\n    [ -n \"$pkg\" ] || pkg=NOT_OWNED\n    etype=$(od -An -tu2 -j 16 -N 2 \"$path\" 2>/dev/null) || etype=\n    [ -n \"$etype\" ] || etype=ERROR\n    size=$(stat -c %s \"$path\" 2>/dev/null) || size=\n    [ -n \"$size\" ] || size=ERROR\n    printf '\"'\"'\"'\"'\"'\"'\"'\"'%s\\t%s\\t%s\\t%s\\t%s\\n'\"'\"'\"'\"'\"'\"'\"'\"' \"$path\" \"$hash\" \"$pkg\" \"$etype\" \"$size\"\n  else\n    printf '\"'\"'\"'\"'\"'\"'\"'\"'%s\\tMISSING\\tMISSING\\tMISSING\\tMISSING\\n'\"'\"'\"'\"'\"'\"'\"'\"' \"$path\"\n  fi\ndone\n'\"'\"' sh /usr/lib/libcoreapp-util-channel.so.0.1.0 /usr/lib/libcoreapp-util-source.so.0.1.0 /usr/lib/libcoreapp-util.so.0.1.0 /usr/lib/libcrypt.so.1.1.0 /usr/lib/libcrypto.so.1.1'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "closure_metadata_28.stdout",
+  "stderr_file": "closure_metadata_28.stderr",
+  "stdout_bytes": 744
+}

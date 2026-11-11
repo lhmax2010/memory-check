@@ -1,0 +1,7 @@
+/usr/lib/libtvs-guide.so	41a2458a5488d977719a9ff7986344bf040f378f078b26d4d89f4b88a2f5cfe3	tvs-guide-0.1.1-1.armv7l	     3	324064
+/usr/lib/libtvs-ht-api.so	66c6fdd4a8ebe2f9223ea5fe7335266703cc145507df7194803d75acabd8f55a	tvs-ht-0.1.1-1.armv7l	     3	366088
+/usr/lib/libtvs-ht.so	c44c528c31a8884b3833edaadd6f2ea195a1ef155656f3c90316aae285ecc304	tvs-ht-0.1.1-1.armv7l	     3	381472
+/usr/lib/libtvs-ics.so	91def199d1d91e9d8c7d70962eda14f198ba26ca11cfac32a015d71509be0b8c	tvs-ics-0.3.1-1.armv7l	     3	364432
+/usr/lib/libtvs-isdb-live.so	a62ffee924b6c4fe8a8bbc3aad6fbce3f223728e73657bb720892afe7847f7b8	tvs-isdb-live-0.4.0-1.armv7l	     3	83924
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libslive-provider.so.0.1	830cd920f2d4c8b76288ea5331758ec14da37a1c68ec86aada66dee1aa769ccd	libslive-provider-0.2-1.armv7l	     3	315272
+/usr/lib/libsmack.so.1.3.1	50874b7c96e15e074fdcce2d5fac1344725c60611131f66d303ce2ebb6765097	libsmack-1.3.1-1.114.armv7l	     3	25976
+/usr/lib/libsmart-deadlock.so	885ae0736052acc2c3a491693aa21c976792191e2477ef52adc80d7fe9c4fe3e	smart-deadlock-1.1-1.armv7l	     3	13716
+/usr/lib/libsoc-ir.so	277dcd001a51630041643fff8dd964a6bfa4b79eff1318b676ef64790361d1f4	ppi-soc-ir-0.0.1-0.armv7l	     3	13644
+/usr/lib/libsource-api.so	5058d3eef10a88b8a1a0487a27fa4ca9f1b83da7a0b4bd7a3649ceb8858a380d	source-api-1.2-2.armv7l	     3	121116
+
+__PREP_REMOTE_RC=0

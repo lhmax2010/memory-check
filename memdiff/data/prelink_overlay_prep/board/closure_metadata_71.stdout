@@ -1,0 +1,7 @@
+/usr/lib/libteec_trustware.so	ab11a59070ca73046d327933dbf18ae37e39f3243d4166fa36ced4cc6c024aff	trustzone-nwd-3.6.0-1.armv7l	     3	34640
+/usr/lib/libteec_trustware_common.so	e3d3584a2bf7200f050e8474b110747868e38f887838c529b64b025e41e7f261	trustzone-nwd-3.6.0-1.armv7l	     3	211836
+/usr/lib/libtest-oqc-tv-api.so	1fd4c11c5f01ff8cdadb3452f5c06ddaaa2f819fd97b793d92a9297201b5fa87	test-oqc-tv-0.1.1-1.armv7l	     3	34592
+/usr/lib/libtext-client.so.0.0.0	91f8603f228e0a536163efae5755f8384e1bb953b916a5f225ed30bcb19afd53	libwayland-extension-client-1.3.75-0.armv7l	     3	9524
+/usr/lib/libthorvg.so.1.1.0	86a2691bb547898c598fcba24b15ecf088e6ac340885d602bfa40836bbfd46bd	thorvg-1.0.0-1.armv7l	     3	346816
+
+__PREP_REMOTE_RC=0

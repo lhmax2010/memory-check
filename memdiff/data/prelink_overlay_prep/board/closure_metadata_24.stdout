@@ -1,0 +1,7 @@
+/usr/lib/libcapi-system-resource-plugin.so.0.0.1	f49505e108a915bb6e1b82f9704776c23b1895249dcadd283ba633297757401b	capi-boost-tv-0.0.1-0.armv7l	     3	13716
+/usr/lib/libcapi-system-resource.so.1.0.0	465f47f3c1b3580b7c9c0d8e3fa8c599e7bd19d942900f3472ec17d1e023f6fe	capi-system-resource-1.0.0-0.armv7l	     3	13580
+/usr/lib/libcapi-system-runtime-info.so.0.0.200	d9d4deceac6c0f8a032ff3fe3b2a9217c372ad121418bd5d8580251222e652f7	capi-system-runtime-info-0.0.200-0.armv7l	     3	40072
+/usr/lib/libcapi-system-sensor.so.0.2.5	b15002d66725b8f5fcf801f470134ffce328af9c9e1347a387885048785300b4	capi-system-sensor-0.2.5-1.armv7l	     3	38520
+/usr/lib/libcapi-system-system-settings.so.0.0.6	4cd44cd3e43269d1e0305b0cf78558930fb9bcf50863982d47073a6014a44bb5	capi-system-system-settings-0.0.6-3.armv7l	     3	113688
+
+__PREP_REMOTE_RC=0

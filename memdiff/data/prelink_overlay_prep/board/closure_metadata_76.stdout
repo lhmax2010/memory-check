@@ -1,0 +1,7 @@
+/usr/lib/libtvs-api-lite.so	60a09a0d0eea86c003d877443fa8f65c06a00a923bc59f90a629d4b1c1828e5f	tvs-api-lite-0.5.18-1.armv7l	     3	266112
+/usr/lib/libtvs-api-native.so	0fa3c653b8487d0a1dd2d4957335d9e0342a75002e7c7d42f200bd6963a89473	tvs-api-native-0.4.0-1.armv7l	     3	1533224
+/usr/lib/libtvs-api.so	ac65a3069cb31251934cce6c757a7a8e2c1d0839b9c209d96d65efd50e465983	tvs-api-0.5.18-1.armv7l	     3	1631104
+/usr/lib/libtvs-atsc30-guide.so	2bce43d15a9703240c8914ae58fcac690839e78574632b886174aa0a9267c6fe	tvs-atsc30-guide-0.1.1-1.armv7l	     3	46956
+/usr/lib/libtvs-atsc30-live.so	e77a7ff0ba7eae68b023de57b2411ad9c1ea8726f2d31e81ce9b0a451a0384b5	tvs-atsc30-live-0.1.0-1.armv7l	     3	286312
+
+__PREP_REMOTE_RC=0

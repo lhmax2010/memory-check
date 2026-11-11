@@ -1,0 +1,7 @@
+/usr/lib/libappcore-common.so.1.27.17	451ed8886951e3d6a9ec15c7948c9ce6ac806e0847a5c092a957626d222bd8b1	app-core-common-1.27.17-0.armv7l	     3	30516
+/usr/lib/libappcore-ui.so.1.27.17	9f5c62572c6335b9cad255376c9ae60a2dd67dc91194a1e947a5e85f256dc45b	app-core-ui-1.27.17-0.armv7l	     3	26280
+/usr/lib/libapputil.so.0.1.0	214d7a82553121e89cf9dbe2b79fd94297fa57bb597967d57f064c4ea310f379	apputil-lib-0.2.2-1.armv7l	     3	55140
+/usr/lib/libasound.so.2.0.0	8b05d8ca7625bea9454ffb7c6cfbe776003aeafedd8c51e4cfd973fd3923be89	libasound-1.2.12-1.11.armv7l	     3	606524
+/usr/lib/libattr.so.1.1.2501	fe3d1b68c53fa752001e1f455228b6f15a85beb24435a9f89cca1663372de58a	libattr-2.5.1-1.128.armv7l	     3	17888
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libbroadcast-diagnosis.so.0.1	0650e93a50f882c53eb0d0cf3fbde1541f84273cb52c4b2c1ae9fa0f1c96fc71	ppi-broadcast-control-0.0.1-1.armv7l	     3	17680
+/usr/lib/libbroadcastapp-util-core.so.0.1.0	92ee7731ed367149f91876f44b66a2753a036e7c53eae9075ad2bbd341d2ee28	broadcastapp-util-lib-0.27-1.armv7l	     3	245004
+/usr/lib/libbt-settings-api.so	2809ff183b22b6971e3690b4718c377441d4289e841338c2cef0a8d0c800074e	bt-settings-api-26.08.27-1.armv7l	     3	75972
+/usr/lib/libbundle.so.0.18.15	e7de04b0b2dc7e495c9220077c3044d9723d3f32507c2734e76da14ba8cf9d62	bundle-0.18.15-0.armv7l	     3	96632
+/usr/lib/libbuxton2.so.1.1	f3fe5f000bd96ed3e9bfce6b35d3387b0e42254081ec24240da877388a51fe7b	buxton2-1.1-0.armv7l	     3	75600
+
+__PREP_REMOTE_RC=0

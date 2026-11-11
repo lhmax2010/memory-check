@@ -1,0 +1,7 @@
+/usr/lib/libdt-api.so	a8099a729f922c232d3f716a8f259a5090c052693a21c4f9ae20b257c3dca8e8	dt-api-0.1.0-1.armv7l	     3	26236
+/usr/lib/libecore.so.1.25.1	b99271789c6ff16cbc8d7c66d3331f422cc6cb9162f55876412d27cd0ca85809	ecore-core-1.25.1-0.armv7l	     3	320632
+/usr/lib/libecore_audio.so.1.25.1	d32cab31d1d867c15e80e09d62840be41456d5385f53232db4f79c1f04b78d9a	ecore-audio-1.25.1-0.armv7l	     3	38884
+/usr/lib/libecore_con.so.1.25.1	e86dccf2ba5f66787030b0255b83be293b4f078300ada1297689a83bcbec026a	ecore-con-1.25.1-0.armv7l	     3	374340
+/usr/lib/libecore_evas.so.1.25.1	d7005497d02fa86131b5762d440f5879ccfde98b9f0ab7ab8c972d6cb974ae6a	ecore-evas-1.25.1-0.armv7l	     3	130316
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:36.397700+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'find /opt/.overlay/platform/upperdir -xdev -type f -exec sh -c '\"'\"'\nupper=$1\nlower=$2\nshift 2\nfor path do\n  rel=${path#\"$upper\"/}\n  source=\"$lower/$rel\"\n  usize=$(stat -c %s \"$path\" 2>/dev/null) || usize=\n  [ -n \"$usize\" ] || usize=ERROR\n  usha=$(sha256sum \"$path\" 2>/dev/null) || usha=\n  [ -n \"$usha\" ] || usha=ERROR\n  usha=${usha%% *}\n  if [ -f \"$source\" ]; then\n    lsize=$(stat -c %s \"$source\" 2>/dev/null) || lsize=\n    [ -n \"$lsize\" ] || lsize=ERROR\n    lsha=$(sha256sum \"$source\" 2>/dev/null) || lsha=\n    [ -n \"$lsha\" ] || lsha=ERROR\n    lsha=${lsha%% *}\n    exists=1\n  else\n    exists=0; lsize=NA; lsha=NA\n  fi\n  printf '\"'\"'\"'\"'\"'\"'\"'\"'%s\\t%s\\t%s\\t%s\\t%s\\t%s\\t%s\\n'\"'\"'\"'\"'\"'\"'\"'\"' \"$path\" \"$source\" \"$exists\" \"$usize\" \"$usha\" \"$lsize\" \"$lsha\"\ndone\n'\"'\"' sh /opt/.overlay/platform/upperdir /.org_rootfs {} +'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 1,
+  "stdout_file": "upper1_compare.stdout",
+  "stderr_file": "upper1_compare.stderr",
+  "stdout_bytes": 14692
+}

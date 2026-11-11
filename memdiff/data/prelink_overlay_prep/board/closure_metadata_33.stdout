@@ -1,0 +1,7 @@
+/usr/lib/libdbuspolicy1.so.1.1.0	fce4b53d9e47c385fd22ab29f16d650df5915b55b43b0dea791d764c699f25f4	libdbuspolicy-1.2.0-0.armv7l	     3	100396
+/usr/lib/libdebug_rcv.so	c69eda7d4e6c684b59783e09d55078b12c7b3f3cca246727873562360d22787c	libtvs-core-0.2.5-1.armv7l	     3	187740
+/usr/lib/libdemux-control.so.0.1	672511c8fada30661b2c0fc102e2c5aa7e3cce89f71067e79b79396ce69a49ce	ppi-broadcast-control-0.0.1-1.armv7l	     3	17680
+/usr/lib/libdeviced.so.1.0.3	cfc1ff0c0ab1d4cefb6516fa060c0b8bdcbb3ae8c57901ec43b5b7ee6dead41c	libdeviced-1.0.3-1.armv7l	     3	256824
+/usr/lib/libdisplay-panel.so.0.1	7105d969f39d2ac604d5ab685495143271baded95f00ada2462c068a264a2c3d	ppi-display-panel-0.1.0-1.armv7l	     3	42312
+
+__PREP_REMOTE_RC=0

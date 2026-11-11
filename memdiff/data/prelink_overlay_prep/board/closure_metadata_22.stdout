@@ -1,0 +1,7 @@
+/usr/lib/libcapi-network-bluetooth-tv.so.0.1.04_tv	351e46c77299052e31b56f924d5d11cfb1dd4b2541e2a31560addf51bdec974b	capi-network-bluetooth-tv-0.1.04_tv-1.armv7l	     3	223928
+/usr/lib/libcapi-network-bluetooth.so.0.5.3	58f7341baca306e4c47ebb292e2ac2ad19dfa689f1d02f5b2d53cdc3a981a4f3	capi-network-bluetooth-0.5.3-1.armv7l	     3	507724
+/usr/lib/libcapi-network-connection.so.1.0.139_20260710	13a7443db65f457e21109f691eebdf9620030c0f57972ff214a4e252ca65c51b	capi-network-connection-1.0.139_20260710-1.armv7l	     3	111984
+/usr/lib/libcapi-network-tethering.so.0.1.0	f5b5f98de706b256a4b4519e1f06fe2caadbeac910c76e65cbffffcd417e2c34	capi-network-tethering-1.1.8_2025.04.16-1.armv7l	     3	80536
+/usr/lib/libcapi-network-wifi-manager.so.1.3.25	edd07386e783a93d237db322f9681df8ba8a4cb8d2241d2e55ca6e1ee5b2ddc5	capi-network-wifi-manager-1.3.25-6.armv7l	     3	251740
+
+__PREP_REMOTE_RC=0

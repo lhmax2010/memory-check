@@ -1,0 +1,10 @@
+[
+  "/opt/usr/apps/com.samsung.tv.slive-daemon/lib",
+  "/lib",
+  "/usr/lib",
+  "/prd/usr/lib",
+  "/usr/lib/was-api",
+  "/usr/lib/ecore_imf/modules/isf/v-1.13",
+  "/usr/lib/gstreamer-1.0",
+  "/usr/lib/pulseaudio"
+]

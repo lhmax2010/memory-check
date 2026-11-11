@@ -1,0 +1,7 @@
+/usr/lib/libcynara-uid-creds.so..26.0	86958fd962e9b75b547c52d06fc881edbee4fb2ef66a087eb571b3400ddecd2d	libcynara-uid-creds-0.26.0-1.armv7l	     3	21824
+/usr/lib/libcynara-uid.so.0.26.0	cc7ea435fd4e20aca3385360b698d70b4d58cdac7d7b745a3baeaff40f260152	libcynara-uid-0.26.0-1.armv7l	     3	9324
+/usr/lib/libdata-service-api.so.0.0.1	19bb38292c8bdb3e14c2a38a94b41fb1e5c2c920c5f221668cf5afc8fe35b284	data-service-api-0.0.1-1.armv7l	     3	30448
+/usr/lib/libdbus-1.so.3.19.13	a17668247cf4fdbde0b42445cca22b9655ef686d87e6752ce9c41c3faa6638ca	dbus-libs-1.12.20-3.armv7l	     3	302552
+/usr/lib/libdbus-glib-1.so.2.2.2	c09691c6d780f33440ba94a7e9edd6ddd2052763d0ece4f42862249ed20f5070	dbus-glib-0.100.2-0.armv7l	     3	109548
+
+__PREP_REMOTE_RC=0

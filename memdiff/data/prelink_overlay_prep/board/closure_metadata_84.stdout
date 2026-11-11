@@ -1,0 +1,7 @@
+/usr/lib/libtvs-nrt.so	cd356f794dc7c774477205d768930e35341f71805a77d91bf03e5069755125ce	tvs-nrt-0.4.1-1.armv7l	     3	196368
+/usr/lib/libtvs-objectfactory.so	b7b0b96426c36ea1580ccbce782b63d1fdde1488b8f171bb42438b0306c2ca86	tvs-objectfactory-0.1.1-1.armv7l	     3	38552
+/usr/lib/libtvs-parser.so	f4ea85e4f12f8b5eaa9576c99d265dfdf68369343cbb142b59f326751af33145	tvs-parser-0.1.1-1.armv7l	     3	965268
+/usr/lib/libtvs-scan.so	6a4b4d84d30aa07864d7a45ce56857b2b13a5d129b61d12a4440c4d814e50a26	tvs-scan-0.4.0-1.armv7l	     3	476408
+/usr/lib/libtvs-si.so	27153a89f3c522254028492f576ccdf6dc6bab6a42ddb01c3e7ce45c879657b6	tvs-si-0.1.1-1.armv7l	     3	551280
+
+__PREP_REMOTE_RC=0

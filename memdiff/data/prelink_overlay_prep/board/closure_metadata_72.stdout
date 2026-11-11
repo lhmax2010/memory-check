@@ -1,0 +1,7 @@
+/usr/lib/libtinyxml2.so.10.0.0	92d042d18e40b63e3eac3213120e471bd10d6d8511d2e837dcdf7cddb0ac76fa	tinyxml2-10.0.0-1.9.armv7l	     3	71600
+/usr/lib/libtizen-core.so.0.2.4	0e4550235d30558621d0efb292dc99235de5efff45461152e481e2929f2fdeb7	tizen-core-0.2.4-0.armv7l	     3	117340
+/usr/lib/libtizen-extension-client.so.0.0.0	cc3ef3623a1b99cf6b661652065cee00515e39dbbcfe295e0d238369017db0b7	libwayland-extension-client-1.3.75-0.armv7l	     3	22748
+/usr/lib/libtizen-extension-tv-client.so.0.0.0	b6dc32a3479f19bb1e8ea75cb0247cd7716594daac9cca662f354de80fa144c6	libwayland-extension-tv-client-1.0.122-0.armv7l	     3	30336
+/usr/lib/libtizen-hwc-client.so.0.0.0	6c3dcb2c72080bc6072b76fdc5dd9d9a605c3198509c9dc1dcf8b50acffc6eb3	libwayland-extension-client-1.3.75-0.armv7l	     3	9484
+
+__PREP_REMOTE_RC=0

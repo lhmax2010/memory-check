@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:32.211055+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'uname -m'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "identity_uname_m.stdout",
+  "stderr_file": "identity_uname_m.stderr",
+  "stdout_bytes": 30
+}

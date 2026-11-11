@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:38.225762+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'date '\"'\"'+%Y-%m-%dT%H:%M:%S%z %s'\"'\"''; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "board_date.stdout",
+  "stderr_file": "board_date.stderr",
+  "stdout_bytes": 59
+}

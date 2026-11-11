@@ -1,0 +1,7 @@
+/usr/lib/liblink.so.0.1	6a74065a15f2ef850eabb5fa1da8b792d9976be6304a10d908baf9f604fa3112	ppi-link-0.1.0-1.armv7l	     3	25872
+/usr/lib/liblinux-explicit-synchronization-unstable-v1-client.so.0.0.0	4a35859ac8648d231f85041da472f8781b8e6e7938af3f318d19c3d6ad846ac9	libwayland-extension-client-1.3.75-0.armv7l	     3	9484
+/usr/lib/liblua.so.5.1	2909ff823cc6021ff312fb3c4d5ea259d6722fe83b84e146324ef74e6c6c2a6c	liblua-5.1.5-1.116.armv7l	     3	109200
+/usr/lib/liblwipc.so	e67c4e5d42258009b1dbac2f709700c9bd074478029ee14198d62316ca68f663	lwipc-0.5.1-1.armv7l	     3	13732
+/usr/lib/libm.so.6	16c7334663e6ba153fdee6c28726481176b4e82d001d6a309b5229995c7560f6	glibc-2.40-1.72.armv7l	     3	312724
+
+__PREP_REMOTE_RC=0

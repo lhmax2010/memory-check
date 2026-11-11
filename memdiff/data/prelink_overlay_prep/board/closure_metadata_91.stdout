@@ -1,0 +1,7 @@
+/usr/lib/libvideo-sink.so.0.1.0	f622fbaa411af392fafc8fa0de5a908cc864298cdffec4291b589c4f7f5a8ba6	video-control-base-1.0.0-1.armv7l	     3	84044
+/usr/lib/libvideoenhance.so.0.1	f74670b795e7323db8383178cd32a0c4fe29bc2f4413ee4bf5f2e37dc343c4d0	ppi-video-enhancer-0.0.1-1.armv7l	     3	140724
+/usr/lib/libvirtualscreen-linker.so.0.0.509	c3f962238b212fdfaeee3781fcea49eaa43795a474778f4435b4882efbbd0c6d	vd-win-util-0.0.509-1.armv7l	     3	38456
+/usr/lib/libwas_db_api.so	fa9b9e6a93f5e5f9419b1b4bff173ab5f447915e3e846327215c007a522eec9d	org.tizen.webappservice-api-0.1-1.armv7l	     3	279196
+/usr/lib/libwayland-client.so.0.23.1	79e73ce01e679ef80988e9a0a8de9456f40eb20f5b1edf47cfc7f362db6b2a42	libwayland-client-1.23.1-0.armv7l	     3	47164
+
+__PREP_REMOTE_RC=0

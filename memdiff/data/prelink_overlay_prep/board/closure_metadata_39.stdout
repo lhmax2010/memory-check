@@ -1,0 +1,7 @@
+/usr/lib/libefreet.so.1.25.1	0f3c92a486c85db84ddae7330adf8fd68a8c4f85864dfdbaa30b9674ce9ca20f	efreet-1.25.1-0.armv7l	     3	104948
+/usr/lib/libeina.so.1.25.1	055db5c815c9645361b104d44731f16976b318dff6bd78fb5809089a6493d72c	eina-1.25.1-0.armv7l	     3	352252
+/usr/lib/libeio.so.1.25.1	344ed42d2b34e85d39028ba83edeadcabaeabb109175f145ebc4d7466ea880c0	eio-1.25.1-0.armv7l	     3	81220
+/usr/lib/libeldbus.so.1.25.1	267a23b5c902c479d9715078eb782a3fae95d8dbf5a9676d556c2b0269b69e24	eldbus-1.25.1-0.armv7l	     3	150496
+/usr/lib/libelementary.so.1.25.1	b5a1a7b214dbad0f1a9e75e9ed41e3e33fb50183a3ed82ce7dd46b7c1630ad1e	elementary-1.25.1-0.armv7l	     3	2938140
+
+__PREP_REMOTE_RC=0

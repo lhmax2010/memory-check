@@ -1,0 +1,7 @@
+/usr/lib/libtvs-b2b.so	1cbf72a6982ac5002f7305510e037559ba7110895033c4bca15f21015002f947	tvs-b2b-0.0.1-1.armv7l	     3	665472
+/usr/lib/libtvs-chms.so	bac2f412fd17098936db861b7f27c24add1ed61797e2227f41f0f0faa730a81d	tvs-chms-0.2.0-1.armv7l	     3	600940
+/usr/lib/libtvs-config.so	94321fb788e4b7f557db16792db329002c7ece5dd2a96644840092967523775c	tvs-config-0.2.1-1.armv7l	     3	38628
+/usr/lib/libtvs-core.so.0.1	f11389bd7cc2ca0f2cd0b059e66981b39a1d3676facacee81a8e267b5eddf326	libtvs-core-0.2.5-1.armv7l	     3	166980
+/usr/lib/libtvs-dbms.so	b0202dfc21c32778f660539f80527e6913f2d13a774061f5c7ee906213c23cff	tvs-dbms-0.2.2-1.armv7l	     3	286936
+
+__PREP_REMOTE_RC=0

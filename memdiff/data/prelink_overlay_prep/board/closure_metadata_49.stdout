@@ -1,0 +1,7 @@
+/usr/lib/libhwcrypto.so.0.1.1	71dd713914a3465dfa13723ad4d7f4ff98d6d565e81c4f7b58bd9c1a7012ec83	hwcrypto-0.1.22-1.armv7l	     3	18926
+/usr/lib/libhyphen.so.0.3.0	37fb5387d4f09afc21604fbaab527734ca0ee4f9170d4e12613983840f23e5fa	libhyphen-2.8.8-1.11.armv7l	     3	17852
+/usr/lib/libicudata.so.76.1	e8b2dbaf85ac186361fbf4172de996f070ab394f25f08edc859f3e0e1c98fa48	libicu-76.1-1.22.armv7l	     3	31859892
+/usr/lib/libicui18n.so.76.1	41cda41697a4c75a0cb1f315e364b0cd4329a7f0a8c3b5489ebb78cdfff0fb29	libicu-76.1-1.22.armv7l	     3	2123844
+/usr/lib/libicuuc.so.76.1	544caa82c41c59296ae6dd3ecf3a23cf2814673deff2cf24cc25f1ef09eb0c1c	libicu-76.1-1.22.armv7l	     3	1321332
+
+__PREP_REMOTE_RC=0

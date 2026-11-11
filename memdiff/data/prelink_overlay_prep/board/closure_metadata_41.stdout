@@ -1,0 +1,7 @@
+/usr/lib/libep-customapp-common.so	48a414a86d4ab220048ed5bdb94020a76b428973c545d251dd6b6c7587fc4c0d	ep-customapp-api-0.1.1-1.armv7l	     3	47076
+/usr/lib/libep-customapp-setting.so	f4b15974f1261f2e6b47d52b29689a0eac0e8f540ee8a6c0785dad364a87d417	ep-customapp-api-0.1.1-1.armv7l	     3	13772
+/usr/lib/libep-device-alarm-manager-interface.so	84aff124bb2959ee15fd384d7c786da81f5a73e8479e8ebfdec6955a3380078d	ep-device-alarm-manager-interface-0.1.1-1.armv7l	     3	13696
+/usr/lib/libep-iptv-service-api.so	d359c30fc5cfa6a052548be80a1d1279f6a6eff806964d3bb3d538b2a014b8f3	ep-iptv-service-api-0.0.1-1.armv7l	     3	113184
+/usr/lib/libep-vconf-internal-keys-signage.so.0.1.230	106762f28434784f37fce1dc762e4c25e003796db7343eb0261ded1e41ea2862	ep-vconf-internal-keys-signage-0.1.230-1.armv7l	     3	71472
+
+__PREP_REMOTE_RC=0

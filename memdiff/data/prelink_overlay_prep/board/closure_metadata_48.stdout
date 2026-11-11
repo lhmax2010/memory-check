@@ -1,0 +1,7 @@
+/usr/lib/libgstvideo-1.0.so.0.2411.0	eeff31555eb1cdf21bca6c1e35725db0478a882e2f883ca4b1bb4859b3a1c990	gst-plugins-base-1.24.11-2.armv7l	     3	536176
+/usr/lib/libharfbuzz.so.0.60822.0	281968328b0d75b5e61663e18991548777b7b6e0ff02debbdbeb1c3e768c1f88	libharfbuzz-8.2.2-0.armv7l	     3	601496
+/usr/lib/libhdmi-control.so.0.1	713e16e61bdc2cc7385b1e33c4cd475a32bc9310b1527f8b768805b5e21d7ec8	ppi-hdmi-control-0.0.1-1.armv7l	     3	34080
+/usr/lib/libhdmicec-api.so.0.18.18	b3d6dc90f00b5f97ecb08bbcfb55d10cc7b02a829bc995e1e9253e53180c2159	hdmicec-api-0.18.18-1.armv7l	     3	42568
+/usr/lib/libhpd-manager.so	7c23031d75929dd2c1ab9bc43785b6df70ae6250c70c50fe9e55a2921acffa0b	systemd-boot-helper-0.0.1-0.armv7l	     3	26168
+
+__PREP_REMOTE_RC=0

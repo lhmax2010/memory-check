@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:28:32.948854+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'sh -c '\"'\"'\nfor path do\n  if [ -f \"$path\" ]; then\n    hash=$(sha256sum \"$path\" 2>/dev/null) || hash=\n    [ -n \"$hash\" ] || hash=ERROR\n    hash=${hash%% *}\n    pkg=$(rpm -qf \"$path\" 2>/dev/null) || pkg=\n    [ -n \"$pkg\" ] || pkg=NOT_OWNED\n    etype=$(od -An -tu2 -j 16 -N 2 \"$path\" 2>/dev/null) || etype=\n    [ -n \"$etype\" ] || etype=ERROR\n    size=$(stat -c %s \"$path\" 2>/dev/null) || size=\n    [ -n \"$size\" ] || size=ERROR\n    printf '\"'\"'\"'\"'\"'\"'\"'\"'%s\\t%s\\t%s\\t%s\\t%s\\n'\"'\"'\"'\"'\"'\"'\"'\"' \"$path\" \"$hash\" \"$pkg\" \"$etype\" \"$size\"\n  else\n    printf '\"'\"'\"'\"'\"'\"'\"'\"'%s\\tMISSING\\tMISSING\\tMISSING\\tMISSING\\n'\"'\"'\"'\"'\"'\"'\"'\"' \"$path\"\n  fi\ndone\n'\"'\"' sh /usr/lib/libtvs-dsm.so /usr/lib/libtvs-dtmb-sospec.so /usr/lib/libtvs-dvb-chms.so /usr/lib/libtvs-dvb-si.so /usr/lib/libtvs-dvb-sospec.so'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "closure_metadata_79.stdout",
+  "stderr_file": "closure_metadata_79.stderr",
+  "stdout_bytes": 698
+}

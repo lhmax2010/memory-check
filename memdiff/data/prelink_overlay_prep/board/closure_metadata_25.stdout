@@ -1,0 +1,7 @@
+/usr/lib/libcapi-system-tvtimer.so	a14d27ec07dcd297765aeb66ce416a4edc66fd50843297f31690ffeb8be70b02	capi-system-tvtimer-0.0.11-1.armv7l	     3	26208
+/usr/lib/libcapi-system-usbdevice.so	df1a229d474499377d82f1db9ef6fdcc0dbad70c7e7d474680534adaa602cc48	capi-system-usbdevice-2.0.0-1.armv7l	     3	104472
+/usr/lib/libcapi-ui-config-manager-tv.so.0.1.0	7ba8edacd0a5f15d7b019d01899e6aabb99728584c1e87e890b90b7a39ec1771	capi-ui-config-manager-tv-0.1-20190703.armv7l	     3	42804
+/usr/lib/libcapi-ui-efl-util.so.0.8.38	cc00a81578c5979f51813292405138affda0cff650317f0be8466a5ff7114536	capi-ui-efl-util-0.8.38-1.armv7l	     3	42888
+/usr/lib/libcapi-window-tv.so.0.0.45	d4de5fcdee0d5bd559eacb662f331bc59d39267683d3ed15136844fbdf2ca432	capi-window-tv-0.0.45-1.armv7l	     3	51180
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libprd-factory-interface-ATSC.so	12a0cbbfde773ada2d70810671aebfe1d742c1379863b18e3e10469e7389f349	prd-factory-api-ATSC-0.0.01-0.armv7l	     3	126372
+/usr/lib/libpresentation-time-client.so.0.0.0	818f241b2bfeda00c22acfb050b915b4a66fc05ec64c3206f6887acd03ce7681	libwayland-extension-client-1.3.75-0.armv7l	     3	9508
+/usr/lib/libproidiom.so.0.1	78b56ca26a37aecb6551f99a42bf09488d363eea46e7deccc8709538753a859f	libproidiom-0.0.1-1.armv7l	     3	17848
+/usr/lib/libprojector.so.0.1	9fb8e63e7b6eb76d7c16c718bb8ab55d08f3418f0e9db1e13f392d5808432196	ppi-projector-control-0.0.1-1.armv7l	     3	21772
+/usr/lib/libpthread.so.0	2317f37dff5163132043a82c2ee873d98bec554626d5ddb47415700bd846755c	glibc-2.40-1.72.armv7l	     3	13712
+
+__PREP_REMOTE_RC=0

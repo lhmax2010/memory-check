@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:33.369362+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "root",
+    "on"
+  ],
+  "sdb_rc": 0,
+  "remote_rc": null,
+  "stdout_file": "sdb_root_on.stdout",
+  "stderr_file": "sdb_root_on.stderr",
+  "stdout_bytes": 32
+}

@@ -1,0 +1,4 @@
+process	GCC1_file_dirty_kB	GCC2_file_dirty_kB	LLVM1_file_dirty_kB	LLVM2_file_dirty_kB	file_dirty_delta_kB	GCC1_total_Pss_plus_SwapPss_kB	GCC2_total_Pss_plus_SwapPss_kB	LLVM1_total_Pss_plus_SwapPss_kB	LLVM2_total_Pss_plus_SwapPss_kB	total_delta_kB	ratio_file_dirty_to_total_delta
+tvs-daemon	1424	1272	3208	3212	1862.0	15797	15646	22257	22393	6603.5	0.2819716816839555
+tv-viewer	1064	1040	2464	2488	1424.0	12689	12707	14967	14974	2272.5	0.6266226622662266
+TIFSDaemon	836	836	2004	2020	1176.0	5523	5531	6640	6641	1113.5	1.0561293219577907

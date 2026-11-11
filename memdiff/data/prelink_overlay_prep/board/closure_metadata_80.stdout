@@ -1,0 +1,7 @@
+/usr/lib/libtvs-dvbbase-chms.so	ce8f6e588ad15ab1700be36a734e420298c5583bcf3ae33538fc2c910ff04378	tvs-dvbbase-chms-0.2.0-1.armv7l	     3	108916
+/usr/lib/libtvs-dvbbase-guide.so	a99440426cd52c04cc44684eba1f1d612fc32c92b757a647d76687671de4fb0f	tvs-dvbbase-guide-0.1.1-1.armv7l	     3	348428
+/usr/lib/libtvs-dvbbase-ics.so	3713b253ef0e53100b8719852436f96ac7784883bb6a74ad05af14b0caca749c	tvs-dvbbase-ics-0.1.1-1.armv7l	     3	175152
+/usr/lib/libtvs-dvbbase-live.so	4c85b7869cd53260e8f020f9f6653d2f6a68a49689b8719f840bfb4671068f07	tvs-dvbbase-live-0.4.0-1.armv7l	     3	67512
+/usr/lib/libtvs-dvbbase-scan.so	8e9959082807f75a446b91219fbbae75075e63e75620f5b8ff96a7bc7e764b9f	tvs-dvbbase-scan-0.0.1-1.armv7l	     3	653860
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libautoinput.so.0.0.87	6dbbd09eae3de4cd56ec0e591598e1e242104ed3d3a79e59016cb1c94a32db17	autoInput-0.0.87-1.armv7l	     3	26040
+/usr/lib/libavoc.so	7bd0be64fa10d5e4d51fb1859f273ce914993bb3b48c355aebfafc94ec9a99bc	libavoc-0.1.0-1.armv7l	     3	1172120
+/usr/lib/libbase-utils-i18n.so.3.1.5	9699c63bd415181bc2f5654df7402454fb44309b879c36eb9a148e738d0961b2	capi-base-utils-3.1.5-2.armv7l	     3	332712
+/usr/lib/libbattery-control.so.0.1	11b42d2a6aad324380a4a8037aaf54ddca47382944e11b0558fb2a35af3c4538	ppi-battery-control-0.1.0-1.armv7l	     3	21840
+/usr/lib/libbixby.so	d7ada92ba2a8a415a95e98528b03196bac38b7283f6b2b707c19c74c4b173d3b	bixby-native-api-v1.0-beta.1.0.armv7l	     3	88488
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libecore_file.so.1.25.1	ac365c1fb3209beee738a512e432e533287e622980ba407e4f587c9a23093121	ecore-file-1.25.1-0.armv7l	     3	26496
+/usr/lib/libecore_imf.so.1.25.1	c93affe2d64f9949cf27a0a20ecd3071cc4c74d80ab49d8fa509a5b6de915518	ecore-imf-1.25.1-0.armv7l	     3	30308
+/usr/lib/libecore_imf_evas.so.1.25.1	68e5a62372dc3f3c636f5eb6aeabaea23a79b5b38510fac1039e87ffe0038f92	ecore-imf-evas-1.25.1-0.armv7l	     3	9496
+/usr/lib/libecore_input.so.1.25.1	8106d2bf7c587c9ee477b0c5b2c9f3692e3844b9bbea38f2af9f27c21b7271c7	ecore-input-1.25.1-0.armv7l	     3	79444
+/usr/lib/libecore_input_evas.so.1.25.1	6b8ccc20f6b4553f5cc9c8347aaa22352fd9263118806b1c5f4e56b78ed4ce44	ecore-input-evas-1.25.1-0.armv7l	     3	22140
+
+__PREP_REMOTE_RC=0

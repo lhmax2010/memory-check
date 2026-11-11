@@ -1,0 +1,7 @@
+/usr/lib/libmuse-core.so.0.6.1	10d9c71a3055999b4a3362440b0f171a9e7230a911341b1192fea3fdd77a228c	mused-0.6.1-0.armv7l	     3	30412
+/usr/lib/libnagsam-api.so	be74c760ac40d7d837d4470bc53b73ac33bcf6bc7a8e10c33cb9e53f7c929ee9	nagsam-api-0.8.1-1.armv7l	     3	112948
+/usr/lib/libnetwork.so.0.0.0	e9706799c2056a845c1256714fe8a8bd1c32e70d1930455e4c566df96865c160	libnet-client-1.2.6_20260924+tv-2.armv7l	     3	100044
+/usr/lib/libnetwork_test.so.0.1	2163b0e6d749eb824acaf6cd1abcd9cce3d7a0d08c9fbcecabdcfb312e59b788	vd-capi-network-0.1.1.63-1.armv7l	     3	34056
+/usr/lib/libnghttp2.so.14.24.1	452095f73de65a11103d866b9361a7922e1a9f890cb792ef0d2e1be7290bea3e	nghttp2-1.51.0-1.11.armv7l	     3	120384
+
+__PREP_REMOTE_RC=0

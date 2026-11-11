@@ -1,0 +1,7 @@
+/hal/lib/bufmgr/libbuffer-control.so	39c9a642f2586a237ad2fbf6516709e67639f8d4e11cdf1a8ceac71371de423a	buffer-control-2.0.2-1.armv7l	     3	17678
+/hal/lib/bufmgr/libhal-backend-tbm-entry.so.2.1.0	177af008e5f56d9190b1d4c943493017116bbd5c099bba7e9d411758995f5481	hal-backend-tbm-2.1.0-2.armv7l	     3	53878
+/hal/lib/libcamera-control.so	c9251bf6b1da3d600ddb78c691d718be3b5207bcb48dd19590a715a6252fd337	camera-control-0.1.1-0.armv7l	     3	21944
+/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so	ec32f41c2811d306a285c5cec324164ccae5f8025d3c509210611153020ac5cf	fkp-26.09.29.0-1.armv7l	     3	48002
+/prd/usr/lib/bufmgr/libbuffer-control-kantsu.so.2.0.1	8440a9fd1f67e8eb06332ccbb8cc586e009044bc7b088ff2f84d7463cc4c7f26	buffer-control-impl-2.0.1-1.armv7l	     3	35810
+
+__PREP_REMOTE_RC=0

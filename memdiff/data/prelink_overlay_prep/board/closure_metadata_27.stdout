@@ -1,0 +1,7 @@
+/usr/lib/libcontent-db.so.0.3.0	9029762a2c26582384908e1f9d00152678e7feef37d303f72a4e3f63321ba1ca	content-db-2.0-0.armv7l	     3	117328
+/usr/lib/libcontext-aware-api.so.1.1.2	fd2431f598bd8183eaff31850ee56f404311682ca30492edfe0f56336f5832cf	context-aware-api-1.1.2-1.armv7l	     3	97722
+/usr/lib/libcontext-aware-common.so	dd130924a483bd7c8d98ed0162b4b6aa6075be9f4adc1948452240b06837b031	context-aware-common-0.1.2-1.armv7l	     3	55400
+/usr/lib/libcore-light-control.so.0.1	600dd0297b6dfff1cc053334d4d61b65b38b713e1b33641f1a2e09305c642d8a	ppi-core-light-control-0.1.0-1.armv7l	     3	13584
+/usr/lib/libcoreapp-fw-slim.so.0.1.0	dc3be9c7ae407c2badf68d4b43c52a218ee949ce5fcd36ba63cdcaf4ed9a37bb	coreapp-fw-0.2-1.armv7l	     3	88464
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libnotification.so.0.11.0	eee382f4ef3c023d1073b4d124b249fee340da66ec373c0b8d86c1573f6b0581	notification-0.11.0-1.armv7l	     3	334292
+/usr/lib/libnss_compat.so.2	658c6f0fd8640b87b25308527eaaabac69c327ac510f69d496386606de7d92ca	glibc-2.40-1.72.armv7l	     3	34416
+/usr/lib/libnss_securitymanager.so.2.0.0	67daa13cf683cac2627c0ae9d45faf0405c3843a7ed8f5e29f9ed0737a7fe03c	libnss-security-manager-2.5.4-0.armv7l	     3	38672
+/usr/lib/libnvram.so.0.1	a6bbebf76fcf0957c590c780772596474b3a1b278274f3f1b35bb8e09ebe368c	ppi-nvram-0.1.0-1.armv7l	     3	13580
+/usr/lib/libopen-debugmenu.so	6cde2683e7e008f6358057728eda209f674845a2c7640a8eaccf912322239f46	vddebugmenu-0.5.3-1.armv7l	     3	30396
+
+__PREP_REMOTE_RC=0

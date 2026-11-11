@@ -1,0 +1,7 @@
+/usr/lib/libkey-manager-common.so.1.0.1	3a98614dfd71a4f2e204a38ef3748bd317111ee9d46f947f34ebaed795719cdb	libkey-manager-common-26.05.12.0-1.armv7l	     3	125104
+/usr/lib/libkey-manager-control-client.so.1.0.1	2bb87e1a1cb062106d6ed3a51b765b550c3699c1668fbe77ddfd4ff5377ae89f	libkey-manager-client-26.05.12.0-1.armv7l	     3	50896
+/usr/lib/libkeystone-ppi.so.0.1	bf42f4b63bb2223ecaa62beae0dd1d6feeb5e7a6ec9f72f12fe2c7e128620b13	ppi-keystone-control-0.0.1-1.armv7l	     3	66832
+/usr/lib/libklay.so.0.0.2	a3757f10f110a142163f864b9da1b385608a5047c02117e58023679abc81d0b0	klay-0.0.2-0.armv7l	     3	205968
+/usr/lib/liblibtv-plpmanager.so	f73f9e547a05717c7b320f4290a636674221c1b004adca0c48743a39fe107e94	libtv-plpmanager-0.1.1-1.armv7l	     3	125200
+
+__PREP_REMOTE_RC=0

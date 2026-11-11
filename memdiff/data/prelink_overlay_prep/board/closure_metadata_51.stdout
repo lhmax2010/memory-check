@@ -1,0 +1,7 @@
+/usr/lib/libjson-c.so.5.4.0	2f2fe1551ab31c10abac0a3d7de866a0dab6dcfa6ed4992d744b3ddb5a745d87	libjson-0.18-1.11.armv7l	     3	46908
+/usr/lib/libjson-glib-1.0.so.0.800.0	a74fcd973a75e6fab4dfb8ab5e3ad6f1ca478056328140bbeca0a555bd6c9500	libjson-glib-1.8.0-0.armv7l	     3	111988
+/usr/lib/libjsoncpp.so.1.9.2	9007b70315070bbf8d2fe6e95503aec79adba6550c82b5fc050d58f8a367d3d8	jsoncpp-1.9.2-2.1.armv7l	     3	154080
+/usr/lib/libkey-lock-control.so.0.1	7797aa7f789bf7b26b934884c0f2c3abbffacc796ffc778b68dc118b9eb5a57d	ppi-key-lock-control-0.1.0-1.armv7l	     3	13600
+/usr/lib/libkey-manager-client.so.1.0.1	4dd072a4c6bfd82d47fe49089234e06195e6f10747b170290c0ae654ff928421	libkey-manager-client-26.05.12.0-1.armv7l	     3	329944
+
+__PREP_REMOTE_RC=0

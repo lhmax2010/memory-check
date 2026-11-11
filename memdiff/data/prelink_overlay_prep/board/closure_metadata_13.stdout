@@ -1,0 +1,7 @@
+/usr/lib/libaudio-control.so.0.1	ac8d6a4e6b16eb564f4b0fd87e485eada3dd8e8f3c0d9c3002232abacca931c9	ppi-audio-control-0.1.0-1.armv7l	     3	111908
+/usr/lib/libaul-blink.so.0.83.21	7f109a82ae921c522e59506153215baff3c98583dc25bbb0384f51986d19bae9	aul-0.83.21-1.armv7l	     3	13700
+/usr/lib/libaul-ex.so.0.1.0	f03523f31eafa2085340aef2cd55c2f5148e615189d9b74ddde05978a9e17b67	aul-ex-1.0.1-1.armv7l	     3	9496
+/usr/lib/libaul-extension.so.0.1.0	28767aff47b8cb4b606a82b38613bc04f42e5abd25b2804084eafb276feb19cd	aul-extension-1.2.0-1.armv7l	     3	42712
+/usr/lib/libaul.so.0.83.21	6a3c257ef9bc718e4101b46326987a31a7de0225da5e15ecade0033abeb642e1	aul-0.83.21-1.armv7l	     3	559744
+
+__PREP_REMOTE_RC=0

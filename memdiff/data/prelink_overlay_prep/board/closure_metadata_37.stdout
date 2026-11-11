@@ -1,0 +1,7 @@
+/usr/lib/libecore_ipc.so.1.25.1	a609c70fde8a7cc6226c3f94b2c24915de4a0b1534f8c46388f8792ef054ef97	ecore-ipc-1.25.1-0.armv7l	     3	30432
+/usr/lib/libecore_wayland.so.1.25.1	5ecc1b1be688cbed9730c6c33c79b491409954d4cc04aaef05ec6a9d730d8a98	ecore-wayland-1.25.1-0.armv7l	     3	59568
+/usr/lib/libecore_wl2.so.1.25.1	468f1752e097bc7a80cc5c8c95319a5d58076686e4854d11b38236c58a3c7ae4	ecore-wl2-1.25.1-0.armv7l	     3	204568
+/usr/lib/libecs-sec-tv.so.0.1	12f3a7c85a6a88d9da22daa30cee1cd34292e7bd21911dcce345d3c681809729	ppi-ecs-sec-tv-0.1.0-1.armv7l	     3	17756
+/usr/lib/libector.so.1.25.1	6b82fd8044eb71a1e88bc62a347776f136a4a514dfc414e9f028b85ac73495a1	ector-1.25.1-0.armv7l	     3	46720
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "armv7l": true,
+    "NT72671D": true,
+    "KSU2E": true,
+    "clang_kernel": true,
+    "BUILD_ID_present": true,
+    "BUILD_ID_matches_previous_LLVM": true,
+    "nonroot_before": true
+  },
+  "build_id": "T-KSU2EJAKUC-0101-PERF-202611061751",
+  "expected_build_id": "T-KSU2EJAKUC-0101-PERF-202611061751",
+  "boot_id": "0d30d3eb-a65b-44e2-b1d6-ee93e2c39af5",
+  "uid": "5001"
+}

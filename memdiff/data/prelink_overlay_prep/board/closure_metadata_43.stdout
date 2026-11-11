@@ -1,0 +1,7 @@
+/usr/lib/libfactory-interface-ATSC.so	10fe3fec843998835b06838874e87ecca94674fdcbfc2f441131fbb779685e83	factory-api-ATSC-0.0.01-0.armv7l	     3	352380
+/usr/lib/libfactory.so.0.1	34ffbf355bb5639d223d17450061340e7f8a9309aafec55a38ecc1cf54ffbfc6	ppi-factory-0.1.0-1.armv7l	     3	17732
+/usr/lib/libfan-heat-control.so	306f8b9211de5fb3870ce1e9a99046add71b49a697455a30c1f757c7c48c961d	ppi-fan-heat-control-0.1.0-1.armv7l	     3	17744
+/usr/lib/libfbclient.so.0.2.0	6247e18de6ab46315d8dc8d9c6ae1ec973386ca0b41168bc309022a81f657184	fastboot-0.2.0-0.armv7l	     3	81036
+/usr/lib/libfbproxyserver.so.0.2.0	f97d2f0c463c4d5823456820845f3fb48a6636354177700e51f57bd84535abe0	fastboot-0.2.0-0.armv7l	     3	72804
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libtvs-atsc30-parser.so	17f16c2d00161903a6dc4d9cc38f7441951d369f65ee334f828b0461a7a4a342	tvs-atsc30-parser-0.1.1-1.armv7l	     3	609028
+/usr/lib/libtvs-atsc30-scan.so	c1ee3bf07dfe7460c3d3ce87270543158dbac0a1b135c2bd8f080550daa97b16	tvs-atsc30-scan-0.0.1-1.armv7l	     3	92272
+/usr/lib/libtvs-atsc30-si.so	108a2e20b02c1819766cea692860043870711d447ceeb4816a2cd74f79aa624d	tvs-atsc30-si-0.1.1-1.armv7l	     3	369892
+/usr/lib/libtvs-atsc30-udm.so	77dfc281169d516e3bede7d76c54478a275b29975417d2fedbf7cf155a925bd3	tvs-atsc30-udm-0.1.1-1.armv7l	     3	71824
+/usr/lib/libtvs-av.so	c41631bf4bdf68dac398c18ac5960d6e8521fb042b5ea96d95ed0a95c2497ff1	tvs-av-0.4.0-1.armv7l	     3	257048
+
+__PREP_REMOTE_RC=0

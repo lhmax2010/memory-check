@@ -1,0 +1,7 @@
+/usr/lib/libwayland-cursor.so.0.23.1	fa666e9218906443b0cc687cd6f8b313671248a75de8aee726e9d6ba46410632	libwayland-cursor-1.23.1-0.armv7l	     3	29900
+/usr/lib/libwayland-egl-tizen.so.1.0.1	83420fbadc8f12c6ada78ca4070a5855846aaf1d9390012bb5e2c8ce2caf032f	libwayland-egl-tizen-1.0.1-0.armv7l	     3	13572
+/usr/lib/libwayland-egl.so.1.23.1	39c2368ddeff476c6c3fc32e183943eefa8e6ba8198ef1d3310355198a91eab8	libwayland-egl-1.23.1-0.armv7l	     3	9476
+/usr/lib/libwayland-server.so.0.23.1	d0ace4b2a643726f72895af95ece82862ff53a89de77b848363c12903e43f6ac	libwayland-server-1.23.1-0.armv7l	     3	55540
+/usr/lib/libwayland-tbm-client.so.0.0.0	cac204dbed9bcd6e4e0ac25c3fe68a859ea7afdf989f07ebf20e0a797059c26d	libwayland-tbm-client-0.9.1-0.armv7l	     3	43344
+
+__PREP_REMOTE_RC=0

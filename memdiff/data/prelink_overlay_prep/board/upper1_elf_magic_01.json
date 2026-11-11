@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:35.089880+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'sh -c '\"'\"'\nfor path do\n  magic=$(od -An -tx1 -N4 \"$path\" 2>/dev/null) || magic=\n  [ -n \"$magic\" ] || magic=ERROR\n  printf '\"'\"'\"'\"'\"'\"'\"'\"'%s\\t%s\\n'\"'\"'\"'\"'\"'\"'\"'\"' \"$path\" \"$magic\"\ndone\n'\"'\"' sh /opt/.overlay/platform/upperdir/usr/bin/target_view/python3/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc /opt/.overlay/platform/upperdir/usr/bin/target_view/python3/lib/python3.5/__pycache__/abc.cpython-35.pyc /opt/.overlay/platform/upperdir/usr/bin/target_view/python3/lib/python3.5/__pycache__/codecs.cpython-35.pyc /opt/.overlay/platform/upperdir/usr/bin/target_view/python3/lib/python3.5/__pycache__/copy.cpython-35.pyc /opt/.overlay/platform/upperdir/usr/bin/target_view/python3/lib/python3.5/__pycache__/copyreg.cpython-35.pyc'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "upper1_elf_magic_01.stdout",
+  "stderr_file": "upper1_elf_magic_01.stderr",
+  "stdout_bytes": 633
+}

@@ -1,0 +1,7 @@
+/usr/lib/libttrace.so.1.1.0	5b233741331ce2f7270e14623dcd2be8fb0df0851601b773c7d1f95f029ed5a3	ttrace-1.1.0-1.armv7l	     3	13708
+/usr/lib/libtuner-control.so.0.1	9d9a70168bd75c47b283677b06ee25671ed23defab26d26137a4db71964f668a	ppi-broadcast-control-0.0.1-1.armv7l	     3	25880
+/usr/lib/libturbojpeg.so.0.3.0	752df95f0454132ebba183add761e03aab8a6622a59abd63c63e2ae060003e70	libjpeg-8.2.2-1.17.armv7l	     3	518340
+/usr/lib/libtv-control.so.0.1.0	b9a1331eea0ce874ccef91656c3bac7a1816cf24f049fc5ed96cf9fa9121db18	tv-control-0.1.0-1.armv7l	     3	30456
+/usr/lib/libtv-resource-information.so.1.24	8efd6a38f4513afc459c45e9449a62359e43eeab76c1b021e5bd98783b9adf94	tv-resource-information-1.24-1.armv7l	     3	261796
+
+__PREP_REMOTE_RC=0

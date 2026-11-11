@@ -1,0 +1,7 @@
+/usr/lib/libv4lconvert.so.0.0.0	ed756c6db8d4c6e77b74f08e8da308af6f7fe5b91dbdd58f753f548e0b909381	libv4l-1.6.0-7.11.armv7l	     3	104484
+/usr/lib/libvconf-internal-keys-tv.so.0.1.232	5eb2f2fd1c8b68c4bb5b5a6abe67d0ae37a28f9ea01359f35042e858ec6e7eb0	vconf-internal-keys-tv-0.1.232-1.armv7l	     3	50888
+/usr/lib/libvconf.so.0.3.1	b80ecbce0876882f69e72bb8107fa51411272fd65923b2a9b8d0ce9bae952d76	vconf-compat-1.1-0.armv7l	     3	63544
+/usr/lib/libvd-capi-network.so.0.1.1.63	48d16177ed7251523db001979be5a8ed0bda3c6bedd917cd66a270097ca5dec8	vd-capi-network-0.1.1.63-1.armv7l	     3	247268
+/usr/lib/libvd-win-util.so.0.0.509	3c9a122ba04df68ed5734b644f04041e4751e331b1efea686b4ea8561d04301a	vd-win-util-0.0.509-1.armv7l	     3	113192
+
+__PREP_REMOTE_RC=0

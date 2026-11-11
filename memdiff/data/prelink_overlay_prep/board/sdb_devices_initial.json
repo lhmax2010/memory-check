@@ -1,0 +1,12 @@
+{
+  "time_utc": "2026-11-11T09:27:31.877133+00:00",
+  "argv": [
+    "sdb",
+    "devices"
+  ],
+  "sdb_rc": 0,
+  "remote_rc": null,
+  "stdout_file": "sdb_devices_initial.stdout",
+  "stderr_file": "sdb_devices_initial.stderr",
+  "stdout_bytes": 60
+}

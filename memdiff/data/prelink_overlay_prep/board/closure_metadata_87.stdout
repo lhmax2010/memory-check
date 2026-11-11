@@ -1,0 +1,7 @@
+/usr/lib/libuci.so.0.1.0	a33cee396870ace79468aee7a8809c9baa7d2b56737df6259246edb3c8ad078a	uci-26.08.06.0-1.armv7l	     3	101854
+/usr/lib/libudev.so.1.6.16	d881e045a44b2db3d3b27ed5cfa9fb1104ea608f34054d575975f17bf5f7be89	libsystemd-244-0.armv7l	     3	129706
+/usr/lib/libug_duck.so	b642d644ea1d9ae5fbadbc69582e7a64b56d1813c0e39110037727a7139f68bd	ug_duck-0.1.1-1.armv7l	     3	13608
+/usr/lib/libui-gadget-1.so.0.2.13	d6daeaaaf9714c1d050cfef324b14489d49c1d9af78404497db33bb8cf686b47	ui-gadget-1-0.2.13-1.armv7l	     3	34272
+/usr/lib/libuifw_misc.so.0.1.0	4f1c2762491d03cf2df6c5042792288d6f2b7cba8346814c231422fbb2eda313	uifw_misc-0.0.1-20141212.armv7l	     3	18784
+
+__PREP_REMOTE_RC=0

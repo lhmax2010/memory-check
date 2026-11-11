@@ -1,0 +1,7 @@
+/usr/lib/libcapi-ai-interpreter-tv.so.2.3.0	4e12df671abcd19ee15f2997e824a164f2b9cb50fa3d65c1f28cd2ae7456af17	capi-ai-interpreter-tv-2.3.0-1.armv7l	     3	52054
+/usr/lib/libcapi-aov-tv.so	fc02e55d00e77100826281e9d35f4079ce8060596ee3a5771c8afccbd50dff7c	capi-aov-tv-1.24.11290-1.armv7l	     3	246384
+/usr/lib/libcapi-appfw-app-common.so.0.16.4	7ee7cc81d9057df626e04607d59c8d43719c4c60122c13ff2a7ad8a1fdadd43e	capi-appfw-app-common-0.16.4-0.armv7l	     3	30432
+/usr/lib/libcapi-appfw-app-context-manager.so	f383db73dee612b22ff937397d5d93fbb6a96bf58d8492724eb72e42a70fd0a2	capi-appfw-app-context-manager-0.0.4-1.armv7l	     3	17768
+/usr/lib/libcapi-appfw-app-control-uri.so.0.26.2	468ee5f47e3c5679651c54416779adec00664c526c05a74bc586d48fe0119fa4	capi-appfw-app-control-0.26.2-0.armv7l	     3	22084
+
+__PREP_REMOTE_RC=0

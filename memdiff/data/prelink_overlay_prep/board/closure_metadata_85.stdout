@@ -1,0 +1,7 @@
+/usr/lib/libtvs-sospec.so	7041683110ecfe24af67a26bdc2f857b9fe0c171c5588eb4cda125ca2ffce046	tvs-sospec-0.1.1-1.armv7l	     3	63552
+/usr/lib/libtvs-time.so	2aae6ca7ecafbfc980f04100a73004478cdbbea9eadcb7a61487bea05c4ec3b8	tvs-time-0.1.1-1.armv7l	     3	63584
+/usr/lib/libtvs-tpms-base.so	2aa86c3bbf7e44828e7fd536a8e0c33eb6771d5e5f67f768d7a7c592e63ad74e	tvs-tpms-base-0.1.0-1.armv7l	     3	335824
+/usr/lib/libtvs-tpms.so	a2d94ce6d2775d7035a7cf04b6be671f1ab9399f558c433de205890eaed5c71c	tvs-tpms-0.4.0-1.armv7l	     3	620620
+/usr/lib/libtvs-tvplus.so	61545da65bce9a2d48d460c3cc428425785343f16ddc02522f84ec25f9f7914f	tvs-tvplus-0.1.1-1.armv7l	     3	170756
+
+__PREP_REMOTE_RC=0

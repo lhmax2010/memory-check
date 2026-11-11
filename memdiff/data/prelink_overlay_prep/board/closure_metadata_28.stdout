@@ -1,0 +1,7 @@
+/usr/lib/libcoreapp-util-channel.so.0.1.0	d327208ae2363ff80c75618220e885de382a12720fb950b644b77b9a40a1eadc	coreapp-util-lib-0.2-1.armv7l	     3	34400
+/usr/lib/libcoreapp-util-source.so.0.1.0	7ba9b58ca81852f59c86493d932338edfd6ae4e6955717cf55554e6a837207a8	coreapp-util-lib-0.2-1.armv7l	     3	26236
+/usr/lib/libcoreapp-util.so.0.1.0	21fa4898798c4f3eb4accd33c47a46c8abf564cde844d3c896050e4d7a50a80f	coreapp-util-lib-0.2-1.armv7l	     3	63368
+/usr/lib/libcrypt.so.1.1.0	804dd0bc2ec9e86192654a88866edf5a1c4322442febff7af3f23fe24829cc95	libxcrypt-4.4.36-1.134.armv7l	     3	173380
+/usr/lib/libcrypto.so.1.1	8d2bc5a7b9539dee89488865a92463b102e2464a8083e709c91e2008d5265de7	libopenssl11-1.1.1zb-1.135.armv7l	     3	1579384
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libgio-2.0.so.0.8000.5	21b45a97687a421aafe4a7e44a9543562ad001bacf211bf89b771b3c6667fe2b	libgio-2.80.5-0.armv7l	     3	1194132
+/usr/lib/libglib-2.0.so.0.8000.5	49e1fe30d86400e4897e0ab03c2acbade71431ecebe549352ffc50b5fb8709d2	libglib-2.80.5-0.armv7l	     3	932956
+/usr/lib/libgmodule-2.0.so.0.8000.5	238c83080691616f73aa78fc44d98a97d258e035f4cc2ad0391d4f4f0d60c2ff	libgmodule-2.80.5-0.armv7l	     3	13784
+/usr/lib/libgobject-2.0.so.0.8000.5	e417b3909f6b15f378fa8b28701f5427b736cff764abe35c191500b424647f0b	libgobject-2.80.5-0.armv7l	     3	244272
+/usr/lib/libgooglecast-platform-tv.so	cb4d93d03997ed56e9d537ffaa23de69a19548fbc994a85e3b72a547edded3a9	lib-googlecast-platform-tv-0.0.25-0.armv7l	     3	121344
+
+__PREP_REMOTE_RC=0

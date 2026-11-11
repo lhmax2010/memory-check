@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-11-11T09:27:40.701202+00:00",
+  "argv": [
+    "sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sh -c 'cat /proc/979/stat'; result=$?; printf '\\n__PREP_REMOTE_RC=%s\\n' \"$result\""
+  ],
+  "sdb_rc": 0,
+  "remote_rc": 0,
+  "stdout_file": "proc_TIFSDaemon_979_stat.stdout",
+  "stderr_file": "proc_TIFSDaemon_979_stat.stderr",
+  "stdout_bytes": 272
+}

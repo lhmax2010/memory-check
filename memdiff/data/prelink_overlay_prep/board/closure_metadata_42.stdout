@@ -1,0 +1,7 @@
+/usr/lib/libesg-api.so	25da368d1c49190247798af23d4c2daad8d10c24600d897c3c4198b198e5ff45	esg-api-0.1-1.armv7l	     3	88576
+/usr/lib/libethumb.so.1.25.1	eb0292253a54a54282acb5a758c133e11d48e01c8a7d10d934f077ef72b0483a	ethumb-1.25.1-0.armv7l	     3	38624
+/usr/lib/libethumb_client.so.1.25.1	71a2c294cf14e05ff86f357a173040b2135e740425e16f09f34fea79d24dd749	ethumb-1.25.1-0.armv7l	     3	30456
+/usr/lib/libevas.so.1.25.1	ff89a28e2a17da8a3fa5cc2a816365c064853c3d38574d710d0e2681f96f33d5	evas-1.25.1-0.armv7l	     3	1529840
+/usr/lib/libexpat.so.1.9.2	1aad15cb1c1581c9354e5da4b088fda86dd9c15e7d086987a5ae304b0f0a3689	libexpat-2.6.2-1.127.armv7l	     3	91600
+
+__PREP_REMOTE_RC=0

@@ -1,0 +1,7 @@
+/usr/lib/libpepper-xkb.so.0.0.0	5db9618d643ef4c85307246f2168fc7408e0fca693e9cf480acd883c99face7d	pepper-xkb-2.0.19-0.armv7l	     3	13708
+/usr/lib/libpepper.so.0.0.0	e1e22453cc1971e1118c55108df6565c6acf3c78d6c066aa2a8330061fb8a44e	pepper-2.0.19-0.armv7l	     3	79836
+/usr/lib/libpixman-1.so.0.38.4	71cd2c7f7d17aadfe2abe32ed5910c780fa034f28db16d4d835b0a571a78b716	pixman-0.38.4-0.armv7l	     3	485124
+/usr/lib/libpkgmgr-client.so.0.23.4	1812cb8b2ab6bd69da7eca8c2bda0be67a2204e74755cb392cb4170736c29a3f	pkgmgr-client-0.23.4-0.armv7l	     3	178752
+/usr/lib/libpkgmgr-info.so.0.37.5	e4f1863429b5151bb61b8e8446a2fc1ace7c11c95dfe848e210ebd14f4f106a2	pkgmgr-info-0.37.5-1.armv7l	     3	492716
+
+__PREP_REMOTE_RC=0

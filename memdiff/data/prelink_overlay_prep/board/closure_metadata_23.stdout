@@ -1,0 +1,7 @@
+/usr/lib/libcapi-register-device.so.1.0.0	338b0ec5007bab02419e72ff2068eee582d1234f8babf133addb8f4013f433d9	org.tizen.register-device-1.0-1.armv7l	     3	58900
+/usr/lib/libcapi-screensaver.so	d817de33179608cd44d494ababcd7a6e7b75b1b11eab40337ec238b4b8e144fe	capi-screensaver-0.0.46-1.armv7l	     3	17800
+/usr/lib/libcapi-selfdiagframework-tv.so	01af6867be3b9b1c2a51222105fbaccbb11487885a7fd65c6fa4b475eb4b99ce	capi-selfdiagframework-tv-0.0.1-1.armv7l	     3	30316
+/usr/lib/libcapi-system-display-rotator.so.0.1.1	94449e933401a7a34f81ab152822cedc0449b20168b05b62142d57242da9ad0a	capi-system-display-rotator-0.1.1-1.armv7l	     3	9360
+/usr/lib/libcapi-system-info.so.0.2.1	2b3a3be9aa3d205b145be5ad3a70d040446b27aae72513848e916e871786a81a	capi-system-info-0.2.1-0.armv7l	     3	47412
+
+__PREP_REMOTE_RC=0
