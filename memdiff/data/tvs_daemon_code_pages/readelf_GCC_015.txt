@@ -1,0 +1,294 @@
+### sections rc=0
+There are 28 section headers, starting at offset 0x1821c:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            4691d114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        4691d138 000138 00053c 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          4691d674 000674 000d30 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          4691e3a4 0013a4 0024ec 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          46920890 003890 0001a6 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         46920a38 003a38 0000f0 00   A  4   5  4
+  [ 7] .rel.dyn          REL             46920b28 003b28 000220 08   A  3   0  4
+  [ 8] .rel.plt          REL             46920d48 003d48 0002f0 08  AI  3  20  4
+  [ 9] .init             PROGBITS        46921038 004038 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        46921044 004044 000490 04  AX  0   0  4
+  [11] .text             PROGBITS        469214d4 0044d4 00cfec 00  AX  0   0  4
+  [12] .fini             PROGBITS        4692e4c0 0114c0 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        4692e4c8 0114c8 002e81 00   A  0   0  4
+  [14] .ARM.extab        PROGBITS        4693134c 01434c 000cb4 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       46932000 015000 000348 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        46932348 015348 000004 00   A  0   0  4
+  [17] .init_array       INIT_ARRAY      46933000 016000 000008 04  WA  0   0  4
+  [18] .fini_array       FINI_ARRAY      46933008 016008 000004 04  WA  0   0  4
+  [19] .dynamic          DYNAMIC         4693300c 01600c 000150 08  WA  4   0  4
+  [20] .got              PROGBITS        46934000 017000 000284 04  WA  0   0  4
+  [21] .data             PROGBITS        46934284 017284 000008 00  WA  0   0  4
+  [22] .bss              NOBITS          46934290 01728c 0002a0 00  WA  0   0  8
+  [23] .comment          PROGBITS        00000000 01728c 00002c 01  MS  0   0  1
+  [24] .gnu.liblist      GNU_LIBLIST     00000000 0172b8 000500 14     25   0  4
+  [25] .gnu.libstr       STRTAB          00000000 0177b8 000485 00      0   0  1
+  [26] .gnu.prelink_undo PROGBITS        00000000 017c40 0004d4 01      0   0  4
+  [27] .shstrtab         STRTAB          00000000 018114 000105 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x4691d000
+There are 7 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x015000 0x46932000 0x46932000 0x00348 0x00348 R   0x4
+  LOAD           0x000000 0x4691d000 0x4691d000 0x1534c 0x1534c R E 0x1000
+  LOAD           0x016000 0x46933000 0x46933000 0x0128c 0x01530 RW  0x1000
+  DYNAMIC        0x01600c 0x4693300c 0x4693300c 0x00150 0x00150 RW  0x4
+  NOTE           0x000114 0x4691d114 0x4691d114 0x00024 0x00024 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x016000 0x46933000 0x46933000 0x01000 0x01000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     
+   06     .init_array .fini_array .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.3) 14.2.0
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 211 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 46921038     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 46934284     0 SECTION LOCAL  DEFAULT   21 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znwj@GLIBCXX_3.4 (2)
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsUnSetSubtitleCallback
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_event_handler_add
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_unregister_get_pvr_state_cb
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4 (2)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_atexit@CXXABI_ARM_1.3.3 (3)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI20CreateDataSubscriberE8EProfileiPP15IDataSubscriber
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.4 (4)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsUnsubscribeForCaption
+    12: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __stack_chk_guard@GLIBC_2.4 (5)
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gcc_personality_v0@GCC_3.3.1 (6)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI9CreateDsmEPFvR12TSDsmMessageEPP4IDsm
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt17__throw_bad_allocv@GLIBCXX_3.4 (2)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI23DestroySignalSubscriberEPFi11ESignalType8EProfilet12TSSignalDataPvE
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15CIPTVServiceAPI25DestroyIPTVDataSubscriberEv
+    18: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND ECORE_EVENT_KEY_DOWN
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_idle_enterer_del
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_get_int@VCONF_BUXTON_1.0 (7)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (8)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj@GLIBCXX_3.4.21 (9)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_idle_enterer_add
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9TSPESDataC1Ev
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_event_type_new
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND eina_list_remove
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_length_errorPKc@GLIBCXX_3.4 (2)
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9LotusSlim7TCMutex6UnlockEv
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND LwipcWaitEvent
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_device_name_get
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4 (2)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND prctl@GLIBC_2.4 (4)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (8)
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9LotusSlim7TCMutex6CreateEv
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (2)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt19__throw_logic_errorPKc@GLIBCXX_3.4 (2)
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15CIPTVServiceAPI24CreateIPTVDataSubscriberE11IPTVProfileiPP19IIPTVDataSubscriber
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsSubscribeForPESForVC
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI22CreateSignalSubscriberEPFi11ESignalType8EProfilet12TSSignalDataPvEPP17ISignalSubscriber
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.4 (4)
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI23CreateSectionSubscriberEPFvbtPhiE8EProfileiPP18ISectionSubscriber
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdlPv@GLIBCXX_3.4 (2)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_event_handler_del
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND __assert_fail@GLIBC_2.4 (4)
+    45: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV9TSCaption
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj@GLIBCXX_3.4.21 (9)
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_service_init
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (2)
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dlog_print
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_register_to_other_apps_cb
+    51: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV9TSPESData
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (4)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_unregister_to_other_apps_cb
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCMarshalableC2Ev
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4 (2)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@GLIBC_2.4 (4)
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_register_get_pvr_state_cb
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@GLIBCXX_3.4.21 (9)
+    59: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND ECORE_EVENT_KEY_UP
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI7DestroyEP11ITvsSession
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@GLIBC_2.4 (4)
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsUnSubscribeForPESForVC
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND LwipcEventDone
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsSetSubtitleCallback
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI23CreatePESDataSubscriberE8EProfileiPP18IPESDataSubscriber
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9LotusSlim7TCMutex4LockEv
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (8)
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.4 (4)
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.4 (4)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.4 (4)
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND eina_list_append
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_event_add
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (8)
+    74: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN9LotusSlim11TCSemaphoreE
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (8)
+    76: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN9LotusSlim7TCMutexE
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.4 (4)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@GLIBCXX_3.4.21 (9)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsSubscribeForPES
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND ecore_device_class_get
+    81: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsSubscribeForCaption
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@GCC_3.0 (10)
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.4 (4)
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (11)
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsSubscribeForCaptionForVC
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (8)
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND eina_list_remove_list
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsUnsubscribeForCaptionForVC
+    90: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    91: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+    92: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (4)
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND BmsUnSubscribeForPES
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND strdup@GLIBC_2.4 (4)
+    95: 469227e1    24 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_debug_handler_set
+    96: 4692c875   800 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber19SetSubtitleCallbackEiPFvi9_BmsEventR18_BmsCallbackStructPvES3_
+    97: 4692697d   732 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber9AttachDsmEPFvR12TSDsmMessageERjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE19EDsmDataServiceType14EDsmAttachTypePvb
+    98: 469344fc    24 OBJECT  GLOBAL DEFAULT   22 _ZN32CVirtualChannelServiceSubscriber16m_PESCallbackMapB5cxx11E
+    99: 46926175   392 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber18UnsubscribeSectionEi
+   100: 46934414     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber20m_pPESDataSubscriberE
+   101: 4692d60d   904 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber12SubscribePESEPFvR9EPPESDataPvES2_
+   102: 4692dbed   596 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber15t_OnPESCallbackER9EPPESDataPv
+   103: 46923add   380 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_unregister_list
+   104: 4692965d   492 FUNC    GLOBAL DEFAULT   11 _ZN24CTVViewerStateSubscriber26UnregisterTVVStateChangeCbEPFv10ETVV_STATEPvE
+   105: 46934400     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber27m_captionSubscriptionHandleE
+   106: 46934368    24 OBJECT  GLOBAL DEFAULT   22 _ZN24CTVViewerStateSubscriber28m_StateChangedCBRequesterMapB5cxx11E
+   107: 469344f8     4 OBJECT  GLOBAL DEFAULT   22 _ZN32CVirtualChannelServiceSubscriber24m_nPESSubscriptionHandleE
+   108: 4693440c     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber22m_pSubscriberInstancesB5cxx11E
+   109: 469233b5   372 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_register_list_by_module
+   110: 4692d995   600 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber19t_OnCaptionCallbackER9EPCaptionPv
+   111: 46934334    24 OBJECT  GLOBAL DEFAULT   22 _ZN24CTVPlusServiceSubscriber16m_PESCallbackMapB5cxx11E
+   112: 46928c8d   508 FUNC    GLOBAL DEFAULT   11 _ZN21CPvrServiceSubscriber15UnRegisterPvrCbEPFv19ps_result_thirdpartPvE
+   113: 4692a311   484 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber14UnsubscribePESEv
+   114: 46934464     8 OBJECT  GLOBAL DEFAULT   22 g_debug_handler
+   115: 46934330     4 OBJECT  GLOBAL DEFAULT   22 _ZN24CTVPlusServiceSubscriber24m_nPESSubscriptionHandleE
+   116: 46922de1   608 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_register
+   117: 46925e8d   372 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber14UnsubscribePESEv
+   118: 4692af79   484 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber18UnsubscribeCaptionEv
+   119: 4692c54d   808 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber12SubscribePESEPFvR10BmsPESDataPvES2_
+   120: 4692cde5   592 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber15t_OnPESCallbackER10BmsPESDataPv
+   121: 46926e35   640 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber12SubscribePESEPFvR9TSPESDataPvES2_
+   122: 46921b59   420 FUNC    GLOBAL DEFAULT   11 _ZN21CPvrServiceSubscriber12t_PvrStateCBE11pvr_state_ePv
+   123: 4693434c     4 OBJECT  GLOBAL DEFAULT   22 _ZN24CTVPlusServiceSubscriber28m_nCaptionSubscriptionHandleE
+   124: 469231bd   504 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_register_by_module
+   125: 4693444c     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber22m_pSignalSubscriptionsE
+   126: 46934404     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber23m_pesSubscriptionHandleE
+   127: 469343e4    28 OBJECT  GLOBAL DEFAULT   22 pvrMutex
+   128: 46934288     4 OBJECT  GLOBAL DEFAULT   21 _ZN20CTVServiceSubscriber9m_profileE
+   129: 46929ab5   828 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber16SubscribeCaptionEPFvR10BmsCaptionPvES2_
+   130: 46934420     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber20m_pSectionSubscriberE
+   131: 469252f9   756 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber10ReleaseAllEv
+   132: 46934450    20 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber11m_eventTypeE
+   133: 46934380    24 OBJECT  GLOBAL DEFAULT   22 _ZN24CTVViewerStateSubscriber19m_StateChangedCBMapE
+   134: 46929df1   484 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber18UnsubscribeCaptionEv
+   135: 46927605   476 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber24SubscribeSectionByFilterEsRK29TCSectionFilterCriteriaHelperRi
+   136: 46929849   588 FUNC    GLOBAL DEFAULT   11 _ZN24CTVViewerStateSubscriber18HandleStateChangedE10ETVV_STATE
+   137: 46921e81   372 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber13t_DsmCallbackER12TSDsmMessage
+   138: 46934350    24 OBJECT  GLOBAL DEFAULT   22 _ZN24CTVPlusServiceSubscriber20m_CaptionCallbackMapB5cxx11E
+   139: 469344a4     4 OBJECT  GLOBAL DEFAULT   22 _ZN22CIPTVServiceSubscriber24m_nPESSubscriptionHandleE
+   140: 469255ed   384 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber17SetSignalCallbackEPFi11ESignalType12TSSignalDataPvE
+   141: 46925af1   856 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber18SetSectionCallbackEPFvbtPhiE
+   142: 4692af05   116 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber10ReleaseAllEv
+   143: 469344a8    24 OBJECT  GLOBAL DEFAULT   22 _ZN22CIPTVServiceSubscriber16m_PESCallbackMapB5cxx11E
+   144: 46926c59   476 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber9DetachDsmEj
+   145: 4692a995   464 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber18UnsubscribeCaptionEv
+   146: 469344e0    24 OBJECT  GLOBAL DEFAULT   22 _ZN32CVirtualChannelServiceSubscriber21m_SubtitleCallbackMapB5cxx11E
+   147: 469344c4    24 OBJECT  GLOBAL DEFAULT   22 _ZN22CIPTVServiceSubscriber20m_CaptionCallbackMapB5cxx11E
+   148: 46927cfd   736 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber17UnsubscribeSignalE11ESignalType8EProfilet
+   149: 46934428     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber19m_pSignalSubscriberE
+   150: 469227f9   452 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_handler_add
+   151: 469344c0     4 OBJECT  GLOBAL DEFAULT   22 _ZN22CIPTVServiceSubscriber28m_nCaptionSubscriptionHandleE
+   152: 4692cb95   592 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber19t_OnCaptionCallbackER10BmsCaptionPv
+   153: 469262fd     8 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber8m_GetKeyEs
+   154: 46927335   720 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber16SubscribeSectionEsRK23TCSectionCriteriaHelperRi
+   155: 46934448     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber19m_pPesSubscriptionsB5cxx11E
+   156: 46924ec9   372 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_unregister_list_by_module
+   157: 4692a921   116 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber10ReleaseAllEv
+   158: 469263d9  1444 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber31m_GetCopiedSubscriptionInstanceENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   159: 46934424     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber23m_pSectionSubscriptionsE
+   160: 469229bd   320 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_handler_del
+   161: 46929fd5   828 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber12SubscribePESEPFvR10BmsPESDataPvES2_
+   162: 469343cc    24 OBJECT  GLOBAL DEFAULT   22 _ZN21CPvrServiceSubscriber21m_pvrStateCallbackMapE
+   163: 46934418     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber6m_pDsmE
+   164: 46929129   508 FUNC    GLOBAL DEFAULT   11 _ZN21CPvrServiceSubscriber20UnRegisterPvrStateCbEPFb11pvr_state_ePvE
+   165: 46921989   464 FUNC    GLOBAL DEFAULT   11 _ZN21CPvrServiceSubscriber13t_PvrResultCBE19ps_result_thirdpartPv
+   166: 46927fdd   464 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber15m_GetSubscriberENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_
+   167: 469252cd    42 FUNC    GLOBAL DEFAULT   11 _ZltRK11TSignalInfoS1_
+   168: 469252a9    34 FUNC    GLOBAL DEFAULT   11 _ZeqRK11TSignalInfoS1_
+   169: 46923529   692 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_foreach
+   170: 46934518    24 OBJECT  GLOBAL DEFAULT   22 _ZN32CVirtualChannelServiceSubscriber20m_CaptionCallbackMapB5cxx11E
+   171: 46921cfd   388 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber17t_SectionCallbackEbtPhi
+   172: 46923c59   888 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_fini
+   173: 4692d035   592 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber20t_OnSubtitleCallbackEi9_BmsEventR18_BmsCallbackStructPv
+   174: 469289ed   672 FUNC    GLOBAL DEFAULT   11 _ZN21CPvrServiceSubscriber13RegisterPvrCbEPFv19ps_result_thirdpartPvES1_
+   175: 46922c9d   324 FUNC    GLOBAL DEFAULT   11 tv_viewer_event_source_type_get
+   176: 46923041   380 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_register_list
+   177: 4692ad35   464 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber21UnSetSubtitleCallbackEiPv
+   178: 46924b41   288 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_init
+   179: 4693441c     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber19m_pDsmSubscriptionsE
+   180: 46934444     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber23m_pCaptionSubscriptionsB5cxx11E
+   181: 46928e89   672 FUNC    GLOBAL DEFAULT   11 _ZN21CPvrServiceSubscriber18RegisterPvrStateCbEPFb11pvr_state_ePvES1_
+   182: 469281ad  1988 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber22m_DeferredEventHandlerEPviS0_
+   183: 469344dc     4 OBJECT  GLOBAL DEFAULT   22 _ZN22CIPTVServiceSubscriber17m_pDataSubscriberE
+   184: 469343b4    24 OBJECT  GLOBAL DEFAULT   22 _ZN21CPvrServiceSubscriber16m_PvrResultCBMapE
+   185: 4692c225   808 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber16SubscribeCaptionEPFvR10BmsCaptionPvES2_
+   186: 46934410     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber20m_pCaptionSubscriberE
+   187: 469270b5   640 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber16SubscribeCaptionEPFvR9TSCaptionPvES2_
+   188: 4692b15d   484 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber14UnsubscribePESEv
+   189: 46934398    28 OBJECT  GLOBAL DEFAULT   22 viewerMutex
+   190: 4693442c    24 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber17m_mapEventHandlerE
+   191: 469277e1  1308 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber15SubscribeSignalE11ESignalTypePv8EProfilet
+   192: 4692bfd9   588 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber15t_OnPESCallbackER10BmsPESDataPv
+   193: 46926305   212 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber29m_GetUserDataOfSignalCallbackERK11TSignalInfo
+   194: 4692ab65   464 FUNC    GLOBAL DEFAULT   11 _ZN32CVirtualChannelServiceSubscriber14UnsubscribePESEv
+   195: 4692b341   152 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber10ReleaseAllEv
+   196: 46926001   372 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber18UnsubscribeCaptionEv
+   197: 4692bd89   592 FUNC    GLOBAL DEFAULT   11 _ZN24CTVPlusServiceSubscriber19t_OnCaptionCallbackER10BmsCaptionPv
+   198: 46921ff5   564 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber16t_SignalCallbackE11ESignalType8EProfilet12TSSignalDataPv
+   199: 46924c61   616 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_unregister_by_module
+   200: 4692d285   904 FUNC    GLOBAL DEFAULT   11 _ZN22CIPTVServiceSubscriber16SubscribeCaptionEPFvR9EPCaptionPvES2_
+   201: 46925e49    68 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber14GetDsmInstanceEv
+   202: 46929345   792 FUNC    GLOBAL DEFAULT   11 _ZN24CTVViewerStateSubscriber24RegisterTVVStateChangeCbEPFv10ETVV_STATEPvES1_
+   203: 46923809   724 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_unregister
+   204: 46934408     4 OBJECT  GLOBAL DEFAULT   22 _ZN20CTVServiceSubscriber7m_groupE
+   205: 4692576d   900 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber17SetSignalCallbackEPFi11ESignalType8EProfilet12TSSignalDataPvE
+   206: 469224bd   644 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber17t_CaptionCallbackER9TSCaptionPv
+   207: 46922afd   416 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_handler_order_forward
+   208: 46934514     4 OBJECT  GLOBAL DEFAULT   22 _ZN32CVirtualChannelServiceSubscriber28m_nCaptionSubscriptionHandleE
+   209: 4692503d   600 FUNC    GLOBAL DEFAULT   11 tv_viewer_kevent_key_unregister_all_by_module
+   210: 46922229   660 FUNC    GLOBAL DEFAULT   11 _ZN20CTVServiceSubscriber17t_PesDataCallbackER9TSPESDataPv
+
+STDERR:

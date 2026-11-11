@@ -1,0 +1,613 @@
+### sections rc=0
+There are 30 section headers, starting at offset 0x280f0:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            468ae134 000134 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        468ae158 000158 00113c 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          468af294 001294 0020e0 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          468b1374 003374 007799 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          468b8b0e 00ab0e 00041c 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         468b8f2c 00af2c 0001e0 00   A  4   5  4
+  [ 7] .rel.dyn          RELA            468b910c 00b10c 00138c 0c   A  3   0  4
+  [ 8] .rel.plt          REL             468ba498 00c498 000748 08  AI  3  22  4
+  [ 9] .init             PROGBITS        468bb55c 00d55c 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        468bb568 00d568 000bb0 04  AX  0   0  4
+  [11] .text             PROGBITS        468bc118 00e118 012224 00  AX  0   0  8
+  [12] .fini             PROGBITS        468ce33c 02033c 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        468ce344 020344 003ae4 00   A  0   0  4
+  [14] .ARM.extab        PROGBITS        468d1e28 023e28 0014e1 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       468d330c 02530c 000820 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        468d3b2c 025b2c 000004 00   A  0   0  4
+  [17] .tbss             NOBITS          468d4000 025b30 000020 00 WAT  0   0  4
+  [18] .init_array       INIT_ARRAY      468d4000 026000 000008 04  WA  0   0  4
+  [19] .fini_array       FINI_ARRAY      468d4008 026008 000004 04  WA  0   0  4
+  [20] .data.rel.ro      PROGBITS        468d400c 02600c 000518 00  WA  0   0  4
+  [21] .dynamic          DYNAMIC         468d4524 026524 000130 08  WA  4   0  4
+  [22] .got              PROGBITS        468d5000 027000 00057c 04  WA  0   0  4
+  [23] .data             PROGBITS        468d557c 02757c 000004 00  WA  0   0  4
+  [24] .bss              NOBITS          468d5580 027580 000094 00  WA  0   0  4
+  [25] .comment          PROGBITS        00000000 027580 00002c 01  MS  0   0  1
+  [26] .gnu.liblist      GNU_LIBLIST     00000000 0275ac 000294 14     27   0  4
+  [27] .gnu.libstr       STRTAB          00000000 027840 000254 00      0   0  1
+  [28] .gnu.prelink_undo PROGBITS        00000000 027a94 000544 01      0   0  4
+  [29] .shstrtab         STRTAB          00000000 027fd8 000118 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x468ae000
+There are 8 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x02530c 0x468d330c 0x468d330c 0x00820 0x00820 R   0x4
+  LOAD           0x000000 0x468ae000 0x468ae000 0x25b30 0x25b30 R E 0x1000
+  LOAD           0x026000 0x468d4000 0x468d4000 0x01580 0x01614 RW  0x1000
+  DYNAMIC        0x026524 0x468d4524 0x468d4524 0x00130 0x00130 RW  0x4
+  NOTE           0x000134 0x468ae134 0x468ae134 0x00024 0x00024 R   0x4
+  TLS            0x026000 0x468d4000 0x468d4000 0x00000 0x00020 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x026000 0x468d4000 0x468d4000 0x01000 0x01000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     .tbss 
+   06     
+   07     .init_array .fini_array .data.rel.ro .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.3) 14.2.0
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 526 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 468bb55c     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 468d557c     0 SECTION LOCAL  DEFAULT   23 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_register_object
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znwj@GLIBCXX_3.4 (2)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lock@GLIBC_2.4 (3)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_own_name_on_connection
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_push_thread_default
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj@GLIBCXX_3.4.21 (4)
+     9: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt6thread6_StateE@GLIBCXX_3.4.22 (5)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4 (2)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_atexit@CXXABI_ARM_1.3.3 (6)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSdD2Ev@GLIBCXX_3.4 (2)
+    13: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt9basic_iosIcSt11char_traitsIcEE@GLIBCXX_3.4 (2)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_future_errori@GLIBCXX_3.4.14 (7)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_timeout_add
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_type_checked_
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_unref
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_error_free
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_default
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt9terminatev@GLIBCXX_3.4 (2)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.4 (3)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@GLIBCXX_3.4.30 (8)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseC2Ev@GLIBCXX_3.4 (2)
+    24: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __stack_chk_guard@GLIBC_2.4 (9)
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseD2Ev@GLIBCXX_3.4 (2)
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gcc_personality_v0@GCC_3.3.1 (10)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_signal_unsubscribe
+    28: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (4)
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND smart_deadlock_watchdog_notify
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt17__throw_bad_allocv@GLIBCXX_3.4 (2)
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt25__throw_bad_function_callv@GLIBCXX_3.4.14 (7)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj@GLIBCXX_3.4.21 (4)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (11)
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj@GLIBCXX_3.4.21 (4)
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6thread6_StateD2Ev@GLIBCXX_3.4.22 (5)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_clockwait@GLIBC_2.34 (12)
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_quit
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_new_from_data
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@CXXABI_1.3 (11)
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_get_fixed_array
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_length_errorPKc@GLIBCXX_3.4 (2)
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21 (4)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt15future_categoryv@GLIBCXX_3.4.15 (13)
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_source_unref
+    45: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_node_info_unref
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13__future_base12_Result_baseC2Ev@GLIBCXX_3.4.15 (13)
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4 (2)
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_new
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_unregister_object
+    50: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt15basic_streambufIcSt11char_traitsIcEE@GLIBCXX_3.4 (2)
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (11)
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_system_errori@GLIBCXX_3.4.11 (14)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.4 (3)
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo5flushEv@GLIBCXX_3.4 (2)
+    55: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt12future_error@GLIBCXX_3.4.14 (7)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (2)
+    57: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3 (11)
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt19__throw_logic_errorPKc@GLIBCXX_3.4 (2)
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_invoke
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@CXXABI_1.3 (11)
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13__future_base12_Result_baseD2Ev@GLIBCXX_3.4.15 (13)
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt11_Hash_bytesPKvjj@CXXABI_1.3.5 (15)
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21 (4)
+    64: 00000000     0 TLS     GLOBAL DEFAULT  UND _ZSt15__once_callable@GLIBCXX_3.4.11 (14)
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEjPKc@GLIBCXX_3.4.21 (4)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_run
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_malloc
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28__throw_bad_array_new_lengthv@GLIBCXX_3.4.29 (16)
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znaj@GLIBCXX_3.4 (2)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_new
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.4 (3)
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptr10_M_releaseEv@CXXABI_1.3.13 (17)
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND smart_deadlock_register_watchdog_service
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_flush_sync
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE@GLIBCXX_3.4.22 (5)
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_init_primary_exception@CXXABI_1.3.11 (18)
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt28__atomic_futex_unsigned_base19_M_futex_notify_allEPj@GLIBCXX_3.4.21 (4)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_once@GLIBC_2.34 (12)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdlPv@GLIBCXX_3.4 (2)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_source_attach
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_signal_subscribe
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEjjPKcj@GLIBCXX_3.4.21 (4)
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call_sync
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj@GLIBCXX_3.4.21 (4)
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc@GLIBCXX_3.4.21 (4)
+    86: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (4)
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt9type_infoeqERKS_@GLIBCXX_3.4 (2)
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (2)
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dlog_print
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_ref
+    91: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_emit_signal
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_get
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorD2Ev@GLIBCXX_3.4 (2)
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (3)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@GLIBC_2.4 (3)
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4 (2)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_setname_np@GLIBC_2.34 (12)
+    98: 00000000     0 TLS     GLOBAL DEFAULT  UND _ZSt11__once_call@GLIBCXX_3.4.11 (14)
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_free
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_get_unique_name
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@GLIBCXX_3.4.21 (4)
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEjjj@GLIBCXX_3.4.18 (19)
+   103: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv119__pointer_type_infoE@CXXABI_1.3 (11)
+   104: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_new
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (4)
+   106: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __libc_single_threaded@GLIBC_2.32 (20)
+   107: 00000000     0 FUNC    GLOBAL DEFAULT  UND smart_deadlock_unregister_watchdog_service
+   108: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3 (11)
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_unref
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_method_invocation_return_value
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptrC1EPv@CXXABI_1.3.11 (18)
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6chrono3_V212steady_clock3nowEv@GLIBCXX_3.4.19 (21)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_new_sync
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND raise@GLIBC_2.4 (3)
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@GLIBCXX_3.4 (2)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt13runtime_error4whatEv@GLIBCXX_3.4 (2)
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variableC1Ev@GLIBCXX_3.4.11 (14)
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeD1Ev@GLIBCXX_3.4 (2)
+   119: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (11)
+   120: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.4 (3)
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.4 (3)
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_object_unref
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.4 (3)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_source_set_callback
+   125: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_unown_name
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt21ios_base_library_initv@GLIBCXX_3.4.32 (22)
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_get
+   128: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__function_type_infoE@CXXABI_1.3 (11)
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND __once_proxy@GLIBCXX_3.4.11 (14)
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_call
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr1@GCC_3.5 (23)
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc@GLIBCXX_3.4.21 (4)
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_node_info_new_for_xml
+   134: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_call_finish
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (11)
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (11)
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11logic_errorC2ERKS_@GLIBCXX_3.4.21 (4)
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variable10notify_allEv@GLIBCXX_3.4.11 (14)
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6thread4joinEv@GLIBCXX_3.4.11 (14)
+   140: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@CXXABI_1.3 (11)
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_timeout_source_new
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@GLIBCXX_3.4.21 (4)
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_get_str@VCONF_BUXTON_1.0 (24)
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_thread_atexit@CXXABI_1.3.7 (25)
+   145: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@GCC_3.0 (26)
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.4 (3)
+   148: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt13__future_base12_Result_baseE@GLIBCXX_3.4.15 (13)
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (23)
+   150: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt12future_error@GLIBCXX_3.4.14 (7)
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (11)
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variableD1Ev@GLIBCXX_3.4.11 (14)
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt28__atomic_futex_unsigned_base19_M_futex_wait_untilEPjjbNSt6chrono8durationIxSt5ratioILx1ELx1EEEENS2_IxS3_ILx1ELx1000000000EEEE@GLIBCXX_3.4.21 (4)
+   154: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_@GLIBCXX_3.4.21 (4)
+   155: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_get_finish
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_unref
+   158: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   159: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_pure_virtual@CXXABI_1.3 (11)
+   160: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc@GLIBCXX_3.4.21 (4)
+   162: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcj@GLIBCXX_3.4.21 (4)
+   163: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (3)
+   164: 00000000     0 FUNC    GLOBAL DEFAULT  UND __tls_get_addr@GLIBC_2.4 (9)
+   165: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt12future_errorD1Ev@GLIBCXX_3.4.14 (7)
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_unlock@GLIBC_2.4 (3)
+   167: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt13runtime_error@GLIBCXX_3.4 (2)
+   168: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (4)
+   169: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeC1Ev@GLIBCXX_3.4 (2)
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11logic_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (4)
+   171: 468d42b0    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN6cereal9ExceptionE
+   172: 468d5608     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms18TCBmsApiProviderVC17m_pBmsApiProviderE
+   173: 468d0d90    94 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   174: 468d43b0    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIPFvP10_GMainLoopELb0EE
+   175: 468c34e1   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy9BmsResumeEi
+   176: 468c1cd5    30 FUNC    GLOBAL DEFAULT   11 BmsSetSubtitleCallback
+   177: 468c3979   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy16BmsGetPlayTime64EiPy
+   178: 468d5594     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms16TCBmsApiProvider8m_pMutexE
+   179: 468d432c     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   180: 468bfa9d    24 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder6InvokeEi9_BmsEvent14_BmsSignalData
+   181: 468c58f1    10 FUNC    GLOBAL DEFAULT   11 _Z15notify_callbackPv
+   182: 468c881d   108 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer17m_TokenVanishedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   183: 468d1cf8    52 OBJECT  GLOBAL DEFAULT   13 _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   184: 468c0e75   340 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy14BmsSetCallbackEiPFvi9_BmsEventR18_BmsCallbackStructPvES4_
+   185: 468c73e5    88 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer22m_PrepareSignalPayloadEiRKSt6vectorIcSaIcEE
+   186: 468d5610     4 OBJECT  GLOBAL DEFAULT   24 _ZGVN6cereal6detail12StaticObjectINS0_8VersionsEE8instanceE
+   187: 468d19f8    98 OBJECT  GLOBAL DEFAULT   13 _ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   188: 468d44e8     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt19_Sp_make_shared_tag
+   189: 468d43dc    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   190: 468c4871    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusServerEFvS7_EPSB_St12_PlaceholderILi1EEEEE9_M_invokeERKSt9_Any_dataS7_
+   191: 468c3e85   156 FUNC    GLOBAL DEFAULT   11 BmsGetCurrentPlayProgram
+   192: 468d44c0    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   193: 468d15b8    48 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base13_State_baseV27_SetterIbObEE
+   194: 468c48e1    38 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationESt5_BindIFMN3bms12TCDbusServerEFvS7_S9_SB_EPSF_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEE9_M_invokeERKSt9_Any_dataS7_OS9_OSB_
+   195: 468bf3f9    32 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyD1Ev
+   196: 468d180c   117 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   197: 468cd571   516 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer13ProxyToNativeERKSt8functionIFvRN6cereal18BinaryInputArchiveEEE
+   198: 468c8271    96 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus9t_SetInitEb
+   199: 468c1c29    30 FUNC    GLOBAL DEFAULT   11 BmsSetCallback
+   200: 468d1c64    99 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ES0_DnS9_PN3bms6TCDbusEEE
+   201: 468d42c8    16 OBJECT  GLOBAL DEFAULT   20 _ZTIPF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   202: 468bfff5    28 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder21InvokeForSubtitleDataEi9_BmsEventPKc
+   203: 468c6ba1   172 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient15CallMethodAsyncEiRKSt6vectorIcSaIcEE
+   204: 468c3299   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsPlayEi
+   205: 468cc625   116 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer17m_TokenAppearedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   206: 468d0fe8   171 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEPS1_St12_PlaceholderILi1EESH_ILi2EESH_ILi3EEEE
+   207: 468d4484    28 OBJECT  GLOBAL DEFAULT   20 _ZTVN3bms12TCDbusServerE
+   208: 468d1af8    41 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIPFvP10_GMainLoopEE
+   209: 468c3f21   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsGetContentIdERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   210: 468d4458    44 OBJECT  GLOBAL DEFAULT   20 _ZN3bms12TCDbusServer17m_interfaceVtableE
+   211: 468d16d0    49 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusClientEFvvEE
+   212: 468d4368     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   213: 468cc349   732 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer11m_AddClientERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   214: 468c6375   356 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus6t_StopEv
+   215: 468d5584     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms25TCBmsApiVCProviderManager10m_pManagerE
+   216: 468c7161   138 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer19AddClientAppearedCbERKSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   217: 468c16bd   532 FUNC    GLOBAL DEFAULT   11 _ZN3bms12m_HandleCallERKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRNS_18TCNativeSerializerEE
+   218: 468d1884   119 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   219: 468c0745    28 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder16InvokeForPesDataE9_BmsEventijPh
+   220: 468c7ef5   892 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus11t_WatchNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt8functionIFvS8_S8_S8_EERKS9_IFvS8_EE
+   221: 468c2e51    80 FUNC    GLOBAL DEFAULT   11 BmsCreatePlayer
+   222: 468d0e94    44 OBJECT  GLOBAL DEFAULT   13 _ZTSPF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   223: 468c4eb9   124 FUNC    GLOBAL DEFAULT   11 _ZNSt13__future_base13_State_baseV29_M_do_setEPSt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEEPb
+   224: 468d4228    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEE
+   225: 468c8889   108 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16m_NameAcquiredCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   226: 468ca881  2028 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   227: 468c33bd   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy8BmsPauseEi
+   228: 468ccd05   400 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer13m_HandleHelloERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocation
+   229: 468c3835    26 FUNC    GLOBAL DEFAULT   11 BmsSeek
+   230: 468d55b8     4 OBJECT  GLOBAL DEFAULT   24 _ZZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EE20registerClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   231: 468d55fc     4 OBJECT  GLOBAL DEFAULT   24 _ZGVZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE6createEvE1t
+   232: 468c6f3d    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient21m_SetServiceConnectedEb
+   233: 468d4384    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   234: 468c0e59    28 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder20InvokeForCaptionDataE9_BmsEvent20BmsClosedCaptionTypejPh
+   235: 468cb669  1056 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus14m_GetNameOwnerEP8_GObjectP13_GAsyncResultPv
+   236: 468c3a85    26 FUNC    GLOBAL DEFAULT   11 BmsGetPlayTime64
+   237: 468d4270    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EEE
+   238: 468d55c0     4 OBJECT  GLOBAL DEFAULT   24 _ZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE8instanceE
+   239: 468c4ccd    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFMN3bms12TCDbusClientEFvvEPS3_EEE10_M_managerERSt9_Any_dataRKSA_St18_Manager_operation
+   240: 468d073c    76 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEELb1EE
+   241: 468c2ffd    84 FUNC    GLOBAL DEFAULT   11 BmsCreatePlayerWithWindowId
+   242: 468c7279   138 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer19AddClientVanishedCbERKSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   243: 468cd775  1908 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializer10CallMethodEi
+   244: 468cb06d   400 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   245: 468d18fc   108 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   246: 468c7711  1444 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient24m_EstablishNewConnectionEv
+   247: 468c7621   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus9t_OwnNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE18GBusNameOwnerFlagsRKSt8functionIFvS8_EESE_
+   248: 468bee95     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvokerC2ERNS_12TCDbusServerE
+   249: 468c8bb9    40 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializerC1ERNS_12TCDbusClientE
+   250: 468c5e09    66 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus13TSNameWatcherC1Ev
+   251: 468c7151    16 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16TSCallPropertiesC1Ev
+   252: 468c4d1d    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusServerEFvS7_EPSB_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   253: 468d0c00    24 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms15TCBinaryWrapperE
+   254: 468d0c64    36 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal6detail17OutputArchiveBaseE
+   255: 468d4248    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EEE
+   256: 468c18d1   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder9InitialzeEv
+   257: 468d43c8     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt22_Weak_result_type_implIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   258: 468c219d   584 FUNC    GLOBAL DEFAULT   11 BmsUnSetCallbackForVC
+   259: 468c86b1   364 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer12m_CheckReadyEv
+   260: 468d4290    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   261: 468c5fa5     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus13t_UnWatchNameEj
+   262: 468c4e91    38 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus10m_InvokeCbEPv
+   263: 468d1464   113 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   264: 468bee59    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderD2Ev
+   265: 468d44a8    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusClientEFvvEPS1_EE
+   266: 468c3bad    26 FUNC    GLOBAL DEFAULT   11 BmsSetPlaySpeed
+   267: 468c5e4d   116 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusD1Ev
+   268: 468c6831   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient7t_CleanEv
+   269: 468bee95     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvokerC1ERNS_12TCDbusServerE
+   270: 468c3051   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy16BmsDestroyPlayerEi
+   271: 468be1dd  1112 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy17m_CaptionCallbackERKSt6vectorIcSaIcEE
+   272: 468ccbd1     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer4StopEv
+   273: 468d1a7c    24 OBJECT  GLOBAL DEFAULT   13 _ZTSSt19_Sp_make_shared_tag
+   274: 468d44fc    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ES0_DnS9_PN3bms6TCDbusEEE
+   275: 468c1cf5    26 FUNC    GLOBAL DEFAULT   11 BmsUnSetSubtitleCallback
+   276: 468d0c18    24 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms15TCStringWrapperE
+   277: 468c6cd1   332 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient10CallMethodEiRKSt6vectorIcSaIcEERS3_
+   278: 468d55c4     4 OBJECT  GLOBAL DEFAULT   24 _ZGVN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE8instanceE
+   279: 468d1540   117 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   280: 468c35ed    22 FUNC    GLOBAL DEFAULT   11 BmsResume
+   281: 468c743d   300 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer10SendSignalEiRKSt6vectorIcSaIcEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcES2_EE
+   282: 468cba89  1032 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   283: 468c43e5   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsSetStopPositionEim
+   284: 468d07cc    80 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEPS1_St12_PlaceholderILi1EEEE
+   285: 468d12f0   119 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   286: 468c6a89    18 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientD0Ev
+   287: 00000004    28 TLS     GLOBAL DEFAULT   17 _ZN3bms12TCDbusServer16m_callPropertiesE
+   288: 468d0e68    43 OBJECT  GLOBAL DEFAULT   13 _ZTSF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   289: 468ccb65    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerD1Ev
+   290: 468d1b24    33 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFPFvP10_GMainLoopES1_EE
+   291: 468c894d   404 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializerC2Ev
+   292: 468d1a5c    31 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base7_ResultIbEE
+   293: 468c4dbd    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationESt5_BindIFMN3bms12TCDbusServerEFvS7_S9_SB_EPSF_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEE10_M_managerERSt9_Any_dataRKSQ_St18_Manager_operation
+   294: 468cb1fd   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus16m_NameAcquiredCbEP16_GDBusConnectionPKcPv
+   295: 468ca3d1  1044 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer6HandleERKSt6vectorIcSaIcEERS3_RKSt8functionIF11_BmsErrCodeRS0_EE
+   296: 468d42a4    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEPS1_St12_PlaceholderILi1EEEE
+   297: 468cce95   456 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer12m_HandleSyncERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocation
+   298: 468bc505     8 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIF11_BmsErrCodeRN3bms18TCNativeSerializerEEPS4_E9_M_invokeERKSt9_Any_dataS3_
+   299: 468d1ba8    99 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ELb0EE
+   300: 468c4d6d    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusServerEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   301: 468d1d2c    92 OBJECT  GLOBAL DEFAULT   13 _ZTSSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   302: 468d5588     4 OBJECT  GLOBAL DEFAULT   24 _ZZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EE16loadClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   303: 468d4508    28 OBJECT  GLOBAL DEFAULT   20 _ZTVN3bms6TCDbusE
+   304: 468bc525    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIF11_BmsErrCodeRN3bms18TCNativeSerializerEEPS4_E10_M_managerERSt9_Any_dataRKS7_St18_Manager_operation
+   305: 468bf561  1340 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker6InvokeEi9_BmsEvent14_BmsSignalData
+   306: 468bf3a5    84 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyC2ERNS_12TCDbusClientE
+   307: 468c7145    10 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer8TSClientC2Ev
+   308: 468d44cc    28 OBJECT  GLOBAL DEFAULT   20 _ZTVN3bms12TCDbusClientE
+   309: 468d429c     8 OBJECT  GLOBAL DEFAULT   20 _ZTIF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   310: 468c6035   408 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus5StartEP13_GMainContext
+   311: 468d4318     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationELb1EE
+   312: 468d0788    65 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEE
+   313: 468c46c5     8 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFvP10_GMainLoopES3_EEE9_M_invokeERKSt9_Any_data
+   314: 468d0c50    20 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal9ExceptionE
+   315: 468bee55     2 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderC2Ev
+   316: 468c6afd   164 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusClient22m_PrepareMethodPayloadEbiRKSt6vectorIcSaIcEE
+   317: 468c1d55   508 FUNC    GLOBAL DEFAULT   11 _ZN3bms25TCBmsApiVCProviderManager13GetVCProviderENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   318: 468bead1   836 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18m_subtitleCallbackERKSt6vectorIcSaIcEE
+   319: 468c6625   280 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient14WaitForServiceEv
+   320: 468c5ed5   208 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus11WaitForInitEv
+   321: 468d1968   141 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   322: 468bf3a5    84 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyC1ERNS_12TCDbusClientE
+   323: 468d4240     8 OBJECT  GLOBAL DEFAULT   20 _ZTIN6cereal6detail16InputArchiveBaseE
+   324: 468c12e1   336 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy22BmsSubtitleSetCallbackEiPFvi9_BmsEventR18_BmsCallbackStructPvES4_
+   325: 468c2d05   332 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsCreatePlayerEPKcS2_i17_BMS_CONTENT_TYPE16_BMS_PLAYER_TYPE11_BmsDrmInfoS2_Pi
+   326: 468d4414    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN3bms12TCDbusServerE
+   327: 468d1a94    46 OBJECT  GLOBAL DEFAULT   13 _ZTSSt22_Weak_result_type_implIPFvP10_GMainLoopEE
+   328: 468c46cd    22 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES9_ES2_DnSB_PN3bms6TCDbusEEEE9_M_invokeERKSt9_Any_data
+   329: 468c673d   244 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient25m_InvokeServiceVanishedCbEv
+   330: 468d1704    42 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusClientEFvvEPS1_EE
+   331: 468d4220     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEELb1EE
+   332: 468c7305   136 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer20m_ParseMethodPayloadEP9_GVariantRbRiRSt6vectorIcSaIcEE
+   333: 468d1e20     8 OBJECT  GLOBAL DEFAULT   13 _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
+   334: 468c8be1   200 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializer13ProxyToNativeERKSt8functionIFvRN6cereal19BinaryOutputArchiveEEE
+   335: 468d0f5c   138 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEE
+   336: 468ca881  2028 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   337: 468c1c65    30 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForCaption
+   338: 468d4440    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   339: 468d4284    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEELb0EE
+   340: 468c61cd   304 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_NameAcquiredCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   341: 468d442c     8 OBJECT  GLOBAL DEFAULT   20 _ZTIN3bms6TCDbusE
+   342: 468c6599   138 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient20AddServiceVanishedCbERKSt8functionIFvvEE
+   343: 468c62fd   120 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus8t_InvokeERKSt8functionIFvvEEP13_GMainContext
+   344: 468bc50d    22 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbRKSt6vectorIcSaIcEERS2_ESt5_BindIFPFbS4_S5_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESG_ILi2EESD_EEE9_M_invokeERKSt9_Any_dataS4_S5_
+   345: 468c1add   224 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProviderC2Ev
+   346: 468cb2d5   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus12m_NameLostCbEP16_GDBusConnectionPKcPv
+   347: 468c4309   220 FUNC    GLOBAL DEFAULT   11 BmsCall
+   348: 468c6e99   156 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient14m_HandleSignalEP9_GVariant
+   349: 468d1de0    21 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms12TCDbusServerE
+   350: 468c3729   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsSeekEim
+   351: 468d0df0   117 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESE_ILi2EESB_EE
+   352: 468c1bbd   108 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProvider8InstanceEv
+   353: 468d1d88    88 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJSt5_BindIFMN3bms6TCDbusEFvvEPS5_EEEEEEEE
+   354: 468bf32d     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCBmsApiProviderVC8ApiProxyEv
+   355: 468c6909   384 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientD2Ev
+   356: 468c450d   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsGetAdMarkerDataEimRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   357: 468d5600     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms11g_cbInvokerE
+   358: 468c75c9    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms7TCDebug6AssertEPKcj
+   359: 468c1d11    68 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCBmsApiProviderVCC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   360: 468c1d11    68 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCBmsApiProviderVCC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   361: 468c3bc9   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsGetPlaybackDataEimRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   362: 468c1575   224 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy20BmsUnSubscribeForPESEi
+   363: 468c8bb9    40 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializerC2ERNS_12TCDbusClientE
+   364: 468c2ac5   576 FUNC    GLOBAL DEFAULT   11 BmsUnsubscribeForCaptionForVC
+   365: 468c4c7d    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusClientEFvS7_EPSB_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   366: 468c4775    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusClientEFvS7_EPSB_St12_PlaceholderILi1EEEEE9_M_invokeERKSt9_Any_dataS7_
+   367: 468d42bc    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESE_ILi2EESB_EE
+   368: 468c3aa1   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsSetPlaySpeedEif
+   369: 468c6c4d   132 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusClient20m_ParseMethodPayloadEP9_GVariantRbRSt6vectorIcSaIcEE
+   370: 468d43bc    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIPFvP10_GMainLoopEE
+   371: 468c2879   588 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForCaptionForVC
+   372: 468d558c     4 OBJECT  GLOBAL DEFAULT   24 _ZGVZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EE16loadClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   373: 468c1c9d    30 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForPES
+   374: 468d55c8    52 OBJECT  GLOBAL DEFAULT   24 _ZZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE6createEvE1t
+   375: 468c0fc9   396 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy22BmsSubscribeForCaptionEPFvR10BmsCaptionPvES3_Ri
+   376: 468c82d1   244 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus12m_BusReadyCbEP8_GObjectP13_GAsyncResultPv
+   377: 468d43d0    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ELb0EE
+   378: 468d44a0     8 OBJECT  GLOBAL DEFAULT   20 _ZTINSt13__future_base13_State_baseV27_SetterIbObEE
+   379: 468c44f1    26 FUNC    GLOBAL DEFAULT   11 BmsSetStopPosition
+   380: 468c3cd5   164 FUNC    GLOBAL DEFAULT   11 BmsGetPlaybackData
+   381: 468cc699    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer19m_TokenOwnerChangedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_
+   382: 468d0cc0    99 OBJECT  GLOBAL DEFAULT   13 _ZTSSt22_Weak_result_type_implIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   383: 468d0c88    56 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EEE
+   384: 468c3175   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy13BmsResumeLiveEi
+   385: 468cd05d   272 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer14m_HandleMethodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocation
+   386: 468c64d9    50 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus7t_CleanEv
+   387: 468d4334    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   388: 468bcd55    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbRKSt6vectorIcSaIcEERS2_ESt5_BindIFPFbS4_S5_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESG_ILi2EESD_EEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   389: 468bf325     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProvider8ApiProxyEv
+   390: 468c33a5    22 FUNC    GLOBAL DEFAULT   11 BmsPlay
+   391: 468bf41d    48 FUNC    GLOBAL DEFAULT   11 _ZN3bms25TCBmsApiVCProviderManager8InstanceEv
+   392: 468c4715    60 FUNC    GLOBAL DEFAULT   11 _ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIMNSt13__future_base13_State_baseV2EFvPSt8functionIFSt10unique_ptrINS3_12_Result_baseENS7_8_DeleterEEvEEPbEJPS4_SC_SD_EEvRS_OT_DpOT0_EUlvE_EERSI_ENUlvE_4_FUNEv
+   393: 468cfcdc    35 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base13_State_baseV2E
+   394: 468c6f35     8 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_SignalCallbackEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantPv
+   395: 468c6f69   320 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_NameAppearedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   396: 468c0011  1844 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker16InvokeForPesDataE9_BmsEventijPh
+   397: 468c3711    22 FUNC    GLOBAL DEFAULT   11 BmsStop
+   398: 468bee59    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderD1Ev
+   399: 468bf3f9    32 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyD2Ev
+   400: 468c4619   164 FUNC    GLOBAL DEFAULT   11 BmsGetAdMarkerData
+   401: 468c8ae1   200 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer13NativeToProxyERKSt8functionIFvRN6cereal19BinaryOutputArchiveEEE
+   402: 468c5ec1    18 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusD0Ev
+   403: 468d1368   108 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   404: 468c7569    76 FUNC    GLOBAL DEFAULT   11 _ZTHN3bms12TCDbusServer16m_callPropertiesE
+   405: 468c91e5   620 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient17SetSignalCallbackEiRKSt8functionIFvRKSt6vectorIcSaIcEEEE
+   406: 468bf471   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder15m_BindNativeApiEiPF11_BmsErrCodeRNS_18TCNativeSerializerEE
+   407: 468d43f0    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   408: 468d560c     4 OBJECT  GLOBAL DEFAULT   24 _ZN6cereal6detail12StaticObjectINS0_8VersionsEE8instanceE
+   409: 468c4709     6 FUNC    GLOBAL DEFAULT   11 _ZNSt15__exception_ptr12__dest_thunkISt12future_errorEEvPv
+   410: 468c4b39    76 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient12m_NameLostCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   411: 468c4839    56 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbObEEE10_M_managerERSt9_Any_dataRKSB_St18_Manager_operation
+   412: 468bf44d    36 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder15StartDbusServerEv
+   413: 468c3605   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsStopEi
+   414: 468c2ea1   348 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy27BmsCreatePlayerWithWindowIdEPKcS2_i17_BMS_CONTENT_TYPE16_BMS_PLAYER_TYPE11_BmsDrmInfoS2_iPi
+   415: 468d5604     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms12g_dbusserverE
+   416: 468c9451   528 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient19UnsetSignalCallbackEi
+   417: 468c1c49    26 FUNC    GLOBAL DEFAULT   11 BmsUnSetCallback
+   418: 468c6a9d    96 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient4StopEv
+   419: 468c0761  1784 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker20InvokeForCaptionDataE9_BmsEvent20BmsClosedCaptionTypejPh
+   420: 468d435c    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusClientEFvvEE
+   421: 468d43a8     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt22_Weak_result_type_implIPFvP10_GMainLoopEE
+   422: 468c4895    34 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusServerEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE9_M_invokeERKSt9_Any_dataS7_S7_S7_
+   423: 468d55b4     4 OBJECT  GLOBAL DEFAULT   24 _ZGVZN6cereal6detail12StaticObjectINS0_8VersionsEE6createEvE1t
+   424: 468d1ac4    52 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIPFvP10_GMainLoopELb0EE
+   425: 468ccbbd    18 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerD0Ev
+   426: 468c4b01    32 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbObEEE9_M_invokeERKSt9_Any_data
+   427: 468d44b4    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   428: 468d4420    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN3bms12TCDbusClientE
+   429: 468c19c1   284 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder10InitializeEPKc
+   430: 468d1e10    14 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms6TCDbusE
+   431: 468c894d   404 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializerC1Ev
+   432: 468c4b85    88 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES9_ES2_DnSB_PN3bms6TCDbusEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   433: 468d44f0    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFPFvP10_GMainLoopES1_EE
+   434: 468c1f51   588 FUNC    GLOBAL DEFAULT   11 BmsSetCallbackForVC
+   435: 468d1cc8    47 OBJECT  GLOBAL DEFAULT   13 _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   436: 468c1155   396 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsSubscribeForPESEPFvR10BmsPESDataPvES3_Ri
+   437: 468c4751    34 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusClientEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE9_M_invokeERKSt9_Any_dataS7_S7_S7_
+   438: 468c7145    10 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer8TSClientC1Ev
+   439: 468c1655   104 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy24BmsSubtitleUnSetCallbackEiPv
+   440: 468c8ba9    14 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer15PrepareResponseEv
+   441: 468d55bc     4 OBJECT  GLOBAL DEFAULT   24 _ZGVZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EE20registerClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   442: 468d0ec4   149 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationELb1EE
+   443: 468c7119    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient18m_NamaOwnerChangedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_
+   444: 468bee8d     4 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForPESForVC
+   445: 468c3d79   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy24BmsGetCurrentPlayProgramEiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   446: 468c4201   264 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsCallEPKcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS8_
+   447: 468d0b84    30 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal18BinaryInputArchiveE
+   448: 468c46c1     2 FUNC    GLOBAL DEFAULT   11 _ZNSt6thread24_M_thread_deps_never_runEv
+   449: 468ccbd5   172 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer20m_ClientOwnerChangedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_
+   450: 468d1df8    21 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms12TCDbusClientE
+   451: 468c3281    22 FUNC    GLOBAL DEFAULT   11 BmsResumeLive
+   452: 468c6e1d   124 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusClient20m_ParseSignalPayloadEP9_GVariantRiRSt6vectorIcSaIcEE
+   453: 468c97ad   364 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer11SetMethodCbEiRKSt8functionIFbRKSt6vectorIcSaIcEERS4_EE
+   454: 468bee55     2 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderC1Ev
+   455: 468d427c     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt22_Weak_result_type_implIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   456: 468d0ba4    35 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal6detail16InputArchiveBaseE
+   457: 468c4165   156 FUNC    GLOBAL DEFAULT   11 BmsIsVODPlaying
+   458: 468d1694    60 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvvELb1EE
+   459: 468c5e09    66 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus13TSNameWatcherC2Ev
+   460: 468c75b5    20 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer17GetCallPropertiesEv
+   461: 468c7151    16 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16TSCallPropertiesC2Ev
+   462: 468c4c2d    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusClientEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   463: 468d437c     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   464: 468c34c9    22 FUNC    GLOBAL DEFAULT   11 BmsPause
+   465: 468bfab5  1344 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker21InvokeForSubtitleDataEi9_BmsEventPKc
+   466: 468d1730   113 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   467: 468c3ff5   156 FUNC    GLOBAL DEFAULT   11 BmsGetContentId
+   468: 468d1c0c    88 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   469: 468c4799    32 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFMN3bms12TCDbusClientEFvvEPS3_EEE9_M_invokeERKSt9_Any_data
+   470: 468c315d    22 FUNC    GLOBAL DEFAULT   11 BmsDestroyPlayer
+   471: 468c4bdd    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFvP10_GMainLoopES3_EEE10_M_managerERSt9_Any_dataRKS9_St18_Manager_operation
+   472: 468c5fad   136 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus6t_PostERKSt8functionIFvvEE
+   473: 468d13d4   141 OBJECT  GLOBAL DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   474: 468cc6c5   804 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer14m_RemoveClientERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   475: 468d14d8   102 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   476: 468c650d   138 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient20AddServiceAppearedCbERKSt8functionIFvvEE
+   477: 468c71ed   138 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16AddClientReadyCbERKSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   478: 468cb06d   400 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   479: 468c1c85    22 FUNC    GLOBAL DEFAULT   11 BmsUnsubscribeForCaption
+   480: 468c83c5   748 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient10t_InitDbusEv
+   481: 468bee91     4 FUNC    GLOBAL DEFAULT   11 BmsUnSubscribeForPESForVC
+   482: 468c1cbd    22 FUNC    GLOBAL DEFAULT   11 BmsUnSubscribeForPES
+   483: 468c395d    26 FUNC    GLOBAL DEFAULT   11 BmsGetPlayTime
+   484: 468c5e4d   116 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusD2Ev
+   485: 468d0bc8    54 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EEE
+   486: 468d4348    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   487: 468cc9e9   380 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer7t_CleanEv
+   488: 468cb3ad   700 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus18m_NameOwnerChangedEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantPv
+   489: 468c88f5    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer12m_NameLostCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   490: 468d4340     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   491: 468c1add   224 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProviderC1Ev
+   492: 468c1431   104 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy16BmsUnSetCallbackEiPv
+   493: 468d1b48    93 OBJECT  GLOBAL DEFAULT   13 _ZTSSt22_Weak_result_type_implIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   494: 468c2631   584 FUNC    GLOBAL DEFAULT   11 BmsUnSetSubtitleCallbackForVC
+   495: 468c70a9   112 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_NameVanishedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   496: 468c8ca9   200 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializer13NativeToProxyERKSt8functionIFvRN6cereal18BinaryInputArchiveEEE
+   497: 468d0d24   105 OBJECT  GLOBAL DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEELb0EE
+   498: 468c59a5   172 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer23t_RunSmartDealLockCheckEP10_GMainLoop
+   499: 468d5598    28 OBJECT  GLOBAL DEFAULT   24 _ZZN6cereal6detail12StaticObjectINS0_8VersionsEE6createEvE1t
+   500: 468bc7b9    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKSt6vectorIcSaIcEEESt5_BindIFMN3bms10TCApiProxyEFvS4_EPS8_St12_PlaceholderILi1EEEEE9_M_invokeERKSt9_Any_dataS4_
+   501: 468c6909   384 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientD1Ev
+   502: 468c1499   220 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy24BmsUnsubscribeForCaptionEi
+   503: 468c4b21    24 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus15m_StartMainLoopEv
+   504: 468cbe91   672 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer10t_InitDbusEv
+   505: 468ccb65    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerD2Ev
+   506: 468d4354     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvvELb1EE
+   507: 468cc131   536 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer18m_HandleMethodCallEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantP22_GDBusMethodInvocationPv
+   508: 468d0c30    31 OBJECT  GLOBAL DEFAULT   13 _ZTSN6cereal19BinaryOutputArchiveE
+   509: 468c23e5   588 FUNC    GLOBAL DEFAULT   11 BmsSetSubtitleCallbackForVC
+   510: 468d17a4   102 OBJECT  GLOBAL DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   511: 468c738d    88 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer22m_PrepareMethodPayloadERKSt6vectorIcSaIcEEb
+   512: 468bdf11   716 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy10m_CallbackERKSt6vectorIcSaIcEE
+   513: 468d4434    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEPS1_St12_PlaceholderILi1EESH_ILi2EESH_ILi3EEEE
+   514: 468d4320    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEE
+   515: 468c3851   268 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy14BmsGetPlayTimeEiPm
+   516: 468d5590     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms16TCBmsApiProvider17m_pBmsApiProviderE
+   517: 468d4370    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   518: 468be635  1180 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy17m_PesDataCallbackERKSt6vectorIcSaIcEE
+   519: 468cba89  1032 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   520: 468d43e8     8 OBJECT  GLOBAL DEFAULT   20 _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   521: 468d444c    12 OBJECT  GLOBAL DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   522: 468c7df9   252 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus18m_CallGetNameOwnerEP16_GDBusConnectionSt10shared_ptrINS0_13TSNameWatcherEE
+   523: 468d4268     8 OBJECT  GLOBAL DEFAULT   20 _ZTIN6cereal6detail17OutputArchiveBaseE
+   524: 468c4091   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsIsVODPlayingERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   525: 468bce55    80 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFvRKSt6vectorIcSaIcEEESt5_BindIFMN3bms10TCApiProxyEFvS4_EPS8_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSH_St18_Manager_operation
+
+STDERR:

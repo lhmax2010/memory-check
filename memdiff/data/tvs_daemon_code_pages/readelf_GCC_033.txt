@@ -1,0 +1,979 @@
+### sections rc=0
+There are 29 section headers, starting at offset 0x4d6e4:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            4677d114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        4677d138 000138 0019d8 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          4677eb10 001b10 0037f0 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          46782300 005300 00c1b2 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          4678e4b2 0114b2 0006fe 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         4678ebb0 011bb0 0001e0 00   A  4   5  4
+  [ 7] .rel.dyn          RELA            4678ed90 011d90 002f1c 0c   A  3   0  4
+  [ 8] .rel.plt          REL             46791cac 014cac 000be0 08  AI  3  21  4
+  [ 9] .init             PROGBITS        467928d8 0158d8 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        467928e4 0158e4 001250 04  AX  0   0  4
+  [11] .text             PROGBITS        46793b38 016b38 028fb0 00  AX  0   0  8
+  [12] .fini             PROGBITS        467bcae8 03fae8 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        467bcaf0 03faf0 0062a8 00   A  0   0  4
+  [14] .ARM.extab        PROGBITS        467c2d98 045d98 002a1c 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       467c57b4 0487b4 000d18 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        467c64cc 0494cc 000004 00   A  0   0  4
+  [17] .init_array       INIT_ARRAY      467c7000 04a000 000008 04  WA  0   0  4
+  [18] .fini_array       FINI_ARRAY      467c7008 04a008 000008 04  WA  0   0  4
+  [19] .data.rel.ro      PROGBITS        467c7010 04a010 00111c 00  WA  0   0  4
+  [20] .dynamic          DYNAMIC         467c812c 04b12c 000150 08  WA  4   0  4
+  [21] .got              PROGBITS        467c9000 04c000 000888 04  WA  0   0  4
+  [22] .data             PROGBITS        467c9888 04c888 00002c 00  WA  0   0  4
+  [23] .bss              NOBITS          467c98b8 04c8b4 0004c0 00  WA  0   0  8
+  [24] .comment          PROGBITS        00000000 04c8b4 00002c 01  MS  0   0  1
+  [25] .gnu.liblist      GNU_LIBLIST     00000000 04c8e0 000410 14     26   0  4
+  [26] .gnu.libstr       STRTAB          00000000 04ccf0 0003e3 00      0   0  1
+  [27] .gnu.prelink_undo PROGBITS        00000000 04d0d4 0004fc 01      0   0  4
+  [28] .shstrtab         STRTAB          00000000 04d5d0 000112 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x4677d000
+There are 7 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x0487b4 0x467c57b4 0x467c57b4 0x00d18 0x00d18 R   0x4
+  LOAD           0x000000 0x4677d000 0x4677d000 0x494d0 0x494d0 R E 0x1000
+  LOAD           0x04a000 0x467c7000 0x467c7000 0x028b4 0x02d78 RW  0x1000
+  DYNAMIC        0x04b12c 0x467c812c 0x467c812c 0x00150 0x00150 RW  0x4
+  NOTE           0x000114 0x4677d114 0x4677d114 0x00024 0x00024 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x04a000 0x467c7000 0x467c7000 0x02000 0x02000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     
+   06     .init_array .fini_array .data.rel.ro .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.3) 14.2.0
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 895 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 467928d8     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 467c9888     0 SECTION LOCAL  DEFAULT   22 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_init@GLIBC_2.4 (2)
+     4: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIi@CXXABI_1.3 (3)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND chown@GLIBC_2.4 (2)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutexattr_init@GLIBC_2.34 (4)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_register_object
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znwj@GLIBCXX_3.4 (5)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_iter_free
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lock@GLIBC_2.4 (2)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_object_ref
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base7_M_hookEPS0_@GLIBCXX_3.4.15 (6)
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_init@GLIBC_2.4 (2)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptr9_M_addrefEv@CXXABI_1.3.13 (7)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_own_name_on_connection
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_get_sync
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost11this_thread18interruption_pointEv
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND sync@GLIBC_2.4 (2)
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_push_thread_default
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6thread13native_handleEv
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND popen@GLIBC_2.4 (2)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND usb_device_init
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@GLIBC_2.4 (2)
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail11dir_itr_impD1Ev
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4 (5)
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftruncate64@GLIBC_2.4 (2)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSdD2Ev@GLIBCXX_3.4 (5)
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_destroy@GLIBC_2.4 (2)
+    29: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt9basic_iosIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_future_errori@GLIBCXX_3.4.14 (8)
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv@GLIBCXX_3.4 (5)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt12__basic_fileIcE7is_openEv@GLIBCXX_3.4 (5)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_type_checked_
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21 (9)
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev@GLIBCXX_3.4 (5)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_unref
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_iprimitiveINS0_15binary_iarchiveEcSt11char_traitsIcEE4initEv
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_error_free
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.4 (2)
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseC2Ev@GLIBCXX_3.4 (5)
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail18create_directoriesERKNS0_4pathEPNS_6system10error_codeE
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseek@GLIBC_2.4 (2)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND usb_device_fini
+    44: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost10filesystem16filesystem_errorE
+    45: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __stack_chk_guard@GLIBC_2.4 (10)
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseD2Ev@GLIBCXX_3.4 (5)
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive21basic_binary_iarchiveINS0_15binary_iarchiveEE4initEv
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gcc_personality_v0@GCC_3.3.1 (11)
+    49: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive17archive_exceptionC1ENS1_14exception_codeEPKcS4_
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt17__throw_bad_allocv@GLIBCXX_3.4 (5)
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt25__throw_bad_function_callv@GLIBCXX_3.4.14 (8)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@GLIBC_2.4 (2)
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSi5seekgExSt12_Ios_Seekdir@GLIBCXX_3.4 (5)
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail11permissionsERKNS0_4pathENS0_5permsEPNS_6system10error_codeE
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj@GLIBCXX_3.4.21 (9)
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (3)
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_watch_name_on_connection
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_builder_new
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj@GLIBCXX_3.4.21 (9)
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail14basic_oarchive11save_objectEPKvRKNS1_17basic_oserializerE
+    62: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __progname@GLIBC_2.4 (2)
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail14basic_iarchiveC2Ej
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK5boost7archive6detail14basic_iarchive19get_library_versionEv
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND posix_fallocate64@GLIBC_2.4 (2)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_oprimitiveINS0_15binary_oarchiveEcSt11char_traitsIcEE4saveERKNSt7__cxx1112basic_stringIcS4_SaIcEEE
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_quit
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@CXXABI_1.3 (3)
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt3_V216generic_categoryEv@GLIBCXX_3.4.21 (9)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_condattr_setclock@GLIBC_2.34 (4)
+    71: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost13serialization13typeid_system27extended_type_info_typeid_0E
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror@GLIBC_2.4 (2)
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc@GLIBCXX_3.4.21 (9)
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_length_errorPKc@GLIBCXX_3.4 (5)
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND __vsnprintf_chk@GLIBC_2.4 (2)
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21 (9)
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail15path_algorithms12extension_v3ERKNS0_4pathE
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND backtrace_symbols@GLIBC_2.4 (2)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof@GLIBC_2.4 (2)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND realpath@GLIBC_2.4 (2)
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_signal@GLIBC_2.4 (2)
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt15future_categoryv@GLIBCXX_3.4.15 (6)
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt3_V215system_categoryEv@GLIBCXX_3.4.21 (9)
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost11this_thread20disable_interruptionD1Ev
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_node_info_unref
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13__future_base12_Result_baseC2Ev@GLIBCXX_3.4.15 (6)
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND usb_device_get_device_list
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4 (5)
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_new
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_get_name
+    91: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_unregister_object
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSirsERi@GLIBCXX_3.4 (5)
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_abort@CXXABI_1.3 (3)
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND prctl@GLIBC_2.4 (2)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND __fprintf_chk@GLIBC_2.4 (2)
+    96: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt15basic_streambufIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (3)
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND execl@GLIBC_2.4 (2)
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_system_errori@GLIBCXX_3.4.11 (12)
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_iprimitiveINS0_15binary_iarchiveEcSt11char_traitsIcEEC2ERSt15basic_streambufIcS4_Eb
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND strftime@GLIBC_2.4 (2)
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost13serialization13typeid_system27extended_type_info_typeid_015type_unregisterEv
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive17archive_exceptionD1Ev
+   104: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.4 (2)
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_self@GLIBC_2.4 (2)
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_builder_unref
+   107: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt12future_error@GLIBCXX_3.4.14 (8)
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (5)
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost13serialization13typeid_system27extended_type_info_typeid_013type_registerERKSt9type_info
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail15path_algorithms10compare_v3ERKNS0_4pathES5_
+   111: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3 (3)
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1Ev@GLIBCXX_3.4.26 (13)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt19__throw_logic_errorPKc@GLIBCXX_3.4 (5)
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_invoke
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4swapERS4_@GLIBCXX_3.4.21 (9)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@CXXABI_1.3 (3)
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13__future_base12_Result_baseD2Ev@GLIBCXX_3.4.15 (6)
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12find_last_ofEPKcjj@GLIBCXX_3.4.21 (9)
+   119: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTSt14basic_ofstreamIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+   120: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive21basic_binary_iarchiveINS0_15binary_iarchiveEE13load_overrideERNS0_15class_name_typeE
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21 (9)
+   122: 00000000     0 TLS     GLOBAL DEFAULT  UND _ZSt15__once_callable@GLIBCXX_3.4.11 (12)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND mmap64@GLIBC_2.4 (2)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_run
+   125: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@GLIBC_2.4 (2)
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28__throw_bad_array_new_lengthv@GLIBCXX_3.4.29 (14)
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_broadcast@GLIBC_2.4 (2)
+   128: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znaj@GLIBCXX_3.4 (5)
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_new
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13bad_exceptionD2Ev@GLIBCXX_3.4 (5)
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.4 (2)
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptr10_M_releaseEv@CXXABI_1.3.13 (7)
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutexattr_setrobust@GLIBC_2.34 (4)
+   134: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail11dir_itr_impdlEPv
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND strpbrk@GLIBC_2.4 (2)
+   136: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost6detail16thread_data_baseE
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_demangle@CXXABI_1.3 (3)
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6detail23get_current_thread_dataEv
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail17basic_oserializerC2ERKNS_13serialization18extended_type_infoE
+   140: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@GLIBCXX_3.4 (5)
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND localtime@GLIBC_2.4 (2)
+   142: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt13bad_exception@GLIBCXX_3.4 (5)
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_gettime@GLIBC_2.17 (15)
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_init_primary_exception@CXXABI_1.3.11 (16)
+   145: 00000000     0 FUNC    GLOBAL DEFAULT  UND system@GLIBC_2.4 (2)
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_rdlock@GLIBC_2.34 (4)
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@GLIBC_2.4 (2)
+   148: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt28__atomic_futex_unsigned_base19_M_futex_notify_allEPj@GLIBCXX_3.4.21 (9)
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND system_info_get_value_string
+   150: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_once@GLIBC_2.34 (4)
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost13serialization13typeid_system27extended_type_info_typeid_0D2Ev
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK5boost13serialization18extended_type_info12key_registerEv
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdlPv@GLIBCXX_3.4 (5)
+   154: 00000000     0 FUNC    GLOBAL DEFAULT  UND usb_device_list_get_first
+   155: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_set_int@VCONF_BUXTON_1.0 (17)
+   156: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_oprimitiveINS0_15binary_oarchiveEcSt11char_traitsIcEEC2ERSt15basic_streambufIcS4_Eb
+   158: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt14basic_ifstreamIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+   159: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call_sync
+   160: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj@GLIBCXX_3.4.21 (9)
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj@GLIBCXX_3.4.21 (9)
+   162: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK5boost10filesystem15directory_entry12refresh_implEPNS_6system10error_codeE
+   163: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail15path_algorithms11filename_v3ERKNS0_4pathE
+   164: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_condattr_destroy@GLIBC_2.4 (2)
+   165: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost7archive6detail14basic_iarchiveE
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6detail16thread_data_baseD2Ev
+   167: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   168: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE@CXXABI_1.3.3 (18)
+   169: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt9type_infoeqERKS_@GLIBCXX_3.4 (5)
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail6renameERKNS0_4pathES4_PNS_6system10error_codeE
+   171: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev@GLIBCXX_3.4 (5)
+   172: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive17archive_exceptionC1ERKS1_
+   173: 00000000     0 FUNC    GLOBAL DEFAULT  UND fchmod@GLIBC_2.4 (2)
+   174: 00000000     0 FUNC    GLOBAL DEFAULT  UND waitpid@GLIBC_2.4 (2)
+   175: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (5)
+   176: 00000000     0 FUNC    GLOBAL DEFAULT  UND system_info_get_value_int
+   177: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dlog_print
+   178: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_destroy@GLIBC_2.4 (2)
+   179: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail28directory_iterator_constructERNS0_18directory_iteratorERKNS0_4pathEjPNS1_25directory_iterator_paramsEPNS_6system10error_codeE
+   180: 00000000     0 FUNC    GLOBAL DEFAULT  UND backtrace@GLIBC_2.4 (2)
+   181: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread@GLIBC_2.4 (2)
+   182: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   183: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_iter_loop
+   184: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9bad_allocD2Ev@GLIBCXX_3.4 (5)
+   185: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_oprimitiveINS0_15binary_oarchiveEcSt11char_traitsIcEE4initEv
+   186: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6thread6detachEv
+   187: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_get
+   188: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorD2Ev@GLIBCXX_3.4 (5)
+   189: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (2)
+   190: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror_r@GLIBC_2.4 (2)
+   191: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dynamic_cast@CXXABI_1.3 (3)
+   192: 00000000     0 FUNC    GLOBAL DEFAULT  UND shmdt@GLIBC_2.4 (2)
+   193: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@GLIBC_2.4 (2)
+   194: 00000000     0 FUNC    GLOBAL DEFAULT  UND vfork@GLIBC_2.4 (2)
+   195: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost7archive6detail17basic_oserializerE
+   196: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4 (5)
+   197: 00000000     0 TLS     GLOBAL DEFAULT  UND _ZSt11__once_call@GLIBCXX_3.4.11 (12)
+   198: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt3_V214error_categoryE@GLIBCXX_3.4.21 (9)
+   199: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_call_terminate@CXXABI_1.3.15 (19)
+   200: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_atexit@GLIBC_2.4 (2)
+   201: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_get_unique_name
+   202: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@GLIBCXX_3.4.21 (9)
+   203: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv119__pointer_type_infoE@CXXABI_1.3 (3)
+   204: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_new
+   205: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail15path_algorithms21find_parent_path_sizeERKNS0_4pathE
+   206: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc23_strtoul@GLIBC_2.38 (20)
+   207: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   208: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail17basic_oserializerD2Ev
+   209: 00000000     0 FUNC    GLOBAL DEFAULT  UND system_info_get_custom_int
+   210: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __libc_single_threaded@GLIBC_2.32 (21)
+   211: 00000000     0 FUNC    GLOBAL DEFAULT  UND pclose@GLIBC_2.4 (2)
+   212: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt9bad_alloc@GLIBCXX_3.4 (5)
+   213: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdaPv@GLIBCXX_3.4 (5)
+   214: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3 (3)
+   215: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_unref
+   216: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2ERKS_@GLIBCXX_3.4.21 (9)
+   217: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_method_invocation_return_value
+   218: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i@GLIBCXX_3.4.9 (22)
+   219: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptrC1EPv@CXXABI_1.3.11 (16)
+   220: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6thread13join_noexceptEv
+   221: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_unlock@GLIBC_2.34 (4)
+   222: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail28directory_iterator_incrementERNS0_18directory_iteratorEPNS_6system10error_codeE
+   223: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_new_sync
+   224: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_wait@GLIBC_2.4 (2)
+   225: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail14basic_oarchiveC2Ej
+   226: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutexattr_setpshared@GLIBC_2.34 (4)
+   227: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@GLIBCXX_3.4 (5)
+   228: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_@GLIBCXX_3.4.21 (9)
+   229: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_condattr_init@GLIBC_2.4 (2)
+   230: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail14basic_oarchive12end_preambleEv
+   231: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt13runtime_error4whatEv@GLIBCXX_3.4 (5)
+   232: 00000000     0 FUNC    GLOBAL DEFAULT  UND sysconf@GLIBC_2.4 (2)
+   233: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail9file_sizeERKNS0_4pathEPNS_6system10error_codeE
+   234: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftell@GLIBC_2.4 (2)
+   235: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeD1Ev@GLIBCXX_3.4 (5)
+   236: 00000000     0 FUNC    GLOBAL DEFAULT  UND usb_device_list_get_count
+   237: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgets@GLIBC_2.4 (2)
+   238: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (3)
+   239: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev@GLIBCXX_3.4 (5)
+   240: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutexattr_settype@GLIBC_2.34 (4)
+   241: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutexattr_destroy@GLIBC_2.34 (4)
+   242: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.4 (2)
+   243: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_wrlock@GLIBC_2.34 (4)
+   244: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail6statusERKNS0_4pathEPNS_6system10error_codeE
+   245: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail15path_algorithms9append_v3ERNS0_4pathEPKcS6_
+   246: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt24__throw_out_of_range_fmtPKcz@GLIBCXX_3.4.20 (23)
+   247: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt13basic_filebufIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+   248: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_object_unref
+   249: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.4 (2)
+   250: 00000000     0 FUNC    GLOBAL DEFAULT  UND __snprintf_chk@GLIBC_2.4 (2)
+   251: 00000000     0 FUNC    GLOBAL DEFAULT  UND munmap@GLIBC_2.4 (2)
+   252: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSi4readEPci@GLIBCXX_3.4 (5)
+   253: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_unown_name
+   254: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt14basic_ofstreamIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+   255: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev@GLIBCXX_3.4 (5)
+   256: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@GLIBC_2.4 (2)
+   257: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost7archive17archive_exceptionE
+   258: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__function_type_infoE@CXXABI_1.3 (3)
+   259: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail14basic_iarchiveD2Ev
+   260: 00000000     0 FUNC    GLOBAL DEFAULT  UND __once_proxy@GLIBCXX_3.4.11 (12)
+   261: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr1@GCC_3.5 (24)
+   262: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_node_info_new_for_xml
+   263: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6thread21start_thread_noexceptEv
+   264: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIj@CXXABI_1.3 (3)
+   265: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base9_M_unhookEv@GLIBCXX_3.4.15 (6)
+   266: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (3)
+   267: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_iprimitiveINS0_15binary_iarchiveEcSt11char_traitsIcEED2Ev
+   268: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail9copy_fileERKNS0_4pathES4_jPNS_6system10error_codeE
+   269: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (3)
+   270: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt9bad_alloc4whatEv@GLIBCXX_3.4.9 (22)
+   271: 00000000     0 FUNC    GLOBAL DEFAULT  UND _exit@GLIBC_2.4 (2)
+   272: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail6removeERKNS0_4pathEPNS_6system10error_codeE
+   273: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11logic_errorC2ERKS_@GLIBCXX_3.4.21 (9)
+   274: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN5boost7archive6detail14basic_oarchiveE
+   275: 00000000     0 FUNC    GLOBAL DEFAULT  UND shm_open@GLIBC_2.34 (4)
+   276: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.4 (2)
+   277: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK5boost13serialization18extended_type_info14key_unregisterEv
+   278: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@GLIBCXX_3.4 (5)
+   279: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj@GLIBCXX_3.4.21 (9)
+   280: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@GLIBC_2.4 (2)
+   281: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@CXXABI_1.3 (3)
+   282: 00000000     0 FUNC    GLOBAL DEFAULT  UND stat64@GLIBC_2.33 (25)
+   283: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt3_V214error_categoryD2Ev@GLIBCXX_3.4.21 (9)
+   284: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@GLIBCXX_3.4.21 (9)
+   285: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt13bad_exception4whatEv@GLIBCXX_3.4.9 (22)
+   286: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSolsEi@GLIBCXX_3.4 (5)
+   287: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSi5tellgEv@GLIBCXX_3.4 (5)
+   288: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_unwatch_name
+   289: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location@GLIBC_2.4 (2)
+   290: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_get_str@VCONF_BUXTON_1.0 (17)
+   291: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN5boost6detail16thread_data_baseE
+   292: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3 (3)
+   293: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+   294: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@GLIBC_2.4 (2)
+   295: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@GCC_3.0 (26)
+   296: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen64@GLIBC_2.4 (2)
+   297: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.4 (2)
+   298: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEcj@GLIBCXX_3.4.21 (9)
+   299: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt13__future_base12_Result_baseE@GLIBCXX_3.4.15 (6)
+   300: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt3_V214error_category10_M_messageB5cxx11Ei@GLIBCXX_3.4.21 (9)
+   301: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive21basic_binary_oarchiveINS0_15binary_oarchiveEE4initEv
+   302: 00000000     0 FUNC    GLOBAL DEFAULT  UND fstat64@GLIBC_2.33 (25)
+   303: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (24)
+   304: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call_finish
+   305: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt12future_error@GLIBCXX_3.4.14 (8)
+   306: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK5boost13serialization13typeid_system27extended_type_info_typeid_012is_less_thanERKNS0_18extended_type_infoE
+   307: 00000000     0 FUNC    GLOBAL DEFAULT  UND usb_device_get_mountpath
+   308: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (3)
+   309: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt28__atomic_futex_unsigned_base19_M_futex_wait_untilEPjjbNSt6chrono8durationIxSt5ratioILx1ELx1EEEENS2_IxS3_ILx1ELx1000000000EEEE@GLIBCXX_3.4.21 (9)
+   310: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK5boost13serialization13typeid_system27extended_type_info_typeid_08is_equalERKNS0_18extended_type_infoE
+   311: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_builder_add
+   312: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo5writeEPKci@GLIBCXX_3.4 (5)
+   313: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost11this_thread20disable_interruptionC1Ev
+   314: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9exceptionD2Ev@GLIBCXX_3.4 (5)
+   315: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt12__basic_fileIcED1Ev@GLIBCXX_3.4 (5)
+   316: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail5spaceERKNS0_4pathEPNS_6system10error_codeE
+   317: 00000000     0 OBJECT  WEAK   DEFAULT  UND program_invocation_short_name@GLIBC_2.4 (2)
+   318: 00000000     0 FUNC    GLOBAL DEFAULT  UND shm_unlink@GLIBC_2.34 (4)
+   319: 00000000     0 FUNC    GLOBAL DEFAULT  UND getenv@GLIBC_2.4 (2)
+   320: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt9exception@GLIBCXX_3.4 (5)
+   321: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call
+   322: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2EPKc@GLIBCXX_3.4.21 (9)
+   323: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_unref
+   324: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   325: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_iprimitiveINS0_15binary_iarchiveEcSt11char_traitsIcEE4loadERNSt7__cxx1112basic_stringIcS4_SaIcEEE
+   326: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_pure_virtual@CXXABI_1.3 (3)
+   327: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost6threadC1Ev
+   328: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   329: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc@GLIBCXX_3.4.21 (9)
+   330: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc@GLIBCXX_3.4.21 (9)
+   331: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (2)
+   332: 00000000     0 FUNC    GLOBAL DEFAULT  UND __tls_get_addr@GLIBC_2.4 (10)
+   333: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost10filesystem6detail10remove_allERKNS0_4pathEPNS_6system10error_codeE
+   334: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt12future_errorD1Ev@GLIBCXX_3.4.14 (8)
+   335: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_unlock@GLIBC_2.4 (2)
+   336: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTSt14basic_ifstreamIcSt11char_traitsIcEE@GLIBCXX_3.4 (5)
+   337: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt13runtime_error@GLIBCXX_3.4 (5)
+   338: 00000000     0 FUNC    GLOBAL DEFAULT  UND __printf_chk@GLIBC_2.4 (2)
+   339: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   340: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost13serialization13typeid_system27extended_type_info_typeid_0C2EPKc
+   341: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj@GLIBCXX_3.4.21 (9)
+   342: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive6detail14basic_oarchiveD2Ev
+   343: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeC1Ev@GLIBCXX_3.4 (5)
+   344: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5boost7archive23basic_binary_oprimitiveINS0_15binary_oarchiveEcSt11char_traitsIcEED2Ev
+   345: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11logic_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   346: 467c25f8    20 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht12TCDbusServerE
+   347: 46799349   364 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy17SetFinalizeTrapCbERKN5boost8functionIFvvEEE
+   348: 4679a3d5   328 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils14GetProgramNameB5cxx11Ev
+   349: 467a02d1    16 FUNC    GLOBAL DEFAULT   11 _ZNK5boost12shared_mutex10state_data8can_lockEv
+   350: 467a41c1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N2ht12TCDbusServerD0Ev
+   351: 467973b9     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties13SetPersistentEb
+   352: 467c7fa4    48 OBJECT  GLOBAL DEFAULT   19 _ZTVN2ht6TCDbusE
+   353: 467c7f68     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIvNS_4_mfi3mf3IvN2ht6TCDbusEPKcP9_GVariantP22_GDBusMethodInvocationEENS0_5list4INS0_5valueIPS5_EENS_3argILi1EEENSH_ILi2EEENSH_ILi3EEEEEEE
+   354: 467c1cdc    82 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive20binary_iarchive_implINS0_15binary_iarchiveEcSt11char_traitsIcEEE
+   355: 467c2958    37 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6system6detail12std_categoryE
+   356: 467b12ad    14 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFileneERKS0_
+   357: 4679c619     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht10apiPrivate23RegisterDestroyCallbackERNS_17TIDestroyCallbackE
+   358: 467a37bd   228 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient6t_StopEv
+   359: 467c76b8    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost13serialization25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS4_EEEE
+   360: 467c2498    94 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS_16exception_detail10clone_implINS2_14bad_exception_EEEEE
+   361: 467afd25   532 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile19m_ExtractFromBufferEPPhRjRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   362: 467c76f8    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive20binary_oarchive_implINS0_15binary_oarchiveEcSt11char_traitsIcEEE
+   363: 467973c9     4 FUNC    GLOBAL DEFAULT   11 _ZNK2ht18TSBufferProperties9getOffsetEv
+   364: 467a418d     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusServerD1Ev
+   365: 467c7894     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost6system14error_categoryE
+   366: 4679aa11   112 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils23IsSpecialCharNotPresentEPKc
+   367: 467c7848     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost9exceptionE
+   368: 467c1948    34 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive15binary_oarchiveE
+   369: 4679ab69   312 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy7DestroyEv
+   370: 467c7a84    40 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10wrapexceptINS_15condition_errorEEE
+   371: 4679effd   856 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy12DumpCoverageEv
+   372: 4679f7ad   856 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy6WakeUpEv
+   373: 467a22cd    24 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer15m_StartMainLoopEv
+   374: 4679d145    96 FUNC    GLOBAL DEFAULT   11 _ZN2ht3api10GetControlEv
+   375: 4679b699  1748 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils12GenerateNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_iS8_S8_S8_RKNS_20TSProcessGroupPolicy16EDumpBinaryEventES8_
+   376: 467ac039   388 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDirsManager16GetDumpReadyPathB5cxx11Ev
+   377: 46798f59   252 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy18SetReduceBuffersCbERKN5boost8functionIFvRKiEEE
+   378: 467973e1    70 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferPropertiesclEPS0_S1_
+   379: 467c1f70    29 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost18thread_interruptedE
+   380: 467a3099   372 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus13GetUniqueNameB5cxx11Ev
+   381: 467c2b60   241 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail8CtorArgNINS_9container6vectorINS0_10offset_ptrIN2ht8TSBufferEijLj0EEENS0_9allocatorIS8_NS0_15segment_managerIcNS0_15rbtree_best_fitINS0_12mutex_familyENS5_IvijLj0EEELj0EEENS0_10iset_indexEEEEEvEELb0EJRKSH_EEE
+   382: 467c21b8    49 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base13_State_baseV27_SetterIbRKbEE
+   383: 467c1b44   180 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIbNS_4_mfi3mf3IbN2ht16TCCallbacksProxyEiRKSt6vectorIhSaIhEERS8_EENS0_5list4INS0_5valueIPS5_EENSE_INS4_10ICallbacks13ECallbackTypeEEENS_3argILi1EEENSK_ILi2EEEEEEE
+   384: 467a0821    32 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbObEEE9_M_invokeERKSt9_Any_data
+   385: 467aeb99   220 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem12FolderExistsEN5boost10filesystem4pathE
+   386: 467c18f4    82 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive20binary_oarchive_implINS0_15binary_oarchiveEcSt11char_traitsIcEEE
+   387: 467c7e08     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail15error_info_baseE
+   388: 467c98fc     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost13serialization9singletonINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEE12get_instanceEvE1t
+   389: 467c1d78    60 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pIN2ht16TCCallbacksProxyEEE
+   390: 467c262c    13 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht6TCDbusE
+   391: 467a9db5   152 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer10m_NameLostEP16_GDBusConnectionPKcPv
+   392: 467adfd5  1572 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem8GetFilesERSt6vectorIN5boost10filesystem4pathESaIS4_EES4_NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   393: 467c7f28    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_implINS0_10bad_alloc_EEE
+   394: 467c17c0   106 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive6detail11oserializerINS0_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS6_EEEE
+   395: 467c7d38    24 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht11IDbusServerE
+   396: 467a4b31    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N2ht12TCDbusClientD0Ev
+   397: 4679b495   516 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils20GetCurrentTimeStringB5cxx11Ev
+   398: 467c25e4    19 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht11IDbusClientE
+   399: 4679aed1  1088 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCHtCachingUtils22GetSystemInfoKeyCachedE17system_info_key_eRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   400: 4679a975   156 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils8RunShellEPKc
+   401: 4679aa81    84 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils17GetKernelTimeSpecEv
+   402: 467a0365     6 FUNC    GLOBAL DEFAULT   11 _ZNSt15__exception_ptr12__dest_thunkISt12future_errorEEvPv
+   403: 467af8f1   228 FUNC    GLOBAL DEFAULT   11 _ZN2ht22TCIpcSerializationUtil11ConvertDataERKSt6vectorIhSaIhEERNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE
+   404: 467c7908    24 OBJECT  GLOBAL DEFAULT   19 _ZTISt6vectorIN2ht20TSProcessInformationESaIS1_EE
+   405: 467a4195    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N2ht12TCDbusServerD1Ev
+   406: 467c1724    53 OBJECT  GLOBAL DEFAULT   13 _ZTSSt12_Vector_baseIN2ht20TSProcessInformationESaIS1_EE
+   407: 467a8699   920 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy7DisableEv
+   408: 467c9988    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCHtCachingUtils18m_vconfStringCacheB5cxx11E
+   409: 467c19c8    29 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht21TCControlPrivateProxyE
+   410: 467a5831   480 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer15NumberOfClientsEv
+   411: 467c208c    49 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail20error_info_containerE
+   412: 467973a5     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties11SetBufferIdEj
+   413: 467c9c18    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDirsManager12m_policyPathB5cxx11E
+   414: 467af9d5    72 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFileC1Ev
+   415: 467a6775   152 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer14m_NameAcquiredEP16_GDBusConnectionPKcPv
+   416: 467b8c5d  1620 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory14m_SetShmemNameEv
+   417: 467973d9     4 FUNC    GLOBAL DEFAULT   11 _ZNK2ht18TSBufferProperties19getCurThrBufferSizeEv
+   418: 467c2290   140 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS0_11thread_dataINS_3_bi6bind_tIvNS_4_mfi3mf0IvN2ht12TCDbusServerEEENS3_5list1INS3_5valueIPS8_EEEEEEEEEE
+   419: 467c196c    65 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pIN2ht21TCControlPrivateProxyEEE
+   420: 467a43e9   728 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus7t_StartEv
+   421: 467c9ba0    24 OBJECT  GLOBAL DEFAULT   23 _ZZNK5boost6system14error_category11init_stdcatEvE3mx_
+   422: 467c7dc8    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail14bad_exception_E
+   423: 467c1d54    33 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail15sp_counted_baseE
+   424: 4679bd6d   624 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils9GetHtModeEv
+   425: 467c7fe4     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function1IbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9assign_toINS_3_bi6bind_tIbPFbS8_ENSB_5list1INS_3argILi1EEEEEEEEEvT_E13stored_vtable
+   426: 467b14ed   380 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug13EnableFileLogEb
+   427: 4679c7b9   648 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy8InstanceEv
+   428: 467c7e50   112 OBJECT  GLOBAL DEFAULT   19 _ZTVN2ht12TCDbusServerE
+   429: 467c23a4    31 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base7_ResultIbEE
+   430: 46799d25   704 FUNC    GLOBAL DEFAULT   11 _ZNK5boost7archive6detail11oserializerINS0_15binary_oarchiveEN2ht20TSProcessInformationEE16save_object_dataERNS1_14basic_oarchiveEPKv
+   431: 467c7864    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10lock_errorE
+   432: 4679b481    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxyD0Ev
+   433: 467c7738    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht21TCControlPrivateProxyE
+   434: 467c1574    28 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht20TSProcessInformationE
+   435: 467c9b70     8 OBJECT  GLOBAL DEFAULT   23 _ZN5boost16exception_detail37exception_ptr_static_exception_objectINS0_10bad_alloc_EE1eE
+   436: 467b0b19   620 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile12m_FillBufferEPPhRjRSt3mapINS_20TSProcessGroupPolicy16EDumpBinaryEventENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS6_ESaISt4pairIKS6_SC_EEE
+   437: 467c1f30    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_baseE
+   438: 467c1f58    21 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10lock_errorE
+   439: 467c136c    97 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization9singletonINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEEE
+   440: 467c205c    47 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6system6detail22generic_error_categoryE
+   441: 467c798c    40 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10wrapexceptINS_17bad_function_callEEE
+   442: 467b1ef5   264 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFile11SetContentsERKNS_8TSPolicyERKNS_20TSProcessGroupPolicyERKNS_13TSProcessInfoE
+   443: 467aaa99   144 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug4PerfEPKcS2_jS2_z
+   444: 467a21e9   124 FUNC    GLOBAL DEFAULT   11 _ZNSt13__future_base13_State_baseV29_M_do_setEPSt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEEPb
+   445: 467a6ea5   200 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy16ResetDumpReadyCbEPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_PvE
+   446: 467ab0c9   456 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug6AssertEPKcj
+   447: 46797379    12 FUNC    GLOBAL DEFAULT   11 _ZNK2ht18TSBufferProperties11IsDestroyedEv
+   448: 467af459   572 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem8MoveFileERKN5boost10filesystem4pathES5_b
+   449: 467c1590   115 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization9singletonINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS5_EEEEEE
+   450: 46799aa9   636 FUNC    GLOBAL DEFAULT   11 _ZNK5boost7archive6detail11oserializerINS0_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS6_EEE16save_object_dataERNS1_14basic_oarchiveEPKv
+   451: 467c7e28     8 OBJECT  GLOBAL DEFAULT   19 _ZTISt19_Sp_make_shared_tag
+   452: 467c79e4     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function2IbRKSt6vectorIhSaIhEERS3_E9assign_toINS_3_bi6bind_tIbNS_4_mfi3mf3IbN2ht16TCCallbacksProxyEiS5_S6_EENS9_5list4INS9_5valueIPSE_EENSH_INSD_10ICallbacks13ECallbackTypeEEENS_3argILi1EEENSN_ILi2EEEEEEEEEvT_E13stored_vtable
+   453: 467b0e99   852 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFile11GetContentsEPhj
+   454: 4679cd19    96 FUNC    GLOBAL DEFAULT   11 _ZN2ht10apiPrivate17GetControlPrivateEv
+   455: 467c9d70     4 OBJECT  GLOBAL DEFAULT   23 _ZN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS8_EEEEE10m_instanceE
+   456: 467c7e30     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIvNS_4_mfi3mf3IvN2ht12TCDbusServerEPKcP9_GVariantP22_GDBusMethodInvocationEENS0_5list4INS0_5valueIPS5_EENS_3argILi1EEENSH_ILi2EEENSH_ILi3EEEEEEE
+   457: 467c78bc    68 OBJECT  GLOBAL DEFAULT   19 _ZTVN2ht14TCControlProxyE
+   458: 467a4b1d    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClientD0Ev
+   459: 467c9930     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS8_EEEEE12get_instanceEvE1t
+   460: 467afa1d   192 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFile13initParameterEv
+   461: 467c2708    70 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10error_infoINS_27tag_original_exception_typeEPKSt9type_infoEE
+   462: 467a03e5    56 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbRKbEEE10_M_managerERSt9_Any_dataRKSC_St18_Manager_operation
+   463: 4679eca5   856 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy16SimulatePowerOffEv
+   464: 467a4b0d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N2ht12TCDbusClientD1Ev
+   465: 467c9b28     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost6system6detail16interop_categoryEvE8instance
+   466: 467c9b60     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht20TCDbusClientProvider8m_pMutexE
+   467: 467c77f4     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht10ICallbacksE
+   468: 467a70c9   284 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy21ResetUploadStateXMLCbEPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE
+   469: 467c9b30    40 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost6system16generic_categoryEvE8instance
+   470: 467ad039  1164 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem11GetFileListERKN5boost10filesystem4pathERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESD_
+   471: 467c98e9     1 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization6detail17singleton_wrapperINS_7archive6detail11oserializerINS3_15binary_oarchiveEN2ht20TSProcessInformationEEEE16get_is_destroyedEvE17is_destroyed_flag
+   472: 467aac9d   552 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivator12RegisterDBUSEPFvvE
+   473: 467c9920     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost13serialization9singletonINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS5_EEEEE12get_instanceEvE1t
+   474: 467c7830    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost21thread_resource_errorE
+   475: 467c7a2c    40 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10wrapexceptINS_21thread_resource_errorEEE
+   476: 4679924d   252 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy17SetPolicyUpdateCbERKN5boost8functionIFvvEEE
+   477: 467af9d5    72 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFileC2Ev
+   478: 467c1ac0    52 OBJECT  GLOBAL DEFAULT   13 _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   479: 467c9890     4 OBJECT  GLOBAL DEFAULT   22 _ZN2ht6TCDbus15t_interfaceNameE
+   480: 467c7810    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive6detail15common_iarchiveINS0_15binary_iarchiveEEE
+   481: 467c2928    47 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess22interprocess_exceptionE
+   482: 467c9d4c     4 OBJECT  GLOBAL DEFAULT   23 _ZN5boost12interprocess9ipcdetail15num_core_holderILi0EE9num_coresE
+   483: 467c9d50     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost12interprocess9ipcdetail15num_core_holderILi0EE9num_coresE
+   484: 467c7900     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht20TSProcessInformationE
+   485: 467a06c5    88 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENS3_5list1INS_3argILi1EEEEEEEE6manageERKNS1_15function_bufferERSL_NS1_30functor_manager_operation_typeE
+   486: 467c7e40     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt13__future_base13_State_baseV27_SetterIbObEE
+   487: 467c2980    33 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost9container12length_errorE
+   488: 467c72f8    28 OBJECT  GLOBAL DEFAULT   19 _ZTTN2ht12TCDbusServerE
+   489: 4679dbdd   556 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils15CreateCabinetFWERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   490: 467aab29   188 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug8ExternalEPKcS2_jS2_z
+   491: 467c76b0     8 OBJECT  GLOBAL DEFAULT   19 _ZTISt12_Vector_baseIN2ht20TSProcessInformationESaIS1_EE
+   492: 4679d965    64 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy10m_CallbackEiRKSt6vectorIhSaIhEERS3_
+   493: 467c9b6c     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost16exception_detail37exception_ptr_static_exception_objectINS0_14bad_exception_EE1eE
+   494: 467c774c    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive6detail15common_oarchiveINS0_15binary_oarchiveEEE
+   495: 467c1ee4    27 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16thread_exceptionE
+   496: 467c7db0    24 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht6TCDbusE
+   497: 467afadd    46 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile7GetSizeEv
+   498: 467c99a0    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCHtCachingUtils19m_systemInfoKeysIntE
+   499: 467a3239    92 FUNC    GLOBAL DEFAULT   11 _ZNK2ht6TCDbus14t_ConvertBytesERKSt6vectorIhSaIhEERP9_GVariant
+   500: 467c9c30   248 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDirsManager7m_mutexE
+   501: 467c8070    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess22interprocess_exceptionE
+   502: 467c23fc   156 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIvNS_4_mfi3mf3IvN2ht6TCDbusEPKcP9_GVariantP22_GDBusMethodInvocationEENS0_5list4INS0_5valueIPS5_EENS_3argILi1EEENSH_ILi2EEENSH_ILi3EEEEEEE
+   503: 4679b315   364 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxyD1Ev
+   504: 467a6151     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusServer11SendMessageEiRKSt6vectorIhSaIhEEi
+   505: 467c2d88     4 OBJECT  GLOBAL DEFAULT   13 _ZN2ht22TSProxyFixedMarkerItem16fixedPayloadSizeE
+   506: 467a5609    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N2ht12TCDbusClient13UnSetCallbackEi
+   507: 467c7730     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht15IControlPrivateE
+   508: 467c8044    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost9container9exceptionE
+   509: 467a4a55   176 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClientD1Ev
+   510: 467c777c    12 OBJECT  GLOBAL DEFAULT   19 _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   511: 467c9b98     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht14TCSharedMemory11m_pInstanceE
+   512: 467c7644     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost13serialization9singletonINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEEE
+   513: 467af2fd   348 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem8CopyFileEN5boost10filesystem4pathES3_b
+   514: 467c1604   153 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization6detail17singleton_wrapperINS_7archive6detail11oserializerINS3_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS9_EEEEEE
+   515: 467a9fc9   152 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer20m_ClientNameVanishedEP16_GDBusConnectionPKcPv
+   516: 467c14cc    80 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization25extended_type_info_typeidIN2ht20TSProcessInformationEEE
+   517: 467959e5    88 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy19ResetPolicyUpdateCbEv
+   518: 467c1d30    34 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive15binary_iarchiveE
+   519: 467c1bf8    46 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10wrapexceptINS_17bad_function_callEEE
+   520: 467c2538    90 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS_16exception_detail10clone_implINS2_10bad_alloc_EEEEE
+   521: 467c80d0    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess9ipcdetail17placement_destroyIiEE
+   522: 467c9d54     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost12interprocess13mapped_region16page_size_holderILi0EE8PageSizeE
+   523: 467a5619   380 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient14m_NameAppearedEP16_GDBusConnectionPKcS4_
+   524: 467a3cf1    28 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer15m_DestroyClientERNS0_8TSClientE
+   525: 4679598d    88 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy16ResetDumpReadyCbEv
+   526: 467aeac1   216 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem16GetFreeSpaceSizeEN5boost10filesystem4pathE
+   527: 467c98ec    16 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization9singletonINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEE12get_instanceEvE1t
+   528: 467c231c    35 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base13_State_baseV2E
+   529: 467a066d    88 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESC_SC_PvENS3_5list4INS_3argILi1EEENSH_ILi2EEENSH_ILi3EEENS3_5valueISD_EEEEEEE6manageERKNS1_15function_bufferERSQ_NS1_30functor_manager_operation_typeE
+   530: 4679c621   408 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxyC1Ev
+   531: 4679f355  1112 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy23StoreProcessInformationERSt6vectorINS_20TSProcessInformationESaIS2_EE
+   532: 467c2d94     4 OBJECT  GLOBAL DEFAULT   13 _ZN2ht18TSPersistentBuffer16fixedPayloadSizeE
+   533: 467c7690     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost13serialization9singletonINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS5_EEEEEE
+   534: 467c807c    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost6system6detail12std_categoryE
+   535: 467c2620    12 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht5IDbusE
+   536: 467c1f00    19 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost9exceptionE
+   537: 467a3295   172 FUNC    GLOBAL DEFAULT   11 _ZNK2ht6TCDbus14t_ConvertBytesERKSt6vectorIhSaIhEEbRP9_GVariant
+   538: 467a4d7d   120 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClientC1Eb
+   539: 467a6cd5   172 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer13m_SendMessageEPv
+   540: 467a1fe1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N2ht12TCDbusServer13UnSetCallbackEi
+   541: 467a9e4d   380 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer20m_ClientNameVanishedEP16_GDBusConnectionPKc
+   542: 467a91c1  1524 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy11DumpHandledERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS_13EUploadStatusE
+   543: 467c1458   113 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization6detail17singleton_wrapperINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEEE
+   544: 467c20fc    24 OBJECT  GLOBAL DEFAULT   13 _ZTSSt19_Sp_make_shared_tag
+   545: 467c24f8    62 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_implINS0_14bad_exception_EEE
+   546: 467c1354    22 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht14TCControlProxyE
+   547: 467c9bd0    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDirsManager17m_RSdumpReadyPathB5cxx11E
+   548: 467ac341   388 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDirsManager17GetPolicyTestPathB5cxx11Ev
+   549: 467c9d44     1 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDeactivator11m_destroyedE
+   550: 467c9d28    28 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDeactivator10m_instanceE
+   551: 467c1e24    65 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive6detail15common_iarchiveINS0_15binary_iarchiveEEE
+   552: 467ab0c1     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug13EnablePerfLogEb
+   553: 467c2a00   240 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail17placement_destroyINS_9container6vectorINS0_10offset_ptrIN2ht8TSBufferEijLj0EEENS0_9allocatorIS8_NS0_15segment_managerIcNS0_15rbtree_best_fitINS0_12mutex_familyENS5_IvijLj0EEELj0EEENS0_10iset_indexEEEEEvEEEE
+   554: 467c7f78    44 OBJECT  GLOBAL DEFAULT   19 _ZN2ht6TCDbus17m_interfaceVtableE
+   555: 467c98e8     1 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization6detail17singleton_wrapperINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEE16get_is_destroyedEvE17is_destroyed_flag
+   556: 467c2900    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess14lock_exceptionE
+   557: 4679d9a5   568 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils16GenerateDumpNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bS8_iS8_S8_S8_RKNS_20TSProcessGroupPolicy16EDumpBinaryEventES8_
+   558: 4679ced1   628 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy8InstanceEv
+   559: 467b8ab1    32 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory19GetBufferPropertiesEPv
+   560: 467c77e0     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost6detail15sp_counted_baseE
+   561: 467c1de0    68 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive6detail18interface_iarchiveINS0_15binary_iarchiveEEE
+   562: 467c7f48    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_implINS0_14bad_exception_EEE
+   563: 467afb0d   268 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile19m_ExtractFromBufferEPPhRjS3_
+   564: 4679b315   364 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxyD2Ev
+   565: 467a02a5    22 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker3INS_3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESC_SC_PvENS3_5list4INS_3argILi1EEENSH_ILi2EEENSH_ILi3EEENS3_5valueISD_EEEEEEbSC_SC_SC_E6invokeERNS1_15function_bufferESC_SC_SC_
+   566: 467c1a2c    65 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive6detail15common_oarchiveINS0_15binary_oarchiveEEE
+   567: 467ab0b1    16 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebugD1Ev
+   568: 467c79b4     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIbNS_4_mfi3mf3IbN2ht16TCCallbacksProxyEiRKSt6vectorIhSaIhEERS8_EENS0_5list4INS0_5valueIPS5_EENSE_INS4_10ICallbacks13ECallbackTypeEEENS_3argILi1EEENSK_ILi2EEEEEEE
+   569: 467ba819   572 FUNC    GLOBAL DEFAULT   11 ht_control_save
+   570: 467c1fbc    30 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6system12system_errorE
+   571: 467c203c    32 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6system14error_categoryE
+   572: 467c9d74     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS8_EEEEE10m_instanceE
+   573: 467c1eb0    50 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10wrapexceptINS_21thread_resource_errorEEE
+   574: 467c27bc   154 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_PvENS0_5list4INS_3argILi1EEENSE_ILi2EEENSE_ILi3EEENS0_5valueISA_EEEEEE
+   575: 467c9894     4 OBJECT  GLOBAL DEFAULT   22 _ZN2ht6TCDbus14m_interfaceXmlE
+   576: 467c25d0    19 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht11IDbusServerE
+   577: 467a41a5    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServerD0Ev
+   578: 467c19e8    68 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive6detail18interface_oarchiveINS0_15binary_oarchiveEEE
+   579: 467c99d8   248 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCHtCachingUtils15m_CacheMapMutexE
+   580: 467c9b88     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost16exception_detail27get_static_exception_objectINS0_10bad_alloc_EEENS_13exception_ptrEvE2ep
+   581: 467a43c5    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbusD0Ev
+   582: 467b6ad5     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory8GetMaxIdEv
+   583: 4679d1a5  1984 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy12m_OnCallbackEiRKSt6vectorIhSaIhEERS3_
+   584: 467c9b80     8 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost16exception_detail27get_static_exception_objectINS0_14bad_exception_EEENS_13exception_ptrEvE2ep
+   585: 467a49b1   164 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClientD2Ev
+   586: 467b0975   420 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile12m_FillBufferEPPhRjRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   587: 467c785c     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_baseE
+   588: 4679c605    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxyD0Ev
+   589: 467b11ed   192 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFileeqERKS0_
+   590: 467c2858     8 OBJECT  GLOBAL DEFAULT   13 _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
+   591: 467c810c    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess9bad_allocE
+   592: 467af695   132 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem23GetLastModificationTimeERKN5boost10filesystem4pathE
+   593: 467c9d64     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveEN2ht20TSProcessInformationEEEE10m_instanceE
+   594: 46797361    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties4InitEv
+   595: 467aff39   936 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile19m_ExtractFromBufferEPPhRjRSt3mapINS_20TSProcessGroupPolicy16EDumpBinaryEventENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS6_ESaISt4pairIKS6_SC_EEE
+   596: 467c80c4    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess9ipcdetail17placement_destroyIjEE
+   597: 467aec75   628 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem7MakeDirERKN5boost10filesystem4pathEb
+   598: 467c7870    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost6system12system_errorE
+   599: 467c9d48     4 OBJECT  GLOBAL DEFAULT   23 _ZN5boost12interprocess13mapped_region16page_size_holderILi0EE8PageSizeE
+   600: 467c2594    58 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_implINS0_10bad_alloc_EEE
+   601: 467c1f90    44 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10wrapexceptINS_15condition_errorEEE
+   602: 46795a3d    88 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy25ResetRequestProcessInfoCbEv
+   603: 4679c621   408 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxyC2Ev
+   604: 467c9d6c     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost13serialization9singletonINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS5_EEEEE10m_instanceE
+   605: 467ab065    76 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebugC1Ev
+   606: 4679a57d   352 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils6GetPidERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   607: 467ade51   388 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem14SetPermissionsEN5boost10filesystem4pathENS2_5permsEii
+   608: 467ac4c5  1152 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TSDumpMetaFile4LoadERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   609: 467c76d8    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive6detail11oserializerINS0_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS6_EEEE
+   610: 467a3341   176 FUNC    GLOBAL DEFAULT   11 _ZNK2ht6TCDbus14t_ConvertBytesEibRKSt6vectorIhSaIhEERP9_GVariant
+   611: 467a4d1d    96 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClientC2Eb
+   612: 467c185c    64 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive21basic_binary_oarchiveINS0_15binary_oarchiveEEE
+   613: 467b1ffd   292 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory8InstanceEv
+   614: 467c9898     4 OBJECT  GLOBAL DEFAULT   22 _ZN2ht6TCDbus16t_dbusSendMethodE
+   615: 467c9900    12 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveEN2ht20TSProcessInformationEEEE12get_instanceEvE1t
+   616: 467a4b49   468 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient7t_StartEv
+   617: 467a0771    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIvNS_4_mfi3mf3IvN2ht12TCDbusServerEPKcP9_GVariantP22_GDBusMethodInvocationEENS3_5list4INS3_5valueIPS8_EENS_3argILi1EEENSK_ILi2EEENSK_ILi3EEEEEEEE6manageERKNS1_15function_bufferERSR_NS1_30functor_manager_operation_typeE
+   618: 467b6a4d   132 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemoryD1Ev
+   619: 4679de09   992 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils14CreateMetaFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS_20TSProcessGroupPolicyENS9_16EDumpBinaryEventE
+   620: 46798439   904 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCHtCachingUtils22GetSystemInfoKeyCachedE17system_info_key_eRi
+   621: 467c995c     1 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCCallbacksProxy11m_destroyedE
+   622: 4679e1e9   932 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy15NotifyDataReadyENS_16EDumpTriggerTypeE
+   623: 4679c0ad   940 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils21ExecuteShellGetOutputERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   624: 467c1a90    47 OBJECT  GLOBAL DEFAULT   13 _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   625: 467c8100    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost9container12length_errorE
+   626: 467c7d88    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht12TCDbusClientE
+   627: 467c9b5c     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht20TCDbusClientProvider13m_pDbusClientE
+   628: 467c2690    44 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail15error_info_baseE
+   629: 467c7fec     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3IbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_E9assign_toINS_3_bi6bind_tIbPFbS8_S8_S8_PvENSB_5list4INS_3argILi1EEENSH_ILi2EEENSH_ILi3EEENSB_5valueISD_EEEEEEEEvT_E13stored_vtable
+   630: 467c77a0    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive21basic_binary_iarchiveINS0_15binary_iarchiveEEE
+   631: 467a7949  1036 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy15getHTBufferDumpERSt6vectorIhSaIhEERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   632: 46799151   252 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy23SetRequestProcessInfoCbERKN5boost8functionIFbvEEE
+   633: 46798d25    28 FUNC    GLOBAL DEFAULT   11 _ZN5boost13serialization16singleton_module8get_lockEv
+   634: 46796d51   120 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIbNS_4_mfi3mf3IbN2ht16TCCallbacksProxyEiRKSt6vectorIhSaIhEERSB_EENS3_5list4INS3_5valueIPS8_EENSH_INS7_10ICallbacks13ECallbackTypeEEENS_3argILi1EEENSN_ILi2EEEEEEEE6manageERKNS1_15function_bufferERST_NS1_30functor_manager_operation_typeE
+   635: 467a71e5   180 FUNC    GLOBAL DEFAULT   11 _ZNK2ht6TCDbus14t_ConvertBytesEP9_GVariantRiRbRSt6vectorIhSaIhEE
+   636: 467b1a45   808 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem15SetFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   637: 467ab0c5     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug15EnableStdoutLogEb
+   638: 467c9984     1 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization16singleton_module8get_lockEvE4lock
+   639: 467c151c    88 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive6detail11oserializerINS0_15binary_oarchiveEN2ht20TSProcessInformationEEE
+   640: 467a3d0d   332 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer6t_StopEv
+   641: 467c175c    98 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS4_EEEE
+   642: 467c2d8c     4 OBJECT  GLOBAL DEFAULT   13 _ZN2ht25TSProxyVariableMarkerItem16fixedPayloadSizeE
+   643: 467ab0b1    16 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebugD2Ev
+   644: 467a3b41   332 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer14TSAsyncMessageD1Ev
+   645: 467c1dc8    24 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht16TCCallbacksProxyE
+   646: 467a3515   680 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus17t_SetDbusCallbackEPKcRKN5boost8functionIFvS2_P9_GVariantP22_GDBusMethodInvocationEEE
+   647: 467994b5   248 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy14SetDumpReadyCbEN5boost8functionIFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_SA_EEE
+   648: 467a071d    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIvNS_4_mfi3mf3IvN2ht6TCDbusEPKcP9_GVariantP22_GDBusMethodInvocationEENS3_5list4INS3_5valueIPS8_EENS_3argILi1EEENSK_ILi2EEENSK_ILi3EEEEEEEE6manageERKNS1_15function_bufferERSR_NS1_30functor_manager_operation_typeE
+   649: 467a0339    32 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function26void_function_obj_invoker3INS_3_bi6bind_tIvNS_4_mfi3mf3IvN2ht6TCDbusEPKcP9_GVariantP22_GDBusMethodInvocationEENS3_5list4INS3_5valueIPS8_EENS_3argILi1EEENSK_ILi2EEENSK_ILi3EEEEEEEvSA_SC_SE_E6invokeERNS1_15function_bufferESA_SC_SE_
+   650: 467c76e4    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive21basic_binary_oarchiveINS0_15binary_oarchiveEEE
+   651: 467c7744     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive6detail18interface_oarchiveINS0_15binary_oarchiveEEE
+   652: 467a40d9   180 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServerD1Ev
+   653: 467c7774     8 OBJECT  GLOBAL DEFAULT   19 _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   654: 4679c61d     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht10apiPrivate25UnregisterDestroyCallbackERNS_17TIDestroyCallbackE
+   655: 467a41d1   484 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbusD1Ev
+   656: 467c23c4    56 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pIN2ht12TCDbusClientEEE
+   657: 467c1344    15 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht8IControlE
+   658: 467a320d    42 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus6t_StopEv
+   659: 467c2340    98 OBJECT  GLOBAL DEFAULT   13 _ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   660: 467b92b1  5480 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemoryC1Ev
+   661: 467a277d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N2ht6TCDbus7IsReadyEv
+   662: 467a7601   832 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient11SendMessageEiRKSt6vectorIhSaIhEERS3_b
+   663: 4679c539   204 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxyD1Ev
+   664: 467a02fd     2 FUNC    GLOBAL DEFAULT   11 _ZN5boost9function0IvE5dummy7nonnullEv
+   665: 467c993c    32 OBJECT  GLOBAL DEFAULT   23 _ZN2ht21TCControlPrivateProxy8m_rwlockE
+   666: 467c263c    43 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail14bad_exception_E
+   667: 467a6159  1224 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer7t_StartEv
+   668: 467a02e1    16 FUNC    GLOBAL DEFAULT   11 _ZNK5boost12shared_mutex10state_data15can_lock_sharedEv
+   669: 467abd31   388 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDirsManager16GetPolicyXmlPathB5cxx11Ev
+   670: 4679c525    18 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxyD0Ev
+   671: 467ae735   908 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem12RemoveFolderEN5boost10filesystem4pathERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   672: 467c9924    12 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS8_EEEEE12get_instanceEvE1t
+   673: 467a5451   440 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient13UnSetCallbackEi
+   674: 467a33f1   292 FUNC    GLOBAL DEFAULT   11 _ZNK2ht6TCDbus14t_ConvertBytesEP9_GVariantRSt6vectorIhSaIhEE
+   675: 467c9b64     8 OBJECT  GLOBAL DEFAULT   23 _ZN5boost16exception_detail37exception_ptr_static_exception_objectINS0_14bad_exception_EE1eE
+   676: 467a9d29   140 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer20m_AsyncReadyCallbackEP8_GObjectP13_GAsyncResultPv
+   677: 467c7fd4     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENS0_5list1INS_3argILi1EEEEEEE
+   678: 467c28e0    29 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost9container9exceptionE
+   679: 467c7630     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht8IControlE
+   680: 467c78a8     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail20error_info_containerE
+   681: 46795b45    88 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy20ResetReduceBuffersCbEv
+   682: 467c9af8     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost6system15system_categoryEvE8instance
+   683: 467c9960     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCCallbacksProxy11m_pInstanceE
+   684: 46799055   252 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy19SetUploadStateXMLCbERKN5boost8functionIFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE
+   685: 467a66c1   180 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServerC1Eb
+   686: 467c1db4    18 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht10ICallbacksE
+   687: 46797385    30 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties11SetBufferIdEPVj
+   688: 467ab065    76 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebugC2Ev
+   689: 467a4df5   608 FUNC    GLOBAL DEFAULT   11 _ZN2ht20TCDbusClientProvider3GetEb
+   690: 467a2d7d   796 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbusC1Eb
+   691: 467c7314    28 OBJECT  GLOBAL DEFAULT   19 _ZTTN2ht12TCDbusClientE
+   692: 467c2d90     4 OBJECT  GLOBAL DEFAULT   13 _ZN2ht16TSCompressedItem16fixedPayloadSizeE
+   693: 467c21ec    48 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt13__future_base13_State_baseV27_SetterIbObEE
+   694: 467c1a70    14 OBJECT  GLOBAL DEFAULT   13 _ZTSFiP8_IO_FILEE
+   695: 467ad7f1  1632 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem10GetDirSizeERKN5boost10filesystem4pathE
+   696: 467c7fdc     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_PvENS0_5list4INS_3argILi1EEENSE_ILi2EEENSE_ILi3EEENS0_5valueISA_EEEEEE
+   697: 467973a9     4 FUNC    GLOBAL DEFAULT   11 _ZNK2ht18TSBufferProperties11GetBufferIdEv
+   698: 467b6a4d   132 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemoryD2Ev
+   699: 467a03ad    56 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbObEEE10_M_managerERSt9_Any_dataRKSB_St18_Manager_operation
+   700: 467c189c    85 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive23basic_binary_oprimitiveINS0_15binary_oarchiveEcSt11char_traitsIcEEE
+   701: 4679b311     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils16GetSystemInfoKeyE17system_info_key_eRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   702: 467c1e90    32 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost21thread_resource_errorE
+   703: 467a5a19   364 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer11SetCallbackEiRKN5boost8functionIFbRKSt6vectorIhSaIhEERS5_EEE
+   704: 4679cd79   344 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxyC1Ev
+   705: 46795aed    88 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy19ResetFinalizeTrapCbEv
+   706: 467c98c0     1 OBJECT  GLOBAL DEFAULT   23 _ZN2ht14TCControlProxy11m_destroyedE
+   707: 467c76f0     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive23basic_binary_oprimitiveINS0_15binary_oarchiveEcSt11char_traitsIcEEE
+   708: 467c2750   108 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENS0_5list1INS_3argILi1EEEEEEE
+   709: 467c98ea     1 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization6detail17singleton_wrapperINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS6_EEEEE16get_is_destroyedEvE17is_destroyed_flag
+   710: 467a50e9   424 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient11m_SendHelloEv
+   711: 467c2c54    52 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail8CtorArgNIjLb0EJiEEE
+   712: 467988b5  1052 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCHtCachingUtils20GetVconfCachedStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS6_
+   713: 467a0371    60 FUNC    GLOBAL DEFAULT   11 _ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIMNSt13__future_base13_State_baseV2EFvPSt8functionIFSt10unique_ptrINS3_12_Result_baseENS7_8_DeleterEEvEEPbEJPS4_SC_SD_EEvRS_OT_DpOT0_EUlvE_EERSI_ENUlvE_4_FUNEv
+   714: 467c9b9c     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht14TCSharedMemory8m_pMutexE
+   715: 467a3919   552 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer14TSAsyncMessageC1EPS0_P11_GDBusProxy
+   716: 4679adf1   224 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy7DestroyEv
+   717: 467a8a31   968 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy9IsEnabledERb
+   718: 467a1f6d   116 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer13UnSetCallbackEi
+   719: 467c9d68     4 OBJECT  GLOBAL DEFAULT   23 _ZN5boost13serialization9singletonINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS5_EEEEE10m_instanceE
+   720: 467a8df9   968 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy12IsDumpExistsERb
+   721: 467b1669   988 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TSDumpMetaFile5StoreERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   722: 467a3b41   332 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer14TSAsyncMessageD2Ev
+   723: 467c260c    20 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht12TCDbusClientE
+   724: 467c98eb     1 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization6detail17singleton_wrapperINS_7archive6detail11oserializerINS3_15binary_oarchiveESt6vectorIN2ht20TSProcessInformationESaIS9_EEEEE16get_is_destroyedEvE17is_destroyed_flag
+   725: 467c989c    24 OBJECT  GLOBAL DEFAULT   22 _ZN2ht13TCDeactivator7m_mutexE
+   726: 467ab4fd  2100 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDirsManager10InitializeENS_7EHtModeE
+   727: 467c8050    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess14lock_exceptionE
+   728: 467a5b85    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N2ht12TCDbusServer11SetCallbackEiRKN5boost8functionIFbRKSt6vectorIhSaIhEERS5_EEE
+   729: 467a7d55   928 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy27GetCurrentPolicyInformationERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   730: 46797375     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties12SetDestroyedEb
+   731: 467c29c8    53 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail18in_place_interfaceE
+   732: 467a4039   160 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServerD2Ev
+   733: 467a041d    32 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function26void_function_obj_invoker3INS_3_bi6bind_tIvNS_4_mfi3mf3IvN2ht12TCDbusServerEPKcP9_GVariantP22_GDBusMethodInvocationEENS3_5list4INS3_5valueIPS8_EENS_3argILi1EEENSK_ILi2EEENSK_ILi3EEEEEEEvSA_SC_SE_E6invokeERNS1_15function_bufferESA_SC_SE_
+   734: 467a3e59   480 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbusD2Ev
+   735: 467c26bc    76 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS_16exception_detail15error_info_baseEEE
+   736: 467a4b41     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusClientD0Ev
+   737: 467c9934     1 OBJECT  GLOBAL DEFAULT   23 _ZN2ht21TCControlPrivateProxy11m_destroyedE
+   738: 467c77fc    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht16TCCallbacksProxyE
+   739: 467973bd    12 FUNC    GLOBAL DEFAULT   11 _ZNK2ht18TSBufferProperties12IsPersistentEv
+   740: 467b92b1  5480 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemoryC2Ev
+   741: 467a0801    32 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbRKbEEE9_M_invokeERKSt9_Any_data
+   742: 4679c539   204 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxyD2Ev
+   743: 467c1f14    26 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost15condition_errorE
+   744: 467c2114   163 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIvNS_4_mfi3mf3IvN2ht12TCDbusServerEPKcP9_GVariantP22_GDBusMethodInvocationEENS0_5list4INS0_5valueIPS5_EENS_3argILi1EEENSH_ILi2EEENSH_ILi3EEEEEEE
+   745: 4679ca41    96 FUNC    GLOBAL DEFAULT   11 _ZN2ht10apiPrivate12GetCallbacksEv
+   746: 467b02e1   276 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile19m_ExtractFromBufferEPPhRjRb
+   747: 467c20c0    54 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail25error_info_container_implE
+   748: 467a5a11     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusServer15NumberOfClientsEv
+   749: 467afc19   268 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile19m_ExtractFromBufferEPPhRjRi
+   750: 4679c459   204 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxyD1Ev
+   751: 467a3905    20 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer8TSClientC1Ev
+   752: 467c9c00    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDirsManager15m_policyXmlPathB5cxx11E
+   753: 467c7de8    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10bad_alloc_E
+   754: 467c9bb8    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDirsManager16m_policyTestPathB5cxx11E
+   755: 467c9ad0    40 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost6system15system_categoryEvE8instance
+   756: 467a7555   172 FUNC    GLOBAL DEFAULT   11 _ZNK2ht6TCDbus14t_ConvertBytesEP9_GVariantRbRSt6vectorIhSaIhEE
+   757: 467c1fdc    46 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6system6detail21system_error_categoryE
+   758: 467b1d6d   392 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFile16m_GetTrapVersionERKNS_8TSPolicyERKNS_13TSProcessInfoE
+   759: 467a6621   158 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServerC2Eb
+   760: 467a3c8d   100 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer14m_NameAcquiredEP16_GDBusConnectionPKc
+   761: 467a2a71   780 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbusC2Eb
+   762: 467c98c4     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht14TCControlProxy11m_pInstanceE
+   763: 467b6cd5  1224 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory14m_RemoveBufferEPNS_8TSBufferE
+   764: 467c9b8c     8 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost16exception_detail27get_static_exception_objectINS0_10bad_alloc_EEENS_13exception_ptrEvE2ep
+   765: 4679a6dd   476 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils14IsProcessAliveERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   766: 467a2641   316 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus7IsReadyEv
+   767: 467c9b58     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost6system16generic_categoryEvE8instance
+   768: 467c7da8     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht5IDbusE
+   769: 467c16a0   131 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization6detail17singleton_wrapperINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS6_EEEEEE
+   770: 467a7299   700 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus15m_HandleMessageEPKcP9_GVariantP22_GDBusMethodInvocation
+   771: 467b6ad9     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory18GetPersistentMaxIdEv
+   772: 467973cd     6 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties9setOffsetEv
+   773: 467973ad     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties14SetSecondaryIdEs
+   774: 467c7638    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht14TCControlProxyE
+   775: 467aafe9   124 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivatorD1Ev
+   776: 467ae5f9   316 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem10RemoveFileEN5boost10filesystem4pathE
+   777: 4679cd79   344 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxyC2Ev
+   778: 467c9d60     4 OBJECT  GLOBAL DEFAULT   23 _ZN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveEN2ht20TSProcessInformationEEEE10m_instanceE
+   779: 467c1af4    77 OBJECT  GLOBAL DEFAULT   13 _ZTSSt19_Sp_counted_deleterIP8_IO_FILEPFiS1_ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   780: 4679caa1   344 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxyC1Ev
+   781: 467c2668    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10bad_alloc_E
+   782: 467c990c     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost13serialization9singletonINS_7archive6detail11oserializerINS2_15binary_oarchiveEN2ht20TSProcessInformationEEEE12get_instanceEvE1t
+   783: 467c7d70    24 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht11IDbusClientE
+   784: 467aeee9   944 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem15GetFileContentsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEE
+   785: 467c9be8    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht13TCDirsManager15m_dumpReadyPathB5cxx11E
+   786: 467c9938     4 OBJECT  GLOBAL DEFAULT   23 _ZN2ht21TCControlPrivateProxy11m_pInstanceE
+   787: 467c1c28    28 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost17bad_function_callE
+   788: 467af299   100 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem10FileExistsEN5boost10filesystem4pathE
+   789: 467af719   472 FUNC    GLOBAL DEFAULT   11 _ZN2ht22TCIpcSerializationUtil11ConvertDataERNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEERSt6vectorIhSaIhEE
+   790: 467a5b95  1468 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer11SendMessageEiRKSt6vectorIhSaIhEEi
+   791: 467c200c    47 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6system6detail22interop_error_categoryE
+   792: 4679e931   884 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy12SaveTrapDumpERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   793: 467b8ad1   396 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory11StoreBufferEPNS_8TSBufferE
+   794: 467c1c44    64 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive21basic_binary_iarchiveINS0_15binary_iarchiveEEE
+   795: 467a5291   432 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient11SetCallbackEiRKN5boost8functionIFbRKSt6vectorIhSaIhEERS5_EEE
+   796: 467973d5     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties13setTempOffsetEj
+   797: 467c99b8     8 OBJECT  GLOBAL DEFAULT   23 _ZN2ht7TCDebug10m_instanceE
+   798: 467c7a7c     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost18thread_interruptedE
+   799: 467a4b05     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusClientD1Ev
+   800: 467a680d  1224 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer20m_HandleHelloMessageEPKcP9_GVariantP22_GDBusMethodInvocation
+   801: 467c13d0   135 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost13serialization6detail17singleton_wrapperINS_7archive6detail11oserializerINS3_15binary_oarchiveEN2ht20TSProcessInformationEEEEE
+   802: 467c7684    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive6detail11oserializerINS0_15binary_oarchiveEN2ht20TSProcessInformationEEE
+   803: 467c1a80    15 OBJECT  GLOBAL DEFAULT   13 _ZTSPFiP8_IO_FILEE
+   804: 467aaa4d    56 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivator14UnregisterUserERNS_17TIDestroyCallbackE
+   805: 467c7f70     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3IvPKcP9_GVariantP22_GDBusMethodInvocationE9assign_toINS_3_bi6bind_tIvNS_4_mfi3mf3IvN2ht6TCDbusES2_S4_S6_EENS9_5list4INS9_5valueIPSE_EENS_3argILi1EEENSK_ILi2EEENSK_ILi3EEEEEEEEEvT_E13stored_vtable
+   806: 467a97b5  1396 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer20m_AsyncReadyCallbackEP8_GObjectP13_GAsyncResultPNS0_14TSAsyncMessageE
+   807: 467958c1    10 FUNC    GLOBAL DEFAULT   11 _ZNK5boost12shared_mutex10state_data9no_sharedEv
+   808: 467aaa85    20 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivatorC1Ev
+   809: 467c2b28    55 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail17placement_destroyIiEE
+   810: 4679c459   204 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxyD2Ev
+   811: 467a7941     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusClient11SendMessageEiRKSt6vectorIhSaIhEERS3_b
+   812: 467a3905    20 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer8TSClientC2Ev
+   813: 467c9964    32 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCCallbacksProxy8m_rwlockE
+   814: 467c1308    58 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pIN2ht14TCControlProxyEEE
+   815: 467c80b0     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess9ipcdetail18in_place_interfaceE
+   816: 467973b1     6 FUNC    GLOBAL DEFAULT   11 _ZNK2ht18TSBufferProperties14GetSecondaryIdEv
+   817: 467a5441    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N2ht12TCDbusClient11SetCallbackEiRKN5boost8functionIFbRKSt6vectorIhSaIhEERS5_EEE
+   818: 467ac1bd   388 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDirsManager18GetRSDumpReadyPathB5cxx11Ev
+   819: 467b6ad1     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory16GetMemorySegmentEv
+   820: 467c2c88    52 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail8CtorArgNIiLb0EJiEEE
+   821: 467c7664    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost13serialization25extended_type_info_typeidIN2ht20TSProcessInformationEEE
+   822: 467c9d5c     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost13serialization9singletonINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEE10m_instanceE
+   823: 467c7ec0   104 OBJECT  GLOBAL DEFAULT   19 _ZTVN2ht12TCDbusClientE
+   824: 467a02bd     8 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker1INS_3_bi6bind_tIbPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENS3_5list1INS_3argILi1EEEEEEEbSC_E6invokeERNS1_15function_bufferESC_
+   825: 4679bfdd   208 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils16GetHtModeFactoryEv
+   826: 467a46c1   752 FUNC    GLOBAL DEFAULT   11 _ZN2ht6TCDbus18m_HandleMethodCallEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantP22_GDBusMethodInvocationPv
+   827: 467c7a54    40 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10wrapexceptINS_10lock_errorEEE
+   828: 467c797c    16 OBJECT  GLOBAL DEFAULT   19 _ZTIPFiP8_IO_FILEE
+   829: 467c72f0     8 OBJECT  GLOBAL DEFAULT   19 _ZTTN2ht6TCDbusE
+   830: 467a6d81   292 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy14SetDumpReadyCbEPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_PvES9_
+   831: 467abeb5   388 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDirsManager13GetPolicyPathB5cxx11Ev
+   832: 467c7d50    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN2ht12TCDbusServerE
+   833: 467958cd    22 FUNC    GLOBAL DEFAULT   11 _ZNK5boost12shared_mutex10state_data16can_lock_upgradeEv
+   834: 467a43d9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N2ht6TCDbusD0Ev
+   835: 467c7808     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive6detail18interface_iarchiveINS0_15binary_iarchiveEEE
+   836: 4679e58d   932 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy10SimultDumpENS_20TSProcessGroupPolicy16EDumpBinaryEventE
+   837: 4679cbf9   288 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxy8InstanceEv
+   838: 467c7794    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost17bad_function_callE
+   839: 467c221c   114 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail11thread_dataINS_3_bi6bind_tIvNS_4_mfi3mf0IvN2ht12TCDbusServerEEENS2_5list1INS2_5valueIPS7_EEEEEEEE
+   840: 467c9b78     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost16exception_detail37exception_ptr_static_exception_objectINS0_10bad_alloc_EE1eE
+   841: 467a6f6d   348 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy19SetUploadStateXMLCbEPFbRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE
+   842: 467aafe9   124 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivatorD2Ev
+   843: 467c7e38     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt13__future_base13_State_baseV27_SetterIbRKbEE
+   844: 467ad4c5   812 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem10GetDirListERKN5boost10filesystem4pathE
+   845: 467c29a4    33 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9bad_allocE
+   846: 4679caa1   344 FUNC    GLOBAL DEFAULT   11 _ZN2ht21TCControlPrivateProxyC2Ev
+   847: 467c7850    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost15condition_errorE
+   848: 467b0861   276 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile12m_FillBufferEPPhRji
+   849: 4679a8b9   188 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils13CheckRealpathEPKc
+   850: 467b074d   276 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile12m_FillBufferEPPhRjj
+   851: 467c9d58     4 OBJECT  GLOBAL DEFAULT   23 _ZN5boost13serialization9singletonINS0_25extended_type_info_typeidIN2ht20TSProcessInformationEEEE10m_instanceE
+   852: 467c1e68    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10wrapexceptINS_10lock_errorEEE
+   853: 467c9b7c     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost16exception_detail27get_static_exception_objectINS0_14bad_exception_EEENS_13exception_ptrEvE2ep
+   854: 467b03f5   856 FUNC    GLOBAL DEFAULT   11 _ZN2ht19TCProcessPolicyFile11SetContentsEPhj
+   855: 4679aca1   336 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy7DestroyEv
+   856: 467b89fd   180 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory16m_CheckFreeSpaceEj
+   857: 467a41b9     6 FUNC    GLOBAL DEFAULT   11 _ZThn876_N2ht12TCDbusServerD0Ev
+   858: 467c1c84    85 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost7archive23basic_binary_iprimitiveINS0_15binary_iarchiveEcSt11char_traitsIcEEE
+   859: 467973dd     4 FUNC    GLOBAL DEFAULT   11 _ZN2ht18TSBufferProperties19setCurThrBufferSizeEj
+   860: 467a5795   156 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient14m_NameAppearedEP16_GDBusConnectionPKcS4_Pv
+   861: 46795a95    88 FUNC    GLOBAL DEFAULT   11 _ZN2ht16TCCallbacksProxy21ResetUploadStateXMLCbEv
+   862: 467c77ac     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive23basic_binary_iprimitiveINS0_15binary_iarchiveEcSt11char_traitsIcEEE
+   863: 467c9910    16 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost13serialization9singletonINS0_25extended_type_info_typeidISt6vectorIN2ht20TSProcessInformationESaIS5_EEEEE12get_instanceEvE1t
+   864: 467c7e48     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3IvPKcP9_GVariantP22_GDBusMethodInvocationE9assign_toINS_3_bi6bind_tIvNS_4_mfi3mf3IvN2ht12TCDbusServerES2_S4_S6_EENS9_5list4INS9_5valueIPSE_EENS_3argILi1EEENSK_ILi2EEENSK_ILi3EEEEEEEEEvT_E13stored_vtable
+   865: 467c988c     4 OBJECT  GLOBAL DEFAULT   22 _ZN2ht6TCDbus17t_dbusHelloMethodE
+   866: 467c79ec    64 OBJECT  GLOBAL DEFAULT   19 _ZTVN2ht16TCCallbacksProxyE
+   867: 467c80b8    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12interprocess9ipcdetail17placement_destroyINS_9container6vectorINS0_10offset_ptrIN2ht8TSBufferEijLj0EEENS0_9allocatorIS8_NS0_15segment_managerIcNS0_15rbtree_best_fitINS0_12mutex_familyENS5_IvijLj0EEELj0EEENS0_10iset_indexEEEEEvEEEE
+   868: 467aabe5   184 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivator12RegisterUserERNS_17TIDestroyCallbackE
+   869: 467c9b00    40 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost6system6detail16interop_categoryEvE8instance
+   870: 467b0d85   276 FUNC    GLOBAL DEFAULT   11 _ZNK2ht19TCProcessPolicyFile12m_FillBufferEPPhRjRb
+   871: 467c19b0    23 OBJECT  GLOBAL DEFAULT   13 _ZTSN2ht15IControlPrivateE
+   872: 4679aad5   148 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils14IsSymbolicLinkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   873: 467a3919   552 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusServer14TSAsyncMessageC2EPS0_P11_GDBusProxy
+   874: 467c7950    44 OBJECT  GLOBAL DEFAULT   19 _ZTVN2ht21TCControlPrivateProxyE
+   875: 467aaa85    20 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivatorC2Ev
+   876: 467c2af0    55 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12interprocess9ipcdetail17placement_destroyIjEE
+   877: 467a38a1   100 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient14m_NameVanishedEP16_GDBusConnectionPKc
+   878: 467a80f5  1444 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy9SetPolicyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   879: 467c776c     8 OBJECT  GLOBAL DEFAULT   19 _ZTIFiP8_IO_FILEE
+   880: 467c182c    46 OBJECT  GLOBAL DEFAULT   13 _ZTSSt6vectorIN2ht20TSProcessInformationESaIS1_EE
+   881: 467b6add   504 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCSharedMemory20SetDisableHtCallbackEN5boost8functionIFvvEEE
+   882: 467c783c    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16thread_exceptionE
+   883: 467ac945  1780 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TSFileSystem18GenerateUniqueNameERKN5boost10filesystem4pathES5_RS3_
+   884: 467c77b4    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost7archive20binary_iarchive_implINS0_15binary_iarchiveEcSt11char_traitsIcEEE
+   885: 467a5055   148 FUNC    GLOBAL DEFAULT   11 _ZN2ht12TCDbusClient14m_NameVanishedEP16_GDBusConnectionPKcPv
+   886: 467958ed    44 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker2INS_3_bi6bind_tIbNS_4_mfi3mf3IbN2ht16TCCallbacksProxyEiRKSt6vectorIhSaIhEERSB_EENS3_5list4INS3_5valueIPS8_EENSH_INS7_10ICallbacks13ECallbackTypeEEENS_3argILi1EEENSN_ILi2EEEEEEEbSD_SE_E6invokeERNS1_15function_bufferESD_SE_
+   887: 467c2cbc   204 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost9container6vectorINS_12interprocess10offset_ptrIN2ht8TSBufferEijLj0EEENS2_9allocatorIS6_NS2_15segment_managerIcNS2_15rbtree_best_fitINS2_12mutex_familyENS3_IvijLj0EEELj0EEENS2_10iset_indexEEEEEvEE
+   888: 467c98c8    32 OBJECT  GLOBAL DEFAULT   23 _ZN2ht14TCControlProxy8m_rwlockE
+   889: 467ab291   620 FUNC    GLOBAL DEFAULT   11 _ZN2ht7TCDebug11print_traceEv
+   890: 4679a51d    96 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCCommonUtils13ReplaceStringERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS6_S9_
+   891: 467aaec5   292 FUNC    GLOBAL DEFAULT   11 _ZN2ht13TCDeactivator12m_DeactivateEv
+   892: 467a43b5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N2ht6TCDbusD1Ev
+   893: 4679fb05  1952 FUNC    GLOBAL DEFAULT   11 _ZN2ht14TCControlProxy8SaveDumpERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bbS8_
+   894: 467c99c0    24 OBJECT  GLOBAL DEFAULT   23 _ZN2ht16TCHtCachingUtils20m_systemInfoStrCacheB5cxx11E
+
+STDERR:

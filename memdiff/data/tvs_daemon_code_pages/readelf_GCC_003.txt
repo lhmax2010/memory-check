@@ -1,0 +1,457 @@
+### sections rc=0
+There are 27 section headers, starting at offset 0x446a4:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            467cc114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        467cc138 000138 001194 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          467cd2cc 0012cc 001770 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          467cea3c 002a3c 001af9 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          467d0536 004536 0002ee 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         467d0824 004824 000050 00   A  4   2  4
+  [ 7] .rel.dyn          REL             467d0874 004874 000048 08   A  3   0  4
+  [ 8] .rel.plt          REL             467d08bc 0048bc 000050 08  AI  3  19  4
+  [ 9] .init             PROGBITS        467d090c 00490c 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        467d0918 004918 00008c 04  AX  0   0  4
+  [11] .text             PROGBITS        467d09a4 0049a4 038de8 00  AX  0   0  4
+  [12] .fini             PROGBITS        4680978c 03d78c 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        46809794 03d794 004b6b 00   A  0   0  4
+  [14] .ARM.exidx        ARM_EXIDX       4680e300 042300 000010 00  AL 11   0  4
+  [15] .eh_frame         PROGBITS        4680e310 042310 000004 00   A  0   0  4
+  [16] .init_array       INIT_ARRAY      4680f000 043000 000008 04  WA  0   0  4
+  [17] .fini_array       FINI_ARRAY      4680f008 043008 000004 04  WA  0   0  4
+  [18] .dynamic          DYNAMIC         4680f00c 04300c 0000f8 08  WA  4   0  4
+  [19] .got              PROGBITS        46810000 044000 000048 04  WA  0   0  4
+  [20] .data             PROGBITS        46810048 044048 000004 00  WA  0   0  4
+  [21] .bss              NOBITS          4681004c 04404c 0005b0 00  WA  0   0  4
+  [22] .comment          PROGBITS        00000000 04404c 00002c 01  MS  0   0  1
+  [23] .gnu.liblist      GNU_LIBLIST     00000000 044078 000050 14     24   0  4
+  [24] .gnu.libstr       STRTAB          00000000 0440c8 000034 00      0   0  1
+  [25] .gnu.prelink_undo PROGBITS        00000000 0440fc 0004ac 01      0   0  4
+  [26] .shstrtab         STRTAB          00000000 0445a8 0000fa 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x467cc000
+There are 7 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x042300 0x4680e300 0x4680e300 0x00010 0x00010 R   0x4
+  LOAD           0x000000 0x467cc000 0x467cc000 0x42314 0x42314 R E 0x1000
+  LOAD           0x043000 0x4680f000 0x4680f000 0x0104c 0x015fc RW  0x1000
+  DYNAMIC        0x04300c 0x4680f00c 0x4680f00c 0x000f8 0x000f8 RW  0x4
+  NOTE           0x000114 0x467cc114 0x467cc114 0x00024 0x00024 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x043000 0x4680f000 0x4680f000 0x01000 0x01000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     
+   06     .init_array .fini_array .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.3) 14.2.0
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 375 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 467d090c     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 46810048     0 SECTION LOCAL  DEFAULT   20 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND dlerror@GLIBC_2.34 (2)
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (3)
+     5: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND getenv@GLIBC_2.4 (4)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dlog_print
+     8: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+     9: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@GLIBC_2.4 (4)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND dlopen@GLIBC_2.34 (2)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND __fprintf_chk@GLIBC_2.4 (4)
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@GLIBC_2.4 (4)
+    14: 00000000     0 OBJECT  GLOBAL DEFAULT  UND stderr@GLIBC_2.4 (4)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND dlsym@GLIBC_2.34 (2)
+    16: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (4)
+    17: 468090f5    24 FUNC    GLOBAL DEFAULT   11 glGetObjectPtrLabel
+    18: 46808c1d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform3iv
+    19: 468083c5    16 FUNC    GLOBAL DEFAULT   11 glGetQueryObjectuiv
+    20: 468082ad    24 FUNC    GLOBAL DEFAULT   11 glVertexAttribPointer
+    21: 46808b25    16 FUNC    GLOBAL DEFAULT   11 glDispatchComputeIndirect
+    22: 46809635    16 FUNC    GLOBAL DEFAULT   11 glGetPointerv
+    23: 46808ebd    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix2x4fv
+    24: 46808d75    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform3f
+    25: 46808d1d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform3i
+    26: 46808cdd    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix4fv
+    27: 46807ea9    20 FUNC    GLOBAL DEFAULT   11 glGetAttachedShaders
+    28: 4680912d    16 FUNC    GLOBAL DEFAULT   11 glBlendEquationi
+    29: 468094c5    24 FUNC    GLOBAL DEFAULT   11 glCompressedTexSubImage2D
+    30: 46809191    16 FUNC    GLOBAL DEFAULT   11 glIsEnabledi
+    31: 468084f5    16 FUNC    GLOBAL DEFAULT   11 glFlushMappedBufferRange
+    32: 468085cd    24 FUNC    GLOBAL DEFAULT   11 glVertexAttribIPointer
+    33: 4680936d    16 FUNC    GLOBAL DEFAULT   11 glActiveTexture
+    34: 4680811d    16 FUNC    GLOBAL DEFAULT   11 glUniform3fv
+    35: 46807d41    12 FUNC    GLOBAL DEFAULT   11 glBindRenderbuffer
+    36: 46807d4d    20 FUNC    GLOBAL DEFAULT   11 glBlendColor
+    37: 46809405    16 FUNC    GLOBAL DEFAULT   11 glTexParameterfv
+    38: 46808a0d    16 FUNC    GLOBAL DEFAULT   11 glProgramParameteri
+    39: 46807e69    12 FUNC    GLOBAL DEFAULT   11 glGenFramebuffers
+    40: 46809271    24 FUNC    GLOBAL DEFAULT   11 glGetnUniformuiv
+    41: 46808715    16 FUNC    GLOBAL DEFAULT   11 glClearBufferuiv
+    42: 468080b5    16 FUNC    GLOBAL DEFAULT   11 glUniform1iv
+    43: 468095b5    16 FUNC    GLOBAL DEFAULT   11 glFlush
+    44: 46808d8d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform4f
+    45: 4680886d    24 FUNC    GLOBAL DEFAULT   11 glWaitSync
+    46: 468086e5    16 FUNC    GLOBAL DEFAULT   11 glUniform3uiv
+    47: 46808d35    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform4i
+    48: 46808465    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix3x4fv
+    49: 4680834d    24 FUNC    GLOBAL DEFAULT   11 glCompressedTexSubImage3D
+    50: 46807e95    20 FUNC    GLOBAL DEFAULT   11 glGetActiveUniform
+    51: 468087b5    24 FUNC    GLOBAL DEFAULT   11 glGetActiveUniformBlockiv
+    52: 4680904d    24 FUNC    GLOBAL DEFAULT   11 glDebugMessageInsert
+    53: 46808ed5    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix4x2fv
+    54: 46808de5    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform4ui
+    55: 468088bd    16 FUNC    GLOBAL DEFAULT   11 glGetBufferParameteri64v
+    56: 4680847d    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix4x3fv
+    57: 4680911d    16 FUNC    GLOBAL DEFAULT   11 glDisablei
+    58: 468089dd    24 FUNC    GLOBAL DEFAULT   11 glGetProgramBinary
+    59: 46808fa1    24 FUNC    GLOBAL DEFAULT   11 glBindVertexBuffer
+    60: 46808385    16 FUNC    GLOBAL DEFAULT   11 glIsQuery
+    61: 4680937d    24 FUNC    GLOBAL DEFAULT   11 glClearColor
+    62: 468092a9    16 FUNC    GLOBAL DEFAULT   11 glTexParameterIiv
+    63: 4680945d    24 FUNC    GLOBAL DEFAULT   11 glBufferSubData
+    64: 46808e15    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform2uiv
+    65: 46809075    24 FUNC    GLOBAL DEFAULT   11 glGetDebugMessageLog
+    66: 46808fe9    16 FUNC    GLOBAL DEFAULT   11 glVertexAttribBinding
+    67: 46809299    16 FUNC    GLOBAL DEFAULT   11 glPatchParameteri
+    68: 468083a5    16 FUNC    GLOBAL DEFAULT   11 glEndQuery
+    69: 468095e5    16 FUNC    GLOBAL DEFAULT   11 glGetBufferParameteriv
+    70: 46808375    16 FUNC    GLOBAL DEFAULT   11 glDeleteQueries
+    71: 468088fd    16 FUNC    GLOBAL DEFAULT   11 glBindSampler
+    72: 46807f25    24 FUNC    GLOBAL DEFAULT   11 glGetShaderInfoLog
+    73: 46809485    16 FUNC    GLOBAL DEFAULT   11 glClearStencil
+    74: 46808685    16 FUNC    GLOBAL DEFAULT   11 glUniform2ui
+    75: 468084c5    24 FUNC    GLOBAL DEFAULT   11 glFramebufferTextureLayer
+    76: 46809175    28 FUNC    GLOBAL DEFAULT   11 glColorMaski
+    77: 46808145    16 FUNC    GLOBAL DEFAULT   11 glUniform3iv
+    78: 4680895d    16 FUNC    GLOBAL DEFAULT   11 glGetSamplerParameterfv
+    79: 46808b65    16 FUNC    GLOBAL DEFAULT   11 glGetFramebufferParameteriv
+    80: 468083b5    16 FUNC    GLOBAL DEFAULT   11 glGetQueryiv
+    81: 4680974d    16 FUNC    GLOBAL DEFAULT   11 glTexParameteriv
+    82: 468082d5    24 FUNC    GLOBAL DEFAULT   11 glDrawRangeElements
+    83: 46807fcd    16 FUNC    GLOBAL DEFAULT   11 glIsShader
+    84: 46807d81    12 FUNC    GLOBAL DEFAULT   11 glBlendEquation
+    85: 468083e5    16 FUNC    GLOBAL DEFAULT   11 glGetBufferPointerv
+    86: 46808aed    16 FUNC    GLOBAL DEFAULT   11 glValidateProgramPipeline
+    87: 46809229    24 FUNC    GLOBAL DEFAULT   11 glReadnPixels
+    88: 4680957d    24 FUNC    GLOBAL DEFAULT   11 glDrawElements
+    89: 46808a75    24 FUNC    GLOBAL DEFAULT   11 glGetInternalformativ
+    90: 46807eed    24 FUNC    GLOBAL DEFAULT   11 glGetProgramInfoLog
+    91: 46808b75    24 FUNC    GLOBAL DEFAULT   11 glGetProgramInterfaceiv
+    92: 46807fad    16 FUNC    GLOBAL DEFAULT   11 glIsProgram
+    93: 46808bb5    24 FUNC    GLOBAL DEFAULT   11 glGetProgramResourceiv
+    94: 46808f25    16 FUNC    GLOBAL DEFAULT   11 glMemoryBarrierByRegion
+    95: 46807ec9    20 FUNC    GLOBAL DEFAULT   11 glGetFramebufferAttachmentParameteriv
+    96: 468086c5    16 FUNC    GLOBAL DEFAULT   11 glUniform1uiv
+    97: 46808b8d    16 FUNC    GLOBAL DEFAULT   11 glGetProgramResourceIndex
+    98: 468081fd    16 FUNC    GLOBAL DEFAULT   11 glUseProgram
+    99: 4680915d    24 FUNC    GLOBAL DEFAULT   11 glBlendFuncSeparatei
+   100: 46809319    16 FUNC    GLOBAL DEFAULT   11 glGetSamplerParameterIuiv
+   101: 468093e5    16 FUNC    GLOBAL DEFAULT   11 glPolygonOffset
+   102: 4680874d    16 FUNC    GLOBAL DEFAULT   11 glGetStringi
+   103: 468091b9    24 FUNC    GLOBAL DEFAULT   11 glDrawRangeElementsBaseVertex
+   104: 468086ad    24 FUNC    GLOBAL DEFAULT   11 glUniform4ui
+   105: 4680950d    16 FUNC    GLOBAL DEFAULT   11 glCullFace
+   106: 468092c9    16 FUNC    GLOBAL DEFAULT   11 glGetTexParameterIiv
+   107: 468091e9    24 FUNC    GLOBAL DEFAULT   11 glFramebufferTexture
+   108: 46808655    16 FUNC    GLOBAL DEFAULT   11 glGetUniformuiv
+   109: 468083f5    16 FUNC    GLOBAL DEFAULT   11 glDrawBuffers
+   110: 4680861d    24 FUNC    GLOBAL DEFAULT   11 glVertexAttribI4ui
+   111: 46808c65    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform2fv
+   112: 46808add    16 FUNC    GLOBAL DEFAULT   11 glIsProgramPipeline
+   113: 4680880d    24 FUNC    GLOBAL DEFAULT   11 glDrawElementsInstanced
+   114: 46808b55    16 FUNC    GLOBAL DEFAULT   11 glFramebufferParameteri
+   115: 468090b5    24 FUNC    GLOBAL DEFAULT   11 glObjectLabel
+   116: 46807d99    12 FUNC    GLOBAL DEFAULT   11 glCompileShader
+   117: 46807d6d    20 FUNC    GLOBAL DEFAULT   11 glBlendFuncSeparate
+   118: 46809415    16 FUNC    GLOBAL DEFAULT   11 glBindBuffer
+   119: 4680824d    16 FUNC    GLOBAL DEFAULT   11 glVertexAttrib2fv
+   120: 468092f9    16 FUNC    GLOBAL DEFAULT   11 glSamplerParameterIuiv
+   121: 468093c5    16 FUNC    GLOBAL DEFAULT   11 glGetTexParameterfv
+   122: 46807e05    12 FUNC    GLOBAL DEFAULT   11 glEnableVertexAttribArray
+   123: 468096b5    24 FUNC    GLOBAL DEFAULT   11 glReadPixels
+   124: 46808a2d    24 FUNC    GLOBAL DEFAULT   11 glInvalidateSubFramebuffer
+   125: 4680894d    16 FUNC    GLOBAL DEFAULT   11 glGetSamplerParameteriv
+   126: 4680893d    16 FUNC    GLOBAL DEFAULT   11 glSamplerParameterfv
+   127: 46809219    16 FUNC    GLOBAL DEFAULT   11 glGetGraphicsResetStatus
+   128: 46807dbd    12 FUNC    GLOBAL DEFAULT   11 glDeleteFramebuffers
+   129: 46808885    16 FUNC    GLOBAL DEFAULT   11 glGetInteger64v
+   130: 4680859d    24 FUNC    GLOBAL DEFAULT   11 glTransformFeedbackVaryings
+   131: 46808ff9    16 FUNC    GLOBAL DEFAULT   11 glVertexBindingDivisor
+   132: 46807f15    16 FUNC    GLOBAL DEFAULT   11 glGetShaderiv
+   133: 46807d35    12 FUNC    GLOBAL DEFAULT   11 glBindFramebuffer
+   134: 468081a5    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix2fv
+   135: 468094dd    24 FUNC    GLOBAL DEFAULT   11 glCopyTexImage2D
+   136: 46807f55    24 FUNC    GLOBAL DEFAULT   11 glGetShaderSource
+   137: 46809329    16 FUNC    GLOBAL DEFAULT   11 glTexBuffer
+   138: 468093d5    16 FUNC    GLOBAL DEFAULT   11 glLineWidth
+   139: 4680910d    16 FUNC    GLOBAL DEFAULT   11 glEnablei
+   140: 46809435    16 FUNC    GLOBAL DEFAULT   11 glBlendFunc
+   141: 46809019    24 FUNC    GLOBAL DEFAULT   11 glCopyImageSubData
+   142: 46809289    16 FUNC    GLOBAL DEFAULT   11 glMinSampleShading
+   143: 46807df9    12 FUNC    GLOBAL DEFAULT   11 glDisableVertexAttribArray
+   144: 46808eed    24 FUNC    GLOBAL DEFAULT   11 glBindImageTexture
+   145: 468095f5    16 FUNC    GLOBAL DEFAULT   11 glGenBuffers
+   146: 46808535    16 FUNC    GLOBAL DEFAULT   11 glIsVertexArray
+   147: 46809425    16 FUNC    GLOBAL DEFAULT   11 glBindTexture
+   148: 46808a9d    16 FUNC    GLOBAL DEFAULT   11 glGenProgramPipelines
+   149: 46808fd1    24 FUNC    GLOBAL DEFAULT   11 glVertexAttribIFormat
+   150: 46807f8d    16 FUNC    GLOBAL DEFAULT   11 glGetUniformLocation
+   151: 468085b5    24 FUNC    GLOBAL DEFAULT   11 glGetTransformFeedbackVarying
+   152: 46808665    16 FUNC    GLOBAL DEFAULT   11 glGetFragDataLocation
+   153: 468089ad    16 FUNC    GLOBAL DEFAULT   11 glIsTransformFeedback
+   154: 46808c95    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform4fv
+   155: 4680829d    16 FUNC    GLOBAL DEFAULT   11 glVertexAttrib4fv
+   156: 46808da5    16 FUNC    GLOBAL DEFAULT   11 glProgramUniform1ui
+   157: 468085e5    16 FUNC    GLOBAL DEFAULT   11 glGetVertexAttribIiv
+   158: 46807fdd    16 FUNC    GLOBAL DEFAULT   11 glLinkProgram
+   159: 46808c05    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform2iv
+   160: 46809495    24 FUNC    GLOBAL DEFAULT   11 glColorMask
+   161: 468093a5    16 FUNC    GLOBAL DEFAULT   11 glDepthRangef
+   162: 46809665    16 FUNC    GLOBAL DEFAULT   11 glHint
+   163: 46807db1    12 FUNC    GLOBAL DEFAULT   11 glCreateShader
+   164: 46808b15    16 FUNC    GLOBAL DEFAULT   11 glDispatchCompute
+   165: 46809675    16 FUNC    GLOBAL DEFAULT   11 glIsBuffer
+   166: 468092d9    16 FUNC    GLOBAL DEFAULT   11 glGetTexParameterIuiv
+   167: 4680892d    16 FUNC    GLOBAL DEFAULT   11 glSamplerParameterf
+   168: 46809655    16 FUNC    GLOBAL DEFAULT   11 glGetTexParameteriv
+   169: 46808525    16 FUNC    GLOBAL DEFAULT   11 glGenVertexArrays
+   170: 4680890d    16 FUNC    GLOBAL DEFAULT   11 glSamplerParameteri
+   171: 468085f5    16 FUNC    GLOBAL DEFAULT   11 glGetVertexAttribIuiv
+   172: 46808e5d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix2x3fv
+   173: 46808b9d    24 FUNC    GLOBAL DEFAULT   11 glGetProgramResourceName
+   174: 46808f05    16 FUNC    GLOBAL DEFAULT   11 glGetBooleani_v
+   175: 46808cc5    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix3fv
+   176: 4680891d    16 FUNC    GLOBAL DEFAULT   11 glSamplerParameteriv
+   177: 468084ad    24 FUNC    GLOBAL DEFAULT   11 glRenderbufferStorageMultisample
+   178: 468081d5    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix4fv
+   179: 4680975d    24 FUNC    GLOBAL DEFAULT   11 glTexSubImage2D
+   180: 46808435    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix2x4fv
+   181: 468080d5    16 FUNC    GLOBAL DEFAULT   11 glUniform2fv
+   182: 468086f5    16 FUNC    GLOBAL DEFAULT   11 glUniform4uiv
+   183: 46807fbd    16 FUNC    GLOBAL DEFAULT   11 glIsRenderbuffer
+   184: 46808f61    16 FUNC    GLOBAL DEFAULT   11 glSampleMaski
+   185: 46807ded    12 FUNC    GLOBAL DEFAULT   11 glDetachShader
+   186: 468092e9    16 FUNC    GLOBAL DEFAULT   11 glSamplerParameterIiv
+   187: 46808e75    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix3x2fv
+   188: 46809339    24 FUNC    GLOBAL DEFAULT   11 glTexBufferRange
+   189: 46808835    16 FUNC    GLOBAL DEFAULT   11 glIsSync
+   190: 46807e51    12 FUNC    GLOBAL DEFAULT   11 glGetVertexAttribPointerv
+   191: 46809475    16 FUNC    GLOBAL DEFAULT   11 glClear
+   192: 46807d61    12 FUNC    GLOBAL DEFAULT   11 glBlendEquationSeparate
+   193: 46807e5d    12 FUNC    GLOBAL DEFAULT   11 glGenerateMipmap
+   194: 468089f5    24 FUNC    GLOBAL DEFAULT   11 glProgramBinary
+   195: 46808305    24 FUNC    GLOBAL DEFAULT   11 glTexSubImage3D
+   196: 468096a5    16 FUNC    GLOBAL DEFAULT   11 glPixelStorei
+   197: 46807dd5    12 FUNC    GLOBAL DEFAULT   11 glDeleteRenderbuffers
+   198: 468087e5    16 FUNC    GLOBAL DEFAULT   11 glUniformBlockBinding
+   199: 46809351    28 FUNC    GLOBAL DEFAULT   11 glTexStorage3DMultisample
+   200: 4680875d    24 FUNC    GLOBAL DEFAULT   11 glCopyBufferSubData
+   201: 46807f3d    24 FUNC    GLOBAL DEFAULT   11 glGetShaderPrecisionFormat
+   202: 46808dcd    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform3ui
+   203: 46808365    16 FUNC    GLOBAL DEFAULT   11 glGenQueries
+   204: 4680802d    24 FUNC    GLOBAL DEFAULT   11 glShaderSource
+   205: 46808c35    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform4iv
+   206: 46808f51    16 FUNC    GLOBAL DEFAULT   11 glGetMultisamplefv
+   207: 46808e2d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform3uiv
+   208: 4680844d    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix4x2fv
+   209: 46807ffd    24 FUNC    GLOBAL DEFAULT   11 glRenderbufferStorage
+   210: 4680956d    16 FUNC    GLOBAL DEFAULT   11 glDrawArrays
+   211: 4680820d    16 FUNC    GLOBAL DEFAULT   11 glValidateProgram
+   212: 468088ed    16 FUNC    GLOBAL DEFAULT   11 glIsSampler
+   213: 46807f05    16 FUNC    GLOBAL DEFAULT   11 glGetRenderbufferParameteriv
+   214: 46809395    16 FUNC    GLOBAL DEFAULT   11 glClearDepthf
+   215: 4680897d    16 FUNC    GLOBAL DEFAULT   11 glBindTransformFeedback
+   216: 468084dd    24 FUNC    GLOBAL DEFAULT   11 glMapBufferRange
+   217: 468083d5    16 FUNC    GLOBAL DEFAULT   11 glUnmapBuffer
+   218: 46808505    16 FUNC    GLOBAL DEFAULT   11 glBindVertexArray
+   219: 4680821d    16 FUNC    GLOBAL DEFAULT   11 glVertexAttrib1f
+   220: 4680816d    16 FUNC    GLOBAL DEFAULT   11 glUniform4fv
+   221: 46808abd    16 FUNC    GLOBAL DEFAULT   11 glGetProgramPipelineiv
+   222: 46808675    16 FUNC    GLOBAL DEFAULT   11 glUniform1ui
+   223: 46808ea5    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix3x4fv
+   224: 46809595    16 FUNC    GLOBAL DEFAULT   11 glEnable
+   225: 46809725    24 FUNC    GLOBAL DEFAULT   11 glTexImage2D
+   226: 468080f5    16 FUNC    GLOBAL DEFAULT   11 glUniform2iv
+   227: 46809625    16 FUNC    GLOBAL DEFAULT   11 glGetIntegerv
+   228: 4680823d    16 FUNC    GLOBAL DEFAULT   11 glVertexAttrib2f
+   229: 4680913d    16 FUNC    GLOBAL DEFAULT   11 glBlendEquationSeparatei
+   230: 46808a45    24 FUNC    GLOBAL DEFAULT   11 glTexStorage2D
+   231: 46808085    16 FUNC    GLOBAL DEFAULT   11 glUniform1f
+   232: 46809065    16 FUNC    GLOBAL DEFAULT   11 glDebugMessageCallback
+   233: 468080a5    16 FUNC    GLOBAL DEFAULT   11 glUniform1i
+   234: 468091d1    24 FUNC    GLOBAL DEFAULT   11 glDrawElementsInstancedBaseVertex
+   235: 46808e8d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix4x3fv
+   236: 4680951d    16 FUNC    GLOBAL DEFAULT   11 glDeleteBuffers
+   237: 468086d5    16 FUNC    GLOBAL DEFAULT   11 glUniform2uiv
+   238: 468092b9    16 FUNC    GLOBAL DEFAULT   11 glTexParameterIuiv
+   239: 468088ad    16 FUNC    GLOBAL DEFAULT   11 glGetInteger64i_v
+   240: 46809615    16 FUNC    GLOBAL DEFAULT   11 glGetError
+   241: 46808bcd    16 FUNC    GLOBAL DEFAULT   11 glGetProgramResourceLocation
+   242: 46808015    24 FUNC    GLOBAL DEFAULT   11 glShaderBinary
+   243: 46809685    16 FUNC    GLOBAL DEFAULT   11 glIsEnabled
+   244: 46809715    16 FUNC    GLOBAL DEFAULT   11 glStencilOp
+   245: 468082ed    24 FUNC    GLOBAL DEFAULT   11 glTexImage3D
+   246: 468082c5    16 FUNC    GLOBAL DEFAULT   11 glReadBuffer
+   247: 46809241    24 FUNC    GLOBAL DEFAULT   11 glGetnUniformfv
+   248: 46807f6d    16 FUNC    GLOBAL DEFAULT   11 glGetUniformfv
+   249: 46808895    24 FUNC    GLOBAL DEFAULT   11 glGetSynciv
+   250: 46808f89    24 FUNC    GLOBAL DEFAULT   11 glGetTexLevelParameterfv
+   251: 468081ed    16 FUNC    GLOBAL DEFAULT   11 glActiveShaderProgram
+   252: 4680825d    24 FUNC    GLOBAL DEFAULT   11 glVertexAttrib3f
+   253: 46808a8d    16 FUNC    GLOBAL DEFAULT   11 glCreateShaderProgramv
+   254: 46807dc9    12 FUNC    GLOBAL DEFAULT   11 glDeleteProgram
+   255: 46808a5d    24 FUNC    GLOBAL DEFAULT   11 glTexStorage3D
+   256: 46809605    16 FUNC    GLOBAL DEFAULT   11 glGenTextures
+   257: 468080c5    16 FUNC    GLOBAL DEFAULT   11 glUniform2f
+   258: 4680955d    16 FUNC    GLOBAL DEFAULT   11 glDisable
+   259: 468080e5    16 FUNC    GLOBAL DEFAULT   11 glUniform2i
+   260: 46808575    24 FUNC    GLOBAL DEFAULT   11 glBindBufferRange
+   261: 46807da5    12 FUNC    GLOBAL DEFAULT   11 glCreateProgram
+   262: 4680952d    16 FUNC    GLOBAL DEFAULT   11 glDeleteTextures
+   263: 46808555    16 FUNC    GLOBAL DEFAULT   11 glBeginTransformFeedback
+   264: 46807de1    12 FUNC    GLOBAL DEFAULT   11 glDeleteShader
+   265: 46808565    16 FUNC    GLOBAL DEFAULT   11 glEndTransformFeedback
+   266: 46808855    24 FUNC    GLOBAL DEFAULT   11 glClientWaitSync
+   267: 4680908d    24 FUNC    GLOBAL DEFAULT   11 glPushDebugGroup
+   268: 4680878d    24 FUNC    GLOBAL DEFAULT   11 glGetActiveUniformsiv
+   269: 468090e5    16 FUNC    GLOBAL DEFAULT   11 glObjectPtrLabel
+   270: 46808695    24 FUNC    GLOBAL DEFAULT   11 glUniform3ui
+   271: 46807e39    12 FUNC    GLOBAL DEFAULT   11 glGetVertexAttribfv
+   272: 46808dfd    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform1uiv
+   273: 46808f35    28 FUNC    GLOBAL DEFAULT   11 glTexStorage2DMultisample
+   274: 468089cd    16 FUNC    GLOBAL DEFAULT   11 glResumeTransformFeedback
+   275: 46807fed    16 FUNC    GLOBAL DEFAULT   11 glReleaseShaderCompiler
+   276: 46808c4d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform1fv
+   277: 46808515    16 FUNC    GLOBAL DEFAULT   11 glDeleteVertexArrays
+   278: 46808285    24 FUNC    GLOBAL DEFAULT   11 glVertexAttrib4f
+   279: 46808195    16 FUNC    GLOBAL DEFAULT   11 glUniform4iv
+   280: 46808635    16 FUNC    GLOBAL DEFAULT   11 glVertexAttribI4iv
+   281: 46808105    24 FUNC    GLOBAL DEFAULT   11 glUniform3f
+   282: 468088cd    16 FUNC    GLOBAL DEFAULT   11 glGenSamplers
+   283: 46809445    24 FUNC    GLOBAL DEFAULT   11 glBufferData
+   284: 4680812d    24 FUNC    GLOBAL DEFAULT   11 glUniform3i
+   285: 4680822d    16 FUNC    GLOBAL DEFAULT   11 glVertexAttrib1fv
+   286: 46809009    16 FUNC    GLOBAL DEFAULT   11 glBlendBarrier
+   287: 468094ad    24 FUNC    GLOBAL DEFAULT   11 glCompressedTexImage2D
+   288: 468088dd    16 FUNC    GLOBAL DEFAULT   11 glDeleteSamplers
+   289: 46807d8d    12 FUNC    GLOBAL DEFAULT   11 glCheckFramebufferStatus
+   290: 46808605    24 FUNC    GLOBAL DEFAULT   11 glVertexAttribI4i
+   291: 468095c5    16 FUNC    GLOBAL DEFAULT   11 glFrontFace
+   292: 468090a5    16 FUNC    GLOBAL DEFAULT   11 glPopDebugGroup
+   293: 46808645    16 FUNC    GLOBAL DEFAULT   11 glVertexAttribI4uiv
+   294: 46808735    24 FUNC    GLOBAL DEFAULT   11 glClearBufferfi
+   295: 4680805d    16 FUNC    GLOBAL DEFAULT   11 glStencilMaskSeparate
+   296: 46808155    24 FUNC    GLOBAL DEFAULT   11 glUniform4f
+   297: 4680898d    16 FUNC    GLOBAL DEFAULT   11 glDeleteTransformFeedbacks
+   298: 46808825    16 FUNC    GLOBAL DEFAULT   11 glFenceSync
+   299: 468093f5    16 FUNC    GLOBAL DEFAULT   11 glTexParameterf
+   300: 4680817d    24 FUNC    GLOBAL DEFAULT   11 glUniform4i
+   301: 46809695    16 FUNC    GLOBAL DEFAULT   11 glIsTexture
+   302: 4680973d    16 FUNC    GLOBAL DEFAULT   11 glTexParameteri
+   303: 46808725    16 FUNC    GLOBAL DEFAULT   11 glClearBufferfv
+   304: 46808845    16 FUNC    GLOBAL DEFAULT   11 glDeleteSync
+   305: 46808495    24 FUNC    GLOBAL DEFAULT   11 glBlitFramebuffer
+   306: 46808335    24 FUNC    GLOBAL DEFAULT   11 glCompressedTexImage3D
+   307: 46808045    24 FUNC    GLOBAL DEFAULT   11 glStencilFuncSeparate
+   308: 46807f9d    16 FUNC    GLOBAL DEFAULT   11 glIsFramebuffer
+   309: 46809309    16 FUNC    GLOBAL DEFAULT   11 glGetSamplerParameterIiv
+   310: 468093b5    16 FUNC    GLOBAL DEFAULT   11 glGetFloatv
+   311: 468087f5    24 FUNC    GLOBAL DEFAULT   11 glDrawArraysInstanced
+   312: 46809259    24 FUNC    GLOBAL DEFAULT   11 glGetnUniformiv
+   313: 46808bdd    16 FUNC    GLOBAL DEFAULT   11 glUseProgramStages
+   314: 468096cd    16 FUNC    GLOBAL DEFAULT   11 glSampleCoverage
+   315: 46807f7d    16 FUNC    GLOBAL DEFAULT   11 glGetUniformiv
+   316: 46808545    16 FUNC    GLOBAL DEFAULT   11 glGetIntegeri_v
+   317: 46808f71    24 FUNC    GLOBAL DEFAULT   11 glGetTexLevelParameteriv
+   318: 46807e81    20 FUNC    GLOBAL DEFAULT   11 glGetActiveAttrib
+   319: 468087a5    16 FUNC    GLOBAL DEFAULT   11 glGetUniformBlockIndex
+   320: 46809201    24 FUNC    GLOBAL DEFAULT   11 glPrimitiveBoundingBox
+   321: 4680806d    24 FUNC    GLOBAL DEFAULT   11 glStencilOpSeparate
+   322: 468091a1    24 FUNC    GLOBAL DEFAULT   11 glDrawElementsBaseVertex
+   323: 4680914d    16 FUNC    GLOBAL DEFAULT   11 glBlendFunci
+   324: 468090cd    24 FUNC    GLOBAL DEFAULT   11 glGetObjectLabel
+   325: 4680899d    16 FUNC    GLOBAL DEFAULT   11 glGenTransformFeedbacks
+   326: 46808c7d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform3fv
+   327: 468096dd    24 FUNC    GLOBAL DEFAULT   11 glScissor
+   328: 46808275    16 FUNC    GLOBAL DEFAULT   11 glVertexAttrib3fv
+   329: 46808b35    16 FUNC    GLOBAL DEFAULT   11 glDrawArraysIndirect
+   330: 468089bd    16 FUNC    GLOBAL DEFAULT   11 glPauseTransformFeedback
+   331: 46807e45    12 FUNC    GLOBAL DEFAULT   11 glGetVertexAttribiv
+   332: 468094f5    24 FUNC    GLOBAL DEFAULT   11 glCopyTexSubImage2D
+   333: 468087cd    24 FUNC    GLOBAL DEFAULT   11 glGetActiveUniformBlockName
+   334: 46808a1d    16 FUNC    GLOBAL DEFAULT   11 glInvalidateFramebuffer
+   335: 46808bed    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform1iv
+   336: 46807ebd    12 FUNC    GLOBAL DEFAULT   11 glGetAttribLocation
+   337: 46807e11    20 FUNC    GLOBAL DEFAULT   11 glFramebufferRenderbuffer
+   338: 46808aad    16 FUNC    GLOBAL DEFAULT   11 glBindProgramPipeline
+   339: 46808afd    24 FUNC    GLOBAL DEFAULT   11 glGetProgramPipelineInfoLog
+   340: 46809705    16 FUNC    GLOBAL DEFAULT   11 glStencilMask
+   341: 468095d5    16 FUNC    GLOBAL DEFAULT   11 glGetBooleanv
+   342: 46807e25    20 FUNC    GLOBAL DEFAULT   11 glFramebufferTexture2D
+   343: 46809645    16 FUNC    GLOBAL DEFAULT   11 glGetString
+   344: 46808cad    24 FUNC    GLOBAL DEFAULT   11 glProgramUniformMatrix2fv
+   345: 4680954d    16 FUNC    GLOBAL DEFAULT   11 glDepthMask
+   346: 468081bd    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix3fv
+   347: 4680831d    24 FUNC    GLOBAL DEFAULT   11 glCopyTexSubImage3D
+   348: 46808fb9    24 FUNC    GLOBAL DEFAULT   11 glVertexAttribFormat
+   349: 46808405    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix2x3fv
+   350: 468095a5    16 FUNC    GLOBAL DEFAULT   11 glFinish
+   351: 46808095    16 FUNC    GLOBAL DEFAULT   11 glUniform1fv
+   352: 46808d4d    16 FUNC    GLOBAL DEFAULT   11 glProgramUniform1f
+   353: 46807edd    16 FUNC    GLOBAL DEFAULT   11 glGetProgramiv
+   354: 468096f5    16 FUNC    GLOBAL DEFAULT   11 glStencilFunc
+   355: 46809775    24 FUNC    GLOBAL DEFAULT   11 glViewport
+   356: 46808cf5    16 FUNC    GLOBAL DEFAULT   11 glProgramUniform1i
+   357: 46808b45    16 FUNC    GLOBAL DEFAULT   11 glDrawElementsIndirect
+   358: 46808f15    16 FUNC    GLOBAL DEFAULT   11 glMemoryBarrier
+   359: 4680953d    16 FUNC    GLOBAL DEFAULT   11 glDepthFunc
+   360: 46807d29    12 FUNC    GLOBAL DEFAULT   11 glBindAttribLocation
+   361: 46807d1d    12 FUNC    GLOBAL DEFAULT   11 glAttachShader
+   362: 46808705    16 FUNC    GLOBAL DEFAULT   11 glClearBufferiv
+   363: 4680896d    16 FUNC    GLOBAL DEFAULT   11 glVertexAttribDivisor
+   364: 4680858d    16 FUNC    GLOBAL DEFAULT   11 glBindBufferBase
+   365: 46808395    16 FUNC    GLOBAL DEFAULT   11 glBeginQuery
+   366: 46808775    24 FUNC    GLOBAL DEFAULT   11 glGetUniformIndices
+   367: 46808acd    16 FUNC    GLOBAL DEFAULT   11 glDeleteProgramPipelines
+   368: 4680841d    24 FUNC    GLOBAL DEFAULT   11 glUniformMatrix3x2fv
+   369: 46809031    28 FUNC    GLOBAL DEFAULT   11 glDebugMessageControl
+   370: 46808e45    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform4uiv
+   371: 46808d5d    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform2f
+   372: 46807e75    12 FUNC    GLOBAL DEFAULT   11 glGenRenderbuffers
+   373: 46808d05    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform2i
+   374: 46808db5    24 FUNC    GLOBAL DEFAULT   11 glProgramUniform2ui
+
+STDERR:

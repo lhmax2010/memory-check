@@ -1,0 +1,886 @@
+### sections rc=0
+There are 29 section headers, starting at offset 0x4f7f4:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            4672c114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        4672c138 000138 001908 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          4672da40 001a40 003220 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          46730c60 004c60 00acbd 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          4673b91e 00f91e 000644 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         4673bf64 00ff64 0001a0 00   A  4   6  4
+  [ 7] .rel.dyn          RELA            4673c104 010104 0010e0 0c   A  3   0  4
+  [ 8] .rel.plt          REL             4673d1e4 0111e4 000f88 08  AI  3  21  4
+  [ 9] .init             PROGBITS        4673e16c 01216c 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        4673e178 012178 0017c4 04  AX  0   0  4
+  [11] .text             PROGBITS        4673f940 013940 02b99c 00  AX  0   0  8
+  [12] .fini             PROGBITS        4676b2dc 03f2dc 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        4676b2e8 03f2e8 008119 00   A  0   0  8
+  [14] .ARM.extab        PROGBITS        46773404 047404 003620 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       46776a24 04aa24 000dc0 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        467777e4 04b7e4 000004 00   A  0   0  4
+  [17] .init_array       INIT_ARRAY      467785a0 04c5a0 000008 04  WA  0   0  4
+  [18] .fini_array       FINI_ARRAY      467785a8 04c5a8 000004 04  WA  0   0  4
+  [19] .data.rel.ro      PROGBITS        467785ac 04c5ac 0004fc 00  WA  0   0  4
+  [20] .dynamic          DYNAMIC         46778aa8 04caa8 0001c0 08  WA  4   0  4
+  [21] .got              PROGBITS        467795a0 04d5a0 000928 04  WA  0   0  4
+  [22] .data             PROGBITS        46779ec8 04dec8 00013c 00  WA  0   0  4
+  [23] .bss              NOBITS          4677a004 04e004 000104 00  WA  0   0  4
+  [24] .comment          PROGBITS        00000000 04e004 00002c 01  MS  0   0  1
+  [25] .gnu.liblist      GNU_LIBLIST     00000000 04e030 0008e8 14     26   0  4
+  [26] .gnu.libstr       STRTAB          00000000 04e918 0008cb 00      0   0  1
+  [27] .gnu.prelink_undo PROGBITS        00000000 04f1e4 0004fc 01      0   0  4
+  [28] .shstrtab         STRTAB          00000000 04f6e0 000112 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x4672c000
+There are 7 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x04aa24 0x46776a24 0x46776a24 0x00dc0 0x00dc0 R   0x4
+  LOAD           0x000000 0x4672c000 0x4672c000 0x4b7e8 0x4b7e8 R E 0x1000
+  LOAD           0x04c5a0 0x467785a0 0x467785a0 0x01a64 0x01b68 RW  0x1000
+  DYNAMIC        0x04caa8 0x46778aa8 0x46778aa8 0x001c0 0x001c0 RW  0x4
+  NOTE           0x000114 0x4672c114 0x4672c114 0x00024 0x00024 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x04c5a0 0x467785a0 0x467785a0 0x01000 0x01000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     
+   06     .init_array .fini_array .data.rel.ro .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.3) 14.2.0
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 802 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 4673e16c     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 46779ec8     0 SECTION LOCAL  DEFAULT   22 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCProgramDescriptorUtil4IsHDEv
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht11TCDirection7GetNextEv
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_int
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht13TCTrapPattern14AddItemToQueueEPNS_20TCTrapArgumentHelperE
+     7: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI8TSTvMode
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1Eb
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt24__throw_out_of_range_fmtPKcz@GLIBCXX_3.4.20 (2)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt19__throw_logic_errorPKc@GLIBCXX_3.4 (3)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_double
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper23CreateProgramSubscriberEPFv18EProgramChangeTypeP13TCProgramDataiiE
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (4)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_int64
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_exec
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr1@GCC_3.5 (5)
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_set_int@VCONF_BUXTON_1.0 (6)
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht20TSCPUStatisticHelper5StartERNS_14TSCPUStatisticE
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND getgrnam_r@GLIBC_2.4 (7)
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_get
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znaj@GLIBCXX_3.4 (3)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_text
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_send_message
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_double
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht15TSTrapCondition15GetItemsByIndexEs
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND app_control_send_launch_request
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo9_M_insertIyEERSoT_@GLIBCXX_3.4.9 (8)
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dlog_print
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND TU_Unsigned_gmtime_r
+    30: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_@GLIBCXX_3.4.21 (9)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt9bad_alloc4whatEv@GLIBCXX_3.4.9 (8)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper23CreateServiceNavigationE8EProfilei
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueixEj
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_get_sync
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (5)
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj@GLIBCXX_3.4.21 (9)
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt24__throw_invalid_argumentPKc@GLIBCXX_3.4 (3)
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData14GuidanceLengthEv
+    40: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI11TCProgramId
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_get_int@VCONF_BUXTON_1.0 (6)
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_get_bool@VCONF_BUXTON_1.0 (6)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData5TitleEPtPj
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram9StartTimeEv
+    45: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueD1Ev
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt13runtime_error4whatEv@GLIBCXX_3.4 (3)
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND app_control_create
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base7_M_hookEPS0_@GLIBCXX_3.4.15 (10)
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12HCProgramAPI14GetProgramListEyjjRSt3mapIjP9HCProgramSt4lessIjESaISt4pairIKjS2_EEE
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND TU_Unsigned_timegm
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueixEi
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram6DetailB5cxx11Ev
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht13TCTrapPattern17FindTrapConditionERKSt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE
+    54: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3 (4)
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht16TSCallItemHelper10StoreFixedEPKvj
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram8GetCRIDsERNSt7__cxx114listINS0_12basic_stringIcSt11char_traitsIcESaIcEEESaIS6_EEEi
+    57: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV11TCProgramId
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_step
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND strftime@GLIBC_2.4 (7)
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram9ProgramIDEv
+    61: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIN4Json9ExceptionE
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_message_new_signal
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataC1Ev
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND device_power_get_state
+    65: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN11HCProgramID8ToStringB5cxx11ERKS_
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht16TSCallItemHelperC1EPNS_9TCStorageEhj
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper15CreateSOSpecAppE8EProfilei
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpwnam_r@GLIBC_2.4 (7)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv@GLIBC_2.4 (7)
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12HCProgramAPI11GetInstanceEv
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK2ht10TSTrapItem14EvaluateResultERKx
+    73: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV8TSTvMode
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value8asUInt64Ev
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_get_table
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_demangle@CXXABI_1.3 (4)
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND __assert_fail@GLIBC_2.4 (7)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (7)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND chown@GLIBC_2.4 (7)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelperD1Ev
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram9ServiceIDEv
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSolsEi@GLIBCXX_3.4 (3)
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK2ht10TSTrapItem14EvaluateResultERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13bad_exceptionD2Ev@GLIBCXX_3.4 (3)
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value6asBoolEv
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TVServiceAPI18CreateServiceGuideEPP13IServiceGuide
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND system_info_get_custom_bool
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram5TitleB5cxx11Ev
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (4)
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND tolower@GLIBC_2.4 (7)
+    91: 00000000     0 FUNC    GLOBAL DEFAULT  UND pow@GLIBC_2.29 (11)
+    92: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3 (4)
+    93: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@GLIBCXX_3.4 (3)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdaPv@GLIBCXX_3.4 (3)
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht13TCTrapPattern8InstanceEv
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN11HCProgramID10FromStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11TCProgramId
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_signal_subscribe
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21 (9)
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@CXXABI_1.3 (4)
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj@GLIBCXX_3.4.21 (9)
+   102: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1ERKS0_
+   104: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo9_M_insertIbEERSoT_@GLIBCXX_3.4.9 (8)
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_free_table
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_error_free
+   107: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_abort@CXXABI_1.3 (4)
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location@GLIBC_2.4 (7)
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12HCProgramAPI18CPPHCProgramFromCsEPv
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value4sizeEv
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorD2Ev@GLIBCXX_3.4 (3)
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_get_highlight_player_flag
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND lockf64@GLIBC_2.4 (7)
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND TU_ConvertToLocalTime
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror_r@GLIBC_2.4 (7)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND app_control_add_extra_data
+   117: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIj@CXXABI_1.3 (4)
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28__throw_bad_array_new_lengthv@GLIBCXX_3.4.29 (12)
+   119: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht20TSCPUStatisticHelper4StopERNS_14TSCPUStatisticE
+   120: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData11GetGuidanceEPtPj
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN6CA_API9CAService17CAGeneralInstanceEv
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (3)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdlPvj@CXXABI_1.3.9 (13)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND system_settings_get_value_int
+   125: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lock@GLIBC_2.4 (7)
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_@GLIBCXX_3.4.15 (10)
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo9_M_insertImEERSoT_@GLIBCXX_3.4.9 (8)
+   128: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram14GetProgramCRIDERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND remove@GLIBC_2.4 (7)
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5Value6appendERKS0_
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8JsonUtil12StringToJsonERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERN4Json5ValueE
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram8DurationEv
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND device_power_set_state
+   134: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.4 (7)
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv_close@GLIBC_2.4 (7)
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1ENS_9ValueTypeE
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapperC1Ev
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo3putEc@GLIBCXX_3.4 (3)
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@GLIBC_2.4 (7)
+   140: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt9bad_alloc@GLIBCXX_3.4 (3)
+   141: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt13bad_exception@GLIBCXX_3.4 (3)
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value5asIntEv
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper18CreateServiceGuideEv
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (4)
+   145: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.4 (7)
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND iconv_open@GLIBC_2.4 (7)
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.4 (7)
+   148: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1Ed
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData9StartTimeEv
+   150: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIi@CXXABI_1.3 (4)
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_open@GLIBC_2.34 (14)
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceUtility20IsDigitalChannelTypeE12EChannelType
+   153: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV16TCCriteriaHelper
+   154: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_last_insert_rowid
+   155: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znwj@GLIBCXX_3.4 (3)
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (4)
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapperD1Ev
+   158: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_new
+   159: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_length_errorPKc@GLIBCXX_3.4 (3)
+   160: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_is_recording
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_out_of_rangePKc@GLIBCXX_3.4 (3)
+   162: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt13bad_exception4whatEv@GLIBCXX_3.4.9 (8)
+   163: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@CXXABI_1.3 (4)
+   164: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht11TCDirection5ResetEv
+   165: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSdD2Ev@GLIBCXX_3.4 (3)
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_close@GLIBC_2.34 (14)
+   167: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper5WhereEiRKy
+   168: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@GCC_3.0 (15)
+   169: 00000000     0 FUNC    GLOBAL DEFAULT  UND aul_app_is_running
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData11TitleLengthEv
+   171: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   172: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCProgramDescriptorUtilC1ERK13TCProgramData
+   173: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (7)
+   174: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TIStorageManager8InstanceEv
+   175: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   176: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCMarshalableC2Ev
+   177: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht11TSDemangler8DemangleB5cxx11EPKc
+   178: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value8asDoubleEv
+   179: 00000000     0 FUNC    GLOBAL DEFAULT  UND app_control_set_app_id
+   180: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@GLIBCXX_3.4.21 (9)
+   181: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1Ej
+   182: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseD2Ev@GLIBCXX_3.4 (3)
+   183: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN2ht22TCArgPropertiesCreatorE
+   184: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI16TCCriteriaHelper
+   185: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper5WhereEii
+   186: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt9type_infoeqERKS_@GLIBCXX_3.4 (3)
+   187: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_int
+   188: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData8GetCRIDsERNSt7__cxx114listINS0_12basic_stringIcSt11char_traitsIcESaIcEEESaIS6_EEE9ECRIDType
+   189: 00000000     0 FUNC    GLOBAL DEFAULT  UND strdup@GLIBC_2.4 (7)
+   190: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht9TCStorage12SaveLocationERKNS_14TCCallLocationE
+   191: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.4 (7)
+   192: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_destroy@GLIBC_2.4 (7)
+   193: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCProgramDataD1Ev
+   194: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_pre_channel_change_on_recording
+   195: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8JsonUtil12JsonToStringB5cxx11ERKN4Json5ValueE
+   196: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1Ey
+   197: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (4)
+   198: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1Ei
+   199: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI13TCProgramData
+   200: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeC1Ev@GLIBCXX_3.4 (3)
+   201: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper19CreateSourceControlE8EProfilei
+   202: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i@GLIBCXX_3.4.9 (8)
+   203: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_atexit@CXXABI_ARM_1.3.3 (16)
+   204: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData12ExtendedTextEPtPj
+   205: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_prepare_v2
+   206: 00000000     0 FUNC    GLOBAL DEFAULT  UND svc_pvr_get_remaining_time
+   207: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@GLIBCXX_3.4.21 (9)
+   208: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (4)
+   209: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_message_new_method_call
+   210: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_message_set_body
+   211: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw_bad_array_new_length@CXXABI_1.3.8 (17)
+   212: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataUtility14GetServiceNameEyRNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEEb
+   213: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_finalize
+   214: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_text
+   215: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3 (4)
+   216: 00000000     0 FUNC    GLOBAL DEFAULT  UND app_control_set_operation
+   217: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram7EventIDB5cxx11Ev
+   218: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt21ios_base_library_initv@GLIBCXX_3.4.32 (18)
+   219: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9bad_allocD2Ev@GLIBCXX_3.4 (3)
+   220: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5FCAPI14GetMatchFinderEv
+   221: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4 (3)
+   222: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData18ExtendedTextLengthEv
+   223: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData9ServiceIdEv
+   224: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@CXXABI_1.3 (4)
+   225: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueaSEOS0_
+   226: 00000000     0 FUNC    GLOBAL DEFAULT  UND avoc_get_pc_mode
+   227: 00000000     0 FUNC    GLOBAL DEFAULT  UND app_control_destroy
+   228: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_int64
+   229: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21 (9)
+   230: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper13CreateServiceEv
+   231: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt15basic_streambufIcSt11char_traitsIcEE@GLIBCXX_3.4 (3)
+   232: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht14TSCPUStatisticC1Ev
+   233: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData7EventIdEv
+   234: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj@GLIBCXX_3.4.21 (9)
+   235: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4 (3)
+   236: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2ERKS_@GLIBCXX_3.4.21 (9)
+   237: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht11TCDirectionC1Eiz
+   238: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj@GLIBCXX_3.4.21 (9)
+   239: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc23_strtol@GLIBC_2.38 (19)
+   240: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.4 (7)
+   241: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __stack_chk_guard@GLIBC_2.4 (20)
+   242: 00000000     0 FUNC    GLOBAL DEFAULT  UND mbr_send_channel_number_with_source_type
+   243: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (9)
+   244: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.4 (7)
+   245: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj@GLIBCXX_3.4.21 (9)
+   246: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_pure_virtual@CXXABI_1.3 (4)
+   247: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCProgramDescriptorUtilD1Ev
+   248: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.4 (7)
+   249: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK2ht10TSTrapItem14EvaluateResultERKy
+   250: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht9TCStorage6CommitEPNS_14TCThreadHandleE
+   251: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData12GetProgramIdER11TCProgramId
+   252: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (3)
+   253: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt9basic_iosIcSt11char_traitsIcEE@GLIBCXX_3.4 (3)
+   254: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt13runtime_error@GLIBCXX_3.4 (3)
+   255: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseC2Ev@GLIBCXX_3.4 (3)
+   256: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeD1Ev@GLIBCXX_3.4 (3)
+   257: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData8DurationEv
+   258: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value8asStringB5cxx11Ev
+   259: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_object_unref
+   260: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   261: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataD1Ev
+   262: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceUtility19IsAnalogChannelTypeE12EChannelType
+   263: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14CTVSApiWrapper21CreateSOSpecAppAnalogEv
+   264: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN5FCAPI19GetRemoteContentAPIEv
+   265: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2EPKc@GLIBCXX_3.4.21 (9)
+   266: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper5FetchEi
+   267: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_count
+   268: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI13TCServiceData
+   269: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht13TCTrapPattern21NormalizeCodeLocationERSt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE
+   270: 00000000     0 FUNC    GLOBAL DEFAULT  UND TU_GetCurrentTime
+   271: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4 (3)
+   272: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCProgramDataC1Ev
+   273: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_close
+   274: 00000000     0 FUNC    GLOBAL DEFAULT  UND bindtextdomain@GLIBC_2.4 (7)
+   275: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram11GetGuidanceERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   276: 00000000     0 FUNC    GLOBAL DEFAULT  UND system_info_get_value_int
+   277: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21 (9)
+   278: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht13TCTrapPattern9IsEnabledEv
+   279: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_signal_unsubscribe
+   280: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIb@CXXABI_1.3 (4)
+   281: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_unlink@GLIBC_2.34 (14)
+   282: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9HCProgram4TypeEv
+   283: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc@GLIBCXX_3.4.21 (9)
+   284: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_unlock@GLIBC_2.4 (7)
+   285: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueixEPKc
+   286: 00000000     0 FUNC    GLOBAL DEFAULT  UND dgettext@GLIBC_2.4 (7)
+   287: 00000000     0 FUNC    GLOBAL DEFAULT  UND usleep@GLIBC_2.4 (7)
+   288: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht14TCCallLocationC1Ev
+   289: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_errmsg
+   290: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4swapERS4_@GLIBCXX_3.4.21 (9)
+   291: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_init@GLIBC_2.4 (7)
+   292: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK4Json5Value6asUIntEv
+   293: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIy@CXXABI_1.3 (4)
+   294: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZN21TIStorageManagerState7enabledE
+   295: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCProgramData14GetProgramCRIDERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   296: 00000000     0 FUNC    GLOBAL DEFAULT  UND open64@GLIBC_2.4 (7)
+   297: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gcc_personality_v0@GCC_3.3.1 (21)
+   298: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_free
+   299: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_open_v2
+   300: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN2ht15TSTrapCondition10ItemExistsEs
+   301: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4Json5ValueC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   302: 46756f79    84 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp17ExistAlternativesERK11CRemindInfoRKSt6vectorIS0_SaIS0_EERSt3mapI18ERemAlterativeTypeS5_St4lessIS9_ESaISt4pairIKS9_S5_EEE
+   303: 46765eb9   168 FUNC    GLOBAL DEFAULT   11 CGetRecordReadyRemindItem
+   304: 46778a30     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function2IiRK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaIS7_EEEE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf2Ii8IServiceS3_SA_EENSD_5list3INSD_5valueIPSH_EENS_3argILi1EEENSN_ILi2EEEEEEEEEvT_E13stored_vtable
+   305: 467789b4     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3IiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9ECRIDTypeRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSA_EEEE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuideS6_S7_SI_EENSL_5list4INSL_5valueIPSP_EENS_3argILi1EEENSV_ILi2EEENSV_ILi3EEEEEEEEEvT_E13stored_vtable
+   306: 4675d251    30 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker2INS_3_bi6bind_tIiNS_4_mfi3mf2Ii8IServiceRK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaISE_EEEEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSN_ILi2EEEEEEEiSA_SH_E6invokeERNS1_15function_bufferESA_SH_
+   307: 4677a0e0    28 OBJECT  GLOBAL DEFAULT   23 _ZN12CReminderAPI7m_mutexE
+   308: 4676aa91   396 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil13m_MatchRemindER9HCProgram
+   309: 467617b9   296 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp20t_GetRemindItemByUidEmR11CRemindInfo
+   310: 467608c1   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI18IsChannelScheduledERK13TCServiceData
+   311: 46773358    20 OBJECT  GLOBAL DEFAULT   13 _ZTS17EProgramIndicator
+   312: 467605bd   280 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp19FlagExistRecordItemEv
+   313: 4675acdd   312 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp16FindGroupBookingENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11CRemindInfo
+   314: 46753211   400 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11FindChannelERK11CRemindInfoR13TCServiceData
+   315: 4674cb09   216 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21SetStartEndMarginTimeEi
+   316: 467730e8    15 OBJECT  GLOBAL DEFAULT   13 _ZTS12CReminderAPI
+   317: 4674b771    68 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11ConvertTimeER2tm
+   318: 4674a099   144 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo19SetNotificationDataER16NotificationData
+   319: 46748095  1056 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo8ToStringB5cxx11Ev
+   320: 4674bd25   148 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil19FlagSelfTestRunningEv
+   321: 467501c9   136 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker3INS_3_bi6bind_tIiNS_4_mfi3mf3Ii18IServiceNavigation8TSTvModeRK16TCCriteriaHelperR13TCServiceDataEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSJ_ILi2EEENSJ_ILi3EEEEEEEiS8_SB_SD_E6invokeERNS1_15function_bufferES8_SB_SD_
+   322: 46760ded   380 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21IsLatestSeriesProgramERK11CRemindInfo
+   323: 46747fad   104 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo15CopyDetailsIntoER13TCServiceData
+   324: 4677292c    76 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS_16exception_detail15error_info_baseEEE
+   325: 4675fe69   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI20DeletePastRemindItemEv
+   326: 467552f5   764 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13m_IsRepeatDupEmm19EReminderRepeatTypehmmS0_h
+   327: 46762061  1180 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp33t_FindRemindItemFromProgramByCridERK13TCProgramDataR11CRemindInfo
+   328: 46751989   176 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14SubstringMatchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   329: 4674807d    20 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo12IsSplitEventEv
+   330: 46743c31   296 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl19m_DBVersionMismatchEv
+   331: 467661e9   132 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtilC1EPFvvE
+   332: 4675f4dd   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI27FindRemindItemsFromProgramsERSt3mapIP13TCProgramData11CRemindInfoSt4lessIS2_ESaISt4pairIKS2_S3_EEE
+   333: 4676579d   200 FUNC    GLOBAL DEFAULT   11 CAddRemindItem
+   334: 467731a4   128 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRKyR13TCProgramDataEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSE_ILi2EEEEEEE
+   335: 4675b0ed   960 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp22UpdateReminditemToMetaEv
+   336: 46756439   104 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp20GetRemindItemsByTypeERiRSt6vectorI11CRemindInfoSaIS2_EE12EExtractType12EOrderByType
+   337: 4675b785   276 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp19DeleteAllRemindItemEv
+   338: 46744109   484 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl13m_ReleaseLockEv
+   339: 4675242d    22 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14m_CheckDupTimeEmmmm
+   340: 46766295    84 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil15m_HandleEventCBEPvP14TReminderEvent
+   341: 4674b8bd     4 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil12GetLocalTimeEm
+   342: 467789bc     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3Ii8TSTvModeRK16TCCriteriaHelperR13TCServiceDataE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf3Ii18IServiceNavigationS1_S4_S6_EENS9_5list4INS9_5valueIPSD_EENS_3argILi1EEENSJ_ILi2EEENSJ_ILi3EEEEEEEEEvT_E13stored_vtable
+   343: 4675ec3d   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI20GetRemindItemsByTypeE12EExtractTypeRSt6vectorI11CRemindInfoSaIS2_EE
+   344: 46743d59   628 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl17m_CorruptionCheckEv
+   345: 467471c1   184 FUNC    GLOBAL DEFAULT   11 _ZN17CReminderDBusInfo11HandleEventEP16_GDBusConnectionPKcS3_S3_S3_P9_GVariantPv
+   346: 4676a81d   468 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil12m_MatchCridsER9HCProgram
+   347: 46756ed5   164 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp14FindRemindItemERK11CRemindInfoRS0_
+   348: 467421fd   880 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria5WhereINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvNS_13CRITERIA_TYPEERKT_
+   349: 467663dd   144 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil17m_RemindItemMatchER11CRemindInfoR9HCProgram
+   350: 4677a064     8 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost16exception_detail27get_static_exception_objectINS0_10bad_alloc_EEENS_13exception_ptrEvE2ep
+   351: 46752521   328 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11NeedPVRStopERK11CRemindInfo
+   352: 4675f091   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI24GetCurrentRecordingItemsERSt6vectorI11CRemindInfoSaIS1_EE
+   353: 46746d31     4 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl7AddItemER11CRemindInfo
+   354: 46747e79    28 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo14CompareServiceERKS_
+   355: 46751a39   176 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil9FullMatchC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   356: 46751199    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf3Ii8IServiceRK16TCCriteriaHelperR13TCServiceDatabEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSI_ILi2EEENSI_ILi3EEEEEEEE6manageERKNS1_15function_bufferERSP_NS1_30functor_manager_operation_typeE
+   357: 467442ed    36 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl15ReleaseInstanceEv
+   358: 46760d59   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI21IsRecordAsBasicSeriesER13TCProgramData
+   359: 467788e0    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN16CReminderAPIUtil14SubstringMatchE
+   360: 4674327d   108 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl22m_ClaimAuthorityOverDBEv
+   361: 4675e6f1    76 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp22FlagReminderListIsFullEv
+   362: 46761f91   208 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI18IsProgramScheduledENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP11CRemindInfo
+   363: 46778914    16 OBJECT  GLOBAL DEFAULT   19 _ZTV15CReminderAPIImp
+   364: 46778738     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail15error_info_baseE
+   365: 46743a19   308 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8m_OpenDbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   366: 4674ba05    80 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14FlagAppRunningERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   367: 4675c2c9    72 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp23ExistSameTimeRemindItemERK11CRemindInfoPS0_
+   368: 46752445   196 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil37m_SetPowerStateFromPictureOffToNormalEv
+   369: 4674f379   148 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo10IsConflictERK13TCProgramData
+   370: 46749291  3592 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo11DeserializeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   371: 4674c81d   140 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil20NumOfRecordableTunerEv
+   372: 467788d4    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN16CReminderAPIUtil9FullMatchE
+   373: 4675e5a9   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI18GetRemindItemByUidEmR11CRemindInfo
+   374: 46747d15    26 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo9SerielSetEttcss
+   375: 4675cc05   952 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21DeleteRemindItemByUidEmb
+   376: 467730d4    17 OBJECT  GLOBAL DEFAULT   13 _ZTS14CReminderMutex
+   377: 46753ec5   324 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp15RegisterEventCBEPFvPvP14TReminderEventES0_
+   378: 4674b4b1    38 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo15IsPartOfASeriesEv
+   379: 46747ba9     8 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo18SetProgramSourceIDERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   380: 4674e39d  1904 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo3SetERK13TCProgramData12EReserveType
+   381: 4677a088     8 OBJECT  GLOBAL DEFAULT   23 _ZN5boost16exception_detail37exception_ptr_static_exception_objectINS0_10bad_alloc_EE1eE
+   382: 467661bd    24 FUNC    GLOBAL DEFAULT   11 RemindDispose
+   383: 4675e8f5   172 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI25DeleteMatchingRemindItemsE11EDeleteTypePKv12EChannelTypeb
+   384: 467630e5   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI25UserDeleteRemindItemByUidEm
+   385: 4675ae15   552 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21UpdateRemindItemByUidEmRK11CRemindInfobbbRSt6vectorIS0_SaIS0_EE
+   386: 46751d41   464 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21GetCurrentServiceModeEv
+   387: 46772ed0    62 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_implINS0_14bad_exception_EEE
+   388: 467434c9   164 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8t_DeleteERK11CDBCriteria
+   389: 467606d5   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI19FlagExistRecordItemEv
+   390: 4674b945   120 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil26GetBackToBackRecordingTypeEv
+   391: 4674a335   228 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo12CompareEventERK13TCProgramData
+   392: 467428dd   880 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria7WhereOrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvNS_13CRITERIA_TYPEERKT_
+   393: 467729f4    54 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail25error_info_container_implE
+   394: 4674eb0d    80 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo15SetTimerViewingERK13TCProgramData
+   395: 46765f61   172 FUNC    GLOBAL DEFAULT   11 CGetCurrentRecordingItems
+   396: 4675e4c9    72 FUNC    GLOBAL DEFAULT   11 CMemoryFree
+   397: 467789f4    20 OBJECT  GLOBAL DEFAULT   19 _ZTVN16CReminderAPIUtil11StringMatch24CaseInsensitiveTransformE
+   398: 46766055   304 FUNC    GLOBAL DEFAULT   11 CGetOverlappingRemindItems
+   399: 46747d99    88 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo21CompareServiceAndTimeERKS_
+   400: 46745e31   928 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8FindItemERK11CDBCriteriaRSt6vectorI11CRemindInfoSaIS4_EE
+   401: 46754009    88 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp17UnRegisterEventCBEv
+   402: 46764bd1  1616 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp16AddSeriesProgramERK13TCProgramDatabRSt6vectorI11CRemindInfoSaIS4_EE
+   403: 4675f3ad   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI20FindRemindItemForRCTERK11CRemindInfoRS0_
+   404: 46772d78   113 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf1Ii18IServiceNavigationR8TSTvModeEENS0_5list2INS0_5valueIPS4_EENS_3argILi1EEEEEEE
+   405: 46778a70     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuide17EProgramIndicatorRK11TCProgramIdR13TCProgramDataEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSG_ILi2EEENSG_ILi3EEEEEEE
+   406: 46756a09   372 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp23ExistSameTimeRemindItemERK11CRemindInfoRS0_
+   407: 467788ac     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_baseE
+   408: 4674c405   260 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil27FlagRecordingSpaceAvailableEmb
+   409: 46778a98     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3Ii17EProgramIndicatorRK11TCProgramIdR13TCProgramDataE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuideS1_S4_S6_EENS9_5list4INS9_5valueIPSD_EENS_3argILi1EEENSJ_ILi2EEENSJ_ILi3EEEEEEEEEvT_E13stored_vtable
+   410: 467518cd    20 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatchD0Ev
+   411: 4675b03d   176 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21UpdateRemindItemByUidEmRK11CRemindInfobbb
+   412: 46762f0d   328 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp19DeleteRecordingItemEv
+   413: 46755611   164 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp13AddRemindItemER11CRemindInfobb
+   414: 4674dbd1   824 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo3SetEttt12EChannelTypet15EServiceProfile
+   415: 4674070d    22 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfoD0Ev
+   416: 4674e091   264 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil16FlagOneTunerCaseERK11CRemindInfoS2_
+   417: 4675d479     6 FUNC    GLOBAL DEFAULT   11 _ZNK14CReminderMutex4LockEv
+   418: 467789e0    20 OBJECT  GLOBAL DEFAULT   19 _ZTVN16CReminderAPIUtil14SubstringMatchE
+   419: 4674091d   180 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl24m_IntegrityQueryCallbackEPviPPcS2_
+   420: 46772900    44 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail15error_info_baseE
+   421: 467556b5  2288 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil17m_GetAlternativesERK11CRemindInfo9ECRIDTypeRSt3mapIS0_St6vectorIS0_SaIS0_EESt4lessIS0_ESaISt4pairIS1_S7_EEE
+   422: 4675eb95   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI13AddRemindItemER11CRemindInfobb
+   423: 46755299    92 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13m_GetTimeInfoEm
+   424: 4675e3e1    40 FUNC    GLOBAL DEFAULT   11 _ZN13CReminderLockC2ERK14CReminderMutex
+   425: 46747d31    50 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo11ProgramCridB5cxx11Ev
+   426: 46743b4d   228 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl15m_CreateDbTableEv
+   427: 46750165    30 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker2INS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSD_EEEEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSR_ILi2EEEEEEEiSA_SL_E6invokeERNS1_15function_bufferESA_SL_
+   428: 46751f11   144 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil15SortByStartTimeEPK13TCProgramDataS2_
+   429: 467789cc    20 OBJECT  GLOBAL DEFAULT   19 _ZTVN16CReminderAPIUtil9FullMatchE
+   430: 467626e1   412 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp28DeleteOverlappingRemindItemsERK11CRemindInfo
+   431: 4677876c     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function1IiR8TSTvModeE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf1Ii18IServiceNavigationS2_EENS5_5list2INS5_5valueIPS9_EENS_3argILi1EEEEEEEEEvT_E13stored_vtable
+   432: 4674d2e1   582 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfoeqERKS_
+   433: 46751fa1    14 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil17SortByBookingTimeEPK11CRemindInfoS2_
+   434: 4674df09   392 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo16IsScrambledInPMTEv
+   435: 467788ec     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN16CReminderAPIUtil11StringMatch13CaseTransformE
+   436: 46747d0d     8 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo9StartTimeEv
+   437: 4674ed01   188 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14UpdateScheduleER11CRemindInfo
+   438: 4674eb5d   420 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil12GetStartTimeEm19EReminderRepeatTypehb
+   439: 4675b4ad   384 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp13UpdateVCItemsEv
+   440: 4674ca21   232 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21GetStartEndMarginTimeERmS0_
+   441: 46751241    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuideNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9ECRIDTypeRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSH_EEEEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSV_ILi2EEENSV_ILi3EEEEEEEE6manageERKNS1_15function_bufferERS12_NS1_30functor_manager_operation_typeE
+   442: 46747eb1   128 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo14CompareServiceERK13TCServiceData
+   443: 467788c0    20 OBJECT  GLOBAL DEFAULT   19 _ZTVN16CReminderAPIUtil11StringMatch13CaseTransformE
+   444: 46772a78    18 OBJECT  GLOBAL DEFAULT   13 _ZTS15CReminderAPIImp
+   445: 467510f1    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSD_EEEEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSR_ILi2EEEEEEEE6manageERKNS1_15function_bufferERSX_NS1_30functor_manager_operation_typeE
+   446: 4677a000     4 OBJECT  GLOBAL DEFAULT   22 _ZN11CRemindInfo10s_nVersionE
+   447: 46741b99   852 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria7OrderByENS_13CRITERIA_TYPEES0_
+   448: 4674d529    18 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo11CompareCRIDERKS_
+   449: 467733cc    53 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   450: 46743909   272 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl15m_RemoveDBFilesEv
+   451: 467484b5  3548 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo9SerializeB5cxx11Ev
+   452: 4677a06c     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost16exception_detail27get_static_exception_objectINS0_10bad_alloc_EEENS_13exception_ptrEvE2ep
+   453: 46778a78     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRKyR13TCProgramDataEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSE_ILi2EEEEEEE
+   454: 46750365   260 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker3INS_3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuideNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9ECRIDTypeRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSH_EEEEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSV_ILi2EEENSV_ILi3EEEEEEEiSD_SE_SP_E6invokeERNS1_15function_bufferESD_SE_SP_
+   455: 46745ab1   520 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfoC1Ev
+   456: 46754589  2828 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11TuneChannelERK11CRemindInfo
+   457: 467610d5  1544 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp23t_DeleteRemindItemByUidERKSt6vectorImSaImEE
+   458: 467407d1   172 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl24m_TabNumberQueryCallbackEPviPPcS2_
+   459: 4675f445   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI25FindRemindItemFromProgramERK13TCProgramDataR11CRemindInfo
+   460: 467661e9   132 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtilC2EPFvvE
+   461: 467551b1   232 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14m_HasConflictsERK11CRemindInfoPS1_
+   462: 467431b1    92 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl14EndTransactionEv
+   463: 4675c311  2056 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp14ExistConflictsERK11CRemindInfoRSt6vectorIS0_SaIS0_EE
+   464: 4675ab99   324 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp17FindSeriesBookingENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11CRemindInfo
+   465: 467788b4    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost17bad_function_callE
+   466: 46744905   204 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl9t_ConnectEv
+   467: 46772a64    20 OBJECT  GLOBAL DEFAULT   13 _ZTS17CReminderDBusInfo
+   468: 46760955  1028 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21IsRecordAsBasicSeriesER13TCProgramData
+   469: 46761c1d   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI26DeleteRemindersForServicesERKSt13unordered_setIySt4hashIyESt8equal_toIyESaIyEE
+   470: 467433bd   236 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl16t_InitializeStmtENS_12COMMAND_TYPEE
+   471: 46751805    56 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatchD1Ev
+   472: 4676287d   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI28DeleteOverlappingRemindItemsERK11CRemindInfo
+   473: 4675a961   568 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp25FindRemindItemFromProgramERK13TCProgramDataR11CRemindInfo
+   474: 4675f9d9   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI22UpdateReminditemToMetaEv
+   475: 4674320d   112 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8ListSizeEv
+   476: 46740511   508 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfoD1Ev
+   477: 4677300c    60 OBJECT  GLOBAL DEFAULT   13 _ZTSN16CReminderAPIUtil11StringMatch24CaseInsensitiveTransformE
+   478: 4674ca1d     4 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13GetTimeMarginEv
+   479: 4675e641   176 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI21UpdateRemindItemByUidEmRK11CRemindInfobbb
+   480: 4675f809   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI17ExistAlternativesERK11CRemindInfoRKSt6vectorIS0_SaIS0_EERSt3mapI18ERemAlterativeTypeS5_St4lessIS9_ESaISt4pairIKS9_S5_EEE
+   481: 4674b289   208 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil10GetCountryEv
+   482: 4675fdd9   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI17DeleteExpiredItemEv
+   483: 4677a078     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZN5boost16exception_detail27get_static_exception_objectINS0_14bad_exception_EEENS_13exception_ptrEvE2ep
+   484: 4675a799   456 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp20FindRemindItemForRCTERK11CRemindInfoRS0_
+   485: 467786e8    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail14bad_exception_E
+   486: 4675eb09   140 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI17UnRegisterEventCBEv
+   487: 46762a85   392 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp35m_DeleteSeriesProgramForSingleEntryER11CRemindInfo
+   488: 4677a0c4     4 OBJECT  GLOBAL DEFAULT   23 _ZZN2ht24TCArgPropertiesSingletonINSt7__cxx114listIP13TCServiceDataSaIS4_EEEE13SetPropertiesERNS_15TIArgPropertiesEE5saved
+   489: 46772b48   236 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuideNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9ECRIDTypeRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSE_EEEEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSS_ILi2EEENSS_ILi3EEEEEEE
+   490: 46747975   540 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo10InitialiseEv
+   491: 4674ba55   200 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14FlagMBRRunningEv
+   492: 467730a8    43 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt7__cxx114listIP13TCServiceDataSaIS2_EEE
+   493: 46744d01  3020 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl15t_ExtractDetailENS_12COMMAND_TYPEER11CRemindInfo
+   494: 467430e1   208 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl16BeginTransactionEv
+   495: 46763055   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI19DeleteRecordingItemEv
+   496: 46765ad1   276 FUNC    GLOBAL DEFAULT   11 CGetRemindItemsByProgramTitle
+   497: 467647ed   848 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp13IsBasicSeriesER11CRemindInfo
+   498: 4674d8a5   812 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo3SetER9HCProgram12EReserveType
+   499: 4674f031   840 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil28ExistConflictsWithExclusionsERK11CRemindInfoRKSt6vectorIS0_SaIS0_EEb
+   500: 46747df1   136 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo27CompareServiceTimeAndRepeatERKS_
+   501: 46772a8c    90 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS_16exception_detail10clone_implINS2_10bad_alloc_EEEEE
+   502: 4675e73d   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI22FlagReminderListIsFullEv
+   503: 46778a48     8 OBJECT  GLOBAL DEFAULT   19 _ZTI12CReminderAPI
+   504: 4674356d   924 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl10DeleteItemERK11CDBCriteria
+   505: 4675d329    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdR13TCProgramDataEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSI_ILi2EEEEEEEE6manageERKNS1_15function_bufferERSO_NS1_30functor_manager_operation_typeE
+   506: 46772874    43 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail14bad_exception_E
+   507: 4677336c    28 OBJECT  GLOBAL DEFAULT   13 _ZTSSt4pairIKjP13TCProgramDataE
+   508: 46742c4d   880 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria9WhereLessINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvNS_13CRITERIA_TYPEERKT_
+   509: 4674a6dd   528 FUNC    GLOBAL DEFAULT   11 _ZN17CReminderDBusInfo16SendWakeUpMethodEv
+   510: 46766185    54 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtilD1Ev
+   511: 46748015   104 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo17CopyUniqueKeyIntoER13TCServiceData
+   512: 46740725   172 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl24m_PageCountQueryCallbackEPviPPcS2_
+   513: 46747e95    28 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo14CompareServiceERK13TCProgramData
+   514: 46752125   208 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13m_IsValidDateEP2tm
+   515: 46750321    24 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14SubstringMatch12stringSearchERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   516: 4674cbe1   412 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13UnicodeToUTF8B5cxx11EjPt
+   517: 4675b899  1012 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp26DeleteAllVirtualRemindItemEv
+   518: 46760f69   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI21IsLatestSeriesProgramERK11CRemindInfo
+   519: 4675e511   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI21DeleteRemindItemByUidEmb
+   520: 4677a084     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost16exception_detail37exception_ptr_static_exception_objectINS0_14bad_exception_EE1eE
+   521: 4675fa69   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI13UpdateVCItemsEv
+   522: 4674a68d    80 FUNC    GLOBAL DEFAULT   11 _ZN17CReminderDBusInfo9SendEventEmll11PTParamType
+   523: 46762e41   204 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp25UserDeleteRemindItemByUidEm
+   524: 46745ab1   520 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfoC2Ev
+   525: 46751fb1   196 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14m_DateToBinaryEP2tm
+   526: 4676626d    40 FUNC    GLOBAL DEFAULT   11 CreateRemindUtil
+   527: 46747bb1    12 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo13SetTimeMarginEt
+   528: 467730f8   170 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuide17EProgramIndicatorRK11TCProgramIdR13TCProgramDataEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSG_ILi2EEENSG_ILi3EEEEEEE
+   529: 4674b801   188 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14GetCurrentTimeEv
+   530: 46765865   176 FUNC    GLOBAL DEFAULT   11 CGetRemindItemsByType
+   531: 4675f8b1   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI18RecordingIsDelayedEm
+   532: 46746de5   932 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl10UpdateItemERK11CDBCriteriaRK11CRemindInfo
+   533: 46773388    54 OBJECT  GLOBAL DEFAULT   13 _ZTSSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjS1_EEE
+   534: 4675f305   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI25GetOverlappingRemindItemsERK11CRemindInfoPSt6vectorIS0_SaIS0_EEb
+   535: 46763179  5600 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp27CheckRemindItemIsRecordableEm
+   536: 4675a69d   252 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp24GetCurrentRecordingItemsERSt6vectorI11CRemindInfoSaIS1_EE
+   537: 46778a80     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii8IServiceRK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaISB_EEEEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSK_ILi2EEEEEEE
+   538: 4674b925    14 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil10GetUTCTimeEm
+   539: 46778aa0     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function2IiRK11TCProgramIdRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjS6_EEEE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideS3_SE_EENSH_5list3INSH_5valueIPSL_EENS_3argILi1EEENSR_ILi2EEEEEEEEEvT_E13stored_vtable
+   540: 46751b65   272 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil22CompareStrIgnoringCaseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_
+   541: 4674bb1d   148 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil16FlagTTSAvailableEv
+   542: 46765221   164 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp16AddSeriesProgramERK13TCProgramDatab
+   543: 4675d481     6 FUNC    GLOBAL DEFAULT   11 _ZNK14CReminderMutex6UnlockEv
+   544: 467561f9   576 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp20GetRemindItemsByTypeE12EExtractTypeRSt6vectorI11CRemindInfoSaIS2_EE12EOrderByType
+   545: 4675ee25   172 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI27GetRemindItemsByChannelNameENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorI11CRemindInfoSaIS7_EEbb
+   546: 46751805    56 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatchD2Ev
+   547: 4677a0fc     4 OBJECT  GLOBAL DEFAULT   23 _ZN12CReminderAPI11m_pInstanceE
+   548: 467449d1   180 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl11GetInstanceEv
+   549: 4675d315    20 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPID0Ev
+   550: 4674b359   216 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo12CompareEventERKS_
+   551: 467616dd   220 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp23t_UpdateRemindItemByUidEmRK11CRemindInfo
+   552: 46740511   508 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfoD2Ev
+   553: 4674b8c1   100 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo14m_SetEventTimeEmm
+   554: 46750285    24 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatch22CaseSensitiveTransform9transformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   555: 467516d5   112 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatchC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   556: 467501a9    32 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker3INS_3_bi6bind_tIiNS_4_mfi3mf3Ii8IServiceRK16TCCriteriaHelperR13TCServiceDatabEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSI_ILi2EEENSI_ILi3EEEEEEEiSA_SC_bE6invokeERNS1_15function_bufferESA_SC_b
+   557: 467728a0    19 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost9exceptionE
+   558: 4675eed1   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI21GetRemindItemsForMHEGERSt6vectorI11CRemindInfoSaIS1_EE
+   559: 46758879  1456 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp25DeleteMatchingRemindItemsE11EDeleteTypePKv12EChannelTypeb
+   560: 467434bd    10 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8t_ExcuteENS_12COMMAND_TYPEE
+   561: 46772ce0   151 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii8IServiceRK16TCCriteriaHelperR13TCServiceDatabEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSF_ILi2EEENSF_ILi3EEEEEEE
+   562: 4675d291    32 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker3INS_3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuide17EProgramIndicatorRK11TCProgramIdR13TCProgramDataEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSJ_ILi2EEENSJ_ILi3EEEEEEEiS8_SB_SD_E6invokeERNS1_15function_bufferES8_SB_SD_
+   563: 4674c8a9   372 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil15NumOfWorkingCAMEv
+   564: 4677a104     4 OBJECT  GLOBAL DEFAULT   23 _ZZN2ht24TCArgPropertiesSingletonISt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjS3_EEEE13SetPropertiesERNS_15TIArgPropertiesEE5saved
+   565: 46741eed   784 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria13IgnoreStrCaseEv
+   566: 467533a1  2816 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil18FindCurrentChannelER13TCServiceData
+   567: 46778a50    16 OBJECT  GLOBAL DEFAULT   19 _ZTV14CReminderMutex
+   568: 46762c0d   240 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp26m_GetNumOfFailedRemindItemEv
+   569: 4674bbb1   148 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14FlagMLSRunningEv
+   570: 46758291   952 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp17DeleteExpiredItemEv
+   571: 46778a60    16 OBJECT  GLOBAL DEFAULT   19 _ZTV12CReminderAPI
+   572: 46766185    54 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtilD2Ev
+   573: 46778944    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_implINS0_14bad_exception_EEE
+   574: 46744519   580 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl16m_RemakeDatabaseEv
+   575: 46751a39   176 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil9FullMatchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   576: 4675e399    36 FUNC    GLOBAL DEFAULT   11 _ZN14CReminderMutexC1Ev
+   577: 4675e379    32 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPIC1Ev
+   578: 467561ad    76 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp18GetRemindItemByUidEmR11CRemindInfo
+   579: 46762911   372 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp15t_AddRemindItemER11CRemindInfob
+   580: 4675fcb9   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI19DeleteAllRemindItemEv
+   581: 4676600d    22 FUNC    GLOBAL DEFAULT   11 CDeleteRemindItemByUid
+   582: 4674a129     6 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo19GetNotificationDataEv
+   583: 467555f1    32 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21CCleanReminderAPIUtilC1Ev
+   584: 467564a1   420 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp23GetStartTimeIsSameItemsERK11CRemindInfoRSt6vectorIS0_SaIS0_EE14EScheduledType
+   585: 4674c339   204 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13FlagRecordingEy
+   586: 467655fd   156 FUNC    GLOBAL DEFAULT   11 CIsProgramScheduled
+   587: 46756801   516 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp25GetOverlappingRemindItemsERK11CRemindInfoRSt6vectorIS0_SaIS0_EEb
+   588: 46772ea0    46 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10wrapexceptINS_17bad_function_callEEE
+   589: 4675bec9   796 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp27GetRemindItemsByChannelNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorI11CRemindInfoSaIS9_EEbb
+   590: 46751975    20 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatch13CaseTransformD0Ev
+   591: 46751989   176 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14SubstringMatchC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   592: 46772f10    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_baseE
+   593: 4675e3bd    36 FUNC    GLOBAL DEFAULT   11 _ZN14CReminderMutexD1Ev
+   594: 4675d2b1   100 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPID1Ev
+   595: 467728b4    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10bad_alloc_E
+   596: 46745cb9   376 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8t_SelectERK11CDBCriteriaRSt6vectorI11CRemindInfoSaIS4_EE
+   597: 46765a25   172 FUNC    GLOBAL DEFAULT   11 CGetRemindItemByUid
+   598: 46744311   520 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl18m_SetFileOwnershipERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   599: 467661d5    20 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil15m_GetRemindListEv
+   600: 46752509    24 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21CCleanReminderAPIUtilD1Ev
+   601: 46752891  2432 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11FindChannelERK16TCCriteriaHelperR13TCServiceData
+   602: 467788f4    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN16CReminderAPIUtil11StringMatch24CaseInsensitiveTransformE
+   603: 4675d271    30 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker2INS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRKyR13TCProgramDataEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSH_ILi2EEEEEEEiS9_SB_E6invokeERNS1_15function_bufferES9_SB_
+   604: 46773048    58 OBJECT  GLOBAL DEFAULT   13 _ZTSN16CReminderAPIUtil11StringMatch22CaseSensitiveTransformE
+   605: 467434a9    20 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl14t_FinalizeStmtENS_12COMMAND_TYPEE
+   606: 46743fcd   316 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl6m_DBOkEv
+   607: 46778670    16 OBJECT  GLOBAL DEFAULT   19 _ZTV11CRemindInfo
+   608: 46756151    92 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp26DeleteRemindItemAloneByUidEm
+   609: 4674b431   126 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo10IsConflictERKS_
+   610: 46772ae8    94 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail17sp_counted_impl_pINS_16exception_detail10clone_implINS2_14bad_exception_EEEEE
+   611: 46747d65    50 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo10SeriesCridB5cxx11Ev
+   612: 467521f5   532 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil31m_CalculateManualScheduleOffsetEP2tmS1_ih
+   613: 46754061  1296 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil15ProgramToStringB5cxx11ERK13TCProgramData
+   614: 4674bc45   224 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil17FlagPCModeRunningEv
+   615: 4674bdb9   200 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil19FlagZiggoVODRunningEv
+   616: 4675679d   100 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp19GetReminderListSizeEv
+   617: 467728dc    33 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost6detail15sp_counted_baseE
+   618: 4675030d    20 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImpD0Ev
+   619: 4675b62d   344 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp19TransRecording2FailEmi
+   620: 46772fe4    37 OBJECT  GLOBAL DEFAULT   13 _ZTSN16CReminderAPIUtil14SubstringMatchE
+   621: 4675cfbd   592 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp17DeleteRemindItemsERSt6vectorImSaImEE
+   622: 4674256d   880 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria8WhereNotINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvNS_13CRITERIA_TYPEERKT_
+   623: 4675fef9   456 FUNC    GLOBAL DEFAULT   11 _Z26SerializeCRemindInfoVectorRSt6vectorI11CRemindInfoSaIS0_EE
+   624: 46748091     2 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo5PrintEPKc
+   625: 46773084    34 OBJECT  GLOBAL DEFAULT   13 _ZTSN16CReminderAPIUtil11StringMatchE
+   626: 4675e85d   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI14FindRemindItemERK11CRemindInfoRS0_
+   627: 4677a090     4 OBJECT  GLOBAL DEFAULT   23 _ZGVN5boost16exception_detail37exception_ptr_static_exception_objectINS0_10bad_alloc_EE1eE
+   628: 46778994     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii18IServiceNavigation8TSTvModeRK16TCCriteriaHelperR13TCServiceDataEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSG_ILi2EEENSG_ILi3EEEEEEE
+   629: 467618e1   264 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp18t_GetScheduledListERSt6vectorI11CRemindInfoSaIS1_EE12EOrderByType
+   630: 46772978    70 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10error_infoINS_27tag_original_exception_typeEPKSt9type_infoEE
+   631: 467511ed    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf3Ii18IServiceNavigation8TSTvModeRK16TCCriteriaHelperR13TCServiceDataEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSJ_ILi2EEENSJ_ILi3EEEEEEEE6manageERKNS1_15function_bufferERSQ_NS1_30functor_manager_operation_typeE
+   632: 4674f40d  3414 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil17ExistAlternativesERK11CRemindInfoRKSt6vectorIS0_SaIS0_EERSt3mapI18ERemAlterativeTypeS5_St4lessIS9_ESaISt4pairIKS9_S5_EEE
+   633: 46761eb1   224 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp18IsProgramScheduledENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP11CRemindInfo
+   634: 467733c0    11 OBJECT  GLOBAL DEFAULT   13 _ZTS9ECRIDType
+   635: 4675e399    36 FUNC    GLOBAL DEFAULT   11 _ZN14CReminderMutexC2Ev
+   636: 4675e379    32 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPIC2Ev
+   637: 4674be81    88 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil14GetAntennaModeE12EChannelType
+   638: 4674475d   424 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl6m_LockEv
+   639: 46773224   166 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii8IServiceRK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaISB_EEEEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSK_ILi2EEEEEEE
+   640: 46746c65   204 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8t_InsertER11CRemindInfo
+   641: 46766035    14 FUNC    GLOBAL DEFAULT   11 CDeleteRecordingItem
+   642: 467600c1  1180 FUNC    GLOBAL DEFAULT   11 CSet
+   643: 46778a88     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdR13TCProgramDataEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSF_ILi2EEEEEEE
+   644: 46778660     8 OBJECT  GLOBAL DEFAULT   19 _ZTI11CRemindInfo
+   645: 467555f1    32 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21CCleanReminderAPIUtilC2Ev
+   646: 4675d3d1    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRKyR13TCProgramDataEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSH_ILi2EEEEEEEE6manageERKNS1_15function_bufferERSN_NS1_30functor_manager_operation_typeE
+   647: 467789c4     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function3IiRK16TCCriteriaHelperR13TCServiceDatabE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf3Ii8IServiceS3_S5_bEENS8_5list4INS8_5valueIPSC_EENS_3argILi1EEENSI_ILi2EEENSI_ILi3EEEEEEEEEvT_E13stored_vtable
+   648: 46751745   192 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatchclERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   649: 4675d231    30 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker2INS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdR13TCProgramDataEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSI_ILi2EEEEEEEiSA_SC_E6invokeERNS1_15function_bufferESA_SC_
+   650: 46758e29  3968 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp13AddRemindItemER11CRemindInfobbRSt6vectorIS0_SaIS0_EE
+   651: 4675f6d9   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI23ExistSameTimeRemindItemERK11CRemindInfoPS0_
+   652: 46778708     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost9exceptionE
+   653: 4675ea71   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI15RegisterEventCBEPFvPvP14TReminderEventES0_
+   654: 46778a08    20 OBJECT  GLOBAL DEFAULT   19 _ZTVN16CReminderAPIUtil11StringMatch22CaseSensitiveTransformE
+   655: 467433a9    20 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControlD0Ev
+   656: 46747bbd   336 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo7EventIdEv
+   657: 467518e1     2 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatch13CaseTransformD1Ev
+   658: 46753ea5    32 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImpC1Ev
+   659: 4675e3bd    36 FUNC    GLOBAL DEFAULT   11 _ZN14CReminderMutexD2Ev
+   660: 4675d2b1   100 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPID2Ev
+   661: 46778a40     8 OBJECT  GLOBAL DEFAULT   19 _ZTI14CReminderMutex
+   662: 467619e9   564 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp26DeleteRemindersForServicesERKSt13unordered_setIySt4hashIyESt8equal_toIyESaIyEE
+   663: 4675f771   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI14ExistConflictsERK11CRemindInfoRSt6vectorIS0_SaIS0_EE
+   664: 467732cc   140 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdR13TCProgramDataEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSF_ILi2EEEEEEE
+   665: 467624fd   484 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp40t_DeleteTimeMarginForBackToBackRecordingEP11CRemindInfo
+   666: 46764b3d   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI13IsBasicSeriesER11CRemindInfo
+   667: 4675d875    20 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp31m_FlagReserveTypeIsForScheduledEi
+   668: 46752509    24 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21CCleanReminderAPIUtilD2Ev
+   669: 46772f90    49 OBJECT  GLOBAL DEFAULT   13 _ZTSN16CReminderAPIUtil11StringMatch13CaseTransformE
+   670: 4675e7cd   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI16GetRemindItemCntEv
+   671: 4675effd   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI24GetRecordReadyRemindItemER11CRemindInfo
+   672: 467432e9    56 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl12t_DisconnectEv
+   673: 4674a419   628 FUNC    GLOBAL DEFAULT   11 _ZN17CReminderDBusInfo9SendEventEPK14TReminderEvent
+   674: 4676ac3d   224 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil6StatusER9HCProgram
+   675: 467727e4    14 OBJECT  GLOBAL DEFAULT   13 _ZTS11CRemindInfo
+   676: 46761cb1   512 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp18IsProgramScheduledENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP11CRemindInfoRSt6vectorIS6_SaIS6_EE
+   677: 46751c79   200 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil16GetCurrentSourceEv
+   678: 46755fa5   428 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil23m_GetBookingAlternativeERK11CRemindInfoRSt3mapI18ERemAlterativeTypeSt6vectorIS0_SaIS0_EESt4lessIS4_ESaISt4pairIKS4_S7_EEE
+   679: 4675a411   272 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21GetRemindItemsForCridERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorI11CRemindInfoSaIS9_EE
+   680: 4676a9f1   160 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil13m_MatchNormalER11CRemindInfoR9HCProgram
+   681: 46747b91    24 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo18GetProgramSourceIDB5cxx11Ev
+   682: 4677a00c     4 OBJECT  GLOBAL DEFAULT   23 _ZN10CDBControl11m_pInstanceE
+   683: 467729c0    49 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail20error_info_containerE
+   684: 46778900    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN16CReminderAPIUtil11StringMatch22CaseSensitiveTransformE
+   685: 4676ac1d    30 FUNC    GLOBAL DEFAULT   11 _ZN10RemindUtil14m_GetEPGStatusER11CRemindInfo
+   686: 4675e409    40 FUNC    GLOBAL DEFAULT   11 _ZN13CReminderLockD1Ev
+   687: 467566f9   164 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp16GetRemindItemCntEv
+   688: 467409f5  3526 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteriaC1Ev
+   689: 46750265     2 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImpD1Ev
+   690: 46759da9  1640 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp21GetRemindItemsForMHEGERSt6vectorI11CRemindInfoSaIS1_EE
+   691: 46756645   180 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp16GetRemindItemCntERSt6vectorI11CRemindInfoSaIS1_EE
+   692: 4675fd49   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI26DeleteAllVirtualRemindItemEv
+   693: 4674c249   240 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil24FlagSupportRecordingSpecEv
+   694: 46772f74    28 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost17bad_function_callE
+   695: 46772dec   178 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSA_EEEEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSO_ILi2EEEEEEE
+   696: 46742fbd   292 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControlC1Ev
+   697: 4675f945   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI30UpdateChannelInfoOfRemindItemsE12EChannelType
+   698: 4675f571   208 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI16FindGroupBookingENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11CRemindInfo
+   699: 467409d1    36 FUNC    GLOBAL DEFAULT   11 _Z14countDBColumnsNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   700: 46756fcd  4804 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp30UpdateChannelInfoOfRemindItemsE12EChannelType
+   701: 4675f1cd   144 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI19GetReminderListSizeEv
+   702: 4675ed7d   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI28GetRemindItemsByProgramTitleENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorI11CRemindInfoSaIS7_EEb
+   703: 4675f641   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI23ExistSameTimeRemindItemERK11CRemindInfoRS0_
+   704: 46765dad   268 FUNC    GLOBAL DEFAULT   11 CGetRemindItemsForCrid
+   705: 46778a90     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function2IiRKyR13TCProgramDataE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideS2_S4_EENS7_5list3INS7_5valueIPSB_EENS_3argILi1EEENSH_ILi2EEEEEEEEEvT_E13stored_vtable
+   706: 4677899c     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii8IServiceRK16TCCriteriaHelperR13TCServiceDatabEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSF_ILi2EEENSF_ILi3EEEEEEE
+   707: 467417bd   106 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteriaD1Ev
+   708: 46760765   348 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp18IsChannelScheduledERK13TCServiceData
+   709: 46762cfd   324 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp24m_DeleteFailedRemindItemEv
+   710: 467461d1    92 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl6NotifyEv
+   711: 4675faf9   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI19TransRecording2FailEmi
+   712: 4674edbd   628 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil27CheckDuplicateTimeAndRepeatEPK11CRemindInfoS2_
+   713: 467652c5   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI16AddSeriesProgramERK13TCProgramDatab
+   714: 4675f25d   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI25GetOverlappingRemindItemsERK11CRemindInfoRSt6vectorIS0_SaIS0_EEb
+   715: 46747925    78 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfoltERKS_
+   716: 46772f38    58 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_implINS0_10bad_alloc_EEE
+   717: 4675ecd5   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI20GetRemindItemsByTypeERiRSt6vectorI11CRemindInfoSaIS2_EE12EExtractType12EOrderByType
+   718: 46765be5   284 FUNC    GLOBAL DEFAULT   11 CGetRemindItemsByChannelName
+   719: 46760ffd   216 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp23t_DeleteRemindItemByUidEm
+   720: 46743321   136 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControlD1Ev
+   721: 46751145    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf1Ii18IServiceNavigationR8TSTvModeEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEE6manageERKNS1_15function_bufferERSK_NS1_30functor_manager_operation_typeE
+   722: 467518e1     2 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatch13CaseTransformD2Ev
+   723: 4675f125   168 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI23GetStartTimeIsSameItemsERK11CRemindInfoRSt6vectorIS0_SaIS0_EE14EScheduledType
+   724: 46753ea5    32 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImpC2Ev
+   725: 4675fc25   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI17DeleteRemindItemsERSt6vectorImSaImEE
+   726: 46751c75     4 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil13GetMaxItemCntEv
+   727: 4674b4d9   308 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo19GetProgramMonitorIdER18TCProgramMonitorId
+   728: 46779ecc     4 OBJECT  GLOBAL DEFAULT   22 _ZN16CReminderAPIUtil9t_CountryE
+   729: 4674bed9   340 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil15FlagSupportCRIDEv
+   730: 4677888c     8 OBJECT  GLOBAL DEFAULT   19 _ZTI15CReminderAPIImp
+   731: 46764759   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI27CheckRemindItemIsRecordableEm
+   732: 4674186d   812 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteria7OrderByENS_13CRITERIA_TYPEE
+   733: 4675d7e9   140 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp41GetTextForTimerRecordingErrorByTimeChangeEtRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   734: 4674c02d   540 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil33FlagSupportRecordingSpaceCheckingEv
+   735: 46758649   560 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp20DeletePastRemindItemEv
+   736: 46765699   260 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI11GetInstanceEv
+   737: 467789a4     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf1Ii18IServiceNavigationR8TSTvModeEENS0_5list2INS0_5valueIPS4_EENS_3argILi1EEEEEEE
+   738: 46751b1d    72 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatch24CaseInsensitiveTransform9transformERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   739: 4675d37d    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf2Ii8IServiceRK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaISE_EEEEENS3_5list3INS3_5valueIPS7_EENS_3argILi1EEENSN_ILi2EEEEEEEE6manageERKNS1_15function_bufferERST_NS1_30functor_manager_operation_typeE
+   740: 46765915   272 FUNC    GLOBAL DEFAULT   11 CExistConflicts
+   741: 4674c509   788 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil19NumOfAvailableTunerEv
+   742: 46756a05     4 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp25GetOverlappingRemindItemsERK11CRemindInfoPSt6vectorIS0_SaIS0_EEb
+   743: 4675e3e1    40 FUNC    GLOBAL DEFAULT   11 _ZN13CReminderLockC1ERK14CReminderMutex
+   744: 46750185    34 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function21function_obj_invoker1INS_3_bi6bind_tIiNS_4_mfi3mf1Ii18IServiceNavigationR8TSTvModeEENS3_5list2INS3_5valueIPS7_EENS_3argILi1EEEEEEEiS9_E6invokeERNS1_15function_bufferES9_
+   745: 46747f31   124 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo15CopyDetailsIntoER11TCProgramId
+   746: 4675bc8d   572 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp28GetRemindItemsByProgramTitleERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorI11CRemindInfoSaIS9_EEb
+   747: 46778668     8 OBJECT  GLOBAL DEFAULT   19 _ZTI10CDBControl
+   748: 46778710    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10bad_alloc_E
+   749: 46765d01   172 FUNC    GLOBAL DEFAULT   11 CGetRemindItemsForMHEG
+   750: 467727f4    13 OBJECT  GLOBAL DEFAULT   13 _ZTS10CDBControl
+   751: 4674b9bd    72 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil21FlagSupportMarginTimeEv
+   752: 46750339    42 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil9FullMatch12stringSearchERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   753: 4675e409    40 FUNC    GLOBAL DEFAULT   11 _ZN13CReminderLockD2Ev
+   754: 4675e9a1   208 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI17FindSeriesBookingENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11CRemindInfo
+   755: 467409f5  3526 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteriaC2Ev
+   756: 46750265     2 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImpD2Ev
+   757: 4677a008     4 OBJECT  GLOBAL DEFAULT   23 _ZN10CDBControl7m_semdbE
+   758: 46772c34   170 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii18IServiceNavigation8TSTvModeRK16TCCriteriaHelperR13TCServiceDataEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSG_ILi2EEENSG_ILi3EEEEEEE
+   759: 46766025    14 FUNC    GLOBAL DEFAULT   11 CDeleteAllRemindItem
+   760: 4675ef65   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI21GetRemindItemsForCridERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorI11CRemindInfoSaIS9_EE
+   761: 46772fc4    31 OBJECT  GLOBAL DEFAULT   13 _ZTSN16CReminderAPIUtil9FullMatchE
+   762: 4677898c     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuideNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9ECRIDTypeRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSE_EEEEENS0_5list4INS0_5valueIPS4_EENS_3argILi1EEENSS_ILi2EEENSS_ILi3EEEEEEE
+   763: 46754571    22 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil41GetTextForTimerRecordingErrorByTimeChangeEtRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   764: 4677a100     4 OBJECT  GLOBAL DEFAULT   23 _ZZN2ht24TCArgPropertiesSingletonISt4pairIKjP13TCProgramDataEE13SetPropertiesERNS_15TIArgPropertiesEE5saved
+   765: 4674622d  2616 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl12t_BindDetailENS_12COMMAND_TYPEERK11CRemindInfo
+   766: 4674d53d   872 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo3SetEy
+   767: 46772a2c     1 OBJECT  GLOBAL DEFAULT   13 _ZSt19piecewise_construct
+   768: 4676535d   672 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp29m_AddSplitEventIntoRemindListER11CRemindInfobSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjS4_EEE
+   769: 46742fbd   292 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControlC2Ev
+   770: 4677890c     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN16CReminderAPIUtil11StringMatchE
+   771: 46766045    14 FUNC    GLOBAL DEFAULT   11 CGetReminderListSize
+   772: 46746d35   176 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControl8t_UpdateERK11CDBCriteriaRK11CRemindInfo
+   773: 467789ac     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideRK11TCProgramIdRSt3mapIjP13TCProgramDataSt4lessIjESaISt4pairIKjSA_EEEEENS0_5list3INS0_5valueIPS4_EENS_3argILi1EEENSO_ILi2EEEEEEE
+   774: 4675cb19   236 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp18RecordingIsDelayedEm
+   775: 46778964    40 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10wrapexceptINS_17bad_function_callEEE
+   776: 4674e199   516 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil16FlagOneTunerCaseERK11CRemindInfoRKSt6vectorIS0_SaIS0_EE
+   777: 4674b60d   356 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo21MatchProgramMonitorIdERK18TCProgramMonitorId
+   778: 467516d5   112 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11StringMatchC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   779: 4677a070     8 OBJECT  GLOBAL DEFAULT   23 _ZZN5boost16exception_detail27get_static_exception_objectINS0_14bad_exception_EEENS_13exception_ptrEvE2ep
+   780: 467417bd   106 FUNC    GLOBAL DEFAULT   11 _ZN11CDBCriteriaD2Ev
+   781: 4676055d    96 FUNC    GLOBAL DEFAULT   11 ReminderStatus
+   782: 46778730     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost6detail15sp_counted_baseE
+   783: 46778a1c    20 OBJECT  GLOBAL DEFAULT   19 _ZTVN16CReminderAPIUtil11StringMatchE
+   784: 4675d425    84 FUNC    GLOBAL DEFAULT   11 _ZN5boost6detail8function15functor_managerINS_3_bi6bind_tIiNS_4_mfi3mf3Ii13IServiceGuide17EProgramIndicatorRK11TCProgramIdR13TCProgramDataEENS3_5list4INS3_5valueIPS7_EENS_3argILi1EEENSJ_ILi2EEENSJ_ILi3EEEEEEEE6manageERKNS1_15function_bufferERSQ_NS1_30functor_manager_operation_typeE
+   785: 46778680    16 OBJECT  GLOBAL DEFAULT   19 _ZTV10CDBControl
+   786: 4674a1d9   348 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo10SetEventIdEt
+   787: 46756b7d   856 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp14FindRemindItemERK11CRemindInfoRS0_RSt6vectorIS0_SaIS0_EE
+   788: 46778758     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail20error_info_containerE
+   789: 4675e431   152 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI41GetTextForTimerRecordingErrorByTimeChangeEtRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   790: 46743321   136 FUNC    GLOBAL DEFAULT   11 _ZN10CDBControlD2Ev
+   791: 46751ae9    50 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil9LowerCaseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   792: 46778a38     8 OBJECT  GLOBAL DEFAULT   19 _ZZN5boost9function2IiRK11TCProgramIdR13TCProgramDataE9assign_toINS_3_bi6bind_tIiNS_4_mfi3mf2Ii13IServiceGuideS3_S5_EENS8_5list3INS8_5valueIPSC_EENS_3argILi1EEENSI_ILi2EEEEEEEEEvT_E13stored_vtable
+   793: 4674b7b5    76 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil11ConvertTimeEmR2tm
+   794: 4675c1e5   228 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp27FindRemindItemsFromProgramsERSt3mapIP13TCProgramData11CRemindInfoSt4lessIS2_ESaISt4pairIKS2_S3_EEE
+   795: 46778924    32 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_implINS0_10bad_alloc_EEE
+   796: 4675a521   380 FUNC    GLOBAL DEFAULT   11 _ZN15CReminderAPIImp24GetRecordReadyRemindItemER11CRemindInfo
+   797: 4674cd7d  1380 FUNC    GLOBAL DEFAULT   11 _ZNK11CRemindInfo14GetChannelNameB5cxx11Ev
+   798: 4677a07c     8 OBJECT  GLOBAL DEFAULT   23 _ZN5boost16exception_detail37exception_ptr_static_exception_objectINS0_14bad_exception_EE1eE
+   799: 46752075   176 FUNC    GLOBAL DEFAULT   11 _ZN16CReminderAPIUtil9m_LastDayEii
+   800: 4675fb91   148 FUNC    GLOBAL DEFAULT   11 _ZN12CReminderAPI26DeleteRemindItemAloneByUidEm
+   801: 4674b935    16 FUNC    GLOBAL DEFAULT   11 _ZN11CRemindInfo12SetStartTimeEm
+
+STDERR:

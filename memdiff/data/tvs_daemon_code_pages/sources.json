@@ -1,0 +1,10 @@
+{
+  "boots": {
+    "GCC1": "data/gcc_baseline/boot1/memcheck/gcc_boot1_20261102_182343/02_steady/smaps_raw.txt.gz",
+    "GCC2": "data/gcc_baseline/boot2/memcheck/gcc_boot2_20261102_192351/02_steady/smaps_raw.txt.gz",
+    "LLVM1": "data/llvm_round3/boot1/memcheck/llvm_boot1_20261103_015124/02_steady/smaps_raw.txt.gz",
+    "LLVM2": "data/llvm_round3/boot2/memcheck/llvm_boot2_20261103_030258/02_steady/smaps_raw.txt.gz"
+  },
+  "readelf": "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-readelf",
+  "rpm_source": "data/prelink_overlay_prep/library_union.tsv"
+}

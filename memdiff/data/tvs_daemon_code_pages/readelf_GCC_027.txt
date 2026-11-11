@@ -1,0 +1,1754 @@
+### sections rc=0
+There are 29 section headers, starting at offset 0xddd38:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            450c6114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        450c6138 000138 0025fc 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          450c8734 002734 006860 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          450cef94 008f94 01812e 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          450e70c2 0210c2 000d0c 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         450e7dd0 021dd0 000190 00   A  4   5  4
+  [ 7] .rel.dyn          RELA            450e7f60 021f60 00ad70 0c   A  3   0  4
+  [ 8] .rel.plt          REL             450f2cd0 02ccd0 0013a8 08  AI  3  21  4
+  [ 9] .init             PROGBITS        450f46a8 02e6a8 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        450f46b4 02e6b4 001e08 04  AX  0   0  4
+  [11] .text             PROGBITS        450f64c0 0304c0 0859c8 00  AX  0   0  8
+  [12] .fini             PROGBITS        4517be88 0b5e88 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        4517be90 0b5e90 017ebe 00   A  0   0  4
+  [14] .ARM.extab        PROGBITS        45193d50 0cdd50 005e74 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       45199bc4 0d3bc4 001c68 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        4519b82c 0d582c 000004 00   A  0   0  4
+  [17] .init_array       INIT_ARRAY      4519c000 0d6000 000008 04  WA  0   0  4
+  [18] .fini_array       FINI_ARRAY      4519c008 0d6008 000004 04  WA  0   0  4
+  [19] .data.rel.ro      PROGBITS        4519c00c 0d600c 004234 00  WA  0   0  4
+  [20] .dynamic          DYNAMIC         451a0240 0da240 000160 08  WA  4   0  4
+  [21] .got              PROGBITS        451a1000 0db000 000e84 04  WA  0   0  4
+  [22] .data             PROGBITS        451a1e84 0dbe84 000204 00  WA  0   0  4
+  [23] .bss              NOBITS          451a2088 0dc088 000040 00  WA  0   0  4
+  [24] .comment          PROGBITS        00000000 0dc088 00002c 01  MS  0   0  1
+  [25] .gnu.liblist      GNU_LIBLIST     00000000 0dc0b4 000b54 14     26   0  4
+  [26] .gnu.libstr       STRTAB          00000000 0dcc08 000b1d 00      0   0  1
+  [27] .gnu.prelink_undo PROGBITS        00000000 0dd728 0004fc 01      0   0  4
+  [28] .shstrtab         STRTAB          00000000 0ddc24 000112 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x450c6000
+There are 7 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x0d3bc4 0x45199bc4 0x45199bc4 0x01c68 0x01c68 R   0x4
+  LOAD           0x000000 0x450c6000 0x450c6000 0xd5830 0xd5830 R E 0x1000
+  LOAD           0x0d6000 0x4519c000 0x4519c000 0x06088 0x060c8 RW  0x1000
+  DYNAMIC        0x0da240 0x451a0240 0x451a0240 0x00160 0x00160 RW  0x4
+  NOTE           0x000114 0x450c6114 0x450c6114 0x00024 0x00024 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x0d6000 0x4519c000 0x4519c000 0x05000 0x05000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     
+   06     .init_array .fini_array .data.rel.ro .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.3) 14.2.0
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 1670 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 450f46a8     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 451a1e84     0 SECTION LOCAL  DEFAULT   22 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB15t_FilterServiceEP16TCDVBSDTInstanceP19TCDVBSDTItemService
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBNITInstance10DVBItemMuxEtt
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8TSTvModeC1ERK13_TVSM_STvMode
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftell@GLIBC_2.4 (2)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB20t_PrepareFastNITScanEP13TCServiceData
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB15t_GatheringDataE19ServiceTypeCategoryPNSt7__cxx114listIP13TCServiceDataSaIS4_EEE
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen64@GLIBC_2.4 (2)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescFSatServiceGroup12NumOfEntriesEv
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB14GetBATInstanceEt
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt24__throw_out_of_range_fmtPKcz@GLIBCXX_3.4.20 (3)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt19__throw_logic_errorPKc@GLIBCXX_3.4 (4)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND XML_SetUserData
+    17: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI15TCSectionParser
+    18: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI22TCDescLogicalChannelV2
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescFSatLogicalChannelC1Ev
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (5)
+    21: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI29TCDescSatelliteDeliverySystem
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParam13SetSymbolRateEt
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr1@GCC_3.5 (6)
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBSDTParser14DVBSDTInstanceEtt
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCNonExternalServiceManager12FindServicesERK16TCCriteriaHelperRNSt7__cxx114listI13TCServiceDataSaIS5_EEE
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj@GLIBCXX_3.4.21 (7)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManagerC2Ev
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB12t_ComputeRCNEP13TCServiceData
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19M7HomeTPLinkageData6GetPIDENS_12TSOperatorIDE
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND XML_ParserFree
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt17__throw_bad_allocv@GLIBCXX_3.4 (4)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znaj@GLIBCXX_3.4 (4)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN11TCPMTParser11PMTInstanceEt
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCNonExternalServiceManager14DeleteServicesERK16TCCriteriaHelper
+    35: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI13TCTreeLeafVar
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBNITInstance17DVBItemMuxOfIndexEj
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN26TCDescFSatServiceGroupName9GroupTypeEjRh
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase27t_CopyResolutionInformationER13TCServiceData
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCUnicodeConverter16ConvertToUnicodeEPhRtRNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEEb13ELanguageCodeb
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base4swapERS0_S1_@GLIBCXX_3.4.15 (8)
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCDescEPGInformation6GenresEPhPi
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceUtility25ServiceTypeFromDVBServiceE15EDVBServiceType
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCAgentControlMgr10m_InstanceE25TSAgentControlInstanceKey
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB29t_ChannelUpdateDVBBySDTActualERK13TCServiceDataRNSt7__cxx114listIPS0_SaIS5_EEE
+    45: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCDescCountryAvailability18IsServiceAvailableEj
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase17t_IsOnManualStoreEv
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBFNTInstance10DVBItemMuxEttt
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCDescGTPLGenreList11GetGenreMapEv
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK25TCChannelUpdateHelperBase17t_SendServiceListERNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCNonExternalServiceManager16FindFullServicesERK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaIS6_EEE
+    52: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI25TCChannelUpdateHelperBase
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN11TSSatelliteC1E12ESatelliteIdNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEE18ECardinalDirectionj
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (6)
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParam16SetTransponderIdEi
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceData3SetEiRKNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEE
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj@GLIBCXX_3.4.21 (7)
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt24__throw_invalid_argumentPKc@GLIBCXX_3.4 (4)
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCServiceData3GetEiPt
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase19t_IsOnClearScrambleEv
+    61: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI13TCDescService
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil22ExtractServicesFromECNEP16TCDVBBATInstanceRSt8multimapI12TCServiceKeytSt4lessIS3_ESaISt4pairIKS3_tEEE
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCRCNAllocatorBase24ReorderCIVirtualChannelsEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCDVBSGTItemService14GetServiceDataEP13TCServiceData
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase15t_IsOnAutoStoreEv
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceUtil24FreeviewRegionsAvailableERK9TVSHandle
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCSatelliteManager13FindSatelliteERK16TCCriteriaHelperR11TSSatellite
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBFSTInstance24DVBFSTItemServiceOfIndexEj
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB16t_InitServiceMapEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCPMTInstance13PMTElementaryEj
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParam12SetFrequencyEi
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB16t_AssignOrderMapEv
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCNonExternalServiceManager15ReplaceServicesERK16TCCriteriaHelperRNSt7__cxx114listIP13TCServiceDataSaIS6_EEE
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@GLIBC_2.4 (2)
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescFSatLogicalChannel19GetAvailableRegionsERNSt7__cxx114listItSaItEEE
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCVConfProvider20GetPreferredLanguageERK9TVSHandle
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base7_M_hookEPS0_@GLIBCXX_3.4.15 (8)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase14GetBATInstanceEt
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9SOSpecMgr9GetSOSpecERK9TVSHandle
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCDescEPGInformation9NumGenresEv
+    81: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv121__vmi_class_type_infoE@CXXABI_1.3 (5)
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBBATInstance9BouquetIdEv
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCUnicodeConverterD1Ev
+    84: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI18TCRCNAllocatorBase
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescFSatServiceGroup15GetServiceGroupEjR12ServiceGroup
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB17AvailableSDTOtherEv
+    87: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI17TCRCNAllocatorDVB
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase22t_ISDynamicSIAvailableEv
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataC1Ev
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB16UpdateChannelPSIEP13TCServiceData
+    91: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (7)
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB16t_CompareBestMuxEP13TCServiceDataS1_
+    93: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV8TSTvMode
+    94: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt9exception@GLIBCXX_3.4 (4)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManagerD2Ev
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt19__throw_regex_errorNSt15regex_constants10error_typeE@GLIBCXX_3.4.15 (8)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase21t_IsNITVersionChangedEv
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB23t_GeServiceListCacheKeyEtttt
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataManagerD1Ev
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB16t_GetLCNandHDLCNEP12TCDVBItemMuxtRNSt7__cxx114listItSaItEEEPtPb
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescOtauChannelOrder8GetOrderEt
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (2)
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager4LockEv
+   104: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV22TSBarkerChannelLocator
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataC1ERKS_
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBSGTParser8InstanceEt
+   107: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelperD1Ev
+   109: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZN27TCDescPolsatChannelListInfo26DESCRIPTOR_DEFAULT_VERSIONE
+   110: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI15TCDVBTKGSParser
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND XML_ParserCreate
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseek@GLIBC_2.4 (2)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBSGTParser15ServiceListsIdsERNSt7__cxx114listItSaItEEE
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase21t_RetrieveChannelDataERK13TCServiceDataRS0_
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt16__throw_bad_castv@GLIBCXX_3.4 (4)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase16UpdateChannelPSIEP13TCServiceData
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil24RegisterDefaultAuthorityE15EServiceProfileP19TCDVBSDTItemServiceP12TCDVBItemMuxP20IDescriptorContainerP13TCServiceData
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBFSTParser14DVBFSTInstanceEt
+   119: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCPredefinedParserTools26ConvertStringToSatelliteIdEPKc
+   120: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescLogicalChannelV229GetLogicalChannelMapForChListEjRSt8multimapIt10_TTDescLCNSt4lessItESaISt4pairIKtS1_EEE
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB16t_GetServiceTypeEP13TCDescServicettt
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (5)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB5ResetEv
+   124: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI15TCDescComponent
+   125: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI24TCDescFSatLogicalChannel
+   126: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTT17TCRCNAllocatorDVB
+   127: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3 (5)
+   128: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelperC1ERKS_
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@GLIBCXX_3.4 (4)
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdaPv@GLIBCXX_3.4 (4)
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB13t_GetEmptyRCNEtt
+   132: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV24TCChannelUpdateHelperDVB
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase26t_GetTunerMarginPropertiesER18TSSignalMarginInfo
+   134: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt16invalid_argument@GLIBCXX_3.4 (4)
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB13t_PostProcessEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@CXXABI_1.3 (5)
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase18t_ConvertToUnicodeEPhtRNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEEjb
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB27t_ChannelUpdateDVBDynamicSIEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+   139: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV11TSSatellite
+   140: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB15t_SetServiceKeyEP15TCUniqueLocatorP13TCServiceData
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@GLIBC_2.4 (2)
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager6UnlockEv
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil34AcquireSatelliteDeliveryParametersERK9TVSHandleR29TCDescSatelliteDeliverySystemR13TCServiceDatai
+   145: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB37t_ChannelUpdateDVBDynamicSIBySDTOtherEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescFSatInfoLocation15GetInfoLocationEj
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCDVBTKGSParser32GetServiceListTranslationByIndexEjRSt3mapI13ELanguageCodeNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEESt4lessIS1_ESaISt4pairIKS1_S7_EEE
+   148: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI10TCBaseDesc
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_abort@CXXABI_1.3 (5)
+   150: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location@GLIBC_2.4 (2)
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND XML_Parse
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND tzplatform_mkpath@TPC (9)
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescFSatLogicalChannel5MergeERS_
+   154: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCPowerTvProvider19IsStandByScanActiveEv
+   155: 00000000     0 FUNC    GLOBAL DEFAULT  UND _exit@GLIBC_2.4 (2)
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase16t_GetBouquetNameEP10TCBaseDescRNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEE13ELanguageCode
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB22t_AssignDataServiceMapEv
+   158: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBNITInstance9NetworkIdEv
+   159: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28__throw_bad_array_new_lengthv@GLIBCXX_3.4.29 (10)
+   160: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase14t_UpdateSDTVerEttt
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCSatelliteManagerC1Ev
+   162: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBNITParser11GetInstanceEt
+   163: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB14t_IsInCategoryE19ServiceTypeCategoryP13TCServiceData
+   164: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt5ctypeIcE13_M_widen_initEv@GLIBCXX_3.4.11 (11)
+   165: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIt@CXXABI_1.3 (5)
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCMultipleLCNKeyC1Eiiiii
+   167: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (4)
+   168: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdlPvj@CXXABI_1.3.9 (12)
+   169: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TSTransponderC1Et12ESatelliteIdit17EDVBSPolarisation12EDVBFECInner
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB21t_UpdateInvisibleInfoEP12TCDVBItemMuxttP13TCServiceData
+   171: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCDescServiceList11ServiceTypeEi
+   172: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil21MINOR_NUMBER_ONE_PARTE
+   173: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZNSt7__cxx117collateIcE2idE@GLIBCXX_3.4.21 (7)
+   174: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCMultipleStringStruct13MultipleSoundEj
+   175: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB19t_ComposeChannelDVBEP13TCServiceDataS1_tttb13EServiceStateP16TCDVBNITInstanceP12TCDVBItemMuxP19TCDVBSDTItemServicetttbPSt6vectorIjSaIjEE
+   176: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCDescService23ServiceProviderNameTextEPhRt
+   177: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB16t_ClearResultMapEv
+   178: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_@GLIBCXX_3.4.15 (8)
+   179: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN9TIStorage8InstanceENS_12EStorageTypeE
+   180: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBSGTParser5ResetEv
+   181: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV19TCPriorityScanParam
+   182: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK18TCRCNAllocatorBase16GetUniqueLocatorERK13TCServiceData
+   183: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase18t_FilterUHDServiceEhPK19TCDVBSDTItemService
+   184: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeaSERKS_@GLIBCXX_3.4 (4)
+   185: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB23t_FilterNordigHDLinkageEP16TCDVBSDTInstanceP19TCDVBSDTItemService
+   186: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper8WhereNotEii
+   187: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB23t_IsLocatorInServiceMapER12TCServiceKeyRSt3mapI16TCMultipleLCNKeyP13TCServiceDataSt4lessIS3_ESaISt4pairIKS3_S5_EEE
+   188: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase18t_ConvertToUnicodeEPhtS0_Rtb
+   189: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBSDTInstance22NumOfDVBSDTItemServiceEv
+   190: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21 (7)
+   191: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (5)
+   192: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.4 (2)
+   193: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN10TCAgentMgr10m_InstanceE18TSAgentInstanceKey
+   194: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.4 (2)
+   195: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN21TCServiceDataExtendedC1ERK13TCServiceData
+   196: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB39t_IsHighStrength_ConflictRCN_BestSignalEP13TCServiceDataS1_
+   197: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCDVBTKGSParser13GetServiceKeyEjR12TCServiceKey
+   198: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI27TCDescPolsatChannelListInfo
+   199: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIi@CXXABI_1.3 (5)
+   200: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI25TCDescTKGSExtendedService
+   201: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV22TSHomingChannelLocator
+   202: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN33TCDescSogecablePrivateChannelList16GetChannelNumberEtRt
+   203: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV16TCCriteriaHelper
+   204: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znwj@GLIBCXX_3.4 (4)
+   205: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI17TCDescFSatLinkage
+   206: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil25AcquireDeliveryParametersERK9TVSHandleR12TCDVBItemMuxR13TCServiceDataii
+   207: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (5)
+   208: 00000000     0 FUNC    GLOBAL DEFAULT  UND vfork@GLIBC_2.4 (2)
+   209: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParam17SetServiceProfileE15EServiceProfile
+   210: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase24IsAvailableWindowForScanEv
+   211: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_length_errorPKc@GLIBCXX_3.4 (4)
+   212: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBBATInstance15NumOfDVBItemMuxEv
+   213: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI35TCDescTKGSMultilingualCategoryLabel
+   214: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_out_of_rangePKc@GLIBCXX_3.4 (4)
+   215: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBBATInstance17DVBItemMuxOfIndexEj
+   216: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase26t_DynamicServiceListUpdateEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE12EChannelType15EServiceProfileb
+   217: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN21TCDescNXTServiceOrder9ServiceIdEi
+   218: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataUtility9t_SetDataER13TCServiceDataiPKvi
+   219: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@CXXABI_1.3 (5)
+   220: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCDescAstraVirtualServiceId16VirtualServiceIdERt
+   221: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TScanLocationC1Ev
+   222: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCCacheLCNServiceKeyC1Ev
+   223: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase22t_SetCurrentNITVersionEv
+   224: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCServiceDataUtil23MarkServiceAvailabilityER13TCServiceDatab
+   225: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper5WhereEiRKy
+   226: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil17IsHomeTransponderEPK13TCServiceDatab
+   227: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV20TCESProcessHandleDVB
+   228: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Z17TCApiPrintMessagePKcz
+   229: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBaseC2ERK9TVSHandleP19IChannelUpdateProxy
+   230: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (7)
+   231: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCSatelliteManager15FindTransponderERK16TCCriteriaHelperR13TSTransponder
+   232: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Unwind_Resume@GCC_3.0 (13)
+   233: 00000000     0 FUNC    GLOBAL DEFAULT  UND aul_app_is_running
+   234: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCSatelliteManagerD1Ev
+   235: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase25t_StoreCurrentBATVersionsEv
+   236: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataManager14DeleteBouquetsERK15EServiceProfileRK12EChannelType
+   237: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil14SetNetworkNameE8TSTvModeP16TCDVBNITInstanceRK9TVSHandle
+   238: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19SiBaseObjectFactory17GetPlayerStreamSiESt10shared_ptrI14TIStreamHandleE
+   239: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN26TCDescFSatServiceGroupName12NumOfEntriesEv
+   240: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZN27TCDescPolsatChannelListInfo25DESCRIPTOR_DEFAULT_UPDATEE
+   241: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TCServiceKeyC1Ettt
+   242: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil25RemoveServicesRelatedDataERK9TVSHandleRKNSt7__cxx114listIP13TCServiceDataSaIS6_EEEb
+   243: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN26TCDescFSatServiceGroupName8GetEntryEjjRtPhRj
+   244: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCSatelliteManager18AddUserTransponderERK13TSTransponderRtb
+   245: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI26TCDescFSatServiceGroupName
+   246: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCDescFSatLinkage10GetLinkageEjRNS_7LinkageE
+   247: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI25TCDescCountryAvailability
+   248: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCDVBTKGSParser22GetDeliverySystemIndexEjRj
+   249: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8TCRWLock5RLockEv
+   250: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (2)
+   251: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSi10_M_extractIlEERSiRT_@GLIBCXX_3.4.9 (14)
+   252: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBFSTInstance22NumOfDVBFSTItemServiceEv
+   253: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCMarshalableC2Ev
+   254: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc@GLIBCXX_3.4.21 (7)
+   255: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase16m_GetTVModeAgentEv
+   256: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager15UpdateFavoritesERKSt6vectorISt4pairIybESaIS2_EEh
+   257: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTT24TCChannelUpdateHelperDVB
+   258: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase23t_CopySignalInformationER13TCServiceData
+   259: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB16t_MatchMuxByOnidEtt
+   260: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBNITInstance10DVBItemMuxEt
+   261: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBNITParser16GetFirstInstanceEv
+   262: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN10TCCharConv18ConvertLowerCaseAZEPtt
+   263: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB18t_SetServiceHiddenEhPK19TCDVBSDTItemServiceP13TCServiceData
+   264: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@GLIBCXX_3.4.21 (7)
+   265: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseD2Ev@GLIBCXX_3.4 (4)
+   266: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCDVBTKGSParser19GetServicLcnByIndexEjRSt3mapIjtSt4lessIjESaISt4pairIKjtEEE
+   267: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBSDTInstance22DVBSDTItemServiceBySIDEt
+   268: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB31t_CheckCurrentNITVersionChangedEP16TCDVBNITInstance
+   269: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper5WhereEii
+   270: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt9type_infoeqERKS_@GLIBCXX_3.4 (4)
+   271: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19M7HomeTPLinkageData19GetHomeTranspondersENS_12TSOperatorIDE
+   272: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCBaseSection7IsValidEv
+   273: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeC1ERKS_@GLIBCXX_3.4 (4)
+   274: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB19t_filterDataServiceEv
+   275: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN7ISOSpec3GetIbEEb10ESOSpecTagRT_
+   276: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN11TIServiceDb8InstanceEv
+   277: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataManager10AddBouquetERK15EServiceProfileRK12EChannelTypeRKNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEERy
+   278: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt8bad_cast@GLIBCXX_3.4 (4)
+   279: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCServiceDataUtil9GetTvModeE12EChannelType15EServiceProfileR8TSTvMode
+   280: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.4 (2)
+   281: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB14GetNITInstanceEt
+   282: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK24TCChannelUpdateHelperDVB16t_IsOnHomingScanEv
+   283: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB18t_PutChannelDataToE22EOtherCountryTargetMapP13TCServiceData
+   284: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK12TCDVBItemMux13LCNDescriptorEtj12ECountryCode
+   285: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN10TCCharConv17MakeUTF16FromUTF8EPKcjPtRj
+   286: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParam14SetChannelTypeE12EChannelType
+   287: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (5)
+   288: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeC1Ev@GLIBCXX_3.4 (4)
+   289: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI22TCDescFSatServiceGroup
+   290: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCVConfProvider22SetNewChannelOnStandbyEb
+   291: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCServiceData5CheckEi
+   292: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_atexit@CXXABI_ARM_1.3.3 (15)
+   293: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase18ProcessBATInstanceEP15TCSectionParser
+   294: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB27t_FilterService_eFreeCAModeEv
+   295: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescFSatLogicalChannel20LogicalChannelNumberEttRNSt7__cxx114listI10_TTDescLCNSaIS2_EEE
+   296: 00000000     0 FUNC    GLOBAL DEFAULT  UND XML_SetElementHandler
+   297: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCTVServiceDebug8ToStringB5cxx11ERKy
+   298: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@GLIBCXX_3.4.21 (7)
+   299: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (5)
+   300: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper7OrderByEi10ESortOrder
+   301: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCUnicodeConverterC1ERK9TVSHandle
+   302: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB21PreProcessHDSimulcastEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+   303: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB16t_GetLcnAndHdLcnEP12TCDVBItemMuxtRtS2_Rb
+   304: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCServiceData3GetEiRNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEE
+   305: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBBATInstance10DVBItemMuxEtt
+   306: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB21t_FilterLCNZero_NOLCNEP12TCDVBItemMuxt
+   307: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN11TCPATParser10ProgramPIDEt
+   308: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB26t_AssignIgnoreLCN_SIDorderEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   309: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc@GLIBCXX_3.4.21 (7)
+   310: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI13TCDescLinkage
+   311: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3 (5)
+   312: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt5ctypeIcE@GLIBCXX_3.4 (4)
+   313: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBNITInstance15NumOfDVBItemMuxEv
+   314: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager18GetTemplateServiceEv
+   315: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper7GroupByEi
+   316: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil24ProcessServiceDescriptorER18TCUnicodeConverterR20TCServiceDataManagerRSt3mapINSt7__cxx1112basic_stringItSt11char_traitsItESaItEEEySt4lessISA_ESaISt4pairIKSA_yEEER13TCDescServiceR13TCServiceData
+   317: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataManagerC1Ev
+   318: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper7WhereInEiRKNSt7__cxx114listIiSaIiEEE
+   319: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBBATParser11GetInstanceEt
+   320: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB21t_AssignPredefinedRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   321: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt21ios_base_library_initv@GLIBCXX_3.4.32 (16)
+   322: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCDescCountryAvailability9CountriesERNSt7__cxx114listIiSaIiEEE
+   323: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataC1EOS_
+   324: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8HashUtil10HashStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   325: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil13TCServiceListD1Ev
+   326: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4 (4)
+   327: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI24TCChannelUpdateHelperDVB
+   328: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN35TCDescTKGSMultilingualCategoryLabel15GetCategoryNameE13ELanguageCodeRNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEE
+   329: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __libc_single_threaded@GLIBC_2.32 (17)
+   330: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCNonExternalServiceManager11FindServiceERK16TCCriteriaHelperR13TCServiceData
+   331: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB16t_AssignMapEmptyERSt8multimapIiP13TCServiceDataSt4lessIiESaISt4pairIKiS2_EEEtttt
+   332: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@CXXABI_1.3 (5)
+   333: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCPredefinedParserTools23ConvertStringToECountryEPKc
+   334: 00000000     0 FUNC    GLOBAL DEFAULT  UND XML_SetCharacterDataHandler
+   335: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV20TSScanOptionCriteria
+   336: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB24t_AssignAttachUnorderMapEtttt
+   337: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil15SetServiceTraitERK9TVSHandlePK20IDescriptorContainerR13TCServiceData
+   338: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase15t_IsOnDynamicSIEv
+   339: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt15basic_streambufIcSt11char_traitsIcEE@GLIBCXX_3.4 (4)
+   340: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI14TCDVBSDTParser
+   341: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN21TCServiceDataExtended18CreateCachedDataIdER13TCServiceData
+   342: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj@GLIBCXX_3.4.21 (7)
+   343: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   344: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4 (4)
+   345: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCTVServiceDebug8ToStringB5cxx11ERK9TVSHandle
+   346: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj@GLIBCXX_3.4.21 (7)
+   347: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK12TCServiceKeyltERKS_
+   348: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN18TCSatelliteManager19FindTransponderListERK16TCCriteriaHelperRSt6vectorI13TSTransponderSaIS4_EE
+   349: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc23_strtol@GLIBC_2.38 (18)
+   350: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.4 (2)
+   351: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase18ProcessNITInstanceEP15TCSectionParser
+   352: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParam17SetModulationTypeE11EModulation
+   353: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt11regex_error@GLIBCXX_3.4.15 (8)
+   354: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __stack_chk_guard@GLIBC_2.4 (19)
+   355: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCAgentControlMgr8InstanceEv
+   356: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCDescServiceList9ServiceIdEi
+   357: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB15t_JudgeValidLCNEtt
+   358: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.4 (2)
+   359: 00000000     0 FUNC    GLOBAL DEFAULT  UND __snprintf_chk@GLIBC_2.4 (2)
+   360: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj@GLIBCXX_3.4.21 (7)
+   361: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_pure_virtual@CXXABI_1.3 (5)
+   362: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN21TCDescNXTServiceOrder12ServiceOrderEi
+   363: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB26t_AssignStandardUnorderMapEtttt
+   364: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB18t_SetNetworkAttribEP16TCDVBNITInstanceP12TCDVBItemMuxttR13TCServiceData
+   365: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.4 (2)
+   366: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22SiObjectFactoryDVBBase18GetESProcessHandleERK9TVSHandleb
+   367: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK25TCChannelUpdateHelperBase22t_CurrentServiceTvModeEv
+   368: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN7TVSLogs6TVSLogEb12log_priorityPKcS2_S2_S2_iiiiiiS2_z
+   369: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8__detail15_List_node_base9_M_unhookEv@GLIBCXX_3.4.15 (8)
+   370: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8TCRWLock7RUnlockEv
+   371: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dynamic_cast@CXXABI_1.3 (5)
+   372: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI33TCDescSogecablePrivateChannelList
+   373: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB43t_IsHighStrength_ConflictLocator_CompareMUXEP13TCServiceDataS1_
+   374: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI17TCDescDishTVGenre
+   375: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCDescFSatLinkage12NumOfEntriesEv
+   376: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (4)
+   377: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt9basic_iosIcSt11char_traitsIcEE@GLIBCXX_3.4 (4)
+   378: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB18t_FilterUHDServiceEhPK19TCDVBSDTItemService
+   379: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB27t_ChannelUpdatePSIDynamicSIEP13TCServiceData
+   380: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCNonExternalServiceManager12ServiceCountERK16TCCriteriaHelper
+   381: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt6locale5facetE@GLIBCXX_3.4 (4)
+   382: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescAstraBouquetList8BouquetsERNSt7__cxx114listIPhSaIS2_EEE
+   383: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK16TCMultipleLCNKeyltERKS_
+   384: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseC2Ev@GLIBCXX_3.4 (4)
+   385: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV27TCNonExternalServiceManager
+   386: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase23t_IsUHDFilteringEnabledEh
+   387: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI11TCPATParser
+   388: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6localeD1Ev@GLIBCXX_3.4 (4)
+   389: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB28t_SetMultilingualChannelNameEP29TCDescMultilingualServiceNameR13TCServiceData
+   390: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase14GetNITInstanceEt
+   391: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager14InsertServicesERNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   392: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB28t_PMTStreamTypeSatelliteModeEt
+   393: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22TCDescFSatInfoLocation12NumOfEntriesEv
+   394: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN10TCAgentMgr8InstanceEv
+   395: 00000000     0 FUNC    GLOBAL DEFAULT  UND __printf_chk@GLIBC_2.4 (2)
+   396: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   397: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (7)
+   398: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB15t_SetServiceKeyEP16TCMultipleLCNKeyP13TCServiceData
+   399: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB33t_IsValidServiceTypeSatelliteModeE15EDVBServiceType
+   400: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataD1Ev
+   401: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TCServiceData9GetLengthEi
+   402: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN7TVSLogs11getInstanceEv
+   403: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI14TCDVBNITParser
+   404: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZN27TCDescPolsatChannelListInfo24DESCRIPTOR_DEFAULT_OTHERE
+   405: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB19t_ComposeChannelPSIEP13TCServiceDataS1_tttb13EServiceStateP16TCDVBNITInstanceP14TCDVBSDTParserP11TCPATParsert
+   406: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread@GLIBC_2.4 (2)
+   407: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase25t_StoreCurrentSDTVersionsEv
+   408: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCVConfProvider17GetDigitalCountryEv
+   409: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2EPKc@GLIBCXX_3.4.21 (7)
+   410: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper5FetchEi
+   411: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB12t_GetLCNDescEP12TCDVBItemMuxt
+   412: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCServiceListManagement22ReorderVirtualChannelsEbb
+   413: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB20t_ApplyLcnZeroPolicyEiR13TCServiceData
+   414: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN8TSTvModeC1E12EAntennaMode12EServiceMode
+   415: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBNITParser10NetworkIdsERNSt7__cxx114listItSaItEEE
+   416: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB27t_ChannelUpdatePSIAutoStoreEP13TCServiceDatab
+   417: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj@GLIBCXX_3.4.21 (7)
+   418: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBBATParser20AllSubtablesReceivedEv
+   419: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCDescBouquetName15BouquetNameTextEPhPt
+   420: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19M7HomeTPLinkageData10GetVersionENS_12TSOperatorIDE
+   421: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTV17TCRCNAllocatorDVB
+   422: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8bad_castD2Ev@GLIBCXX_3.4 (4)
+   423: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI22SiObjectFactoryDVBBase
+   424: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI22TCDescFSatInfoLocation
+   425: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescGTPLGenreOfService21GetGenreListOfServiceB5cxx11Ev
+   426: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4 (4)
+   427: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB24t_SaveNITVersionAtMemoryEP16TCDVBNITInstance
+   428: 00000000     0 FUNC    GLOBAL DEFAULT  UND execl@GLIBC_2.4 (2)
+   429: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescFSatLogicalChannelD1Ev
+   430: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCDescTricolorBouquetList17ContainsServiceIDEt
+   431: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBBATParser10BouquetIdsERNSt7__cxx114listItSaItEEE
+   432: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB22t_UpdateChannelOrgInfoENSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   433: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI20TCDescLogicalChannel
+   434: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase22t_GetStoredSDTVersionsERSt3mapI12TTNetworkKeyiSt4lessIS1_ESaISt4pairIKS1_iEEE
+   435: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+   436: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil24ProcessServiceDescriptorER13TCDescServiceR13TCServiceDataRK9TVSHandle
+   437: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN29TCDescMultilingualServiceName24GetServiceNameByLanguageEjPhPt
+   438: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11regex_errorD1Ev@GLIBCXX_3.4.15 (8)
+   439: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZNSt5ctypeIcE2idE@GLIBCXX_3.4 (4)
+   440: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt25__throw_bad_function_callv@GLIBCXX_3.4.14 (20)
+   441: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB20t_AssignMapAfterLastERSt8multimapIiP13TCServiceDataSt4lessIiESaISt4pairIKiS2_EEEtttt
+   442: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBNITParser9NetworkIdEv
+   443: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK12TCServiceKeyeqERKS_
+   444: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCChannelUpdateUtil12CopyUserInfoER13TCServiceDataRKS0_bbb
+   445: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParamC1Ev
+   446: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK15TCUniqueLocatorltERKS_
+   447: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCCriteriaHelper7WhereInEiRKNSt7__cxx114listIySaIyEEE
+   448: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21 (7)
+   449: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK12TTNetworkKeyltERKS_
+   450: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCMultipleLCNKeyC1Ev
+   451: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB26t_ChangeToValidServiceTypeEP13TCDescServiceP19TCDVBSDTItemServiceR13TCServiceData
+   452: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TIEventManager8InstanceEv
+   453: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND _ZN15TCObjectFactory11GetInstanceEv
+   454: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase16t_SetServiceNameER13TCServiceDataRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   455: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Z9_TCAssertPKcS0_m
+   456: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB8t_AssignEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   457: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager15GetCachedDataIdER13TCServiceData
+   458: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB27t_updateCableServiceFromNITEP12TCDVBItemMuxtP13TCServiceDatah
+   459: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt6locale2id5_M_idEv@GLIBCXX_3.4 (4)
+   460: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt11regex_error@GLIBCXX_3.4.15 (8)
+   461: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCDVBSDTInstance24DVBSDTItemServiceOfIndexEj
+   462: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase17t_IsSDTVerChangedEttt
+   463: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK8TSTvMode5GetIdEv
+   464: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN22SiObjectFactoryDVBBase12GetSIManagerE13ESiStreamType
+   465: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCDescFSatLogicalChannel16FreesatServiceIdEtRt
+   466: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN29TCDescMultilingualServiceName21GetServiceNameByIndexEjPjPhPt
+   467: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNK13TScanLocationltERKS_
+   468: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN23TCPreDefinedDataManager13m_GetInstanceEv
+   469: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN26TCDescAstraServiceListName7GetNameB5cxx11ER18TCUnicodeConverterR13ELanguageCode
+   470: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTIv@CXXABI_1.3 (5)
+   471: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN13TCServiceDataaSERKS_
+   472: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB12t_GetLastRCNEtt
+   473: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase19t_SDTVersionChangedERb
+   474: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN20TCServiceDataUtility9t_GetDataERK13TCServiceDataiRPKvRi
+   475: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager12GetFavoritesERKy
+   476: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCDescDishTVSVL10GetVersionEv
+   477: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB18ProcessNITInstanceEP15TCSectionParser
+   478: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gcc_personality_v0@GCC_3.3.1 (21)
+   479: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN12TCServiceKeyC1Ev
+   480: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTI22TCDescADBLCNv2Activate
+   481: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN24TCChannelUpdateHelperDVB29t_ChannelUpdateDVBFastNitScanEP13TCServiceDatab
+   482: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBSDTParser19DVBSDTFirstInstanceEv
+   483: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN15TCPMTElementary13ElementaryPIDEv
+   484: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN16TCServiceManager14UpdateServicesERKNSt7__cxx114listIP13TCServiceDataSaIS3_EEEb
+   485: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN14TCDVBFNTParser11GetInstanceEt
+   486: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN27TCDescPolsatChannelListInfo18GetChannelListInfoEv
+   487: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN19TCPriorityScanParamD1Ev
+   488: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN25TCChannelUpdateHelperBase19t_BATVersionChangedERb
+   489: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZN17TCRCNAllocatorDVB11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+   490: 45193cee     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor27ORIGINAL_NETWORK_ID_SIBERIAE
+   491: 45101ecd    50 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlusC2ERK9TVSHandleP19IChannelUpdateProxy
+   492: 4510dd79    16 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat5ResetEv
+   493: 4519fe90    12 OBJECT  GLOBAL DEFAULT   19 _ZTI14TIProfileAgent
+   494: 450fd2a1  1132 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperAlma27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+   495: 4514f965    56 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperTelenetC2ERK9TVSHandleP19IChannelUpdateProxy
+   496: 4517535d  1676 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+   497: 45143185   956 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   498: 451324f1   192 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus16t_IsValidBouquetEt
+   499: 4519ca40    12 OBJECT  GLOBAL DEFAULT   19 _ZTI23TCRCNAllocatorSatellite
+   500: 45160ec9    88 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungaryD1Ev
+   501: 4519fe50    12 OBJECT  GLOBAL DEFAULT   19 _ZTI23TIServiceListCacheAgent
+   502: 4519c308    24 OBJECT  GLOBAL DEFAULT   19 _ZTT29TCChannelUpdateHelperSkyCable
+   503: 45115cd5    28 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransatC2ERK9TVSHandleP19IChannelUpdateProxy
+   504: 450f71a9    70 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperAkado16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   505: 45136fdd  1092 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus24m_MatchOldNewServiceListERSt3mapI12TCServiceKeySt10unique_ptrI13TCServiceDataSt14default_deleteIS3_EESt4lessIS1_ESaISt4pairIKS1_S6_EEEPNSt7__cxx114listIPS3_SaISH_EEE
+   506: 45192f9c    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperAlma
+   507: 4519c9d0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI24TCRCNAllocatorRostelecom
+   508: 4517a1c5  2072 FUNC    GLOBAL DEFAULT   11 _ZN18SiObjectFactoryDVB15GetRCNAllocatorERK9TVSHandle12EChannelType15EServiceProfile
+   509: 4519cc80    72 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCRCNAllocatorDigitalPlus
+   510: 45122d65     4 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM723m_GetHDSimulcastLCNDescEP12TCDVBItemMuxy
+   511: 4519ccc8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI32TCChannelUpdateHelperAstraHDPlus
+   512: 451633a1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N26TCPreDefinedAstraHDPlusRCND1Ev
+   513: 45193b08    16 OBJECT  GLOBAL DEFAULT   13 _ZTS13TISIDataAgent
+   514: 45161071    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N36TCChannelUpdateHelperOsterreichlisteD0Ev
+   515: 450fe109  2584 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperAstraHDPlus19m_CreateServiceListEP13TCServiceData
+   516: 45107ab9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N29TCChannelUpdateHelperDigiturk14GetBATInstanceEt
+   517: 45143541    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N30TCChannelUpdateHelperSatellite16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   518: 45163941   132 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFileC1E21system_info_country_e
+   519: 451188d5  3172 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat22m_ChannelUpdateDVBFSatENS_11EUpdateModeEP13TCServiceDataRNSt7__cxx114listIS2_SaIS2_EEEPS6_S8_
+   520: 45164ad1   556 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser11m_ParseDataEPhm
+   521: 45193ce0     1 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor9STB_ID_SDE
+   522: 4519eda4   184 OBJECT  GLOBAL DEFAULT   19 _ZTV28TCChannelUpdateHelperNTVPlus
+   523: 4516e511   300 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom21m_FilterByServiceTypeEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   524: 4510ddf1   772 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom14GetBATInstanceEt
+   525: 4511a7bd   328 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat18ProcessNITInstanceEP15TCSectionParser
+   526: 45193668    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+   527: 4519dbac    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperToya
+   528: 45114ea9   376 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat26t_ChangeToValidServiceTypeEP13TCDescServiceP19TCDVBSDTItemServiceR13TCServiceData
+   529: 450f6d51   144 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI18ProcessNITInstanceEP15TCSectionParser
+   530: 45163a15    10 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN20IsPreDefinedMapEmptyEv
+   531: 4519ff70     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEE
+   532: 450f76cd   316 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperAstraHDPlus5ResetEv
+   533: 4512b925    20 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlusD0Ev
+   534: 45133749   976 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus23m_GenerateOldServiceMapEPK13TCServiceData
+   535: 4519e9a8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI30TCChannelUpdateHelperProsieben
+   536: 4519d128    12 OBJECT  GLOBAL DEFAULT   19 _ZTI26TCChannelUpdateHelperZiggo
+   537: 4519eb4c   184 OBJECT  GLOBAL DEFAULT   19 _ZTV30TCChannelUpdateHelperTelekarta
+   538: 4511b635   816 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat21m_UpdateServicesNamesEv
+   539: 45161f5d  3916 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungary27m_ChannelUpdateDVBAutoStoreEP13TCServiceDataR16UpdateChannelRtn
+   540: 4519e2a8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI28TCChannelUpdateHelperTelenet
+   541: 45164f39   748 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus13m_HasPriorityEP13TCServiceDataS1_
+   542: 45193174    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperTivu
+   543: 45166b15   138 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser19m_DeleteChannelListER15TChannelListSet
+   544: 451a00f0     8 OBJECT  GLOBAL DEFAULT   19 _ZTI14IPreDefinedRCN
+   545: 451151ed   216 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat14GetNITInstanceEt
+   546: 4519c80c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI20TCRCNAllocatorCosmos
+   547: 4511a915   156 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat14GetNITInstanceEt
+   548: 4519f23c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperDishTV
+   549: 45156329    96 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperVolia18t_FilterUHDServiceEhPK19TCDVBSDTItemService
+   550: 4514ec19    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCChannelUpdateHelperTivuD1Ev
+   551: 45131705   288 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperMTSSatC2ERK9TVSHandleP19IChannelUpdateProxy
+   552: 4519fe7c     8 OBJECT  GLOBAL DEFAULT   19 _ZTI14TIAgentControl
+   553: 4519febc    12 OBJECT  GLOBAL DEFAULT   19 _ZTI17TIScanOptionAgent
+   554: 451106b5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N30TCChannelUpdateHelperERTelekom18ProcessBATInstanceEP15TCSectionParser
+   555: 4519f0b4   184 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperKCCL
+   556: 4517084d  1436 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlus12m_PreProcessEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   557: 4516ba41     4 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom21PreProcessHDSimulcastEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+   558: 4512b1c1    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+   559: 4519341c    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperDIGI
+   560: 45103599  1816 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI19m_CreateServiceListEP13TCServiceData
+   561: 451472d1   156 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect14GetNITInstanceEt
+   562: 450f7115   148 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperCosmos15t_FilterServiceEP16TCDVBSDTInstanceP19TCDVBSDTItemService
+   563: 4519cda0   288 OBJECT  GLOBAL DEFAULT   19 _ZTV30TCChannelUpdateHelperSatellite
+   564: 4514128d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N29TCChannelUpdateHelperSimpliTV14GetNITInstanceEt
+   565: 4519dcec   284 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperMTSSat
+   566: 451938e0    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEE
+   567: 4511d795  5120 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat34m_UpdateServiceListAndKeepUserDataEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERKSt3mapIS3_St4pairIbbE21FransatTCChannelEqStrSaIS8_IKS3_S9_EEE
+   568: 4519f494   188 OBJECT  GLOBAL DEFAULT   19 _ZTV28TCChannelUpdateHelperFransat
+   569: 45140c2d     4 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+   570: 45192da8     9 OBJECT  GLOBAL DEFAULT   13 _ZTS7TIAgent
+   571: 45164cfd   572 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser10m_PrintMapEv
+   572: 45192f58    33 OBJECT  GLOBAL DEFAULT   13 _ZTS30TCChannelUpdateHelperCyfraPlus
+   573: 4519c128    24 OBJECT  GLOBAL DEFAULT   19 _ZTT31TCChannelUpdateHelperOneHungary
+   574: 45140d29   328 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV14GetBATInstanceEt
+   575: 4517528d   208 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite22m_CollectAndFillTheGapEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEES6_
+   576: 45192cbc    19 OBJECT  GLOBAL DEFAULT   13 _ZTS16TVSEventDataBase
+   577: 4519cecc   284 OBJECT  GLOBAL DEFAULT   19 _ZTV31TCChannelUpdateHelperOneHungary
+   578: 45192fb8    33 OBJECT  GLOBAL DEFAULT   13 _ZTS30TCChannelUpdateHelperERTelekom
+   579: 4519e3dc    12 OBJECT  GLOBAL DEFAULT   19 _ZTI28TCChannelUpdateHelperTelekom
+   580: 4510104d   564 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI22m_SetCurrentBATVersionEv
+   581: 4519ff1c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI17TIM7ScanDataAgent
+   582: 4519cab0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI16TCRCNAllocatorUK
+   583: 45166439    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N24TCPreDefinedSatelliteRCND1Ev
+   584: 45135655   700 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNnK18m_SetBarkerChannelEP13TCServiceData
+   585: 4519ec10   184 OBJECT  GLOBAL DEFAULT   19 _ZTV30TCChannelUpdateHelperSunDirect
+   586: 4515e015    68 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCND2Ev
+   587: 4519c100    16 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCRCNAllocatorDigitalPlus
+   588: 4516a0e1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCRCNAllocatorAstraHDPlusD0Ev
+   589: 4519c038    24 OBJECT  GLOBAL DEFAULT   19 _ZTT20TCRCNAllocatorCosmos
+   590: 4516e63d   400 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom24m_AttachFilteredServicesEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   591: 451759f9     4 FUNC    GLOBAL DEFAULT   11 _ZN18SiObjectFactoryDVB18GetSiProductHelperEv
+   592: 451206dd  3808 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL19m_CreateServiceListEP13TCServiceDatab
+   593: 45193cd6     2 OBJECT  GLOBAL DEFAULT   13 _ZN25TCChannelUpdateHelperAlma12ALMA_SAT_NIDE
+   594: 45168801  1464 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus12m_PreProcessERK16TCCriteriaHelper
+   595: 45192e94    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCRCNAllocatorDigitalPlus
+   596: 451329e9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N24TCChannelUpdateHelperNnK14GetNITInstanceEt
+   597: 451517c5  1316 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS30m_CreateManualStoreServiceListEP13TCServiceData
+   598: 45163ba9   308 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser18m_HandleXmlElementEPvPKci
+   599: 45161021    44 FUNC    GLOBAL DEFAULT   11 _ZN36TCChannelUpdateHelperOsterreichlisteD1Ev
+   600: 4519fb3c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI15TIScanDataAgent
+   601: 4516ee59   184 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite18t_SatelliteInitMapEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   602: 4513a215    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N27TCChannelUpdateHelperPolsat14GetNITInstanceEt
+   603: 4519ff90     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEE
+   604: 45131d4d   840 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus26m_UpdateChannelDVBAutoModeEP13TCServiceDataR16UpdateChannelRtn
+   605: 4514872d    28 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekartaC2ERK9TVSHandleP19IChannelUpdateProxy
+   606: 45132f69   196 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT20m_GetBatInstanceListERNSt7__cxx114listIP16TCDVBBATInstanceSaIS3_EEE
+   607: 45103cb1  2952 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart26m_DynamicServiceListUpdateEP13TCServiceDataPNSt7__cxx114listIS1_SaIS1_EEE
+   608: 45169d4d   560 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlusC1ERK9TVSHandle
+   609: 4514ec4d   288 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperTelenet14GetNITInstanceEt
+   610: 4516d305   408 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorM7C1ERK9TVSHandle
+   611: 451610c9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N30TCChannelUpdateHelperProsiebenD1Ev
+   612: 45193cd8     2 OBJECT  GLOBAL DEFAULT   13 _ZN25TCChannelUpdateHelperDIGI13RO_BOUQUET_IDE
+   613: 4510e0f5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N30TCChannelUpdateHelperERTelekom14GetBATInstanceEt
+   614: 45193ba8    19 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost9exceptionE
+   615: 451522a5  2832 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS23m_DynamicServicesUpdateEP13TCServiceData
+   616: 4519d384    12 OBJECT  GLOBAL DEFAULT   19 _ZTI24TCChannelUpdateHelperVoo
+   617: 45192c10    52 OBJECT  GLOBAL DEFAULT   13 _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   618: 451687ed    18 FUNC    GLOBAL DEFAULT   11 _ZTv0_n28_N25TCRCNAllocatorAstraHDPlus22ServicesForReplacementERSt8multimapIyNSt7__cxx114listIySaIyEEESt4lessIyESaISt4pairIKyS4_EEE
+   619: 45156e55    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N26TCChannelUpdateHelperVolia14GetNITInstanceEt
+   620: 45111101   928 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat23m_UpdateServiceInRegionEtRNSt7__cxx114listIP13TCServiceDataSaIS3_EEES3_tP16TCDVBNITInstanceP16TCDVBSDTInstanceP12TCDVBItemMuxtttS6_S6_
+   621: 451638fd    68 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCNC2E21system_info_country_e
+   622: 4516745d    54 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser11m_DeleteMapEv
+   623: 451937cc    67 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+   624: 451a2094     1 OBJECT  GLOBAL DEFAULT   23 _ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul
+   625: 4513a909     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n36_N27TCChannelUpdateHelperPolsat16UpdateChannelPSIEP13TCServiceData
+   626: 45160e6d    92 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungaryD2Ev
+   627: 4519ff80     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEE
+   628: 451397f1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N24TCChannelUpdateHelperNXT16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   629: 45175ee5   408 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorUKC1ERK9TVSHandle
+   630: 45107cdd    26 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk27m_AcquireDeliveryParametersE9EScanTypeR12TCDVBItemMuxR13TCServiceData
+   631: 4511b191    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N25TCChannelUpdateHelperKCCL14GetBATInstanceEt
+   632: 45145609  3056 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV19m_CreateServiceListEP13TCServiceDatab
+   633: 45193a00    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEE
+   634: 4514afa9   628 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   635: 4519f184   184 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperGTPL
+   636: 4519ff58     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+   637: 451383b9  3964 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT19m_CreateServiceListEP13TCServiceDatab
+   638: 4512afc1    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   639: 4514275d    20 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTVD0Ev
+   640: 4519c3f0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperKCCL
+   641: 4516104d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N36TCChannelUpdateHelperOsterreichlisteD1Ev
+   642: 450fb13d   112 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperAlma29t_ChannelUpdateDVBFastNitScanEP13TCServiceDatab
+   643: 45164955   322 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser25GetPredefinedChannellListE21system_info_country_eR15TChannelListSet
+   644: 4512b141    56 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   645: 4519fea4    24 OBJECT  GLOBAL DEFAULT   19 _ZTI24TIFullSearchAgentControl
+   646: 4519d83c   284 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperVectra
+   647: 4514b21d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N30TCChannelUpdateHelperTelekarta16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   648: 4516f7c9  3232 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmos26t_AssignIgnoreLCN_SIDorderEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   649: 4519358c    17 OBJECT  GLOBAL DEFAULT   13 _ZTS14TINetworkAgent
+   650: 450f82c9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N25TCChannelUpdateHelperDIGI14GetNITInstanceEt
+   651: 45101d09   200 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart27m_AcquireDeliveryParametersE9EScanTypeR12TCDVBItemMuxR13TCServiceData
+   652: 4512af55    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   653: 451935c8   113 OBJECT  GLOBAL DEFAULT   13 _ZTSSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   654: 4511d785    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N25TCChannelUpdateHelperGTPL18ProcessBATInstanceEP15TCSectionParser
+   655: 4516c551   144 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlusC2ERK9TVSHandle
+   656: 4519ca4c   100 OBJECT  GLOBAL DEFAULT   19 _ZTV23TCRCNAllocatorSatellite
+   657: 45121a25    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N25TCChannelUpdateHelperGTPL16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   658: 4519f840   284 OBJECT  GLOBAL DEFAULT   19 _ZTV31TCChannelUpdateHelperBulgariaA1
+   659: 4519f724   284 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperCosmos
+   660: 4512b8d5    64 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlusD1Ev
+   661: 45157575  1256 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor14GetNITInstanceEt
+   662: 4513a905     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N27TCChannelUpdateHelperPolsat17AvailableSDTOtherEv
+   663: 45165421   576 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus12m_ComputeRcnEP13TCServiceData
+   664: 45134439  1532 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus25m_ProcessManualHomeTPListEP16TCDVBNITInstanceRK13TCServiceData
+   665: 4519fa80   188 OBJECT  GLOBAL DEFAULT   19 _ZTV32TCChannelUpdateHelperAstraHDPlus
+   666: 4512c455   732 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   667: 45193054    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperDIGISK
+   668: 4516da8d  1172 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+   669: 45148d5d  2496 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSkyCable28m_UpdateServiceDataDynamicSIEv
+   670: 45164a99     4 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser10GetVersionEv
+   671: 4515cae5    14 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCN20IsPreDefinedMapEmptyEv
+   672: 45139c81    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n56_N25TCChannelUpdateHelperOTAU16CheckStateUpdateEv
+   673: 45100065    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N32TCChannelUpdateHelperDigitalPlus14GetNITInstanceEt
+   674: 450fb295     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n52_N32TCChannelUpdateHelperAstraHDPlus19GetValidLinkageTypeEv
+   675: 4510f429   608 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV26m_ProccessGenreInformationERSt3mapIiySt4lessIiESaISt4pairIKiyEEERKNSt7__cxx114listItSaItEEERSt6vectorIySaIyEERb
+   676: 45105461  2608 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDIGISK27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+   677: 45193b5c    21 OBJECT  GLOBAL DEFAULT   13 _ZTS18TITKGSAgentControl
+   678: 45117c21  3252 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat26m_ComposeChannelWithoutSDTEP13TCServiceDataS1_ttP16TCDVBNITInstanceP12TCDVBItemMuxtttt
+   679: 450f6a0d     4 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA121t_UpdateInvisibleInfoEP12TCDVBItemMuxttP13TCServiceData
+   680: 4512b07d    18 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+   681: 4519ffe0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI15TITKGSDataAgent
+   682: 45193c90    16 OBJECT  GLOBAL DEFAULT   13 _ZTS13IRCNAllocator
+   683: 4512b239   128 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+   684: 451936f8    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+   685: 4516a0f1  1464 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus17m_ResetPredefinedEv
+   686: 4519d134   284 OBJECT  GLOBAL DEFAULT   19 _ZTV26TCChannelUpdateHelperZiggo
+   687: 45156b29   312 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperVectra12t_GetLCNDescEP12TCDVBItemMuxt
+   688: 4515e249    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N20TCPreDefinedCableRCN16PreDefinedRCNKeyEP13TCServiceData
+   689: 4519cff4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperOTAU
+   690: 4513cc15  1016 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   691: 45156219   112 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperVoo15t_JudgeValidLCNEtt
+   692: 4514ffd1  1192 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS16m_UpdateLocationERSt3mapISt4pairIbtEjSt4lessIS2_ESaIS1_IKS2_jEEEb
+   693: 4515a8e1  3724 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperZiggo27m_ChannelUpdateDVBAutoStoreEP13TCServiceDataR16UpdateChannelRtn
+   694: 4510ebe9   344 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV15m_FilterServiceEP19TCDVBSDTItemService
+   695: 45193400    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperKCCL
+   696: 4510fa6d   108 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSatC1ERK9TVSHandleP19IChannelUpdateProxy
+   697: 450fbd35  4068 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel19m_CreateServiceListEP13TCServiceDatab
+   698: 451078a1   536 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk14GetBATInstanceEt
+   699: 4519c400    16 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperGTPL
+   700: 451931ac    31 OBJECT  GLOBAL DEFAULT   13 _ZTS28TCChannelUpdateHelperTelenet
+   701: 45121a39     4 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM717AvailableSDTOtherEv
+   702: 45100339   660 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart14GetBATInstanceEt
+   703: 4516a0bd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCRCNAllocatorAstraHDPlusD1Ev
+   704: 4519327c    32 OBJECT  GLOBAL DEFAULT   13 _ZTS29TCChannelUpdateHelperTricolor
+   705: 450ffbcd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N30TCChannelUpdateHelperCyfraPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   706: 4512b605   180 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+   707: 45193970    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEE
+   708: 4519c490    24 OBJECT  GLOBAL DEFAULT   19 _ZTT31TCChannelUpdateHelperBulgariaA1
+   709: 4519c358    24 OBJECT  GLOBAL DEFAULT   19 _ZTT30TCChannelUpdateHelperProsieben
+   710: 4516e7cd   216 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom18m_AssignBySidOrderEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+   711: 45161005    28 FUNC    GLOBAL DEFAULT   11 _ZN36TCChannelUpdateHelperOsterreichlisteD2Ev
+   712: 45108209  2348 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk19m_UpdateServiceDataEP13TCServiceData
+   713: 4515b7ad    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N26TCChannelUpdateHelperZiggo16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   714: 4519c3c0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT29TCChannelUpdateHelperDigiturk
+   715: 45193cf0     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor28HIDDEN_SERVICE_VISIBLE_STARTE
+   716: 451641d1    30 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN19CalculateGeneralKeyE12ESatelliteIdih
+   717: 451471f9     4 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta17AvailableSDTOtherEv
+   718: 451228cd   880 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM7C1ERK9TVSHandleP19IChannelUpdateProxy
+   719: 4513dbf1  3784 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperRCS19m_CreateServiceListEP13TCServiceData
+   720: 45115129    20 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransatD0Ev
+   721: 4511eec1  1192 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   722: 45156e65   584 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperZiggo14GetNITInstanceEt
+   723: 451152c5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N28TCChannelUpdateHelperFransat14GetNITInstanceEt
+   724: 4515caf5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N20TCPreDefinedCableRCN20IsPreDefinedMapEmptyEv
+   725: 450f8521   340 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel19m_FilterServiceTypeER13TCServiceData
+   726: 451935b8    15 OBJECT  GLOBAL DEFAULT   13 _ZTS12TIAudioAgent
+   727: 45193548    20 OBJECT  GLOBAL DEFAULT   13 _ZTS17TIFullSearchAgent
+   728: 451931f0    31 OBJECT  GLOBAL DEFAULT   13 _ZTS28TCChannelUpdateHelperTelekom
+   729: 45107cf9   480 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk15m_FilterServiceEP13TCServiceDatai
+   730: 4516bc61   544 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmos14t_IsInCategoryE19ServiceTypeCategoryP13TCServiceData
+   731: 45131985    60 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlusC1ERK9TVSHandleP19IChannelUpdateProxy
+   732: 4515d0dd  2216 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungary19m_UpdateServiceDataEP13TCServiceData
+   733: 4519e180    12 OBJECT  GLOBAL DEFAULT   19 _ZTI24TCChannelUpdateHelperRCS
+   734: 4511b0d1   192 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL14GetBATInstanceEt
+   735: 45146581  3192 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom26m_DynamicServiceListUpdateEP13TCServiceDataPNSt7__cxx114listIS1_SaIS1_EEE
+   736: 4513d01d  3028 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat26m_DynamicServiceListUpdateEP13TCServiceDataPNSt7__cxx114listIS1_SaIS1_EEE
+   737: 4519c9dc   100 OBJECT  GLOBAL DEFAULT   19 _ZTV24TCRCNAllocatorRostelecom
+   738: 4514270d    64 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTVD1Ev
+   739: 4519ffa0     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEE
+   740: 451a0110    24 OBJECT  GLOBAL DEFAULT   19 _ZTV19TCPreDefinedRCNFile
+   741: 4512b939    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N28TCChannelUpdateHelperNTVPlusD0Ev
+   742: 450ff9c5   520 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   743: 4512a415   216 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM716UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   744: 45107891    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N29TCChannelUpdateHelperDigiturk14GetNITInstanceEt
+   745: 45193cb4    24 OBJECT  GLOBAL DEFAULT   13 _ZTS21TIProfileAgentControl
+   746: 4516600d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N24TCPreDefinedSatelliteRCN16PreDefinedRCNKeyEP13TCServiceData
+   747: 45165661   208 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus19m_FirstAvailableRcnEv
+   748: 4517bc91   488 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorUK11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+   749: 450f98d9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCChannelUpdateHelperDIGID0Ev
+   750: 4519d708    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperDIGISK
+   751: 4519ea80   192 OBJECT  GLOBAL DEFAULT   19 _ZTV29TCChannelUpdateHelperSimpliTV
+   752: 45147429   772 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta14GetBATInstanceEt
+   753: 45193854    67 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+   754: 45157ac5  3580 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor27m_GetTranslationToRegionMapB5cxx11ER14TCDVBBATParser
+   755: 45193438    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperGTPL
+   756: 450fdd69   596 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus18m_SetBarkerChannelEv
+   757: 451934f8     1 OBJECT  GLOBAL DEFAULT   13 _ZSt19piecewise_construct
+   758: 45193cda     2 OBJECT  GLOBAL DEFAULT   13 _ZN25TCChannelUpdateHelperDIGI13HU_BOUQUET_IDE
+   759: 4513a179   156 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat14GetNITInstanceEt
+   760: 451515d1   500 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS21m_PrepareBouquetsListEP15TCDVBTKGSParserRSt3mapIjySt4lessIjESaISt4pairIKjyEEE13ELanguageCode
+   761: 451319c1    72 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlusD2Ev
+   762: 45193a90    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEE
+   763: 45148789     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n36_N30TCChannelUpdateHelperTelekarta16UpdateChannelPSIEP13TCServiceData
+   764: 45140e81   168 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite18t_SetNetworkAttribEP16TCDVBNITInstanceP12TCDVBItemMuxttR13TCServiceData
+   765: 45192d94    17 OBJECT  GLOBAL DEFAULT   13 _ZTS14TIProfileAgent
+   766: 4512b381    72 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+   767: 450fb32d  1156 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperAstraHDPlus18ProcessSGTInstanceEv
+   768: 4519d5e0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI24TCChannelUpdateHelperNnK
+   769: 4519ff68     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+   770: 4513a28d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N31TCChannelUpdateHelperRostelecom16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   771: 45193210    35 OBJECT  GLOBAL DEFAULT   13 _ZTS32TCChannelUpdateHelperNumericable
+   772: 4513f4e5   452 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom27t_ChannelUpdateDVBDynamicSIEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+   773: 4516ba49   492 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorERTelecom12t_ComputeRCNEP13TCServiceData
+   774: 45159469  1244 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor20m_PrepareFastNITScanEP16TCDVBNITInstancettt
+   775: 4513f9bd  3968 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat19m_CreateServiceListEP13TCServiceDatab
+   776: 450fd291    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N27TCChannelUpdateHelperAirTel16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   777: 4514736d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N30TCChannelUpdateHelperSunDirect14GetNITInstanceEt
+   778: 45155e65   112 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperVoo21t_UpdateInvisibleInfoEP12TCDVBItemMuxttP13TCServiceData
+   779: 4514ed6d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N28TCChannelUpdateHelperTelenet14GetNITInstanceEt
+   780: 451325b1   200 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNnK15t_FilterServiceEP16TCDVBSDTInstanceP19TCDVBSDTItemService
+   781: 4514e8f9     4 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperTelekom18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+   782: 4512b0d1    56 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   783: 451081ad    92 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk12m_GetLCNDescEP12TCDVBItemMux9EScanType
+   784: 45192d3c    25 OBJECT  GLOBAL DEFAULT   13 _ZTS22TIFastNitScanDataAgent
+   785: 4519ff28     8 OBJECT  GLOBAL DEFAULT   19 _ZTISt19_Sp_make_shared_tag
+   786: 4510002d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N27TCChannelUpdateHelperDSmart14GetNITInstanceEt
+   787: 4512311d   152 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM724m_GetM7HomeTPLinkageDataEv
+   788: 4512af05    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   789: 45128e69    20 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM7D0Ev
+   790: 45193cf2     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor26HIDDEN_SERVICE_VISIBLE_ENDE
+   791: 451632ed    68 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCNC1Ev
+   792: 45122cd5   142 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM721m_UpdateInvisibleInfoEP12TCDVBItemMuxtP13TCServiceData
+   793: 451a00f8    24 OBJECT  GLOBAL DEFAULT   19 _ZTI26TCPreDefinedAstraHDPlusRCN
+   794: 45139d21    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N25TCChannelUpdateHelperOTAU18ProcessNITInstanceEP15TCSectionParser
+   795: 451713fd   512 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat15m_GatheringDataE12EServiceTypePNSt7__cxx114listIP13TCServiceDataSaIS4_EEE
+   796: 45193cf8    21 OBJECT  GLOBAL DEFAULT   13 _ZTS18SiObjectFactoryDVB
+   797: 4516cfd9   408 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorERTelecomC1ERK9TVSHandle
+   798: 4511aab5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N25TCChannelUpdateHelperGTPL14GetNITInstanceEt
+   799: 450ffbdd   928 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   800: 4519fe5c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI22TIFastNitScanDataAgent
+   801: 4516df21    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N20TCRCNAllocatorPolsat16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+   802: 4516ba45     4 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom22ServicesForReplacementERSt8multimapIyNSt7__cxx114listIySaIyEEESt4lessIyESaISt4pairIKyS4_EEE
+   803: 45139f61    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n56_N27TCChannelUpdateHelperPolsat16CheckStateUpdateEv
+   804: 4514e42d  1212 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   805: 45192e00    19 OBJECT  GLOBAL DEFAULT   13 _ZTS16TCRCNAllocatorM7
+   806: 45132739    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N24TCChannelUpdateHelperNXT14GetBATInstanceEt
+   807: 45193c4c    17 OBJECT  GLOBAL DEFAULT   13 _ZTS14IPreDefinedRCN
+   808: 4519c2c0    24 OBJECT  GLOBAL DEFAULT   19 _ZTT28TCChannelUpdateHelperTelenet
+   809: 45140c35     4 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite19GetValidLinkageTypeEv
+   810: 450f6aad    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N27TCChannelUpdateHelperAirTel18ProcessNITInstanceEP15TCSectionParser
+   811: 4512be5d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N28TCChannelUpdateHelperNTVPlus14GetBATInstanceEt
+   812: 4516e2f9   536 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom27m_GatherAndAssignBySidOrderEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEEii
+   813: 45192d08    22 OBJECT  GLOBAL DEFAULT   13 _ZTS19TIServiceListsAgent
+   814: 4519e754    12 OBJECT  GLOBAL DEFAULT   19 _ZTI36TCChannelUpdateHelperOsterreichliste
+   815: 4510fd45   932 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat21m_RemoveMuxFromChListE12TTNetworkKeybtPNSt7__cxx114listIP13TCServiceDataSaIS4_EEEbRb
+   816: 45170469   996 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmos26t_AssignStandardUnorderMapEtttt
+   817: 45193ce1     1 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor10STB_ID_UHDE
+   818: 45121bbd   464 FUNC    GLOBAL DEFAULT   11 _ZNSt8__detail8_ScannerIcE19_M_eat_escape_posixEv
+   819: 4514ec29    20 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTivuD0Ev
+   820: 451329f9   564 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus13m_AllocateRCNEPK13TCServiceDataPNSt7__cxx114listIPS0_SaIS5_EEE
+   821: 4514abf5   948 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta19m_CreateServiceListEP13TCServiceData
+   822: 4519fd98   184 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperAirTel
+   823: 4514e8e9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N30TCChannelUpdateHelperSunDirect16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   824: 45139809    10 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom37t_ChannelUpdateDVBDynamicSIBySDTOtherEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+   825: 45148785     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N30TCChannelUpdateHelperTelekarta17AvailableSDTOtherEv
+   826: 451101c9   500 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV16m_AddBouquetToDBEv
+   827: 45193234    32 OBJECT  GLOBAL DEFAULT   13 _ZTS29TCChannelUpdateHelperSkyCable
+   828: 4519ffb0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI28TIPolsatServiceListInfoAgent
+   829: 4516a6a9  1104 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus19m_ProcessPredefinedEv
+   830: 4514772d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N30TCChannelUpdateHelperTelekarta14GetBATInstanceEt
+   831: 45132679   192 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT14GetBATInstanceEt
+   832: 451150d9    64 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransatD1Ev
+   833: 4519d390   284 OBJECT  GLOBAL DEFAULT   19 _ZTV24TCChannelUpdateHelperVoo
+   834: 451570f1   116 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolorC2ERK9TVSHandleP19IChannelUpdateProxy
+   835: 451342e5   340 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT16m_AddBouquetToDBEP16TCDVBBATInstance
+   836: 4519f608   284 OBJECT  GLOBAL DEFAULT   19 _ZTV30TCChannelUpdateHelperCyfraPlus
+   837: 4512baa1   144 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus18ProcessNITInstanceEP15TCSectionParser
+   838: 4513bf8d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCChannelUpdateHelperOTAUD0Ev
+   839: 4510c9c9  4724 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus19m_CreateServiceListEP13TCServiceDatab
+   840: 45193150    34 OBJECT  GLOBAL DEFAULT   13 _ZTS31TCChannelUpdateHelperRostelecom
+   841: 45134a35  2096 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus31m_UpdateServiceDataManualHomeTPEP13TCServiceData
+   842: 4519d268   284 OBJECT  GLOBAL DEFAULT   19 _ZTV30TCChannelUpdateHelperERTelekom
+   843: 4519c4a8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperBlizoo
+   844: 4510e105   696 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom14GetNITInstanceEt
+   845: 45100241   136 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDIGISK18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+   846: 4513a225   102 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   847: 4519c2d8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT28TCChannelUpdateHelperTelekom
+   848: 450f7cd1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N25TCChannelUpdateHelperDIGI14GetBATInstanceEt
+   849: 4516eb05    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N24TCRCNAllocatorRostelecom11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+   850: 4519c158    24 OBJECT  GLOBAL DEFAULT   19 _ZTT26TCChannelUpdateHelperZiggo
+   851: 450f6e09   436 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperAstraHDPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   852: 451426c5    72 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTVD2Ev
+   853: 450f6de1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N25TCChannelUpdateHelperDIGI18ProcessNITInstanceEP15TCSectionParser
+   854: 4512b915    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N28TCChannelUpdateHelperNTVPlusD1Ev
+   855: 451749c1    18 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N25TCRCNAllocatorDigitalPlus16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+   856: 4512c181   724 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+   857: 45193898    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEE
+   858: 45122c3d   152 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM715m_FilterServiceEP19TCDVBFSTItemService
+   859: 45193474    37 OBJECT  GLOBAL DEFAULT   13 _ZTS34TCChannelUpdateHelperFreeviewNZSat
+   860: 4511513d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N28TCChannelUpdateHelperFransatD0Ev
+   861: 4519cc2c    72 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCRCNAllocatorAstraHDPlus
+   862: 450f98b5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCChannelUpdateHelperDIGID1Ev
+   863: 4519fb48    12 OBJECT  GLOBAL DEFAULT   19 _ZTI19TIServiceListsAgent
+   864: 4519c098    24 OBJECT  GLOBAL DEFAULT   19 _ZTT24TCRCNAllocatorRostelecom
+   865: 4515059d   360 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS20m_SetStandbyScanFlagEb
+   866: 45158bb9  2224 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor19m_UpdateServiceDataEP13TCServiceData
+   867: 4515cf15   296 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCN16PreDefinedRCNKeyEP13TCServiceData
+   868: 4519c3e0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperDSmart
+   869: 4519d250    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperAlma
+   870: 4519c7d8     8 OBJECT  GLOBAL DEFAULT   19 _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   871: 451417d9    60 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTVC1ERK9TVSHandleP19IChannelUpdateProxy
+   872: 4513afdd   188 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperRCS28m_UpdateServiceDataDynamicSIEP13TCServiceData
+   873: 451481d9   196 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect20m_GetBatInstanceListERNSt7__cxx114listIP16TCDVBBATInstanceSaIS3_EEE
+   874: 4512b19d    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+   875: 451144f5   764 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat14GetNITInstanceEt
+   876: 45139815   428 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+   877: 45192d70    17 OBJECT  GLOBAL DEFAULT   13 _ZTS14TIAgentControl
+   878: 451411ad   224 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV14GetNITInstanceEt
+   879: 45128e8d   340 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL16m_AddBouquetToDBEP16TCDVBBATInstance
+   880: 451588c1   536 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperToya27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+   881: 4512b1e5    82 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperMTSSat27t_ChannelUpdateDVBDynamicSIEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+   882: 4516be81   412 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmos16t_CompareBestMuxEP13TCServiceDataS1_
+   883: 45192dcc    26 OBJECT  GLOBAL DEFAULT   13 _ZTS23TCRCNAllocatorERTelecom
+   884: 45167925   352 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus19m_FilterServiceListE12EServiceTypePNSt7__cxx114listIP13TCServiceDataSaIS4_EEE
+   885: 4519fe9c     8 OBJECT  GLOBAL DEFAULT   19 _ZTI7TIAgent
+   886: 45114801   696 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat18ProcessNITInstanceEP15TCSectionParser
+   887: 4519c218    24 OBJECT  GLOBAL DEFAULT   19 _ZTT35TCChannelUpdateHelperOrangeMoldavia
+   888: 4519de14   284 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperTKGS
+   889: 4519349c    35 OBJECT  GLOBAL DEFAULT   13 _ZTS32TCChannelUpdateHelperDigitalPlus
+   890: 45193d34    26 OBJECT  GLOBAL DEFAULT   13 _ZTS23TITargetRegionDataAgent
+   891: 4519d964   288 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperFSat
+   892: 45128e01    88 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM7D1Ev
+   893: 4519c420    16 OBJECT  GLOBAL DEFAULT   19 _ZTT34TCChannelUpdateHelperFreeviewNZSat
+   894: 4519e058    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperTivu
+   895: 451632b1    58 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCNC2Ev
+   896: 4517b2b1  1476 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorUK20m_GetLCNCollisionSetEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERSt3setItSt4lessItESaItEE
+   897: 4519c348    16 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperPolsat
+   898: 45140c49     4 FUNC    GLOBAL DEFAULT   11 _ZNK29TCChannelUpdateHelperSimpliTV16t_ServiceProfileEv
+   899: 45193518    20 OBJECT  GLOBAL DEFAULT   13 _ZTS17TIScanOptionAgent
+   900: 45132381   352 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   901: 45193ae4     2 OBJECT  GLOBAL DEFAULT   13 _ZZNKSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb0EE10_M_is_wordEcE3__s
+   902: 45192cf4    18 OBJECT  GLOBAL DEFAULT   13 _ZTS15TIScanDataAgent
+   903: 45193b74     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor13TV_BOUQUET_IDE
+   904: 4511a905    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N34TCChannelUpdateHelperFreeviewNZSat18ProcessNITInstanceEP15TCSectionParser
+   905: 45192de8    24 OBJECT  GLOBAL DEFAULT   13 _ZTS21TCRCNAllocatorGermany
+   906: 450f6d41    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N32TCChannelUpdateHelperAstraHDPlus18ProcessNITInstanceEP15TCSectionParser
+   907: 4510c9b9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N29TCChannelUpdateHelperDigiturk16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   908: 451639c5    80 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCNC1E21system_info_country_e
+   909: 45193788    67 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+   910: 4512a4fd  2532 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+   911: 4519f16c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperDIGI
+   912: 451939b8    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEE
+   913: 45193c1c    23 OBJECT  GLOBAL DEFAULT   13 _ZTS20TCPreDefinedCableRCN
+   914: 45110f1d   484 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat15m_UpdateChannelEbP13TCServiceDataS1_tP16TCDVBNITInstanceP16TCDVBSDTInstanceP12TCDVBItemMuxttttRNSt7__cxx114listIS1_SaIS1_EEE
+   915: 4519f248   184 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperDishTV
+   916: 4515cac9    10 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCN20IsPreDefinedMapEmptyEv
+   917: 45192cd0    35 OBJECT  GLOBAL DEFAULT   13 _ZTS15TVSManagedListTI13TCServiceDataE
+   918: 4519ff50     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+   919: 4516c1f9   764 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite21PreProcessHDSimulcastEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+   920: 4513ee5d  1672 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom40m_ChannelUpdateDVBDynamicSI_StPetersburgEP13TCServiceDataPNSt7__cxx114listIS1_SaIS1_EEE
+   921: 451560a1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N29TCChannelUpdateHelperTricolorD0Ev
+   922: 45157495   224 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor6GetNIDEv
+   923: 450f802d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N27TCChannelUpdateHelperBlizoo14GetNITInstanceEt
+   924: 4511514d   144 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat18ProcessNITInstanceEP15TCSectionParser
+   925: 45160f71    60 FUNC    GLOBAL DEFAULT   11 _ZN36TCChannelUpdateHelperOsterreichlisteC1ERK9TVSHandleP19IChannelUpdateProxy
+   926: 4519363c    20 OBJECT  GLOBAL DEFAULT   13 _ZTS17TIM7ScanDataAgent
+   927: 45104ff9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N32TCChannelUpdateHelperDigitalPlus18ProcessBATInstanceEP15TCSectionParser
+   928: 4516d49d   104 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsatC2ERK9TVSHandle
+   929: 45135265  1008 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus31m_CreateServiceListManualHomeTPEP13TCServiceData
+   930: 451a0178    40 OBJECT  GLOBAL DEFAULT   19 _ZTV26TCPreDefinedAstraHDPlusRCN
+   931: 45192e14    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TCRCNAllocatorRostelecom
+   932: 45139335  1212 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   933: 45140c39     6 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite8t_GetLCNEttt
+   934: 45142781  1620 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite21m_SetCarouselLocationEv
+   935: 451a01d8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI16TISIVersionAgent
+   936: 45192f7c    29 OBJECT  GLOBAL DEFAULT   13 _ZTS26TCChannelUpdateHelperZiggo
+   937: 4514ebc1    88 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTivuD1Ev
+   938: 4514ed7d    46 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTivu14GetNITInstanceEt
+   939: 4515e1d9   112 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCN16PreDefinedRCNKeyEP13TCServiceData
+   940: 45167505   512 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser22ParsePredefinedChannelEPKc
+   941: 4510e3cd  1012 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom18t_AddGenresFromBATEP13TCServiceData
+   942: 45193b80    39 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost16exception_detail10clone_baseE
+   943: 4519c0f0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCRCNAllocatorAstraHDPlus
+   944: 45141815  1636 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV19m_UpdateServiceDataEP13TCServiceData
+   945: 45136081  1164 FUNC    GLOBAL DEFAULT   11 _ZN35TCChannelUpdateHelperOrangeMoldavia22t_SetCurrentNITVersionEv
+   946: 450f971d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N31TCChannelUpdateHelperBulgariaA1D0Ev
+   947: 4519c050    24 OBJECT  GLOBAL DEFAULT   19 _ZTT23TCRCNAllocatorERTelecom
+   948: 4513ae55   200 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat28m_ResetServiceListUpdateFlagEv
+   949: 4516f105   852 FUNC    GLOBAL DEFAULT   11 _ZNK23TCRCNAllocatorSatellite21m_IgnoreLcnAssignmentERK13TCServiceData12ESatelliteId
+   950: 45115d2d    72 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransatD2Ev
+   951: 4519df30    12 OBJECT  GLOBAL DEFAULT   19 _ZTI31TCChannelUpdateHelperRostelecom
+   952: 45192e78    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCRCNAllocatorAstraHDPlus
+   953: 450f7425   680 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperCosmos18t_SetServiceHiddenEhPK19TCDVBSDTItemServiceP13TCServiceData
+   954: 45114ac9   976 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat18ProcessBATInstanceEP15TCSectionParser
+   955: 4519eb40    12 OBJECT  GLOBAL DEFAULT   19 _ZTI30TCChannelUpdateHelperTelekarta
+   956: 451a20a0     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul
+   957: 45175c31     4 FUNC    GLOBAL DEFAULT   11 _ZN18SiObjectFactoryDVB24GetPreDefinedDataManagerEv
+   958: 45193b2c    25 OBJECT  GLOBAL DEFAULT   13 _ZTS22TICacheLCNAgentControl
+   959: 4515e2e5    20 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFileD0Ev
+   960: 45102b35  2660 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI20m_PrepareFastNITScanEP13TCServiceData
+   961: 4514a069  2956 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta19m_UpdateBouquetNameEP13TCServiceData
+   962: 4519d4b8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI26TCChannelUpdateHelperVolia
+   963: 450fff91   156 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart14GetNITInstanceEt
+   964: 4513bf69    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCChannelUpdateHelperOTAUD1Ev
+   965: 45155d19   244 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   966: 4519cc74    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCRCNAllocatorDigitalPlus
+   967: 450f71f1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N26TCChannelUpdateHelperAkado16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   968: 4513ad8d   200 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat23m_ServiceListUpdateFlagEv
+   969: 45193ad8     8 OBJECT  GLOBAL DEFAULT   13 _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
+   970: 4513ad35    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N27TCChannelUpdateHelperPolsat18ProcessNITInstanceEP15TCSectionParser
+   971: 45156c61   500 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperVolia14GetNITInstanceEt
+   972: 45119539   704 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+   973: 4519e18c   284 OBJECT  GLOBAL DEFAULT   19 _ZTV24TCChannelUpdateHelperRCS
+   974: 4510dd89    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n40_N25TCChannelUpdateHelperFSat5ResetEv
+   975: 45128e7d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N23TCChannelUpdateHelperM7D0Ev
+   976: 4519c87c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI23TCRCNAllocatorERTelecom
+   977: 4519c188    24 OBJECT  GLOBAL DEFAULT   19 _ZTT24TCChannelUpdateHelperVoo
+   978: 450fbcb1    60 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGIC1ERK9TVSHandleP19IChannelUpdateProxy
+   979: 4511c655  1488 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+   980: 4519cd94    12 OBJECT  GLOBAL DEFAULT   19 _ZTI30TCChannelUpdateHelperSatellite
+   981: 45117529  1768 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+   982: 4519ffd4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI22TICacheLCNAgentControl
+   983: 4519c2f0    24 OBJECT  GLOBAL DEFAULT   19 _ZTT32TCChannelUpdateHelperNumericable
+   984: 4515e2f9   376 FUNC    GLOBAL DEFAULT   11 _ZNK26TCChannelUpdateHelperZiggo35m_GetServiceIdListFromLCNDescriptorEPK12TCDVBItemMux
+   985: 4519c260    24 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperTKGS
+   986: 4513a5f1    88 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAUC1ERK9TVSHandleP19IChannelUpdateProxy
+   987: 4516f459   436 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmosC2ERK9TVSHandle
+   988: 4516a0cd    20 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlusD0Ev
+   989: 4519c200    24 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperFSat
+   990: 4512b949   328 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus16CheckStateUpdateEv
+   991: 45160fc9    60 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperProsiebenC1ERK9TVSHandleP19IChannelUpdateProxy
+   992: 451933a4    32 OBJECT  GLOBAL DEFAULT   13 _ZTS29TCChannelUpdateHelperDigiturk
+   993: 4514c2c1  3500 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSkyCable19m_CreateServiceListEP13TCServiceDatab
+   994: 450fafbd   384 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperAlma21t_IsNITVersionChangedEv
+   995: 45115119    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N28TCChannelUpdateHelperFransatD1Ev
+   996: 451633b1    20 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCND0Ev
+   997: 45115d75   828 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat18ProcessBATInstanceEP15TCSectionParser
+   998: 45193b48    18 OBJECT  GLOBAL DEFAULT   13 _ZTS15TITKGSDataAgent
+   999: 45193ae8    31 OBJECT  GLOBAL DEFAULT   13 _ZTS28TIPolsatServiceListInfoAgent
+  1000: 4510a9b1  3868 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus26m_DynamicServiceListUpdateERSt3mapI12TCServiceKeyP13TCServiceDataSt4lessIS1_ESaISt4pairIKS1_S3_EEEPNSt7__cxx114listIS3_SaIS3_EEE
+  1001: 4519ff38     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+  1002: 450fbad5    76 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA1C1ERK9TVSHandleP19IChannelUpdateProxy
+  1003: 4519ec04    12 OBJECT  GLOBAL DEFAULT   19 _ZTI30TCChannelUpdateHelperSunDirect
+  1004: 45172775  2744 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorM713t_PostProcessEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1005: 4513af1d    44 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat22m_IsServiceTypeCorrectEP13TCDescService
+  1006: 4519d5ec   284 OBJECT  GLOBAL DEFAULT   19 _ZTV24TCChannelUpdateHelperNnK
+  1007: 4515d085    88 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungaryC1ERK9TVSHandleP19IChannelUpdateProxy
+  1008: 45105009  1096 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1009: 4519e82c   184 OBJECT  GLOBAL DEFAULT   19 _ZTV29TCChannelUpdateHelperTricolor
+  1010: 4513d00d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N25TCChannelUpdateHelperOTAU16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1011: 451114a1  6496 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTVC1ERK9TVSHandleP19IChannelUpdateProxy
+  1012: 451932bc    33 OBJECT  GLOBAL DEFAULT   13 _ZTS30TCChannelUpdateHelperProsieben
+  1013: 45142dd5   944 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite33t_ChannelUpdateSatelliteAutoStoreEP13TCServiceDatab
+  1014: 45171709  1224 FUNC    GLOBAL DEFAULT   11 _ZN21TCRCNAllocatorGermany21t_AssignPredefinedRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1015: 4514971d  1532 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta17m_ProcessTdprListEP16TCDVBNITInstanceRK13TCServiceData
+  1016: 45193928    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEE
+  1017: 45193ce6     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor20RADIO_SERVICE_OFFSETE
+  1018: 451a00b4    24 OBJECT  GLOBAL DEFAULT   19 _ZTI24TCPreDefinedSatelliteRCN
+  1019: 4512b7a9   100 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperMTSSat16UpdateChannelPSIEP13TCServiceData
+  1020: 45107601   656 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk14GetNITInstanceEt
+  1021: 451759e9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N23TCRCNAllocatorSatellite11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1022: 4511ade5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N25TCChannelUpdateHelperGTPL14GetBATInstanceEt
+  1023: 450f9dc9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N27TCChannelUpdateHelperAirTel14GetBATInstanceEt
+  1024: 45128db1    80 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM7D2Ev
+  1025: 4517be79    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N16TCRCNAllocatorUK11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1026: 45108b35  1312 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus27m_AcquireDeliveryParametersE9EScanTypeR12TCDVBItemMuxR13TCServiceData
+  1027: 45165d85   648 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN16PreDefinedRCNKeyEP13TCServiceData
+  1028: 45146571    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N29TCChannelUpdateHelperSimpliTV16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1029: 451633d5  1320 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCN26m_SetPredefinedChannelListEP25TCPredefinedChannelParser21system_info_country_e
+  1030: 450f6a05     4 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperAstraHDPlus19GetValidLinkageTypeEv
+  1031: 450f6c09   152 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus14GetBATInstanceEt
+  1032: 450f7b69   360 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI14GetBATInstanceEt
+  1033: 451231b5   516 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM721m_HandleVersionChangeEv
+  1034: 4512225d   796 FUNC    GLOBAL DEFAULT   11 _ZNSt8__detail8_ScannerIcE18_M_eat_escape_ecmaEv
+  1035: 451a209c     1 OBJECT  GLOBAL DEFAULT   23 _ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul
+  1036: 45101a7d   324 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDIGISKC1ERK9TVSHandleP19IChannelUpdateProxy
+  1037: 45140c41     4 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite28t_SetMultilingualChannelNameEP29TCDescMultilingualServiceNameR13TCServiceData
+  1038: 4511f369    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N25TCChannelUpdateHelperKCCL16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1039: 4514773d   144 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta18ProcessNITInstanceEP15TCSectionParser
+  1040: 4516d749   464 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat15m_AssignOrderedE12EServiceType
+  1041: 450f868d   576 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel19m_UpdateServiceNameER13TCServiceData
+  1042: 4513ee4d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N24TCChannelUpdateHelperRCS16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1043: 451a0234    12 OBJECT  GLOBAL DEFAULT   19 _ZTI23TITargetRegionDataAgent
+  1044: 450feb21  3748 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus19m_CreateServiceListEP13TCServiceData
+  1045: 4514829d   836 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect21m_UpdateServicesNamesEv
+  1046: 4519ea74    12 OBJECT  GLOBAL DEFAULT   19 _ZTI29TCChannelUpdateHelperSimpliTV
+  1047: 45193134    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperTKGS
+  1048: 4516c0b5   324 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmos16t_InitServiceMapEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1049: 45193094    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperFSat
+  1050: 45141109   148 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV18ProcessNITInstanceEP15TCSectionParser
+  1051: 45155f6d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N29TCChannelUpdateHelperTricolorD1Ev
+  1052: 4519f30c   184 OBJECT  GLOBAL DEFAULT   19 _ZTV34TCChannelUpdateHelperFreeviewNZSat
+  1053: 4517b875  1052 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorUK24m_CheckTRDPopUpConditionEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1054: 45192c44   118 OBJECT  GLOBAL DEFAULT   13 _ZTSSt19_Sp_counted_deleterIP15TVSManagedListTI13TCServiceDataESt14default_deleteIS2_ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+  1055: 451930f4    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperBlizoo
+  1056: 451510fd  1236 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperTelekom27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+  1057: 451716f9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N20TCRCNAllocatorPolsat11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1058: 4514fa85    92 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTivuD2Ev
+  1059: 4512b109    56 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1060: 4515ca9d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N29TCChannelUpdateHelperTricolor16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1061: 451641f1   376 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN15m_PrintLocalMapEv
+  1062: 451a01e4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI21TIProfileAgentControl
+  1063: 4516eb19   408 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatelliteC2ERK9TVSHandleSt10unique_ptrI14IPreDefinedRCNSt14default_deleteIS4_EE
+  1064: 4519f0a8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperKCCL
+  1065: 450f96f9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N31TCChannelUpdateHelperBulgariaA1D1Ev
+  1066: 451545d1  5960 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS19m_CreateServiceListEP13TCServiceDataP16TCDVBNITInstance
+  1067: 451206cd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N34TCChannelUpdateHelperFreeviewNZSat16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1068: 4513b979  1340 FUNC    GLOBAL DEFAULT   11 _ZN35TCChannelUpdateHelperOrangeMoldavia21t_IsNITVersionChangedEv
+  1069: 45193c80    13 OBJECT  GLOBAL DEFAULT   13 _ZTS10TCTreeNode
+  1070: 4514d561  3788 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect19m_CreateServiceListEP13TCServiceDatab
+  1071: 4519352c    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TIFullSearchAgentControl
+  1072: 451535c1   692 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS21m_HandleVersionChangeEv
+  1073: 45193810    67 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+  1074: 45156289   144 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor18ProcessNITInstanceEP15TCSectionParser
+  1075: 4515e259     2 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFileD1Ev
+  1076: 4516c5e1   148 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlusC1ERK9TVSHandle
+  1077: 4510e3bd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N30TCChannelUpdateHelperERTelekom14GetNITInstanceEt
+  1078: 45193a48    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEE
+  1079: 451a0128    40 OBJECT  GLOBAL DEFAULT   19 _ZTV20TCPreDefinedCableRCN
+  1080: 4519ff60     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+  1081: 4512ba91    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n56_N28TCChannelUpdateHelperNTVPlus16CheckStateUpdateEv
+  1082: 45164369   684 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN29m_PreDefinedRCNKeyExceptionalEP13TCServiceData
+  1083: 4514737d   156 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta14GetNITInstanceEt
+  1084: 451412a1  1308 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite21t_UpdateServicesNamesEP13TCServiceData
+  1085: 45163a21    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N24TCPreDefinedSatelliteRCN20IsPreDefinedMapEmptyEv
+  1086: 45150705   256 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS25m_NotifyAppVersionChangedEv
+  1087: 451933e0    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperDSmart
+  1088: 451471fd     4 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta16UpdateChannelPSIEP13TCServiceData
+  1089: 45193578    19 OBJECT  GLOBAL DEFAULT   13 _ZTS16TIScanStateAgent
+  1090: 4512bb41   796 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus14GetBATInstanceEt
+  1091: 4510f8c1   224 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom19t_ComposeChannelDVBEP13TCServiceDataS1_tttb13EServiceStateP16TCDVBNITInstanceP12TCDVBItemMuxP19TCDVBSDTItemServicetttbPSt6vectorIjSaIjEE
+  1092: 45128e59    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N23TCChannelUpdateHelperM7D1Ev
+  1093: 451a01a8     8 OBJECT  GLOBAL DEFAULT   19 _ZTI10TCTreeNode
+  1094: 450f6fbd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N32TCChannelUpdateHelperAstraHDPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1095: 4516dfc5   404 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecomC2ERK9TVSHandle
+  1096: 45137421   352 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus26m_DynamicServiceListUpdateEPK13TCServiceDataPNSt7__cxx114listIPS0_SaIS5_EEE
+  1097: 4519ecc8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI24TCChannelUpdateHelperNXT
+  1098: 4519c248    24 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperMTSSat
+  1099: 451933c4    26 OBJECT  GLOBAL DEFAULT   13 _ZTS23TCChannelUpdateHelperM7
+  1100: 4516a019   164 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlusD1Ev
+  1101: 45115535  1068 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat10m_AddGenreER13TCServiceData
+  1102: 45122d6d     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n36_N23TCChannelUpdateHelperM716UpdateChannelPSIEP13TCServiceData
+  1103: 4512b339    72 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+  1104: 4519d4c4   284 OBJECT  GLOBAL DEFAULT   19 _ZTV26TCChannelUpdateHelperVolia
+  1105: 45163365    60 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCND1Ev
+  1106: 45131a09   396 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus20m_SetServiceEditableEb
+  1107: 4519c2a8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT24TCChannelUpdateHelperRCS
+  1108: 45192fdc    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TCChannelUpdateHelperVoo
+  1109: 45192ba8    55 OBJECT  GLOBAL DEFAULT   13 _ZTSSt14default_deleteI15TVSManagedListTI13TCServiceDataEE
+  1110: 45133539   528 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNnK19m_CreateServiceListEP13TCServiceDatab
+  1111: 450f7ce1   844 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperBlizoo14GetNITInstanceEt
+  1112: 450f6ca1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N30TCChannelUpdateHelperCyfraPlus14GetBATInstanceEt
+  1113: 45128fe1  3824 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL19m_CreateServiceListEP13TCServiceDatab
+  1114: 45149ef1    20 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekartaD0Ev
+  1115: 4519c430    16 OBJECT  GLOBAL DEFAULT   19 _ZTT32TCChannelUpdateHelperDigitalPlus
+  1116: 4519ed98    12 OBJECT  GLOBAL DEFAULT   19 _ZTI28TCChannelUpdateHelperNTVPlus
+  1117: 45193ce8     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor18NETWORK_ID_GENERALE
+  1118: 45100b85    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N32TCChannelUpdateHelperDigitalPlus18ProcessNITInstanceEP15TCSectionParser
+  1119: 45133d15  1488 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+  1120: 45192d58    22 OBJECT  GLOBAL DEFAULT   13 _ZTS19IDescLogicalChannel
+  1121: 45105e91  3972 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart19m_CreateServiceListEP13TCServiceDatab
+  1122: 45143551  8376 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite27t_ChannelUpdateDVBDynamicSIEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+  1123: 4519c5b4     8 OBJECT  GLOBAL DEFAULT   19 _ZTT26TCPreDefinedAstraHDPlusRCN
+  1124: 4515d03d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N26TCPreDefinedAstraHDPlusRCN16PreDefinedRCNKeyEP13TCServiceData
+  1125: 4519329c    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperPolsat
+  1126: 4519e2b4   284 OBJECT  GLOBAL DEFAULT   19 _ZTV28TCChannelUpdateHelperTelenet
+  1127: 4516e8a5   608 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecom11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1128: 4516ba31    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N25TCRCNAllocatorAstraHDPlus11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1129: 450fbb7d   252 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA132m_UpdateServiceFromLCNDescriptorEP20TCDescLogicalChannelR13TCServiceData
+  1130: 4519c478    24 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperCosmos
+  1131: 450fff7d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N25TCChannelUpdateHelperDIGI16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1132: 4510fa21    74 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSatC2ERK9TVSHandleP19IChannelUpdateProxy
+  1133: 4515a5e5   748 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor18ProcessBATInstanceEP15TCSectionParser
+  1134: 45115379    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N28TCChannelUpdateHelperFransat14GetBATInstanceEt
+  1135: 45192e60    23 OBJECT  GLOBAL DEFAULT   13 _ZTS20TCRCNAllocatorPolsat
+  1136: 4519ffc8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI15TICacheLCNAgent
+  1137: 450f6a15   152 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel18ProcessNITInstanceEP15TCSectionParser
+  1138: 45192be0    47 OBJECT  GLOBAL DEFAULT   13 _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+  1139: 4519c380    16 OBJECT  GLOBAL DEFAULT   19 _ZTT30TCChannelUpdateHelperTelekarta
+  1140: 451934fc    26 OBJECT  GLOBAL DEFAULT   13 _ZTS23TIScanStateAgentControl
+  1141: 4511d269  1308 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL18ProcessBATInstanceEP15TCSectionParser
+  1142: 4514ea01    80 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperTelekom29t_ChannelUpdateDVBFastNitScanEP13TCServiceDatab
+  1143: 4519f178    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperGTPL
+  1144: 4519e638   284 OBJECT  GLOBAL DEFAULT   19 _ZTV29TCChannelUpdateHelperSkyCable
+  1145: 45193cf4     4 OBJECT  GLOBAL DEFAULT   13 _ZN27TCChannelUpdateHelperVectra10GENRE_STEPE
+  1146: 451665d1  1348 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser15m_EndXmlElementEPvPKc
+  1147: 4519c1b8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT24TCChannelUpdateHelperNnK
+  1148: 4516d571   204 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat18m_OtherStartNumberE12EServiceType
+  1149: 4516d63d   144 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat17m_AssignUnorderedE12EServiceType
+  1150: 451935a0    23 OBJECT  GLOBAL DEFAULT   13 _ZTS20TIFreesatSIDataAgent
+  1151: 45101cf1    24 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart28m_FilterServiceByServiceTypeEh
+  1152: 451934e0    23 OBJECT  GLOBAL DEFAULT   13 _ZTS20TITvModeAgentControl
+  1153: 4514b22d  4244 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV26m_DynamicServiceListUpdateEP13TCServiceData
+  1154: 4519ff48     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+  1155: 451a1e88   512 OBJECT  GLOBAL DEFAULT   22 _ZZNKSt7__cxx1112regex_traitsIcE18lookup_collatenameIPKcEENS_12basic_stringIcSt11char_traitsIcESaIcEEET_SA_E14__collatenames
+  1156: 45172585    22 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatelliteD0Ev
+  1157: 451a01fc    44 OBJECT  GLOBAL DEFAULT   19 _ZTV18SiObjectFactoryDVB
+  1158: 4519d714   284 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperDIGISK
+  1159: 4519f488    12 OBJECT  GLOBAL DEFAULT   19 _ZTI28TCChannelUpdateHelperFransat
+  1160: 4512afe5    18 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+  1161: 450f6cb1   144 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperAstraHDPlus18ProcessNITInstanceEP15TCSectionParser
+  1162: 45122579   852 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM7C2ERK9TVSHandleP19IChannelUpdateProxy
+  1163: 450f9709    20 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA1D0Ev
+  1164: 45192ef8    34 OBJECT  GLOBAL DEFAULT   13 _ZTS31TCChannelUpdateHelperOneHungary
+  1165: 4510b8cd  2884 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk19m_CreateServiceListEP13TCServiceData
+  1166: 45192e4c    19 OBJECT  GLOBAL DEFAULT   13 _ZTS16TCRCNAllocatorUK
+  1167: 4519c110    24 OBJECT  GLOBAL DEFAULT   19 _ZTT30TCChannelUpdateHelperSatellite
+  1168: 4513a169    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N25TCChannelUpdateHelperOTAU14GetBATInstanceEt
+  1169: 451005dd   176 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus14GetBATInstanceEt
+  1170: 450f7201   532 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperAlma14GetNITInstanceEt
+  1171: 4519e3e8   284 OBJECT  GLOBAL DEFAULT   19 _ZTV28TCChannelUpdateHelperTelekom
+  1172: 4512b051    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1173: 45113fad  1308 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1174: 4519dcd4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperBlizoo
+  1175: 4514093d   736 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1176: 4510edc5    36 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom5ResetEv
+  1177: 45193cde     2 OBJECT  GLOBAL DEFAULT   13 _ZN27TCChannelUpdateHelperPolsat17INVALID_CP_SRV_IDE
+  1178: 45193be8    23 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost12bad_any_castE
+  1179: 45131969    28 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlusC2ERK9TVSHandleP19IChannelUpdateProxy
+  1180: 45193d10    36 OBJECT  GLOBAL DEFAULT   13 _ZTS33TIFreeviewDuplicatedServicesAgent
+  1181: 451399c1   376 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU16t_IsValidBouquetEt
+  1182: 4519c7f8     8 OBJECT  GLOBAL DEFAULT   19 _ZTI16TVSEventDataBase
+  1183: 45193ae0     2 OBJECT  GLOBAL DEFAULT   13 _ZZNKSt8__detail9_ExecutorIN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaINS5_9sub_matchISB_EEENS5_12regex_traitsIcEELb1EE10_M_is_wordEcE3__s
+  1184: 4514fa2d    88 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTivuC1ERK9TVSHandleP19IChannelUpdateProxy
+  1185: 4519c068    24 OBJECT  GLOBAL DEFAULT   19 _ZTT21TCRCNAllocatorGermany
+  1186: 451610fd  3680 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungary19m_CreateServiceListEP13TCServiceData
+  1187: 4519c390    16 OBJECT  GLOBAL DEFAULT   19 _ZTT30TCChannelUpdateHelperSunDirect
+  1188: 45140c4d   172 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom12t_GetLCNDescEP12TCDVBItemMuxt
+  1189: 4519c1e8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperVectra
+  1190: 451749d5  2232 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite12m_FillTheGapERNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1191: 45164901    84 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParserC1Ev
+  1192: 4512b5a1   100 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+  1193: 4519cfe8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI26TCChannelUpdateHelperAkado
+  1194: 4519e504    12 OBJECT  GLOBAL DEFAULT   19 _ZTI32TCChannelUpdateHelperNumericable
+  1195: 4519c888   104 OBJECT  GLOBAL DEFAULT   19 _ZTV23TCRCNAllocatorERTelecom
+  1196: 45139805     4 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat16UpdateChannelPSIEP13TCServiceData
+  1197: 4519dbb8   284 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperToya
+  1198: 4519efe4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperDSmart
+  1199: 4515608d    20 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolorD0Ev
+  1200: 4515e259     2 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFileD2Ev
+  1201: 451477cd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N30TCChannelUpdateHelperTelekarta18ProcessNITInstanceEP15TCSectionParser
+  1202: 4516b759   728 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1203: 45164a9d    52 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFile16t_GetVaildParserEv
+  1204: 45165225   508 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus17m_PassToAllocatorEP13TCServiceData22EOtherCountryTargetMap
+  1205: 450fdfbd   192 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus18ProcessNITInstanceEP15TCSectionParser
+  1206: 4514119d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N29TCChannelUpdateHelperSimpliTV18ProcessNITInstanceEP15TCSectionParser
+  1207: 4510c411  1448 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1208: 45104a31    20 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlusD0Ev
+  1209: 4511aac5   800 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL14GetBATInstanceEt
+  1210: 451a0078     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost9exceptionE
+  1211: 451197f9  4008 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat37t_ChannelUpdateDVBDynamicSIBySDTOtherEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+  1212: 4516c4f5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N23TCRCNAllocatorSatellite21PreProcessHDSimulcastEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+  1213: 4511f379  3588 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat19m_CreateServiceListEP13TCServiceDatab
+  1214: 4519d25c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI30TCChannelUpdateHelperERTelekom
+  1215: 45193c60    29 OBJECT  GLOBAL DEFAULT   13 _ZTS26TCPreDefinedAstraHDPlusRCN
+  1216: 4513ad45    70 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat16m_GetSDTInstanceEiiPP16TCDVBSDTInstance
+  1217: 4519cbd8    72 OBJECT  GLOBAL DEFAULT   19 _ZTV20TCRCNAllocatorPolsat
+  1218: 4516e2f5     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n28_N24TCRCNAllocatorRostelecom22ServicesForReplacementERSt8multimapIyNSt7__cxx114listIySaIyEEESt4lessIyESaISt4pairIKyS4_EEE
+  1219: 45106e15  1852 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1220: 4511b1a1   664 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat16m_IsValidBouquetEt
+  1221: 4516d6cd   124 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat12m_ComputeRCNE12EServiceTypeP13TCServiceData
+  1222: 4519c3d0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT23TCChannelUpdateHelperM7
+  1223: 45169f7d   156 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlusD2Ev
+  1224: 451a2090     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul
+  1225: 4513f6a9   788 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat21m_ValidateCpServiceIdERSt8multimapItP13TCServiceDataSt4lessItESaISt4pairIKtS2_EEERSt3setItS4_SaItEERNSt7__cxx114listItSC_EEttt
+  1226: 4510ede9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n40_N30TCChannelUpdateHelperERTelekom5ResetEv
+  1227: 450f9dfd   524 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel24m_GetServiceMapFromCacheEv
+  1228: 45193ce4     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor11BOUQUET_ENDE
+  1229: 450f98c5    20 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGID0Ev
+  1230: 451280fd  1512 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM716m_ComposeChannelEP13TCServiceDataS1_tP12TCDVBItemMuxP19TCDVBFSTItemService
+  1231: 45156319    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N29TCChannelUpdateHelperTricolor18ProcessNITInstanceEP15TCSectionParser
+  1232: 45163331    50 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCND2Ev
+  1233: 4519e8e4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperPolsat
+  1234: 45193b72     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor16AUDIO_BOUQUET_IDE
+  1235: 4519c320    24 OBJECT  GLOBAL DEFAULT   19 _ZTT36TCChannelUpdateHelperOsterreichliste
+  1236: 45149ea1    64 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekartaD1Ev
+  1237: 4519c96c   100 OBJECT  GLOBAL DEFAULT   19 _ZTV16TCRCNAllocatorM7
+  1238: 4519fe68     8 OBJECT  GLOBAL DEFAULT   19 _ZTI19IDescLogicalChannel
+  1239: 45179275    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N16TCRCNAllocatorUK16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+  1240: 4519c8f0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI21TCRCNAllocatorGermany
+  1241: 4514fae1   824 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS25m_IsWholeTKGSUpdateNeededEv
+  1242: 45101f01    80 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlusC1ERK9TVSHandleP19IChannelUpdateProxy
+  1243: 4519ef20    12 OBJECT  GLOBAL DEFAULT   19 _ZTI23TCChannelUpdateHelperM7
+  1244: 45141e79  1756 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV26m_DynamicUpdateBySDTActualERK13TCServiceDataRNSt7__cxx114listIPS0_SaIS5_EEE
+  1245: 45193190    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TCChannelUpdateHelperRCS
+  1246: 45107561   144 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk18ProcessNITInstanceEP15TCSectionParser
+  1247: 45104a45    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N32TCChannelUpdateHelperDigitalPlusD0Ev
+  1248: 4514f99d    88 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperTelenetC1ERK9TVSHandleP19IChannelUpdateProxy
+  1249: 45105451    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N32TCChannelUpdateHelperDigitalPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1250: 45100329    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N27TCChannelUpdateHelperDSmart18ProcessNITInstanceEP15TCSectionParser
+  1251: 450fae25   408 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperAlma32m_CheckAndStoreCurrentSDTVersionEP16TCDVBSDTInstance
+  1252: 45115cf1    60 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransatC1ERK9TVSHandleP19IChannelUpdateProxy
+  1253: 451a008c    40 OBJECT  GLOBAL DEFAULT   19 _ZTV24TCPreDefinedSatelliteRCN
+  1254: 450fe08d   108 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus18ProcessBATInstanceEP15TCSectionParser
+  1255: 4513336d   180 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT32m_AddBouquetIDToBouquetsDBIdsMapEP16TCDVBBATInstanceP12TCDVBItemMuxyRSt8multimapI12TCServiceKeyySt4lessIS5_ESaISt4pairIKS5_yEEE
+  1256: 45132095   748 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus28m_UpdateChannelDVBManualModeEP13TCServiceDataR16UpdateChannelRtn
+  1257: 4515ba89  3476 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor19m_CreateServiceListEP13TCServiceData
+  1258: 4519c230    24 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperToya
+  1259: 451724b1   196 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatelliteD1Ev
+  1260: 451610d9    20 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperProsiebenD0Ev
+  1261: 450f7809    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n40_N32TCChannelUpdateHelperAstraHDPlus5ResetEv
+  1262: 4519d11c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI30TCChannelUpdateHelperCyfraPlus
+  1263: 450f96a9    80 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA1D1Ev
+  1264: 45164615   748 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN24m_PreDefinedRCNKeyNormalEP13TCServiceData12ESatelliteIdi
+  1265: 45122111   332 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL32m_AddBouquetIDToBouquetsDBIdsMapEP16TCDVBBATInstanceyRSt8multimapI12TCServiceKeyySt4lessIS3_ESaISt4pairIKS3_yEEE
+  1266: 45193038    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TCChannelUpdateHelperNnK
+  1267: 4516601d   764 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCN26m_SetPredefinedChannelListEP25TCPredefinedChannelParser21system_info_country_e
+  1268: 4519fe70    12 OBJECT  GLOBAL DEFAULT   19 _ZTI23TIScanStateAgentControl
+  1269: 45192eb0    35 OBJECT  GLOBAL DEFAULT   13 _ZTS32TCChannelUpdateHelperAstraHDPlus
+  1270: 45193384    31 OBJECT  GLOBAL DEFAULT   13 _ZTS28TCChannelUpdateHelperNTVPlus
+  1271: 4513ab99   412 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat18ProcessNITInstanceEP15TCSectionParser
+  1272: 4512b091    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1273: 45193c34    22 OBJECT  GLOBAL DEFAULT   13 _ZTS19TCPreDefinedRCNFile
+  1274: 45155e0d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N25TCChannelUpdateHelperTKGS16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1275: 4519c1a0    24 OBJECT  GLOBAL DEFAULT   19 _ZTT26TCChannelUpdateHelperVolia
+  1276: 45193cea     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor18NETWORK_ID_SIBERIAE
+  1277: 45101281  1756 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI26m_DynamicUpdateBySDTActualERK13TCServiceDataRNSt7__cxx114listIPS0_SaIS5_EEE
+  1278: 4519e9b4   192 OBJECT  GLOBAL DEFAULT   19 _ZTV30TCChannelUpdateHelperProsieben
+  1279: 4511bd0d    38 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL12m_AddMRPInfoER13TCServiceDataR19TCDVBSDTItemService
+  1280: 45166319   100 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCNC2E21system_info_country_e
+  1281: 4519ee68   184 OBJECT  GLOBAL DEFAULT   19 _ZTV29TCChannelUpdateHelperDigiturk
+  1282: 45131825   324 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperMTSSatC1ERK9TVSHandleP19IChannelUpdateProxy
+  1283: 4519fe84    12 OBJECT  GLOBAL DEFAULT   19 _ZTI13TITvModeAgent
+  1284: 45101f51  3044 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI19m_UpdateServiceDataEP13TCServiceData
+  1285: 45114ab9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N25TCChannelUpdateHelperFSat18ProcessNITInstanceEP15TCSectionParser
+  1286: 451931cc    34 OBJECT  GLOBAL DEFAULT   13 _ZTS31TCChannelUpdateHelperBulgariaA1
+  1287: 451324e1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N28TCChannelUpdateHelperNTVPlus16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1288: 4519e820    12 OBJECT  GLOBAL DEFAULT   19 _ZTI29TCChannelUpdateHelperTricolor
+  1289: 45164901    84 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParserC2Ev
+  1290: 450f8105   452 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI14GetNITInstanceEt
+  1291: 451930b0    38 OBJECT  GLOBAL DEFAULT   13 _ZTS35TCChannelUpdateHelperOrangeMoldavia
+  1292: 45160f45    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N31TCChannelUpdateHelperOneHungaryD0Ev
+  1293: 4512b179    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+  1294: 451a208c     1 OBJECT  GLOBAL DEFAULT   23 _ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul
+  1295: 45100231    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N27TCChannelUpdateHelperDIGISK14GetNITInstanceEt
+  1296: 45140c45     4 FUNC    GLOBAL DEFAULT   11 _ZNK29TCChannelUpdateHelperSimpliTV13t_ServiceModeEv
+  1297: 450fd70d  1628 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA127t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+  1298: 45193114    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperMTSSat
+  1299: 4519ff30     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+  1300: 4510ee15  1500 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+  1301: 45155f2d    64 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolorD1Ev
+  1302: 451a00cc    24 OBJECT  GLOBAL DEFAULT   19 _ZTI20TCPreDefinedCableRCN
+  1303: 4513bf79    20 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAUD0Ev
+  1304: 451934c0    31 OBJECT  GLOBAL DEFAULT   13 _ZTS28TCChannelUpdateHelperFransat
+  1305: 451461f9   888 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTV16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1306: 4519c500    16 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperAirTel
+  1307: 451417bd    28 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSimpliTVC2ERK9TVSHandleP19IChannelUpdateProxy
+  1308: 45193cd4     2 OBJECT  GLOBAL DEFAULT   13 _ZN25TCChannelUpdateHelperAlma9ALMA_ONIDE
+  1309: 45147419    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N30TCChannelUpdateHelperTelekarta14GetNITInstanceEt
+  1310: 451160b1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N28TCChannelUpdateHelperFransat18ProcessBATInstanceEP15TCSectionParser
+  1311: 451a20ac     4 OBJECT  GLOBAL DEFAULT   23 _ZN19TCPreDefinedRCNFile14m_parserUpdateE
+  1312: 45159945   920 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor21m_PrepareBouquetsListEP14TCDVBBATParserRSt3mapItySt4lessItESaISt4pairIKtyEEE
+  1313: 451674d5    46 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser11m_InitValueEv
+  1314: 4510ed41    38 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV12m_AddMRPInfoER13TCServiceDataR19TCDVBSDTItemService
+  1315: 45163941   132 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFileC2E21system_info_country_e
+  1316: 451049c9    88 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlusD1Ev
+  1317: 451565b1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N29TCChannelUpdateHelperTricolor14GetBATInstanceEt
+  1318: 4519f3c4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI32TCChannelUpdateHelperDigitalPlus
+  1319: 4519cec0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI31TCChannelUpdateHelperOneHungary
+  1320: 4512a4ed    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N23TCChannelUpdateHelperM716UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1321: 4512af81    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1322: 4519c080    24 OBJECT  GLOBAL DEFAULT   19 _ZTT16TCRCNAllocatorM7
+  1323: 4517259d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N23TCRCNAllocatorSatelliteD0Ev
+  1324: 4519fc7c   284 OBJECT  GLOBAL DEFAULT   19 _ZTV26TCChannelUpdateHelperAkado
+  1325: 4519e510   284 OBJECT  GLOBAL DEFAULT   19 _ZTV32TCChannelUpdateHelperNumericable
+  1326: 4519ecd4   184 OBJECT  GLOBAL DEFAULT   19 _ZTV24TCChannelUpdateHelperNXT
+  1327: 451930d8    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperToya
+  1328: 45155e21    66 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperVectra18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+  1329: 451a00e4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI19TCPreDefinedRCNFile
+  1330: 4510dd99    70 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1331: 45153875  3420 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS26m_ReplaceStoredServiceListERNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1332: 45192ff8    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperCosmos
+  1333: 45135dc1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N24TCChannelUpdateHelperNnK16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1334: 45139f71   504 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU14GetBATInstanceEt
+  1335: 45173b49  3704 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlus16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+  1336: 450f987d    56 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGID1Ev
+  1337: 4510f88d    52 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom17m_IsTVTypeServiceEP19TCDVBSDTItemService
+  1338: 450f6abd   148 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperAkado18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+  1339: 4511b0c1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N34TCChannelUpdateHelperFreeviewNZSat14GetBATInstanceEt
+  1340: 45192db4    23 OBJECT  GLOBAL DEFAULT   13 _ZTS20TCRCNAllocatorCosmos
+  1341: 451147f1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N25TCChannelUpdateHelperFSat14GetNITInstanceEt
+  1342: 4511a9b1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N34TCChannelUpdateHelperFreeviewNZSat14GetNITInstanceEt
+  1343: 45148749    60 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekartaC1ERK9TVSHandleP19IChannelUpdateProxy
+  1344: 4517322d  2332 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite21t_AssignUsingLCNCacheEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1345: 4510069d  1256 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus18ProcessNITInstanceEP15TCSectionParser
+  1346: 4515c81d   640 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1347: 45149e59    72 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekartaD2Ev
+  1348: 45169b21   556 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlusC2ERK9TVSHandle
+  1349: 4519d000   284 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperOTAU
+  1350: 4516d171   404 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorM7C2ERK9TVSHandle
+  1351: 4514d551    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N29TCChannelUpdateHelperSkyCable16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1352: 4515cad5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N26TCPreDefinedAstraHDPlusRCN20IsPreDefinedMapEmptyEv
+  1353: 4510dde1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N30TCChannelUpdateHelperERTelekom16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1354: 450fe07d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N30TCChannelUpdateHelperCyfraPlus18ProcessNITInstanceEP15TCSectionParser
+  1355: 4519c5ac     8 OBJECT  GLOBAL DEFAULT   19 _ZTT20TCPreDefinedCableRCN
+  1356: 4516e2f1     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N24TCRCNAllocatorRostelecom21PreProcessHDSimulcastEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+  1357: 4512bb31    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N28TCChannelUpdateHelperNTVPlus18ProcessNITInstanceEP15TCSectionParser
+  1358: 45122d69     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N23TCChannelUpdateHelperM717AvailableSDTOtherEv
+  1359: 45104a21    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N32TCChannelUpdateHelperDigitalPlusD1Ev
+  1360: 45117c11    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N28TCChannelUpdateHelperFransat16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1361: 450f803d   184 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus14GetNITInstanceEt
+  1362: 4519da90   284 OBJECT  GLOBAL DEFAULT   19 _ZTV35TCChannelUpdateHelperOrangeMoldavia
+  1363: 4519c370    16 OBJECT  GLOBAL DEFAULT   19 _ZTT29TCChannelUpdateHelperSimpliTV
+  1364: 4514129d     4 FUNC    GLOBAL DEFAULT   11 _ZTv0_n52_N30TCChannelUpdateHelperSatellite19GetValidLinkageTypeEv
+  1365: 45175d51   404 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorUKC2ERK9TVSHandle
+  1366: 45132dd9   400 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus17m_SetHiddenStatusEP13TCServiceData
+  1367: 450fe0f9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N30TCChannelUpdateHelperCyfraPlus18ProcessBATInstanceEP15TCSectionParser
+  1368: 4515a8d1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N29TCChannelUpdateHelperTricolor18ProcessBATInstanceEP15TCSectionParser
+  1369: 4516d505   108 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsatC1ERK9TVSHandle
+  1370: 450f9905  1220 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel14GetBATInstanceEt
+  1371: 4513eab9   916 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperRCS16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1372: 4512aff9    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1373: 45139d31   560 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat16CheckStateUpdateEv
+  1374: 4511b9cd   832 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL21m_UpdateServicesNamesEv
+  1375: 45160f55    28 FUNC    GLOBAL DEFAULT   11 _ZN36TCChannelUpdateHelperOsterreichlisteC2ERK9TVSHandleP19IChannelUpdateProxy
+  1376: 45193018    29 OBJECT  GLOBAL DEFAULT   13 _ZTS26TCChannelUpdateHelperVolia
+  1377: 451a0070     8 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost16exception_detail10clone_baseE
+  1378: 4519df3c   284 OBJECT  GLOBAL DEFAULT   19 _ZTV31TCChannelUpdateHelperRostelecom
+  1379: 45171bd1   204 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatelliteD2Ev
+  1380: 4516109d    44 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperProsiebenD1Ev
+  1381: 45121a3d     4 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM716UpdateChannelPSIEP13TCServiceData
+  1382: 450f7105    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N27TCChannelUpdateHelperCosmos14GetNITInstanceEt
+  1383: 4515da55  1472 FUNC    GLOBAL DEFAULT   11 _ZN26TCPreDefinedAstraHDPlusRCN23m_GeneratePreDefinedMapEv
+  1384: 4513a29d   796 FUNC    GLOBAL DEFAULT   11 _ZN35TCChannelUpdateHelperOrangeMoldavia16m_GetSDTVersionsERSt3mapI12TTNetworkKeyiSt4lessIS1_ESaISt4pairIKS1_iEEE
+  1385: 450fbb21    92 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA1D2Ev
+  1386: 45193074    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperVectra
+  1387: 451a20a8     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul
+  1388: 45131b95   440 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus15m_GetHomeTpModeER18EHomingChannelMode
+  1389: 45193b18    18 OBJECT  GLOBAL DEFAULT   13 _ZTS15TICacheLCNAgent
+  1390: 4516972d   972 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus13m_PostProcessEv
+  1391: 451075f1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N29TCChannelUpdateHelperDigiturk18ProcessNITInstanceEP15TCSectionParser
+  1392: 4519355c    25 OBJECT  GLOBAL DEFAULT   13 _ZTS22TIFreesatScanDataAgent
+  1393: 45149f15   340 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect16m_AddBouquetToDBEP16TCDVBBATInstance
+  1394: 4519cc20    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCRCNAllocatorAstraHDPlus
+  1395: 4513a649   700 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU11t_AssignLcnEP13TCServiceDataS1_P12TCDVBItemMuxt
+  1396: 451152d5   164 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat14GetBATInstanceEt
+  1397: 451936b0    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+  1398: 4511adf5   716 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat14GetBATInstanceEt
+  1399: 4519c3b0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT28TCChannelUpdateHelperNTVPlus
+  1400: 45104a55  1444 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus18ProcessBATInstanceEP15TCSectionParser
+  1401: 450fad1d   220 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperAlma16m_GetSDTInstanceEv
+  1402: 45133b19   508 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus29m_SignalServicesFromCurrentTSEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1403: 45167a85  3432 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus22ServicesForReplacementERSt8multimapIyNSt7__cxx114listIySaIyEEESt4lessIyESaISt4pairIKyS4_EEE
+  1404: 4519ff78     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEE
+  1405: 45193cdc     2 OBJECT  GLOBAL DEFAULT   13 _ZN27TCChannelUpdateHelperDIGISK17DIGI_SK_NETWORKIDE
+  1406: 4513302d   832 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT21m_UpdateServicesNamesEv
+  1407: 450f7975   484 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperCyfraPlus17AvailableSDTOtherEv
+  1408: 45166449    20 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCND0Ev
+  1409: 4512ca11   208 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1410: 4519e3d0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI31TCChannelUpdateHelperBulgariaA1
+  1411: 451327ed   508 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNnK14GetNITInstanceEt
+  1412: 451a20b0     4 OBJECT  GLOBAL DEFAULT   23 _ZN19TCPreDefinedRCNFile13m_parserLocalE
+  1413: 45115389   428 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat46m_IsOnScanWithBackupHighReliabilityTransponderEv
+  1414: 45147201   192 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect14GetBATInstanceEt
+  1415: 450fbc95    28 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGIC2ERK9TVSHandleP19IChannelUpdateProxy
+  1416: 4515b7bd   320 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperToya26t_ChangeToValidServiceTypeEP13TCDescServiceP19TCDVBSDTItemServiceR13TCServiceData
+  1417: 4519dce0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperMTSSat
+  1418: 4519fed4    12 OBJECT  GLOBAL DEFAULT   19 _ZTI22TIFreesatScanDataAgent
+  1419: 4519c410    16 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperDishTV
+  1420: 45100ce1   876 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI21m_IsBATVersionChangedEv
+  1421: 4512017d  1360 FUNC    GLOBAL DEFAULT   11 _ZN34TCChannelUpdateHelperFreeviewNZSat16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1422: 4511be09   196 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL20m_GetBatInstanceListERNSt7__cxx114listIP16TCDVBBATInstanceSaIS3_EEE
+  1423: 4513a5b9    56 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAUC2ERK9TVSHandleP19IChannelUpdateProxy
+  1424: 4516f60d   444 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorCosmosC1ERK9TVSHandle
+  1425: 45160f21    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N31TCChannelUpdateHelperOneHungaryD1Ev
+  1426: 4515d985   208 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungary21m_UpdateInvisibleInfoEP19IDescLogicalChanneltP13TCServiceData
+  1427: 45160fad    28 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperProsiebenC2ERK9TVSHandleP19IChannelUpdateProxy
+  1428: 4519c960    12 OBJECT  GLOBAL DEFAULT   19 _ZTI16TCRCNAllocatorM7
+  1429: 45165b49   408 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus17m_AssignUnorderedEt
+  1430: 4512afad    18 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+  1431: 4517100d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N25TCRCNAllocatorDigitalPlus11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1432: 4519c140    24 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperOTAU
+  1433: 4519de08    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperTKGS
+  1434: 45168db9  2420 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus29m_ProcessSimulcastReplacementEv
+  1435: 451571f1    72 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolorD2Ev
+  1436: 4513bf11    88 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAUD1Ev
+  1437: 4519c818   100 OBJECT  GLOBAL DEFAULT   19 _ZTV20TCRCNAllocatorCosmos
+  1438: 4519d958    12 OBJECT  GLOBAL DEFAULT   19 _ZTI25TCChannelUpdateHelperFSat
+  1439: 4519e62c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI29TCChannelUpdateHelperSkyCable
+  1440: 4519c52c   120 OBJECT  GLOBAL DEFAULT   19 _ZZNKSt7__cxx1112regex_traitsIcE16lookup_classnameIPKcEENS1_10_RegexMaskET_S6_bE12__classnames
+  1441: 4516b5b9   416 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus8m_AssignEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1442: 450fba9d    56 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA1C2ERK9TVSHandleP19IChannelUpdateProxy
+  1443: 45193300    33 OBJECT  GLOBAL DEFAULT   13 _ZTS30TCChannelUpdateHelperTelekarta
+  1444: 4519c440    16 OBJECT  GLOBAL DEFAULT   19 _ZTT28TCChannelUpdateHelperFransat
+  1445: 45140c31     4 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperRostelecom18t_SetServiceHiddenEhPK19TCDVBSDTItemServiceP13TCServiceData
+  1446: 4519da84    12 OBJECT  GLOBAL DEFAULT   19 _ZTI35TCChannelUpdateHelperOrangeMoldavia
+  1447: 4515b76d    62 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperZiggo16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1448: 4510dc49    10 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat27t_ChannelUpdateDVBDynamicSIEP13TCServiceDataRNSt7__cxx114listIS1_SaIS1_EEES6_
+  1449: 45104979    80 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlusD2Ev
+  1450: 4515d04d    56 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungaryC2ERK9TVSHandleP19IChannelUpdateProxy
+  1451: 4519c278    24 OBJECT  GLOBAL DEFAULT   19 _ZTT31TCChannelUpdateHelperRostelecom
+  1452: 4519d4ac    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperCosmos
+  1453: 451090dd  6356 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTVC2ERK9TVSHandleP19IChannelUpdateProxy
+  1454: 4515e2d5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N20TCPreDefinedCableRCND0Ev
+  1455: 4519c460    24 OBJECT  GLOBAL DEFAULT   19 _ZTT30TCChannelUpdateHelperCyfraPlus
+  1456: 45126dd5  4904 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM724m_ExtractRegionalisationER13TCDescServiceR13TCServiceData
+  1457: 4519cbcc    12 OBJECT  GLOBAL DEFAULT   19 _ZTI20TCRCNAllocatorPolsat
+  1458: 45172575    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N23TCRCNAllocatorSatelliteD1Ev
+  1459: 4519ff04    12 OBJECT  GLOBAL DEFAULT   19 _ZTI12TIAudioAgent
+  1460: 4519ef2c   184 OBJECT  GLOBAL DEFAULT   19 _ZTV23TCChannelUpdateHelperM7
+  1461: 4519c170    24 OBJECT  GLOBAL DEFAULT   19 _ZTT30TCChannelUpdateHelperERTelekom
+  1462: 45121e55   476 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperKCCL21m_UpdateServicesNamesEv
+  1463: 450fa071  2464 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel28m_UpdateServiceDataDynamicSIEv
+  1464: 451151dd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N28TCChannelUpdateHelperFransat18ProcessNITInstanceEP15TCSectionParser
+  1465: 45133421   280 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNXT22m_MakeServiceOrderMapsEP16TCDVBBATInstanceP12TCDVBItemMuxRSt3mapI12TCServiceKeytSt4lessIS5_ESaISt4pairIKS5_tEEE
+  1466: 4519c5a4     8 OBJECT  GLOBAL DEFAULT   19 _ZTT24TCPreDefinedSatelliteRCN
+  1467: 4512b53d   100 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+  1468: 45152db5  2060 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS21m_PrepareLocationDataEP15TCDVBTKGSParser
+  1469: 4514878d  1488 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+  1470: 45192ed4    33 OBJECT  GLOBAL DEFAULT   13 _ZTS30TCChannelUpdateHelperSatellite
+  1471: 450fbced    72 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGID2Ev
+  1472: 45107ed9   724 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperDigiturk22m_UpdateNewServiceDataER13TCServiceDataPS0_tttt
+  1473: 4519ff40     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+  1474: 4519f300    12 OBJECT  GLOBAL DEFAULT   19 _ZTI34TCChannelUpdateHelperFreeviewNZSat
+  1475: 45179599  3116 FUNC    GLOBAL DEFAULT   11 _ZN18SiObjectFactoryDVB22GetChannelUpdateHelperERK9TVSHandleP19IChannelUpdateProxy15EServiceProfile12EChannelType12EBroadCaster
+  1476: 450f6bf9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N27TCChannelUpdateHelperAirTel14GetNITInstanceEt
+  1477: 4513b15d  2076 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperRCS19m_UpdateServiceDataEP13TCServiceData
+  1478: 4519fb54    12 OBJECT  GLOBAL DEFAULT   19 _ZTI20TITvModeAgentControl
+  1479: 4515cab5     4 FUNC    GLOBAL DEFAULT   11 _ZNK30TCChannelUpdateHelperProsieben13t_ServiceModeEv
+  1480: 4519ff98     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEE
+  1481: 4519ffbc    12 OBJECT  GLOBAL DEFAULT   19 _ZTI13TISIDataAgent
+  1482: 4519f3d0   184 OBJECT  GLOBAL DEFAULT   19 _ZTV32TCChannelUpdateHelperDigitalPlus
+  1483: 45193bbc    41 OBJECT  GLOBAL DEFAULT   13 _ZTSN5boost10wrapexceptINS_12bad_any_castEEE
+  1484: 4511a9c1   244 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL14GetNITInstanceEt
+  1485: 4519c3a0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT24TCChannelUpdateHelperNXT
+  1486: 4514edad    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N25TCChannelUpdateHelperTivu14GetNITInstanceEt
+  1487: 4515b8fd   172 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperToya15t_FilterServiceEP16TCDVBSDTInstanceP19TCDVBSDTItemService
+  1488: 4510195d   288 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDIGISKC2ERK9TVSHandleP19IChannelUpdateProxy
+  1489: 4514e951   160 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS16CheckStateUpdateEv
+  1490: 45156171   168 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperVolia18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+  1491: 4519fa78     8 OBJECT  GLOBAL DEFAULT   19 _ZTISt14default_deleteI15TVSManagedListTI13TCServiceDataEE
+  1492: 4510003d    38 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperDigitalPlus14GetNITInstanceEt
+  1493: 4519c4c0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT32TCChannelUpdateHelperAstraHDPlus
+  1494: 4517101d   992 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorERTelecom26t_AssignStandardUnorderMapEtttt
+  1495: 4519ffec    12 OBJECT  GLOBAL DEFAULT   19 _ZTI18TITKGSAgentControl
+  1496: 451472c1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N30TCChannelUpdateHelperSunDirect14GetBATInstanceEt
+  1497: 4519ff88     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEE
+  1498: 4511cc25  1500 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL23t_UpdateServicesFromSDTEP16TCDVBSDTInstance
+  1499: 4519d830    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperVectra
+  1500: 45167495    62 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParserD1Ev
+  1501: 45192f3c    28 OBJECT  GLOBAL DEFAULT   13 _ZTS25TCChannelUpdateHelperOTAU
+  1502: 45170de9   548 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlus11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1503: 45157a5d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N29TCChannelUpdateHelperTricolor14GetNITInstanceEt
+  1504: 45193cec     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor27ORIGINAL_NETWORK_ID_GENERALE
+  1505: 45161081    28 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperProsiebenD2Ev
+  1506: 451632a1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N31TCChannelUpdateHelperOneHungary16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1507: 4515e5cd  6124 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperZiggo30m_UpdateCableListFromDVBTablesEP13TCServiceDataP11TCPATParserP16TCDVBNITInstancebRKNSt7__cxx114listIS1_SaIS1_EEERS9_SC_
+  1508: 45156389   552 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor14GetBATInstanceEt
+  1509: 451160c1   976 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat21m_UpdateServicesNamesEP13TCServiceData
+  1510: 45139801     4 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat17AvailableSDTOtherEv
+  1511: 451215bd  1128 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1512: 4511eca5   540 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperGTPL16m_AddBouquetToDBEP16TCDVBBATInstance
+  1513: 4519c4e8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT26TCChannelUpdateHelperAkado
+  1514: 45178d41  1332 FUNC    GLOBAL DEFAULT   11 _ZN16TCRCNAllocatorUK16RemoveRedundancyERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK18TSSignalMarginInfo
+  1515: 4513a90d   652 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperPolsat22m_StoreChannelListInfoEP16TCDVBNITInstance
+  1516: 45149f05    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N30TCChannelUpdateHelperTelekartaD0Ev
+  1517: 4512b0bd    18 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+  1518: 4510fad9   620 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat20m_IsServiceAvailableEP19TCDVBSDTItemService
+  1519: 4516640d    44 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCND1Ev
+  1520: 451a0150    40 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost10wrapexceptINS_12bad_any_castEEE
+  1521: 45193c00    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TCPreDefinedSatelliteRCN
+  1522: 45193364    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperAirTel
+  1523: 4515cab1     4 FUNC    GLOBAL DEFAULT   11 _ZNK36TCChannelUpdateHelperOsterreichliste16t_ServiceProfileEv
+  1524: 45193ca0    19 OBJECT  GLOBAL DEFAULT   13 _ZTS16TISIVersionAgent
+  1525: 45151ce9  1468 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS27m_GetTransponderDataFromNITERK13TCServiceDataR16TCDVBNITInstanceRSt3mapItSt4pairIttESt4lessItESaIS6_IKtS7_EEE
+  1526: 4519fef8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI20TIFreesatSIDataAgent
+  1527: 4515fdb9  4092 FUNC    GLOBAL DEFAULT   11 _ZN26TCChannelUpdateHelperZiggo27m_ChannelUpdateDVBDynamicSIEP13TCServiceDataR16UpdateChannelRtn
+  1528: 4515cb05   144 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungary18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+  1529: 451508e1  2076 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta16m_ProcessSrvListEP16TCDVBNITInstanceP16TCDVBSDTInstanceRK13TCServiceData
+  1530: 4515e2c1    20 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCND0Ev
+  1531: 451327dd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n20_N24TCChannelUpdateHelperNnK18ProcessNITInstanceEP15TCSectionParser
+  1532: 45192b90    23 OBJECT  GLOBAL DEFAULT   13 _ZTS20IChannelUpdateHelper
+  1533: 45112ec9  4324 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV19m_CreateServiceListEP13TCServiceDatab
+  1534: 451005cd    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N27TCChannelUpdateHelperDSmart14GetBATInstanceEt
+  1535: 451a20a4     1 OBJECT  GLOBAL DEFAULT   23 _ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul
+  1536: 45132c2d   428 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus21m_StoreNewServiceListEPK13TCServiceDataPNSt7__cxx114listIPS0_SaIS5_EEE
+  1537: 451565c1   608 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperVectra20t_AddGenresToServiceER13TCServiceData
+  1538: 45100075   444 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDIGISK14GetNITInstanceEt
+  1539: 4519feec    12 OBJECT  GLOBAL DEFAULT   19 _ZTI14TINetworkAgent
+  1540: 45192e30    26 OBJECT  GLOBAL DEFAULT   13 _ZTS23TCRCNAllocatorSatellite
+  1541: 451106c5  2136 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperFSat20t_ProcessFSatLinkageEv
+  1542: 45150479   292 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS9m_GetHashERNSt7__cxx1112basic_stringItSt11char_traitsItESaItEEE
+  1543: 4512af29    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1544: 4519fb60   284 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperAlma
+  1545: 45193324    33 OBJECT  GLOBAL DEFAULT   13 _ZTS30TCChannelUpdateHelperSunDirect
+  1546: 4513beb5    92 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAUD2Ev
+  1547: 4519fec8    12 OBJECT  GLOBAL DEFAULT   19 _ZTI17TIFullSearchAgent
+  1548: 45193740    70 OBJECT  GLOBAL DEFAULT   13 _ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+  1549: 451570ad    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N26TCChannelUpdateHelperZiggo14GetNITInstanceEt
+  1550: 451a0080    12 OBJECT  GLOBAL DEFAULT   19 _ZTIN5boost12bad_any_castE
+  1551: 4519c338    16 OBJECT  GLOBAL DEFAULT   19 _ZTT29TCChannelUpdateHelperTricolor
+  1552: 4519f95c   284 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperBlizoo
+  1553: 45142771    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N29TCChannelUpdateHelperSimpliTVD0Ev
+  1554: 4519e8f0   184 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperPolsat
+  1555: 4511597d   856 FUNC    GLOBAL DEFAULT   11 _ZNK21FransatTCChannelEqStrclEPK13TCServiceDataS2_
+  1556: 4519c0e0    16 OBJECT  GLOBAL DEFAULT   19 _ZTT20TCRCNAllocatorPolsat
+  1557: 4512cae1   208 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1558: 451002c9    96 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDSmart18ProcessNITInstanceEP15TCSectionParser
+  1559: 451144c9    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N27TCChannelUpdateHelperDishTV16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1560: 45122d71   940 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM727m_GetOperatorIdentificationERtRh
+  1561: 4519c8fc   100 OBJECT  GLOBAL DEFAULT   19 _ZTV21TCRCNAllocatorGermany
+  1562: 4516ce45   404 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorERTelecomC2ERK9TVSHandle
+  1563: 45129ed1  1348 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM727m_ChannelUpdateDVBAutoStoreEP13TCServiceData
+  1564: 45140c1d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N27TCChannelUpdateHelperPolsat16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1565: 45159cdd  2312 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperVectra27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+  1566: 4515e2b1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N20TCPreDefinedCableRCND1Ev
+  1567: 45157239   604 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolor19m_IsTricolorNetworkEt
+  1568: 45160f31    20 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungaryD0Ev
+  1569: 45140e71    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N29TCChannelUpdateHelperSimpliTV14GetBATInstanceEt
+  1570: 4512b80d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n36_N27TCChannelUpdateHelperMTSSat16UpdateChannelPSIEP13TCServiceData
+  1571: 451a0228    12 OBJECT  GLOBAL DEFAULT   19 _ZTI33TIFreeviewDuplicatedServicesAgent
+  1572: 450fcd19  1400 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1573: 451485e1   332 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSunDirect32m_AddBouquetIDToBouquetsDBIdsMapEP16TCDVBBATInstanceyRSt8multimapI12TCServiceKeyySt4lessIS3_ESaISt4pairIKS3_yEEE
+  1574: 4519cabc   100 OBJECT  GLOBAL DEFAULT   19 _ZTV16TCRCNAllocatorUK
+  1575: 4515caad     4 FUNC    GLOBAL DEFAULT   11 _ZNK36TCChannelUpdateHelperOsterreichliste13t_ServiceModeEv
+  1576: 45193254    39 OBJECT  GLOBAL DEFAULT   13 _ZTS36TCChannelUpdateHelperOsterreichliste
+  1577: 451633c5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N26TCPreDefinedAstraHDPlusRCND0Ev
+  1578: 4519e064   284 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperTivu
+  1579: 450f88cd  2768 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel19m_UpdateServiceDataEP13TCServiceDataRSt3mapI21TSServiceListCacheKeyS1_St4lessIS3_ESaISt4pairIKS3_S1_EEEb
+  1580: 4517aa05  1204 FUNC    GLOBAL DEFAULT   11 _ZNK23TCRCNAllocatorSatellite29m_GetMappingFromTpToSatelliteERKNSt7__cxx114listIP13TCServiceDataSaIS3_EEERSt3mapIt12ESatelliteIdSt4lessItESaISt4pairIKtS9_EEE
+  1581: 450f7845   304 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperBulgariaA118t_SetServiceHiddenEhPK19TCDVBSDTItemServiceP13TCServiceData
+  1582: 45100b95   332 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperDIGI19m_FilterServiceTypeER13TCServiceData
+  1583: 4515cab9     4 FUNC    GLOBAL DEFAULT   11 _ZNK30TCChannelUpdateHelperProsieben16t_ServiceProfileEv
+  1584: 45167705   544 FUNC    GLOBAL DEFAULT   11 _ZN19TCPreDefinedRCNFile12m_ParseFilesEv
+  1585: 4519eff0   184 OBJECT  GLOBAL DEFAULT   19 _ZTV27TCChannelUpdateHelperDSmart
+  1586: 45192d84    16 OBJECT  GLOBAL DEFAULT   13 _ZTS13TITvModeAgent
+  1587: 4519ee5c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI29TCChannelUpdateHelperDigiturk
+  1588: 450f7b59    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n16_N30TCChannelUpdateHelperCyfraPlus17AvailableSDTOtherEv
+  1589: 4512b2b9   128 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+  1590: 45162ea9  1016 FUNC    GLOBAL DEFAULT   11 _ZN31TCChannelUpdateHelperOneHungary16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1591: 4519f550   184 OBJECT  GLOBAL DEFAULT   19 _ZTV25TCChannelUpdateHelperDIGI
+  1592: 4519e760   192 OBJECT  GLOBAL DEFAULT   19 _ZTV36TCChannelUpdateHelperOsterreichliste
+  1593: 45157165   140 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperTricolorC1ERK9TVSHandleP19IChannelUpdateProxy
+  1594: 450f80f5    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N30TCChannelUpdateHelperCyfraPlus14GetNITInstanceEt
+  1595: 4516e159   408 FUNC    GLOBAL DEFAULT   11 _ZN24TCRCNAllocatorRostelecomC1ERK9TVSHandle
+  1596: 45137581  3640 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperNTVPlus19m_CreateServiceListEP13TCServiceDatab
+  1597: 45139c91   144 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU18ProcessNITInstanceEP15TCSectionParser
+  1598: 4519c7e0    12 OBJECT  GLOBAL DEFAULT   19 _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+  1599: 4516aaf9  2752 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus15m_AssignOrderedEv
+  1600: 450fb7b1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n28_N32TCChannelUpdateHelperAstraHDPlus18ProcessSGTInstanceEv
+  1601: 4511becd  1928 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat23m_UpdateServicesFromSDTEii
+  1602: 451286e5  1588 FUNC    GLOBAL DEFAULT   11 _ZN23TCChannelUpdateHelperM716CheckStateUpdateEv
+  1603: 45193348    27 OBJECT  GLOBAL DEFAULT   13 _ZTS24TCChannelUpdateHelperNXT
+  1604: 45192f1c    29 OBJECT  GLOBAL DEFAULT   13 _ZTS26TCChannelUpdateHelperAkado
+  1605: 4516ecb1   424 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatelliteC1ERK9TVSHandleSt10unique_ptrI14IPreDefinedRCNSt14default_deleteIS4_EE
+  1606: 4516d919   372 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat10m_ValidLCNEt12EServiceType
+  1607: 45140cf9    30 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite5ResetEv
+  1608: 45192d20    26 OBJECT  GLOBAL DEFAULT   13 _ZTS23TIServiceListCacheAgent
+  1609: 4514f9f5    56 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTivuC2ERK9TVSHandleP19IChannelUpdateProxy
+  1610: 4513650d  2768 FUNC    GLOBAL DEFAULT   11 _ZN32TCChannelUpdateHelperNumericable27t_ChannelUpdateDVBAutoStoreEP13TCServiceDatab
+  1611: 45132749   148 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNnK18ProcessNITInstanceEP15TCSectionParser
+  1612: 4514ec3d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N25TCChannelUpdateHelperTivuD0Ev
+  1613: 45167495    62 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParserD2Ev
+  1614: 45107551    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n32_N27TCChannelUpdateHelperDSmart16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1615: 45166ba1  2236 FUNC    GLOBAL DEFAULT   11 _ZN25TCPredefinedChannelParser17m_StartXmlElementEPvPKcPS2_
+  1616: 4519ffa8     8 OBJECT  GLOBAL DEFAULT   19 _ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEE
+  1617: 4516c675  1124 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlus8m_AssignERSt3mapItP13TCServiceDataSt4lessItESaISt4pairIKtS2_EEE
+  1618: 450f7415    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n44_N25TCChannelUpdateHelperAlma14GetNITInstanceEt
+  1619: 451103bd   760 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom18ProcessBATInstanceEP15TCSectionParser
+  1620: 4512b6b9   180 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+  1621: 4516df31   148 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat14m_IsInCategoryE12EServiceTypeP13TCServiceData
+  1622: 4516cad9   676 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlus40m_RemoveServicesWithInvalidChannelNumberEPNSt7__cxx114listIP13TCServiceDataSaIS3_EEE
+  1623: 4519c4d0    24 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperAlma
+  1624: 451477dd  2556 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSkyCable19m_UpdateServiceDataEP13TCServiceDatab
+  1625: 450f6fcd   312 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperCosmos14GetNITInstanceEt
+  1626: 45193454    30 OBJECT  GLOBAL DEFAULT   13 _ZTS27TCChannelUpdateHelperDishTV
+  1627: 4510068d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n48_N32TCChannelUpdateHelperDigitalPlus14GetBATInstanceEt
+  1628: 451a01f0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI18SiObjectFactoryDVB
+  1629: 45116491  4248 FUNC    GLOBAL DEFAULT   11 _ZN28TCChannelUpdateHelperFransat19m_CreateServiceListEP13TCServiceDatab
+  1630: 4510e8a9   832 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperDishTV21m_UpdateServicesNamesEv
+  1631: 4519ed8c    12 OBJECT  GLOBAL DEFAULT   19 _ZTI27TCChannelUpdateHelperAirTel
+  1632: 4519c1d0    24 OBJECT  GLOBAL DEFAULT   19 _ZTT27TCChannelUpdateHelperDIGISK
+  1633: 45165731   484 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorAstraHDPlus5m_KeyEP13TCServiceData
+  1634: 4519fee0    12 OBJECT  GLOBAL DEFAULT   19 _ZTI16TIScanStateAgent
+  1635: 4513c0dd  2872 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU19t_CreateServiceListEP13TCServiceData
+  1636: 4514d06d  1252 FUNC    GLOBAL DEFAULT   11 _ZN29TCChannelUpdateHelperSkyCable16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1637: 451715fd   252 FUNC    GLOBAL DEFAULT   11 _ZN20TCRCNAllocatorPolsat11AllocateRCNERNSt7__cxx114listIP13TCServiceDataSaIS3_EEERK16TCCriteriaHelperRK18TSSignalMarginInfo20ERCNAllocationOrigin
+  1638: 45149ee1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N30TCChannelUpdateHelperTelekartaD1Ev
+  1639: 451932e0    32 OBJECT  GLOBAL DEFAULT   13 _ZTS29TCChannelUpdateHelperSimpliTV
+  1640: 4512aee1    36 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+  1641: 450f6b51   168 FUNC    GLOBAL DEFAULT   11 _ZN27TCChannelUpdateHelperAirTel14GetNITInstanceEt
+  1642: 4514f0c5  2208 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperTelekarta19m_UpdateServiceDataEP13TCServiceData
+  1643: 451663e9    36 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCND2Ev
+  1644: 4510dc55   292 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperERTelekom18t_SubFilterServiceEhtPK19TCDVBSDTItemService
+  1645: 4516645d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N24TCPreDefinedSatelliteRCND0Ev
+  1646: 4516ef11   500 FUNC    GLOBAL DEFAULT   11 _ZN23TCRCNAllocatorSatellite19m_AssignLCNOrderMapEv
+  1647: 45114e99    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n24_N25TCChannelUpdateHelperFSat18ProcessBATInstanceEP15TCSectionParser
+  1648: 4515e25d    84 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCND1Ev
+  1649: 45193ce2     2 OBJECT  GLOBAL DEFAULT   13 _ZN29TCChannelUpdateHelperTricolor13BOUQUET_STARTE
+  1650: 4519c290    24 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperTivu
+  1651: 4514fe19   440 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperTKGS26m_RestoreStoredServiceDataER13TCServiceDataRKS0_13EOperatorMode
+  1652: 451a2098     4 OBJECT  GLOBAL DEFAULT   23 _ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul
+  1653: 45140f29   116 FUNC    GLOBAL DEFAULT   11 _ZN30TCChannelUpdateHelperSatellite26t_ChangeToValidServiceTypeEP13TCDescServiceP19TCDVBSDTItemServiceR13TCServiceData
+  1654: 45193650    24 OBJECT  GLOBAL DEFAULT   13 _ZTSSt19_Sp_make_shared_tag
+  1655: 4515e059   384 FUNC    GLOBAL DEFAULT   11 _ZN20TCPreDefinedCableRCN18m_PreDefinedRCNKeyERK13TCServiceDataRtS3_
+  1656: 4512b025    44 FUNC    GLOBAL DEFAULT   11 _ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+  1657: 4519c0b0    24 OBJECT  GLOBAL DEFAULT   19 _ZTT23TCRCNAllocatorSatellite
+  1658: 4516105d    20 FUNC    GLOBAL DEFAULT   11 _ZN36TCChannelUpdateHelperOsterreichlisteD0Ev
+  1659: 45139b39   328 FUNC    GLOBAL DEFAULT   11 _ZN25TCChannelUpdateHelperOTAU16CheckStateUpdateEv
+  1660: 45128d19    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n56_N23TCChannelUpdateHelperM716CheckStateUpdateEv
+  1661: 4514e9f1    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n56_N25TCChannelUpdateHelperTKGS16CheckStateUpdateEv
+  1662: 45140d19    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n40_N30TCChannelUpdateHelperSatellite5ResetEv
+  1663: 4519c450    16 OBJECT  GLOBAL DEFAULT   19 _ZTT25TCChannelUpdateHelperDIGI
+  1664: 4516cd7d   200 FUNC    GLOBAL DEFAULT   11 _ZN25TCRCNAllocatorDigitalPlus22m_IsChannelNumberValidEt
+  1665: 45135911  1200 FUNC    GLOBAL DEFAULT   11 _ZN24TCChannelUpdateHelperNnK16UpdateChannelDVBEP13TCServiceDataR16UpdateChannelRtn
+  1666: 4519c0c8    24 OBJECT  GLOBAL DEFAULT   19 _ZTT16TCRCNAllocatorUK
+  1667: 451610ed    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N30TCChannelUpdateHelperProsiebenD0Ev
+  1668: 4516637d   108 FUNC    GLOBAL DEFAULT   11 _ZN24TCPreDefinedSatelliteRCNC1E21system_info_country_e
+  1669: 4514274d    16 FUNC    GLOBAL DEFAULT   11 _ZTv0_n12_N29TCChannelUpdateHelperSimpliTVD1Ev
+
+STDERR:

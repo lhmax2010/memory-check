@@ -1,0 +1,866 @@
+### sections rc=0
+There are 27 section headers, starting at offset 0x2ea28:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            00000134 000134 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        00000158 000158 001ba0 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          00001cf8 001cf8 0030d0 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          00004dc8 004dc8 00fd11 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          00014ada 014ada 00061a 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         000150f4 0150f4 0001c0 00   A  4   5  4
+  [ 7] .rel.dyn          REL             000152b4 0152b4 000d80 08   A  3   0  4
+  [ 8] .rel.plt          REL             00016034 016034 000de0 08  AI  3  22  4
+  [ 9] .init             PROGBITS        00016e14 016e14 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        00016e20 016e20 0015e4 04  AX  0   0  4
+  [11] .text             PROGBITS        00018404 018404 00dbe8 00  AX  0   0  4
+  [12] .fini             PROGBITS        00025fec 025fec 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        00025ff4 025ff4 003564 00   A  0   0  4
+  [14] .ARM.extab        PROGBITS        00029558 029558 00213c 00   A  0   0  4
+  [15] .ARM.exidx        ARM_EXIDX       0002b694 02b694 000f18 00  AL 11   0  4
+  [16] .eh_frame         PROGBITS        0002c5ac 02c5ac 000004 00   A  0   0  4
+  [17] .tbss             NOBITS          0002d000 02d000 00001d 00 WAT  0   0  4
+  [18] .init_array       INIT_ARRAY      0002d000 02d000 000010 04  WA  0   0  4
+  [19] .fini_array       FINI_ARRAY      0002d010 02d010 000004 04  WA  0   0  4
+  [20] .data.rel.ro      PROGBITS        0002d014 02d014 000518 00  WA  0   0  4
+  [21] .dynamic          DYNAMIC         0002d52c 02d52c 000130 08  WA  4   0  4
+  [22] .got              PROGBITS        0002e000 02e000 0008f4 04  WA  0   0  4
+  [23] .data             PROGBITS        0002e8f4 02e8f4 000004 00  WA  0   0  4
+  [24] .bss              NOBITS          0002e8f8 02e8f8 000094 00  WA  0   0  4
+  [25] .comment          PROGBITS        00000000 02e8f8 000042 01  MS  0   0  1
+  [26] .shstrtab         STRTAB          00000000 02e93a 0000ed 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+STDERR:
+
+### segments rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x0
+There are 8 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x02b694 0x0002b694 0x0002b694 0x00f18 0x00f18 R   0x4
+  LOAD           0x000000 0x00000000 0x00000000 0x2c5b0 0x2c5b0 R E 0x1000
+  LOAD           0x02d000 0x0002d000 0x0002d000 0x018f8 0x0198c RW  0x1000
+  DYNAMIC        0x02d52c 0x0002d52c 0x0002d52c 0x00130 0x00130 RW  0x4
+  NOTE           0x000134 0x00000134 0x00000134 0x00024 0x00024 R   0x4
+  TLS            0x02d000 0x0002d000 0x0002d000 0x00000 0x0001d R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x02d000 0x0002d000 0x0002d000 0x01000 0x01000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     .tbss 
+   06     
+   07     .init_array .fini_array .data.rel.ro .dynamic 
+
+STDERR:
+
+### comment rc=0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.32) 14.2.0
+  [    2d]  clang version 22.1.8
+
+
+STDERR:
+
+### symbols rc=0
+
+Symbol table '.dynsym' contains 781 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00016e14     0 SECTION LOCAL  DEFAULT    9 .init
+     2: 0002e8f4     0 SECTION LOCAL  DEFAULT   23 .data
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareERKS4_@GLIBCXX_3.4.21 (2)
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_register_object
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znwj@GLIBCXX_3.4 (3)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lock@GLIBC_2.4 (4)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_own_name_on_connection
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_push_thread_default
+     9: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt6thread6_StateE@GLIBCXX_3.4.22 (5)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4 (3)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_future_errori@GLIBCXX_3.4.14 (6)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_timeout_add
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_type_checked_
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_unref
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_error_free
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_default
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt9terminatev@GLIBCXX_3.4 (3)
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.4 (4)
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@GLIBCXX_3.4.30 (7)
+    20: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __stack_chk_guard@GLIBC_2.4 (8)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt8ios_baseD2Ev@GLIBCXX_3.4 (3)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_signal_unsubscribe
+    23: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (2)
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND smart_deadlock_watchdog_notify
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt17__throw_bad_allocv@GLIBCXX_3.4 (3)
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt25__throw_bad_function_callv@GLIBCXX_3.4.14 (6)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_@GLIBCXX_3.4.21 (2)
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj@GLIBCXX_3.4.21 (2)
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_begin_catch@CXXABI_1.3 (9)
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj@GLIBCXX_3.4.21 (2)
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6thread6_StateD2Ev@GLIBCXX_3.4.22 (5)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_clockwait@GLIBC_2.34 (10)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_quit
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_new_from_data
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_allocate_exception@CXXABI_1.3 (9)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_get_fixed_array
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_length_errorPKc@GLIBCXX_3.4 (3)
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21 (2)
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt15future_categoryv@GLIBCXX_3.4.15 (11)
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_source_unref
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_node_info_unref
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13__future_base12_Result_baseC2Ev@GLIBCXX_3.4.15 (11)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4 (3)
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_new
+    45: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_unregister_object
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_release@CXXABI_1.3 (9)
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt20__throw_system_errori@GLIBCXX_3.4.11 (12)
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.4 (4)
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSo5flushEv@GLIBCXX_3.4 (3)
+    50: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt12future_error@GLIBCXX_3.4.14 (6)
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (3)
+    52: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3 (9)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1Ev@GLIBCXX_3.4.26 (13)
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_invoke
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_free_exception@CXXABI_1.3 (9)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13__future_base12_Result_baseD2Ev@GLIBCXX_3.4.15 (11)
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED2Ev@GLIBCXX_3.4.21 (2)
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt11_Hash_bytesPKvjj@CXXABI_1.3.5 (14)
+    59: 00000000     0 TLS     GLOBAL DEFAULT  UND _ZSt15__once_callable@GLIBCXX_3.4.11 (12)
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_run
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_malloc
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt28__throw_bad_array_new_lengthv@GLIBCXX_3.4.29 (15)
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND _Znaj@GLIBCXX_3.4 (3)
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_new
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.4 (4)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptr10_M_releaseEv@CXXABI_1.3.13 (16)
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND smart_deadlock_register_watchdog_service
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_flush_sync
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE@GLIBCXX_3.4.22 (5)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_init_primary_exception@CXXABI_1.3.11 (17)
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt28__atomic_futex_unsigned_base19_M_futex_notify_allEPj@GLIBCXX_3.4.21 (2)
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_once@GLIBC_2.34 (10)
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZdlPv@GLIBCXX_3.4 (3)
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_source_attach
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_signal_subscribe
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEjjPKcj@GLIBCXX_3.4.21 (2)
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND bcmp@GLIBC_2.4 (4)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call_sync
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc@GLIBCXX_3.4.21 (2)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4 (3)
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND __dlog_print
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_ref
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_emit_signal
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_get
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorD2Ev@GLIBCXX_3.4 (3)
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND __stack_chk_fail@GLIBC_2.4 (4)
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_cleanup@CXXABI_1.3 (9)
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@GLIBC_2.4 (4)
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@GLIBCXX_3.4 (3)
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_ldivmod@GCC_3.5 (18)
+    91: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_setname_np@GLIBC_2.34 (10)
+    92: 00000000     0 TLS     GLOBAL DEFAULT  UND _ZSt11__once_call@GLIBCXX_3.4.11 (12)
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_free
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_atexit@GLIBC_2.4 (4)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_get_unique_name
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_@GLIBCXX_3.4.21 (2)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEjjj@GLIBCXX_3.4.18 (19)
+    98: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv119__pointer_type_infoE@CXXABI_1.3 (9)
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_context_new
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt13runtime_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (2)
+   101: 00000000     0 OBJECT  GLOBAL DEFAULT  UND __libc_single_threaded@GLIBC_2.32 (20)
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND smart_deadlock_unregister_watchdog_service
+   103: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3 (9)
+   104: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_variant_unref
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_method_invocation_return_value
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt15__exception_ptr13exception_ptrC1EPv@CXXABI_1.3.11 (17)
+   107: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6chrono3_V212steady_clock3nowEv@GLIBCXX_3.4.19 (21)
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_new_sync
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt13runtime_error4whatEv@GLIBCXX_3.4 (3)
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variableC1Ev@GLIBCXX_3.4.11 (12)
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_rethrow@CXXABI_1.3 (9)
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.4 (4)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.4 (4)
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_object_unref
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.4 (4)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_source_set_callback
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_unown_name
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt21ios_base_library_initv@GLIBCXX_3.4.32 (22)
+   119: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_get
+   120: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVN10__cxxabiv120__function_type_infoE@CXXABI_1.3 (9)
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@GLIBCXX_3.4.21 (2)
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ERKNS_12basic_stringIcS2_S3_EESt13_Ios_Openmode@GLIBCXX_3.4.21 (2)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND __once_proxy@GLIBCXX_3.4.11 (12)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_call
+   125: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6resizeEjc@GLIBCXX_3.4.21 (2)
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_node_info_new_for_xml
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_connection_call_finish
+   128: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_end_catch@CXXABI_1.3 (9)
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND __gxx_personality_v0@CXXABI_1.3 (9)
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11logic_errorC2ERKS_@GLIBCXX_3.4.21 (2)
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.4 (4)
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variable10notify_allEv@GLIBCXX_3.4.11 (12)
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt6thread4joinEv@GLIBCXX_3.4.11 (12)
+   134: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_throw@CXXABI_1.3 (9)
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_timeout_source_new
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@GLIBCXX_3.4.21 (2)
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND vconf_get_str@VCONF_BUXTON_1.0 (23)
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_thread_atexit@CXXABI_1.3.7 (24)
+   139: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+   140: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTINSt13__future_base12_Result_baseE@GLIBCXX_3.4.15 (11)
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0@GCC_3.5 (18)
+   142: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTVSt12future_error@GLIBCXX_3.4.14 (6)
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_guard_acquire@CXXABI_1.3 (9)
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt18condition_variableD1Ev@GLIBCXX_3.4.11 (12)
+   145: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt28__atomic_futex_unsigned_base19_M_futex_wait_untilEPjjbNSt6chrono8durationIxSt5ratioILx1ELx1EEEENS2_IxS3_ILx1ELx1000000000EEEE@GLIBCXX_3.4.21 (2)
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_@GLIBCXX_3.4.21 (2)
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_bus_get_finish
+   148: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_dbus_proxy_call
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND g_main_loop_unref
+   150: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND __cxa_pure_virtual@CXXABI_1.3 (9)
+   152: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc@GLIBCXX_3.4.21 (2)
+   154: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcj@GLIBCXX_3.4.21 (2)
+   155: 00000000     0 FUNC    WEAK   DEFAULT  UND __cxa_finalize@GLIBC_2.4 (4)
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND __tls_get_addr@GLIBC_2.4 (8)
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt12future_errorD1Ev@GLIBCXX_3.4.14 (6)
+   158: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_unlock@GLIBC_2.4 (4)
+   159: 00000000     0 OBJECT  GLOBAL DEFAULT  UND _ZTISt13runtime_error@GLIBCXX_3.4 (3)
+   160: 00000000     0 FUNC    GLOBAL DEFAULT  UND _ZNSt11logic_errorC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@GLIBCXX_3.4.21 (2)
+   161: 0001e69d    76 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE24_M_get_insert_unique_posERS1_
+   162: 0002291d   364 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer18m_HandleMethodCallEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantP22_GDBusMethodInvocationPv
+   163: 0002036b     2 FUNC    WEAK   DEFAULT   11 _ZNSt6thread24_M_thread_deps_never_runEv
+   164: 0001c3c9   180 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy22BmsSubtitleSetCallbackEiPFvi9_BmsEventR18_BmsCallbackStructPvES4_
+   165: 0002d3fc    12 OBJECT  WEAK   DEFAULT   20 _ZTISt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   166: 00020001    68 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus8t_InvokeERKSt8functionIFvvEEP13_GMainContext
+   167: 000191fd   432 FUNC    GLOBAL DEFAULT   11 BmsUnSetSubtitleCallbackForVC
+   168: 0001e051    60 FUNC    WEAK   DEFAULT   11 _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev
+   169: 00027b51    24 OBJECT  WEAK   DEFAULT   13 _ZTSN3bms15TCBinaryWrapperE
+   170: 000234a9   496 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer10t_InitDbusEv
+   171: 00024d29    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationESt5_BindIFMN3bms12TCDbusServerEFvS7_S9_SB_EPSF_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEE10_M_managerERSt9_Any_dataRKSQ_St18_Manager_operation
+   172: 000234a5     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer4StopEv
+   173: 00024f8f   154 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISB_ERS1_
+   174: 00022825   176 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIcSaIcEE13_M_assign_auxIPKcEEvT_S5_St20forward_iterator_tag
+   175: 00018631    48 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderD2Ev
+   176: 0002e97c     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms18TCBmsApiProviderVC17m_pBmsApiProviderE
+   177: 0001c6a9   122 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy24BmsSubtitleUnSetCallbackEiPv
+   178: 000206b1    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientD2Ev
+   179: 0001ca75   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsSeekEim
+   180: 00028e14    21 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms12TCDbusServerE
+   181: 0001972b    22 FUNC    GLOBAL DEFAULT   11 BmsPause
+   182: 000253fb    86 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE17_M_construct_nodeIJRKSt21piecewise_construct_tSt5tupleIJRS7_EESM_IJEEEEEvPSt13_Rb_tree_nodeISB_EDpOT_
+   183: 0002e978     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms16TCBmsApiProvider17m_pBmsApiProviderE
+   184: 00019ae1   156 FUNC    GLOBAL DEFAULT   11 BmsGetContentId
+   185: 00023095    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerD1Ev
+   186: 0002d498    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN3bms12TCDbusServerE
+   187: 0001de67    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E
+   188: 00025185    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusServerEFvS7_EPSB_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   189: 00018fa9    30 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForCaption
+   190: 00023e61    84 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer22m_PrepareMethodPayloadERKSt6vectorIcSaIcEEb
+   191: 000251a9    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS3_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   192: 0002d340    28 OBJECT  GLOBAL DEFAULT   20 _ZTVN3bms12TCDbusClientE
+   193: 000203c1    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES9_ES2_DnSB_PN3bms6TCDbusEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   194: 00021621    68 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusClient20m_ParseSignalPayloadEP9_GVariantRiRSt6vectorIcSaIcEE
+   195: 0002d038    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   196: 0001e3cd    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSH_PSt13_Rb_tree_nodeIS9_E
+   197: 000250a3    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFbRKSt6vectorIcSaIcEERS2_EEC2ERKS7_
+   198: 0001f795   116 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus9t_OwnNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE18GBusNameOwnerFlagsRKSt8functionIFvS8_EESE_
+   199: 0001e781   140 FUNC    WEAK   DEFAULT   11 _ZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EE11processImplIN3bms15TCBinaryWrapperETnNS_6traits6detail14EnableIfHelperIJXsr6traits25has_member_versioned_loadIT_S1_EE5valueEXntsr6traits28has_invalid_input_versioningIS9_S1_EE5valueEXaasr6traits21is_input_serializableIS9_S1_EE5valueoosr6traits36is_specialized_member_versioned_loadIS9_S1_EE5valuentsr6traits14is_specializedIS9_S1_EE5valueEEE4typeELNS7_6sfinaeE0EEERS1_RS9_
+   200: 00027a47    99 OBJECT  WEAK   DEFAULT   13 _ZTSSt22_Weak_result_type_implIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   201: 00024d99   164 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EE16_M_push_back_auxIJRKSA_EEEvDpOT_
+   202: 00022785    30 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbObEEE9_M_invokeERKSt9_Any_data
+   203: 00000000    28 TLS     GLOBAL DEFAULT   17 _ZN3bms12TCDbusServer16m_callPropertiesE
+   204: 0002e950     4 OBJECT  WEAK   DEFAULT   24 _ZGVZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EE20registerClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   205: 00027aaa    31 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal19BinaryOutputArchiveE
+   206: 000188ed   116 FUNC    WEAK   DEFAULT   11 _ZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE6createEv
+   207: 0002e988     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms25TCBmsApiVCProviderManager10m_pManagerE
+   208: 00021bd1    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EED2Ev
+   209: 000256dd   364 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer13ProxyToNativeERKSt8functionIFvRN6cereal18BinaryInputArchiveEEE
+   210: 00018c45   436 FUNC    GLOBAL DEFAULT   11 BmsSetCallbackForVC
+   211: 00022143    34 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusClientEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE9_M_invokeERKSt9_Any_dataS7_S7_S7_
+   212: 00025ba9    20 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializerC2ERNS_12TCDbusClientE
+   213: 0001be75   224 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy24BmsUnsubscribeForCaptionEi
+   214: 0001e3fb    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EE5eraseB5cxx11ESt17_Rb_tree_iteratorIS9_E
+   215: 000251f5    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE4findES9_
+   216: 0002196d    36 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvvEESaIS2_EE9push_backERKS2_
+   217: 00021c09    32 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE12_M_drop_nodeEPSt13_Rb_tree_nodeISA_E
+   218: 0002d2d8    28 OBJECT  WEAK   DEFAULT   20 _ZTVSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   219: 0001b119   140 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE9_M_rehashEjSt17integral_constantIbLb1EE
+   220: 0001e589    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE5eraseB5cxx11ESt17_Rb_tree_iteratorIS8_E
+   221: 00022305     4 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EED0Ev
+   222: 0001e41f    86 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESJ_IJEEEEESt17_Rb_tree_iteratorIS8_ESt23_Rb_tree_const_iteratorIS8_EDpOT_
+   223: 00028537    65 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEE
+   224: 0001a949   140 FUNC    WEAK   DEFAULT   11 _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S9_
+   225: 00023095    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerD2Ev
+   226: 00024b03   240 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISG_ES9_
+   227: 0001a80f     4 FUNC    WEAK   DEFAULT   11 _ZN3bms15TCStringWrapperD0Ev
+   228: 0002d10c     8 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal6detail16InputArchiveBaseE
+   229: 00020839   280 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient10CallMethodEiRKSt6vectorIcSaIcEERS3_
+   230: 00022575   100 FUNC    WEAK   DEFAULT   11 _ZNSt14__basic_futureIbEC2ERKSt10shared_ptrINSt13__future_base13_State_baseV2EE
+   231: 0001c7f9   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy8BmsPauseEi
+   232: 00028da2    35 OBJECT  WEAK   DEFAULT   13 _ZTSNSt13__future_base13_State_baseV2E
+   233: 00018ab5     6 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIF11_BmsErrCodeRN3bms18TCNativeSerializerEEPS4_E9_M_invokeERKSt9_Any_dataS3_
+   234: 000245d9    84 FUNC    WEAK   DEFAULT   11 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt8functionIFvRKS5_P9_GVariantP22_GDBusMethodInvocationEESt4lessIS5_ESaISt4pairIS7_SE_EEEixEOS5_
+   235: 0002e984     4 OBJECT  WEAK   DEFAULT   24 _ZGVZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EE16loadClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   236: 0002d3b8     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   237: 0001dce1    42 FUNC    WEAK   DEFAULT   11 _ZN3bms17TCProxySerializerD2Ev
+   238: 000223a9    28 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base7_ResultIbED0Ev
+   239: 0001acbd   156 FUNC    WEAK   DEFAULT   11 _ZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EE20registerClassVersionIN3bms15TCBinaryWrapperEEEjv
+   240: 000254bd    60 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSJ_PSt13_Rb_tree_nodeISB_E
+   241: 000219e9    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKSt6vectorIcSaIcEEEEaSERKS6_
+   242: 00029379   117 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   243: 00018df9   432 FUNC    GLOBAL DEFAULT   11 BmsUnSetCallbackForVC
+   244: 0002d2c4    12 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ELb0EE
+   245: 00023491    20 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer17GetCallPropertiesEv
+   246: 0001aff9    32 FUNC    WEAK   DEFAULT   11 _ZNSt15__new_allocatorIPNSt8__detail15_Hash_node_baseEE8allocateEjPKv
+   247: 0001c8cd   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy9BmsResumeEi
+   248: 0002d2f4    12 OBJECT  WEAK   DEFAULT   20 _ZTISt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   249: 0001a727    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIPKcSt4pairIKS1_jESaIS4_ENSt8__detail10_Select1stESt8equal_toIS1_ESt4hashIS1_ENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   250: 0002d02c    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESE_ILi2EESB_EE
+   251: 00018c29    26 FUNC    GLOBAL DEFAULT   11 BmsUnSetCallback
+   252: 0001ed05    84 FUNC    WEAK   DEFAULT   11 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPN3bms18TCBmsApiProviderVCESt4lessIS5_ESaISt4pairIKS5_S8_EEEixERSC_
+   253: 0001ef6b   108 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE24_M_get_insert_unique_posERS7_
+   254: 0002d248    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEPS1_St12_PlaceholderILi1EEEE
+   255: 0002200f   106 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE11equal_rangeERS1_
+   256: 0002036d    14 FUNC    WEAK   DEFAULT   11 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJSt5_BindIFMN3bms6TCDbusEFvvEPS5_EEEEEEED0Ev
+   257: 00019049   436 FUNC    GLOBAL DEFAULT   11 BmsSetSubtitleCallbackForVC
+   258: 00020db9    96 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient4StopEv
+   259: 00021a81    86 FUNC    WEAK   DEFAULT   11 _ZNSt7promiseIbED2Ev
+   260: 00021231   108 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_NameVanishedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   261: 0002e900     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms11g_cbInvokerE
+   262: 0001ba9d   120 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy16BmsUnSetCallbackEiPv
+   263: 00019cc5    70 FUNC    WEAK   DEFAULT   11 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag
+   264: 00020451    68 FUNC    WEAK   DEFAULT   11 _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2IN3bms6TCDbus13TSNameWatcherESaIvEJEEERPT_St20_Sp_alloc_shared_tagIT0_EDpOT1_
+   265: 0001e50f    76 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE24_M_get_insert_unique_posERS1_
+   266: 0002d3cc    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusClientEFvvEE
+   267: 0002d2ac    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ES0_DnS9_PN3bms6TCDbusEEE
+   268: 00020045    96 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus9t_SetInitEb
+   269: 0001c9a1   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsStopEi
+   270: 00022aa5   528 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   271: 00028836    47 OBJECT  WEAK   DEFAULT   13 _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   272: 00021ad7     2 FUNC    WEAK   DEFAULT   11 _ZN3bms12TCDbusClient23t_RunSmartDealLockCheckEP10_GMainLoop
+   273: 0001e245    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEPS3_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSH_St18_Manager_operation
+   274: 00018add    14 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFbRKSt6vectorIcSaIcEERS2_ESt5_BindIFPFbS4_S5_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESG_ILi2EESD_EEE9_M_invokeERKSt9_Any_dataS4_S5_
+   275: 0002d4ec    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   276: 00021ad9   150 FUNC    WEAK   DEFAULT   11 _ZNSt11_Deque_baseISt8functionIFvvEESaIS2_EE17_M_initialize_mapEj
+   277: 00028880     8 OBJECT  WEAK   DEFAULT   13 _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
+   278: 0002d524     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   279: 0001a681    72 FUNC    WEAK   DEFAULT   11 _ZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EED0Ev
+   280: 0002d058    20 OBJECT  WEAK   DEFAULT   20 _ZTVN6cereal19BinaryOutputArchiveE
+   281: 0002d448     8 OBJECT  WEAK   DEFAULT   20 _ZTINSt13__future_base13_State_baseV27_SetterIbObEE
+   282: 00020e19   568 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient10t_InitDbusEv
+   283: 00020249    24 FUNC    WEAK   DEFAULT   11 _ZNSt11unique_lockISt5mutexED2Ev
+   284: 00022489     6 FUNC    WEAK   DEFAULT   11 _ZNSt15__exception_ptr12__dest_thunkISt12future_errorEEvPv
+   285: 0001b501   292 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy27BmsCreatePlayerWithWindowIdEPKcS2_i17_BMS_CONTENT_TYPE16_BMS_PLAYER_TYPE11_BmsDrmInfoS2_iPi
+   286: 0001b289     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProvider8ApiProxyEv
+   287: 0002d0b8    12 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal9ExceptionE
+   288: 0002d338     8 OBJECT  WEAK   DEFAULT   20 _ZTISt22_Weak_result_type_implIPFvP10_GMainLoopEE
+   289: 00020261    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_EEaSERKS9_
+   290: 00028749    93 OBJECT  WEAK   DEFAULT   13 _ZTSSt22_Weak_result_type_implIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   291: 0002d0d8     8 OBJECT  WEAK   DEFAULT   20 _ZTIN3bms15TCBinaryWrapperE
+   292: 0002d28c    20 OBJECT  WEAK   DEFAULT   20 _ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJSt5_BindIFMN3bms6TCDbusEFvvEPS5_EEEEEEEE
+   293: 000221ed    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusClientEFvS7_EPSB_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   294: 00018b55    78 FUNC    GLOBAL DEFAULT   11 BmsCreatePlayer
+   295: 00021feb    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE5eraseERS1_
+   296: 00027b69    30 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal18BinaryInputArchiveE
+   297: 0001ec15   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms25TCBmsApiVCProviderManager13GetVCProviderENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   298: 0001fd45     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus13t_UnWatchNameEj
+   299: 0001e80d    76 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE4findERS1_
+   300: 00018801    24 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder16InvokeForPesDataE9_BmsEventijPh
+   301: 000207cf    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient20AddServiceAppearedCbERKSt8functionIFvvEE
+   302: 00020951   156 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusClient22m_PrepareMethodPayloadEbiRKSt6vectorIcSaIcEE
+   303: 0002d32c    12 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIPFvP10_GMainLoopELb0EE
+   304: 0001e2e7   154 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS9_ERS1_
+   305: 0001b32d     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCBmsApiProviderVC8ApiProxyEv
+   306: 000227a5    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFSt10unique_ptrINSt13__future_base12_Result_baseENS2_8_DeleterEEvENS1_13_State_baseV27_SetterIbObEEE10_M_managerERSt9_Any_dataRKSB_St18_Manager_operation
+   307: 0002d3a0    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   308: 0001ddbd    88 FUNC    WEAK   DEFAULT   11 _ZNSt3mapIiSt4pairIPFvR10BmsPESDataPvES3_ESt4lessIiESaIS0_IKiS6_EEEixERS9_
+   309: 0001b3bf    36 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyD1Ev
+   310: 000255ff    28 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE5clearEv
+   311: 0002e908     4 OBJECT  WEAK   DEFAULT   24 _ZGVN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE8instanceE
+   312: 0002322b    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer19AddClientAppearedCbERKSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   313: 00025bc3     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializer13NativeToProxyERKSt8functionIFvRN6cereal18BinaryInputArchiveEEE
+   314: 0001d17d   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsSetStopPositionEim
+   315: 0001b291   156 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProviderC1Ev
+   316: 0001b333    60 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCBmsApiProviderVCC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   317: 0002274d    56 FUNC    WEAK   DEFAULT   11 _ZZNSt9once_flag18_Prepare_executionC1IZSt9call_onceIMNSt13__future_base13_State_baseV2EFvPSt8functionIFSt10unique_ptrINS3_12_Result_baseENS7_8_DeleterEEvEEPbEJPS4_SC_SD_EEvRS_OT_DpOT0_EUlvE_EERSI_ENUlvE_8__invokeEv
+   318: 0001a5c9     2 FUNC    WEAK   DEFAULT   11 _ZN3bms15TCStringWrapperD2Ev
+   319: 00020299    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEaSERKS9_
+   320: 00018abd    32 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIF11_BmsErrCodeRN3bms18TCNativeSerializerEEPS4_E10_M_managerERSt9_Any_dataRKS7_St18_Manager_operation
+   321: 0001dec1    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EED2Ev
+   322: 000293ee   102 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   323: 00020d45   114 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient14WaitForServiceEv
+   324: 00021051    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient18m_NamaOwnerChangedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_
+   325: 000252eb   240 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISB_ERS7_
+   326: 00022395    20 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base7_ResultIbED2Ev
+   327: 0001ad59   148 FUNC    WEAK   DEFAULT   11 _ZNK3bms15TCBinaryWrapper4saveIN6cereal19BinaryOutputArchiveEEEvRT_j
+   328: 0002d2d0     8 OBJECT  WEAK   DEFAULT   20 _ZTISt22_Weak_result_type_implIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   329: 00018a93    34 FUNC    WEAK   DEFAULT   11 _ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKSt10type_indexSt6vectorIPKN6cereal6detail17PolymorphicCasterESaISA_EEELb0EEEEE19_M_deallocate_nodesEPSE_
+   330: 000254f9    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE5eraseERS7_
+   331: 0001e221    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKSt6vectorIcSaIcEEESt5_BindIFMN3bms10TCApiProxyEFvS4_EPS8_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSH_St18_Manager_operation
+   332: 0001b1f3    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   333: 0002d38c    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   334: 00025ba9    20 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializerC1ERNS_12TCDbusClientE
+   335: 00024a7b    86 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESR_IJEEEEESt17_Rb_tree_iteratorISG_ESt23_Rb_tree_const_iteratorISG_EDpOT_
+   336: 0002d260     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEELb1EE
+   337: 00029174   149 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationELb1EE
+   338: 0002d084     8 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal6detail17OutputArchiveBaseE
+   339: 0002049b    70 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+   340: 0002d43c    12 OBJECT  WEAK   DEFAULT   20 _ZTINSt13__future_base7_ResultIbEE
+   341: 00022f9d   248 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer14m_HandleMethodERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocation
+   342: 00029209   141 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   343: 0001e73b    68 FUNC    WEAK   DEFAULT   11 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIN9__gnu_cxx17__normal_iteratorIPKcSt6vectorIcS3_EEEEEvT_SD_St20forward_iterator_tag
+   344: 00025fb5    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRN6cereal18BinaryInputArchiveEEEC2ERKS4_
+   345: 000188a9    68 FUNC    WEAK   DEFAULT   11 _ZN3bms18TCNativeSerializerD2Ev
+   346: 0002343d    84 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer22m_PrepareSignalPayloadEiRKSt6vectorIcSaIcEE
+   347: 000249a7    50 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE8_M_eraseEPSt13_Rb_tree_nodeISB_E
+   348: 0001eb4d   156 FUNC    WEAK   DEFAULT   11 _ZN3bms15TCStringWrapper4loadIN6cereal18BinaryInputArchiveEEEvRT_
+   349: 0001b3e5   284 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsCreatePlayerEPKcS2_i17_BMS_CONTENT_TYPE16_BMS_PLAYER_TYPE11_BmsDrmInfoS2_Pi
+   350: 0001ac1d   160 FUNC    WEAK   DEFAULT   11 _ZNK3bms15TCStringWrapper4saveIN6cereal19BinaryOutputArchiveEEEvRT_
+   351: 000189af    20 FUNC    WEAK   DEFAULT   11 _ZN6cereal6detail18PolymorphicCastersD2Ev
+   352: 0001bc05   624 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy17m_CaptionCallbackERKSt6vectorIcSaIcEE
+   353: 00025223    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE4findERS7_
+   354: 0002d504     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   355: 0002490d    32 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EE12_M_drop_nodeEPSt13_Rb_tree_nodeISB_E
+   356: 000250db    34 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusServerEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE9_M_invokeERKSt9_Any_dataS7_S7_S7_
+   357: 0001b3bf    36 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyD2Ev
+   358: 0002d024     8 OBJECT  WEAK   DEFAULT   20 _ZTIF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   359: 000189d5    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E
+   360: 000205c9   232 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   361: 0001b291   156 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProviderC2Ev
+   362: 0001e08d    72 FUNC    WEAK   DEFAULT   11 _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE19_M_release_last_useEv
+   363: 0001b1ef     4 FUNC    WEAK   DEFAULT   11 _ZN6cereal6detail8VersionsD2Ev
+   364: 0001bf55   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsSubscribeForPESEPFvR10BmsPESDataPvES3_Ri
+   365: 00025251    50 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE14_M_lower_boundEPSt13_Rb_tree_nodeISB_EPSt18_Rb_tree_node_baseRS7_
+   366: 0002d4d8    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEE
+   367: 00024c0d    78 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE14_M_create_nodeIJRKSt21piecewise_construct_tSt5tupleIJOS5_EESR_IJEEEEEPSt13_Rb_tree_nodeISG_EDpOT_
+   368: 0002d100    12 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EEE
+   369: 0001a9d5    66 FUNC    WEAK   DEFAULT   11 _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_
+   370: 0001b019   162 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE10_M_emplaceIJRjSH_EEES0_INS4_14_Node_iteratorIS2_Lb0ELb0EEEbESt17integral_constantIbLb1EEDpOT_
+   371: 0001a589    64 FUNC    WEAK   DEFAULT   11 _ZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EED2Ev
+   372: 00025bc9   948 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializer10CallMethodEi
+   373: 00020a39   164 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient15CallMethodAsyncEiRKSt6vectorIcSaIcEE
+   374: 0002e980     4 OBJECT  WEAK   DEFAULT   24 _ZZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EE16loadClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   375: 0002398d   116 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer17m_TokenAppearedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   376: 0001ccfd   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsSetPlaySpeedEif
+   377: 0002d0c4    20 OBJECT  WEAK   DEFAULT   20 _ZTVN6cereal9ExceptionE
+   378: 0002e940     4 OBJECT  WEAK   DEFAULT   24 _ZGVZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE6createEvE1t
+   379: 0001f875   112 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus12m_NameLostCbEP16_GDBusConnectionPKcPv
+   380: 00020495     2 FUNC    WEAK   DEFAULT   11 _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED2Ev
+   381: 000189f9    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableISt10type_indexSt4pairIKS0_St13unordered_mapIS0_St6vectorIPKN6cereal6detail17PolymorphicCasterESaIS9_EESt4hashIS0_ESt8equal_toIS0_ESaIS1_IS2_SB_EEEESaISJ_ENSt8__detail10_Select1stESF_SD_NSL_18_Mod_range_hashingENSL_20_Default_ranged_hashENSL_20_Prime_rehash_policyENSL_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   382: 00019711     4 FUNC    GLOBAL DEFAULT   11 BmsUnSubscribeForPESForVC
+   383: 00023b59   340 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer12m_CheckReadyEv
+   384: 00022299    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms12TCDbusClientEFvvEPS3_EEE10_M_managerERSt9_Any_dataRKSA_St18_Manager_operation
+   385: 000197ed   168 FUNC    GLOBAL DEFAULT   11 BmsGetPlaybackData
+   386: 00019a39   168 FUNC    GLOBAL DEFAULT   11 BmsGetAdMarkerData
+   387: 0001a783    40 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIPKvSt4pairIKS1_jESaIS4_ENSt8__detail10_Select1stESt8equal_toIS1_ESt4hashIS1_ENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   388: 0002e970     4 OBJECT  WEAK   DEFAULT   24 _ZGVZN6cereal6detail12StaticObjectINS0_8VersionsEE6createEvE1t
+   389: 00020171    50 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus7t_CleanEv
+   390: 00022387     2 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV217_M_complete_asyncEv
+   391: 0001d255   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsGetAdMarkerDataEimRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   392: 0001de9d    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E
+   393: 00027980    94 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   394: 00027b87    54 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EEE
+   395: 0002d0f4    12 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal18BinaryInputArchiveE
+   396: 000228d5    58 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIcSaIcEE20_M_allocate_and_copyIPKcEEPcjT_S6_
+   397: 000204e1     4 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+   398: 0001b7cd   176 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy14BmsSetCallbackEiPFvi9_BmsEventR18_BmsCallbackStructPvES4_
+   399: 0001a769    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIPKvSt4pairIKS1_jESaIS4_ENSt8__detail10_Select1stESt8equal_toIS1_ESt4hashIS1_ENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   400: 00028ae6   119 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   401: 0002387d   160 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer23t_RunSmartDealLockCheckEP10_GMainLoop
+   402: 00021d4d   242 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvvEESaIS2_EE17_M_reallocate_mapEjb
+   403: 0002107d   180 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_NameAcquiredCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   404: 00024ad1    50 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE14_M_lower_boundEPSt13_Rb_tree_nodeISG_EPSt18_Rb_tree_node_baseS9_
+   405: 00021e3f    96 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESL_IJEEEEESt17_Rb_tree_iteratorISA_ESt23_Rb_tree_const_iteratorISA_EDpOT_
+   406: 0002d0e0    20 OBJECT  WEAK   DEFAULT   20 _ZTVN6cereal18BinaryInputArchiveE
+   407: 0001e209    22 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKSt6vectorIcSaIcEEESt5_BindIFMN3bms10TCApiProxyEFvS4_EPS8_St12_PlaceholderILi1EEEEE9_M_invokeERKSt9_Any_dataS4_
+   408: 0002d078    12 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EEE
+   409: 00018661   160 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder9InitialzeEv
+   410: 00018a13    34 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableISt10type_indexSt4pairIKS0_St13unordered_mapIS0_St6vectorIPKN6cereal6detail17PolymorphicCasterESaIS9_EESt4hashIS0_ESt8equal_toIS0_ESaIS1_IS2_SB_EEEESaISJ_ENSt8__detail10_Select1stESF_SD_NSL_18_Mod_range_hashingENSL_20_Default_ranged_hashENSL_20_Prime_rehash_policyENSL_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   411: 0002585d   428 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer6HandleERKSt6vectorIcSaIcEERS3_RKSt8functionIF11_BmsErrCodeRS0_EE
+   412: 00022275    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFMN3bms12TCDbusClientEFvvEPS3_EEE10_M_managerERSt9_Any_dataRKSA_St18_Manager_operation
+   413: 0001b371    78 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyC2ERNS_12TCDbusClientE
+   414: 0001c725   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsPlayEi
+   415: 00028dc5    31 OBJECT  WEAK   DEFAULT   13 _ZTSNSt13__future_base7_ResultIbEE
+   416: 00024873    66 FUNC    WEAK   DEFAULT   11 _ZNSt11_Deque_baseISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EE15_M_create_nodesEPPSA_SE_
+   417: 0001e5ad    86 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESJ_IJEEEEESt17_Rb_tree_iteratorIS8_ESt23_Rb_tree_const_iteratorIS8_EDpOT_
+   418: 0001c045   672 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy17m_PesDataCallbackERKSt6vectorIcSaIcEE
+   419: 000250fd    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusServerEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   420: 00022309     8 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+   421: 0002129d   208 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_NameAppearedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
+   422: 0002d3d8     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvvELb1EE
+   423: 00025649    84 FUNC    GLOBAL DEFAULT   11 _ZN3bms7TCDebug6AssertEPKcj
+   424: 0002551d   112 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE11equal_rangeERS7_
+   425: 00022315    60 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+   426: 0002d47c    28 OBJECT  GLOBAL DEFAULT   20 _ZTVN3bms12TCDbusServerE
+   427: 00021ca9   164 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvvEESaIS2_EE16_M_push_back_auxIJRKS2_EEEvDpOT_
+   428: 0002d3ac    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   429: 00019d11   520 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker6InvokeEi9_BmsEvent14_BmsSignalData
+   430: 0001df41     2 FUNC    WEAK   DEFAULT   11 _ZN6cereal6detail16InputArchiveBase4rttiEv
+   431: 00022911    10 FUNC    GLOBAL DEFAULT   11 _Z15notify_callbackPv
+   432: 00022211    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS3_St12_PlaceholderILi1EEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   433: 00021991    88 FUNC    WEAK   DEFAULT   11 _ZNSt3mapIiSt8functionIFvRKSt6vectorIcSaIcEEEESt4lessIiESaISt4pairIKiS7_EEEixERSB_
+   434: 0002473d    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFbRKSt6vectorIcSaIcEERS2_EEaSERKS7_
+   435: 00024c5b   108 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE24_M_get_insert_unique_posES9_
+   436: 000248d5    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EED2Ev
+   437: 0001e859   162 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE10_M_emplaceIJRS1_RjEEES0_INS4_14_Node_iteratorIS2_Lb0ELb0EEEbESt17integral_constantIbLb1EEDpOT_
+   438: 00021be3    38 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E
+   439: 00023699    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer19m_TokenOwnerChangedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_
+   440: 0001ab6b    54 FUNC    WEAK   DEFAULT   11 _ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPcSt20back_insert_iteratorISt6vectorIcSaIcEEEEET0_T_SA_S9_
+   441: 00018559   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms12m_HandleCallERKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRNS_18TCNativeSerializerEE
+   442: 0002e974     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms16TCBmsApiProvider8m_pMutexE
+   443: 00022719    50 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV29_M_do_setEPSt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEEPb
+   444: 00025b11    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRN6cereal19BinaryOutputArchiveEEEC2ERKS4_
+   445: 000288d2    52 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIPFvP10_GMainLoopELb0EE
+   446: 0001de8b    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EED2Ev
+   447: 00019f19   512 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker21InvokeForSubtitleDataEi9_BmsEventPKc
+   448: 00028c38   113 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   449: 0002d314    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFPFvP10_GMainLoopES1_EE
+   450: 000187c5    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder6InvokeEi9_BmsEvent14_BmsSignalData
+   451: 00024a03    86 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EE19_M_destroy_data_auxESt15_Deque_iteratorISA_RSA_PSA_ESG_
+   452: 0001ab01    92 FUNC    WEAK   DEFAULT   11 _ZNSt8__detail18__to_chars_10_implIjEEvPcjT_
+   453: 0001a6c9    28 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorISt8functionIFvvEESaIS2_EED2Ev
+   454: 0002225d    22 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFMN3bms12TCDbusClientEFvvEPS3_EEE9_M_invokeERKSt9_Any_data
+   455: 0001ed59    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE4findERS7_
+   456: 000287a6    92 OBJECT  WEAK   DEFAULT   13 _ZTSSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   457: 000227c9    90 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV24waitEv
+   458: 0002d2a0    12 OBJECT  WEAK   DEFAULT   20 _ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJSt5_BindIFMN3bms6TCDbusEFvvEPS5_EEEEEEEE
+   459: 0002d044    12 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEELb0EE
+   460: 000204e5    60 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+   461: 00022311     4 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+   462: 000248e7    38 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EE8_M_eraseEPSt13_Rb_tree_nodeISB_E
+   463: 0002e90c    52 OBJECT  WEAK   DEFAULT   24 _ZZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE6createEvE1t
+   464: 0002d420     8 OBJECT  WEAK   DEFAULT   20 _ZTINSt13__future_base13_State_baseV2E
+   465: 000236c5   440 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer14m_RemoveClientERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   466: 00023a01   344 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer11m_AddClientERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb
+   467: 0001cf85   144 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsGetContentIdERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   468: 000285d3    88 OBJECT  WEAK   DEFAULT   13 _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJSt5_BindIFMN3bms6TCDbusEFvvEPS5_EEEEEEEE
+   469: 000246e5    88 FUNC    WEAK   DEFAULT   11 _ZNSt3mapIiSt8functionIFbRKSt6vectorIcSaIcEERS3_EESt4lessIiESaISt4pairIKiS8_EEEixERSC_
+   470: 0002391d   112 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer17m_TokenVanishedCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   471: 00023cad   152 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer20m_ClientOwnerChangedERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_S8_
+   472: 00029296   108 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   473: 0002d050     8 OBJECT  WEAK   DEFAULT   20 _ZTISt22_Weak_result_type_implIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEEE
+   474: 0001a635    72 FUNC    WEAK   DEFAULT   11 _ZN6cereal19BinaryOutputArchiveD0Ev
+   475: 00021c29    42 FUNC    WEAK   DEFAULT   11 _ZNSt11_Deque_baseISt8functionIFvvEESaIS2_EED2Ev
+   476: 0002d0a0    16 OBJECT  WEAK   DEFAULT   20 _ZTVN3bms15TCStringWrapperE
+   477: 0001de55    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EED2Ev
+   478: 0002238d     6 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base7_ResultIbE10_M_destroyEv
+   479: 00018aed    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFbRKSt6vectorIcSaIcEERS2_ESt5_BindIFPFbS4_S5_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESG_ILi2EESD_EEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   480: 000220e5    94 FUNC    WEAK   DEFAULT   11 _ZNSt18condition_variable17__wait_until_implINSt6chrono8durationIxSt5ratioILx1ELx1000000000EEEEEESt9cv_statusRSt11unique_lockISt5mutexERKNS1_10time_pointINS1_3_V212steady_clockET_EE
+   481: 00022a89    10 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer8TSClientC1Ev
+   482: 0002462d   100 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEEaSISt5_BindIFMN3bms12TCDbusServerEFvS7_S9_SB_EPSH_St12_PlaceholderILi1EESL_ILi2EESL_ILi3EEEEEENSt9enable_ifIXsr9_CallableIT_EE5valueERSD_E4typeEOSS_
+   483: 00029454   113 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb1EE
+   484: 000223c5   114 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV216_M_break_promiseESt10unique_ptrINS_12_Result_baseENS2_8_DeleterEE
+   485: 00019c19    38 FUNC    WEAK   DEFAULT   11 _ZSt11__remove_ifIN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENS0_5__ops16_Iter_equals_valIKcEEET_SE_SE_T0_
+   486: 00022a93    16 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16TSCallPropertiesC1Ev
+   487: 0001f741    84 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus11WaitForInitEv
+   488: 00027b3d    20 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal9ExceptionE
+   489: 00028865    24 OBJECT  WEAK   DEFAULT   13 _ZTSSt19_Sp_make_shared_tag
+   490: 0001902f    26 FUNC    GLOBAL DEFAULT   11 BmsUnSetSubtitleCallback
+   491: 00020709   180 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient7t_CleanEv
+   492: 00025849     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer13NativeToProxyERKSt8functionIFvRN6cereal19BinaryOutputArchiveEEE
+   493: 00023db5    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer12m_NameLostCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   494: 00022cb5   344 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer13m_HandleHelloERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocation
+   495: 0002496b    42 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeISG_E
+   496: 00021665    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient14m_HandleSignalEP9_GVariant
+   497: 0002d428    20 OBJECT  WEAK   DEFAULT   20 _ZTVNSt13__future_base7_ResultIbEE
+   498: 0002d50c    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   499: 0001ebe9    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms25TCBmsApiVCProviderManager8InstanceEv
+   500: 0001efd7    60 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSJ_PSt13_Rb_tree_nodeISB_E
+   501: 0001e0d5   308 FUNC    WEAK   DEFAULT   11 _ZN6cereal18BinaryInputArchive10loadBinaryEPvi
+   502: 0001970d     4 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForPESForVC
+   503: 0002d380    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   504: 000187a5    32 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder15StartDbusServerEv
+   505: 00027b25    24 OBJECT  WEAK   DEFAULT   13 _ZTSN3bms15TCStringWrapperE
+   506: 00022079    80 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE12_M_erase_auxESt23_Rb_tree_const_iteratorISA_ESI_
+   507: 0001cc25   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy16BmsGetPlayTime64EiPy
+   508: 0002d320    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIPFvP10_GMainLoopEE
+   509: 0001f631    80 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus6t_PostERKSt8functionIFvvEE
+   510: 0001862d     2 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderC1Ev
+   511: 000213a5   636 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient24m_EstablishNewConnectionEv
+   512: 00019783    26 FUNC    GLOBAL DEFAULT   11 BmsSeek
+   513: 0001e6e9    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSG_PSt13_Rb_tree_nodeIS8_E
+   514: 0001d015   144 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy15BmsIsVODPlayingERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   515: 00019939   228 FUNC    GLOBAL DEFAULT   11 BmsCall
+   516: 0001a6ff    40 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIyySaIyENSt8__detail9_IdentityESt8equal_toIyESt4hashIyENS1_18_Mod_range_hashingENS1_20_Default_ranged_hashENS1_20_Prime_rehash_policyENS1_17_Hashtable_traitsILb0ELb1ELb1EEEE5clearEv
+   517: 0001b0bb    94 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE21_M_insert_unique_nodeEjjPNS4_10_Hash_nodeIS2_Lb0EEEj
+   518: 0001afaf    74 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIyySaIyENSt8__detail9_IdentityESt8equal_toIyESt4hashIyENS1_18_Mod_range_hashingENS1_20_Default_ranged_hashENS1_20_Prime_rehash_policyENS1_17_Hashtable_traitsILb0ELb1ELb1EEEE22_M_insert_bucket_beginEjPNS1_10_Hash_nodeIyLb0EEE
+   519: 0001d0a5   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy7BmsCallEPKcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS8_
+   520: 0001af23   140 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIyySaIyENSt8__detail9_IdentityESt8equal_toIyESt4hashIyENS1_18_Mod_range_hashingENS1_20_Default_ranged_hashENS1_20_Prime_rehash_policyENS1_17_Hashtable_traitsILb0ELb1ELb1EEEE9_M_rehashEjSt17integral_constantIbLb1EE
+   521: 00020433    28 FUNC    WEAK   DEFAULT   11 _ZNSt11unique_lockISt5mutexE6unlockEv
+   522: 0002d284     8 OBJECT  GLOBAL DEFAULT   20 _ZTIN3bms6TCDbusE
+   523: 00022a89    10 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer8TSClientC2Ev
+   524: 00021179   184 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient25m_InvokeServiceVanishedCbEv
+   525: 0001c47d   556 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18m_subtitleCallbackERKSt6vectorIcSaIcEE
+   526: 00021b6f    66 FUNC    WEAK   DEFAULT   11 _ZNSt11_Deque_baseISt8functionIFvvEESaIS2_EE15_M_create_nodesEPPS2_S6_
+   527: 00022a93    16 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16TSCallPropertiesC2Ev
+   528: 000220c9    28 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE5clearEv
+   529: 00028ca9    42 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusClientEFvvEPS1_EE
+   530: 0002d408    24 OBJECT  WEAK   DEFAULT   20 _ZTVNSt13__future_base13_State_baseV2E
+   531: 000201f5    84 FUNC    WEAK   DEFAULT   11 _ZNSt6threadC2ISt5_BindIFMN3bms6TCDbusEFvvEPS3_EEJEvEEOT_DpOT0_
+   532: 0001e475   154 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS1_
+   533: 0001b371    78 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxyC1ERNS_12TCDbusClientE
+   534: 00018969    70 FUNC    WEAK   DEFAULT   11 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+   535: 0001a6e5    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIyySaIyENSt8__detail9_IdentityESt8equal_toIyESt4hashIyENS1_18_Mod_range_hashingENS1_20_Default_ranged_hashENS1_20_Prime_rehash_policyENS1_17_Hashtable_traitsILb0ELb1ELb1EEEED2Ev
+   536: 0001b20d    40 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   537: 00018ba3    82 FUNC    GLOBAL DEFAULT   11 BmsCreatePlayerWithWindowId
+   538: 0002d3c0    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusClientEFvvEPS1_EE
+   539: 0002e8fc     4 OBJECT  GLOBAL DEFAULT   24 _ZN3bms12g_dbusserverE
+   540: 000225d9    92 FUNC    WEAK   DEFAULT   11 _ZNSt7promiseIbE9set_valueEOb
+   541: 0001e9a1   428 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIhSaIhEE15_M_range_insertIPKhEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag
+   542: 0001b6f9   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy13BmsResumeLiveEi
+   543: 0002d268    28 OBJECT  GLOBAL DEFAULT   20 _ZTVN3bms6TCDbusE
+   544: 00022e0d   400 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer12m_HandleSyncERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocation
+   545: 0001def9    72 FUNC    WEAK   DEFAULT   11 _ZN6cereal18BinaryInputArchiveD0Ev
+   546: 0002d450    44 OBJECT  GLOBAL DEFAULT   20 _ZN3bms12TCDbusServer17m_interfaceVtableE
+   547: 0002d4cc    12 OBJECT  WEAK   DEFAULT   20 _ZTISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEPS1_St12_PlaceholderILi1EESH_ILi2EESH_ILi3EEEE
+   548: 00025a41   140 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIcSaIcEEaSERKS1_
+   549: 0002493f    44 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE8_M_eraseEPSt13_Rb_tree_nodeISG_E
+   550: 0001f619    24 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus15m_StartMainLoopEv
+   551: 00021f85    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSI_PSt13_Rb_tree_nodeISA_E
+   552: 0001dd65    88 FUNC    WEAK   DEFAULT   11 _ZNSt3mapIiSt4pairIPFvR10BmsCaptionPvES3_ESt4lessIiESaIS0_IKiS6_EEEixERS9_
+   553: 0001ae19   172 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIyySaIyENSt8__detail9_IdentityESt8equal_toIyESt4hashIyENS1_18_Mod_range_hashingENS1_20_Default_ranged_hashENS1_20_Prime_rehash_policyENS1_17_Hashtable_traitsILb0ELb1ELb1EEEE16_M_insert_uniqueIyyNS1_10_AllocNodeISaINS1_10_Hash_nodeIyLb0EEEEEEEESt4pairINS1_14_Node_iteratorIyLb1ELb0EEEbEOT_OT0_RKT1_
+   554: 0002d30c     8 OBJECT  WEAK   DEFAULT   20 _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+   555: 0001a5cd   104 FUNC    WEAK   DEFAULT   11 _ZN6cereal6detail12StaticObjectINS0_8VersionsEE6createEv
+   556: 00028934    21 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms12TCDbusClientE
+   557: 0002038f    14 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES9_ES2_DnSB_PN3bms6TCDbusEEEE9_M_invokeERKSt9_Any_data
+   558: 0001862d     2 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderC2Ev
+   559: 0002136d    56 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient21m_SetServiceConnectedEb
+   560: 0001a67d     2 FUNC    WEAK   DEFAULT   11 _ZN6cereal6detail17OutputArchiveBase4rttiEv
+   561: 00020497     4 FUNC    WEAK   DEFAULT   11 _ZNSt23_Sp_counted_ptr_inplaceIN3bms6TCDbus13TSNameWatcherESaIvELN9__gnu_cxx12_Lock_policyE2EED0Ev
+   562: 0002d35c    12 OBJECT  GLOBAL DEFAULT   20 _ZTIN3bms12TCDbusClientE
+   563: 00027ac9    56 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EEE
+   564: 000247dd   150 FUNC    WEAK   DEFAULT   11 _ZNSt11_Deque_baseISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EE17_M_initialize_mapEj
+   565: 0002d254    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEE
+   566: 0001a7ab    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIN6cereal6traits6detail13base_class_idES3_SaIS3_ENSt8__detail9_IdentityESt8equal_toIS3_ENS2_18base_class_id_hashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEED2Ev
+   567: 00021e9f   154 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISA_ERS1_
+   568: 0001dfc9    40 FUNC    WEAK   DEFAULT   11 _ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKjNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEELb0EEEEE19_M_deallocate_nodesEPSB_
+   569: 000289ed   141 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EPS1_St12_PlaceholderILi1EESD_ILi2EESD_ILi3EEEE
+   570: 0002d2b8    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   571: 00028cd3    49 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusClientEFvvEE
+   572: 00025f7d    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRN6cereal18BinaryInputArchiveEEEaSERKS4_
+   573: 000209ed    76 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusClient20m_ParseMethodPayloadEP9_GVariantRbRSt6vectorIcSaIcEE
+   574: 0002561b    44 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE12_M_erase_auxESt23_Rb_tree_const_iteratorISB_E
+   575: 000286e6    99 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ELb0EE
+   576: 000187f1    16 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder21InvokeForSubtitleDataEi9_BmsEventPKc
+   577: 0001df45    72 FUNC    WEAK   DEFAULT   11 _ZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EED0Ev
+   578: 000278b4    44 OBJECT  WEAK   DEFAULT   13 _ZTSPF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   579: 0001c2e5   228 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy20BmsUnSubscribeForPESEi
+   580: 00021f39    76 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFvRKSt6vectorIcSaIcEEEEESt10_Select1stISA_ESt4lessIiESaISA_EE24_M_get_insert_unique_posERS1_
+   581: 00024d4d    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEPS3_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEE10_M_managerERSt9_Any_dataRKSQ_St18_Manager_operation
+   582: 00019d0d     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvokerC2ERNS_12TCDbusServerE
+   583: 0002790b   117 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESE_ILi2EESB_EE
+   584: 0001dfa7    34 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS8_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   585: 00023349   244 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer10SendSignalEiRKSt6vectorIcSaIcEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcES2_EE
+   586: 00024691    48 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EED2Ev
+   587: 0001b87d   544 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy10m_CallbackERKSt6vectorIcSaIcEE
+   588: 0002868e    88 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_EE
+   589: 0002039d    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES9_ES2_DnSB_PN3bms6TCDbusEEEE10_M_managerERSt9_Any_dataRKSK_St18_Manager_operation
+   590: 0001e00b    34 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjSt10shared_ptrIvEESaIS4_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   591: 0001ffd5    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus10m_InvokeCbEPv
+   592: 00018bf5    22 FUNC    GLOBAL DEFAULT   11 BmsDestroyPlayer
+   593: 00022379    14 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV2D0Ev
+   594: 0002d300    12 OBJECT  WEAK   DEFAULT   20 _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   595: 00023293    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer19AddClientVanishedCbERKSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   596: 0002456d    84 FUNC    GLOBAL DEFAULT   11 _ZTHN3bms12TCDbusServer16m_callPropertiesE
+   597: 0001f8e5   364 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus11t_WatchNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt8functionIFvS8_S8_S8_EERKS9_IFvS8_EE
+   598: 0001f041  1180 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   599: 00018a57    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableISt10type_indexSt4pairIKS0_St6vectorIPKN6cereal6detail17PolymorphicCasterESaIS8_EEESaISB_ENSt8__detail10_Select1stESt8equal_toIS0_ESt4hashIS0_ENSD_18_Mod_range_hashingENSD_20_Default_ranged_hashENSD_20_Prime_rehash_policyENSD_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   600: 000253db    32 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE10_Auto_nodeD2Ev
+   601: 00023e0d    84 FUNC    GLOBAL DEFAULT   11 _ZNK3bms12TCDbusServer20m_ParseMethodPayloadEP9_GVariantRbRiRSt6vectorIcSaIcEE
+   602: 0001cdd5   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy18BmsGetPlaybackDataEimRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   603: 00021c53    86 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvvEESaIS2_EE19_M_destroy_data_auxESt15_Deque_iteratorIS2_RS2_PS2_ES8_
+   604: 0001a815   308 FUNC    WEAK   DEFAULT   11 _ZN6cereal19BinaryOutputArchive10saveBinaryEPKvi
+   605: 0001e717    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE5eraseB5cxx11ESt17_Rb_tree_iteratorIS8_E
+   606: 0002862b    99 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFPFv8GBusTypeP13_GCancellablePFvP8_GObjectP13_GAsyncResultPvES7_ES0_DnS9_PN3bms6TCDbusEEE
+   607: 0001fa51   516 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus18m_NameOwnerChangedEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantPv
+   608: 00020c29   284 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient19UnsetSignalCallbackEi
+   609: 0001e55b    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsCaptionPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSG_PSt13_Rb_tree_nodeIS8_E
+   610: 00021bb1    32 FUNC    WEAK   DEFAULT   11 _ZNSt15__new_allocatorIPSt8functionIFvvEEE8allocateEjPKv
+   611: 00018fc7    22 FUNC    GLOBAL DEFAULT   11 BmsUnsubscribeForCaption
+   612: 0002492d    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EED2Ev
+   613: 000200a5   204 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus6t_StopEv
+   614: 0001aded    44 FUNC    WEAK   DEFAULT   11 _ZNKSt9type_info9hash_codeEv
+   615: 00027bbd    35 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal6detail16InputArchiveBaseE
+   616: 0002040d    38 FUNC    WEAK   DEFAULT   11 _ZNSt11unique_lockISt5mutexE4lockEv
+   617: 0001e381    76 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EE24_M_get_insert_unique_posERS1_
+   618: 00021fb3    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKSt6vectorIcSaIcEEEEC2ERKS6_
+   619: 000205c9   232 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   620: 00018405     2 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusD0Ev
+   621: 0001b333    60 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCBmsApiProviderVCC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   622: 0001aa69   152 FUNC    WEAK   DEFAULT   11 _ZNSt7__cxx119to_stringEi
+   623: 000193ad   436 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForCaptionForVC
+   624: 0001ded3    36 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EE8_M_eraseEPSt13_Rb_tree_nodeIS9_E
+   625: 00019741    22 FUNC    GLOBAL DEFAULT   11 BmsResume
+   626: 00018ffb    22 FUNC    GLOBAL DEFAULT   11 BmsUnSubscribeForPES
+   627: 00023d45   112 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16m_NameAcquiredCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   628: 00022aa5   528 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   629: 0002d398     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   630: 0002d0b0     8 OBJECT  WEAK   DEFAULT   20 _ZTIN3bms15TCStringWrapperE
+   631: 0001a7ed    34 FUNC    WEAK   DEFAULT   11 _ZNSt12_Destroy_auxILb0EE9__destroyIPSt8functionIFvvEEEEvT_S6_
+   632: 0002037b    20 FUNC    WEAK   DEFAULT   11 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJSt5_BindIFMN3bms6TCDbusEFvvEPS5_EEEEEEE6_M_runEv
+   633: 000279de   105 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIPFbRKSt6vectorIcSaIcEERS2_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEELb0EE
+   634: 00021a21    96 FUNC    WEAK   DEFAULT   11 _ZNSt7promiseIbEC2Ev
+   635: 00024f2f    96 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESM_IJEEEEESt17_Rb_tree_iteratorISB_ESt23_Rb_tree_const_iteratorISB_EDpOT_
+   636: 00028d40    98 OBJECT  WEAK   DEFAULT   13 _ZTSSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   637: 000189c3    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EED2Ev
+   638: 00019011    30 FUNC    GLOBAL DEFAULT   11 BmsSetSubtitleCallback
+   639: 00019757    22 FUNC    GLOBAL DEFAULT   11 BmsResumeLive
+   640: 0001ed87    50 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE14_M_lower_boundEPSt13_Rb_tree_nodeISB_EPSt18_Rb_tree_node_baseRS7_
+   641: 00019895   164 FUNC    GLOBAL DEFAULT   11 BmsGetCurrentPlayProgram
+   642: 0002d518    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   643: 0001aa17    82 FUNC    WEAK   DEFAULT   11 _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_OS8_
+   644: 0002584d    14 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializer15PrepareResponseEv
+   645: 00020add   324 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient17SetSignalCallbackEiRKSt8functionIFvRKSt6vectorIcSaIcEEEE
+   646: 00022635   108 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV213_M_set_resultESt8functionIFSt10unique_ptrINS_12_Result_baseENS3_8_DeleterEEvEEb
+   647: 00028b5d   117 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPS1_St12_PlaceholderILi1EEEE
+   648: 000288a9    41 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIPFvP10_GMainLoopEE
+   649: 00022389     4 FUNC    WEAK   DEFAULT   11 _ZNKSt13__future_base13_State_baseV221_M_is_deferred_futureEv
+   650: 00018701   164 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder10InitializeEPKc
+   651: 000226a1   120 FUNC    WEAK   DEFAULT   11 _ZSt9call_onceIMNSt13__future_base13_State_baseV2EFvPSt8functionIFSt10unique_ptrINS0_12_Result_baseENS4_8_DeleterEEvEEPbEJPS1_S9_SA_EEvRSt9once_flagOT_DpOT0_
+   652: 0001f4dd   112 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusD1Ev
+   653: 0001e8fd   164 FUNC    WEAK   DEFAULT   11 _ZN3bms15TCBinaryWrapper4loadIN6cereal18BinaryInputArchiveEEEvRT_j
+   654: 00020561    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFvP10_GMainLoopES3_EEE10_M_managerERSt9_Any_dataRKS9_St18_Manager_operation
+   655: 0001f809   108 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus16m_NameAcquiredCbEP16_GDBusConnectionPKcPv
+   656: 0002e904     4 OBJECT  WEAK   DEFAULT   24 _ZN6cereal6detail12StaticObjectINS0_18PolymorphicCastersEE8instanceE
+   657: 00028de4    48 OBJECT  WEAK   DEFAULT   13 _ZTSNSt13__future_base13_State_baseV27_SetterIbObEE
+   658: 00020585    68 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFPFvP10_GMainLoopES3_EEE10_M_managerERSt9_Any_dataRKS9_St18_Manager_operation
+   659: 00025bbd     6 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCProxySerializer13ProxyToNativeERKSt8functionIFvRN6cereal19BinaryOutputArchiveEEE
+   660: 0001de15    64 FUNC    WEAK   DEFAULT   11 _ZN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EED2Ev
+   661: 00020521    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_EEC2ERKS9_
+   662: 0001979d    26 FUNC    GLOBAL DEFAULT   11 BmsGetPlayTime
+   663: 00028578    76 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEELb1EE
+   664: 00028888    33 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFPFvP10_GMainLoopES1_EE
+   665: 0002d4e4     8 OBJECT  WEAK   DEFAULT   20 _ZTISt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationELb1EE
+   666: 00024d03    38 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationESt5_BindIFMN3bms12TCDbusServerEFvS7_S9_SB_EPSF_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEE9_M_invokeERKSt9_Any_dataS7_OS9_OSB_
+   667: 00025121    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESB_SB_EPS3_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   668: 000221d5    22 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusClientEFvS7_EPSB_St12_PlaceholderILi1EEEEE9_M_invokeERKSt9_Any_dataS7_
+   669: 000255cd    50 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE14_M_upper_boundEPSt13_Rb_tree_nodeISB_EPSt18_Rb_tree_node_baseRS7_
+   670: 0002d4f8    12 OBJECT  WEAK   DEFAULT   20 _ZTISt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   671: 00024bf3    26 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE10_Auto_nodeD2Ev
+   672: 00025a09    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRN6cereal19BinaryOutputArchiveEEEaSERKS4_
+   673: 0002325f    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer16AddClientReadyCbERKSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   674: 0002516d    22 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt5_BindIFMN3bms12TCDbusServerEFvS7_EPSB_St12_PlaceholderILi1EEEEE9_M_invokeERKSt9_Any_dataS7_
+   675: 0002d014    16 OBJECT  WEAK   DEFAULT   20 _ZTIPF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   676: 000246c1    36 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EE9push_backERKSA_
+   677: 0002e94c     4 OBJECT  WEAK   DEFAULT   24 _ZZN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EE20registerClassVersionIN3bms15TCBinaryWrapperEEEjvE4hash
+   678: 0002569d    64 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializerC1Ev
+   679: 0001e291    86 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvi9_BmsEventR18_BmsCallbackStructPvES5_EESt10_Select1stIS9_ESt4lessIiESaIS9_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESK_IJEEEEESt17_Rb_tree_iteratorIS9_ESt23_Rb_tree_const_iteratorIS9_EDpOT_
+   680: 00022351    40 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base13_State_baseV2D2Ev
+   681: 00024a59    34 FUNC    WEAK   DEFAULT   11 _ZNSt12_Destroy_auxILb0EE9__destroyIPSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEEEvT_SE_
+   682: 00019715    22 FUNC    GLOBAL DEFAULT   11 BmsPlay
+   683: 0001f681   192 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus12m_BusReadyCbEP8_GObjectP13_GAsyncResultPv
+   684: 0001fd4d   648 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus14m_GetNameOwnerEP8_GObjectP13_GAsyncResultPv
+   685: 00018819    24 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder20InvokeForCaptionDataE9_BmsEvent20BmsClosedCaptionTypejPh
+   686: 00025b49    58 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIcSaIcEE20_M_allocate_and_copyIN9__gnu_cxx17__normal_iteratorIPKcS1_EEEEPcjT_S9_
+   687: 0001cb4d   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy14BmsGetPlayTimeEiPm
+   688: 00024cc7    60 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_St8functionIFvRS7_P9_GVariantP22_GDBusMethodInvocationEEESt10_Select1stISG_ESt4lessIS5_ESaISG_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSO_PSt13_Rb_tree_nodeISG_E
+   689: 0001f015    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus13TSNameWatcherC1Ev
+   690: 0001b1a5    74 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjjESaIS2_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS4_18_Mod_range_hashingENS4_20_Default_ranged_hashENS4_20_Prime_rehash_policyENS4_17_Hashtable_traitsILb0ELb0ELb1EEEE22_M_insert_bucket_beginEjPNS4_10_Hash_nodeIS2_Lb0EEE
+   691: 00020333    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2ERKS9_
+   692: 00018a35    34 FUNC    WEAK   DEFAULT   11 _ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKSt10type_indexSt13unordered_mapIS3_St6vectorIPKN6cereal6detail17PolymorphicCasterESaISB_EESt4hashIS3_ESt8equal_toIS3_ESaIS2_IS4_SD_EEEELb0EEEEE19_M_deallocate_nodesEPSM_
+   693: 00018fdd    30 FUNC    GLOBAL DEFAULT   11 BmsSubscribeForPES
+   694: 000207bd    18 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientD0Ev
+   695: 0002d114    20 OBJECT  WEAK   DEFAULT   20 _ZTVN6cereal12InputArchiveINS_18BinaryInputArchiveELj1EEE
+   696: 0001a119   580 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker16InvokeForPesDataE9_BmsEventijPh
+   697: 0002558d    64 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE12_M_erase_auxESt23_Rb_tree_const_iteratorISB_ESJ_
+   698: 00028906    46 OBJECT  WEAK   DEFAULT   13 _ZTSSt22_Weak_result_type_implIPFvP10_GMainLoopEE
+   699: 0001ab5d    14 FUNC    WEAK   DEFAULT   11 _ZN6cereal9ExceptionD0Ev
+   700: 00028bd2   102 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+   701: 0001f4dd   112 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbusD2Ev
+   702: 00019a1d    26 FUNC    GLOBAL DEFAULT   11 BmsSetStopPosition
+   703: 00025029    76 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EE24_M_get_insert_unique_posERS1_
+   704: 0001bb15   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy22BmsSubscribeForCaptionEPFvR10BmsCaptionPvES3_Ri
+   705: 00020309    42 FUNC    WEAK   DEFAULT   11 _ZNSt4pairISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESA_EC2ISA_SA_TnNSt9enable_ifIXaaclsr5_PCCPE18_ConstructiblePairIT_T0_EEclsr5_PCCPE26_ImplicitlyConvertiblePairISE_SF_EEEbE4typeELb1EEERKSA_SJ_
+   706: 0001b235    84 FUNC    GLOBAL DEFAULT   11 _ZN3bms16TCBmsApiProvider8InstanceEv
+   707: 000222e5    32 FUNC    WEAK   DEFAULT   11 _ZNSt13__future_base7_ResultIbEC2Ev
+   708: 00019d0d     4 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvokerC1ERNS_12TCDbusServerE
+   709: 0002193d    48 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvvEESaIS2_EED2Ev
+   710: 00025283   104 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS7_EESM_IJEEEEESt17_Rb_tree_iteratorISB_ESt23_Rb_tree_const_iteratorISB_EDpOT_
+   711: 0002e944     4 OBJECT  WEAK   DEFAULT   24 _ZN6cereal6detail12StaticObjectINS0_8VersionsEE8instanceE
+   712: 00024995    18 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EED2Ev
+   713: 0001b625   212 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy16BmsDestroyPlayerEi
+   714: 0001aba1   124 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIcSaIcEE17_M_realloc_appendIJRKcEEEvDpOT_
+   715: 0001aec5    94 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIyySaIyENSt8__detail9_IdentityESt8equal_toIyESt4hashIyENS1_18_Mod_range_hashingENS1_20_Default_ranged_hashENS1_20_Prime_rehash_policyENS1_17_Hashtable_traitsILb0ELb1ELb1EEEE21_M_insert_unique_nodeEjjPNS1_10_Hash_nodeIyLb0EEEj
+   716: 0002d3e0    28 OBJECT  WEAK   DEFAULT   20 _ZTVSt23_Sp_counted_ptr_inplaceINSt13__future_base13_State_baseV2ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+   717: 000230ed   300 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer7t_CleanEv
+   718: 00018c0b    30 FUNC    GLOBAL DEFAULT   11 BmsSetCallback
+   719: 00028802    52 OBJECT  WEAK   DEFAULT   13 _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+   720: 00027b01    36 OBJECT  WEAK   DEFAULT   13 _ZTSN6cereal6detail17OutputArchiveBaseE
+   721: 0001ef11    32 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE10_Auto_nodeD2Ev
+   722: 000290ea   138 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEE
+   723: 0002d08c    20 OBJECT  WEAK   DEFAULT   20 _ZTVN6cereal13OutputArchiveINS_19BinaryOutputArchiveELj1EEE
+   724: 00024e3d   242 FUNC    WEAK   DEFAULT   11 _ZNSt5dequeISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EE17_M_reallocate_mapEjb
+   725: 0002569d    64 FUNC    GLOBAL DEFAULT   11 _ZN3bms18TCNativeSerializerC2Ev
+   726: 0002e948     4 OBJECT  WEAK   DEFAULT   24 _ZGVN6cereal6detail12StaticObjectINS0_8VersionsEE8instanceE
+   727: 00029302   119 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_ELb1EE
+   728: 0001ee21   240 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorISB_ERS7_
+   729: 00025b83    36 FUNC    WEAK   DEFAULT   11 _ZNSt6vectorIcSaIcEE14_M_move_assignEOS1_St17integral_constantIbLb1EE
+   730: 0001f54d   204 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus5StartEP13_GMainContext
+   731: 00020c21     8 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient16m_SignalCallbackEP16_GDBusConnectionPKcS4_S4_S4_P9_GVariantPv
+   732: 00022189    76 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESB_SB_EPS3_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   733: 0001f015    44 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus13TSNameWatcherC2Ev
+   734: 000285c5    14 OBJECT  GLOBAL DEFAULT   13 _ZTSN3bms6TCDbusE
+   735: 00019c3f   134 FUNC    WEAK   DEFAULT   11 _ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENS0_5__ops16_Iter_equals_valIKcEEET_SE_SE_T0_St26random_access_iterator_tag
+   736: 0002d06c    12 OBJECT  WEAK   DEFAULT   20 _ZTIN6cereal19BinaryOutputArchiveE
+   737: 00018831   120 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinder15m_BindNativeApiEiPF11_BmsErrCodeRNS_18TCNativeSerializerEE
+   738: 0001a35d   556 FUNC    GLOBAL DEFAULT   11 _ZN3bms14TCApiCbInvoker20InvokeForCaptionDataE9_BmsEvent20BmsClosedCaptionTypejPh
+   739: 0001dd0d    88 FUNC    WEAK   DEFAULT   11 _ZNSt3mapIiSt4pairIPFvi9_BmsEventR18_BmsCallbackStructPvES4_ESt4lessIiESaIS0_IKiS7_EEEixERSA_
+   740: 00028a7a   108 OBJECT  WEAK   DEFAULT   13 _ZTSSt17_Weak_result_typeIMN3bms12TCDbusClientEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_S9_EE
+   741: 00018631    48 FUNC    GLOBAL DEFAULT   11 _ZN3bms17TCAPINativeBinderD1Ev
+   742: 00018b11    68 FUNC    WEAK   DEFAULT   11 _ZNSt14_Function_base13_Base_managerISt5_BindIFPFbRKSt6vectorIcSaIcEERS4_PF11_BmsErrCodeRN3bms18TCNativeSerializerEEESt12_PlaceholderILi1EESG_ILi2EESD_EEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   743: 000197b7    26 FUNC    GLOBAL DEFAULT   11 BmsGetPlayTime64
+   744: 000206b1    88 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClientD1Ev
+   745: 00022491   228 FUNC    WEAK   DEFAULT   11 _ZNSt12future_errorC2ESt10error_code
+   746: 0002903f   171 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms12TCDbusServerEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEP9_GVariantP22_GDBusMethodInvocationEPS1_St12_PlaceholderILi1EESH_ILi2EESH_ILi3EEEE
+   747: 00020803    52 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient20AddServiceVanishedCbERKSt8functionIFvvEE
+   748: 00023219    18 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServerD0Ev
+   749: 000202d1    56 FUNC    WEAK   DEFAULT   11 _ZNSt8functionIFvvEEC2ERKS1_
+   750: 0001edb9   104 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS7_EESM_IJEEEEESt17_Rb_tree_iteratorISB_ESt23_Rb_tree_const_iteratorISB_EDpOT_
+   751: 0001cead   216 FUNC    GLOBAL DEFAULT   11 _ZN3bms10TCApiProxy24BmsGetCurrentPlayProgramEiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+   752: 00025075    46 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiSt8functionIFbRKSt6vectorIcSaIcEERS5_EEESt10_Select1stISB_ESt4lessIiESaISB_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSJ_PSt13_Rb_tree_nodeISB_E
+   753: 000278e0    43 OBJECT  WEAK   DEFAULT   13 _ZTSF11_BmsErrCodeRN3bms18TCNativeSerializerEE
+   754: 0002e954    28 OBJECT  WEAK   DEFAULT   24 _ZZN6cereal6detail12StaticObjectINS0_8VersionsEE6createEvE1t
+   755: 00025acd    68 FUNC    WEAK   DEFAULT   11 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIN9__gnu_cxx17__normal_iteratorIPcSt6vectorIcS3_EEEEEvT_SC_St20forward_iterator_tag
+   756: 000245c1    22 FUNC    WEAK   DEFAULT   11 _ZN3bms12TCDbusServer16TSCallPropertiesD2Ev
+   757: 00022165    36 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_ESt5_BindIFMN3bms12TCDbusClientEFvS7_S7_S7_EPSB_St12_PlaceholderILi1EESF_ILi2EESF_ILi3EEEEE10_M_managerERSt9_Any_dataRKSM_St18_Manager_operation
+   758: 000232c9   128 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusServer11SetMethodCbEiRKSt8functionIFbRKSt6vectorIcSaIcEERS4_EE
+   759: 0001e02d    34 FUNC    WEAK   DEFAULT   11 _ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKjSt10shared_ptrIvEELb0EEEEE19_M_deallocate_nodesEPS7_
+   760: 00025451   108 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_N3bms12TCDbusServer8TSClientEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE24_M_get_insert_unique_posERS7_
+   761: 00018a71    34 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableISt10type_indexSt4pairIKS0_St6vectorIPKN6cereal6detail17PolymorphicCasterESaIS8_EEESaISB_ENSt8__detail10_Select1stESt8equal_toIS0_ESt4hashIS0_ENSD_18_Mod_range_hashingENSD_20_Default_ranged_hashENSD_20_Prime_rehash_policyENSD_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   762: 0001a741    40 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIPKcSt4pairIKS1_jESaIS4_ENSt8__detail10_Select1stESt8equal_toIS1_ESt4hashIS1_ENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEE5clearEv
+   763: 0001e603   154 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeIiSt4pairIKiS0_IPFvR10BmsPESDataPvES4_EESt10_Select1stIS8_ESt4lessIiESaIS8_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS8_ERS1_
+   764: 000248b5    32 FUNC    WEAK   DEFAULT   11 _ZNSt15__new_allocatorIPSt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE8allocateEjPKv
+   765: 00022439    80 FUNC    WEAK   DEFAULT   11 _ZSt18make_exception_ptrISt12future_errorENSt15__exception_ptr13exception_ptrET_
+   766: 0001ef31    58 FUNC    WEAK   DEFAULT   11 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PN3bms18TCBmsApiProviderVCEESt10_Select1stISB_ESt4lessIS5_ESaISB_EE17_M_construct_nodeIJRKSt21piecewise_construct_tSt5tupleIJRS7_EESM_IJEEEEEvPSt13_Rb_tree_nodeISB_EDpOT_
+   767: 00024789    84 FUNC    WEAK   DEFAULT   11 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3bms12TCDbusServer8TSClientESt4lessIS5_ESaISt4pairIKS5_S8_EEEixERSC_
+   768: 00019561   428 FUNC    GLOBAL DEFAULT   11 BmsUnsubscribeForCaptionForVC
+   769: 000249d9    42 FUNC    WEAK   DEFAULT   11 _ZNSt11_Deque_baseISt8functionIFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEESaISA_EED2Ev
+   770: 0001df8d    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS8_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   771: 0001fc55   240 FUNC    GLOBAL DEFAULT   11 _ZN3bms6TCDbus18m_CallGetNameOwnerEP16_GDBusConnectionSt10shared_ptrINS0_13TSNameWatcherEE
+   772: 000284e7    80 OBJECT  WEAK   DEFAULT   13 _ZTSSt5_BindIFMN3bms10TCApiProxyEFvRKSt6vectorIcSaIcEEEPS1_St12_PlaceholderILi1EEEE
+   773: 0001a7c5    40 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIN6cereal6traits6detail13base_class_idES3_SaIS3_ENSt8__detail9_IdentityESt8equal_toIS3_ENS2_18base_class_id_hashENS5_18_Mod_range_hashingENS5_20_Default_ranged_hashENS5_20_Prime_rehash_policyENS5_17_Hashtable_traitsILb1ELb1ELb1EEEE5clearEv
+   774: 00028d04    60 OBJECT  WEAK   DEFAULT   13 _ZTSSt24_Weak_result_type_memfunIMN3bms12TCDbusClientEFvvELb1EE
+   775: 0001976d    22 FUNC    GLOBAL DEFAULT   11 BmsStop
+   776: 0001dff1    26 FUNC    WEAK   DEFAULT   11 _ZNSt10_HashtableIjSt4pairIKjSt10shared_ptrIvEESaIS4_ENSt8__detail10_Select1stESt8equal_toIjESt4hashIjENS6_18_Mod_range_hashingENS6_20_Default_ranged_hashENS6_20_Prime_rehash_policyENS6_17_Hashtable_traitsILb0ELb0ELb1EEEED2Ev
+   777: 00019b7d   156 FUNC    GLOBAL DEFAULT   11 BmsIsVODPlaying
+   778: 00020559     8 FUNC    WEAK   DEFAULT   11 _ZNSt17_Function_handlerIFvvESt5_BindIFPFvP10_GMainLoopES3_EEE9_M_invokeERKSt9_Any_data
+   779: 000197d1    26 FUNC    GLOBAL DEFAULT   11 BmsSetPlaySpeed
+   780: 00021131    72 FUNC    GLOBAL DEFAULT   11 _ZN3bms12TCDbusClient12m_NameLostCbERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+
+STDERR:
