@@ -1,0 +1,18 @@
+{
+  "budget_Pss_kB": {
+    "code_code_other": 197830,
+    "file_r--_private_dirty": 79932,
+    "file_r--_shared_dirty_Pss": 2441,
+    "file_r--_clean": 20466,
+    "file_rw-_private_dirty": 19256,
+    "file_rw-_shared_dirty_Pss": 969,
+    "file_rw-_clean": 8751,
+    "anon_heap": 50812,
+    "anon_unlabelled": 52260,
+    "anon_stack": 4616,
+    "anon_other_named": 19170,
+    "file_other": 16
+  },
+  "Pss_total_kB": 456519,
+  "SwapPss_total_kB": 116080
+}

@@ -1,0 +1,14 @@
+test_compare_noise_rule (test_image_budget.ImageBudgetTests.test_compare_noise_rule) ... ok
+test_compare_strict_process_pairing (test_image_budget.ImageBudgetTests.test_compare_strict_process_pairing) ... ok
+test_cross_section_page_allocation (test_image_budget.ImageBudgetTests.test_cross_section_page_allocation) ... ok
+test_elf_pull_failure (test_image_budget.ImageBudgetTests.test_elf_pull_failure) ... ok
+test_process_exits_during_collection (test_image_budget.ImageBudgetTests.test_process_exits_during_collection) ... ok
+test_remote_rc_is_not_host_rc (test_image_budget.ImageBudgetTests.test_remote_rc_is_not_host_rc) ... ok
+test_same_path_multiple_inodes_is_excluded (test_image_budget.ImageBudgetTests.test_same_path_multiple_inodes_is_excluded) ... DONE 2 VMAs 1 files 0 process issues
+ok
+test_stable_window_cpu_at_threshold (test_image_budget.ImageBudgetTests.test_stable_window_cpu_at_threshold) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK

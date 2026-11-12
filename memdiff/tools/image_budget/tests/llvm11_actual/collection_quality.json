@@ -1,0 +1,15 @@
+{
+  "pull_status_counts": {
+    "hash_match": 1549,
+    "pull_failed": 6
+  },
+  "missing_or_unverified_elf_paths": [
+    "/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-smartthings/libcontextengine-plugin-smartthings.so",
+    "/opt/usr/apps/com.samsung.tizen.contextengine/res/mount/allowed/contextengine-plugin-userdetection/libcontextengine-plugin-userdetection.so",
+    "/usr/lib/libbuxton2_lite.so.1.1",
+    "/usr/lib/libsystem-info-external-plugin.so",
+    "/usr/lib/libvconf-prd.so.1.0",
+    "/usr/lib/libvconf_lite.so.0.3.1"
+  ],
+  "incomplete_processes": 6
+}

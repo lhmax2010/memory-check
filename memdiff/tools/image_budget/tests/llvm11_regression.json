@@ -1,0 +1,29 @@
+{
+  "files": {
+    "smaps_budget.json": "一致",
+    "code_budget.json": "一致",
+    "relocation_summary.json": "一致",
+    "relro_classification_summary.json": "一致",
+    "symbol_estimates.json": "一致"
+  },
+  "derived_fields": {
+    "measured_user_processes": "一致",
+    "smaps_processes_including_kernel_threads": "一致",
+    "exited_or_incomplete_processes": "一致",
+    "Pss_total_kB": "一致",
+    "SwapPss_total_kB": "一致",
+    "Pss_plus_SwapPss_kB": "一致",
+    "budget_Pss_kB": "一致",
+    "VMA_distribution": "一致",
+    "mapped_libraries_distribution": "一致",
+    "section_Pss_kB": "一致",
+    "relocation_page_bounds": "一致",
+    "BIND_NOW_all_ELF": "一致",
+    "BIND_NOW_mapped_ELF": "一致",
+    "BIND_NOW_mapped_ELF_with_JUMP_SLOT": "一致",
+    "WEAK_export_categories": "一致"
+  },
+  "mismatches": [],
+  "checked_count": 20,
+  "status": "PASS"
+}

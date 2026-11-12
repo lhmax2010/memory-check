@@ -1,0 +1,5 @@
+{
+  "boot_count": 1,
+  "source": "historical_memcheck_smaps",
+  "limitations": "no pagemap, so r-x Pss is code_other; no ELF metrics; comparison is a parser validation only"
+}

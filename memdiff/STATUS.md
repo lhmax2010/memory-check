@@ -534,3 +534,11 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 已闭合：322 个原始 PID 中 316 个完整，111 个有用户 VMA；同次快照 Pss=563596 KiB、SwapPss=96976 KiB。r-x Pss=212919 KiB，按唯一页节占比折算后 `.text`=112626.2、加载器相关节=63790.9 KiB；文件 r--/rw- 私有脏合计 133700 KiB。1452 个 ELF 动态重定位 1755115 条，交叉 readelf 无错误；静态可写目标页×映射进程预测 183612 KiB，同批库实测文件私脏 128184 KiB，逐库绝对误差/实测为 43.96%，故预测不作为可得收益。vtable/typeinfo 标签页 22680/23644 KiB，交集 22204 KiB；目标字节 <256 B 页 65348 KiB，均为重叠的静态上界。NOW/BIND_NOW ELF 92 个、其余 1360 个；WEAK 定义导出 198643 个，类成员函数候选 161913 个；`-Bsymbolic-functions` 本库函数目标候选 200066 条，`--as-needed` 可删映射数未确定。证据 `derived_summary.json`、`relocation_summary.json`、`relro_classification_summary.json`、`symbol_estimates.json` 与报告各表。
 
 质量与挂账：`qa.json` 的五项检查全通过，新的 ELF 路径、GLOBAL/WEAK/未定义符号个数及主要节大小与前次独立 readelf 表逐文件一致，Pss 分类合计等于总 Pss。11-11 同次 `/proc/meminfo` 未采到，PageTables 只能列第三轮 16164/16052 KiB 作量级参照；6 个采集期间退出或不完整 PID 不在预算内。多数 `.data.rel.ro` 目标容器不能由已保存的 `.dynsym` 确定；热字节、可安全删除的 NEEDED 及各优化手段实际收益均需另行重编与同镜像实测。本次不排序、不下超出数据的收益结论。
+
+### 镜像内存预算复用工具（2026-11-12）
+
+计划与进度：完全离线把 11-11 LLVM `llvm_memory_budget` 的 smaps/ELF/重定位计算逻辑固化到 `memdiff/tools/image_budget/`；新增 SDB 采集、通用预算和跨预算对比入口。本轮未连接开发板。开发机 CPU0/nice19/ionice idle 串行，Python 虚拟内存上限 2,500,000 KiB；进度和结束状态见工具日志。采集等待判据为 600 秒起、30 秒间隔、最近 10 次 MemAvailable 与已用 Swap 极差 < MemTotal 的 1%、平均 CPU ≤21%，最多 30 分钟。SDB 远端返回码显式回传，退出 PID 和 ELF 拉回失败留清单，结束需 root off、UID 与 boot ID 核对。
+
+已闭合：11-11 LLVM 原始采集重跑已发布预算，Pss 分类、代码节分摊、重定位、符号估算等 20/20 组数值逐项一致，PageTables 历史同次值缺失而排除；逐进程 Pss 回加为 563,596 KiB，逐文件 r-x 节 Pss 回加与 212,919 KiB 差 0.00013 KiB（六位小数舍入）。GCC boot1 与 11-11 LLVM 的单次对比演练识别严格配对进程键 62、两侧单侧键各 41、共同文件 1,595 和单侧文件 207；只验证解析，不作跨镜像结论。8 个单元测试通过，含退出进程、ELF 拉回失败、同路径多 inode、跨节页分摊。证据 `memdiff/reports/image_budget_tool.md`、`memdiff/tools/image_budget/tests/llvm11_regression.json`、`tests/offline_compare/`、`tests/unit_tests.log`。
+
+挂账：采集入口本轮没有上板运行，首次实际采集应核验 SDB 实际权限、时长和失败路径。历史 11-11 缺同次 PageTables 与 `/proc/<pid>/exe`，进程身份仅能由首个 r-x 文件映射推定。重定位目标页静态模型对实测私脏约高估 44%，不作为收益。工具用法、口径与输出字段见 `memdiff/tools/image_budget/README.md`。

@@ -1,0 +1,3 @@
+side	boot	ELF_count	mapped_ELF_count	defined_WEAK	.dynsym_bytes	.dynstr_bytes	.rel.dyn_bytes	DT_NEEDED_count	PIE_files	BIND_NOW_files
+baseline	1	0	0	0	0	0	0	0	0	0
+new	1	1452	1452	198643	12702256	44552593	11057368	15720	103	92

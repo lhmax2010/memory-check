@@ -1,0 +1,107 @@
+pid	name	exe	Pss_total_kB	SwapPss_kB	anon_heap_Pss_kB	anon_other_named_Pss_kB	anon_stack_Pss_kB	anon_unlabelled_Pss_kB	code_code_other_Pss_kB	file_other_Pss_kB	file_r--_clean_Pss_kB	file_r--_private_dirty_Pss_kB	file_r--_shared_dirty_Pss_kB	file_rw-_clean_Pss_kB	file_rw-_private_dirty_Pss_kB	file_rw-_shared_dirty_Pss_kB
+1	systemd	/usr/lib/systemd/systemd	3309	452	2224	0	16	88	627		0	324	2	16	12	0
+1026	DN_g.tizen.menu	/usr/bin/dotnet-hydra-loader	57547	1204	6482	2531	84	20790	17711	8	3272	1684	516	2231	2056	182
+1049	systemd-udevd	/usr/lib/systemd/systemd-udevd	773	400	204	0	16	20	297		0	216	0	4	16	0
+1050	TAgentD	/usr/bin/TAgentD	200	368	0	0	4	0	76		0	120	0	0	0	0
+1054	securestorage-s	/usr/bin/securestorage-server	823	408	20	16	4	100	231		0	380	0	44	28	0
+1055	psa-init	/usr/bin/psa-init	3137	1012	152	68	12	324	1118		2	1252	1	112	96	0
+1073	systemd	/usr/lib/systemd/systemd	2369	148	352	0	1028	28	605		0	324	0	16	16	0
+1077	wfd-manager	/usr/bin/wfd-manager	1413	608	196	16	24	120	469		2	508	2	40	36	0
+1099	p2p-asm	/usr/bin/p2p-asm	2530	936	256	36	16	120	935		3	1020	4	72	68	0
+1126	pulseaudio	/usr/bin/pulseaudio	3088	656	460	76	24	144	1953		25	268	2	92	44	0
+1132	com.samsung.tiz	/opt/usr/apps/com.samsung.tizen.perception-engine/bin/com.samsung.tizen.perception-engine	13044	3944	852	636	1636	981	6805		1	1872	1	172	88	0
+1195	appbinary-manag	/usr/bin/appbinary-manager	1566	996	112	12	12	72	314		2	988	2	24	28	0
+1198	storaged	/usr/bin/storaged	1075	508	168	40	12	44	394		1	364	0	16	36	0
+1285	esd	/usr/bin/esd	4403	668	200	100	8	604	2202		21	916	136	96	120	0
+1325	license-manager	/usr/bin/license-manager-agent	389	184	0	0	4	0	89		0	296	0	0	0	0
+1328	scenario-mgr-tv	/usr/bin/scenario-mgr-tv	1995	0	124	140	16	396	428		0	460	3	0	428	0
+1329	isf	/usr/bin/isf	1350	1068	0	0	4	0	829		5	480	32	0	0	0
+1396	allshare-svc	/usr/bin/allshare-svc	2577	520	192	188	24	176	1394		1	488	2	44	68	0
+1397	bt-monitor	/usr/bin/bt-monitor	1026	416	124	12	12	68	312		1	404	1	64	28	0
+1402	ira_main	/usr/bin/issue_report_agent	12314	2632	864	548	68	924	6380		2	2424	13	120	960	11
+1403	mediacontroller	/usr/bin/mediacontroller	656	508	32	64	8	36	107		1	364	0	24	20	0
+1404	aisctrlmgr_serv	/usr/bin/aisctrlmgr_server	916	668	160	12	8	68	154		1	464	1	8	40	0
+1408	dseal	/opt/usr/apps/org.tizen.dseal/bin/dseal	3860	1824	140	16	12	104	2345	0	2	1180	1	20	40	0
+1476	register-device	/usr/bin/register-device	2115	2292	200	36	8	96	545		17	1092	1	72	48	0
+1478	settings-servic	/usr/bin/settings-service	5489	2712	756	36	16	192	2090		302	1960	9	80	48	0
+1484	slive-provider-	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-provider-daemon	3444	1596	428	68	16	220	2043		34	492	3	76	64	0
+1520	source-service	/usr/bin/source-service	3978	1916	324	60	12	212	1302		2	1892	6	96	72	0
+1532	vddebugmenu	/usr/bin/vddebugmenu	105	140	0	0	4	0	41		0	60	0	0	0	0
+1533	was_background_	/usr/bin/was_background_update	1703	1016	0	12	4	56	754		1	860	0	16	0	0
+1537	home-mainhub	/opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mainhub	18614	3428	368	1704	72	1316	12305		106	1820	47	8	868	0
+1538	contentservicem	/opt/usr/apps/com.samsung.tv.contentservicemanager/bin/contentservicemanager	2346	1392	196	140	16	116	681		2	1056	3	68	68	0
+1674	at-spi-bus-laun	/usr/libexec/at-spi-bus-launcher	564	396	72	12	4	44	73		2	324	1	20	12	0
+1713	multiprofile-se	/opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp	2476	1864	148	36	12	108	1070		1	992	1	52	56	0
+1844	comss	/usr/apps/comss/bin/comss	3242	1020	204	112	20	636	980		4	1072	6	116	92	0
+1925	bms-service	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/bms-service	4476	1740	120	72	16	124	3341		38	684	1	28	52	0
+199	kfactoryd	/prd/usr/bin/kfactoryd	236	224	12	0	4	8	23		1	168	0	20	0	0
+206	cynara	/usr/bin/cynara	3395	416	1920	8	8	880	203		0	348	0	24	4	0
+2118	aifw-data-manag	/usr/bin/aifw-data-managerd	462	552	0	0	4	0	94		0	364	0	0	0	0
+2141	CISAPIAppManage	/usr/apps/com.samsung.tv.cis-api-service-app/bin/cis-api-service-app	767	676	68	20	12	32	149		2	420	0	44	20	0
+2157	sesd	/usr/bin/sesd	946	580	68	8	8	48	99		0	620	31	40	24	0
+2158	org.tizen.easys	/opt/usr/apps/org.tizen.easysetup-daemon/bin/org.tizen.easysetup-daemon	4538	1140	404	160	28	236	1990		8	1416	8	144	144	0
+2175	pisa-service	/opt/usr/apps/com.samsung.tv.pisa-service/bin/pisa-service	2222	936	108	32	8	216	851		0	916	31	32	28	0
+2176	pushd	/usr/bin/pushd	2735	572	192	24	12	228	1128		2	928	1	68	152	0
+218	buxton2d_lite_w	/prd/usr/bin/buxton2d_lite	773	568	276	32	12	32	171		1	204	0	20	24	1
+2181	smartthings-thi	/opt/usr/apps/com.samsung.tizen.smartthings-thing/bin/smartthings-thing	4834	348	256	148	44	232	2716		2	788	32	0	616	0
+2199	key-manager	/usr/bin/key-manager	2067	1236	48	12	4	52	1219		0	688	0	40	4	0
+220	buxton2d_worker	/usr/sbin/buxton2d	2825	1612	1516	20	12	380	434		1	372	0	48	28	14
+2283	sshd	/usr/sbin/sshd	426	248	0	0	4	0	286		0	136	0	0	0	0
+2300	sso-service	/opt/usr/apps/org.tizen.ssoservice/bin/sso-service	4074	2380	172	156	20	280	1991		2	1264	33	84	72	0
+2332	usb-launcher-se	/usr/bin/usb-launcher-service	1217	748	120	8	8	72	277		0	652	0	36	44	0
+2363	fw-update-watch	/usr/bin/fw-update-watcher	348	804	0	0	4	0	60		4	280	0	0	0	0
+2445	termsclient	/opt/usr/apps/com.samsung.tv.termsclient/bin/termsclient	3177	0	456	68	72	232	536		2	1060	3	0	748	0
+2464	com.samsung.tv.	/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service	924	1052	80	20	12	32	317		20	348	31	44	20	0
+249	security-manage	/usr/bin/security-manager	1235	636	136	12	8	216	427		0	356	0	56	24	0
+2490	sdbd	/usr/sbin/sdbd	1850	872	80	76	24	132	437		0	1004	1	52	44	0
+2499	resourced	/usr/bin/resourced	1808	0	220	86	32	224	409		1	432	0	0	404	0
+253	enlightenment	/usr/bin/enlightenment	14307	3020	2716	268	44	444	8434		50	1820	7	324	200	0
+255	launchpad-proce	/usr/bin/bash	112	160	0	0	4	0	80		0	28	0	0	0	0
+261	launchpad-proce	/usr/bin/launchpad-process-pool	808	344	100	0	8	28	431		1	176	0	48	16	0
+264	boot-helper-dyb	/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	1452	676	96	152	4	332	576		5	220	1	26	40	0
+2651	bash	/usr/bin/bash	318	0	132	0	18	32	90		0	0	16	0	24	6
+280	fconfigd	/usr/bin/fconfigd	595	944	0	0	4	0	159		0	428	0	0	0	4
+2958	webappservice	/usr/apps/org.tizen.webappservice/bin/webappservice	3991	1528	192	148	12	228	2045		6	1240	8	60	52	0
+2959	webserver	/usr/apps/org.tizen.webserver/bin/webserver	2109	1456	4	4	8	76	1028		0	960	1	24	4	0
+2960	pvodservice	/usr/apps/pvod-appfw/bin/pvodservice	586	956	64	0	12	44	133		5	288	0	16	24	0
+2961	remote-server	/usr/bin/remote-server	3546	1236	248	128	24	252	1603		2	1116	5	76	92	0
+3125	dotnet-hydra-lo	/usr/bin/dotnet-hydra-loader	11373	6484	232	21	84	396	5108	8	3622	16	401	1005	192	288
+3475	acm-service	/usr/apps/org.tizen.acm-service/bin/acm-service	4619	0	756	436	68	440	1555		60	336	2	62	904	0
+3989	sleep	/usr/bin/sleep	92	0	4	0	8	24	16		0	24	0	0	16	0
+399	pm_monitor.sh	/usr/bin/bash	203	36	36	0	8	32	79		0	32	0	0	16	0
+401	volume-app	/usr/apps/org.tizen.volume-app/bin/volume-app	4836	4176	688	56	16	236	1881		20	1728	7	120	84	0
+402	wrt-loader	/usr/bin/wrt	45771	0	4256	1956	84	4084	16268	0	11591	5264	8	0	2256	4
+405	tv-viewer	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	6797	5892	960	256	16	152	3972		181	1008	10	166	76	0
+4060	bash	/usr/bin/bash	306	0	158	0	18	32	52		0	0	16	0	24	6
+4061	gzip	/usr/bin/gzip	411	0		0	8	324	39		0	24	0	0	16	0
+4070	SWUAutoUpgrade	/usr/bin/SWUAutoUpgrade	4683	0	212	320	32	416	1873		1	1020	1	0	808	0
+460	vd-pkginfo-serv	/usr/bin/bash	103	112	0	0	4	0	67		0	32	0	0	0	0
+470	pkginfo-server	/usr/bin/pkginfo-server	1345	752	28	136	8	236	331		0	400	0	52	12	142
+482	TA_native-home	/usr/bin/team-launcher	41422	0	9604	1956	88	5264	17826		299	3444	9	0	2932	0
+506	zone-init	/usr/bin/zone-init	42	36		0	4	4	6		0	24	0	4	0	0
+578	tzdaemon	/usr/bin/tzdaemon	1585	364	56	72	12	160	1017		0	212	0	44	12	0
+583	resource-center	/usr/bin/resource-center	972	432	116	24	8	116	377		2	204	33	32	60	0
+608	rscmgr-service	/usr/bin/rscmgr-service	981	648	168	72	8	68	399		0	180	1	56	28	1
+632	tvs-daemon	/usr/bin/tvs-daemon	13781	2016	296	2100	32	1600	7926		115	1100	10	262	340	0
+650	tvs-lite	/usr/bin/tvs-lite	1460	792	100	72	8	108	250		1	836	1	56	28	0
+651	amd	/usr/bin/amd	5381	1168	1288	252	16	224	2536		186	444	147	176	112	0
+671	adagent-service	/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service	3693	1112	144	104	24	208	1920		4	1156	5	76	52	0
+677	tvctx-manager	/usr/bin/tvctx-manager	3605	1960	916	64	20	304	1280		46	712	43	80	140	0
+680	bt-service	/usr/bin/bt-service	8711	1236	208	348	12	316	7196		5	460	2	92	72	0
+721	avocd	/usr/bin/avocd	5866	1196	604	388	72	480	2408		38	388	11	82	1384	11
+740	common-daemon-b	/usr/bin/common-daemon-basic-monitor	5145	2088	524	276	8	532	1929		4	1612	9	112	132	7
+797	connectivity-co	/usr/bin/connectivity-common-daemon	5461	2944	508	12	16	204	3191		4	1376	6	56	88	0
+798	connmand	/usr/sbin/connmand	1301	388	152	8	16	48	619		2	376	0	52	28	0
+820	deviced	/usr/bin/deviced	1815	568	208	40	12	164	854		1	432	4	20	76	4
+846	launcher-securi	/usr/sbin/launcher-security	333	228	4	36	4	8	141		0	124	0	8	8	0
+854	net-config	/usr/sbin/net-config	1429	516	208	32	12	136	366		3	580	4	40	48	0
+855	TIFSDaemon	/usr/bin/TIFSDaemon	3507	2016	100	4	8	312	2100		58	800	1	84	40	0
+858	security-soluti	/usr/bin/security-solution-daemon	4198	1048	176	860	4	228	1690		0	1060	0	116	64	0
+884	speaker-manager	/usr/bin/speaker-manager	867	564	112	28	8	48	230		0	388	1	36	16	0
+904	app-defined-loa	/usr/bin/app-defined-loader	588	1352	0	0	8	0	222		6	352	0	0	0	0
+905	launchpad-loade	/usr/bin/launchpad-loader	2635	4708	36	8	8	16	1581		97	860	1	28	0	0
+906	dotnet-hydra-lo	/usr/bin/dotnet-hydra-loader	5590	2084	204	0	4	205	4038	0	147	0	395	309	0	288
+934	tizen-watcherd	/usr/bin/tizen-watcherd	3101	828	400	120	20	196	895		1	1112	149	88	120	0
+949	vd-net-config	/usr/sbin/vd-net-config	3310	992	432	76	12	172	1083		2	1352	5	84	92	0
+951	wpa_supplicant	/usr/sbin/wpa_supplicant	1651	436	132	0	16	20	1015		0	432	0	20	16	0
+989	contextengine	/opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine	9955	1348	972	648	72	1452	4098	0	4	1892	153	160	504	0
