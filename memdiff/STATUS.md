@@ -550,3 +550,11 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 已闭合：LLVM 22.1.8 的 `BasicTTIImpl.h:649–651` 对非 64 位目标禁用相对查找表，pass 还要求 64 位指针；ARMv7 PIC/PIE 不会用到该 pass。静态候选连续数组 32,727 段，按映射进程加权的“页内有候选目标”50,832 KiB、“整页处于候选区间”404 KiB，均非可得收益。唯一 r-x 驻留前 50 文件的 3,770 连续段起点按 16/32 页对齐 7.11%/3.93%，未见统一预读块特征；最短连续段代理的假设代码 Pss 可减少范围 0–60,509.81 KiB，不作为实测收益。不同 inode 且同 SHA 的同时映射 ELF 组 0、上限 0 KiB；`.dynsym` 定义 FUNC 中 ARM 占比 >20% 且 `.text` >256 KiB 的文件 31 个，内部函数覆盖未确定。证据 `data/extra_levers_sizing/{summary.json,candidate_arrays.tsv,read_ahead_summary.json,duplicate_elf_groups.tsv,arm_mode_large_text.tsv,source_files.tsv}` 及报告。
 
 挂账：本机只有 LLVM 21.1.1 与 22.1.8 发布源码包，无 llvm-project Git 历史；引入 pass/32 位条件的提交与评审链接、历史设计理由未找到。22.1.8 发布快照不是 release/22.x 分支工作树，分支最新状态未核实。候选数组是否满足 IR 使用条件、真实代码热点、预读参数、非 ELF 重复文件和非导出函数模式需要其他证据，本轮没有推断可得收益。
+
+### 11-11 LLVM ARM 模式来源与 Thumb-2 体积参照（2026-11-12）
+
+计划与进度：完全离线复用 `data/extra_levers_sizing/thumb_coverage.tsv`、`data/llvm_memory_budget/` 和 `data/system_code_page_sections/elf/`，不用板、不重编。对 ARM 动态 FUNC 占比 >80% 的 106 文件和 20%–80% 的 12 文件，用第三轮同一 GBS root 的交叉 readelf/objdump 采 `.comment`、`.ARM.attributes`、节和 LOAD、符号与逐 4 KiB 页的 256 字节两模式反汇编；以同名/SONAME 查 Thumb 副本。主机 CPU0/nice19/ionice idle 串行，Python 虚拟内存上限 2,500,000 KiB，原始 readelf、逐样本表、进度和结束状态在 `data/thumb_origin/`。报告 `reports/thumb_origin.md`。
+
+已闭合：118 个文件按互斥筛选分为应用/厂商路径 15、仅 GCC `.comment` 23、仅 clang 标记 ARM 0、汇编/向量特征较多 16、无法判断 64；其 `.text`、唯一驻留和文件映射 Pss 逐类见 `class_summary.tsv`。`.comment` 实际为仅 GCC 33、GCC+clang 85，没有纯 clang，不能由混合标记判定整个 ELF 的编译器。唯一同名 ARM/Thumb 比较为两对 `libtvs-api.so`，`.text` Thumb/ARM 比值 0.677745、0.687952（中位 0.682849）；两对导出 FUNC 数都不同，不是同版本受控实验。套中位比值仅作参考算术推算：仅 GCC 类 `.text` 4,355.272 KiB、唯一驻留 2,662.804 KiB；仅 clang 类 0。可核查路径按 Pss 降序在 `to_check_paths.txt`。5 项 QA 全通过；证据 `summary.json`、`arm_thumb_pairs.tsv`、`file_properties.tsv`、`sample_disassembly.tsv`、`qa.json` 和报告。
+
+挂账：3,130 个不同页样本中 1,450 个无法由局部符号覆盖或双模式合法指令比例判别，整段 ARM 字节比例只能粗估；`.dynsym` 不覆盖内部函数。应用/厂商路径能否获取源码和重编未确定；混合 `.comment` 的具体包编译器未确定。仅 2 对且导出数不同，无法从现有数据量出纯 Thumb-2 体积或驻留收益，需内网核查 spec 并在同源码/同选项下构建成对实验。

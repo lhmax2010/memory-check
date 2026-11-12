@@ -1,0 +1,86 @@
+{
+  "scope_counts": {
+    "ARM_gt80": 106,
+    "mixed_20_80": 12
+  },
+  "file_classes": [
+    {
+      "class": "vendor_or_app_prebuilt_source_unknown",
+      "files": 15,
+      "text_kB": 16297.367,
+      "unique_rx_kB": 9068,
+      "file_Pss_kB": 9440
+    },
+    {
+      "class": "GCC_comment_only",
+      "files": 23,
+      "text_kB": 13732.465,
+      "unique_rx_kB": 8396,
+      "file_Pss_kB": 12307
+    },
+    {
+      "class": "clang_comment_only_ARM_mode",
+      "files": 0,
+      "text_kB": 0,
+      "unique_rx_kB": 0,
+      "file_Pss_kB": 0
+    },
+    {
+      "class": "asm_or_NEON_performance_sensitive",
+      "files": 16,
+      "text_kB": 20673.238,
+      "unique_rx_kB": 9276,
+      "file_Pss_kB": 11691
+    },
+    {
+      "class": "undetermined",
+      "files": 64,
+      "text_kB": 6261.447,
+      "unique_rx_kB": 4872,
+      "file_Pss_kB": 6419
+    }
+  ],
+  "pair_count": 2,
+  "pair_text_ratio_median": 0.6828485,
+  "pair_text_ratio_range": [
+    0.677745,
+    0.687952
+  ],
+  "export_count_equal_pairs": 0,
+  "ratio_estimates": [
+    {
+      "class": "GCC_comment_only",
+      "files": 23,
+      "text_kB": 13732.465,
+      "unique_rx_kB": 8396,
+      "reference_ratio": 0.682848,
+      "estimated_text_reduction_kB": 4355.272,
+      "estimated_resident_reduction_kB": 2662.804,
+      "quality": "样本不足且导出 FUNC 数不同，仅跨版本参考推算"
+    },
+    {
+      "class": "clang_comment_only_ARM_mode",
+      "files": 0,
+      "text_kB": 0,
+      "unique_rx_kB": 0,
+      "reference_ratio": 0.682848,
+      "estimated_text_reduction_kB": 0.0,
+      "estimated_resident_reduction_kB": 0.0,
+      "quality": "样本不足且导出 FUNC 数不同，仅跨版本参考推算"
+    }
+  ],
+  "to_check_top10": [
+    "/usr/apps/com.samsung.tizen.argot/bin/argot",
+    "/usr/lib/ld-linux.so.3",
+    "/usr/bin/bt-service",
+    "/usr/bin/deviced",
+    "/usr/lib/libdeviced.so.1.0.3",
+    "/usr/lib/libnss_compat.so.2",
+    "/usr/lib/libpthread.so.0",
+    "/usr/lib/libbluetooth-api.so.1.0.0",
+    "/usr/apps/org.tizen.webserver/bin/liblighttpd.so",
+    "/usr/lib/librt.so.1"
+  ],
+  "sample_total": 3130,
+  "sample_ambiguous_total": 1450
+}

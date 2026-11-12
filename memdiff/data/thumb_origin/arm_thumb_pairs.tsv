@@ -1,0 +1,3 @@
+arm_path	thumb_path	match_key	arm_text_kB	thumb_text_kB	text_thumb_over_arm	arm_rodata_kB	thumb_rodata_kB	rodata_thumb_over_arm	arm_rx_LOAD_kB	thumb_rx_LOAD_kB	rx_LOAD_thumb_over_arm	arm_defined_FUNC	thumb_defined_FUNC	export_count_matches	version_comparable
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libtvs-api.so	/usr/lib/libtvs-api.so	libtvs-api.so	912.78125	618.632812	0.677745	138.941406	138.996094	1.000394	1627.234375	1546.308594	0.950268	3269	4692	0	0
+/opt/usr/apps/org.tizen.dseal/lib/libtvs-api.so	/usr/lib/libtvs-api.so	libtvs-api.so	899.238281	618.632812	0.687952	114.855469	138.996094	1.210183	1615.988281	1546.308594	0.956881	3447	4692	0	0
