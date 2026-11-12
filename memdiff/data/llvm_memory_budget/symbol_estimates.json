@@ -1,0 +1,20 @@
+{
+  "defined_WEAK_export_count": 198643,
+  "category_counts": {
+    "template_instance_candidate": 126180,
+    "vtable_typeinfo": 35309,
+    "class_member_inline_unverified": 26746,
+    "other": 10408
+  },
+  "class_member_inline_candidates": 161913,
+  "structural_bytes_ceiling_22_plus_name": 22214115,
+  "structural_bytes_ceiling_kB": 21693.4716796875,
+  "candidate_rule": "WEAK DEFAULT/PROTECTED defined LLVM symbols; class member method name; inline status unverified",
+  "Bsymbolic_function_candidate_relocations": {
+    "JUMP_SLOT": 182149,
+    "GLOB_DAT": 17917
+  },
+  "Bsymbolic_function_candidate_total": 200066,
+  "as_needed_removable_mapping_count": "未确定",
+  "all_NEEDED_edges_for_mapped_ELF": 15720
+}

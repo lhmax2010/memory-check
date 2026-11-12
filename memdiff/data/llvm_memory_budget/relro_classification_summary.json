@@ -1,0 +1,25 @@
+{
+  "relro_relocation_targets": 1184664,
+  "target_class_counts": {
+    "other_function_pointer_candidate": 536893,
+    "string_pointer_candidate": 262580,
+    "unknown": 149258,
+    "typeinfo": 60213,
+    "vtable": 175720
+  },
+  "weighted_page_upper_kB_by_class": {
+    "other_function_pointer_candidate": 55288,
+    "string_pointer_candidate": 79244,
+    "unknown": 62356,
+    "typeinfo": 23932,
+    "vtable": 22944
+  },
+  "weighted_pages_exclusively_one_class_kB": {
+    "string_pointer_candidate": 11760,
+    "typeinfo": 24,
+    "other_function_pointer_candidate": 3972,
+    "vtable": 20,
+    "unknown": 2544
+  },
+  "classification_rule": "_ZTV/_ZTI defined dynsym OBJECT range; FUNC symbol or REL addend into .text/.plt => function-pointer candidate; REL addend into printable NUL-terminated .rodata => string-pointer candidate; otherwise unknown. Candidates are not proof of source-level table type."
+}

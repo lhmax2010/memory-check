@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "same_ELF_path_set": true,
+    "readelf_errors_zero": true,
+    "Pss_categories_sum": true,
+    "independent_symbol_and_section_metrics_equal": true,
+    "relocation_model_error_disclosed": true
+  },
+  "old_ELF_count": 1452,
+  "new_ELF_count": 1452,
+  "mismatch_counts": {
+    "defined_GLOBAL": 0,
+    "defined_WEAK": 0,
+    "undefined": 0,
+    ".dynsym_bytes": 0,
+    ".dynstr_bytes": 0,
+    ".rel.plt_bytes": 0
+  },
+  "mismatch_examples": {},
+  "Pss_category_sum_kB": 563595.9999999999,
+  "Pss_total_kB": 563596
+}

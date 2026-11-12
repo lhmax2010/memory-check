@@ -1,0 +1,34 @@
+{
+  "budget_kB": {
+    "code_rx": 212919,
+    "SwapPss": 96976,
+    "Pss_total": 563596,
+    "file_r--_private_dirty": 103420,
+    "file_r--_shared_dirty_Pss": 1898,
+    "file_r--_clean": 19679,
+    "file_rw-_private_dirty": 30280,
+    "file_rw-_shared_dirty_Pss": 565,
+    "file_rw-_clean": 8676,
+    "anon_heap": 77846,
+    "anon_unlabelled": 84809,
+    "anon_stack": 2516,
+    "anon_other_named": 20968,
+    "file_other": 20
+  },
+  "complete_processes": 316,
+  "user_processes_with_smaps": 111,
+  "collection_processes": 322,
+  "missing_or_exited": 6,
+  "negative_dirty_vs_pss_examples": [],
+  "negative_count": 0,
+  "VMA_distribution": {
+    "median": 460.0,
+    "p90": 1050.0,
+    "max": 2729
+  },
+  "library_distribution": {
+    "median": 128.0,
+    "p90": 283.0,
+    "max": 476
+  }
+}
