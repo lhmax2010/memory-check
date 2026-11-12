@@ -1,0 +1,9 @@
+{
+  "eligible_files": 1360,
+  "base_group_files": 1360,
+  "base_group_delta_kB": 11184.5,
+  "rounding_gap_kB": 5767.0,
+  "identical_sha_files": 31,
+  "analysis_and_report_logged_complete": true,
+  "status": "PASS"
+}

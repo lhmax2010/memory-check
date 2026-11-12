@@ -1,0 +1,5 @@
+mappers_bin	files	llvm_unique_rx_kB	llvm_pss_sum_kB	unique_minus_pss_kB
+1	687	105620.0	105616	4.0
+2-9	347	40700.0	39623	1077.0
+10-49	223	32012.0	29794	2218.0
+>=50	103	13512.0	11044	2468.0

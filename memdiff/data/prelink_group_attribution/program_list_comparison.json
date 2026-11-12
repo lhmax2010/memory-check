@@ -1,0 +1,88 @@
+{
+  "ten": [
+    "/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv",
+    "/usr/apps/org.tizen.acm-service/bin/acm-service",
+    "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "/usr/bin/amd",
+    "/usr/bin/avocd",
+    "/usr/bin/launchpad-loader",
+    "/usr/bin/launchpad-process-pool",
+    "/usr/bin/pulseaudio",
+    "/usr/bin/rscmgr-service",
+    "/usr/bin/tvs-daemon"
+  ],
+  "static14": [
+    "/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv",
+    "/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service",
+    "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "/usr/bin/TAgentD",
+    "/usr/bin/TIFSDaemon",
+    "/usr/bin/amd",
+    "/usr/bin/app-defined-loader",
+    "/usr/bin/avocd",
+    "/usr/bin/launchpad-loader",
+    "/usr/bin/launchpad-process-pool",
+    "/usr/bin/pulseaudio",
+    "/usr/bin/rscmgr-service",
+    "/usr/bin/tvs-daemon",
+    "/usr/bin/tzdaemon"
+  ],
+  "weekly15": [
+    "/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv",
+    "/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service",
+    "/usr/apps/org.tizen.acm-service/bin/acm-service",
+    "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "/usr/bin/TAgentD",
+    "/usr/bin/TIFSDaemon",
+    "/usr/bin/amd",
+    "/usr/bin/app-defined-loader",
+    "/usr/bin/avocd",
+    "/usr/bin/launchpad-loader",
+    "/usr/bin/launchpad-process-pool",
+    "/usr/bin/pulseaudio",
+    "/usr/bin/rscmgr-service",
+    "/usr/bin/tvs-daemon",
+    "/usr/bin/tzdaemon"
+  ],
+  "ten_intersect_static14": [
+    "/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv",
+    "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "/usr/bin/amd",
+    "/usr/bin/avocd",
+    "/usr/bin/launchpad-loader",
+    "/usr/bin/launchpad-process-pool",
+    "/usr/bin/pulseaudio",
+    "/usr/bin/rscmgr-service",
+    "/usr/bin/tvs-daemon"
+  ],
+  "ten_only_vs_static14": [
+    "/usr/apps/org.tizen.acm-service/bin/acm-service"
+  ],
+  "static14_only": [
+    "/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service",
+    "/usr/bin/TAgentD",
+    "/usr/bin/TIFSDaemon",
+    "/usr/bin/app-defined-loader",
+    "/usr/bin/tzdaemon"
+  ],
+  "ten_intersect_weekly15": [
+    "/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv",
+    "/usr/apps/org.tizen.acm-service/bin/acm-service",
+    "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "/usr/bin/amd",
+    "/usr/bin/avocd",
+    "/usr/bin/launchpad-loader",
+    "/usr/bin/launchpad-process-pool",
+    "/usr/bin/pulseaudio",
+    "/usr/bin/rscmgr-service",
+    "/usr/bin/tvs-daemon"
+  ],
+  "ten_only_vs_weekly15": [],
+  "weekly15_only": [
+    "/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service",
+    "/usr/bin/TAgentD",
+    "/usr/bin/TIFSDaemon",
+    "/usr/bin/app-defined-loader",
+    "/usr/bin/tzdaemon"
+  ]
+}

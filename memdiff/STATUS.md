@@ -478,3 +478,12 @@ systemd 实例：新 `nopie_capture_instances.sh` 为未来普查记录每个进
 离线核对：GCC 板上 ELF 副本 1463 个，带任一预链接标记 425 个；LLVM 当前 ELF 1452 个，带标记 0 个。`.rel.dyn` 为 REL/RELA 的 GCC 1300/163、LLVM 1452/0。共同 ELF 1365 个，其动态符号 WEAK 已定义合计 GCC 62857、LLVM 188193；13 个上轮对象逐项见 `thirteen_dynamic.tsv`。交叉 c++filt 首次缺 libbfd 失败的日志保留，改用同一 GBS root 的 `usr/lib64` 后仅重跑符号反解并成功；readelf 错误 0。`qa.json` 八项一致性检查全部通过。原始表、脚本和日志在 `memdiff/data/system_code_page_sections/`。
 
 挂账：6 个采集时退出的 PID、6 个拉取失败路径、114 个共同文件因非 ELF/缺副本或无法可靠去重不进入 ELF 节汇总；完整清单在报告及数据表。GCC Pss 逐映射舍入且两侧镜像/进程集合不同，跨镜像差额不能直接归因于编译器。ELF 符号名可识别模板候选和类成员，但无法单凭 c++filt 证明类内定义或 inline，报告标“未确定”。只把本次结果推到用户指定的 `lhmax2010/memory-check`。
+
+
+### 预链接实际覆盖的全系统 r-x Pss 复核（2026-11-12）
+
+计划与进度：完全离线复用 `data/system_code_page_sections/` 的可信共同文件、当前 LLVM VMA/Pagemap 与 GCC 两次 `02_steady/smaps_raw.txt.gz`，并读取两侧 ELF 副本；不上板、不联网。开发机 CPU0/nice19 串行，Python 虚拟内存上限 2.5 GB，进度和结束状态落在 `memdiff/data/prelink_group_attribution/run.log`。逐文件表、分组表、主程序归属、SHA256 噪声底和 GNU_LIBLIST 清单均放在该数据目录，报告为 `memdiff/reports/prelink_group_attribution.md`。
+
+已闭合：沿用 1360 个可信共同文件，LLVM r-x 逐映射 Pss 和 186077 KiB 对 GCC 两次均值 174892.5 KiB，差 +11184.5 KiB；LLVM 唯一驻留比其 Pss 和高 5767 KiB，不把全额断定为取整。GCC 的 GNU_LIBLIST 主程序共 10 个；当前可信集合出现 9 个，另一个 `acm-service` 未运行且没有本次 ELF 副本。甲/乙/丙/丁/戊分别 9/62/348/857/84 文件，Pss 差 +580/+5398/+417.5/+5072.5/-283.5 KiB；乙组 GCC 最大 r-x Rss 小于加载器节静态大小仅 22/62，与“多数成立”的预期不符。甲乙观测净增下界合计 +3397.6 KiB，按比例折算的 LLVM 加载器节 Pss 上界估计 8042.1 KiB；同字节 31 文件噪声底 Pss 差合计 -48 KiB，逐文件中位数 0、90 分位 4 KiB。证据 `memdiff/data/prelink_group_attribution/group_summary.tsv`、`rounding_by_mapper_count.tsv`、`per_file.tsv`、`summary.json` 和报告。
+
+挂账：当前 `acm-service` 的 PIE 状态未能用本次 ELF 副本验证；其余 9 个均为 ET_DYN 且带 PIE。LLVM 进程主程序由保存 maps 的最低地址 r-x 文件映射推定，未有同次 `/proc/PID/exe` 核验；本次 LLVM 与历史 GCC 的 BUILD_ID、服务集合和时刻不同，观测下界/上界不是实际恢复预链接收益。本次只将报告、数据与状态的新增小节推到 `lhmax2010/memory-check`，保留 TPMS 工作区既有未提交改动，不推送原仓库其他内容。

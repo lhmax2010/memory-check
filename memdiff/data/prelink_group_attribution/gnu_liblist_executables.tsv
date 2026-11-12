@@ -1,0 +1,11 @@
+path	status	elf_type	pie
+/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	OK	DYN	1
+/usr/apps/org.tizen.acm-service/bin/acm-service	missing		
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	OK	DYN	1
+/usr/bin/amd	OK	DYN	1
+/usr/bin/avocd	OK	DYN	1
+/usr/bin/launchpad-loader	OK	DYN	1
+/usr/bin/launchpad-process-pool	OK	DYN	1
+/usr/bin/pulseaudio	OK	DYN	1
+/usr/bin/rscmgr-service	OK	DYN	1
+/usr/bin/tvs-daemon	OK	DYN	1

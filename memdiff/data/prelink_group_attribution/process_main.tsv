@@ -1,0 +1,322 @@
+image_boot	pid	main_executable	in_gnu_liblist_ten	identification
+GCC1	1	/usr/lib/systemd/systemd	0	smaps ### PID comm exe header
+GCC1	199	/prd/usr/bin/kfactoryd	0	smaps ### PID comm exe header
+GCC1	206	/usr/bin/cynara	0	smaps ### PID comm exe header
+GCC1	218	/prd/usr/bin/buxton2d_lite	0	smaps ### PID comm exe header
+GCC1	220	/usr/sbin/buxton2d	0	smaps ### PID comm exe header
+GCC1	249	/usr/bin/security-manager	0	smaps ### PID comm exe header
+GCC1	253	/usr/bin/enlightenment	0	smaps ### PID comm exe header
+GCC1	255	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC1	261	/usr/bin/launchpad-process-pool	1	smaps ### PID comm exe header
+GCC1	264	/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	1	smaps ### PID comm exe header
+GCC1	280	/usr/bin/fconfigd	0	smaps ### PID comm exe header
+GCC1	399	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC1	401	/usr/apps/org.tizen.volume-app/bin/volume-app	0	smaps ### PID comm exe header
+GCC1	402	/usr/bin/wrt	0	smaps ### PID comm exe header
+GCC1	405	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	1	smaps ### PID comm exe header
+GCC1	460	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC1	470	/usr/bin/pkginfo-server	0	smaps ### PID comm exe header
+GCC1	482	/usr/bin/team-launcher	0	smaps ### PID comm exe header
+GCC1	506	/usr/bin/zone-init	0	smaps ### PID comm exe header
+GCC1	578	/usr/bin/tzdaemon	0	smaps ### PID comm exe header
+GCC1	583	/usr/bin/resource-center	0	smaps ### PID comm exe header
+GCC1	608	/usr/bin/rscmgr-service	1	smaps ### PID comm exe header
+GCC1	632	/usr/bin/tvs-daemon	1	smaps ### PID comm exe header
+GCC1	650	/usr/bin/tvs-lite	0	smaps ### PID comm exe header
+GCC1	651	/usr/bin/amd	1	smaps ### PID comm exe header
+GCC1	671	/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service	0	smaps ### PID comm exe header
+GCC1	677	/usr/bin/tvctx-manager	0	smaps ### PID comm exe header
+GCC1	680	/usr/bin/bt-service	0	smaps ### PID comm exe header
+GCC1	721	/usr/bin/avocd	1	smaps ### PID comm exe header
+GCC1	740	/usr/bin/common-daemon-basic-monitor	0	smaps ### PID comm exe header
+GCC1	797	/usr/bin/connectivity-common-daemon	0	smaps ### PID comm exe header
+GCC1	798	/usr/sbin/connmand	0	smaps ### PID comm exe header
+GCC1	820	/usr/bin/deviced	0	smaps ### PID comm exe header
+GCC1	846	/usr/sbin/launcher-security	0	smaps ### PID comm exe header
+GCC1	854	/usr/sbin/net-config	0	smaps ### PID comm exe header
+GCC1	855	/usr/bin/TIFSDaemon	0	smaps ### PID comm exe header
+GCC1	858	/usr/bin/security-solution-daemon	0	smaps ### PID comm exe header
+GCC1	884	/usr/bin/speaker-manager	0	smaps ### PID comm exe header
+GCC1	904	/usr/bin/app-defined-loader	0	smaps ### PID comm exe header
+GCC1	905	/usr/bin/launchpad-loader	1	smaps ### PID comm exe header
+GCC1	906	/usr/bin/dotnet-hydra-loader	0	smaps ### PID comm exe header
+GCC1	934	/usr/bin/tizen-watcherd	0	smaps ### PID comm exe header
+GCC1	949	/usr/sbin/vd-net-config	0	smaps ### PID comm exe header
+GCC1	951	/usr/sbin/wpa_supplicant	0	smaps ### PID comm exe header
+GCC1	989	/opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine	0	smaps ### PID comm exe header
+GCC1	1026	/usr/bin/dotnet-hydra-loader	0	smaps ### PID comm exe header
+GCC1	1049	/usr/lib/systemd/systemd-udevd	0	smaps ### PID comm exe header
+GCC1	1050	/usr/bin/TAgentD	0	smaps ### PID comm exe header
+GCC1	1054	/usr/bin/securestorage-server	0	smaps ### PID comm exe header
+GCC1	1055	/usr/bin/psa-init	0	smaps ### PID comm exe header
+GCC1	1073	/usr/lib/systemd/systemd	0	smaps ### PID comm exe header
+GCC1	1077	/usr/bin/wfd-manager	0	smaps ### PID comm exe header
+GCC1	1099	/usr/bin/p2p-asm	0	smaps ### PID comm exe header
+GCC1	1126	/usr/bin/pulseaudio	1	smaps ### PID comm exe header
+GCC1	1132	/opt/usr/apps/com.samsung.tizen.perception-engine/bin/com.samsung.tizen.perception-engine	0	smaps ### PID comm exe header
+GCC1	1195	/usr/bin/appbinary-manager	0	smaps ### PID comm exe header
+GCC1	1198	/usr/bin/storaged	0	smaps ### PID comm exe header
+GCC1	1285	/usr/bin/esd	0	smaps ### PID comm exe header
+GCC1	1325	/usr/bin/license-manager-agent	0	smaps ### PID comm exe header
+GCC1	1328	/usr/bin/scenario-mgr-tv	0	smaps ### PID comm exe header
+GCC1	1329	/usr/bin/isf	0	smaps ### PID comm exe header
+GCC1	1396	/usr/bin/allshare-svc	0	smaps ### PID comm exe header
+GCC1	1397	/usr/bin/bt-monitor	0	smaps ### PID comm exe header
+GCC1	1402	/usr/bin/issue_report_agent	0	smaps ### PID comm exe header
+GCC1	1403	/usr/bin/mediacontroller	0	smaps ### PID comm exe header
+GCC1	1404	/usr/bin/aisctrlmgr_server	0	smaps ### PID comm exe header
+GCC1	1408	/opt/usr/apps/org.tizen.dseal/bin/dseal	0	smaps ### PID comm exe header
+GCC1	1476	/usr/bin/register-device	0	smaps ### PID comm exe header
+GCC1	1478	/usr/bin/settings-service	0	smaps ### PID comm exe header
+GCC1	1484	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-provider-daemon	0	smaps ### PID comm exe header
+GCC1	1520	/usr/bin/source-service	0	smaps ### PID comm exe header
+GCC1	1532	/usr/bin/vddebugmenu	0	smaps ### PID comm exe header
+GCC1	1533	/usr/bin/was_background_update	0	smaps ### PID comm exe header
+GCC1	1537	/opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mainhub	0	smaps ### PID comm exe header
+GCC1	1538	/opt/usr/apps/com.samsung.tv.contentservicemanager/bin/contentservicemanager	0	smaps ### PID comm exe header
+GCC1	1674	/usr/libexec/at-spi-bus-launcher	0	smaps ### PID comm exe header
+GCC1	1713	/opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp	0	smaps ### PID comm exe header
+GCC1	1844	/usr/apps/comss/bin/comss	0	smaps ### PID comm exe header
+GCC1	1925	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/bms-service	0	smaps ### PID comm exe header
+GCC1	2118	/usr/bin/aifw-data-managerd	0	smaps ### PID comm exe header
+GCC1	2141	/usr/apps/com.samsung.tv.cis-api-service-app/bin/cis-api-service-app	0	smaps ### PID comm exe header
+GCC1	2157	/usr/bin/sesd	0	smaps ### PID comm exe header
+GCC1	2158	/opt/usr/apps/org.tizen.easysetup-daemon/bin/org.tizen.easysetup-daemon	0	smaps ### PID comm exe header
+GCC1	2175	/opt/usr/apps/com.samsung.tv.pisa-service/bin/pisa-service	0	smaps ### PID comm exe header
+GCC1	2176	/usr/bin/pushd	0	smaps ### PID comm exe header
+GCC1	2181	/opt/usr/apps/com.samsung.tizen.smartthings-thing/bin/smartthings-thing	0	smaps ### PID comm exe header
+GCC1	2199	/usr/bin/key-manager	0	smaps ### PID comm exe header
+GCC1	2283	/usr/sbin/sshd	0	smaps ### PID comm exe header
+GCC1	2300	/opt/usr/apps/org.tizen.ssoservice/bin/sso-service	0	smaps ### PID comm exe header
+GCC1	2332	/usr/bin/usb-launcher-service	0	smaps ### PID comm exe header
+GCC1	2363	/usr/bin/fw-update-watcher	0	smaps ### PID comm exe header
+GCC1	2445	/opt/usr/apps/com.samsung.tv.termsclient/bin/termsclient	0	smaps ### PID comm exe header
+GCC1	2464	/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service	0	smaps ### PID comm exe header
+GCC1	2490	/usr/sbin/sdbd	0	smaps ### PID comm exe header
+GCC1	2499	/usr/bin/resourced	0	smaps ### PID comm exe header
+GCC1	2651	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC1	2958	/usr/apps/org.tizen.webappservice/bin/webappservice	0	smaps ### PID comm exe header
+GCC1	2959	/usr/apps/org.tizen.webserver/bin/webserver	0	smaps ### PID comm exe header
+GCC1	2960	/usr/apps/pvod-appfw/bin/pvodservice	0	smaps ### PID comm exe header
+GCC1	2961	/usr/bin/remote-server	0	smaps ### PID comm exe header
+GCC1	3125	/usr/bin/dotnet-hydra-loader	0	smaps ### PID comm exe header
+GCC1	3475	/usr/apps/org.tizen.acm-service/bin/acm-service	1	smaps ### PID comm exe header
+GCC1	3989	/usr/bin/sleep	0	smaps ### PID comm exe header
+GCC1	4060	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC1	4061	/usr/bin/gzip	0	smaps ### PID comm exe header
+GCC1	4070	/usr/bin/SWUAutoUpgrade	0	smaps ### PID comm exe header
+GCC2	1	/usr/lib/systemd/systemd	0	smaps ### PID comm exe header
+GCC2	199	/prd/usr/bin/kfactoryd	0	smaps ### PID comm exe header
+GCC2	210	/usr/bin/cynara	0	smaps ### PID comm exe header
+GCC2	229	/usr/sbin/buxton2d	0	smaps ### PID comm exe header
+GCC2	237	/prd/usr/bin/buxton2d_lite	0	smaps ### PID comm exe header
+GCC2	248	/usr/bin/enlightenment	0	smaps ### PID comm exe header
+GCC2	250	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC2	260	/usr/bin/fconfigd	0	smaps ### PID comm exe header
+GCC2	262	/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	1	smaps ### PID comm exe header
+GCC2	271	/usr/bin/launchpad-process-pool	1	smaps ### PID comm exe header
+GCC2	318	/usr/bin/security-manager	0	smaps ### PID comm exe header
+GCC2	467	/usr/bin/wrt	0	smaps ### PID comm exe header
+GCC2	489	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC2	525	/usr/bin/pkginfo-server	0	smaps ### PID comm exe header
+GCC2	534	/usr/bin/team-launcher	0	smaps ### PID comm exe header
+GCC2	584	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	1	smaps ### PID comm exe header
+GCC2	634	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC2	641	/usr/apps/org.tizen.volume-app/bin/volume-app	0	smaps ### PID comm exe header
+GCC2	653	/usr/bin/zone-init	0	smaps ### PID comm exe header
+GCC2	669	/usr/bin/tzdaemon	0	smaps ### PID comm exe header
+GCC2	676	/usr/bin/resource-center	0	smaps ### PID comm exe header
+GCC2	684	/usr/bin/rscmgr-service	1	smaps ### PID comm exe header
+GCC2	696	/usr/bin/tvs-lite	0	smaps ### PID comm exe header
+GCC2	697	/usr/bin/tvs-daemon	1	smaps ### PID comm exe header
+GCC2	722	/usr/bin/amd	1	smaps ### PID comm exe header
+GCC2	726	/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service	0	smaps ### PID comm exe header
+GCC2	732	/usr/bin/tvctx-manager	0	smaps ### PID comm exe header
+GCC2	734	/usr/bin/bt-service	0	smaps ### PID comm exe header
+GCC2	768	/usr/bin/avocd	1	smaps ### PID comm exe header
+GCC2	769	/usr/bin/app-defined-loader	0	smaps ### PID comm exe header
+GCC2	782	/usr/bin/launchpad-loader	1	smaps ### PID comm exe header
+GCC2	784	/usr/bin/dotnet-hydra-loader	0	smaps ### PID comm exe header
+GCC2	792	/usr/bin/common-daemon-basic-monitor	0	smaps ### PID comm exe header
+GCC2	793	/usr/bin/connectivity-common-daemon	0	smaps ### PID comm exe header
+GCC2	794	/usr/sbin/connmand	0	smaps ### PID comm exe header
+GCC2	796	/usr/bin/deviced	0	smaps ### PID comm exe header
+GCC2	798	/usr/sbin/launcher-security	0	smaps ### PID comm exe header
+GCC2	803	/usr/sbin/net-config	0	smaps ### PID comm exe header
+GCC2	805	/usr/bin/TIFSDaemon	0	smaps ### PID comm exe header
+GCC2	813	/usr/bin/security-solution-daemon	0	smaps ### PID comm exe header
+GCC2	816	/usr/bin/speaker-manager	0	smaps ### PID comm exe header
+GCC2	944	/usr/bin/dotnet-hydra-loader	0	smaps ### PID comm exe header
+GCC2	980	/opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine	0	smaps ### PID comm exe header
+GCC2	1053	/usr/bin/tizen-watcherd	0	smaps ### PID comm exe header
+GCC2	1056	/opt/usr/apps/com.samsung.tizen.perception-engine/bin/com.samsung.tizen.perception-engine	0	smaps ### PID comm exe header
+GCC2	1073	/usr/sbin/vd-net-config	0	smaps ### PID comm exe header
+GCC2	1078	/usr/sbin/wpa_supplicant	0	smaps ### PID comm exe header
+GCC2	1085	/usr/lib/systemd/systemd-udevd	0	smaps ### PID comm exe header
+GCC2	1086	/usr/bin/TAgentD	0	smaps ### PID comm exe header
+GCC2	1090	/usr/bin/securestorage-server	0	smaps ### PID comm exe header
+GCC2	1091	/usr/bin/psa-init	0	smaps ### PID comm exe header
+GCC2	1094	/usr/lib/systemd/systemd	0	smaps ### PID comm exe header
+GCC2	1101	/usr/bin/pulseaudio	1	smaps ### PID comm exe header
+GCC2	1104	/usr/bin/wfd-manager	0	smaps ### PID comm exe header
+GCC2	1105	/usr/bin/p2p-asm	0	smaps ### PID comm exe header
+GCC2	1259	/opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mainhub	0	smaps ### PID comm exe header
+GCC2	1278	/usr/bin/appbinary-manager	0	smaps ### PID comm exe header
+GCC2	1281	/usr/bin/storaged	0	smaps ### PID comm exe header
+GCC2	1391	/opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp	0	smaps ### PID comm exe header
+GCC2	1452	/usr/bin/license-manager-agent	0	smaps ### PID comm exe header
+GCC2	1456	/usr/bin/scenario-mgr-tv	0	smaps ### PID comm exe header
+GCC2	1457	/usr/bin/isf	0	smaps ### PID comm exe header
+GCC2	1490	/usr/bin/allshare-svc	0	smaps ### PID comm exe header
+GCC2	1497	/usr/bin/bt-monitor	0	smaps ### PID comm exe header
+GCC2	1501	/usr/bin/esd	0	smaps ### PID comm exe header
+GCC2	1559	/usr/bin/issue_report_agent	0	smaps ### PID comm exe header
+GCC2	1572	/opt/usr/apps/com.samsung.tv.contentservicemanager/bin/contentservicemanager	0	smaps ### PID comm exe header
+GCC2	1575	/usr/apps/comss/bin/comss	0	smaps ### PID comm exe header
+GCC2	1634	/usr/bin/aisctrlmgr_server	0	smaps ### PID comm exe header
+GCC2	1698	/usr/libexec/at-spi-bus-launcher	0	smaps ### PID comm exe header
+GCC2	1715	/opt/usr/apps/org.tizen.dseal/bin/dseal	0	smaps ### PID comm exe header
+GCC2	1762	/usr/bin/register-device	0	smaps ### PID comm exe header
+GCC2	1776	/usr/bin/settings-service	0	smaps ### PID comm exe header
+GCC2	1783	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-provider-daemon	0	smaps ### PID comm exe header
+GCC2	1790	/usr/bin/source-service	0	smaps ### PID comm exe header
+GCC2	1795	/usr/bin/vddebugmenu	0	smaps ### PID comm exe header
+GCC2	1799	/usr/bin/was_background_update	0	smaps ### PID comm exe header
+GCC2	1889	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/bms-service	0	smaps ### PID comm exe header
+GCC2	2116	/usr/bin/aifw-data-managerd	0	smaps ### PID comm exe header
+GCC2	2140	/usr/apps/com.samsung.tv.cis-api-service-app/bin/cis-api-service-app	0	smaps ### PID comm exe header
+GCC2	2163	/usr/bin/sesd	0	smaps ### PID comm exe header
+GCC2	2172	/opt/usr/apps/org.tizen.easysetup-daemon/bin/org.tizen.easysetup-daemon	0	smaps ### PID comm exe header
+GCC2	2203	/opt/usr/apps/com.samsung.tv.pisa-service/bin/pisa-service	0	smaps ### PID comm exe header
+GCC2	2204	/usr/bin/pushd	0	smaps ### PID comm exe header
+GCC2	2208	/opt/usr/apps/com.samsung.tizen.smartthings-thing/bin/smartthings-thing	0	smaps ### PID comm exe header
+GCC2	2255	/usr/bin/key-manager	0	smaps ### PID comm exe header
+GCC2	2275	/usr/sbin/sshd	0	smaps ### PID comm exe header
+GCC2	2293	/opt/usr/apps/org.tizen.ssoservice/bin/sso-service	0	smaps ### PID comm exe header
+GCC2	2294	/usr/bin/usb-launcher-service	0	smaps ### PID comm exe header
+GCC2	2336	/usr/bin/fw-update-watcher	0	smaps ### PID comm exe header
+GCC2	2380	/opt/usr/apps/com.samsung.tv.termsclient/bin/termsclient	0	smaps ### PID comm exe header
+GCC2	2443	/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service	0	smaps ### PID comm exe header
+GCC2	2497	/usr/bin/resourced	0	smaps ### PID comm exe header
+GCC2	2538	/usr/apps/org.tizen.acm-service/bin/acm-service	1	smaps ### PID comm exe header
+GCC2	2544	/usr/sbin/sdbd	0	smaps ### PID comm exe header
+GCC2	2639	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC2	2921	/usr/apps/org.tizen.webappservice/bin/webappservice	0	smaps ### PID comm exe header
+GCC2	2923	/usr/apps/org.tizen.webserver/bin/webserver	0	smaps ### PID comm exe header
+GCC2	2924	/usr/bin/remote-server	0	smaps ### PID comm exe header
+GCC2	3060	/usr/apps/pvod-appfw/bin/pvodservice	0	smaps ### PID comm exe header
+GCC2	3179	/usr/bin/dotnet-hydra-loader	0	smaps ### PID comm exe header
+GCC2	3269	/usr/bin/bash	0	smaps ### PID comm exe header
+GCC2	3270	/usr/bin/gzip	0	smaps ### PID comm exe header
+GCC2	4065	/usr/bin/SWUAutoUpgrade	0	smaps ### PID comm exe header
+LLVM	1	/usr/lib/systemd/systemd	0	lowest-address r-xp file VMA in saved maps
+LLVM	199	/prd/usr/bin/kfactoryd	0	lowest-address r-xp file VMA in saved maps
+LLVM	211	/usr/bin/cynara	0	lowest-address r-xp file VMA in saved maps
+LLVM	228	/usr/bin/enlightenment	0	lowest-address r-xp file VMA in saved maps
+LLVM	229	/prd/usr/bin/buxton2d_lite	0	lowest-address r-xp file VMA in saved maps
+LLVM	240	/usr/sbin/buxton2d	0	lowest-address r-xp file VMA in saved maps
+LLVM	249	/usr/bin/bash	0	lowest-address r-xp file VMA in saved maps
+LLVM	260	/usr/bin/launchpad-process-pool	1	lowest-address r-xp file VMA in saved maps
+LLVM	275	/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	1	lowest-address r-xp file VMA in saved maps
+LLVM	284	/usr/bin/fconfigd	0	lowest-address r-xp file VMA in saved maps
+LLVM	296	/usr/bin/security-manager	0	lowest-address r-xp file VMA in saved maps
+LLVM	419	/usr/bin/bash	0	lowest-address r-xp file VMA in saved maps
+LLVM	431	/usr/bin/wrt	0	lowest-address r-xp file VMA in saved maps
+LLVM	491	/usr/bin/team-launcher	0	lowest-address r-xp file VMA in saved maps
+LLVM	506	/usr/bin/pkginfo-server	0	lowest-address r-xp file VMA in saved maps
+LLVM	548	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	1	lowest-address r-xp file VMA in saved maps
+LLVM	638	/usr/apps/org.tizen.volume-app/bin/volume-app	0	lowest-address r-xp file VMA in saved maps
+LLVM	642	/usr/bin/bash	0	lowest-address r-xp file VMA in saved maps
+LLVM	669	/usr/bin/zone-init	0	lowest-address r-xp file VMA in saved maps
+LLVM	683	/usr/bin/tzdaemon	0	lowest-address r-xp file VMA in saved maps
+LLVM	686	/usr/bin/resource-center	0	lowest-address r-xp file VMA in saved maps
+LLVM	687	/usr/bin/rscmgr-service	1	lowest-address r-xp file VMA in saved maps
+LLVM	691	/usr/bin/tvs-daemon	1	lowest-address r-xp file VMA in saved maps
+LLVM	699	/usr/bin/tvs-lite	0	lowest-address r-xp file VMA in saved maps
+LLVM	710	/usr/bin/amd	1	lowest-address r-xp file VMA in saved maps
+LLVM	711	/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	712	/usr/bin/app-defined-loader	0	lowest-address r-xp file VMA in saved maps
+LLVM	754	/usr/bin/launchpad-loader	1	lowest-address r-xp file VMA in saved maps
+LLVM	756	/usr/bin/tvctx-manager	0	lowest-address r-xp file VMA in saved maps
+LLVM	758	/usr/bin/bt-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	759	/usr/bin/dotnet-hydra-loader	0	lowest-address r-xp file VMA in saved maps
+LLVM	775	/usr/bin/common-daemon-basic-monitor	0	lowest-address r-xp file VMA in saved maps
+LLVM	776	/usr/bin/connectivity-common-daemon	0	lowest-address r-xp file VMA in saved maps
+LLVM	778	/usr/sbin/connmand	0	lowest-address r-xp file VMA in saved maps
+LLVM	780	/usr/bin/deviced	0	lowest-address r-xp file VMA in saved maps
+LLVM	784	/usr/sbin/launcher-security	0	lowest-address r-xp file VMA in saved maps
+LLVM	799	/usr/bin/avocd	1	lowest-address r-xp file VMA in saved maps
+LLVM	964	/opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine	0	lowest-address r-xp file VMA in saved maps
+LLVM	978	/usr/sbin/net-config	0	lowest-address r-xp file VMA in saved maps
+LLVM	979	/usr/bin/TIFSDaemon	0	lowest-address r-xp file VMA in saved maps
+LLVM	1016	/usr/bin/security-solution-daemon	0	lowest-address r-xp file VMA in saved maps
+LLVM	1019	/usr/bin/speaker-manager	0	lowest-address r-xp file VMA in saved maps
+LLVM	1024	/usr/bin/tizen-watcherd	0	lowest-address r-xp file VMA in saved maps
+LLVM	1028	/usr/sbin/vd-net-config	0	lowest-address r-xp file VMA in saved maps
+LLVM	1030	/usr/sbin/wpa_supplicant	0	lowest-address r-xp file VMA in saved maps
+LLVM	1068	/usr/apps/org.tizen.menu/bin/SettingsText.dll	0	lowest-address r-xp file VMA in saved maps
+LLVM	1122	/usr/lib/systemd/systemd-udevd	0	lowest-address r-xp file VMA in saved maps
+LLVM	1123	/usr/bin/TAgentD	0	lowest-address r-xp file VMA in saved maps
+LLVM	1126	/usr/bin/securestorage-server	0	lowest-address r-xp file VMA in saved maps
+LLVM	1127	/usr/bin/psa-init	0	lowest-address r-xp file VMA in saved maps
+LLVM	1129	/usr/lib/systemd/systemd	0	lowest-address r-xp file VMA in saved maps
+LLVM	1138	/usr/bin/pulseaudio	1	lowest-address r-xp file VMA in saved maps
+LLVM	1160	/usr/bin/wfd-manager	0	lowest-address r-xp file VMA in saved maps
+LLVM	1188	/usr/bin/p2p-asm	0	lowest-address r-xp file VMA in saved maps
+LLVM	1277	/usr/bin/appbinary-manager	0	lowest-address r-xp file VMA in saved maps
+LLVM	1304	/usr/apps/capi-bnr-tv/bin/bnr-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	1317	/usr/bin/esd	0	lowest-address r-xp file VMA in saved maps
+LLVM	1387	/usr/bin/license-manager-agent	0	lowest-address r-xp file VMA in saved maps
+LLVM	1389	/usr/bin/mediacontroller	0	lowest-address r-xp file VMA in saved maps
+LLVM	1395	/usr/bin/scenario-mgr-tv	0	lowest-address r-xp file VMA in saved maps
+LLVM	1396	/usr/bin/isf	0	lowest-address r-xp file VMA in saved maps
+LLVM	1502	/usr/bin/allshare-svc	0	lowest-address r-xp file VMA in saved maps
+LLVM	1510	/usr/bin/bt-monitor	0	lowest-address r-xp file VMA in saved maps
+LLVM	1518	/usr/bin/issue_report_agent	0	lowest-address r-xp file VMA in saved maps
+LLVM	1519	/opt/usr/apps/com.samsung.tv.contentservicemanager/bin/contentservicemanager	0	lowest-address r-xp file VMA in saved maps
+LLVM	1520	/usr/bin/aisctrlmgr_server	0	lowest-address r-xp file VMA in saved maps
+LLVM	1522	/opt/usr/apps/org.tizen.dseal/bin/dseal	0	lowest-address r-xp file VMA in saved maps
+LLVM	1525	/usr/bin/register-device	0	lowest-address r-xp file VMA in saved maps
+LLVM	1527	/usr/bin/settings-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	1528	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-provider-daemon	0	lowest-address r-xp file VMA in saved maps
+LLVM	1529	/usr/bin/source-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	1532	/usr/bin/vddebugmenu	0	lowest-address r-xp file VMA in saved maps
+LLVM	1536	/usr/bin/was_background_update	0	lowest-address r-xp file VMA in saved maps
+LLVM	1572	/opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mainhub	0	lowest-address r-xp file VMA in saved maps
+LLVM	1606	/usr/libexec/at-spi-bus-launcher	0	lowest-address r-xp file VMA in saved maps
+LLVM	1697	/opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp	0	lowest-address r-xp file VMA in saved maps
+LLVM	1806	/usr/apps/comss/bin/comss	0	lowest-address r-xp file VMA in saved maps
+LLVM	1994	/opt/usr/apps/com.samsung.tv.slive-daemon/bin/bms-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	2003	/opt/usr/share/argot/.local/bin/tsr	0	lowest-address r-xp file VMA in saved maps
+LLVM	2050	/opt/usr/share/argot/.local/bin/tsr-bwrap	0	lowest-address r-xp file VMA in saved maps
+LLVM	2059	/opt/usr/share/argot/.local/bin/tsr	0	lowest-address r-xp file VMA in saved maps
+LLVM	2067	/usr/bin/csf-content-engine	0	lowest-address r-xp file VMA in saved maps
+LLVM	2082	/usr/apps/com.samsung.tizen.argot/bin/argot	0	lowest-address r-xp file VMA in saved maps
+LLVM	2158	/usr/bin/aifw-data-managerd	0	lowest-address r-xp file VMA in saved maps
+LLVM	2168	/usr/bin/muse-server	0	lowest-address r-xp file VMA in saved maps
+LLVM	2169	/usr/apps/com.samsung.tv.cis-api-service-app/bin/cis-api-service-app	0	lowest-address r-xp file VMA in saved maps
+LLVM	2190	/usr/bin/dotnet-hydra-loader	0	lowest-address r-xp file VMA in saved maps
+LLVM	2191	/usr/bin/sesd	0	lowest-address r-xp file VMA in saved maps
+LLVM	2195	/opt/usr/apps/org.tizen.easysetup-daemon/bin/org.tizen.easysetup-daemon	0	lowest-address r-xp file VMA in saved maps
+LLVM	2212	/opt/usr/apps/com.samsung.tv.pisa-service/bin/pisa-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	2213	/usr/bin/pushd	0	lowest-address r-xp file VMA in saved maps
+LLVM	2214	/opt/usr/apps/com.samsung.tizen.hrs-agent.storage/bin/hrs-agent.storage	0	lowest-address r-xp file VMA in saved maps
+LLVM	2218	/opt/usr/apps/com.samsung.tizen.smartthings-thing/bin/smartthings-thing	0	lowest-address r-xp file VMA in saved maps
+LLVM	2247	/usr/bin/key-manager	0	lowest-address r-xp file VMA in saved maps
+LLVM	2277	/usr/sbin/sshd	0	lowest-address r-xp file VMA in saved maps
+LLVM	2290	/usr/bin/usb-launcher-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	2306	/opt/usr/apps/org.tizen.ssoservice/bin/sso-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	2343	/usr/bin/dotnet-hydra-loader	0	lowest-address r-xp file VMA in saved maps
+LLVM	2355	/usr/bin/launchpad-loader	1	lowest-address r-xp file VMA in saved maps
+LLVM	2366	/usr/bin/fw-update-watcher	0	lowest-address r-xp file VMA in saved maps
+LLVM	2460	/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service	0	lowest-address r-xp file VMA in saved maps
+LLVM	2479	/usr/bin/resourced	0	lowest-address r-xp file VMA in saved maps
+LLVM	2505	/usr/bin/bash	0	lowest-address r-xp file VMA in saved maps
+LLVM	2539	/usr/apps/org.tizen.webappservice/bin/webappservice	0	lowest-address r-xp file VMA in saved maps
+LLVM	2540	/usr/apps/org.tizen.webserver/bin/webserver	0	lowest-address r-xp file VMA in saved maps
+LLVM	2542	/usr/bin/remote-server	0	lowest-address r-xp file VMA in saved maps
+LLVM	2549	/usr/apps/pvod-appfw/bin/pvodservice	0	lowest-address r-xp file VMA in saved maps
+LLVM	2848	/usr/apps/com.samsung.tv.virtual-remote/bin/VirtualRemoteControl.Core.dll	0	lowest-address r-xp file VMA in saved maps
+LLVM	3255	/usr/bin/SWUAutoUpgrade	0	lowest-address r-xp file VMA in saved maps
+LLVM	3494	/opt/usr/apps/com.samsung.tv.termsclient/bin/termsclient	0	lowest-address r-xp file VMA in saved maps
+LLVM	3889	/usr/sbin/sdbd	0	lowest-address r-xp file VMA in saved maps

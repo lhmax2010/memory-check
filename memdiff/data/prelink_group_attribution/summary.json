@@ -1,0 +1,23 @@
+{
+  "eligible_files": 1360,
+  "llvm_pss_sum_kB": 186077,
+  "gcc1_pss_sum_kB": 177070,
+  "gcc2_pss_sum_kB": 172715,
+  "gcc_mean_pss_kB": 174892.5,
+  "pss_delta_kB": 11184.5,
+  "unique_minus_pss_kB": 5767.0,
+  "group_A_B_lower_est_kB": 3398.08916455,
+  "group_A_B_lower_conservative_kB": 3397.62988725,
+  "group_A_B_upper_kB": 8042.0852583,
+  "noise_total_delta_kB": -48.0,
+  "noise_median_file_delta_kB": 0.0,
+  "noise_p90_file_delta_kB": 4.0,
+  "current_main_missing": 0,
+  "readelf": "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-readelf",
+  "sources": {
+    "GCC1": "data/gcc_baseline/boot1/memcheck/gcc_boot1_20261102_182343/02_steady/smaps_raw.txt.gz",
+    "GCC2": "data/gcc_baseline/boot2/memcheck/gcc_boot2_20261102_192351/02_steady/smaps_raw.txt.gz",
+    "LLVM1": "data/llvm_round3/boot1/memcheck/llvm_boot1_20261103_015124/02_steady/smaps_raw.txt.gz",
+    "LLVM2": "data/llvm_round3/boot2/memcheck/llvm_boot2_20261103_030258/02_steady/smaps_raw.txt.gz"
+  }
+}
