@@ -1,0 +1,22 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://mirrors.xtom.com/ubuntu noble/main amd64 autoconf all 2.71-3 [339 kB]
+Get:2 https://mirrors.xtom.com/ubuntu noble/main amd64 automake all 1:1.16.5-1.3ubuntu1 [558 kB]
+Get:3 https://mirrors.xtom.com/ubuntu noble/main amd64 m4 amd64 1.4.19-4build1 [244 kB]
+Get:4 https://mirrors.xtom.com/ubuntu noble-updates/main amd64 libelf-dev amd64 0.190-1.1ubuntu0.1 [68.5 kB]
+Fetched 1209 kB in 1s (1081 kB/s)
+已结束 2026-11-12T13:38:53+08:00 状态=成功
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://mirrors.xtom.com/ubuntu noble/main amd64 autotools-dev all 20220109.1 [44.9 kB]
+Get:2 https://mirrors.xtom.com/ubuntu noble/main amd64 libtool all 2.4.7-7build1 [166 kB]
+Fetched 211 kB in 1s (210 kB/s)
+已结束 2026-11-12T13:41:16+08:00 状态=成功
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://mirrors.xtom.com/ubuntu noble/main amd64 libiberty-dev amd64 20240117-1build1 [169 kB]
+Fetched 169 kB in 1s (198 kB/s)
+已结束 2026-11-12T13:44:25+08:00 状态=成功

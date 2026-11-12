@@ -1,0 +1,30 @@
+target	parent	needed	reason
+/usr/bin/tvs-daemon	/usr/bin/tvs-daemon	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/tvs-daemon	/usr/lib/libdebug_rcv.so	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/tvs-daemon	/usr/lib/libtvs-util.so	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/tvs-daemon	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/TIFSDaemon	/usr/bin/TIFSDaemon	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/TIFSDaemon	/usr/lib/libIUARTService.so	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/TIFSDaemon	/usr/lib/libSoftwareUpgradeAPI.so	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/TIFSDaemon	/usr/lib/libep-vconf-internal-keys-signage.so.0.1.230	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/TIFSDaemon	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/TIFSDaemon	/usr/lib/libproidiom.so.0.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/app-boot-manager			target ELF copy absent
+/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/fastinit			target ELF copy absent
+/usr/bin/avocd	/usr/bin/avocd	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/avocd	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/avocd	/usr/lib/libtizen-audio.so.0.0.0	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/fastlogo			target ELF copy absent
+/usr/bin/amd	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/fastvideo			target ELF copy absent
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/rscmgr-service	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/apps/org.tizen.btapp/bin/btapp			target ELF copy absent
+/usr/bin/hdmicec-service			target ELF copy absent
+/usr/apps/org.tizen.acm-service/bin/acm-service	/usr/lib/libcapi-system-info.so.0.2.1	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/apps/org.tizen.acm-service/bin/acm-service	/usr/lib/libtizen-audio.so.0.0.0	libfactory-interface.so	no saved ELF basename or SONAME match
+/usr/bin/app_launcher			target ELF copy absent
+/usr/apps/org.tizen.welcome-mode/bin/welcome-mode			target ELF copy absent

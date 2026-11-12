@@ -1,0 +1,16 @@
+2026-11-12T06:02:04+00:00 baseline: copying isolated root
+2026-11-12T06:02:04+00:00 baseline: prelink -fm TIFSDaemon
+2026-11-12T06:02:05+00:00 baseline: rc=0 marker=False
+2026-11-12T06:02:05+00:00 fkp_ld: copying isolated root
+2026-11-12T06:02:05+00:00 fkp_ld: prelink -fm TIFSDaemon
+2026-11-12T06:02:05+00:00 fkp_ld: rc=0 marker=False
+2026-11-12T06:02:05+00:00 fkp_ld_conf: copying isolated root
+2026-11-12T06:02:05+00:00 fkp_ld_conf: prelink -fm TIFSDaemon
+2026-11-12T06:02:05+00:00 fkp_ld_conf: rc=0 marker=False
+2026-11-12T06:02:05+00:00 fkp_hal_ld: copying isolated root
+2026-11-12T06:02:05+00:00 fkp_hal_ld: prelink -fm TIFSDaemon
+2026-11-12T06:02:06+00:00 fkp_hal_ld: rc=0 marker=False
+2026-11-12T06:02:06+00:00 fkp_hal_ld_conf: copying isolated root
+2026-11-12T06:02:06+00:00 fkp_hal_ld_conf: prelink -fm TIFSDaemon
+2026-11-12T06:02:06+00:00 fkp_hal_ld_conf: rc=0 marker=False
+已结束 2026-11-12T06:02:06+00:00 状态=成功

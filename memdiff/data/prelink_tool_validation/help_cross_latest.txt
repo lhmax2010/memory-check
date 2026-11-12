@@ -1,0 +1,52 @@
+Usage: prelink [OPTION...] [FILES]
+prelink -- program to relocate and prelink ELF shared libraries and programs
+
+      --allow-textrel        Allow text relocations even on architectures where
+                             they may not work
+  -a, --all                  Prelink all binaries
+  -b, --black-list=PATH      Blacklist path
+  -c, --config-file=CONF     Use CONF as configuration file
+  -C, --cache-file=CACHE     Use CACHE as cache file
+      --dynamic-linker=DYNAMIC_LINKER
+                             Special dynamic linker path
+      --exec-shield          Lay out libraries for exec-shield on IA-32
+  -e, --errors               Returns an error if all binaries are not
+                             prelinkable
+  -f, --force                Force prelinking
+  -h, --dereference          Follow symlinks when processing directory trees
+                             from command line
+  -i, --init                 Do not re-execute init
+      --layout-page-size=SIZE   Layout start of libraries at given boundary
+      --ld-library-path=PATHLIST   What LD_LIBRARY_PATH should be used
+      --ld-preload=PATHLIST  What LD_PRELOAD should be used
+      --libs-only            Prelink only libraries, no binaries
+  -l, --one-file-system      Stay in local file system when processing
+                             directories from command line
+      --md5                  For verify print MD5 sum of original to standard
+                             output instead of content
+  -m, --conserve-memory      Allow libraries to overlap as long as they never
+                             appear in the same program
+      --no-exec-shield       Don't lay out libraries for exec-shield on IA-32
+  -n, --dry-run              Don't actually prelink anything
+  -N, --no-update-cache      Don't update prelink cache
+  -o, --undo-output=FILE     Undo output file
+  -p, --print-cache          Print prelink cache
+  -q, --quick                Quick scan
+      --root=ROOT_PATH       Prefix all paths with ROOT_PATH
+  -r, --reloc-only=BASE_ADDRESS   Relocate library to given address, don't
+                             prelink
+  -R, --random               Choose random base for libraries
+      --sha                  For verify print SHA sum of original to standard
+                             output instead of content
+  -u, --undo                 Undo prelink
+  -v, --verbose              Produce verbose output
+  -y, --verify               Verify file consistency by undoing and redoing
+                             prelink and printing original to standard output
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or optional
+for any corresponding short options.
+
+Report bugs to <mark.hatle@windriver.com>.

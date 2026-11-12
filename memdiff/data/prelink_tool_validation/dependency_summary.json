@@ -1,0 +1,24 @@
+{
+  "elf_copies": 1463,
+  "readelf_errors": 0,
+  "targets": 19,
+  "missing_target_copies": 8,
+  "missing_dependency_edges": 29,
+  "missing_soname_alias_edges": 7059,
+  "outside_ld_path_edges": 2,
+  "targets_with_outside_ld_path": {
+    "/usr/bin/TIFSDaemon": [
+      {
+        "needed": "libcamera-control.so",
+        "path": "/hal/lib/libcamera-control.so"
+      },
+      {
+        "needed": "libfkpInternal.so",
+        "path": "/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so"
+      }
+    ]
+  },
+  "libfkpInternal_paths": [
+    "/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so"
+  ]
+}

@@ -1,0 +1,10 @@
+make: Entering directory '/tmp/prelink-tool-validation-20261112/build-2013/src'
+Making all in rtld
+make[1]: Entering directory '/tmp/prelink-tool-validation-20261112/build-2013/src/rtld'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/prelink-tool-validation-20261112/build-2013/src/rtld'
+make[1]: Entering directory '/tmp/prelink-tool-validation-20261112/build-2013/src'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/tmp/prelink-tool-validation-20261112/build-2013/src'
+make: Leaving directory '/tmp/prelink-tool-validation-20261112/build-2013/src'
+已结束 2026-11-12T13:44:51+08:00 状态=成功

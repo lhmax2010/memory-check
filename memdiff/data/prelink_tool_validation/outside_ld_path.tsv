@@ -1,0 +1,3 @@
+target	parent	needed	resolved_path	candidate_count	exact_basename	status	in_ld_library_path	in_prelink_conf
+/usr/bin/TIFSDaemon	/usr/bin/TIFSDaemon	libcamera-control.so	/hal/lib/libcamera-control.so	1	1	outside_ld_path	0	0
+/usr/bin/TIFSDaemon	/usr/lib/libfkp.so.0.1.0	libfkpInternal.so	/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so	1	1	outside_ld_path	0	0

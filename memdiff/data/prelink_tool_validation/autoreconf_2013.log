@@ -1,0 +1,67 @@
+m4/libelf.m4:8: warning: underquoted definition of AC_LIBELF_SXWORD
+m4/libelf.m4:8:   run info Automake 'Extending aclocal'
+m4/libelf.m4:8:   or see https://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+libtoolize: Consider adding 'AC_CONFIG_MACRO_DIRS([m4])' to configure.ac,
+libtoolize: and rerunning libtoolize and aclocal.
+m4/libelf.m4:8: warning: underquoted definition of AC_LIBELF_SXWORD
+m4/libelf.m4:8:   run info Automake 'Extending aclocal'
+m4/libelf.m4:8:   or see https://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+configure.ac:5: warning: The macro `AC_CANONICAL_SYSTEM' is obsolete.
+configure.ac:5: You should run autoupdate.
+./lib/autoconf/general.m4:2081: AC_CANONICAL_SYSTEM is expanded from...
+configure.ac:5: the top level
+configure.ac:8: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:429: AM_INIT_AUTOMAKE is expanded from...
+configure.ac:8: the top level
+configure.ac:17: warning: The macro `AM_PROG_LIBTOOL' is obsolete.
+configure.ac:17: You should run autoupdate.
+m4/libtool.m4:101: AM_PROG_LIBTOOL is expanded from...
+configure.ac:17: the top level
+configure.ac:96: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:96: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+m4/libelf.m4:8: AC_LIBELF_SXWORD is expanded from...
+configure.ac:96: the top level
+configure.ac:127: warning: AC_OUTPUT should be used without arguments.
+configure.ac:127: You should run autoupdate.
+configure.ac:8: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:8: https://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.ac:12: installing './compile'
+configure.ac:5: installing './config.guess'
+configure.ac:5: installing './config.sub'
+configure.ac:8: installing './install-sh'
+configure.ac:8: installing './missing'
+Makefile.am: installing './INSTALL'
+gelf/Makefile.am:7: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+gelf/Makefile.am: installing './depcomp'
+src/Makefile.am:20: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/rtld/Makefile.am:18: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+src/rtld/Makefile.am:22: warning: source file '$(top_srcdir)/src/data.c' is in a subdirectory,
+src/rtld/Makefile.am:22: but option 'subdir-objects' is disabled
+automake: warning: possible forward-incompatibility.
+automake: At least one source file is in a subdirectory, but the 'subdir-objects'
+automake: automake option hasn't been enabled.  For now, the corresponding output
+automake: object file(s) will be placed in the top-level directory.  However, this
+automake: behavior may change in a future Automake major version, with object
+automake: files being placed in the same subdirectory as the corresponding sources.
+automake: You are advised to start using 'subdir-objects' option throughout your
+automake: project, to avoid future incompatibilities.
+src/rtld/Makefile.am:22: warning: source file '$(top_srcdir)/src/dso.c' is in a subdirectory,
+src/rtld/Makefile.am:22: but option 'subdir-objects' is disabled
+src/rtld/Makefile.am:22: warning: source file '$(top_srcdir)/src/canonicalize.c' is in a subdirectory,
+src/rtld/Makefile.am:22: but option 'subdir-objects' is disabled
+src/rtld/Makefile.am:22: warning: source file '$(top_srcdir)/src/wrap-file.c' is in a subdirectory,
+src/rtld/Makefile.am:22: but option 'subdir-objects' is disabled
+src/rtld/Makefile.am:22: warning: source file '$(top_srcdir)/src/reloc-info.c' is in a subdirectory,
+src/rtld/Makefile.am:22: but option 'subdir-objects' is disabled
+parallel-tests: installing './test-driver'
+已结束 2026-11-12T13:43:17+08:00 状态=成功

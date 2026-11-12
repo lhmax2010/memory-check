@@ -487,3 +487,14 @@ systemd 实例：新 `nopie_capture_instances.sh` 为未来普查记录每个进
 已闭合：沿用 1360 个可信共同文件，LLVM r-x 逐映射 Pss 和 186077 KiB 对 GCC 两次均值 174892.5 KiB，差 +11184.5 KiB；LLVM 唯一驻留比其 Pss 和高 5767 KiB，不把全额断定为取整。GCC 的 GNU_LIBLIST 主程序共 10 个；当前可信集合出现 9 个，另一个 `acm-service` 未运行且没有本次 ELF 副本。甲/乙/丙/丁/戊分别 9/62/348/857/84 文件，Pss 差 +580/+5398/+417.5/+5072.5/-283.5 KiB；乙组 GCC 最大 r-x Rss 小于加载器节静态大小仅 22/62，与“多数成立”的预期不符。甲乙观测净增下界合计 +3397.6 KiB，按比例折算的 LLVM 加载器节 Pss 上界估计 8042.1 KiB；同字节 31 文件噪声底 Pss 差合计 -48 KiB，逐文件中位数 0、90 分位 4 KiB。证据 `memdiff/data/prelink_group_attribution/group_summary.tsv`、`rounding_by_mapper_count.tsv`、`per_file.tsv`、`summary.json` 和报告。
 
 挂账：当前 `acm-service` 的 PIE 状态未能用本次 ELF 副本验证；其余 9 个均为 ET_DYN 且带 PIE。LLVM 进程主程序由保存 maps 的最低地址 r-x 文件映射推定，未有同次 `/proc/PID/exe` 核验；本次 LLVM 与历史 GCC 的 BUILD_ID、服务集合和时刻不同，观测下界/上界不是实际恢复预链接收益。本次只将报告、数据与状态的新增小节推到 `lhmax2010/memory-check`，保留 TPMS 工作区既有未提交改动，不推送原仓库其他内容。
+
+
+### 交叉 prelink 工具与 GCC 副本逐字节验证（2026-11-12）
+
+计划与进度：离线使用已拉回的 1463 个 GCC ELF 副本，不上板、不联 VD 网络；从公开 Yocto prelink-cross 源码取 2013 cross 分支、最新 cross 分支与当前 master。所有源码、构建根、工具二进制和试验根在仓库外 `/tmp/prelink-tool-validation-20261112/`；CPU0/nice19 串行，`make -C src -j1`，虚拟内存上限 2,500,000 KiB。版本/提交/SHA256/配置参数见 `memdiff/data/prelink_tool_validation/build_manifest.json`、`tool_versions.tsv`，配置和编译日志逐阶段保存。425 个带预链接标记 ELF 全部试验 `--verify` 和独立根上的 `-u`；进度、返回码、失败原文与 QA 在同一数据目录。报告为 `memdiff/reports/prelink_tool_validation.md`。
+
+已闭合：2013 与最新 cross 工具均编出 x86_64 的 `prelink`、`prelink-rtld`；当前 master 无 `--root/--rtld`，VD 的 `--ignore-soname` 在上游版本中也不存在。原样 GCC 副本根验证：两版 cross 各逐字节一致 4、不一致 1、报错 420；master 报错 425。以 ELF 自身 SONAME 唯一对应关系补 681 个推定软链接的诊断根，两版 cross 分别一致/不一致/报错 4/286/135 与 4/288/133；前 20 个不一致的差异节已用单独诊断工具捕获在 `mismatch_sections_top20.tsv`，正式计数工具未修改。独立根中 425/425 个 ELF `-u` 成功，标记消失、readelf 可解析，逐文件大小在 `undo_results.tsv`。原样与诊断根的 1463 个 ELF 文件字节均与仓库副本相同。证据 `verify_summary.tsv`、`alias_verify_summary.tsv`、`root_integrity_summary.json`、`qa.json` 及报告。
+
+TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpInternal.so` 唯一副本为 `/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so`，由 `libfkp.so.0.1.0` 引用；该目录不在原 `--ld-library-path` 或 8 行 prelink.conf。`libcamera-control.so` 的保存路径 `/hal/lib` 也在两者之外。19 个目标里 8 个没有本地 ELF 副本；有副本的 11 个目标中仅 TIFSDaemon 找到上述目录外库。证据 `dependency_edges.tsv`、`outside_ld_path.tsv`、`missing_copies.tsv`。补 FKP 目录、再补 HAL 目录及 prelink.conf 的五组隔离试验均未改动 TIFSDaemon，虽然命令返回 0，实际先报保存根缺 `libfactory-interface.so`，故不能判断补目录是否足够或是否需同时更新配置；证据 `tifs_interp_trials.tsv` 与对应原始日志。
+
+挂账：只凭不完整的 GCC ELF 副本、推定链接和缺少 VD 私有 `--ignore-soname` 的上游工具，不能证明与 VD 出镜像工具逐字节一致；其余 8 个缺副本目标的依赖、TIFSDaemon 完整根下的预链接结果未确定。需要内网提供完整 GCC 根或缺失的实际文件及 VD prelink/vdprelink 对应源码/补丁，后续由用户和 Claude 决定；本轮未访问开发板。仅推送本轮报告、数据与状态新增小节到 `lhmax2010/memory-check`，不带 TPMS 工作区已有未提交改动。

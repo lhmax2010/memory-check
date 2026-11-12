@@ -1,0 +1,35 @@
+diff --git a/src/verify.c b/src/verify.c
+index d9f4d7d..b544e0b 100644
+--- a/src/verify.c
++++ b/src/verify.c
+@@ -22,6 +22,7 @@
+ #include <error.h>
+ #include <fcntl.h>
+ #include <stdio.h>
++#include <stdlib.h>
+ #include <string.h>
+ #include <time.h>
+ #include <unistd.h>
+@@ -345,6 +346,22 @@ prelink_verify (const char *filename)
+       goto failure;
+     }
+ 
++  /* Diagnostic-only copy of recreated prelinked bytes. */
++  {
++    const char *capture = getenv ("PRELINK_CAPTURE_FILE");
++    if (capture != NULL && *capture != '\0')
++      {
++        int out = open (capture, O_WRONLY | O_CREAT | O_TRUNC, 0600);
++        if (out >= 0)
++          {
++            off_t offset = 0;
++            if (send_file (out, fd, &offset, st2.st_size) != st2.st_size)
++              error (0, errno, "Could not capture recreated prelinked file");
++            close (out);
++          }
++      }
++  }
++
+   if (st.st_size != st2.st_size)
+     {
+       error (0, 0, "%s: prelinked file size differs", filename);

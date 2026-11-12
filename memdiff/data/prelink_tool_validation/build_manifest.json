@@ -1,0 +1,105 @@
+{
+  "source_url": "https://git.yoctoproject.org/prelink-cross.git",
+  "host_arch": "x86_64",
+  "builds": [
+    {
+      "version": "cross_2013",
+      "branch": "origin/cross_prelink 2013-04-23",
+      "commit": "f82b486136b89619aea2c1462d3c2da7925eec15",
+      "prelink_path": "/tmp/prelink-tool-validation-20261112/build-2013/src/prelink",
+      "prelink_sha256": "0e5d341969ef1b1a81b66751225e22517751281002e5a30d4ab84280aef88dc6",
+      "rtld_path": "/tmp/prelink-tool-validation-20261112/build-2013/src/rtld/prelink-rtld",
+      "rtld_sha256": "5451bcc6b69f13a3c1a8d70120f3298f338a536738aa894a587c5eab42cda646",
+      "help_has_root": "1",
+      "help_has_verify": "1",
+      "source_has_ignore_soname": "0",
+      "commit_date": "2013-04-23T10:20:33-05:00"
+    },
+    {
+      "version": "cross_latest",
+      "branch": "origin/cross_prelink 2019-06-24",
+      "commit": "f9975537dbfd9ade0fc813bd5cf5fcbe41753a37",
+      "prelink_path": "/tmp/prelink-tool-validation-20261112/build-cross-latest/src/prelink",
+      "prelink_sha256": "70ef7aa523c97edf3b6096e512ebf4fa253d213eedd7245112766443156b9015",
+      "rtld_path": "/tmp/prelink-tool-validation-20261112/build-cross-latest/src/rtld/prelink-rtld",
+      "rtld_sha256": "fa18c67582d8ffac274e56393ff79ec0a4ed66287fe4e3287397e0e15dbcd7d3",
+      "help_has_root": "1",
+      "help_has_verify": "1",
+      "source_has_ignore_soname": "0",
+      "commit_date": "2019-06-24T11:17:47-04:00"
+    },
+    {
+      "version": "master_2024",
+      "branch": "origin/master 2024-07-02",
+      "commit": "ff2561c02ade96c5d4d56ddd4e27ff064840a176",
+      "prelink_path": "/tmp/prelink-tool-validation-20261112/build-master-2024/src/prelink",
+      "prelink_sha256": "df6f4b793799f1c44702b5fa2ea09294421f2b989be7e9ad292b42709fd1e84d",
+      "rtld_path": "",
+      "rtld_sha256": "",
+      "help_has_root": "0",
+      "help_has_verify": "1",
+      "source_has_ignore_soname": "0",
+      "commit_date": "2024-07-02T11:25:14+01:00"
+    }
+  ],
+  "configure_options": [
+    "--disable-selinux",
+    "--disable-dependency-tracking",
+    "--prefix=/tmp/prelink-tool-validation-20261112/install-<build>"
+  ],
+  "CPPFLAGS": "-I/tmp/prelink-tool-validation-20261112/deps/usr/include",
+  "LDFLAGS": "-L/tmp/prelink-tool-validation-20261112/deps/usr/lib/x86_64-linux-gnu",
+  "build_command": "make -C src -j1",
+  "memory_limit_virtual_kB": 2500000,
+  "dependencies_extracted_outside_repo": [
+    {
+      "package": "autoconf",
+      "version": "2.71-3",
+      "sha256": "cc3f9f7a1e576173fb59c36652c0a67c6426feae752b352404ba92dfcb1b26c9",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/autoconf_2.71-3_all.deb"
+    },
+    {
+      "package": "automake",
+      "version": "1:1.16.5-1.3ubuntu1",
+      "sha256": "5ae9a98e73545002cd891f028859941af2a3c760cb6190e635c7ef36953912de",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/automake_1%3a1.16.5-1.3ubuntu1_all.deb"
+    },
+    {
+      "package": "autotools-dev",
+      "version": "20220109.1",
+      "sha256": "d909f0327b09d9a9136239caca975df89782fa28efd721c4eb4caea422d3fc5a",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/autotools-dev_20220109.1_all.deb"
+    },
+    {
+      "package": "libelf-dev",
+      "version": "0.190-1.1ubuntu0.1",
+      "sha256": "81affb95c29f7323f2ae24386aaa1f61d311578e3e27c5f78ef7b7d55cd3cf49",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/libelf-dev_0.190-1.1ubuntu0.1_amd64.deb"
+    },
+    {
+      "package": "libiberty-dev",
+      "version": "20240117-1build1",
+      "sha256": "fcc1d4ccb86d558f46c7592c03c2743b81f421346b76c7fe399e01b00e0b68d1",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/libiberty-dev_20240117-1build1_amd64.deb"
+    },
+    {
+      "package": "libtool",
+      "version": "2.4.7-7build1",
+      "sha256": "9d1d707179675d38e024bb13613b1d99e0d33fa6c45e5f3bcba19340781781d3",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/libtool_2.4.7-7build1_all.deb"
+    },
+    {
+      "package": "m4",
+      "version": "1.4.19-4build1",
+      "sha256": "30ea715845a1863abd55d11e47ab91513130bf347852d4cdeae69e9d98fa795c",
+      "source_path": "/tmp/prelink-tool-validation-20261112/debs/m4_1.4.19-4build1_amd64.deb"
+    }
+  ],
+  "diagnostic_capture_patch": "verify_capture.patch",
+  "tool_binaries_committed": false,
+  "nearest_2013_overall_master": {
+    "commit": "c4c76d550770a75a6a41c0ff1ddd0c855c443a56",
+    "date": "2013-05-03T12:10:23+00:00",
+    "reason_not_selected_for_cross_verification": "master line has no --root or --rtld; nearest cross_prelink branch commit is f82b486"
+  }
+}

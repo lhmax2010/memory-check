@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "marked_elf": 425,
+  "verify_summaries_consistent": true,
+  "undo_all_success": true,
+  "captured_mismatches": 20,
+  "tifs_trials_without_prelink": 5,
+  "root_copies_byte_identical": true,
+  "end_lines_present": true
+}

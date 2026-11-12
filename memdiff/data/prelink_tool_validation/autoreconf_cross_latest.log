@@ -1,0 +1,32 @@
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:6: warning: The macro `AC_CANONICAL_SYSTEM' is obsolete.
+configure.ac:6: You should run autoupdate.
+./lib/autoconf/general.m4:2081: AC_CANONICAL_SYSTEM is expanded from...
+configure.ac:6: the top level
+configure.ac:18: warning: The macro `AM_PROG_LIBTOOL' is obsolete.
+configure.ac:18: You should run autoupdate.
+m4/libtool.m4:101: AM_PROG_LIBTOOL is expanded from...
+configure.ac:18: the top level
+configure.ac:97: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:97: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+m4/libelf.m4:8: AC_LIBELF_SXWORD is expanded from...
+configure.ac:97: the top level
+configure.ac:128: warning: AC_OUTPUT should be used without arguments.
+configure.ac:128: You should run autoupdate.
+configure.ac:13: installing './compile'
+configure.ac:6: installing './config.guess'
+configure.ac:6: installing './config.sub'
+configure.ac:9: installing './install-sh'
+configure.ac:9: installing './missing'
+Makefile.am: installing './INSTALL'
+gelf/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+已结束 2026-11-12T13:43:31+08:00 状态=成功

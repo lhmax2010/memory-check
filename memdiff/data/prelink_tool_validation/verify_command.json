@@ -1,0 +1,13 @@
+{
+  "root": "/tmp/prelink-tool-validation-20261112/gcc-root",
+  "ld_library_path": "/lib:/usr/lib:/prd/usr/lib:/usr/lib/was-api:/usr/lib/ecore_imf/modules/isf/v-1.13:/usr/lib/gstreamer-1.0:/usr/lib/pulseaudio:/usr/lib/hal",
+  "common_options": [
+    "--verify",
+    "--mmap-region-end=0x60000000",
+    "--allow-textrel",
+    "--config-file=/etc/prelink.conf",
+    "--cache-file=/prelink.cache"
+  ],
+  "unsupported_vd_option": "--ignore-soname; omitted because all upstream versions reject it",
+  "timeout_seconds": 30
+}

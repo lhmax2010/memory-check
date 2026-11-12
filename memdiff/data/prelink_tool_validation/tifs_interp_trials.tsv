@@ -1,0 +1,6 @@
+trial	ld_added	conf_added	prelink_rc	target_sha_before	target_sha_after	target_prelink_marker	readelf_rc	log_file
+baseline			0	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	0	0	tifs_interp_baseline.log
+fkp_ld	/opt/usr/apps/Ddrm/fkp/lib		0	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	0	0	tifs_interp_fkp_ld.log
+fkp_ld_conf	/opt/usr/apps/Ddrm/fkp/lib	/opt/usr/apps/Ddrm/fkp/lib	0	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	0	0	tifs_interp_fkp_ld_conf.log
+fkp_hal_ld	/opt/usr/apps/Ddrm/fkp/lib;/hal/lib		0	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	0	0	tifs_interp_fkp_hal_ld.log
+fkp_hal_ld_conf	/opt/usr/apps/Ddrm/fkp/lib;/hal/lib	/opt/usr/apps/Ddrm/fkp/lib;/hal/lib	0	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	9f202df02ec4a0e09ec7e524eb6a7603f5b424c49e851415ac44023f34409c85	0	0	tifs_interp_fkp_hal_ld_conf.log

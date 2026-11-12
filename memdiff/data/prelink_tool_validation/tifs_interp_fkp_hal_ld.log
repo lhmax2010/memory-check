@@ -1,0 +1,5 @@
+COMMAND: /tmp/prelink-tool-validation-20261112/build-cross-latest/src/prelink -fm --mmap-region-end=0x60000000 --allow-textrel --verbose --root=/tmp/prelink-tool-validation-20261112/gcc-tifs-interp_fkp_hal_ld --config-file=/etc/prelink.conf --cache-file=/prelink.cache --ld-library-path=/lib:/usr/lib:/prd/usr/lib:/usr/lib/was-api:/usr/lib/ecore_imf/modules/isf/v-1.13:/usr/lib/gstreamer-1.0:/usr/lib/pulseaudio:/usr/lib/hal:/opt/usr/apps/Ddrm/fkp/lib:/hal/lib --rtld=/tmp/prelink-tool-validation-20261112/build-cross-latest/src/rtld/prelink-rtld /usr/bin/TIFSDaemon
+/tmp/prelink-tool-validation-20261112/build-cross-latest/src/prelink: /usr/bin/TIFSDaemon: Could not find one of the dependencies: 
+/tmp/prelink-tool-validation-20261112/build-cross-latest/src/rtld/prelink-rtld: error while loading shared libraries: libfactory-interface.so: cannot open shared object file: No such file or directory
+
+RETURN_CODE=0

@@ -1,0 +1,2 @@
+/tmp/prelink-tool-validation-20261112/build-2013/src/prelink: /usr/bin/tvs-daemon: Could not parse `prelink-rtld: /tmp/prelink-tool-validation-20261112/src-2013/trunk/src/rtld/dl-version.c:219: rtld_check_map_versions: Assertion `needed != NULL' failed.'
+/tmp/prelink-tool-validation-20261112/build-2013/src/prelink: /usr/bin/tvs-daemon: at least one of file's dependencies has changed since prelinking
