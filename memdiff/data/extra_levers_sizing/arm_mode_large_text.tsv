@@ -1,0 +1,32 @@
+path	text_kB	unique_rx_kB	defined_FUNC_ARM	defined_FUNC_Thumb	defined_FUNC_total	ARM_percent	undefined_FUNC	ARM_attributes
+/prd/usr/lib/libbluetooth.so	9938.598	4568	6486	0	6486	100.0	481	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/com.samsung.tizen.argot/bin/argot	9823.348	5536	4	0	4	100.0	300	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/local/lib/libavcodec.so	8148.602	1456	2180	0	2180	100.0	355	未找到
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	4691.668	2436	7849	0	7849	100.0	1156	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/bin/issue_report_agent	3853.555	2232	1742	5126	6868	25.364	947	未找到
+/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service	1484.379	936	1	0	1	100.0	452	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/org.tizen.webserver/bin/liblighttpd.so	1469.59	404	688	0	688	100.0	393	未找到
+/opt/usr/apps/com.samsung.tv.ghservice/shared/res/libcompgamehome.so	1171.453	508	2476	0	2476	100.0	375	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libc-2.40.so	1107.25	1056	3000	3	3003	99.9001	15	未找到
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libtvs-api.so	912.781	916	3269	0	3269	100.0	90	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.dseal/lib/libtvs-api.so	899.238	804	3447	0	3447	100.0	105	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/tizen-extensions-crosswalk/libwebapis_avplay.so	899.113	284	1247	0	1247	100.0	361	未找到
+/usr/lib/libpisa-ipc.so	864.812	1396	1950	0	1950	100.0	274	未找到
+/usr/lib/libbluetooth-api.so.1.0.0	693.062	356	607	0	607	100.0	178	未找到
+/usr/local/lib/libavformat.so	647.656	600	442	0	442	100.0	280	未找到
+/usr/bin/deviced	555.582	532	961	0	961	100.0	362	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/bin/bt-service	543.332	824	698	0	698	100.0	466	未找到
+/usr/apps/org.tizen.volume-app/bin/volume-app	502.074	376	1053	0	1053	100.0	376	未找到
+/usr/local/lib/libswscale.so	473.273	112	34	0	34	100.0	34	未找到
+/opt/usr/apps/org.tizen.ssoservice/shared/res/lib/libsa-common-adapter.so	457.156	200	633	0	633	100.0	257	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libboost_unit_test_framework.so.1.83.0	370.273	116	286	0	286	100.0	161	未找到
+/usr/local/lib/libavutil.so	369.891	224	567	0	567	100.0	98	未找到
+/usr/bin/remote-server	353.977	288	100	0	100	100.0	429	未找到
+/opt/usr/apps/com.samsung.tv.coba.adagent/shared/res/libcomp-adagent.so	349.598	232	923	0	923	100.0	198	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libbroadcastmenu-dataprovider.so.0.1	344.523	344	44	0	44	100.0	235	未找到
+/usr/lib/libbrotlienc.so.1.1.0	342.414	8	13	0	13	100.0	11	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_systeminfo.so	340.148	80	25	0	25	100.0	219	未找到
+/usr/bin/bash	303.113	328	1	0	1	100.0	192	未找到
+/usr/lib/tizen-extensions-crosswalk/libwebapis_network.so	295.109	60	34	0	34	100.0	217	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_common.so	278.27	152	642	0	642	100.0	152	未找到
+/usr/share/menu/providers/libbroadcastmenu-visiblechecker.so.0.1	258.312	120	18	0	18	100.0	215	未找到

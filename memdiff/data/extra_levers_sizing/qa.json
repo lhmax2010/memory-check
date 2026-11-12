@@ -1,0 +1,9 @@
+{
+  "whole_pages_subset_any": true,
+  "whole_upper_not_above_any": true,
+  "run_bins_sum_to_runs": true,
+  "top50_count": true,
+  "all_elf_symbols_measured": true,
+  "readelf_no_errors": true,
+  "duplicate_upper_nonnegative": true
+}

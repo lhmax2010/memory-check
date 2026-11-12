@@ -1,0 +1,1453 @@
+path	text_kB	unique_rx_kB	defined_FUNC_ARM	defined_FUNC_Thumb	defined_FUNC_total	ARM_percent	undefined_FUNC	ARM_attributes
+/hal/lib/bufmgr/libbuffer-control.so	2.117	8	0	8	8	0.0	8	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/hal/lib/bufmgr/libhal-backend-tbm-entry.so.2.1.0	21.207	36	0	12	12	0.0	23	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/hal/lib/libcamera-control.so	4.742	8	0	41	41	0.0	11	未找到
+/hal/lib/libhal-backend-audio.so	20.418	44	0	64	64	0.0	103	未找到
+/hal/lib/libhal-backend-security-keys.so.1.0.0	65.906	16	0	14	14	0.0	53	未找到
+/hal/lib/libhal-backend-tdm-vd.so	113.895	180	0	65	65	0.0	225	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/dotnet/tac/Libraries/libhrs_api.so..27934b43766f529df8e9b7f064c133c351ab7cd8ab063d3be6029028272ac8f2	179.371	76	0	43	43	0.0	111	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/Ddrm/WidevineCdm/lib/libwvcdm.so.0.1.1	2058.57	760	6	3908	3914	0.1533	339	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/Ddrm/atsc3us-cdm/lib/libatsc3us-cdm.so.0.1.0	25.262	40	0	169	169	0.0	107	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/Ddrm/atsc3us-cdm/lib/libatsc3us-cdmUtil.so	27.391	28	0	117	117	0.0	115	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/Ddrm/atsc3us-cdm/lib/libatsc3us-cdm_net.so	3.023	8	0	15	15	0.0	32	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/Ddrm/fkp/lib/libfkpCore.so	385.09	592	0	1069	1069	0.0	460	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so	20.213	40	0	58	58	0.0	47	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine	581.395	548	0	0	0		290	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.hrs-agent.storage/bin/hrs-agent.storage	811.477	632	0	0	0		277	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.hrs-agent.storage/lib/libmcf_api.so	2885.582	1260	0	4438	4438	0.0	347	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/bin/smartthings-thing	900.312	992	0	0	0		400	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libcoap.so	34.492	12	0	121	121	0.0	33	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libconnectivity_abstraction.so	355.031	364	0	465	465	0.0	286	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libkey-manager-storage.so	247.016	116	0	5	5	0.0	176	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libmbedtls.so	720.125	256	0	1237	1237	0.0	64	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libnotification_provider.so	76.801	16	0	121	121	0.0	59	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/liboc_logger.so	12.895	24	0	62	62	0.0	54	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libocpmapi.so	245.895	44	0	190	190	0.0	156	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/liboctbstack.so	650.816	520	0	686	686	0.0	156	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libresource_directory.so	15.086	4	0	5	5	0.0	32	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tizen.smartthings-thing/lib/libuuid.so	5.961	12	0	23	23	0.0	32	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.ContentsBrowser/shared/res/libcompcb.so	2687.578	1720	0	1470	1470	0.0	396	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.coba.adagent/shared/res/libcomp-adagent.so	349.598	232	923	0	923	100.0	198	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.coba.nativesamsungaccount/shared/res/libcompsidebaraccount.so	105.605	56	0	203	203	0.0	194	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.coba.newhome.native/shared/res/libcomphome.so	2213.438	2028	0	2688	2688	0.0	587	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.coba.newhome.native/shared/res/libdhomekpi.so	20.852	40	0	41	41	0.0	101	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.contentservicemanager/bin/contentservicemanager	212.385	272	0	2	2	0.0	344	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.contextengine-plugin-userdetection/shared/lib/libmcf_api.so	2121.535	412	0	390	390	0.0	332	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.ghdaemon/lib/libghdaemon-notify-plugin.so	90.859	108	200	0	200	100.0	98	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.ghservice/shared/res/libcompgamehome.so	1171.453	508	2476	0	2476	100.0	375	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.home.apps/shared/res/libcompapps.so	514.75	196	0	1016	1016	0.0	377	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mainhub	213.961	236	0	0	0		292	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.multiprofile-coba/shared/res/libcompmultiprofile.so	115.062	176	0	166	166	0.0	172	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp	1251.156	724	0	0	0		366	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.multiprofile-service/lib/libbixby.so	31.445	56	0	123	123	0.0	95	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service	1484.379	936	1	0	1	100.0	452	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.pisa-service/bin/pisa-service	239.766	268	0	0	0		202	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.pisa-service/lib/libescargot.so	1694.004	224	0	1010	1010	0.0	129	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.pisa-service/lib/libnd.so	563.312	284	0	1750	1750	0.0	652	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.pisa-service/lib/libpisa-framework.so	123.578	152	267	0	267	100.0	160	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/bin/bms-service	577.867	296	0	0	0		474	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-provider-daemon	1218.945	808	0	0	0		527	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libdashplusplayer_tvplus.so	245.799	584	0	2009	2009	0.0	282	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libgstsubtitle_tvplus.so	10.262	8	0	30	30	0.0	22	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libplusplayer_tvplus.so	466.402	852	0	2938	2938	0.0	314	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libplusplayercore_tvplus.so	71.736	104	0	477	477	0.0	190	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libslive-api.so	265.41	236	0	1368	1368	0.0	221	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libslive-jsoncpp.so	81.512	128	0	445	445	0.0	70	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libtracksource_tvplus.so	244.877	172	0	921	921	0.0	254	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libtvs-api.so	912.781	916	3269	0	3269	100.0	90	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.sp-service/lib/libsp-service.so	1.66	8	0	2	2	0.0	16	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.subm-service/lib/libsubm-watcher.so	6.605	16	4	0	4	100.0	47	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/com.samsung.tv.termsclient/bin/termsclient	479.203	332	0	0	0		346	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.dseal/bin/dseal	556.445	380	0	0	0		581	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.dseal/lib/libbixby.so	31.445	32	0	123	123	0.0	95	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.dseal/lib/libcapi-context-engine.so.1	91.891	116	0	145	145	0.0	96	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.dseal/lib/libslive-api.so	203.043	252	0	1066	1066	0.0	157	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.dseal/lib/libtvs-api.so	899.238	804	3447	0	3447	100.0	105	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.easysetup-daemon/bin/org.tizen.easysetup-daemon	976.684	1016	0	1	1	0.0	794	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.easysetup-daemon/lib/libsamsung-svcmgr.so	60.531	52	0	52	52	0.0	87	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.easysetup-daemon/lib/libst_thing_master_api.so	277.59	284	0	206	206	0.0	78	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.easysetup-daemon/lib/libst_thing_resource_api.so	63.855	12	0	70	70	0.0	68	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.ssoservice/bin/sso-service	626.977	460	0	0	0		467	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.ssoservice/shared/res/lib/libsa-common-adapter.so	457.156	200	633	0	633	100.0	257	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.ssoservice/shared/res/lib/libsa-common.so	302.637	92	0	61	61	0.0	225	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/apps/org.tizen.ssoservice/shared/res/lib/libsso-core-lib.so	284.289	320	0	913	913	0.0	217	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/share/argot/.local/bin/tsr	536.887	460	0	0	0		210	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/opt/usr/share/argot/.local/bin/tsr-bwrap	53.297	68	0	0	0		103	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/bin/buxton2d_lite	39.836	80	1	95	96	1.0417	220	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/bin/kfactoryd	1.91	8	1	4	5	20.0	32	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/bufmgr/libbuffer-control-kantsu.so.2.0.1	9.414	20	0	0	0		33	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/buxton2_lite/sqlite.so	9.129	20	0	0	0		66	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libPQ.so	79.348	92	58	0	58	100.0	23	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libSDP.API.so.1.1.0	8.859	8	0	25	25	0.0	24	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libSEC_OMX_Adec.so.1.1.0	18.004	16	0	33	33	0.0	63	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libSEC_OMX_BaseComponent.so.1.1.0	14.199	24	0	49	49	0.0	37	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libSEC_OMX_Core.so.1.1.0	4.191	12	0	16	16	0.0	21	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libSEC_OMX_OSAL.so.1.1.0	4.543	16	0	59	59	0.0	45	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libSEC_OMX_Vdec.so.1.1.0	6.055	16	0	25	25	0.0	49	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libanalog-input-control-impl-sec.so.0.1	6.469	16	0	31	31	0.0	15	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libaudio-control-impl-sec.so.0.1	54.199	96	0	275	275	0.0	29	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libaudio-enhancer-control-impl-sec.so.0.1	2.926	8	0	20	20	0.0	19	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libave.so.0.1	1547.783	1616	0	5609	5609	0.0	280	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libbluetooth-hardware-impl-sec.so.0.1	29.465	64	0	128	128	0.0	79	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libbluetooth-impl-sec.so.0.1	102.043	128	0	372	372	0.0	96	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libbluetooth.so	9938.598	4568	6486	0	6486	100.0	481	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libbroadcast-diagnosis-impl-sec.so.0.1	12.797	16	0	22	22	0.0	16	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libbt-oal.so.0.1	736.461	1080	0	3131	3131	0.0	259	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libbuxton2_lite.so.1.1	22.199	44	0	40	40	0.0	94	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libdiagnosis-audio-control-impl-sec.so.0.1	4.461	12	0	21	21	0.0	28	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libdisplay-control-impl-sec.so.1.0.0	1.078	4	0	0	0		10	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libdisplay-panel-impl-sec.so.0.1	15.854	44	0	131	131	0.0	101	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libdisplay-panel-init.so.0.1	4.748	12	0	14	14	0.0	29	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libdrm-util.so.0.1.0	5.305	12	0	19	19	0.0	28	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libecs-sec-tv-impl-sec.so.0.1	5.551	16	0	51	51	0.0	32	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libecs-tv.so.0.1	177.586	180	0	637	637	0.0	87	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libeeprom-map.so.0.1	2.348	8	0	9	9	0.0	7	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libfactory-api-impl-sec.so	2.516	12	0	25	25	0.0	25	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libfactory-data-config.so.00.00.0057	44.416	76	0	167	167	0.0	58	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libgraphics-control-impl-core.so.0.1	15.062	32	0	81	81	0.0	63	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libhdmi-control-impl-sec.so.0.1	22.012	32	0	74	74	0.0	49	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libhdmi-input-control-impl-sec.so.0.1	8.717	12	0	39	39	0.0	11	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libhsm-service-impl-sec.so.0.1	1.211	4	0	6	6	0.0	12	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/liblc3.so	95.602	8	21	0	21	100.0	5	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libmic_rms.so	32.492	12	0	69	69	0.0	46	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libmicom.so.0.1	42.836	76	0	272	272	0.0	62	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libnvram-impl-sec.so.0.1	2.516	8	0	6	6	0.0	33	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libpower-control-impl-sec-diagnosis.so	7.305	16	0	0	0		69	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libpower-control-impl-sec.so.0.1	15.471	32	0	2	2	0.0	97	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/librtkbt_codec.so	22.488	8	15	0	15	100.0	18	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/librtkbt_vendor.so	133.355	172	239	0	239	100.0	112	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libsec-audio-enhancer.so.0.1	58.266	92	0	115	115	0.0	56	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libsec-audio.so.0.1	17.801	28	0	65	65	0.0	54	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libsec-video-drm-helper.so.0.1.0	11.746	24	0	35	35	0.0	24	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libsocpba.so.0.0.0	76.879	44	0	278	278	0.0	133	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libsystem-info-external-plugin.so	17.215	44	0	75	75	0.0	42	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libsystem-info-impl-sec.so.0.1	2.121	8	0	12	12	0.0	12	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libtinycompress.so.0.2	15.082	8	0	42	42	0.0	37	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libtuner-control-impl-sec.so.0.1	11.031	24	0	53	53	0.0	13	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libtvsystem.so.0.1	44.098	32	0	235	235	0.0	73	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libvconf-prd.so.1.0	2.047	8	0	24	24	0.0	22	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libvconf_lite.so.0.3.1	13.082	28	0	28	28	0.0	97	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libvideo-dp-control-impl-sec.so.0.1.0	50.543	84	0	149	149	0.0	67	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libvideo-mm-control-impl-sec.so.0.1.0	14.375	24	0	52	52	0.0	47	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libwifi-vendor-impl.so	15.031	36	0	130	130	0.0	53	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libwol-impl.so	3.576	8	0	2	2	0.0	29	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/libwow-impl.so	10.607	12	0	7	7	0.0	26	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/openmax/libOMX.SDP.AUDIO.DECODER.INST.so.1.1.0	16.348	16	0	37	37	0.0	50	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/prd/usr/lib/openmax/libOMX.SDP.DVDE.Decoder.so.1.1.0	15.066	20	0	25	25	0.0	39	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	272.871	464	1	1907	1908	0.0524	234	未找到
+/usr/apps/capi-bnr-tv/bin/bnr-service	488.426	576	1	2302	2303	0.0434	276	未找到
+/usr/apps/com.samsung.ep.coba-hotel-native/shared/res/libcomphotel.so	260.9	288	0	931	931	0.0	262	未找到
+/usr/apps/com.samsung.tizen.argot/bin/argot	9823.348	5536	4	0	4	100.0	300	Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/com.samsung.tv.cis-api-service-app/bin/cis-api-service-app	33.586	76	1	224	225	0.4444	143	未找到
+/usr/apps/com.samsung.tv.coba-aitech-native/shared/res/libcompaitech.so	60.133	92	0	82	82	0.0	153	未找到
+/usr/apps/com.samsung.tv.coba-bluetooth-native/shared/res/libcompbluetooth.so	213.371	276	0	600	600	0.0	218	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/com.samsung.tv.coba-multiscreen-native/shared/res/libcompmultiscreen.so	435.527	280	0	538	538	0.0	252	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/com.samsung.tv.coba-setting-native/shared/res/libcompsetting.so	565.23	936	0	2469	2469	0.0	378	未找到
+/usr/apps/com.samsung.tv.coba-source-native/shared/res/libcompsource.so	893.301	1148	0	1323	1323	0.0	293	未找到
+/usr/apps/com.samsung.tv.coba.mobilebff.native/shared/res/libcompmobilebff.so	98.059	120	0	80	80	0.0	180	未找到
+/usr/apps/com.samsung.tv.coba.native.epg/shared/res/libcompepg.so	143.371	108	0	198	198	0.0	173	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/com.samsung.tv.coba.networksettings.native/shared/res/libcompnetworksettings.so	125.402	160	0	227	227	0.0	192	未找到
+/usr/apps/com.samsung.tv.coba.usbcam.native/shared/res/libcompusbcam.so	88.352	60	0	101	101	0.0	169	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service	108.496	136	1	66	67	1.4925	192	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_artoption.so	52.574	40	0	42	42	0.0	197	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_connecteddevice.so	158.121	176	0	55	55	0.0	361	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_gameoption.so	45.02	40	0	28	28	0.0	177	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_mediaoption.so	87.523	56	0	47	47	0.0	297	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_minimusicplayer.so	116.215	180	0	39	39	0.0	287	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_multiprofile.so	91.34	148	0	36	36	0.0	376	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libgadget_quicksetting.so	491.375	316	0	87	87	0.0	482	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libma_com.samsung.tv.csfs.so	1062.291	1172	0	143	143	0.0	978	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libma_com.samsung.tv.mycontents.so	778.428	864	0	149	149	0.0	612	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libnative-ui-app.so	18.084	44	0	77	77	0.0	105	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libvp_ad.so	163.848	52	0	1	1	0.0	300	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libvp_apps.so	24.754	16	0	1	1	0.0	76	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libvp_art.so	54.711	40	0	1	1	0.0	129	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libvp_game.so	130.582	44	0	1	1	0.0	287	未找到
+/usr/apps/com.samsung.tv.native-home/bin/libvp_storageshare.so	13.555	20	0	1	1	0.0	95	未找到
+/usr/apps/com.samsung.tv.native-home/lib/libcapi-dg-module.so.1.0.0	1750.783	1112	0	3175	3175	0.0	2049	未找到
+/usr/apps/com.samsung.tv.native-home/lib/libnative-api-devgru-os.so.1.0.0	5.613	16	0	76	76	0.0	45	未找到
+/usr/apps/com.samsung.tv.native-home/lib/libnative-api-devgru-vivframework.so.2.0.0	371.32	568	0	1503	1503	0.0	476	未找到
+/usr/apps/com.samsung.tv.native-home/lib/libone-ui-tv.so.2.0.0	1559.025	2720	0	10001	10001	0.0	1675	未找到
+/usr/apps/com.samsung.tv.psid-checker/lib/libwatcher-psid-checker.so	1.367	8	0	2	2	0.0	19	未找到
+/usr/apps/comss/bin/comss	199.066	320	1	655	656	0.1524	279	未找到
+/usr/apps/org.tizen.coreapp-service-notify-plugin/lib/libcoreapp-service-notify-plugin.so	0.727	4	0	3	3	0.0	11	未找到
+/usr/apps/org.tizen.dta-agent-plugin/lib/libdta-agent-plugin.so	9.766	28	0	42	42	0.0	74	未找到
+/usr/apps/org.tizen.hdmicec-watcher/lib/libhdmicec-watcher.so	1.578	8	0	3	3	0.0	21	未找到
+/usr/apps/org.tizen.player-kpi-watcher/lib/libplayer-kpi-watcher.so	11.035	28	0	48	48	0.0	78	未找到
+/usr/apps/org.tizen.remote-management/lib/libremote-management-watcher.so	1.102	8	0	2	2	0.0	12	未找到
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	4691.668	2436	7849	0	7849	100.0	1156	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/apps/org.tizen.tvcontrol-notify-plugin/lib/libtvcontrol-notify-plugin.so	70.172	188	0	530	530	0.0	155	未找到
+/usr/apps/org.tizen.video-player-tv/bin/video-player-tv	314.293	328	0	23	23	0.0	638	未找到
+/usr/apps/org.tizen.volume-app/bin/volume-app	502.074	376	1053	0	1053	100.0	376	未找到
+/usr/apps/org.tizen.watcher-bgmapp-terminator-tpk/lib/libbgmapp-terminator-tpk.so	2.111	8	0	5	5	0.0	29	未找到
+/usr/apps/org.tizen.watcher-comss/lib/libcomss-watcher.so	2.672	8	0	3	3	0.0	15	未找到
+/usr/apps/org.tizen.watcher-ssc-service/lib/libwatcher-ssc-service.so	1.684	8	0	2	2	0.0	13	未找到
+/usr/apps/org.tizen.watcher-ssdm/lib/libwatcher-ssdm.so	1.309	4	0	2	2	0.0	12	未找到
+/usr/apps/org.tizen.watcher-tpad/lib/libwatcher-tpad.so	1.086	4	0	2	2	0.0	12	未找到
+/usr/apps/org.tizen.webappservice/bin/webappservice	904.859	908	1	1986	1987	0.0503	468	未找到
+/usr/apps/org.tizen.webserver/bin/liblighttpd.so	1469.59	404	688	0	688	100.0	393	未找到
+/usr/apps/org.tizen.webserver/bin/webserver	41.406	52	2	0	2	100.0	121	未找到
+/usr/apps/pvod-appfw/bin/pvodservice	12.633	28	1	58	59	1.6949	85	未找到
+/usr/apps/samsung-easy-support/lib/libses-watcher.so.1.0.0	1.238	4	0	2	2	0.0	15	未找到
+/usr/bin/SWUAutoUpgrade	1087.746	1140	0	272	272	0.0	554	未找到
+/usr/bin/TAgentD	20.805	44	1	129	130	0.7692	97	未找到
+/usr/bin/TIFSDaemon	414.98	408	1	1583	1584	0.0631	674	未找到
+/usr/bin/aifw-data-managerd	16.285	56	1	108	109	0.9174	110	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/bin/aisctrlmgr_server	19.031	32	1	0	1	100.0	124	未找到
+/usr/bin/allshare-svc	97.695	100	1	371	372	0.2688	200	未找到
+/usr/bin/amd	0.266	4	1	0	1	100.0	5	未找到
+/usr/bin/app-defined-loader	6.396	20	1	37	38	2.6316	67	未找到
+/usr/bin/appbinary-manager	196.256	180	1	1065	1066	0.0938	321	未找到
+/usr/bin/avocd	1244.41	1080	1	5317	5318	0.0188	632	未找到
+/usr/bin/bash	303.113	328	1	0	1	100.0	192	未找到
+/usr/bin/bt-monitor	68.613	124	1	233	234	0.4274	148	未找到
+/usr/bin/bt-service	543.332	824	698	0	698	100.0	466	未找到
+/usr/bin/common-daemon-basic-monitor	4.109	12	1	22	23	4.3478	38	未找到
+/usr/bin/connectivity-common-daemon	231.699	404	1	2097	2098	0.0477	209	未找到
+/usr/bin/csf-content-engine	243.562	284	1	1101	1102	0.0907	321	未找到
+/usr/bin/cynara	110.65	140	1	14	15	6.6667	167	未找到
+/usr/bin/data-service-collector/app/libcollector-app.so	4.617	16	0	59	59	0.0	53	未找到
+/usr/bin/data-service-collector/broadcast/libcollector-broadcast.so	42.688	96	0	265	265	0.0	153	未找到
+/usr/bin/data-service-collector/kpi/libcollector-kpi.so	66.184	148	0	383	383	0.0	226	未找到
+/usr/bin/data-service-collector/network/libcollector-network.so	3.891	16	0	52	52	0.0	52	未找到
+/usr/bin/data-service-collector/policy/libcollector-policy.so	3.102	16	0	49	49	0.0	44	未找到
+/usr/bin/data-service-collector/power/libcollector-power.so	10.336	28	0	69	69	0.0	73	未找到
+/usr/bin/data-service-collector/remocon/libcollector-remocon.so	3.164	16	0	51	51	0.0	51	未找到
+/usr/bin/data-service-collector/sensor/libcollector-sensor.so	4.281	16	0	63	63	0.0	46	未找到
+/usr/bin/data-service-collector/setting/libcollector-setting.so	24.23	56	0	136	136	0.0	76	未找到
+/usr/bin/data-service-collector/source/libcollector-source.so	10.531	28	0	66	66	0.0	92	未找到
+/usr/bin/data-service-collector/system/libcollector-system.so	18.055	48	0	105	105	0.0	112	未找到
+/usr/bin/data-service-collector/time/libcollector-time.so	5.836	20	0	60	60	0.0	68	未找到
+/usr/bin/deviced	555.582	532	961	0	961	100.0	362	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/bin/dotnet-hydra-loader	3.172	12	1	11	12	8.3333	51	未找到
+/usr/bin/dotnet-loader	1.926	8	1	3	4	25.0	36	未找到
+/usr/bin/enlightenment	1005.543	1424	1	1483	1484	0.0674	1259	未找到
+/usr/bin/esd	0.574	4	1	1	2	50.0	9	未找到
+/usr/bin/fconfigd	57.047	100	1	223	224	0.4464	201	未找到
+/usr/bin/fw-update-watcher	1.57	8	1	1	2	50.0	20	未找到
+/usr/bin/isf	81.078	124	0	19	19	0.0	302	未找到
+/usr/bin/issue_report_agent	3853.555	2232	1742	5126	6868	25.364	947	未找到
+/usr/bin/key-manager	738.938	396	1	153	154	0.6494	510	未找到
+/usr/bin/launchpad-loader	6.885	24	1	51	52	1.9231	74	未找到
+/usr/bin/launchpad-process-pool	157.711	260	1	1057	1058	0.0945	343	未找到
+/usr/bin/license-manager-agent	39.949	40	1	9	10	10.0	130	未找到
+/usr/bin/mediacontroller	1.16	8	1	1	2	50.0	30	未找到
+/usr/bin/muse-server	4.25	12	1	28	29	3.4483	26	未找到
+/usr/bin/p2p-asm	661.852	724	1	128	129	0.7752	380	未找到
+/usr/bin/pkginfo-server	1.227	8	1	0	1	100.0	37	未找到
+/usr/bin/psa-init	25.344	60	1	93	94	1.0638	153	未找到
+/usr/bin/pulseaudio	26.117	44	0	1	1	0.0	217	未找到
+/usr/bin/pushd	122.66	176	1	275	276	0.3623	291	未找到
+/usr/bin/register-device	94.543	136	1	63	64	1.5625	263	未找到
+/usr/bin/remote-server	353.977	288	100	0	100	100.0	429	未找到
+/usr/bin/resource-center	264.639	308	1	1528	1529	0.0654	226	未找到
+/usr/bin/resourced	104.348	164	1	3	4	25.0	243	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/bin/rscmgr-service	259.539	332	1	1162	1163	0.086	260	未找到
+/usr/bin/scenario-mgr-tv	231.836	288	1	928	929	0.1076	233	未找到
+/usr/bin/securestorage-server	69.611	124	1	250	251	0.3984	146	未找到
+/usr/bin/security-manager	51.559	80	1	18	19	5.2632	166	未找到
+/usr/bin/security-solution-daemon	7.93	24	1	51	52	1.9231	68	未找到
+/usr/bin/sesd	10.695	32	1	27	28	3.5714	86	未找到
+/usr/bin/settings-service	52.426	84	0	32	32	0.0	222	未找到
+/usr/bin/source-service	126.607	236	1	481	482	0.2075	233	未找到
+/usr/bin/speaker-manager	81.709	128	1	316	317	0.3155	172	未找到
+/usr/bin/team-launcher	0.582	4	1	2	3	33.3333	12	未找到
+/usr/bin/tizen-watcherd	176.494	204	0	20	20	0.0	251	未找到
+/usr/bin/tvctx-manager	0.48	4	1	1	2	50.0	16	未找到
+/usr/bin/tvs-daemon	114.816	248	1	668	669	0.1495	477	未找到
+/usr/bin/tvs-lite	46.027	96	1	363	364	0.2747	201	未找到
+/usr/bin/tzdaemon	3.334	12	0	2	2	0.0	53	未找到
+/usr/bin/usb-launcher-service	32.688	72	1	202	203	0.4926	149	未找到
+/usr/bin/vddebugmenu	10.578	24	47	0	47	100.0	55	未找到
+/usr/bin/was_background_update	163.156	208	1	508	509	0.1965	206	未找到
+/usr/bin/wfd-manager	137.877	188	1	432	433	0.2309	193	未找到
+/usr/bin/wrt	0.277	4	1	1	2	50.0	4	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/bin/zone-init	0.305	4	0	0	0		6	未找到
+/usr/lib/buxton2/sqlite.so	13.766	28	0	0	0		76	未找到
+/usr/lib/cynara/plugin/client/libaskuser-plugin-client.so	4.9	20	0	32	32	0.0	54	未找到
+/usr/lib/cynara/plugin/client/liblicense-manager-plugin-client.so	0.883	8	0	13	13	0.0	16	未找到
+/usr/lib/cynara/plugin/service/libaskuser-plugin-service.so	1.535	8	0	11	11	0.0	17	未找到
+/usr/lib/cynara/plugin/service/liblicense-manager-plugin-service.so	2.543	12	0	14	14	0.0	29	未找到
+/usr/lib/driver/libmali.so	13501.477	10024	5	1394	1399	0.3574	405	未找到
+/usr/lib/ecore_evas/engines/tbm/v-1.25/module.so	5.906	16	0	12	12	0.0	73	未找到
+/usr/lib/ecore_evas/engines/wayland/v-1.25/module.so	23.016	48	0	2	2	0.0	254	未找到
+/usr/lib/ecore_imf/modules/wayland/v-1.25/module.so	27.488	36	0	0	0		146	未找到
+/usr/lib/ecore_wl2/engines/dmabuf/v-1.25/module.so	0.871	4	0	0	0		27	未找到
+/usr/lib/elementary/modules/web/none/v-1.25/module.so	0.809	8	0	8	8	0.0	64	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-cursormgr-tv/linux-gnueabi-armv7l-0.20.0/module.so	156.98	256	0	232	232	0.0	353	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-effect/linux-gnueabi-armv7l-0.20.0/module.so	38.885	96	0	309	309	0.0	155	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-gesture/linux-gnueabi-armv7l-0.20.0/module.so	31.043	48	0	63	63	0.0	57	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-hwc-tv/linux-gnueabi-armv7l-0.20.0/module.so	24.367	56	0	3	3	0.0	75	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-keyrouter-tv/linux-gnueabi-armv7l-0.20.0/module.so	72.646	156	0	258	258	0.0	186	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-launchscreen/linux-gnueabi-armv7l-0.20.0/module.so	20.686	56	0	21	21	0.0	146	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-monitor-helper/linux-gnueabi-armv7l-0.20.0/module.so	61.887	120	0	100	100	0.0	239	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-processmgr/linux-gnueabi-armv7l-0.20.0/module.so	3.566	12	0	5	5	0.0	21	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-screencontroller-tv/linux-gnueabi-armv7l-0.20.0/module.so	58.453	112	0	456	456	0.0	160	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-screensaver/linux-gnueabi-armv7l-0.20.0/module.so	32.297	72	0	5	5	0.0	130	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-tvs-helper-tv/linux-gnueabi-armv7l-0.20.0/module.so	8.312	20	0	4	4	0.0	35	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-video-tv/linux-gnueabi-armv7l-0.20.0/module.so.0.1.0	20.51	48	0	35	35	0.0	104	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-virtualscreen-tv/linux-gnueabi-armv7l-0.20.0/module.so	240.227	392	0	1850	1850	0.0	239	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-wintok-tv/linux-gnueabi-armv7l-0.20.0/module.so	28.297	52	0	268	268	0.0	108	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-wl-textinput/linux-gnueabi-armv7l-0.20.0/module.so	29.164	40	0	3	3	0.0	61	未找到
+/usr/lib/enlightenment/modules/e-mod-tizen-wm-policy/linux-gnueabi-armv7l-0.20.0/module.so	113.844	196	0	55	55	0.0	218	未找到
+/usr/lib/evas/modules/engines/gl_generic/v-1.25/module.so	477.77	320	0	44	44	0.0	365	未找到
+/usr/lib/evas/modules/engines/gl_tbm/v-1.25/module.so	14.91	28	0	0	0		72	未找到
+/usr/lib/evas/modules/engines/wayland_egl/v-1.25/module.so	27.832	44	0	0	0		88	未找到
+/usr/lib/evas/modules/engines/wayland_shm/v-1.25/module.so	3.836	12	0	0	0		52	未找到
+/usr/lib/evas/modules/image_loaders/bmp/v-1.25/module.so	8.539	8	0	0	0		13	未找到
+/usr/lib/evas/modules/image_loaders/generic/v-1.25/module.so	2.316	8	0	0	0		34	未找到
+/usr/lib/evas/modules/image_loaders/gif/v-1.25/module.so	3.461	8	0	0	0		25	未找到
+/usr/lib/evas/modules/image_loaders/ico/v-1.25/module.so	3.637	8	0	0	0		19	未找到
+/usr/lib/evas/modules/image_loaders/pmaps/v-1.25/module.so	1.992	8	0	0	0		14	未找到
+/usr/lib/evas/modules/image_loaders/psd/v-1.25/module.so	3.371	8	0	0	0		13	未找到
+/usr/lib/evas/modules/image_loaders/tga/v-1.25/module.so	2.566	8	0	0	0		9	未找到
+/usr/lib/evas/modules/image_loaders/tiff/v-1.25/module.so	1.645	8	0	0	0		21	未找到
+/usr/lib/evas/modules/image_loaders/wbmp/v-1.25/module.so	0.871	4	0	0	0		7	未找到
+/usr/lib/evas/modules/image_loaders/webp/v-1.25/module.so	3.184	8	0	0	0		30	未找到
+/usr/lib/evas/modules/image_loaders/xpm/v-1.25/module.so	3.617	8	0	0	0		28	未找到
+/usr/lib/gconv/ISO8859-1.so	7.449	12	2	0	2	100.0	8	未找到
+/usr/lib/gconv/UTF-16.so	9.508	12	3	0	3	100.0	10	未找到
+/usr/lib/gstreamer-1.0/libgstcoreelements.so	214.797	172	0	2	2	0.0	508	未找到
+/usr/lib/gstreamer-1.0/libgstdirectvideosink.so	112.16	56	0	96	96	0.0	291	未找到
+/usr/lib/gstreamer-1.0/libgstffmpeg.so	313.031	188	0	88	88	0.0	727	未找到
+/usr/lib/gstreamer-1.0/libgstffmpegscale.so	4.297	8	0	6	6	0.0	64	未找到
+/usr/lib/gstreamer-1.0/libgstmmaudiosink.so	23.539	24	0	3	3	0.0	140	未找到
+/usr/lib/gstreamer-1.0/libgstomx.so	97.812	88	0	60	60	0.0	244	未找到
+/usr/lib/gstreamer-1.0/libgstplayback.so	243.797	116	0	2	2	0.0	514	未找到
+/usr/lib/gstreamer-1.0/libgstsstuner.so	57.512	116	0	35	35	0.0	176	未找到
+/usr/lib/gstreamer-1.0/libgsttvaudiosink.so	13.344	32	0	10	10	0.0	95	未找到
+/usr/lib/gstreamer-1.0/libgsttvvideosink.so	62.84	120	0	47	47	0.0	193	未找到
+/usr/lib/gstreamer-1.0/libgsttypefindfunctions.so	41.707	48	0	2	2	0.0	44	未找到
+/usr/lib/hal/libhal-api-audio.so.0.1.0	2.945	8	0	30	30	0.0	8	未找到
+/usr/lib/hal/libhal-api-common.so.0.1.0	36.207	44	25	0	25	100.0	58	未找到
+/usr/lib/hal/libhal-api-device.so.1.0.0	200.5	96	0	621	621	0.0	103	未找到
+/usr/lib/hal/libhal-api-security.so.1.1.0	5.512	8	0	76	76	0.0	6	未找到
+/usr/lib/hal/libhal-api-tbm.so.1.1	13.043	20	29	0	29	100.0	14	未找到
+/usr/lib/hal/libhal-api-tdm.so.0.1.0	29.074	40	87	0	87	100.0	17	未找到
+/usr/lib/ld-linux.so.3	134.48	160	22	0	22	100.0	0	未找到
+/usr/lib/libAT-HUB.so	70.73	168	0	522	522	0.0	239	未找到
+/usr/lib/libAppBinaryMgrServiceAPI.so	12.404	16	0	63	63	0.0	40	未找到
+/usr/lib/libBrokenLocale.so.1	4.316	4	1	0	1	100.0	5	未找到
+/usr/lib/libCLogger.so	7.621	24	0	42	42	0.0	75	未找到
+/usr/lib/libCOREGL.so.4.0	1310.867	252	0	491	491	0.0	42	未找到
+/usr/lib/libDDPDeviceInfo.so	213.457	384	0	1327	1327	0.0	387	未找到
+/usr/lib/libDDPLogManager.so	44.094	80	0	405	405	0.0	149	未找到
+/usr/lib/libDlnaReaderCore.so.0.0.0	66.789	44	0	257	257	0.0	95	未找到
+/usr/lib/libEGL.so.1.4	23.07	32	0	44	44	0.0	11	未找到
+/usr/lib/libEM_REE.so	24.168	44	0	76	76	0.0	106	未找到
+/usr/lib/libGLESv2.so.2.0	185.133	216	0	358	358	0.0	11	未找到
+/usr/lib/libGraphicsMagick.so.3.25.2	541.984	68	0	894	894	0.0	182	未找到
+/usr/lib/libHTLogTracker.so	63.041	120	0	630	630	0.0	129	未找到
+/usr/lib/libIUARTService.so	31.85	36	0	170	170	0.0	158	未找到
+/usr/lib/libQSysLink.so	24.059	40	0	56	56	0.0	76	未找到
+/usr/lib/libSLP-db-util.so.0.1.2	3.156	4	0	4	4	0.0	21	未找到
+/usr/lib/libSLP-tapi.so.0.0.0	141.48	16	0	152	152	0.0	88	未找到
+/usr/lib/libSWUProductionConfig.so	0.199	4	0	1	1	0.0	0	未找到
+/usr/lib/libSoftwareUpgradeAPI.so	476.207	1020	0	3372	3372	0.0	300	未找到
+/usr/lib/libVDCurl.so.0.9	44.52	100	0	246	246	0.0	106	未找到
+/usr/lib/libabsl_bad_optional_access.so.2407.0.0	0.281	4	0	5	5	0.0	5	未找到
+/usr/lib/libabsl_bad_variant_access.so.2407.0.0	0.287	4	0	6	6	0.0	6	未找到
+/usr/lib/libabsl_base.so.2407.0.0	2.27	8	0	20	20	0.0	24	未找到
+/usr/lib/libabsl_city.so.2407.0.0	3.373	4	0	4	4	0.0	0	未找到
+/usr/lib/libabsl_cord.so.2407.0.0	37.426	24	0	145	145	0.0	74	未找到
+/usr/lib/libabsl_cord_internal.so.2407.0.0	22.898	12	0	60	60	0.0	28	未找到
+/usr/lib/libabsl_cordz_functions.so.2407.0.0	0.5	4	0	4	4	0.0	3	未找到
+/usr/lib/libabsl_cordz_handle.so.2407.0.0	1.471	8	0	16	16	0.0	17	未找到
+/usr/lib/libabsl_cordz_info.so.2407.0.0	3.41	8	0	22	22	0.0	25	未找到
+/usr/lib/libabsl_crc32c.so.2407.0.0	1.16	8	0	18	18	0.0	12	未找到
+/usr/lib/libabsl_crc_cord_state.so.2407.0.0	5.906	12	0	47	47	0.0	20	未找到
+/usr/lib/libabsl_crc_internal.so.2407.0.0	2.697	8	0	18	18	0.0	16	未找到
+/usr/lib/libabsl_debugging_internal.so.2407.0.0	3.242	8	0	34	34	0.0	13	未找到
+/usr/lib/libabsl_decode_rust_punycode.so.2407.0.0	1.328	4	0	2	2	0.0	5	未找到
+/usr/lib/libabsl_demangle_internal.so.2407.0.0	12.527	4	0	2	2	0.0	11	未找到
+/usr/lib/libabsl_demangle_rust.so.2407.0.0	3.648	4	0	1	1	0.0	7	未找到
+/usr/lib/libabsl_examine_stack.so.2407.0.0	1.043	4	0	5	5	0.0	12	未找到
+/usr/lib/libabsl_exponential_biased.so.2407.0.0	0.547	4	0	3	3	0.0	4	未找到
+/usr/lib/libabsl_graphcycles_internal.so.2407.0.0	4.701	12	0	19	19	0.0	15	未找到
+/usr/lib/libabsl_hash.so.2407.0.0	0.791	4	0	4	4	0.0	4	未找到
+/usr/lib/libabsl_int128.so.2407.0.0	4.543	12	0	20	20	0.0	25	未找到
+/usr/lib/libabsl_kernel_timeout_internal.so.2407.0.0	1.289	4	0	14	14	0.0	14	未找到
+/usr/lib/libabsl_log_globals.so.2407.0.0	1.594	8	0	27	27	0.0	17	未找到
+/usr/lib/libabsl_log_internal_check_op.so.2407.0.0	3.621	8	0	30	30	0.0	25	未找到
+/usr/lib/libabsl_log_internal_format.so.2407.0.0	1.586	8	0	6	6	0.0	19	未找到
+/usr/lib/libabsl_log_internal_globals.so.2407.0.0	0.492	4	0	13	13	0.0	6	未找到
+/usr/lib/libabsl_log_internal_log_sink_set.so.2407.0.0	2.164	8	0	14	14	0.0	34	未找到
+/usr/lib/libabsl_log_internal_message.so.2407.0.0	6.121	20	0	88	88	0.0	77	未找到
+/usr/lib/libabsl_log_internal_nullguard.so.2407.0.0	0.195	4	0	0	0		0	未找到
+/usr/lib/libabsl_log_internal_proto.so.2407.0.0	2.094	4	0	8	8	0.0	4	未找到
+/usr/lib/libabsl_log_sink.so.2407.0.0	0.203	4	0	4	4	0.0	1	未找到
+/usr/lib/libabsl_low_level_hash.so.2407.0.0	0.92	4	0	2	2	0.0	0	未找到
+/usr/lib/libabsl_malloc_internal.so.2407.0.0	3.781	8	0	9	9	0.0	21	未找到
+/usr/lib/libabsl_raw_hash_set.so.2407.0.0	3.969	8	0	25	25	0.0	6	未找到
+/usr/lib/libabsl_raw_logging_internal.so.2407.0.0	0.998	4	0	10	10	0.0	12	未找到
+/usr/lib/libabsl_spinlock_wait.so.2407.0.0	0.445	4	0	4	4	0.0	4	未找到
+/usr/lib/libabsl_stacktrace.so.2407.0.0	1.07	4	0	7	7	0.0	6	未找到
+/usr/lib/libabsl_str_format_internal.so.2407.0.0	30.426	28	0	121	121	0.0	60	未找到
+/usr/lib/libabsl_strerror.so.2407.0.0	0.762	4	0	3	3	0.0	19	未找到
+/usr/lib/libabsl_string_view.so.2407.0.0	1.982	4	0	14	14	0.0	14	未找到
+/usr/lib/libabsl_strings.so.2407.0.0	33.041	20	0	147	147	0.0	52	未找到
+/usr/lib/libabsl_strings_internal.so.2407.0.0	1.031	8	0	6	6	0.0	23	未找到
+/usr/lib/libabsl_symbolize.so.2407.0.0	6.438	8	0	10	10	0.0	41	未找到
+/usr/lib/libabsl_synchronization.so.2407.0.0	16.506	36	0	112	112	0.0	73	未找到
+/usr/lib/libabsl_throw_delegate.so.2407.0.0	1.281	8	0	20	20	0.0	35	未找到
+/usr/lib/libabsl_time.so.2407.0.0	20.797	16	0	122	122	0.0	42	未找到
+/usr/lib/libabsl_time_zone.so.2407.0.0	29.758	28	0	123	123	0.0	70	未找到
+/usr/lib/libabsl_utf8_for_code_point.so.2407.0.0	0.352	4	0	2	2	0.0	0	未找到
+/usr/lib/libaccount-common.so.0.1.1	41.738	28	0	205	205	0.0	151	未找到
+/usr/lib/libaccounts-svc.so.0.4.5	35.543	16	0	93	93	0.0	103	未找到
+/usr/lib/libacl.so.1.1.2302	9.238	8	0	41	41	0.0	42	未找到
+/usr/lib/libacm-interface-api.so	40.275	60	0	223	223	0.0	115	未找到
+/usr/lib/libadinfo.so	3.076	4	0	8	8	0.0	21	未找到
+/usr/lib/libaitechapputil.so.0.1	55.016	104	0	437	437	0.0	87	未找到
+/usr/lib/libalarm.so.0.14.11	50.051	80	0	151	151	0.0	126	未找到
+/usr/lib/liballshare.so.1.4.0	88.891	92	0	293	293	0.0	87	未找到
+/usr/lib/libambient-linker.so.0.0.509	2.344	4	0	7	7	0.0	18	未找到
+/usr/lib/libamd.so.1.80.19	466.242	700	0	639	639	0.0	494	未找到
+/usr/lib/libanalog-input-control.so.0.1	3.199	8	0	31	31	0.0	8	未找到
+/usr/lib/libaot-manager-client.so.1.1.1	4.156	16	0	17	17	0.0	47	未找到
+/usr/lib/libapp-context-manager-common.so	95.367	200	0	343	343	0.0	404	未找到
+/usr/lib/libapp-context-manager.so	76.42	184	0	383	383	0.0	339	未找到
+/usr/lib/libapp-control-api.so	1.969	8	0	11	11	0.0	31	未找到
+/usr/lib/libapp-core-cpp.so.1.27.17	24.236	60	0	139	139	0.0	140	未找到
+/usr/lib/libapp-core-efl-cpp.so.1.27.17	4.545	20	0	32	32	0.0	110	未找到
+/usr/lib/libapp-core-extension.so.0.1.0	2.391	8	0	7	7	0.0	38	未找到
+/usr/lib/libapp-core-multi-context-cpp.so.1.27.17	6.279	20	0	66	66	0.0	59	未找到
+/usr/lib/libapp-core-multi-window-cpp.so.1.27.17	10.432	44	0	110	110	0.0	104	未找到
+/usr/lib/libapp-core-rotation-cpp.so.1.27.17	1.01	4	0	10	10	0.0	17	未找到
+/usr/lib/libapp-core-ui-cpp.so.1.27.17	26.896	80	0	262	262	0.0	183	未找到
+/usr/lib/libapp-data-channel.so	22.117	28	0	97	97	0.0	70	未找到
+/usr/lib/libapp-installers.so.1.37.9	1261.016	232	0	887	887	0.0	492	未找到
+/usr/lib/libapp2ext.so.0.8.2	5.516	4	13	0	13	100.0	9	未找到
+/usr/lib/libapp2sd.so.1.6.1	21.453	24	8	0	8	100.0	59	未找到
+/usr/lib/libapp_watchdog.so.0.0.1	0.229	4	0	4	4	0.0	5	未找到
+/usr/lib/libappcore-agent.so.1.7.5	8.375	20	0	16	16	0.0	70	未找到
+/usr/lib/libappcore-common.so.1.27.17	7.527	20	0	50	50	0.0	100	未找到
+/usr/lib/libappcore-efl.so.1.27.17	1.125	8	0	8	8	0.0	55	未找到
+/usr/lib/libappcore-multiwindow.so.1.27.17	3.18	8	0	39	39	0.0	34	未找到
+/usr/lib/libappcore-ui.so.1.27.17	6.801	8	0	28	28	0.0	63	未找到
+/usr/lib/libappcore-widget-base.so.1.6.0	19.586	24	0	85	85	0.0	162	未找到
+/usr/lib/libappdrm.so.0.1.0	56.863	48	0	195	195	0.0	199	未找到
+/usr/lib/libappsvc.so.0.1.0	0.34	8	0	33	33	0.0	35	未找到
+/usr/lib/libapputil.so.0.1.0	23.73	48	0	139	139	0.0	52	未找到
+/usr/lib/libargos_watchdog.so.0.0.1	0.221	4	0	3	3	0.0	4	未找到
+/usr/lib/libargot-platform.so.1.5.4	89.826	100	0	37	37	0.0	152	未找到
+/usr/lib/libasfmediasharecp.so	251.803	280	0	422	422	0.0	203	未找到
+/usr/lib/libasfupnpcd.so	455.006	632	0	961	961	0.0	358	未找到
+/usr/lib/libasfupnpcp.so	464.219	680	0	950	950	0.0	349	未找到
+/usr/lib/libaskuser-notification-common.so.0.1.0	41.805	52	0	141	141	0.0	108	未找到
+/usr/lib/libasound.so.2.0.0	326.473	304	0	1683	1683	0.0	150	未找到
+/usr/lib/libatk-1.0.so.0.23609.1	41.543	32	0	296	296	0.0	114	未找到
+/usr/lib/libatk-bridge-2.0.so.0.0.0	51.848	36	0	108	108	0.0	382	未找到
+/usr/lib/libatomic.so.1.2.0	12.051	16	0	12	12	0.0	5	未找到
+/usr/lib/libatspi.so.0.0.1	58.25	52	0	404	404	0.0	236	未找到
+/usr/lib/libattr.so.1.1.2501	5.463	4	0	26	26	0.0	35	未找到
+/usr/lib/libaudio-control.so.0.1	45.793	88	0	309	309	0.0	7	未找到
+/usr/lib/libaudio-effect.so.0.0.1	2.711	4	0	14	14	0.0	12	未找到
+/usr/lib/libaudiosync-api.so.0.0.1	35.812	24	0	333	333	0.0	74	未找到
+/usr/lib/libaul-blink.so.0.83.21	0.986	4	0	9	9	0.0	16	未找到
+/usr/lib/libaul-ex.so.0.1.0	0.422	4	0	1	1	0.0	9	未找到
+/usr/lib/libaul-extension.so.0.1.0	15.113	36	0	57	57	0.0	98	未找到
+/usr/lib/libaul-server.so.0.83.21	25.004	48	0	179	179	0.0	48	未找到
+/usr/lib/libaul.so.0.83.21	260.748	484	0	1456	1456	0.0	416	未找到
+/usr/lib/libautoinput.so.0.0.87	7.393	16	0	12	12	0.0	32	未找到
+/usr/lib/libavcodec.so.61.19.100	3168.789	348	0	160	160	0.0	274	未找到
+/usr/lib/libavformat.so.61.7.100	455.219	348	0	157	157	0.0	326	未找到
+/usr/lib/libavoc-managed.so	5.512	20	0	71	71	0.0	75	未找到
+/usr/lib/libavoc.so	627.465	684	0	3293	3293	0.0	212	未找到
+/usr/lib/libavutil.so.59.39.100	379.414	192	0	586	586	0.0	101	未找到
+/usr/lib/libawm-app.so	3.83	12	0	8	8	0.0	35	未找到
+/usr/lib/libawm.so.0.0.1	8.992	12	0	26	26	0.0	54	未找到
+/usr/lib/libbase-utils-i18n.so.3.1.5	153.406	124	0	985	985	0.0	565	未找到
+/usr/lib/libbattery-control.so.0.1	6.512	4	0	22	22	0.0	7	未找到
+/usr/lib/libbixby.so	23.82	72	0	189	189	0.0	88	未找到
+/usr/lib/libblkid.so.1.1.0	88.418	28	0	110	110	0.0	107	未找到
+/usr/lib/libbluetooth-api.so.1.0.0	693.062	356	607	0	607	100.0	178	未找到
+/usr/lib/libbluetooth-hardware.so.1.0.0	4.141	12	0	19	19	0.0	15	未找到
+/usr/lib/libbluetooth-host.so.1.0.0	79.742	140	0	565	565	0.0	16	未找到
+/usr/lib/libbms-api.so	54.977	156	0	474	474	0.0	141	未找到
+/usr/lib/libboost_atomic.so.1.83.0	3.512	4	10	0	10	100.0	14	未找到
+/usr/lib/libboost_chrono.so.1.83.0	9.395	8	16	0	16	100.0	33	未找到
+/usr/lib/libboost_date_time.so.1.83.0	0.199	4	1	0	1	100.0	1	未找到
+/usr/lib/libboost_filesystem.so.1.83.0	71.625	100	127	0	127	100.0	102	未找到
+/usr/lib/libboost_iostreams.so.1.83.0	22.098	20	107	0	107	100.0	64	未找到
+/usr/lib/libboost_prg_exec_monitor.so.1.83.0	28.957	36	20	0	20	100.0	86	未找到
+/usr/lib/libboost_program_options.so.1.83.0	147.93	68	181	0	181	100.0	91	未找到
+/usr/lib/libboost_random.so.1.83.0	6.926	8	8	0	8	100.0	32	未找到
+/usr/lib/libboost_regex.so.1.83.0	207.594	16	8	0	8	100.0	88	未找到
+/usr/lib/libboost_serialization.so.1.83.0	101.359	108	353	0	353	100.0	88	未找到
+/usr/lib/libboost_system.so.1.83.0	0.199	4	1	0	1	100.0	1	未找到
+/usr/lib/libboost_thread.so.1.83.0	44.426	48	43	0	43	100.0	84	未找到
+/usr/lib/libboost_unit_test_framework.so.1.83.0	370.273	116	286	0	286	100.0	161	未找到
+/usr/lib/libboost_wserialization.so.1.83.0	73.242	40	156	0	156	100.0	101	未找到
+/usr/lib/libbptime.so	1.781	8	0	14	14	0.0	11	未找到
+/usr/lib/libbroadcast-diagnosis.so.0.1	3.957	12	0	24	24	0.0	6	未找到
+/usr/lib/libbroadcastapp-util-core.so.0.1.0	95.391	184	0	438	438	0.0	141	未找到
+/usr/lib/libbroadcastapp-util.so.0.1.0	74.133	104	0	483	483	0.0	357	未找到
+/usr/lib/libbrotlicommon.so.1.1.0	1.82	4	9	0	9	100.0	4	未找到
+/usr/lib/libbrotlidec.so.1.1.0	28.711	4	14	0	14	100.0	12	未找到
+/usr/lib/libbrotlienc.so.1.1.0	342.414	8	13	0	13	100.0	11	未找到
+/usr/lib/libbt-settings-api.so	30.023	60	0	135	135	0.0	114	未找到
+/usr/lib/libbuds360.so	6.83	12	0	24	24	0.0	75	未找到
+/usr/lib/libbundle.so.0.18.15	34.285	88	0	288	288	0.0	76	未找到
+/usr/lib/libbuxton2.so.1.1	35.543	60	0	69	69	0.0	134	未找到
+/usr/lib/libbz2.so.1.0.8	37.734	4	0	33	33	0.0	21	未找到
+/usr/lib/libc-2.40.so	1107.25	1056	3000	3	3003	99.9001	15	未找到
+/usr/lib/libca-api.so	39.326	68	0	291	291	0.0	68	未找到
+/usr/lib/libcairo.so.2.11400.2	461.906	192	0	403	403	0.0	247	未找到
+/usr/lib/libcamera_device_manager.so	10.566	24	0	27	27	0.0	55	未找到
+/usr/lib/libcap.so.2.73	11.684	20	0	67	67	0.0	52	未找到
+/usr/lib/libcapi-ai-interpreter-tv.so.2.3.0	19.131	16	0	87	87	0.0	15	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libcapi-android-utils-tv.so.1.0.17	9.799	24	0	255	255	0.0	112	未找到
+/usr/lib/libcapi-aov-tv.so	83.203	144	0	584	584	0.0	104	未找到
+/usr/lib/libcapi-appfw-alarm.so.0.3.5	3.293	8	0	30	30	0.0	31	未找到
+/usr/lib/libcapi-appfw-app-common.so.0.16.4	6.34	24	0	60	60	0.0	75	未找到
+/usr/lib/libcapi-appfw-app-context-manager.so	3.594	12	0	20	20	0.0	25	未找到
+/usr/lib/libcapi-appfw-app-control-uri.so.0.26.2	5.641	12	0	56	56	0.0	24	未找到
+/usr/lib/libcapi-appfw-app-control.so.0.26.2	35.445	96	0	265	265	0.0	123	未找到
+/usr/lib/libcapi-appfw-app-manager.so.0.17.0	16.211	36	0	80	80	0.0	125	未找到
+/usr/lib/libcapi-appfw-app-operation-tv.so.0.1.0	2.092	4	0	8	8	0.0	20	未找到
+/usr/lib/libcapi-appfw-application.so.0.10.0	2.471	12	0	15	15	0.0	63	未找到
+/usr/lib/libcapi-appfw-event.so.0.6.20	10.27	36	0	97	97	0.0	55	未找到
+/usr/lib/libcapi-appfw-package-manager.so.0.15.2	16.762	44	0	118	118	0.0	144	未找到
+/usr/lib/libcapi-appfw-preference.so.0.6.23	22.949	56	0	153	153	0.0	82	未找到
+/usr/lib/libcapi-appfw-tizen-action.so.1.7.0	108.504	156	0	350	350	0.0	119	未找到
+/usr/lib/libcapi-appfw-united-service.so.1.7.5	30.949	24	0	87	87	0.0	106	未找到
+/usr/lib/libcapi-audio-share-tv.so.0.4.1	12.98	12	0	54	54	0.0	86	未找到
+/usr/lib/libcapi-base-common.so.0.4.82	0.445	16	0	4	4	0.0	5	未找到
+/usr/lib/libcapi-boost-tv.so.0.0.1	7.059	16	0	37	37	0.0	42	未找到
+/usr/lib/libcapi-bt-le-extended-tv.so.0.0.1	18.531	12	0	20	20	0.0	80	未找到
+/usr/lib/libcapi-coba-core-tv.so	748.719	1256	0	2690	2690	0.0	485	未找到
+/usr/lib/libcapi-connectivity-common-daemon.so.1.0.1	17.246	40	0	124	124	0.0	30	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libcapi-content-media-content.so.0.6.12	62.699	108	0	274	274	0.0	90	未找到
+/usr/lib/libcapi-context-engine.so.0.0.1	72.969	108	0	283	283	0.0	100	未找到
+/usr/lib/libcapi-convergence-bnr.so.1.0.0	14.121	24	0	23	23	0.0	77	未找到
+/usr/lib/libcapi-dali-oneui-tv.so.2.0.0	22.145	56	0	130	130	0.0	211	未找到
+/usr/lib/libcapi-encoder-tv.so.0.9.0	47.438	16	0	99	99	0.0	139	未找到
+/usr/lib/libcapi-gamebar-tv.so.1.0.0	5.416	12	0	42	42	0.0	43	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libcapi-hbbtv-tv.so.0.1	4.086	16	0	23	23	0.0	29	未找到
+/usr/lib/libcapi-homedatacontrol-service.so.0.5	56.52	68	0	182	182	0.0	108	未找到
+/usr/lib/libcapi-ics-tv.so.0.1	0.469	4	0	2	2	0.0	5	未找到
+/usr/lib/libcapi-media-audio-io.so.0.6.1	46.746	36	0	254	254	0.0	126	未找到
+/usr/lib/libcapi-media-camera.so.0.5.0	73.234	20	0	237	237	0.0	113	未找到
+/usr/lib/libcapi-media-controller.so.0.3.2	51.326	60	0	215	215	0.0	75	未找到
+/usr/lib/libcapi-media-epplayer.so.0.4.0	47.438	16	0	122	122	0.0	97	未找到
+/usr/lib/libcapi-media-image-util.so.0.4.6	17.281	36	0	61	61	0.0	87	未找到
+/usr/lib/libcapi-media-metadata-extractor.so	5.113	16	0	9	9	0.0	24	未找到
+/usr/lib/libcapi-media-player.so.0.4.0	139.57	88	0	325	325	0.0	162	未找到
+/usr/lib/libcapi-media-sound-manager-tv.so.0.1.3	17.93	44	0	108	108	0.0	60	未找到
+/usr/lib/libcapi-media-sound-manager.so.0.7.15	64.844	44	0	199	199	0.0	126	未找到
+/usr/lib/libcapi-media-tool.so.0.2.0	30.18	12	0	110	110	0.0	48	未找到
+/usr/lib/libcapi-minimusicplayer-tv.so.1.0.10	1.27	4	0	1	1	0.0	17	未找到
+/usr/lib/libcapi-multiview-tv.so.0.1.0	36.0	80	0	169	169	0.0	89	未找到
+/usr/lib/libcapi-mva-tv.so	37.148	24	0	204	204	0.0	39	未找到
+/usr/lib/libcapi-network-bluetooth-tv.so.0.1.04_tv	125.395	164	0	416	416	0.0	270	未找到
+/usr/lib/libcapi-network-bluetooth.so.0.5.3	337.066	252	0	723	723	0.0	445	未找到
+/usr/lib/libcapi-network-connection.so.1.0.139_20260710	57.324	96	0	232	232	0.0	119	未找到
+/usr/lib/libcapi-network-mtp.so.1.3.21	32.227	64	0	209	209	0.0	109	未找到
+/usr/lib/libcapi-network-tethering.so.0.1.0	43.715	12	0	94	94	0.0	75	未找到
+/usr/lib/libcapi-network-wifi-aware.so.0.2.0	37.516	16	0	142	142	0.0	41	未找到
+/usr/lib/libcapi-network-wifi-manager.so.1.3.25	161.348	188	0	251	251	0.0	108	未找到
+/usr/lib/libcapi-network-wifi.so.1.0.128+tv	19.0	40	0	168	168	0.0	167	未找到
+/usr/lib/libcapi-phm-tv.so	52.754	176	0	543	543	0.0	202	未找到
+/usr/lib/libcapi-register-device.so.1.0.0	29.742	40	0	40	40	0.0	57	未找到
+/usr/lib/libcapi-screen.so.0.1.0	21.633	24	0	99	99	0.0	40	未找到
+/usr/lib/libcapi-screensaver.so	3.543	12	0	19	19	0.0	20	未找到
+/usr/lib/libcapi-selfdiagframework-tv.so	7.789	16	0	39	39	0.0	52	未找到
+/usr/lib/libcapi-sessiond-tv.so	2.266	8	0	11	11	0.0	16	未找到
+/usr/lib/libcapi-sound-sensor-tv.so.1.2.1	21.398	32	0	46	46	0.0	118	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libcapi-sso-service-tv.so	13.289	36	0	60	60	0.0	73	未找到
+/usr/lib/libcapi-standardseal-tv.so.0.1.6	40.434	52	0	14	14	0.0	129	未找到
+/usr/lib/libcapi-sys-event.so	0.383	4	0	2	2	0.0	6	未找到
+/usr/lib/libcapi-system-device.so.0.1.0	22.508	40	0	89	89	0.0	73	未找到
+/usr/lib/libcapi-system-display-rotator.so.0.1.1	0.252	4	0	10	10	0.0	0	未找到
+/usr/lib/libcapi-system-info.so.0.2.1	15.062	36	0	60	60	0.0	43	未找到
+/usr/lib/libcapi-system-resource-plugin.so.0.0.1	2.859	8	0	15	15	0.0	22	未找到
+/usr/lib/libcapi-system-resource.so.1.0.0	1.385	4	0	7	7	0.0	6	未找到
+/usr/lib/libcapi-system-runtime-info.so.0.0.200	13.941	20	0	49	49	0.0	54	未找到
+/usr/lib/libcapi-system-sensor.so.0.2.5	13.162	16	0	84	84	0.0	70	未找到
+/usr/lib/libcapi-system-system-settings.so.0.0.6	29.684	84	0	221	221	0.0	81	未找到
+/usr/lib/libcapi-system-tvtimer.so	7.781	12	0	64	64	0.0	51	未找到
+/usr/lib/libcapi-system-usbdevice.so	39.418	88	0	213	213	0.0	128	未找到
+/usr/lib/libcapi-tts-wrapper-tv.so	0.484	4	0	4	4	0.0	7	未找到
+/usr/lib/libcapi-tvsensor-tv.so	24.305	52	0	169	169	0.0	106	未找到
+/usr/lib/libcapi-ui-autofill-common.so.0.10.2	10.543	8	0	91	91	0.0	9	未找到
+/usr/lib/libcapi-ui-autofill.so.0.10.2	40.539	8	0	13	13	0.0	90	未找到
+/usr/lib/libcapi-ui-config-manager-tv.so.0.1.0	14.5	32	0	45	45	0.0	72	未找到
+/usr/lib/libcapi-ui-efl-util.so.0.8.38	17.438	32	0	53	53	0.0	66	未找到
+/usr/lib/libcapi-ui-inputmethod-manager.so.0.10.1	0.867	4	0	6	6	0.0	23	未找到
+/usr/lib/libcapi-va-policy-tv.so.0.2	42.719	28	0	72	72	0.0	111	未找到
+/usr/lib/libcapi-vd-connectivity-data-mgr-tv.so.0.0.1	6.734	16	0	22	22	0.0	36	未找到
+/usr/lib/libcapi-voice-interaction-tv.so.1.1.0	36.625	96	0	344	344	0.0	97	未找到
+/usr/lib/libcapi-web-url-download.so.0.1.0	7.219	12	0	65	65	0.0	67	未找到
+/usr/lib/libcapi-window-tv.so.0.0.45	11.926	20	0	137	137	0.0	168	未找到
+/usr/lib/libcares.so.2.7.2	41.699	52	0	61	61	0.0	57	未找到
+/usr/lib/libcc-parser.so.0.1	8.787	20	0	96	96	0.0	27	未找到
+/usr/lib/libcdmbase.so.0.1.0	60.621	100	0	383	383	0.0	109	未找到
+/usr/lib/libcert-svc-vcore.so.2.2.2	188.941	260	0	731	731	0.0	327	未找到
+/usr/lib/libchromium-ewk.so	73.957	16	0	1137	1137	0.0	53	未找到
+/usr/lib/libci-api.so	186.963	284	0	1319	1319	0.0	259	未找到
+/usr/lib/libcion.so.1.2.28	328.174	288	0	979	979	0.0	295	未找到
+/usr/lib/libclearkey.so.0.1.0	24.168	36	0	145	145	0.0	95	未找到
+/usr/lib/libcomss-api.so	10.629	24	0	18	18	0.0	65	未找到
+/usr/lib/libcontent-db-api.so.0.6.0	60.242	116	0	232	232	0.0	185	未找到
+/usr/lib/libcontent-db.so.0.3.0	48.242	96	0	218	218	0.0	103	未找到
+/usr/lib/libcontents-recognition-api.so.1.0.0	127.043	120	595	0	595	100.0	125	未找到
+/usr/lib/libcontext-aware-api.so.1.1.2	41.094	84	0	239	239	0.0	114	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libcontext-aware-common.so	16.293	28	0	154	154	0.0	141	未找到
+/usr/lib/libcore-light-control.so.0.1	1.785	4	0	12	12	0.0	6	未找到
+/usr/lib/libcore.so	1.898	4	0	8	8	0.0	10	未找到
+/usr/lib/libcoreapp-api.so	17.781	8	31	0	31	100.0	50	未找到
+/usr/lib/libcoreapp-fw-serv.so.0.1.0	1.945	12	0	50	50	0.0	40	未找到
+/usr/lib/libcoreapp-fw-slim.so.0.1.0	32.59	76	0	195	195	0.0	136	未找到
+/usr/lib/libcoreapp-fw.so.0.1.0	51.869	56	0	354	354	0.0	140	未找到
+/usr/lib/libcoreapp-util-channel.so.0.1.0	7.883	16	0	119	119	0.0	18	未找到
+/usr/lib/libcoreapp-util-source.so.0.1.0	5.553	20	0	36	36	0.0	37	未找到
+/usr/lib/libcoreapp-util.so.0.1.0	27.609	20	0	75	75	0.0	96	未找到
+/usr/lib/libcorelight-api.so	5.617	16	0	73	73	0.0	38	未找到
+/usr/lib/libcrypt.so.1.1.0	61.809	8	0	29	29	0.0	25	未找到
+/usr/lib/libcrypto.so.1.1	877.773	1168	0	4212	4212	0.0	149	未找到
+/usr/lib/libcrypto.so.3	1136.898	1372	0	5340	5340	0.0	149	未找到
+/usr/lib/libcryptocore.so.0.1.0	148.188	128	0	402	402	0.0	23	未找到
+/usr/lib/libcsf-content-agent.so.25.02.03.1	593.172	620	0	2249	2249	0.0	432	未找到
+/usr/lib/libcsf-thumbnail-flash-cache.so.25.02.03.1	33.322	60	0	122	122	0.0	112	未找到
+/usr/lib/libcsf-thumbnail.so.25.02.03.1	206.195	308	0	903	903	0.0	294	未找到
+/usr/lib/libcsf-uhd.so	42.992	36	0	222	222	0.0	91	未找到
+/usr/lib/libcurl.so.4.8.0	307.523	352	0	94	94	0.0	401	未找到
+/usr/lib/libcursor-shape-v1-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libcursor-shape-v1-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libcynara-admin.so.0.26.0	48.367	64	0	12	12	0.0	89	未找到
+/usr/lib/libcynara-agent.so.0.26.0	15.59	24	0	11	11	0.0	55	未找到
+/usr/lib/libcynara-client-async.so.0.26.0	27.648	40	0	17	17	0.0	75	未找到
+/usr/lib/libcynara-client-commons.so.0.26.0	9.994	24	0	43	43	0.0	49	未找到
+/usr/lib/libcynara-client.so.0.26.0	15.617	28	0	8	8	0.0	57	未找到
+/usr/lib/libcynara-commons.so.0.26.0	125.25	268	0	772	772	0.0	101	未找到
+/usr/lib/libcynara-creds-commons.so.0.26.0	8.176	20	0	12	12	0.0	52	未找到
+/usr/lib/libcynara-creds-gdbus.so.0.26.0	4.246	12	0	5	5	0.0	36	未找到
+/usr/lib/libcynara-creds-pid.so.0.26.0	5.67	12	0	3	3	0.0	37	未找到
+/usr/lib/libcynara-creds-self.so.0.26.0	2.555	8	0	2	2	0.0	30	未找到
+/usr/lib/libcynara-creds-socket.so.0.26.0	2.236	8	0	3	3	0.0	28	未找到
+/usr/lib/libcynara-session.so.0.26.0	0.617	4	0	1	1	0.0	9	未找到
+/usr/lib/libcynara-storage.so.0.26.0	55.699	120	0	275	275	0.0	110	未找到
+/usr/lib/libcynara-uid-creds.so..26.0	5.418	8	0	11	11	0.0	33	未找到
+/usr/lib/libcynara-uid.so.0.26.0	0.34	4	0	3	3	0.0	0	未找到
+/usr/lib/libdali-extension-tv-bg-blur.so.0.1.0	2.422	12	0	29	29	0.0	18	未找到
+/usr/lib/libdali-extension-tv-create.so.0.1.0	1.408	8	0	7	7	0.0	25	未找到
+/usr/lib/libdali-extension-tv.so.0.1.0	176.139	324	0	1428	1428	0.0	759	未找到
+/usr/lib/libdali2-adaptor-application-normal.so	8.727	24	0	5	5	0.0	113	未找到
+/usr/lib/libdali2-adaptor-gles.so	266.25	328	0	163	163	0.0	514	未找到
+/usr/lib/libdali2-adaptor.so.2.0.0	1487.715	1424	0	2410	2410	0.0	1364	未找到
+/usr/lib/libdali2-core.so.2.0.0	929.281	1208	0	2729	2729	0.0	152	未找到
+/usr/lib/libdali2-csharp-binder.so.2.0.0	1952.309	1432	0	5862	5862	0.0	2825	未找到
+/usr/lib/libdali2-toolkit.so.2.0.0	1747.117	1556	0	2102	2102	0.0	1545	未找到
+/usr/lib/libdali2-ui-foundation.so.2.0.0	2047.812	2224	0	7199	7199	0.0	1457	未找到
+/usr/lib/libdali2-vector-animation-renderer-plugin.so.0.0.0	18.492	28	0	91	91	0.0	115	未找到
+/usr/lib/libdashplusplayer.so	244.756	588	0	2031	2031	0.0	286	未找到
+/usr/lib/libdata-control.so.0.4.30	52.59	52	0	99	99	0.0	135	未找到
+/usr/lib/libdata-service-api.so.0.0.1	7.895	24	0	57	57	0.0	51	未找到
+/usr/lib/libdata-service-common.so	66.324	100	0	474	474	0.0	149	未找到
+/usr/lib/libdbus-1.so.3.19.13	205.613	272	561	0	561	100.0	131	未找到
+/usr/lib/libdbus-glib-1.so.2.2.2	51.654	32	0	93	93	0.0	363	未找到
+/usr/lib/libdbuspolicy1.so.1.1.0	59.465	64	0	10	10	0.0	126	未找到
+/usr/lib/libdebug_rcv.so	82.691	132	0	327	327	0.0	219	未找到
+/usr/lib/libdelta-manifest-handlers.so	5.086	12	0	33	33	0.0	20	未找到
+/usr/lib/libdemux-control.so.0.1	4.113	4	0	26	26	0.0	6	未找到
+/usr/lib/libdevice-certificate-manager.so.3.0.0	54.484	20	0	6	6	0.0	143	未找到
+/usr/lib/libdevice-detector-api.so.0.1.0	49.621	56	0	246	246	0.0	103	未找到
+/usr/lib/libdevice-manager-cpp.so	29.176	64	0	87	87	0.0	115	未找到
+/usr/lib/libdeviced.so.1.0.3	151.547	204	307	0	307	100.0	120	未找到
+/usr/lib/libdfs-adaptation.so.1.0.10	2.387	8	0	14	14	0.0	30	未找到
+/usr/lib/libdisplay-panel.so.0.1	17.727	36	0	93	93	0.0	6	未找到
+/usr/lib/libdl.so.2	4.258	4	1	0	1	100.0	4	未找到
+/usr/lib/libdlog.so.0.0.0	4.77	12	0	32	32	0.0	38	未找到
+/usr/lib/libdlog_redirect_stdout.so.0.0.0	0.758	4	0	4	4	0.0	14	未找到
+/usr/lib/libdns_sd.so.1556.80.2	12.199	8	0	52	52	0.0	34	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libdotnet_launcher_core.so	10.172	32	0	26	26	0.0	95	未找到
+/usr/lib/libdotnet_launcher_util.so	24.643	60	0	125	125	0.0	141	未找到
+/usr/lib/libdotnet_plugin.so	46.184	112	0	260	260	0.0	184	未找到
+/usr/lib/libdownload-provider-interface.so.2.4.5	23.777	8	0	61	61	0.0	48	未找到
+/usr/lib/libdpm-pil.so.1.0.2	18.383	32	0	120	120	0.0	149	未找到
+/usr/lib/libdpm.so.1.0.0	0.992	8	0	103	103	0.0	0	未找到
+/usr/lib/libdrm-service.so.0.1.0	33.375	16	37	0	37	100.0	51	未找到
+/usr/lib/libdrm-specinfo.so	13.756	8	0	45	45	0.0	15	未找到
+/usr/lib/libdrm.so.2.124.0	22.967	36	0	212	212	0.0	60	未找到
+/usr/lib/libdrmdec_net.so.0.1.0	3.904	8	0	25	25	0.0	35	未找到
+/usr/lib/libdrmdecrypt.so.0.1.0	13.006	28	0	94	94	0.0	48	未找到
+/usr/lib/libdrmmanager.so.0.6.0	97.414	136	0	689	689	0.0	162	未找到
+/usr/lib/libds-tizen.so.0.1.11	54.309	92	0	342	342	0.0	143	未找到
+/usr/lib/libds-xdg-shell-v6.so.0.1.15	4.984	16	0	24	24	0.0	45	未找到
+/usr/lib/libds.so.0.1.15	48.039	64	0	215	215	0.0	169	未找到
+/usr/lib/libdt-api.so	6.938	20	0	62	62	0.0	45	未找到
+/usr/lib/libecore.so.1.25.1	194.254	192	0	415	415	0.0	386	未找到
+/usr/lib/libecore_audio.so.1.25.1	17.172	16	0	40	40	0.0	58	未找到
+/usr/lib/libecore_con.so.1.25.1	205.875	112	0	428	428	0.0	369	未找到
+/usr/lib/libecore_evas.so.1.25.1	58.977	104	0	328	328	0.0	253	未找到
+/usr/lib/libecore_file.so.1.25.1	6.906	20	0	41	41	0.0	120	未找到
+/usr/lib/libecore_imf.so.1.25.1	7.586	20	0	90	90	0.0	47	未找到
+/usr/lib/libecore_imf_evas.so.1.25.1	1.188	4	0	8	8	0.0	8	未找到
+/usr/lib/libecore_input.so.1.25.1	3.387	12	0	10	10	0.0	41	未找到
+/usr/lib/libecore_input_evas.so.1.25.1	5.199	16	0	20	20	0.0	69	未找到
+/usr/lib/libecore_ipc.so.1.25.1	11.312	16	0	29	29	0.0	84	未找到
+/usr/lib/libecore_wayland.so.1.25.1	21.801	28	0	147	147	0.0	111	未找到
+/usr/lib/libecore_wl2.so.1.25.1	99.316	176	0	334	334	0.0	259	未找到
+/usr/lib/libecs-sec-tv.so.0.1	5.09	12	0	27	27	0.0	8	未找到
+/usr/lib/libector.so.1.25.1	21.605	12	0	13	13	0.0	40	未找到
+/usr/lib/libedje.so.1.25.1	360.449	380	0	941	941	0.0	927	未找到
+/usr/lib/libeet.so.1.25.1	57.367	72	0	121	121	0.0	159	未找到
+/usr/lib/libeeze.so.1.25.1	18.148	20	0	92	92	0.0	145	未找到
+/usr/lib/libefl-assist.so.0.1.0	25.371	48	0	45	45	0.0	212	未找到
+/usr/lib/libefl-extension.so.0.1.0	12.941	20	0	23	23	0.0	157	未找到
+/usr/lib/libefl.so.1.25.1	139.297	204	0	600	600	0.0	104	未找到
+/usr/lib/libefreet.so.1.25.1	58.543	80	0	144	144	0.0	193	未找到
+/usr/lib/libeina.so.1.25.1	203.711	280	0	810	810	0.0	203	未找到
+/usr/lib/libeio.so.1.25.1	41.512	52	0	72	72	0.0	231	未找到
+/usr/lib/libeldbus.so.1.25.1	81.402	108	0	176	176	0.0	231	未找到
+/usr/lib/libelementary.so.1.25.1	1699.633	1300	0	4572	4572	0.0	1859	未找到
+/usr/lib/libemanual.so	11.941	12	0	16	16	0.0	31	未找到
+/usr/lib/libembryo.so.1.25.1	13.633	24	0	35	35	0.0	68	未找到
+/usr/lib/libemile.so.1.25.1	89.934	32	0	112	112	0.0	137	未找到
+/usr/lib/libemotion.so.1.25.1	28.625	24	0	108	108	0.0	178	未找到
+/usr/lib/libencoder-control.so.0.2.8	12.559	4	0	37	37	0.0	10	未找到
+/usr/lib/libeo.so.1.25.1	45.879	76	0	118	118	0.0	108	未找到
+/usr/lib/libep-common-gdbus.so	5.012	8	0	29	29	0.0	41	未找到
+/usr/lib/libep-common-setting.so	103.617	128	0	732	732	0.0	145	未找到
+/usr/lib/libep-common-systemutil.so	28.984	48	0	203	203	0.0	157	未找到
+/usr/lib/libep-common-ui-api.so	129.512	200	0	729	729	0.0	504	未找到
+/usr/lib/libep-customapp-common.so	10.496	24	0	127	127	0.0	101	未找到
+/usr/lib/libep-customapp-setting.so	1.883	8	0	19	19	0.0	26	未找到
+/usr/lib/libep-device-alarm-manager-interface.so	1.109	4	0	10	10	0.0	19	未找到
+/usr/lib/libep-event-manager-interface.so	17.43	36	0	213	213	0.0	73	未找到
+/usr/lib/libep-iptv-service-api.so	50.895	40	0	234	234	0.0	107	未找到
+/usr/lib/libep-system-api.so	98.691	84	0	969	969	0.0	32	未找到
+/usr/lib/libep-system-manager-interface.so	6.867	8	0	23	23	0.0	60	未找到
+/usr/lib/libep-vconf-internal-keys-signage.so.0.1.230	12.047	28	0	58	58	0.0	61	未找到
+/usr/lib/libesapputil.so.0.1	153.707	380	0	1320	1320	0.0	253	未找到
+/usr/lib/libesd.so.1.1.5	0.213	4	0	2	2	0.0	1	未找到
+/usr/lib/libesg-api.so	27.539	52	0	277	277	0.0	111	未找到
+/usr/lib/libesplusplayer.so	139.215	316	0	1217	1217	0.0	270	未找到
+/usr/lib/libespplayer-core.so	45.809	124	0	546	546	0.0	237	未找到
+/usr/lib/libethumb.so.1.25.1	15.625	12	0	62	62	0.0	96	未找到
+/usr/lib/libethumb_client.so.1.25.1	8.809	12	0	45	45	0.0	109	未找到
+/usr/lib/libevas.so.1.25.1	991.828	992	0	1792	1792	0.0	963	未找到
+/usr/lib/libevdev.so.2.3.0	12.855	36	0	87	87	0.0	31	未找到
+/usr/lib/libevent-2.1.so.7.0.1	116.18	48	0	624	624	0.0	107	未找到
+/usr/lib/libeventsystem.so.0.1.57	22.617	64	0	155	155	0.0	115	未找到
+/usr/lib/libexif.so.12.3.4	39.113	52	0	129	129	0.0	36	未找到
+/usr/lib/libexpat.so.1.9.2	61.66	68	0	69	69	0.0	18	未找到
+/usr/lib/libfactory-interface-ATSC.so	147.293	212	0	1026	1026	0.0	226	未找到
+/usr/lib/libfactory.so.0.1	3.754	4	0	23	23	0.0	6	未找到
+/usr/lib/libfan-heat-control.so	3.633	4	0	21	21	0.0	10	未找到
+/usr/lib/libfbclient.so.0.2.0	40.039	48	0	155	155	0.0	80	未找到
+/usr/lib/libfbproxyserver.so.0.2.0	36.805	16	0	147	147	0.0	77	未找到
+/usr/lib/libfconfig.so	18.008	40	0	115	115	0.0	56	未找到
+/usr/lib/libfeedback.so.0.1.4	6.246	20	0	12	12	0.0	45	未找到
+/usr/lib/libffi.so.8.1.4	24.031	28	0	22	22	0.0	42	未找到
+/usr/lib/libfkp-common.so.1.0.0	14.592	28	0	33	33	0.0	24	未找到
+/usr/lib/libfkp.so.0.1.0	0.25	4	0	14	14	0.0	15	未找到
+/usr/lib/libflatbuffers.so.24.3.25	293.203	88	0	649	649	0.0	114	未找到
+/usr/lib/libflux-manager.so.0.1.0	396.875	364	0	1033	1033	0.0	566	未找到
+/usr/lib/libfluxpolicymanager-tv.so.0.1.0	21.42	32	0	362	362	0.0	12	未找到
+/usr/lib/libfontconfig.so.1.12.0	88.885	168	0	238	238	0.0	121	未找到
+/usr/lib/libfreetype.so.6.20.1	279.176	208	0	220	220	0.0	63	未找到
+/usr/lib/libfribidi.so.0.4.0	10.494	20	0	47	47	0.0	10	未找到
+/usr/lib/libgbm.so.1.0.0	2.68	8	0	45	45	0.0	33	未找到
+/usr/lib/libgcc_s.so.1	41.598	64	0	1163	1163	0.0	16	未找到
+/usr/lib/libgfx-video-output.so.0.2.11	15.398	16	0	79	79	0.0	87	未找到
+/usr/lib/libgif.so.7.2.0	21.324	8	60	0	60	100.0	22	未找到
+/usr/lib/libgifutil.so.7.1.0	6.902	4	6	0	6	100.0	15	未找到
+/usr/lib/libgio-2.0.so.0.8000.5	720.477	832	0	2111	2111	0.0	1017	未找到
+/usr/lib/libglib-2.0.so.0.8000.5	374.375	496	0	1857	1857	0.0	247	未找到
+/usr/lib/libgmodule-2.0.so.0.8000.5	3.02	8	0	10	10	0.0	40	未找到
+/usr/lib/libgobject-2.0.so.0.8000.5	128.461	204	0	477	477	0.0	209	未找到
+/usr/lib/libgooglecast-platform-tv.so	37.73	72	0	255	255	0.0	81	未找到
+/usr/lib/libgraphics-control.so.0.1	13.332	24	0	56	56	0.0	13	未找到
+/usr/lib/libgst-ext-lib.so.0.1.0	103.07	44	0	274	274	0.0	102	未找到
+/usr/lib/libgst-plugins-tvbase-1.0.so.0.0.0	6.709	16	0	5	5	0.0	40	未找到
+/usr/lib/libgstallocators-1.0.so.0.2411.0	14.062	12	0	44	44	0.0	113	未找到
+/usr/lib/libgstapp-1.0.so.0.2411.0	32.676	16	0	56	56	0.0	145	未找到
+/usr/lib/libgstaudio-1.0.so.0.2411.0	215.391	76	0	275	275	0.0	431	未找到
+/usr/lib/libgstbase-1.0.so.0.2411.0	261.258	156	0	401	401	0.0	425	未找到
+/usr/lib/libgstffsubtitle.so.0.0.0	11.707	16	0	30	30	0.0	21	未找到
+/usr/lib/libgstpbutils-1.0.so.0.2411.0	81.613	52	0	191	191	0.0	444	未找到
+/usr/lib/libgstreamer-1.0.so.0.2411.0	537.539	756	0	1792	1792	0.0	585	未找到
+/usr/lib/libgsttag-1.0.so.0.2411.0	88.668	28	0	52	52	0.0	315	未找到
+/usr/lib/libgstvideo-1.0.so.0.2411.0	299.117	120	0	533	533	0.0	486	未找到
+/usr/lib/libgtest.so.1.12.1	135.396	156	0	828	828	0.0	171	未找到
+/usr/lib/libgthread-2.0.so.0.8000.5	0.289	4	0	2	2	0.0	4	未找到
+/usr/lib/libgum-common.so.0.0.0	41.844	64	0	244	244	0.0	247	未找到
+/usr/lib/libgum.so.0.0.0	15.648	32	0	40	40	0.0	149	未找到
+/usr/lib/libgumd-core.so.0.0.0	26.883	40	0	48	48	0.0	135	未找到
+/usr/lib/libharfbuzz.so.0.60822.0	412.969	312	0	500	500	0.0	103	未找到
+/usr/lib/libhdmi-control.so.0.1	15.137	28	0	90	90	0.0	9	未找到
+/usr/lib/libhdmi-dec-control.so.0.1	2.602	4	0	26	26	0.0	8	未找到
+/usr/lib/libhdmi-out-control.so.0.1	1.184	4	0	7	7	0.0	6	未找到
+/usr/lib/libhdmicec-api.so.0.18.18	17.012	28	0	90	90	0.0	40	未找到
+/usr/lib/libhdr-conversion.so.0.0.509	1.219	4	0	8	8	0.0	19	未找到
+/usr/lib/libhdr10plus-cloudgaming-api.so	3.051	4	11	0	11	100.0	16	未找到
+/usr/lib/libheif.so.1.0.0	41.109	12	0	104	104	0.0	64	未找到
+/usr/lib/libheifparser.so.0.0.1	34.238	56	0	342	342	0.0	83	未找到
+/usr/lib/libhpd-manager.so	6.84	8	0	30	30	0.0	48	未找到
+/usr/lib/libhsm-service.so.0.1	0.887	4	0	6	6	0.0	6	未找到
+/usr/lib/libhw-m2m-accelator.so.0.1	1.512	4	0	8	8	0.0	6	未找到
+/usr/lib/libhwcrypto.so.0.1.1	4.68	12	0	13	13	0.0	19	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libhyphen.so.0.3.0	6.023	4	0	18	18	0.0	24	未找到
+/usr/lib/libicudata.so.76.1	0.195	840	0	0	0		1	未找到
+/usr/lib/libicui18n.so.76.1	958.902	1108	0	8611	8611	0.0	713	未找到
+/usr/lib/libicuuc.so.76.1	546.391	844	0	3593	3593	0.0	91	未找到
+/usr/lib/libim-control.so.0.1	2.941	4	0	21	21	0.0	6	未找到
+/usr/lib/libinference-engine-interface-common.so.0.5.2	16.529	44	0	129	129	0.0	58	未找到
+/usr/lib/libiniparser.so.4.2.4	4.105	12	0	28	28	0.0	27	未找到
+/usr/lib/libinput-method-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libinput-method-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libinput.so.10.13.0	129.066	136	0	311	311	0.0	150	未找到
+/usr/lib/libipg-data-provider.so.0.1.0	52.242	84	0	484	484	0.0	175	未找到
+/usr/lib/libiri.so	3.229	4	0	3	3	0.0	11	未找到
+/usr/lib/libisf-control.so.8.2.3	66.305	60	0	399	399	0.0	156	未找到
+/usr/lib/libitvs-hybrid-info.so.0.1.0	66.77	120	0	733	733	0.0	238	未找到
+/usr/lib/libjpeg.so.8.3.2	370.297	168	0	192	192	0.0	22	未找到
+/usr/lib/libjson-c.so.5.4.0	20.945	40	0	140	140	0.0	49	未找到
+/usr/lib/libjson-glib-1.0.so.0.800.0	56.984	100	0	222	222	0.0	267	未找到
+/usr/lib/libjsoncpp.so.1.9.2	78.344	144	0	443	443	0.0	69	未找到
+/usr/lib/libjxl.so.0.11.1	1455.289	20	0	105	105	0.0	98	未找到
+/usr/lib/libjxl_cms.so.0.11.1	45.82	8	0	6	6	0.0	43	未找到
+/usr/lib/libjxl_threads.so.0.11.1	3.682	4	0	9	9	0.0	22	未找到
+/usr/lib/libkUEPUser.so	18.062	24	0	110	110	0.0	88	未找到
+/usr/lib/libkey-lock-control.so.0.1	2.125	4	0	20	20	0.0	6	未找到
+/usr/lib/libkey-manager-client.so.1.0.1	195.145	104	0	363	363	0.0	161	未找到
+/usr/lib/libkey-manager-common.so.1.0.1	52.604	92	0	253	253	0.0	133	未找到
+/usr/lib/libkey-manager-control-client.so.1.0.1	22.699	16	0	35	35	0.0	68	未找到
+/usr/lib/libkeyboardsettings-tv.so	20.885	40	0	43	43	0.0	52	未找到
+/usr/lib/libkeystone-ppi.so.0.1	26.383	16	0	174	174	0.0	6	未找到
+/usr/lib/libklay.so.0.0.2	105.277	88	460	0	460	100.0	222	未找到
+/usr/lib/liblaunchpad-common.so.0.49.30	13.605	40	0	126	126	0.0	96	未找到
+/usr/lib/liblaunchpad-core.so.0.49.30	83.029	196	0	565	565	0.0	190	未找到
+/usr/lib/liblaunchpad-hydra.so.0.49.30	27.953	72	0	195	195	0.0	120	未找到
+/usr/lib/liblaunchpad-plugin.so	1.207	4	0	1	1	0.0	15	未找到
+/usr/lib/liblaunchpad.so.0.49.30	17.156	48	0	107	107	0.0	151	未找到
+/usr/lib/liblcms2.so.2.0.16	147.707	32	0	376	376	0.0	54	未找到
+/usr/lib/liblegacy-drm.so.0.1.0	8.695	8	66	0	66	100.0	67	未找到
+/usr/lib/liblegacy-player.so.0.4.1	104.098	80	0	337	337	0.0	305	未找到
+/usr/lib/liblib-hdr-tv.so	34.51	24	0	128	128	0.0	112	未找到
+/usr/lib/liblibtv-plpmanager.so	51.547	40	0	227	227	0.0	61	未找到
+/usr/lib/liblink.so.0.1	10.52	8	0	54	54	0.0	6	未找到
+/usr/lib/liblinux-explicit-synchronization-unstable-v1-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/liblinux-explicit-synchronization-unstable-v1-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libltdl.so.7.3.2	9.484	20	0	64	64	0.0	41	未找到
+/usr/lib/liblua.so.5.1	62.668	96	0	252	252	0.0	97	未找到
+/usr/lib/liblwipc.so	2.574	8	0	6	6	0.0	16	未找到
+/usr/lib/liblzma.so.5.8.1	71.834	12	0	121	121	0.0	33	未找到
+/usr/lib/libm.so.6	182.094	148	877	0	877	100.0	12	未找到
+/usr/lib/libmanifest-parser-utils.so.1.9.0	42.941	68	0	79	79	0.0	79	未找到
+/usr/lib/libmanifest-parser.so.1.9.0	97.957	92	0	500	500	0.0	105	未找到
+/usr/lib/libmbr.so.0.1.0	183.035	296	0	882	882	0.0	223	未找到
+/usr/lib/libmedia-analytics.so	23.043	36	0	191	191	0.0	107	未找到
+/usr/lib/libmedia-controller-svc.so.1.0.15	16.537	40	0	29	29	0.0	116	未找到
+/usr/lib/libmedia-service.so.1.0.0	36.277	40	0	83	83	0.0	132	未找到
+/usr/lib/libmedia-thumbnail.so.1.0.0	6.047	4	0	7	7	0.0	44	未找到
+/usr/lib/libmedia-utils.so.0.0.0	13.652	32	0	35	35	0.0	103	未找到
+/usr/lib/libmenu-plugin-loader.so.0.0.1	19.492	36	0	98	98	0.0	16	未找到
+/usr/lib/libmenu-util-api.so.0.1.0	144.668	164	0	347	347	0.0	52	未找到
+/usr/lib/libmenu-util-app.so.0.1.0	13.785	36	0	50	50	0.0	73	未找到
+/usr/lib/libmenu-util-audio.so.0.1.0	20.621	36	0	80	80	0.0	87	未找到
+/usr/lib/libmenu-util-audioscene.so.0.1.0	12.863	28	0	49	49	0.0	48	未找到
+/usr/lib/libmenu-util-common.so.0.1.0	96.18	204	0	609	609	0.0	113	未找到
+/usr/lib/libmenu-util-core.so.0.1.0	4.879	12	0	21	21	0.0	38	未找到
+/usr/lib/libmenu-util-speaker.so.0.1.0	17.648	32	0	61	61	0.0	60	未找到
+/usr/lib/libmenu-util-system.so.0.1.0	38.574	60	0	165	165	0.0	128	未找到
+/usr/lib/libmenu-util-tvs.so.0.1.0	23.797	44	0	136	136	0.0	48	未找到
+/usr/lib/libmenu-util.so.0.1.0	11.936	24	0	35	35	0.0	37	未找到
+/usr/lib/libmessage-port.so.1.4.32	18.977	36	0	21	21	0.0	100	未找到
+/usr/lib/libminizip.so.1.0.0	17.277	8	0	59	59	0.0	32	未找到
+/usr/lib/libmixer.so	21.527	56	0	324	324	0.0	71	未找到
+/usr/lib/libmmfcommon.so.0.0.0	12.855	20	0	95	95	0.0	17	未找到
+/usr/lib/libmmfdisplay_interface.so.0.0.0	3.883	4	0	20	20	0.0	10	未找到
+/usr/lib/libmmffile.so.0.0.0	6.902	16	0	16	16	0.0	26	未找到
+/usr/lib/libmmfile_utils.so.0.0.0	31.785	40	0	62	62	0.0	65	未找到
+/usr/lib/libmmfkeysound.so.0.0.0	1.293	8	0	3	3	0.0	17	未找到
+/usr/lib/libmmfplayer.so.0.0.0	721.77	564	0	1453	1453	0.0	725	未找到
+/usr/lib/libmmfsound.so.0.1.0	44.52	60	0	71	71	0.0	100	未找到
+/usr/lib/libmmfsoundcommon.so.0.0.0	2.34	8	0	7	7	0.0	18	未找到
+/usr/lib/libmmutil_anim.so.0.0.0	1.887	4	0	8	8	0.0	9	未找到
+/usr/lib/libmmutil_common.so.0.0.0	3.91	12	0	21	21	0.0	25	未找到
+/usr/lib/libmmutil_gif.so.0.0.0	6.516	4	0	11	11	0.0	36	未找到
+/usr/lib/libmmutil_heif.so.0.0.0	0.766	4	0	2	2	0.0	8	未找到
+/usr/lib/libmmutil_imgp.so.0.0.0	4.223	4	0	4	4	0.0	15	未找到
+/usr/lib/libmmutil_jpeg.so.0.0.0	5.588	12	0	4	4	0.0	38	未找到
+/usr/lib/libmmutil_jxl.so.0.0.0	2.912	4	0	4	4	0.0	41	未找到
+/usr/lib/libmmutil_magick.so.0.0.0	10.555	8	0	15	15	0.0	59	未找到
+/usr/lib/libmmutils.so.0.0.0	1.527	8	0	2	2	0.0	18	未找到
+/usr/lib/libmount.so.1.1.0	124.23	108	0	302	302	0.0	160	未找到
+/usr/lib/libmsf-discovery.so.1.0.0	40.395	60	0	12	12	0.0	121	未找到
+/usr/lib/libmsfapi.so.1.0.0	8.516	8	7	0	7	100.0	47	未找到
+/usr/lib/libmtdev.so.1.0.0	5.508	4	0	26	26	0.0	12	未找到
+/usr/lib/libmultiprofile-mapi.so.1.0.0	212.66	284	692	0	692	100.0	127	未找到
+/usr/lib/libmuse-client.so.0.6.1	2.422	8	0	7	7	0.0	33	未找到
+/usr/lib/libmuse-core.so.0.6.1	8.727	24	0	38	38	0.0	83	未找到
+/usr/lib/libmuse-player.so.0.4.1	82.988	88	0	291	291	0.0	415	未找到
+/usr/lib/libmuse-server.so.0.6.1	40.816	80	0	132	132	0.0	201	未找到
+/usr/lib/libmv_3d.so	8.336	12	0	35	35	0.0	61	未找到
+/usr/lib/libmv_barcode_detector.so	7.602	8	0	25	25	0.0	62	未找到
+/usr/lib/libmv_barcode_generator.so	10.578	8	0	17	17	0.0	60	未找到
+/usr/lib/libmv_common.so	30.238	24	0	123	123	0.0	77	未找到
+/usr/lib/libmv_face.so	43.074	36	0	162	162	0.0	124	未找到
+/usr/lib/libmv_image.so	67.977	64	0	309	309	0.0	101	未找到
+/usr/lib/libmv_inference.so	176.277	64	0	542	542	0.0	162	未找到
+/usr/lib/libmv_roi_tracker.so	5.16	8	0	21	21	0.0	34	未找到
+/usr/lib/libmv_surveillance.so	39.52	32	0	151	151	0.0	88	未找到
+/usr/lib/libnagsam-api.so	36.465	92	0	287	287	0.0	137	未找到
+/usr/lib/libnetwork.so.0.0.0	58.746	92	0	64	64	0.0	86	未找到
+/usr/lib/libnetwork_test.so.0.1	13.559	8	0	21	21	0.0	54	未找到
+/usr/lib/libnghttp2.so.14.24.1	50.824	80	0	160	160	0.0	18	未找到
+/usr/lib/libnl-3.so.200.17.0	31.5	60	0	304	304	0.0	64	未找到
+/usr/lib/libnl-genl-3.so.200.17.0	3.695	12	0	42	42	0.0	50	未找到
+/usr/lib/libnl-genl.so.2.0.0	3.023	8	0	34	34	0.0	36	未找到
+/usr/lib/libnl-route-3.so.200.17.0	81.674	148	0	696	696	0.0	149	未找到
+/usr/lib/libnl.so.2.0.0	23.383	36	0	263	263	0.0	60	未找到
+/usr/lib/libnotification-ex.so.1.0.0	168.926	228	0	1123	1123	0.0	191	未找到
+/usr/lib/libnotification-vd.so.1.0.10	0.344	8	0	38	38	0.0	40	未找到
+/usr/lib/libnotification.so.0.11.0	173.637	256	0	296	296	0.0	218	未找到
+/usr/lib/libnsd-dns-sd.so.0.2.8	23.199	8	0	28	28	0.0	59	未找到
+/usr/lib/libnspr4.so	78.027	92	0	399	399	0.0	169	未找到
+/usr/lib/libnss3.so	451.637	84	0	869	869	0.0	285	未找到
+/usr/lib/libnss_compat.so.2	22.973	28	15	0	15	100.0	34	未找到
+/usr/lib/libnss_optfiles.so.2	7.625	8	19	0	19	100.0	24	未找到
+/usr/lib/libnss_securitymanager.so.2.0.0	15.996	28	0	19	19	0.0	74	未找到
+/usr/lib/libnssutil3.so	37.41	32	0	217	217	0.0	91	未找到
+/usr/lib/libnvram.so.0.1	1.172	4	0	9	9	0.0	6	未找到
+/usr/lib/libnw-daemon.so	130.5	276	0	867	867	0.0	267	未找到
+/usr/lib/libogg.so.0.8.2	5.492	8	0	71	71	0.0	9	未找到
+/usr/lib/libomp.so	342.973	72	1	1065	1066	0.0938	121	未找到
+/usr/lib/libopen-debugmenu.so	11.105	24	51	0	51	100.0	62	未找到
+/usr/lib/libopencv_calib3d.so.4.7.0	828.131	72	0	158	158	0.0	354	未找到
+/usr/lib/libopencv_core.so.4.7.0	1065.859	288	0	2044	2044	0.0	210	未找到
+/usr/lib/libopencv_dnn.so.4.7.0	2073.762	400	0	567	567	0.0	373	未找到
+/usr/lib/libopencv_face.so.4.7.0	188.383	40	0	97	97	0.0	265	未找到
+/usr/lib/libopencv_features2d.so.4.7.0	238.609	64	0	194	194	0.0	227	未找到
+/usr/lib/libopencv_flann.so.4.7.0	196.566	24	0	63	63	0.0	107	未找到
+/usr/lib/libopencv_imgcodecs.so.4.7.0	116.23	40	0	54	54	0.0	225	未找到
+/usr/lib/libopencv_imgproc.so.4.7.0	1621.531	144	0	373	373	0.0	329	未找到
+/usr/lib/libopencv_objdetect.so.4.7.0	273.723	76	0	205	205	0.0	281	未找到
+/usr/lib/libopencv_tracking.so.4.7.0	242.822	76	0	255	255	0.0	264	未找到
+/usr/lib/libopencv_video.so.4.7.0	156.211	48	0	149	149	0.0	223	未找到
+/usr/lib/libopencv_videoio.so.4.7.0	203.707	68	0	119	119	0.0	301	未找到
+/usr/lib/libopencv_xfeatures2d.so.4.7.0	425.125	48	0	87	87	0.0	187	未找到
+/usr/lib/libopus.so.0.8.0	178.293	12	0	83	83	0.0	25	未找到
+/usr/lib/libpam.so.0.83.1	14.719	8	0	40	40	0.0	55	未找到
+/usr/lib/libpango-1.0.so.0.3600.6	80.992	44	0	405	405	0.0	186	未找到
+/usr/lib/libparcel.so.0.18.15	8.031	24	0	145	145	0.0	28	未找到
+/usr/lib/libpba-inspection.so	12.41	20	0	79	79	0.0	8	未找到
+/usr/lib/libpcre.so.1.2.13	183.082	52	0	26	26	0.0	26	未找到
+/usr/lib/libpcre2-8.so.0.14.0	258.328	8	0	78	78	0.0	25	未找到
+/usr/lib/libpcrecpp.so.0.0.2	6.793	12	0	87	87	0.0	48	未找到
+/usr/lib/libpepper-efl.so.0.0.0	10.107	28	0	7	7	0.0	164	未找到
+/usr/lib/libpepper-xkb.so.0.0.0	1.75	8	0	7	7	0.0	37	未找到
+/usr/lib/libpepper.so.0.0.0	41.432	52	0	222	222	0.0	81	未找到
+/usr/lib/libphoto-filter.so	205.445	176	0	1126	1126	0.0	250	未找到
+/usr/lib/libphoto-transition.so	590.627	1120	0	6392	6392	0.0	280	未找到
+/usr/lib/libpisa-ipc.so	864.812	1396	1950	0	1950	100.0	274	未找到
+/usr/lib/libpixman-1.so.0.38.4	411.328	88	0	147	147	0.0	31	未找到
+/usr/lib/libpkgmgr-client.so.0.23.4	96.182	100	0	215	215	0.0	156	未找到
+/usr/lib/libpkgmgr-extension.so	6.688	8	8	0	8	100.0	44	未找到
+/usr/lib/libpkgmgr-info-server.so.0.37.5	244.518	420	0	797	797	0.0	477	未找到
+/usr/lib/libpkgmgr-info.so.0.37.5	244.518	428	0	1378	1378	0.0	233	未找到
+/usr/lib/libpkgmgr_common.so.0.23.4	2.211	8	0	44	44	0.0	17	未找到
+/usr/lib/libpkgmgr_installer.so.0.23.4	126.004	156	713	0	713	100.0	134	未找到
+/usr/lib/libpkgmgr_parser.so.0.37.5	21.742	12	0	56	56	0.0	75	未找到
+/usr/lib/libplc4.so	3.152	4	0	41	41	0.0	23	未找到
+/usr/lib/libplds4.so	1.75	4	0	26	26	0.0	8	未找到
+/usr/lib/libplusplayer-core.so	69.115	100	0	482	482	0.0	194	未找到
+/usr/lib/libplusplayer.so	458.129	836	0	3014	3014	0.0	315	未找到
+/usr/lib/libpng16.so.16.44.0	89.119	108	0	265	265	0.0	42	未找到
+/usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libpointer-constraints-unstable-v1-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libpointer-warp-v1-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libpointer-warp-v1-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libpower-control-diagnosis.so	26.457	48	0	180	180	0.0	6	未找到
+/usr/lib/libpower-control.so.0.1	26.457	32	0	180	180	0.0	6	未找到
+/usr/lib/libpower-defs.so.0.1.1	6.822	36	0	65	65	0.0	31	未找到
+/usr/lib/libppi-display-control.so.1.0.0	4.211	8	0	14	14	0.0	19	未找到
+/usr/lib/libppi-factory-api.so	4.492	12	0	26	26	0.0	6	未找到
+/usr/lib/libppi-mm-audioout.so	4.965	4	0	26	26	0.0	7	未找到
+/usr/lib/libppi-mm-omxil.so	2.258	8	0	12	12	0.0	6	未找到
+/usr/lib/libppi-system-info.so.0.1	1.305	4	0	11	11	0.0	6	未找到
+/usr/lib/libprd-factory-interface-ATSC.so	43.902	108	0	393	393	0.0	69	未找到
+/usr/lib/libpresentation-time-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libpresentation-time-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libprimitive.so	22.496	56	0	159	159	0.0	145	未找到
+/usr/lib/libprivileged-service-client.so	5.516	8	0	35	35	0.0	37	未找到
+/usr/lib/libproc-stat.so.5.5.0	1.301	4	0	5	5	0.0	22	未找到
+/usr/lib/libproidiom.so.0.1	4.918	4	0	11	11	0.0	21	未找到
+/usr/lib/libprojector.so.0.1	4.844	4	0	45	45	0.0	6	未找到
+/usr/lib/libprotobuf-lite.so.25.0.0	210.809	128	0	773	773	0.0	118	未找到
+/usr/lib/libprotocol.so	0.865	4	0	12	12	0.0	4	未找到
+/usr/lib/libpsa-legacy.so.0.1.0	3.133	8	9	0	9	100.0	30	未找到
+/usr/lib/libpthread.so.0	4.258	4	7	0	7	100.0	4	未找到
+/usr/lib/libpulse-simple.so.0.1.1	3.391	8	0	8	8	0.0	47	未找到
+/usr/lib/libpulse.so.0.24.0	132.02	56	0	386	386	0.0	253	未找到
+/usr/lib/libpush.so.0.2.12	31.0	12	0	37	37	0.0	95	未找到
+/usr/lib/libpvr-control.so	2.949	4	0	18	18	0.0	6	未找到
+/usr/lib/libpvr-service-api.so	134.545	100	0	641	641	0.0	147	未找到
+/usr/lib/libqrencode.so.3.4.4	13.309	8	0	81	81	0.0	17	未找到
+/usr/lib/libqse.so.0.1.0	58.996	36	0	167	167	0.0	90	未找到
+/usr/lib/librelative-pointer-unstable-v1-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/librelative-pointer-unstable-v1-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libreminder-api.so.0.1.0	132.598	136	0	694	694	0.0	263	未找到
+/usr/lib/libremoconpointing.so.1.0.0	74.465	12	8	0	8	100.0	103	未找到
+/usr/lib/libres-lookup.so.0.1	9.562	24	0	4	4	0.0	8	未找到
+/usr/lib/libresolv.so.2	30.766	12	66	0	66	100.0	53	未找到
+/usr/lib/libresource-center-api.so.0.9	36.729	76	0	226	226	0.0	101	未找到
+/usr/lib/librlottie.so.0.2	135.949	144	0	46	46	0.0	104	未找到
+/usr/lib/librobot-projector.so.0.1	2.539	4	0	18	18	0.0	6	未找到
+/usr/lib/librotator.so	2.055	4	0	14	14	0.0	10	未找到
+/usr/lib/librpc-port.so.1.21.18	107.814	268	0	916	916	0.0	244	未找到
+/usr/lib/librt.so.1	0.551	4	2	0	2	100.0	4	未找到
+/usr/lib/librua.so.0.5.17	16.012	36	0	59	59	0.0	89	未找到
+/usr/lib/libsamsung-analytics.so	336.297	648	0	2455	2455	0.0	178	未找到
+/usr/lib/libscaler-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libscaler-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libscim-1.0.so.8.2.3	240.309	284	0	1229	1229	0.0	293	未找到
+/usr/lib/libscim_imengine.so.8.2.3	103.465	244	0	628	628	0.0	182	未找到
+/usr/lib/libscreen-analysis-api.so.1.0.0	15.572	20	0	95	95	0.0	75	未找到
+/usr/lib/libscreen_connector_input.so.1.9.5	12.309	40	0	174	174	0.0	80	未找到
+/usr/lib/libscreen_connector_provider.so.1.9.5	4.439	20	0	49	49	0.0	57	未找到
+/usr/lib/libscreencontroller.so.0.0.509	3.656	4	0	12	12	0.0	20	未找到
+/usr/lib/libscreenmirroring-api-tv.so	13.395	32	0	183	183	0.0	194	未找到
+/usr/lib/libscreenshooter-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libscreenshooter-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libscs-common-client.so.0.0.9-1	266.18	260	0	575	575	0.0	204	未找到
+/usr/lib/libsdbd_plugin.so	17.754	40	0	76	76	0.0	98	未找到
+/usr/lib/libsdm.so.2.0.0	23.234	28	0	113	113	0.0	107	未找到
+/usr/lib/libsdp-common.so.0.1.0	8.574	16	0	32	32	0.0	27	未找到
+/usr/lib/libsdp.so.0.1.0	32.35	76	0	244	244	0.0	117	未找到
+/usr/lib/libsecure-clock.so.0.1.0	8.602	24	0	50	50	0.0	71	未找到
+/usr/lib/libsecurestorage-client.so.1.0.0	84.762	132	0	175	175	0.0	187	未找到
+/usr/lib/libsecurestorage-credential.so.0.1.0	1.764	8	0	3	3	0.0	25	未找到
+/usr/lib/libsecurity-manager-client.so.3.0.0	117.797	128	0	137	137	0.0	144	未找到
+/usr/lib/libsecurity-manager-commons.so.1.0.2	431.102	520	0	1228	1228	0.0	340	未找到
+/usr/lib/libsecurity-privilege-manager.so.1.4.3	21.121	12	0	78	78	0.0	52	未找到
+/usr/lib/libsensor-genuine.so.4.1.0	83.238	64	0	175	175	0.0	140	未找到
+/usr/lib/libsensord-shared.so	25.965	48	0	248	248	0.0	97	未找到
+/usr/lib/libses-wrapper.so.4.0.26	2.465	4	0	8	8	0.0	23	未找到
+/usr/lib/libsessiond.so.11.0.0	21.789	28	0	26	26	0.0	65	未找到
+/usr/lib/libsettings-api.so	106.559	104	118	0	118	100.0	113	未找到
+/usr/lib/libsettings-datafw.so	366.09	492	0	797	797	0.0	230	未找到
+/usr/lib/libsfkc.so	3.682	12	0	34	34	0.0	34	未找到
+/usr/lib/libsharpyuv.so.0.1.0	13.172	4	0	7	7	0.0	15	未找到
+/usr/lib/libsid.so.0.1.0	3.664	8	0	32	32	0.0	38	未找到
+/usr/lib/libslive-dbus-proxy.so.0.1	9.133	32	0	99	99	0.0	75	未找到
+/usr/lib/libslive-dbus-stub.so.0.1	6.988	24	0	59	59	0.0	70	未找到
+/usr/lib/libslive-framework.so.0.1.0	17.021	40	0	125	125	0.0	76	未找到
+/usr/lib/libslive-provider.so.0.1	122.051	176	0	1007	1007	0.0	181	未找到
+/usr/lib/libsmack.so.1.3.1	10.012	20	0	36	36	0.0	59	未找到
+/usr/lib/libsmart-deadlock.so	2.734	8	0	7	7	0.0	22	未找到
+/usr/lib/libsmime3.so	48.246	32	0	171	171	0.0	223	未找到
+/usr/lib/libsndfile.so.1.0.37	166.445	112	0	40	40	0.0	124	未找到
+/usr/lib/libsoc-ir.so	3.02	4	0	20	20	0.0	9	未找到
+/usr/lib/libsource-api.so	62.824	100	166	0	166	100.0	115	未找到
+/usr/lib/libsp-kpi.so	536.938	772	0	1485	1485	0.0	452	未找到
+/usr/lib/libspeexdsp.so.1.5.2	33.707	8	0	58	58	0.0	23	未找到
+/usr/lib/libsqlcipher-3.46.1.so.0.8.6	464.008	500	0	277	277	0.0	131	未找到
+/usr/lib/libsqlite3.so.3.50.2	639.672	624	0	333	333	0.0	95	未找到
+/usr/lib/libsscservice-api.so	33.305	56	0	129	129	0.0	73	未找到
+/usr/lib/libssl.so.1.1	170.516	240	0	495	495	0.0	448	未找到
+/usr/lib/libssl.so.3	205.852	200	0	517	517	0.0	515	未找到
+/usr/lib/libsso_api.so	101.816	192	0	294	294	0.0	198	未找到
+/usr/lib/libstand-by-scan-lib.so	114.125	68	593	0	593	100.0	40	未找到
+/usr/lib/libstdc++.so.6.0.33	736.0	1032	0	4610	4610	0.0	190	未找到
+/usr/lib/libstorage.so.0.1	16.754	20	0	25	25	0.0	66	未找到
+/usr/lib/libsubtitleplayer.so.0.0.0	81.895	148	0	508	508	0.0	121	未找到
+/usr/lib/libswscale.so.8.3.100	355.57	12	0	31	31	0.0	47	未找到
+/usr/lib/libsyscommon.so.5.0.0	24.334	44	0	176	176	0.0	178	未找到
+/usr/lib/libsyspopup.so.0.1.0	4.82	8	0	7	7	0.0	55	未找到
+/usr/lib/libsyspopup_caller.so.0.1.0	4.117	12	0	5	5	0.0	51	未找到
+/usr/lib/libsystemd.so.0.27.1	289.172	280	0	540	540	0.0	220	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libtanchor-runtime.so.2.1.2	25.508	36	0	30	30	0.0	85	未找到
+/usr/lib/libtanchor.so.2.1.2	26.266	24	0	31	31	0.0	90	未找到
+/usr/lib/libtbm.so.1.0.0	92.055	132	0	208	208	0.0	150	未找到
+/usr/lib/libtdm-client.so.0.0.0	20.539	40	0	47	47	0.0	70	未找到
+/usr/lib/libtdm.so.1.0.0	207.645	248	0	199	199	0.0	245	未找到
+/usr/lib/libteec.so	4.006	12	0	18	18	0.0	42	未找到
+/usr/lib/libteec_ppi.so	1.691	8	0	17	17	0.0	5	未找到
+/usr/lib/libteec_trustware.so	13.316	24	0	16	16	0.0	74	未找到
+/usr/lib/libteec_trustware_common.so	116.512	124	0	274	274	0.0	121	未找到
+/usr/lib/libtest-oqc-tv-api.so	6.465	24	0	71	71	0.0	39	未找到
+/usr/lib/libtext-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtext-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libthorvg.so.1.1.0	250.057	292	0	436	436	0.0	93	未找到
+/usr/lib/libtiff.so.6.1.0	182.883	24	0	194	194	0.0	87	未找到
+/usr/lib/libtinyxml2.so.10.0.0	22.23	28	0	262	262	0.0	34	未找到
+/usr/lib/libtizen-action-common.so.1.7.0	168.67	288	0	723	723	0.0	121	未找到
+/usr/lib/libtizen-action.so.1.7.0	345.336	392	0	1239	1239	0.0	284	未找到
+/usr/lib/libtizen-audio.so.0.0.0	17.312	36	0	45	45	0.0	66	未找到
+/usr/lib/libtizen-core.so.0.2.4	34.512	96	0	333	333	0.0	101	未找到
+/usr/lib/libtizen-dpms-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-extension-client.so.0.0.0	0.195	16	0	0	0		1	未找到
+/usr/lib/libtizen-extension-server.so.0.0.0	0.195	16	0	0	0		1	未找到
+/usr/lib/libtizen-extension-tv-client.so.0.0.0	0.195	20	0	0	0		1	未找到
+/usr/lib/libtizen-extension-tv-server.so.0.0.0	0.195	20	0	0	0		1	未找到
+/usr/lib/libtizen-hwc-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-hwc-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-launch-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-launch-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-policy-ext-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-remote-surface-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-remote-surface-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-surface-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-surface-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libtizen-watcher.so.1.0.17	68.303	44	0	21	21	0.0	149	未找到
+/usr/lib/libtouch-interactive-api.so.1.192.2	0.762	4	0	9	9	0.0	2	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libtpk-installer.so	137.07	44	0	74	74	0.0	170	未找到
+/usr/lib/libtpk-manifest-handlers.so.1.15.0	170.492	152	0	654	654	0.0	83	未找到
+/usr/lib/libtpl-egl.so.1.12.9	82.348	108	0	134	134	0.0	164	未找到
+/usr/lib/libtracker.so.1.0.1	1.535	4	0	4	4	0.0	6	未找到
+/usr/lib/libtrackrenderer.so	377.1	664	0	2536	2536	0.0	473	未找到
+/usr/lib/libtracksource.so	232.1	152	0	863	863	0.0	260	未找到
+/usr/lib/libtransport.so	5.727	16	0	16	16	0.0	35	未找到
+/usr/lib/libttrace.so.1.1.0	2.059	8	0	18	18	0.0	15	未找到
+/usr/lib/libtts.so	117.137	164	0	352	352	0.0	218	未找到
+/usr/lib/libtts_setting.so	36.0	32	0	100	100	0.0	101	未找到
+/usr/lib/libtuner-control.so.0.1	8.859	16	0	54	54	0.0	8	未找到
+/usr/lib/libturbojpeg.so.0.3.0	464.41	140	0	77	77	0.0	39	未找到
+/usr/lib/libtv-control.so.0.1.0	11.4	24	0	18	18	0.0	69	未找到
+/usr/lib/libtv-resource-information.so.1.24	82.035	220	0	737	737	0.0	83	未找到
+/usr/lib/libtv-resource-manager.so.1.43	53.332	128	0	312	312	0.0	152	未找到
+/usr/lib/libtv-viewer-api.so.0.1.0	97.881	148	0	551	551	0.0	167	未找到
+/usr/lib/libtv-viewer-kevent.so.0.1.0	43.805	84	0	287	287	0.0	83	未找到
+/usr/lib/libtv-voice-app-config-api.so	5.16	16	0	70	70	0.0	39	未找到
+/usr/lib/libtv_player.so.0.0.0	614.77	528	0	879	879	0.0	310	未找到
+/usr/lib/libtvp-tv.so.26.09.25.0	4.826	12	0	18	18	0.0	34	未找到
+/usr/lib/libtvs-api-ipc.so	33.133	120	0	326	326	0.0	89	未找到
+/usr/lib/libtvs-api-lite.so	85.363	236	0	631	631	0.0	173	未找到
+/usr/lib/libtvs-api-native.so	596.75	1060	0	3645	3645	0.0	509	未找到
+/usr/lib/libtvs-api.so	618.633	1164	0	4692	4692	0.0	107	未找到
+/usr/lib/libtvs-atsc30-guide.so	12.211	32	0	67	67	0.0	139	未找到
+/usr/lib/libtvs-atsc30-live.so	101.348	172	0	690	690	0.0	63	未找到
+/usr/lib/libtvs-atsc30-parser.so	238.549	240	0	2246	2246	0.0	99	未找到
+/usr/lib/libtvs-atsc30-scan.so	18.035	68	0	229	229	0.0	220	未找到
+/usr/lib/libtvs-atsc30-si.so	150.092	136	0	761	761	0.0	394	未找到
+/usr/lib/libtvs-atsc30-udm.so	14.531	52	0	178	178	0.0	42	未找到
+/usr/lib/libtvs-av.so	88.127	220	0	653	653	0.0	47	未找到
+/usr/lib/libtvs-b2b.so	195.092	432	0	1419	1419	0.0	756	未找到
+/usr/lib/libtvs-chms.so	230.613	476	0	1486	1486	0.0	349	未找到
+/usr/lib/libtvs-config.so	6.0	32	0	93	93	0.0	56	未找到
+/usr/lib/libtvs-core.so.0.1	68.5	136	0	386	386	0.0	160	未找到
+/usr/lib/libtvs-dbms.so	102.777	248	0	932	932	0.0	151	未找到
+/usr/lib/libtvs-dsm.so	494.035	380	0	3108	3108	0.0	280	未找到
+/usr/lib/libtvs-dtmb-sospec.so	1.176	8	0	25	25	0.0	11	未找到
+/usr/lib/libtvs-dvb-chms.so	54.037	92	0	481	481	0.0	221	未找到
+/usr/lib/libtvs-dvb-si.so	377.57	408	0	2076	2076	0.0	406	未找到
+/usr/lib/libtvs-dvb-sospec.so	6.115	12	0	38	38	0.0	12	未找到
+/usr/lib/libtvs-dvbbase-chms.so	24.725	64	0	269	269	0.0	189	未找到
+/usr/lib/libtvs-dvbbase-guide.so	145.346	136	0	790	790	0.0	464	未找到
+/usr/lib/libtvs-dvbbase-ics.so	50.594	92	0	405	405	0.0	212	未找到
+/usr/lib/libtvs-dvbbase-live.so	15.277	40	0	138	138	0.0	21	未找到
+/usr/lib/libtvs-dvbbase-scan.so	248.031	248	0	1663	1663	0.0	408	未找到
+/usr/lib/libtvs-dvbbase-si.so	245.418	236	0	1340	1340	0.0	480	未找到
+/usr/lib/libtvs-dvbbase-udm.so	35.006	32	0	146	146	0.0	23	未找到
+/usr/lib/libtvs-ems.so	20.047	60	0	121	121	0.0	68	未找到
+/usr/lib/libtvs-ewbs.so	59.961	100	0	296	296	0.0	149	未找到
+/usr/lib/libtvs-ext.so	281.355	440	0	1751	1751	0.0	72	未找到
+/usr/lib/libtvs-guide.so	131.35	228	0	858	858	0.0	408	未找到
+/usr/lib/libtvs-ht-api.so	113.008	228	0	946	946	0.0	297	未找到
+/usr/lib/libtvs-ht.so	164.008	204	0	725	725	0.0	276	未找到
+/usr/lib/libtvs-ics.so	146.602	276	0	783	783	0.0	233	未找到
+/usr/lib/libtvs-isdb-live.so	12.35	56	0	181	181	0.0	26	未找到
+/usr/lib/libtvs-isdb-scan.so	41.48	92	0	432	432	0.0	318	未找到
+/usr/lib/libtvs-isdb-si.so	55.457	112	0	488	488	0.0	332	未找到
+/usr/lib/libtvs-isdb-sospec.so	2.346	12	0	42	42	0.0	11	未找到
+/usr/lib/libtvs-iss.so	433.293	764	0	3346	3346	0.0	412	未找到
+/usr/lib/libtvs-live.so	483.793	768	0	2283	2283	0.0	559	未找到
+/usr/lib/libtvs-nrt.so	70.506	88	0	445	445	0.0	215	未找到
+/usr/lib/libtvs-objectfactory.so	6.533	32	0	147	147	0.0	28	未找到
+/usr/lib/libtvs-parser.so	322.725	500	0	4186	4186	0.0	149	未找到
+/usr/lib/libtvs-scan.so	166.762	272	0	1345	1345	0.0	324	未找到
+/usr/lib/libtvs-si.so	202.648	264	0	1424	1424	0.0	298	未找到
+/usr/lib/libtvs-sospec.so	15.594	56	0	173	173	0.0	74	未找到
+/usr/lib/libtvs-time.so	19.203	56	0	149	149	0.0	99	未找到
+/usr/lib/libtvs-tpms-base.so	132.836	284	0	727	727	0.0	281	未找到
+/usr/lib/libtvs-tpms.so	272.025	512	0	1032	1032	0.0	467	未找到
+/usr/lib/libtvs-tvplus.so	51.041	96	0	489	489	0.0	180	未找到
+/usr/lib/libtvs-udm.so	70.852	156	0	608	608	0.0	168	未找到
+/usr/lib/libtvs-util.so	390.223	808	0	3353	3353	0.0	524	未找到
+/usr/lib/libtzcapturec.so	1.527	4	0	6	6	0.0	26	未找到
+/usr/lib/libtzdaemon.so	532.967	908	0	1798	1798	0.0	278	未找到
+/usr/lib/libtzdaemon_ppi.so	0.449	4	0	1	1	0.0	12	未找到
+/usr/lib/libtzfr_utility_nwd.so.0.1.0	21.34	28	87	0	87	100.0	18	未找到
+/usr/lib/libtzplatform-config-2.0.so.2.0.0	7.457	20	0	52	52	0.0	38	未找到
+/usr/lib/libtzsh_server.so.0.0.0	0.195	8	0	0	0		1	未找到
+/usr/lib/libuci.so.0.1.0	44.988	44	0	218	218	0.0	185	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libudev.so.1.6.16	66.359	108	0	92	92	0.0	139	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/libug_duck.so	2.094	4	0	5	5	0.0	9	未找到
+/usr/lib/libui-gadget-1.so.0.2.13	12.52	8	0	25	25	0.0	46	未找到
+/usr/lib/libuifw_misc.so.0.1.0	4.523	12	0	14	14	0.0	29	未找到
+/usr/lib/libunidlna.so.0.0.1	2.379	4	0	27	27	0.0	17	未找到
+/usr/lib/libunifiedAuthentication.so.0.1.0	54.75	100	0	259	259	0.0	178	未找到
+/usr/lib/libunipicture.so.0.0.6	332.969	108	0	885	885	0.0	340	未找到
+/usr/lib/libunited-service.so.1.2.0	55.211	164	0	476	476	0.0	150	未找到
+/usr/lib/libunwind-arm.so.8.0.1	29.438	8	0	31	31	0.0	40	未找到
+/usr/lib/libunwind-ptrace.so.0.0.0	2.371	4	0	10	10	0.0	23	未找到
+/usr/lib/libusb-interface-api.so	9.742	32	0	67	67	0.0	126	未找到
+/usr/lib/libuuid.so.1.3.0	11.672	16	0	22	22	0.0	42	未找到
+/usr/lib/libv4l2.so.0.0.0	11.91	8	0	14	14	0.0	46	未找到
+/usr/lib/libv4lconvert.so.0.0.0	51.688	16	0	104	104	0.0	49	未找到
+/usr/lib/libvc-elm.so.0.100.2	84.5	36	0	149	149	0.0	259	未找到
+/usr/lib/libvc.so	135.695	68	0	407	407	0.0	232	未找到
+/usr/lib/libvc_setting.so	48.035	32	0	190	190	0.0	145	未找到
+/usr/lib/libvc_widget.so	115.242	48	0	355	355	0.0	232	未找到
+/usr/lib/libvconf-internal-keys-tv.so.0.1.232	16.174	20	0	95	95	0.0	55	未找到
+/usr/lib/libvconf.so.0.3.1	30.633	52	0	63	63	0.0	143	未找到
+/usr/lib/libvd-capi-manage-network.so.0.7.11	5.852	16	0	52	52	0.0	55	未找到
+/usr/lib/libvd-capi-network.so.0.1.1.63	140.391	160	0	156	156	0.0	181	未找到
+/usr/lib/libvd-elementary.so.0.1.0	58.822	44	0	196	196	0.0	228	未找到
+/usr/lib/libvd-player-app-extra-module.so.24.11.25.0	7.326	16	0	20	20	0.0	30	未找到
+/usr/lib/libvd-tpk-installer.so	305.883	208	0	935	935	0.0	141	未找到
+/usr/lib/libvd-webapi.so	4.537	16	0	26	26	0.0	31	未找到
+/usr/lib/libvd-win-util.so.0.0.509	49.938	96	0	142	142	0.0	145	未找到
+/usr/lib/libvdshm.so	7.271	24	0	83	83	0.0	42	未找到
+/usr/lib/libvideo-capture.so.0.1.0	9.363	12	0	68	68	0.0	26	未找到
+/usr/lib/libvideo-decoder-control.so.0.1	4.672	4	0	30	30	0.0	8	未找到
+/usr/lib/libvideo-dp-control.so.0.1.0	15.156	32	0	90	90	0.0	6	未找到
+/usr/lib/libvideo-misc.so.0.1.0	3.73	4	0	22	22	0.0	6	未找到
+/usr/lib/libvideo-mm-control.so.0.1.0	3.438	12	0	20	20	0.0	7	未找到
+/usr/lib/libvideo-render-ctrl-c-glue.so.0.1	0.533	4	0	29	29	0.0	3	未找到
+/usr/lib/libvideo-sink-swap-server.so.0.1.0	21.102	40	0	60	60	0.0	65	未找到
+/usr/lib/libvideo-sink.so.0.1.0	34.027	68	0	155	155	0.0	111	未找到
+/usr/lib/libvideoenhance.so.0.1	74.219	100	0	395	395	0.0	30	未找到
+/usr/lib/libvine-logger.so.1.0.0	0.406	4	0	3	3	0.0	5	未找到
+/usr/lib/libvine-plugin-ble-gatt.so.1	12.537	24	0	67	67	0.0	72	未找到
+/usr/lib/libvine-plugin-ble.so.1	3.238	8	0	14	14	0.0	34	未找到
+/usr/lib/libvine-plugin-dns-sd.so.1	7.559	16	0	48	48	0.0	46	未找到
+/usr/lib/libvine-plugin-libwebsockets.so.1	171.516	172	0	42	42	0.0	264	未找到
+/usr/lib/libvine-plugin-nan.so.1	7.088	16	0	42	42	0.0	51	未找到
+/usr/lib/libvine.so.1.0.0	62.316	120	0	588	588	0.0	74	未找到
+/usr/lib/libvirtualscreen-linker.so.0.0.509	15.088	24	0	63	63	0.0	43	未找到
+/usr/lib/libvoiceid-api.so.0.1.3	20.846	16	0	82	82	0.0	89	未找到
+/usr/lib/libvorbis.so.0.4.9	57.141	12	0	107	107	0.0	42	未找到
+/usr/lib/libvorbisenc.so.2.0.12	6.344	28	0	6	6	0.0	6	未找到
+/usr/lib/libvpx.so.7.1.0	1104.273	16	0	37	37	0.0	65	未找到
+/usr/lib/libwas_common.so	748.926	484	0	1886	1886	0.0	436	未找到
+/usr/lib/libwas_db_api.so	184.988	180	0	207	207	0.0	175	未找到
+/usr/lib/libwas_inner_db.so	21.852	40	0	76	76	0.0	80	未找到
+/usr/lib/libwas_launcher_api.so	34.375	40	0	79	79	0.0	104	未找到
+/usr/lib/libwas_manager_api.so	55.879	40	0	104	104	0.0	93	未找到
+/usr/lib/libwas_util_api.so	3.455	8	0	11	11	0.0	39	未找到
+/usr/lib/libwayland-client.so.0.23.1	16.121	36	0	60	60	0.0	57	未找到
+/usr/lib/libwayland-cursor.so.0.23.1	4.873	4	0	6	6	0.0	37	未找到
+/usr/lib/libwayland-egl-tizen.so.1.0.1	1.039	4	0	12	12	0.0	3	未找到
+/usr/lib/libwayland-egl.so.1.23.1	0.318	4	0	4	4	0.0	4	未找到
+/usr/lib/libwayland-server.so.0.23.1	19.848	48	0	124	124	0.0	79	未找到
+/usr/lib/libwayland-tbm-client.so.0.0.0	15.059	36	0	40	40	0.0	103	未找到
+/usr/lib/libwayland-tbm-server.so.0.0.0	29.141	52	0	71	71	0.0	141	未找到
+/usr/lib/libwcam-service-api.so	7.932	24	0	43	43	0.0	85	未找到
+/usr/lib/libwebappenc.so.1.0.0	10.402	8	0	46	46	0.0	55	未找到
+/usr/lib/libwebconv.so	75.348	120	466	0	466	100.0	126	未找到
+/usr/lib/libwebp.so.7.1.9	288.242	124	0	84	84	0.0	31	未找到
+/usr/lib/libwebpdemux.so.2.0.15	4.824	8	0	20	20	0.0	9	未找到
+/usr/lib/libwebpmux.so.3.1.0	18.781	8	0	27	27	0.0	34	未找到
+/usr/lib/libwgt-manifest-handlers.so.1.11.4	219.369	228	0	989	989	0.0	162	未找到
+/usr/lib/libwidget_parser.so.1.3.9	18.492	32	0	84	84	0.0	73	未找到
+/usr/lib/libwidget_service.so.1.3.9	47.377	32	0	133	133	0.0	179	未找到
+/usr/lib/libwifi-direct.so.1.2.100_20260831	69.328	84	0	160	160	0.0	52	未找到
+/usr/lib/libwifi-vendor.so	0.734	4	0	8	8	0.0	9	未找到
+/usr/lib/libwifi_state_manager.so	2.242	4	0	4	4	0.0	18	未找到
+/usr/lib/libwind.so.0.0.509	7.148	8	0	30	30	0.0	25	未找到
+/usr/lib/libwinsys-core-cpp.so.10.0.15	146.457	328	0	2032	2032	0.0	193	未找到
+/usr/lib/libwinsys_server_api2.so	14.84	44	0	2	2	0.0	11	未找到
+/usr/lib/libwintok.so.0.0.509	3.203	4	0	15	15	0.0	22	未找到
+/usr/lib/libwowl.so	1.516	4	0	9	9	0.0	12	未找到
+/usr/lib/libwtz-blender-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-blur-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-blur-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-foreign-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-foreign-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-screen-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-screen-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-shell-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-shell-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-video-shell-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libwtz-video-shell-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libxdg-shell-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libxdg-shell-unstable-v5-server.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libxdg-shell-unstable-v6-client.so.0.0.0	0.195	4	0	0	0		1	未找到
+/usr/lib/libxdgmime.so.1.1.0	14.75	4	0	7	7	0.0	45	未找到
+/usr/lib/libxkbcommon.so.0.8.0	74.273	220	0	97	97	0.0	44	未找到
+/usr/lib/libxml2.so.2.13.5	476.762	528	0	1559	1559	0.0	87	未找到
+/usr/lib/libxmlsec1-openssl.so.1.2.41	100.734	36	0	121	121	0.0	302	未找到
+/usr/lib/libxmlsec1.so.1.2.41	173.559	56	0	454	454	0.0	138	未找到
+/usr/lib/libxslt.so.1.1.42	91.188	32	0	237	237	0.0	209	未找到
+/usr/lib/libz.so.1.3.1	31.562	52	0	88	88	0.0	19	未找到
+/usr/lib/libzbar.so.0.2.0	86.379	16	0	132	132	0.0	62	未找到
+/usr/lib/libzint.so.2.6.7	249.277	32	0	286	286	0.0	46	未找到
+/usr/lib/libzip.so.5.5	48.492	16	0	122	122	0.0	75	未找到
+/usr/lib/ondemand/libcontents-recognition-service-ondemand.so	5.613	16	0	6	6	0.0	54	未找到
+/usr/lib/ondemand/libmbr-daemon-ondemand.so	21.262	48	125	0	125	100.0	73	未找到
+/usr/lib/ondemand/libqdinfo-daemon-ondemand.so	28.23	68	0	97	97	0.0	83	未找到
+/usr/lib/ossl-modules/legacy.so	29.75	36	0	1	1	0.0	115	未找到
+/usr/lib/pulse-15.0/modules/libalsa-util.so	122.047	128	0	119	119	0.0	531	未找到
+/usr/lib/pulse-15.0/modules/libcommunicator.so	0.836	4	0	4	4	0.0	11	未找到
+/usr/lib/pulse-15.0/modules/libhal-interface.so	6.098	16	0	27	27	0.0	35	未找到
+/usr/lib/pulse-15.0/modules/libprocessor.so	10.582	8	0	48	48	0.0	11	未找到
+/usr/lib/pulse-15.0/modules/libprotocol-native.so	67.938	40	0	18	18	0.0	304	未找到
+/usr/lib/pulse-15.0/modules/libtv-module-util.so	0.695	4	0	3	3	0.0	17	未找到
+/usr/lib/pulse-15.0/modules/module-alsa-source.so	0.656	8	0	8	8	0.0	11	未找到
+/usr/lib/pulse-15.0/modules/module-always-sink.so	1.5	8	0	7	7	0.0	18	未找到
+/usr/lib/pulse-15.0/modules/module-default-device-restore.so	1.535	8	0	6	6	0.0	24	未找到
+/usr/lib/pulse-15.0/modules/module-filter-apply.so	8.969	16	0	7	7	0.0	43	未找到
+/usr/lib/pulse-15.0/modules/module-mobile-camera-discover.so	2.191	8	0	7	7	0.0	25	未找到
+/usr/lib/pulse-15.0/modules/module-native-protocol-unix.so	1.078	8	0	7	7	0.0	27	未找到
+/usr/lib/pulse-15.0/modules/module-null-sink.so	3.359	12	0	8	8	0.0	64	未找到
+/usr/lib/pulse-15.0/modules/module-null-source.so	2.238	12	0	7	7	0.0	52	未找到
+/usr/lib/pulse-15.0/modules/module-role-ducking.so	10.863	20	0	9	9	0.0	40	未找到
+/usr/lib/pulse-15.0/modules/module-sound-player.so	7.219	20	0	6	6	0.0	70	未找到
+/usr/lib/pulse-15.0/modules/module-suspend-on-idle.so	7.555	16	0	7	7	0.0	33	未找到
+/usr/lib/pulse-15.0/modules/module-tizenaudio-policy.so	162.688	260	0	163	163	0.0	251	未找到
+/usr/lib/pulse-15.0/modules/module-tizenaudio-sink.so	4.949	16	0	8	8	0.0	77	未找到
+/usr/lib/pulse-15.0/modules/module-tizentv-bluetooth-discover.so	1.898	8	0	7	7	0.0	33	未找到
+/usr/lib/pulse-15.0/modules/module-tizentv-builtin-source.so	3.531	12	0	8	8	0.0	64	未找到
+/usr/lib/pulse-15.0/modules/module-tizentv-policy.so	8.996	24	0	7	7	0.0	58	未找到
+/usr/lib/pulse-15.0/modules/module-tone-player.so	3.891	12	0	8	8	0.0	53	未找到
+/usr/lib/pulse-15.0/modules/module-udev-detect.so	8.219	20	0	8	8	0.0	87	未找到
+/usr/lib/pulseaudio/libpulsecommon-15.0.so	206.461	328	0	847	847	0.0	281	未找到
+/usr/lib/pulseaudio/libpulsecore-15.0.so	302.93	364	0	675	675	0.0	393	未找到
+/usr/lib/scim-1.0/1.4.0/Config/simple.so	13.318	32	0	58	58	0.0	68	未找到
+/usr/lib/scim-1.0/1.4.0/PanelAgent/ecoresocket.so	55.488	48	0	13	13	0.0	253	未找到
+/usr/lib/scim-1.0/1.4.0/PanelAgent/socketconfigserver.so	15.975	32	0	7	7	0.0	203	未找到
+/usr/lib/scim-1.0/1.4.0/PanelAgent/wayland.so	36.145	60	0	8	8	0.0	234	未找到
+/usr/lib/systemd/libsystemd-shared-244.so	755.797	940	0	3075	3075	0.0	422	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/systemd/systemd	431.02	660	0	0	0		1087	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/systemd/systemd-udevd	99.016	112	0	52	52	0.0	447	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/lib/team-application/headed/libteam-application-headed.so.1.3.1	97.496	264	0	944	944	0.0	262	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen.so	3.328	4	1	0	1	100.0	23	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_application.so	235.555	60	31	0	31	100.0	184	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_common.so	278.27	152	642	0	642	100.0	152	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_systeminfo.so	340.148	80	25	0	25	100.0	219	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_tvinputdevice.so	5.094	8	1	0	1	100.0	30	未找到
+/usr/lib/tizen-extensions-crosswalk/libtizen_utils.so	17.586	8	3	0	3	100.0	61	未找到
+/usr/lib/tizen-extensions-crosswalk/libwebapis_adinfo.so	7.492	12	1	0	1	100.0	39	未找到
+/usr/lib/tizen-extensions-crosswalk/libwebapis_avplay.so	899.113	284	1247	0	1247	100.0	361	未找到
+/usr/lib/tizen-extensions-crosswalk/libwebapis_network.so	295.109	60	34	0	34	100.0	217	未找到
+/usr/lib/tizen-extensions-crosswalk/libwebapis_productinfo.so	90.406	56	26	0	26	100.0	109	未找到
+/usr/lib/tizen-extensions-crosswalk/libwebapis_tvinfo.so	78.238	56	29	0	29	100.0	110	未找到
+/usr/lib/tizen-extensions-crosswalk/libwidget_plugin.so	0.48	8	0	1	1	0.0	2	未找到
+/usr/lib/wifi-direct-plugin-wpasupplicant.so	92.113	104	0	118	118	0.0	73	未找到
+/usr/libexec/at-spi-bus-launcher	5.836	20	0	0	0		113	未找到
+/usr/local/lib/libavcodec.so	8148.602	1456	2180	0	2180	100.0	355	未找到
+/usr/local/lib/libavformat.so	647.656	600	442	0	442	100.0	280	未找到
+/usr/local/lib/libavutil.so	369.891	224	567	0	567	100.0	98	未找到
+/usr/local/lib/libswresample.so	69.484	12	45	0	45	100.0	41	未找到
+/usr/local/lib/libswscale.so	473.273	112	34	0	34	100.0	34	未找到
+/usr/sbin/buxton2d	86.217	156	1	201	202	0.495	284	未找到
+/usr/sbin/connmand	384.152	488	0	445	445	0.0	477	未找到
+/usr/sbin/launcher-security	71.834	100	1	1	2	50.0	160	未找到
+/usr/sbin/net-config	274.596	324	1	11	12	8.3333	405	未找到
+/usr/sbin/sdbd	80.625	136	1	199	200	0.5	165	未找到
+/usr/sbin/sshd	169.352	208	0	2	2	0.0	328	未找到
+/usr/sbin/vd-net-config	94.328	172	1	0	1	100.0	276	未找到
+/usr/sbin/wpa_supplicant	935.898	896	0	0	0		629	未找到
+/usr/share/amd/mod/libamd-mod-app-finder-tv.so	1.717	8	0	2	2	0.0	31	未找到
+/usr/share/amd/mod/libamd-mod-app-group-tv.so	3.02	8	0	2	2	0.0	34	未找到
+/usr/share/amd/mod/libamd-mod-app-status-tv.so	7.008	16	0	2	2	0.0	67	未找到
+/usr/share/amd/mod/libamd-mod-appmanager-tv.so	43.48	72	0	2	2	0.0	183	未找到
+/usr/share/amd/mod/libamd-mod-boot-tv.so	2.062	8	0	2	2	0.0	36	未找到
+/usr/share/amd/mod/libamd-mod-component-manager.so	16.355	28	0	30	30	0.0	80	未找到
+/usr/share/amd/mod/libamd-mod-cynara-core.so	17.297	32	0	34	34	0.0	81	未找到
+/usr/share/amd/mod/libamd-mod-extractor-tv.so	2.543	8	0	2	2	0.0	29	未找到
+/usr/share/amd/mod/libamd-mod-input.so	8.133	20	0	12	12	0.0	65	未找到
+/usr/share/amd/mod/libamd-mod-launch-blocker-tv.so	56.824	64	0	224	224	0.0	83	未找到
+/usr/share/amd/mod/libamd-mod-light-user.so	10.32	32	0	50	50	0.0	76	未找到
+/usr/share/amd/mod/libamd-mod-proc-group.so	5.652	16	0	16	16	0.0	46	未找到
+/usr/share/amd/mod/libamd-mod-rpc-port.so	14.871	32	0	40	40	0.0	92	未找到
+/usr/share/amd/mod/libamd-mod-rua.so	11.973	28	0	27	27	0.0	124	未找到
+/usr/share/amd/mod/libamd-mod-screen-resolution.so	2.625	8	0	6	6	0.0	33	未找到
+/usr/share/amd/mod/libamd-mod-share.so	4.977	16	0	2	2	0.0	65	未找到
+/usr/share/amd/mod/libamd-mod-splash-screen-tv.so	11.488	28	0	2	2	0.0	115	未找到
+/usr/share/amd/mod/libamd-mod-standalone-tv.so	1.805	8	0	2	2	0.0	28	未找到
+/usr/share/amd/mod/libamd-mod-tizen-action.so	19.166	32	0	23	23	0.0	69	未找到
+/usr/share/amd/mod/libamd-mod-ui-core.so	28.441	56	0	50	50	0.0	132	未找到
+/usr/share/amd/mod/libamd-mod-watchdog-tv.so	0.578	4	0	2	2	0.0	7	未找到
+/usr/share/amd/mod/libamd-mod-watchdog.so	5.02	16	0	10	10	0.0	49	未找到
+/usr/share/amd/mod/libamd-mod-wayland-core.so	2.438	8	0	2	2	0.0	36	未找到
+/usr/share/amd/mod/libamd-mod-widget-tv.so	0.75	4	0	2	2	0.0	16	未找到
+/usr/share/amd/mod/libamd-mod-widget.so	12.617	24	0	5	5	0.0	95	未找到
+/usr/share/appcore/plugins/libappcore-multi-window-plugin.so	11.098	20	0	5	5	0.0	59	未找到
+/usr/share/appcore/plugins/libappcore-plugin.so	1.203	4	0	2	2	0.0	18	未找到
+/usr/share/appcore/plugins/libappcore-ui-plugin.so	25.32	48	0	4	4	0.0	144	未找到
+/usr/share/chromium-efl/lib/libchromium-impl.so	54998.75	5928	0	1348	1348	0.0	3535	未找到
+/usr/share/chromium-efl/lib/libnode.so	2491.992	752	0	423	423	0.0	963	未找到
+/usr/share/chromium-efl/lib/libv8.so	12989.797	4772	0	16128	16128	0.0	581	未找到
+/usr/share/common-daemon-basic-monitor/plugins/libdata-service.so	69.305	192	0	626	626	0.0	200	未找到
+/usr/share/common-daemon-basic-monitor/plugins/libhbbtv-daemon.so	15.398	32	0	29	29	0.0	89	未找到
+/usr/share/common-daemon-basic-monitor/plugins/libkpi-logging.so.0.0.67.tv	9.188	24	0	14	14	0.0	83	未找到
+/usr/share/common-daemon-basic-monitor/plugins/libtvtimer-manager.so	33.688	76	0	110	110	0.0	120	未找到
+/usr/share/common-daemon-basic-monitor/plugins/libwelcome-mode-daemon.so	1.172	4	0	2	2	0.0	11	未找到
+/usr/share/connectivity-common-daemon/plugins/libbleapp.so	180.41	372	0	894	894	0.0	211	未找到
+/usr/share/connectivity-common-daemon/plugins/libbt-settings-external-controller.so	67.73	124	0	286	286	0.0	187	未找到
+/usr/share/connectivity-common-daemon/plugins/libbtapp-lite.so	1889.367	2300	0	4586	4586	0.0	618	未找到
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/libSystem.Native.so	30.812	36	0	245	245	0.0	185	未找到
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/libclrjit.so	1223.352	1072	0	4	4	0.0	281	未找到
+/usr/share/dotnet/shared/Microsoft.NETCore.App/8.0.11/libcoreclr.so	3554.383	2268	0	12	12	0.0	322	未找到
+/usr/share/esd/mod/libesd-mod-badge.so	42.785	92	0	318	318	0.0	118	未找到
+/usr/share/esd/mod/libesd-mod-cion.so	45.531	128	0	340	340	0.0	170	未找到
+/usr/share/esd/mod/libesd-mod-group.so	111.562	272	0	808	808	0.0	183	未找到
+/usr/share/esd/mod/libesd-mod-shortcut.so	53.25	100	0	421	421	0.0	122	未找到
+/usr/share/menu/providers/libIPRemote-data-provider.so.3.0.36	5.93	16	0	5	5	0.0	34	未找到
+/usr/share/menu/providers/libSWUMenuItemDataProvider.so	217.387	192	0	2	2	0.0	261	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libSWUMenuItemEnableChecker.so	35.186	28	0	4	4	0.0	114	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libairplay-visibilitychecker.so.0.1	1.215	8	0	5	5	0.0	22	未找到
+/usr/share/menu/providers/libambient-dataprovider.so.1.0	14.637	16	0	6	6	0.0	66	未找到
+/usr/share/menu/providers/libambient-visibilitychecker.so	8.383	20	0	8	8	0.0	52	未找到
+/usr/share/menu/providers/libbms-settings-data-provider.so.27.0.1	13.535	28	0	4	4	0.0	51	未找到
+/usr/share/menu/providers/libbroadcastmenu-dataprovider.so.0.1	344.523	344	44	0	44	100.0	235	未找到
+/usr/share/menu/providers/libbroadcastmenu-visiblechecker.so.0.1	258.312	120	18	0	18	100.0	215	未找到
+/usr/share/menu/providers/libcaption-provider.so	37.691	64	0	14	14	0.0	63	未找到
+/usr/share/menu/providers/libchannelscan-dataprovider.so.0.2.2	2.613	8	0	2	2	0.0	25	未找到
+/usr/share/menu/providers/libdevicemanager-data-provider.so.0.1	4.369	12	0	11	11	0.0	37	未找到
+/usr/share/menu/providers/libdevicename-provider.so.18.02.02.1	53.031	68	0	29	29	0.0	118	未找到
+/usr/share/menu/providers/libep-hotel-menu-provider.so	39.832	52	0	41	41	0.0	120	未找到
+/usr/share/menu/providers/libgooglecast-visiblechecker.so	0.492	4	0	4	4	0.0	1	未找到
+/usr/share/menu/providers/libhdmicec_dataprovider.so	6.352	16	0	19	19	0.0	36	未找到
+/usr/share/menu/providers/libkeyboard-data-provider.so.11.10.24	9.385	20	0	10	10	0.0	44	未找到
+/usr/share/menu/providers/libkeyboard-visibility-checker.so.11.10.24	4.904	12	0	8	8	0.0	33	未找到
+/usr/share/menu/providers/libkeyboardsettings_dataprovider.so	21.611	44	0	44	44	0.0	57	未找到
+/usr/share/menu/providers/libmenu-visibilitychecker.so	66.502	116	0	23	23	0.0	166	未找到
+/usr/share/menu/providers/libnetwork-visibility-checker.so.18.02.02.1	5.412	16	0	6	6	0.0	45	未找到
+/usr/share/menu/providers/libpicture-enablechecker.so	16.605	36	0	5	5	0.0	91	未找到
+/usr/share/menu/providers/libpicture-firstdepth-enablechecker.so	3.021	12	0	5	5	0.0	42	未找到
+/usr/share/menu/providers/libpicture-firstdepth-provider.so	30.656	52	0	14	14	0.0	99	未找到
+/usr/share/menu/providers/libpicture-provider.so	36.645	76	0	9	9	0.0	180	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libqsymphony_NUIGadget_dataprovider.so	4.883	12	0	11	11	0.0	37	未找到
+/usr/share/menu/providers/libqsymphony_NUIGadget_visiblechecker.so	0.488	4	0	4	4	0.0	4	未找到
+/usr/share/menu/providers/libsm-enable-checker.so.18.02.02.1	4.225	12	0	6	6	0.0	40	未找到
+/usr/share/menu/providers/libsmarthub-data-provider.so	2.791	8	0	4	4	0.0	27	未找到
+/usr/share/menu/providers/libsmarthub-terms-provider.so.0.2.1	10.34	24	10	17	27	37.037	44	未找到
+/usr/share/menu/providers/libsoftap-provider.so.17.11.29.1	38.598	40	0	18	18	0.0	129	未找到
+/usr/share/menu/providers/libsound-enablechecker.so	3.674	12	0	5	5	0.0	40	未找到
+/usr/share/menu/providers/libsound-provider.so	17.139	36	0	7	7	0.0	90	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libsoundshare-data-provider.so.25.04.08.1	5.422	12	0	4	4	0.0	34	未找到
+/usr/share/menu/providers/libsso-enable-checker.so	2.734	8	0	9	9	0.0	19	未找到
+/usr/share/menu/providers/libsubtitle-provider.so	18.377	36	0	11	11	0.0	60	未找到
+/usr/share/menu/providers/libsupport-provider.so	9.113	16	0	5	5	0.0	39	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libsupport-rm-dataprovider.so	8.473	20	0	26	26	0.0	44	未找到
+/usr/share/menu/providers/libsystem-enablechecker.so	23.887	40	0	7	7	0.0	153	未找到
+/usr/share/menu/providers/libsystem-provider.so	57.207	112	0	12	12	0.0	261	Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2
+/usr/share/menu/providers/libtdm-dataprovider.so	1.859	8	0	2	2	0.0	24	未找到
+/usr/share/menu/providers/libtdm-enablechecker.so	1.736	8	0	6	6	0.0	25	未找到
+/usr/share/menu/providers/libtdm-visibilitychecker.so	0.227	4	0	4	4	0.0	1	未找到
+/usr/share/menu/providers/libua-data-provider.so.26.08.13	9.109	24	0	9	9	0.0	58	未找到
+/usr/share/menu/providers/libvconf-provider.so	1.625	8	0	2	2	0.0	17	未找到
+/usr/share/menu/providers/libvoice_provider.so	62.316	116	0	224	224	0.0	182	未找到
+/usr/share/menu/providers/libvoiceguide_provider.so	27.547	72	0	171	171	0.0	118	未找到
+/usr/share/menu/providers/libwas-data-provider.so	13.562	24	0	39	39	0.0	60	未找到
+/usr/share/menu/providers/libwooferequalizer_dataprovider.so	11.656	24	0	10	10	0.0	56	未找到
+/usr/share/security-extension-tv/plugins/libsmack_logger_plugin.so	1.402	8	0	2	2	0.0	26	未找到
+/usr/share/security-solution-daemon/plugins/libcommon-famonitor.so	12.551	32	0	18	18	0.0	95	未找到
+/usr/share/security-solution-daemon/plugins/libscs-reporter-plugin.so	993.406	1076	0	968	968	0.0	342	未找到
+/usr/share/security-solution-daemon/plugins/libscs-updater-plugin.so	205.684	184	0	37	37	0.0	277	未找到
+/usr/share/security-solution-daemon/plugins/libsfpmd-plugin.so	26.506	64	0	93	93	0.0	191	未找到
+/usr/share/security-solution-daemon/plugins/scs-reporter-plugin/lib/lua/libluasqlite3.so	15.309	28	9	0	9	100.0	89	未找到
+/usr/share/source/providers/libdlna-sourceprovider.so.0.1	50.008	100	0	245	245	0.0	140	未找到
+/usr/share/source/providers/liblegacy-sourceprovider.so.0.5	33.18	72	0	99	99	0.0	83	未找到
+/usr/share/source/providers/libusb-sourceprovider.so.0.5	24.326	56	0	87	87	0.0	97	未找到
+/usr/share/source/providers/libusbcam-sourceprovider.so.0.5	41.412	48	0	147	147	0.0	162	未找到
+/usr/share/united-service/esd/mod/libalarm-server.so	94.318	172	0	213	213	0.0	269	未找到
+/usr/share/united-service/esd/mod/libdata-provider-master.so	105.844	188	0	411	411	0.0	348	未找到
+/usr/share/united-service/esd/mod/libevent-system-daemon.so	2.875	12	0	17	17	0.0	45	未找到

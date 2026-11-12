@@ -1,0 +1,23 @@
+0834b70669343ed3804fda6de117311ea5b56f662bb9ae50ad3ad7f8e03091e7  /home/linhao/clang-toolchains/src/llvm-project-21.1.1.src/llvm/include/llvm/CodeGen/BasicTTIImpl.h
+   612	  bool shouldBuildRelLookupTables() const override {
+   613	    const TargetMachine &TM = getTLI()->getTargetMachine();
+   614	    // If non-PIC mode, do not generate a relative lookup table.
+   615	    if (!TM.isPositionIndependent())
+   616	      return false;
+   617
+   618	    /// Relative lookup table entries consist of 32-bit offsets.
+   619	    /// Do not generate relative lookup tables for large code models
+   620	    /// in 64-bit achitectures where 32-bit offsets might not be enough.
+   621	    if (TM.getCodeModel() == CodeModel::Medium ||
+   622	        TM.getCodeModel() == CodeModel::Large)
+   623	      return false;
+   624
+   625	    const Triple &TargetTriple = TM.getTargetTriple();
+   626	    if (!TargetTriple.isArch64Bit())
+   627	      return false;
+   628
+   629	    // TODO: Triggers issues on aarch64 on darwin, so temporarily disable it
+   630	    // there.
+   631	    if (TargetTriple.getArch() == Triple::aarch64 && TargetTriple.isOSDarwin())
+   632	      return false;
+   633

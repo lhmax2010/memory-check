@@ -1,0 +1,104 @@
+[
+  {
+    "path": "/usr/share/chromium-efl/lib/libchromium-impl.so",
+    "candidate_count": 18112,
+    "intervals": 3413,
+    "range_start": "0x41e8828",
+    "range_end_exclusive": "0x42c2ab0",
+    "samples": [
+      {
+        "pointer_slot_file_offset": 68978744,
+        "pointee_vaddr": "0x46485d",
+        "string": "not an error"
+      },
+      {
+        "pointer_slot_file_offset": 68978748,
+        "pointee_vaddr": "0x506f5e",
+        "string": "SQL logic error or missing database"
+      },
+      {
+        "pointer_slot_file_offset": 68978756,
+        "pointee_vaddr": "0x567672",
+        "string": "access permission denied"
+      },
+      {
+        "pointer_slot_file_offset": 68978760,
+        "pointee_vaddr": "0x3f3e2a",
+        "string": "callback requested query abort"
+      },
+      {
+        "pointer_slot_file_offset": 68978764,
+        "pointee_vaddr": "0x566d3c",
+        "string": "database is locked"
+      }
+    ]
+  },
+  {
+    "path": "/usr/lib/driver/libmali.so",
+    "candidate_count": 12957,
+    "intervals": 208,
+    "range_start": "0x100c304",
+    "range_end_exclusive": "0x104c258",
+    "samples": [
+      {
+        "pointer_slot_file_offset": 16827140,
+        "pointee_vaddr": "0xda2368",
+        "string": "glActiveShaderProgram"
+      },
+      {
+        "pointer_slot_file_offset": 16827144,
+        "pointee_vaddr": "0xda2380",
+        "string": "glActiveTexture"
+      },
+      {
+        "pointer_slot_file_offset": 16827148,
+        "pointee_vaddr": "0xda2390",
+        "string": "glAlphaFunc"
+      },
+      {
+        "pointer_slot_file_offset": 16827152,
+        "pointee_vaddr": "0xda239c",
+        "string": "glAlphaFuncx"
+      },
+      {
+        "pointer_slot_file_offset": 16827156,
+        "pointee_vaddr": "0xda23ac",
+        "string": "glAlphaFuncxOES"
+      }
+    ]
+  },
+  {
+    "path": "/usr/share/chromium-efl/lib/libnode.so",
+    "candidate_count": 3410,
+    "intervals": 20,
+    "range_start": "0x931c44",
+    "range_end_exclusive": "0x94adf0",
+    "samples": [
+      {
+        "pointer_slot_file_offset": 9510032,
+        "pointee_vaddr": "0xef1e2",
+        "string": "../third_party/electron_node/src/connection_wrap.cc:36"
+      },
+      {
+        "pointer_slot_file_offset": 9510036,
+        "pointee_vaddr": "0x8108b",
+        "string": "(wrap_data) != nullptr"
+      },
+      {
+        "pointer_slot_file_offset": 9510044,
+        "pointee_vaddr": "0xecada",
+        "string": "../third_party/electron_node/src/connection_wrap.cc:37"
+      },
+      {
+        "pointer_slot_file_offset": 9510048,
+        "pointee_vaddr": "0x144eb0",
+        "string": "(&wrap_data->handle_) == (reinterpret_cast<UVType*>(handle))"
+      },
+      {
+        "pointer_slot_file_offset": 9510056,
+        "pointee_vaddr": "0xf1b4b",
+        "string": "../third_party/electron_node/src/connection_wrap.cc:45"
+      }
+    ]
+  }
+]

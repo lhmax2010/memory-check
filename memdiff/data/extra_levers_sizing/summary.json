@@ -1,0 +1,257 @@
+{
+  "candidate_arrays": 32727,
+  "candidate_page_any_kB": 50832,
+  "candidate_page_whole_kB": 404,
+  "top3_string_libraries": [
+    {
+      "path": "/usr/share/chromium-efl/lib/libchromium-impl.so",
+      "candidate_count": 18112,
+      "intervals": 3413,
+      "range_start": "0x41e8828",
+      "range_end_exclusive": "0x42c2ab0",
+      "samples": [
+        {
+          "pointer_slot_file_offset": 68978744,
+          "pointee_vaddr": "0x46485d",
+          "string": "not an error"
+        },
+        {
+          "pointer_slot_file_offset": 68978748,
+          "pointee_vaddr": "0x506f5e",
+          "string": "SQL logic error or missing database"
+        },
+        {
+          "pointer_slot_file_offset": 68978756,
+          "pointee_vaddr": "0x567672",
+          "string": "access permission denied"
+        },
+        {
+          "pointer_slot_file_offset": 68978760,
+          "pointee_vaddr": "0x3f3e2a",
+          "string": "callback requested query abort"
+        },
+        {
+          "pointer_slot_file_offset": 68978764,
+          "pointee_vaddr": "0x566d3c",
+          "string": "database is locked"
+        }
+      ]
+    },
+    {
+      "path": "/usr/lib/driver/libmali.so",
+      "candidate_count": 12957,
+      "intervals": 208,
+      "range_start": "0x100c304",
+      "range_end_exclusive": "0x104c258",
+      "samples": [
+        {
+          "pointer_slot_file_offset": 16827140,
+          "pointee_vaddr": "0xda2368",
+          "string": "glActiveShaderProgram"
+        },
+        {
+          "pointer_slot_file_offset": 16827144,
+          "pointee_vaddr": "0xda2380",
+          "string": "glActiveTexture"
+        },
+        {
+          "pointer_slot_file_offset": 16827148,
+          "pointee_vaddr": "0xda2390",
+          "string": "glAlphaFunc"
+        },
+        {
+          "pointer_slot_file_offset": 16827152,
+          "pointee_vaddr": "0xda239c",
+          "string": "glAlphaFuncx"
+        },
+        {
+          "pointer_slot_file_offset": 16827156,
+          "pointee_vaddr": "0xda23ac",
+          "string": "glAlphaFuncxOES"
+        }
+      ]
+    },
+    {
+      "path": "/usr/share/chromium-efl/lib/libnode.so",
+      "candidate_count": 3410,
+      "intervals": 20,
+      "range_start": "0x931c44",
+      "range_end_exclusive": "0x94adf0",
+      "samples": [
+        {
+          "pointer_slot_file_offset": 9510032,
+          "pointee_vaddr": "0xef1e2",
+          "string": "../third_party/electron_node/src/connection_wrap.cc:36"
+        },
+        {
+          "pointer_slot_file_offset": 9510036,
+          "pointee_vaddr": "0x8108b",
+          "string": "(wrap_data) != nullptr"
+        },
+        {
+          "pointer_slot_file_offset": 9510044,
+          "pointee_vaddr": "0xecada",
+          "string": "../third_party/electron_node/src/connection_wrap.cc:37"
+        },
+        {
+          "pointer_slot_file_offset": 9510048,
+          "pointee_vaddr": "0x144eb0",
+          "string": "(&wrap_data->handle_) == (reinterpret_cast<UVType*>(handle))"
+        },
+        {
+          "pointer_slot_file_offset": 9510056,
+          "pointee_vaddr": "0xf1b4b",
+          "string": "../third_party/electron_node/src/connection_wrap.cc:45"
+        }
+      ]
+    }
+  ],
+  "read_ahead": {
+    "files": 50,
+    "runs": 3770,
+    "pages": 23040,
+    "length_distribution": {
+      "1": 1414,
+      "32-63": 69,
+      "2-3": 1048,
+      "4-7": 667,
+      "8-15": 362,
+      "16-31": 169,
+      "64+": 41
+    },
+    "start_alignment_fraction": {
+      "4": 0.25490716180371353,
+      "8": 0.13448275862068965,
+      "16": 0.07108753315649867,
+      "32": 0.039257294429708225
+    },
+    "pages_in_16_aligned_runs_ge16": 4579,
+    "fraction_in_16_aligned_runs_ge16": 0.19874131944444445,
+    "runs_exactly_16": 20,
+    "runs_exactly_32": 6,
+    "pages_in_32_aligned_runs_ge32": 4135,
+    "fraction_in_32_aligned_runs_ge32": 0.1794704861111111,
+    "top50_text_Pss_kB": 60718.55001000001,
+    "shortest_run_retained_proxy_kB": 208.74305387331293,
+    "hypothetical_saving_range_kB": [
+      0,
+      60509.806956126704
+    ]
+  },
+  "duplicate_groups": 0,
+  "duplicate_upper_kB": 0,
+  "arm_mode_large_text_files": 31,
+  "arm_mode_large_text_top10": [
+    {
+      "path": "/prd/usr/lib/libbluetooth.so",
+      "text_kB": 9938.598,
+      "unique_rx_kB": "4568",
+      "defined_FUNC_ARM": 6486,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 6486,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 481,
+      "ARM_attributes": "Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2"
+    },
+    {
+      "path": "/usr/apps/com.samsung.tizen.argot/bin/argot",
+      "text_kB": 9823.348,
+      "unique_rx_kB": "5536",
+      "defined_FUNC_ARM": 4,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 4,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 300,
+      "ARM_attributes": "Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2"
+    },
+    {
+      "path": "/usr/local/lib/libavcodec.so",
+      "text_kB": 8148.602,
+      "unique_rx_kB": "1456",
+      "defined_FUNC_ARM": 2180,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 2180,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 355,
+      "ARM_attributes": "未找到"
+    },
+    {
+      "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "text_kB": 4691.668,
+      "unique_rx_kB": "2436",
+      "defined_FUNC_ARM": 7849,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 7849,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 1156,
+      "ARM_attributes": "Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2"
+    },
+    {
+      "path": "/usr/bin/issue_report_agent",
+      "text_kB": 3853.555,
+      "unique_rx_kB": "2232",
+      "defined_FUNC_ARM": 1742,
+      "defined_FUNC_Thumb": 5126,
+      "defined_FUNC_total": 6868,
+      "ARM_percent": 25.364,
+      "undefined_FUNC": 947,
+      "ARM_attributes": "未找到"
+    },
+    {
+      "path": "/opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service",
+      "text_kB": 1484.379,
+      "unique_rx_kB": "936",
+      "defined_FUNC_ARM": 1,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 1,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 452,
+      "ARM_attributes": "Tag_CPU_arch: v8 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2"
+    },
+    {
+      "path": "/usr/apps/org.tizen.webserver/bin/liblighttpd.so",
+      "text_kB": 1469.59,
+      "unique_rx_kB": "404",
+      "defined_FUNC_ARM": 688,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 688,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 393,
+      "ARM_attributes": "未找到"
+    },
+    {
+      "path": "/opt/usr/apps/com.samsung.tv.ghservice/shared/res/libcompgamehome.so",
+      "text_kB": 1171.453,
+      "unique_rx_kB": "508",
+      "defined_FUNC_ARM": 2476,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 2476,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 375,
+      "ARM_attributes": "Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2"
+    },
+    {
+      "path": "/usr/lib/libc-2.40.so",
+      "text_kB": 1107.25,
+      "unique_rx_kB": "1056",
+      "defined_FUNC_ARM": 3000,
+      "defined_FUNC_Thumb": 3,
+      "defined_FUNC_total": 3003,
+      "ARM_percent": 99.9001,
+      "undefined_FUNC": 15,
+      "ARM_attributes": "未找到"
+    },
+    {
+      "path": "/opt/usr/apps/com.samsung.tv.slive-daemon/lib/libtvs-api.so",
+      "text_kB": 912.781,
+      "unique_rx_kB": "916",
+      "defined_FUNC_ARM": 3269,
+      "defined_FUNC_Thumb": 0,
+      "defined_FUNC_total": 3269,
+      "ARM_percent": 100.0,
+      "undefined_FUNC": 90,
+      "ARM_attributes": "Tag_CPU_arch: v7 | Tag_ARM_ISA_use: Yes | Tag_THUMB_ISA_use: Thumb-2"
+    }
+  ],
+  "readelf_errors": []
+}

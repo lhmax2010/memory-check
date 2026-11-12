@@ -1,0 +1,31 @@
+2026-11-12T20:38:18.872829+08:00 START extra levers offline sizing
+2026-11-12T20:38:20.462279+08:00 ELF attributes/symbols 100/1452
+2026-11-12T20:38:22.036979+08:00 ELF attributes/symbols 200/1452
+2026-11-12T20:38:22.952601+08:00 ELF attributes/symbols 300/1452
+2026-11-12T20:38:23.421246+08:00 ELF attributes/symbols 400/1452
+2026-11-12T20:38:23.999779+08:00 ELF attributes/symbols 500/1452
+2026-11-12T20:38:24.550085+08:00 ELF attributes/symbols 600/1452
+2026-11-12T20:38:25.786990+08:00 ELF attributes/symbols 700/1452
+2026-11-12T20:38:26.757863+08:00 ELF attributes/symbols 800/1452
+2026-11-12T20:38:27.112964+08:00 ELF attributes/symbols 900/1452
+2026-11-12T20:38:27.872500+08:00 ELF attributes/symbols 1000/1452
+2026-11-12T20:38:28.517205+08:00 ELF attributes/symbols 1100/1452
+2026-11-12T20:38:30.184724+08:00 ELF attributes/symbols 1200/1452
+2026-11-12T20:38:30.556985+08:00 ELF attributes/symbols 1300/1452
+2026-11-12T20:38:31.685765+08:00 ELF attributes/symbols 1400/1452
+2026-11-12T20:38:31.868662+08:00 ELF inventory complete
+2026-11-12T20:38:32.265824+08:00 candidate array files 100
+2026-11-12T20:38:32.398770+08:00 candidate array files 200
+2026-11-12T20:38:32.536107+08:00 candidate array files 300
+2026-11-12T20:38:32.585756+08:00 candidate array files 400
+2026-11-12T20:38:32.821910+08:00 candidate array files 500
+2026-11-12T20:38:32.893473+08:00 candidate array files 600
+2026-11-12T20:38:33.028101+08:00 candidate array files 700
+2026-11-12T20:38:33.127262+08:00 candidate array files 800
+2026-11-12T20:38:33.215359+08:00 candidate array files 900
+2026-11-12T20:38:34.942826+08:00 candidate array files 1000
+2026-11-12T20:38:35.114439+08:00 candidate arrays complete
+2026-11-12T20:38:35.199962+08:00 read-ahead analysis complete
+2026-11-12T20:38:35.229916+08:00 duplicate ELF analysis complete
+2026-11-12T20:38:35.230234+08:00 DONE extra levers offline sizing
+已结束 2026-11-12T20:38:35.271064+08:00 状态=成功

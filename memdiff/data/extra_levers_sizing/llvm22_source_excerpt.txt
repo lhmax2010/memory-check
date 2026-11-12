@@ -1,0 +1,183 @@
+===== /home/linhao/clang-toolchains/src/llvm-project-22.1.8.src/llvm/include/llvm/CodeGen/BasicTTIImpl.h sha256=df90822eb93eed43f4cfd5df0b9f475debf1e87a155dcc573bef28caefb5c79c =====
+636:   bool shouldBuildRelLookupTables() const override {
+637:     const TargetMachine &TM = getTLI()->getTargetMachine();
+638:     // If non-PIC mode, do not generate a relative lookup table.
+639:     if (!TM.isPositionIndependent())
+640:       return false;
+641:
+642:     /// Relative lookup table entries consist of 32-bit offsets.
+643:     /// Do not generate relative lookup tables for large code models
+644:     /// in 64-bit achitectures where 32-bit offsets might not be enough.
+645:     if (TM.getCodeModel() == CodeModel::Medium ||
+646:         TM.getCodeModel() == CodeModel::Large)
+647:       return false;
+648:
+649:     const Triple &TargetTriple = TM.getTargetTriple();
+650:     if (!TargetTriple.isArch64Bit())
+651:       return false;
+652:
+653:     // TODO: Triggers issues on aarch64 on darwin, so temporarily disable it
+654:     // there.
+655:     if (TargetTriple.getArch() == Triple::aarch64 && TargetTriple.isOSDarwin())
+656:       return false;
+657:
+658:     return true;
+659:   }
+
+===== /home/linhao/clang-toolchains/src/llvm-project-22.1.8.src/llvm/lib/Transforms/Utils/RelLookupTableConverter.cpp sha256=c94d79661111ea57f82337ee155783d33008058135a05283b044e588733a7937 =====
+29: static bool shouldConvertToRelLookupTable(LookupTableInfo &Info, Module &M,
+30:                                           GlobalVariable &GV) {
+31:   // If lookup table has more than one user,
+32:   // do not generate a relative lookup table.
+33:   // This is to simplify the analysis that needs to be done for this pass.
+34:   // TODO: Add support for lookup tables with multiple uses.
+35:   // For ex, this can happen when a function that uses a lookup table gets
+36:   // inlined into multiple call sites.
+37:   //
+38:   // If the original lookup table does not have local linkage and is
+39:   // not dso_local, do not generate a relative lookup table.
+40:   // This optimization creates a relative lookup table that consists of
+41:   // offsets between the start of the lookup table and its elements.
+42:   // To be able to generate these offsets, relative lookup table and
+43:   // its elements should have internal linkage and be dso_local, which means
+44:   // that they should resolve to symbols within the same linkage unit.
+45:   if (!GV.hasInitializer() || !GV.isConstant() || !GV.hasOneUse() ||
+46:       !GV.hasLocalLinkage() || !GV.isDSOLocal() || !GV.isImplicitDSOLocal())
+47:     return false;
+48:
+49:   auto *GEP = dyn_cast<GetElementPtrInst>(GV.use_begin()->getUser());
+50:   if (!GEP || !GEP->hasOneUse())
+51:     return false;
+52:
+53:   auto *Load = dyn_cast<LoadInst>(GEP->use_begin()->getUser());
+54:   if (!Load || !Load->hasOneUse())
+55:     return false;
+56:
+57:   // If values are not 64-bit pointers, do not generate a relative lookup table.
+58:   const DataLayout &DL = M.getDataLayout();
+59:   Type *ElemType = Load->getType();
+60:   if (!ElemType->isPointerTy() || DL.getPointerTypeSizeInBits(ElemType) != 64)
+61:     return false;
+62:
+63:   // Make sure this is a gep of the form GV + scale*var.
+64:   unsigned IndexWidth =
+65:       DL.getIndexTypeSizeInBits(Load->getPointerOperand()->getType());
+66:   SmallMapVector<Value *, APInt, 4> VarOffsets;
+67:   APInt ConstOffset(IndexWidth, 0);
+68:   if (!GEP->collectOffset(DL, IndexWidth, VarOffsets, ConstOffset) ||
+69:       !ConstOffset.isZero() || VarOffsets.size() != 1)
+70:     return false;
+71:
+72:   // This can't be a pointer lookup table if the stride is smaller than a
+73:   // pointer.
+74:   Info.Index = VarOffsets.front().first;
+75:   const APInt &Stride = VarOffsets.front().second;
+76:   if (Stride.ult(DL.getTypeStoreSize(ElemType)))
+77:     return false;
+78:
+79:   SmallVector<GlobalVariable *, 4> GVOps;
+80:   Triple TT = M.getTargetTriple();
+81:   // FIXME: This should be removed in the future.
+82:   bool ShouldDropUnnamedAddr =
+83:       // Drop unnamed_addr to avoid matching pattern in
+84:       // `handleIndirectSymViaGOTPCRel`, which generates GOTPCREL relocations
+85:       // not supported by the GNU linker and LLD versions below 18 on aarch64.
+86:       TT.isAArch64()
+87:       // Apple's ld64 (and ld-prime on Xcode 15.2) miscompile something on
+88:       // x86_64-apple-darwin. See
+89:       // https://github.com/rust-lang/rust/issues/140686 and
+90:       // https://github.com/rust-lang/rust/issues/141306.
+91:       || (TT.isX86() && TT.isOSDarwin());
+92:
+93:   APInt Offset(IndexWidth, 0);
+94:   uint64_t GVSize = DL.getTypeAllocSize(GV.getValueType());
+95:   for (; Offset.ult(GVSize); Offset += Stride) {
+96:     Constant *C =
+97:         ConstantFoldLoadFromConst(GV.getInitializer(), ElemType, Offset, DL);
+98:     if (!C)
+99:       return false;
+100:
+101:     GlobalValue *GVOp;
+102:     APInt GVOffset;
+103:
+104:     // If an operand is not a constant offset from a lookup table,
+105:     // do not generate a relative lookup table.
+106:     if (!IsConstantOffsetFromGlobal(C, GVOp, GVOffset, DL))
+107:       return false;
+108:
+109:     // If operand is mutable, do not generate a relative lookup table.
+110:     auto *GlovalVarOp = dyn_cast<GlobalVariable>(GVOp);
+111:     if (!GlovalVarOp || !GlovalVarOp->isConstant())
+112:       return false;
+113:
+114:     if (!GlovalVarOp->hasLocalLinkage() ||
+115:         !GlovalVarOp->isDSOLocal() ||
+116:         !GlovalVarOp->isImplicitDSOLocal())
+117:       return false;
+118:
+119:     if (ShouldDropUnnamedAddr)
+120:       GVOps.push_back(GlovalVarOp);
+121:
+122:     Info.Ptrs.push_back(C);
+123:   }
+124:
+125:   if (ShouldDropUnnamedAddr)
+126:     for (auto *GVOp : GVOps)
+127:       GVOp->setUnnamedAddr(GlobalValue::UnnamedAddr::None);
+128:
+129:   return true;
+130: }
+206: // Convert lookup tables to relative lookup tables in the module.
+207: static bool convertToRelativeLookupTables(
+208:     Module &M, function_ref<TargetTransformInfo &(Function &)> GetTTI) {
+209:   for (Function &F : M) {
+210:     if (F.isDeclaration())
+211:       continue;
+212:
+213:     // Check if we have a target that supports relative lookup tables.
+214:     if (!GetTTI(F).shouldBuildRelLookupTables())
+215:       return false;
+216:
+217:     // We assume that the result is independent of the checked function.
+218:     break;
+219:   }
+220:
+221:   bool Changed = false;
+222:
+223:   for (GlobalVariable &GV : llvm::make_early_inc_range(M.globals())) {
+224:     LookupTableInfo Info;
+225:     if (!shouldConvertToRelLookupTable(Info, M, GV))
+226:       continue;
+227:
+228:     convertToRelLookupTable(Info, GV);
+229:
+230:     // Remove the original lookup table.
+231:     GV.eraseFromParent();
+232:
+233:     Changed = true;
+234:   }
+235:
+236:   return Changed;
+237: }
+238:
+239: PreservedAnalyses RelLookupTableConverterPass::run(Module &M,
+240:                                                    ModuleAnalysisManager &AM) {
+241:   FunctionAnalysisManager &FAM =
+242:       AM.getResult<FunctionAnalysisManagerModuleProxy>(M).getManager();
+243:
+244:   auto GetTTI = [&](Function &F) -> TargetTransformInfo & {
+245:     return FAM.getResult<TargetIRAnalysis>(F);
+246:   };
+247:
+
+===== /home/linhao/clang-toolchains/src/llvm-project-22.1.8.src/llvm/lib/Passes/PassBuilderPipelines.cpp sha256=6af4a16444ac71a5fb66b120c411a8bc203a3a32d06d5f2929f44548cc41d623 =====
+1666:
+1667:   if (PTO.CallGraphProfile && !LTOPreLink)
+1668:     MPM.addPass(CGProfilePass(isLTOPostLink(LTOPhase)));
+1669:
+1670:   // RelLookupTableConverterPass runs later in LTO post-link pipeline.
+1671:   if (!LTOPreLink)
+1672:     MPM.addPass(RelLookupTableConverterPass());
+1673:
+1674:   // Add devirtualization pass only when LTO is not enabled, as otherwise
+1675:   // the pass is already enabled in the LTO pipeline.

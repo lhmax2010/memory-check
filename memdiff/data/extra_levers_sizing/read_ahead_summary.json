@@ -1,0 +1,32 @@
+{
+  "files": 50,
+  "runs": 3770,
+  "pages": 23040,
+  "length_distribution": {
+    "1": 1414,
+    "32-63": 69,
+    "2-3": 1048,
+    "4-7": 667,
+    "8-15": 362,
+    "16-31": 169,
+    "64+": 41
+  },
+  "start_alignment_fraction": {
+    "4": 0.25490716180371353,
+    "8": 0.13448275862068965,
+    "16": 0.07108753315649867,
+    "32": 0.039257294429708225
+  },
+  "pages_in_16_aligned_runs_ge16": 4579,
+  "fraction_in_16_aligned_runs_ge16": 0.19874131944444445,
+  "runs_exactly_16": 20,
+  "runs_exactly_32": 6,
+  "pages_in_32_aligned_runs_ge32": 4135,
+  "fraction_in_32_aligned_runs_ge32": 0.1794704861111111,
+  "top50_text_Pss_kB": 60718.55001000001,
+  "shortest_run_retained_proxy_kB": 208.74305387331293,
+  "hypothetical_saving_range_kB": [
+    0,
+    60509.806956126704
+  ]
+}

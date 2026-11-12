@@ -542,3 +542,11 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 已闭合：11-11 LLVM 原始采集重跑已发布预算，Pss 分类、代码节分摊、重定位、符号估算等 20/20 组数值逐项一致，PageTables 历史同次值缺失而排除；逐进程 Pss 回加为 563,596 KiB，逐文件 r-x 节 Pss 回加与 212,919 KiB 差 0.00013 KiB（六位小数舍入）。GCC boot1 与 11-11 LLVM 的单次对比演练识别严格配对进程键 62、两侧单侧键各 41、共同文件 1,595 和单侧文件 207；只验证解析，不作跨镜像结论。8 个单元测试通过，含退出进程、ELF 拉回失败、同路径多 inode、跨节页分摊。证据 `memdiff/reports/image_budget_tool.md`、`memdiff/tools/image_budget/tests/llvm11_regression.json`、`tests/offline_compare/`、`tests/unit_tests.log`。
 
 挂账：采集入口本轮没有上板运行，首次实际采集应核验 SDB 实际权限、时长和失败路径。历史 11-11 缺同次 PageTables 与 `/proc/<pid>/exe`，进程身份仅能由首个 r-x 文件映射推定。重定位目标页静态模型对实测私脏约高估 44%，不作为收益。工具用法、口径与输出字段见 `memdiff/tools/image_budget/README.md`。
+
+### 不改业务代码的内存手段离线上限（2026-11-12）
+
+计划与进度：仅复用 11-11 LLVM `data/system_code_page_sections/` 和 `data/llvm_memory_budget/`，不用板子、不联网；本机 22.1.8 发布源码快照检查 RelLookupTableConverter 与 TTI，交叉 readelf 逐 ELF 统计 Thumb 函数与 ARM attributes，逐文件分析候选 RELRO 数组、唯一 r-x 页连续段和同 SHA ELF。主机 CPU0/nice19/ionice idle 串行，Python 虚拟内存上限 2,500,000 KiB；进度与结束状态在 `data/extra_levers_sizing/progress.log`、`console.log`。报告为 `reports/extra_levers_sizing.md`。
+
+已闭合：LLVM 22.1.8 的 `BasicTTIImpl.h:649–651` 对非 64 位目标禁用相对查找表，pass 还要求 64 位指针；ARMv7 PIC/PIE 不会用到该 pass。静态候选连续数组 32,727 段，按映射进程加权的“页内有候选目标”50,832 KiB、“整页处于候选区间”404 KiB，均非可得收益。唯一 r-x 驻留前 50 文件的 3,770 连续段起点按 16/32 页对齐 7.11%/3.93%，未见统一预读块特征；最短连续段代理的假设代码 Pss 可减少范围 0–60,509.81 KiB，不作为实测收益。不同 inode 且同 SHA 的同时映射 ELF 组 0、上限 0 KiB；`.dynsym` 定义 FUNC 中 ARM 占比 >20% 且 `.text` >256 KiB 的文件 31 个，内部函数覆盖未确定。证据 `data/extra_levers_sizing/{summary.json,candidate_arrays.tsv,read_ahead_summary.json,duplicate_elf_groups.tsv,arm_mode_large_text.tsv,source_files.tsv}` 及报告。
+
+挂账：本机只有 LLVM 21.1.1 与 22.1.8 发布源码包，无 llvm-project Git 历史；引入 pass/32 位条件的提交与评审链接、历史设计理由未找到。22.1.8 发布快照不是 release/22.x 分支工作树，分支最新状态未核实。候选数组是否满足 IR 使用条件、真实代码热点、预读参数、非 ELF 重复文件和非导出函数模式需要其他证据，本轮没有推断可得收益。
