@@ -506,3 +506,11 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 停止条件：板上缺 `getfattr/setfattr` 等通用扩展属性工具；从官方 Tizen Base 临时提取的工具在 `/opt/usr` 暂存目录执行时被拒绝（直接执行 126，经动态加载器 127）。无法满足“全部扩展属性可备份、可恢复才改写”的硬条件，故实际修改程序/库数均为 0，三个状态的开机和内存测量均未执行；没有收益数据。证据 `board_xattr_tools.stdout`、`attr_tool_probe.stdout`、`attr_tool_probe.stderr`。旧 GCC 副本的本机 `prelink -u` 成功不替代板上文件属性门禁。
 
 恢复核对：仅曾推入两份临时属性工具，现已删除，暂存目录不存在；板上系统 ELF 未修改且 tvs-daemon SHA256 不变；未重启，boot ID 不变；`sdb root off` 后 UID 5001。证据 `board_cleanup.stdout`、`post_cleanup_identity.stdout`。挂账：需有板上实际可执行的完整 xattr 备份/恢复工具，或能逐文件证明并恢复全部原属性的等效方案，才可重新开展实验。
+
+### GCC 板 UEP/overlay 三类文件探测（2026-11-12）
+
+计划与进度：用户再次确认板子 IP `192.168.108.26`；armv7l、NT72671D、KSU2E、GCC 内核及 `BUILD_ID=T-KSU2EJAKUC-0101-PERF-202610010416` 均通过。仅在 `/root/uep_probe/` 暂存官方 attr RPM 的工具和一个 `/usr/bin/whoami` 原件备份；选用该工具的只读筛选、交叉 readelf `.comment` 偏移及原状态执行见 `memdiff/data/uep_overlay_probe/selected_candidate.json` 和 `raw/candidate_whoami_*`。脚本不读终端，开发机 CPU0/nice19 串行，进度与结束状态见 `progress.log`、`prepare_console.log`、`mutate_console.log`。
+
+已闭合：`/root` 下未签名 getfattr 直接执行及经动态加载器执行均成功；`whoami` 原样覆盖并出现 overlay upper 副本后仍可执行；只把非加载的 `.comment` 首字节 `G→H` 后仍可执行。原样 copy-up 的 SHA256 与原件相同，单字节改动的 SHA256 与本机对照件相同。原件、原样副本、改单字节版和写回版的属主/权限、getcap、chsmack 与全部 getfattr 输出一致，仅有 `security.SMACK64=0x5f`；12 组 dmesg/dlog 前后快照未见新增签名/UEP/kUEP 匹配行。证据 `memdiff/reports/uep_overlay_probe.md`、`data/uep_overlay_probe/attr_probe.json`、`mutation_state.json`、`log_delta_summary.json` 及原始输出。
+
+恢复核对：原字节已原地写回，SHA256 和属性恢复到基准，运行输出一致；`/root/uep_probe/` 已清理，未重启，boot ID 不变；`sdb root off` 后 UID 5001。按成功恢复分支，upper 中仍有与下层原件字节/已枚举属性一致的 `/usr/bin/whoami` 副本。挂账：本轮仅改非 ALLOC 的 `.comment`，不能推出撤销预链接后加载相关字节改动的 UEP 结果，也未验证 19 个目标程序/库或服务健康；不作内存收益结论。

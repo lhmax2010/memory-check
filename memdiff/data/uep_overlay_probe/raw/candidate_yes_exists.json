@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T07:46:06+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "test -f /usr/bin/yes && test ! -L /usr/bin/yes"
+  ],
+  "rc": 0,
+  "stdout_bytes": 0,
+  "stderr_bytes": 0
+}

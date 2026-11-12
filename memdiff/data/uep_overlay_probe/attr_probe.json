@@ -1,0 +1,22 @@
+{
+  "direct_version": {
+    "rc": 0,
+    "stdout": "getfattr 2.5.1\r\n\r",
+    "stderr": ""
+  },
+  "direct_xattrs": {
+    "rc": 0,
+    "stdout": "getfattr: Removing leading '/' from absolute path names\r\n# file: usr/bin/tvs-daemon\r\nsecurity.SMACK64=0x5f\r\n\r\n\r",
+    "stderr": ""
+  },
+  "loader_version": {
+    "rc": 0,
+    "stdout": "getfattr 2.5.1\r\n\r",
+    "stderr": ""
+  },
+  "loader_xattrs": {
+    "rc": 0,
+    "stdout": "getfattr: Removing leading '/' from absolute path names\r\n# file: usr/bin/tvs-daemon\r\nsecurity.SMACK64=0x5f\r\n\r\n\r",
+    "stderr": ""
+  }
+}

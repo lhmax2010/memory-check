@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T07:51:08+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sha256sum /root/uep_probe/whoami.original; __uep_rc=$?; printf '\\n__UEP_RC__%d\\n' \"$__uep_rc\""
+  ],
+  "rc": 0,
+  "stdout_bytes": 114,
+  "stderr_bytes": 0
+}

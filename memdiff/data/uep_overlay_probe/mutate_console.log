@@ -1,0 +1,141 @@
+2026-11-12T07:51:06+00:00 RUN mutation_connect
+2026-11-12T07:51:06+00:00 END mutation_connect rc=0 stdout=42 stderr=0
+2026-11-12T07:51:06+00:00 RUN identity
+2026-11-12T07:51:06+00:00 END identity rc=0 stdout=1825 stderr=0
+2026-11-12T07:51:06+00:00 RUN root_on
+2026-11-12T07:51:07+00:00 END root_on rc=0 stdout=32 stderr=0
+2026-11-12T07:51:07+00:00 RUN root_uid
+2026-11-12T07:51:07+00:00 END root_uid rc=0 stdout=18 stderr=0
+2026-11-12T07:51:07+00:00 RUN mutation_stage_absent
+2026-11-12T07:51:07+00:00 END mutation_stage_absent rc=0 stdout=15 stderr=0
+2026-11-12T07:51:07+00:00 RUN mutation_stage_create
+2026-11-12T07:51:07+00:00 END mutation_stage_create rc=0 stdout=15 stderr=0
+2026-11-12T07:51:07+00:00 RUN mutation_push_getfattr
+2026-11-12T07:51:07+00:00 END mutation_push_getfattr rc=0 stdout=331 stderr=0
+2026-11-12T07:51:07+00:00 RUN mutation_push_setfattr
+2026-11-12T07:51:08+00:00 END mutation_push_setfattr rc=0 stdout=331 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_setfattr_version
+2026-11-12T07:51:08+00:00 END mutation_setfattr_version rc=0 stdout=31 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_attr_test
+2026-11-12T07:51:08+00:00 END mutation_attr_test rc=0 stdout=178 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_push_original
+2026-11-12T07:51:08+00:00 END mutation_push_original rc=0 stdout=373 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_backup_sha
+2026-11-12T07:51:08+00:00 END mutation_backup_sha rc=0 stdout=114 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_target_sha
+2026-11-12T07:51:08+00:00 END mutation_target_sha rc=0 stdout=98 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_lower_sha
+2026-11-12T07:51:08+00:00 END mutation_lower_sha rc=0 stdout=110 stderr=0
+2026-11-12T07:51:08+00:00 RUN mutation_upper_absent
+2026-11-12T07:51:09+00:00 END mutation_upper_absent rc=0 stdout=15 stderr=0
+2026-11-12T07:51:09+00:00 RUN mutation_target_mapped
+2026-11-12T07:51:09+00:00 END mutation_target_mapped rc=0 stdout=15 stderr=0
+2026-11-12T07:51:09+00:00 RUN before_sha256
+2026-11-12T07:51:09+00:00 END before_sha256 rc=0 stdout=98 stderr=0
+2026-11-12T07:51:09+00:00 RUN before_stat
+2026-11-12T07:51:09+00:00 END before_stat rc=0 stdout=30 stderr=0
+2026-11-12T07:51:09+00:00 RUN before_getcap
+2026-11-12T07:51:09+00:00 END before_getcap rc=0 stdout=15 stderr=0
+2026-11-12T07:51:09+00:00 RUN before_chsmack
+2026-11-12T07:51:09+00:00 END before_chsmack rc=0 stdout=43 stderr=0
+2026-11-12T07:51:09+00:00 RUN before_xattrs
+2026-11-12T07:51:10+00:00 END before_xattrs rc=0 stdout=121 stderr=0
+2026-11-12T07:51:10+00:00 RUN mutation_baseline
+2026-11-12T07:51:10+00:00 END mutation_baseline rc=0 stdout=331 stderr=0
+2026-11-12T07:51:10+00:00 RUN same_before_dmesg
+2026-11-12T07:51:10+00:00 END same_before_dmesg rc=0 stdout=722230 stderr=0
+2026-11-12T07:51:10+00:00 RUN same_before_dlog_main
+2026-11-12T07:51:11+00:00 END same_before_dlog_main rc=0 stdout=869679 stderr=0
+2026-11-12T07:51:11+00:00 RUN same_before_dlog_system
+2026-11-12T07:51:11+00:00 END same_before_dlog_system rc=0 stdout=456395 stderr=0
+2026-11-12T07:51:11+00:00 RUN same_write
+2026-11-12T07:51:11+00:00 END same_write rc=0 stdout=15 stderr=0
+2026-11-12T07:51:11+00:00 RUN same_sha
+2026-11-12T07:51:11+00:00 END same_sha rc=0 stdout=98 stderr=0
+2026-11-12T07:51:11+00:00 RUN same_upper_present
+2026-11-12T07:51:11+00:00 END same_upper_present rc=0 stdout=15 stderr=0
+2026-11-12T07:51:11+00:00 RUN same_sha256
+2026-11-12T07:51:11+00:00 END same_sha256 rc=0 stdout=98 stderr=0
+2026-11-12T07:51:11+00:00 RUN same_stat
+2026-11-12T07:51:12+00:00 END same_stat rc=0 stdout=30 stderr=0
+2026-11-12T07:51:12+00:00 RUN same_getcap
+2026-11-12T07:51:12+00:00 END same_getcap rc=0 stdout=15 stderr=0
+2026-11-12T07:51:12+00:00 RUN same_chsmack
+2026-11-12T07:51:12+00:00 END same_chsmack rc=0 stdout=43 stderr=0
+2026-11-12T07:51:12+00:00 RUN same_xattrs
+2026-11-12T07:51:12+00:00 END same_xattrs rc=0 stdout=121 stderr=0
+2026-11-12T07:51:12+00:00 RUN same_run
+2026-11-12T07:51:12+00:00 END same_run rc=0 stdout=331 stderr=0
+2026-11-12T07:51:12+00:00 RUN same_after_dmesg
+2026-11-12T07:51:13+00:00 END same_after_dmesg rc=0 stdout=721933 stderr=0
+2026-11-12T07:51:13+00:00 RUN same_after_dlog_main
+2026-11-12T07:51:13+00:00 END same_after_dlog_main rc=0 stdout=993107 stderr=0
+2026-11-12T07:51:13+00:00 RUN same_after_dlog_system
+2026-11-12T07:51:13+00:00 END same_after_dlog_system rc=0 stdout=378487 stderr=0
+2026-11-12T07:51:13+00:00 RUN modified_before_dmesg
+2026-11-12T07:51:14+00:00 END modified_before_dmesg rc=0 stdout=722680 stderr=0
+2026-11-12T07:51:14+00:00 RUN modified_before_dlog_main
+2026-11-12T07:51:14+00:00 END modified_before_dlog_main rc=0 stdout=804166 stderr=0
+2026-11-12T07:51:14+00:00 RUN modified_before_dlog_system
+2026-11-12T07:51:15+00:00 END modified_before_dlog_system rc=0 stdout=310340 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_write
+2026-11-12T07:51:15+00:00 END modified_write rc=0 stdout=94 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_sha
+2026-11-12T07:51:15+00:00 END modified_sha rc=0 stdout=98 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_sha256
+2026-11-12T07:51:15+00:00 END modified_sha256 rc=0 stdout=98 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_stat
+2026-11-12T07:51:15+00:00 END modified_stat rc=0 stdout=30 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_getcap
+2026-11-12T07:51:15+00:00 END modified_getcap rc=0 stdout=15 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_chsmack
+2026-11-12T07:51:15+00:00 END modified_chsmack rc=0 stdout=43 stderr=0
+2026-11-12T07:51:15+00:00 RUN modified_xattrs
+2026-11-12T07:51:16+00:00 END modified_xattrs rc=0 stdout=121 stderr=0
+2026-11-12T07:51:16+00:00 RUN modified_run
+2026-11-12T07:51:16+00:00 END modified_run rc=0 stdout=331 stderr=0
+2026-11-12T07:51:16+00:00 RUN modified_after_dmesg
+2026-11-12T07:51:16+00:00 END modified_after_dmesg rc=0 stdout=723948 stderr=0
+2026-11-12T07:51:16+00:00 RUN modified_after_dlog_main
+2026-11-12T07:51:17+00:00 END modified_after_dlog_main rc=0 stdout=1116488 stderr=0
+2026-11-12T07:51:17+00:00 RUN modified_after_dlog_system
+2026-11-12T07:51:17+00:00 END modified_after_dlog_system rc=0 stdout=441708 stderr=0
+2026-11-12T07:51:17+00:00 RUN restore_before_dmesg
+2026-11-12T07:51:17+00:00 END restore_before_dmesg rc=0 stdout=722547 stderr=0
+2026-11-12T07:51:17+00:00 RUN restore_before_dlog_main
+2026-11-12T07:51:18+00:00 END restore_before_dlog_main rc=0 stdout=1122443 stderr=0
+2026-11-12T07:51:18+00:00 RUN restore_before_dlog_system
+2026-11-12T07:51:18+00:00 END restore_before_dlog_system rc=0 stdout=448218 stderr=0
+2026-11-12T07:51:18+00:00 RUN restore_write
+2026-11-12T07:51:18+00:00 END restore_write rc=0 stdout=15 stderr=0
+2026-11-12T07:51:18+00:00 RUN restore_stat_current
+2026-11-12T07:51:19+00:00 END restore_stat_current rc=0 stdout=30 stderr=0
+2026-11-12T07:51:19+00:00 RUN restore_xattrs_current
+2026-11-12T07:51:19+00:00 END restore_xattrs_current rc=0 stdout=121 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_sha256
+2026-11-12T07:51:19+00:00 END restored_sha256 rc=0 stdout=98 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_stat
+2026-11-12T07:51:19+00:00 END restored_stat rc=0 stdout=30 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_getcap
+2026-11-12T07:51:19+00:00 END restored_getcap rc=0 stdout=15 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_chsmack
+2026-11-12T07:51:19+00:00 END restored_chsmack rc=0 stdout=43 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_xattrs
+2026-11-12T07:51:19+00:00 END restored_xattrs rc=0 stdout=121 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_sha
+2026-11-12T07:51:19+00:00 END restored_sha rc=0 stdout=98 stderr=0
+2026-11-12T07:51:19+00:00 RUN restored_run
+2026-11-12T07:51:20+00:00 END restored_run rc=0 stdout=331 stderr=0
+2026-11-12T07:51:20+00:00 RUN restore_after_dmesg
+2026-11-12T07:51:20+00:00 END restore_after_dmesg rc=0 stdout=722617 stderr=0
+2026-11-12T07:51:20+00:00 RUN restore_after_dlog_main
+2026-11-12T07:51:21+00:00 END restore_after_dlog_main rc=0 stdout=1099859 stderr=0
+2026-11-12T07:51:21+00:00 RUN restore_after_dlog_system
+2026-11-12T07:51:21+00:00 END restore_after_dlog_system rc=0 stdout=454628 stderr=0
+2026-11-12T07:51:21+00:00 RUN mutation_stage_cleanup
+2026-11-12T07:51:21+00:00 END mutation_stage_cleanup rc=0 stdout=15 stderr=0
+2026-11-12T07:51:21+00:00 RUN root_off
+2026-11-12T07:51:21+00:00 END root_off rc=0 stdout=36 stderr=0
+2026-11-12T07:51:21+00:00 RUN sdk_uid
+2026-11-12T07:51:21+00:00 END sdk_uid rc=0 stdout=21 stderr=0
+已结束 2026-11-12T07:51:21+00:00 状态=成功

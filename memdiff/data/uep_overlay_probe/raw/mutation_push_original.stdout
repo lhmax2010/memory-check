@@ -1,0 +1,4 @@
+WARNING: Your data are to be sent over an unencrypted connection and could be read by others.
+pushed                whoami.original	  0%	      0KB	    0KB/spushed                whoami.original	100%	     17KB	    0KB/s
+1 file(s) pushed. 0 file(s) skipped.
+/home/linhao/lss/memory_check/TPMS/memdiff/data/uep_overlay_probe/whoami.original   49KB/s (17968 bytes in 0.357s)

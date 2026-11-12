@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T07:46:09+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "grep -Fl /usr/bin/sha256sum /proc/[0-9]*/maps 2>/dev/null"
+  ],
+  "rc": 0,
+  "stdout_bytes": 0,
+  "stderr_bytes": 0
+}

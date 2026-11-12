@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-12T07:47:10+00:00",
+  "argv": [
+    "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-readelf",
+    "-dW",
+    "/home/linhao/lss/memory_check/TPMS/memdiff/data/uep_overlay_probe/whoami.original"
+  ],
+  "rc": 0,
+  "stdout_bytes": 1528,
+  "stderr_bytes": 0
+}

@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T07:47:10+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "pull",
+    "/usr/bin/whoami",
+    "/home/linhao/lss/memory_check/TPMS/memdiff/data/uep_overlay_probe/whoami.original"
+  ],
+  "rc": 0,
+  "stdout_bytes": 228,
+  "stderr_bytes": 0
+}

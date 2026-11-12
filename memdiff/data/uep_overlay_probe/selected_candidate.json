@@ -1,0 +1,11 @@
+{
+  "path": "/usr/bin/whoami",
+  "name": "whoami",
+  "host_original": "/home/linhao/lss/memory_check/TPMS/memdiff/data/uep_overlay_probe/whoami.original",
+  "sha256": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604",
+  "upper_path": "/opt/.overlay/platform/upperdir/usr/bin/whoami",
+  "lower_path": "/.org_rootfs/usr/bin/whoami",
+  "baseline_command": "/usr/bin/whoami --version",
+  "baseline_output": "whoami (GNU coreutils) 6.9\r\nCopyright (C) 2007 Free Software Foundation, Inc.\r\nThis is free software.  You may redistribute copies of it under the terms of\r\nthe GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\r\nThere is NO WARRANTY, to the extent permitted by law.\r\n\r\nWritten by Richard Mlynarik.\r\n\r",
+  "sections_output": "/home/linhao/lss/memory_check/TPMS/memdiff/data/uep_overlay_probe/raw/candidate_whoami_sections.stdout"
+}

@@ -1,0 +1,74 @@
+{
+  "attr.dmesg": {
+    "before_lines": 8539,
+    "after_lines": 8537,
+    "new_lines_by_multiset": 27,
+    "signature_related_new_lines": 0
+  },
+  "attr.dlog_main": {
+    "before_lines": 9612,
+    "after_lines": 9874,
+    "new_lines_by_multiset": 391,
+    "signature_related_new_lines": 0
+  },
+  "attr.dlog_system": {
+    "before_lines": 4206,
+    "after_lines": 4169,
+    "new_lines_by_multiset": 160,
+    "signature_related_new_lines": 0
+  },
+  "same.dmesg": {
+    "before_lines": 8553,
+    "after_lines": 8556,
+    "new_lines_by_multiset": 70,
+    "signature_related_new_lines": 0
+  },
+  "same.dlog_main": {
+    "before_lines": 7711,
+    "after_lines": 9007,
+    "new_lines_by_multiset": 2231,
+    "signature_related_new_lines": 0
+  },
+  "same.dlog_system": {
+    "before_lines": 4131,
+    "after_lines": 3441,
+    "new_lines_by_multiset": 257,
+    "signature_related_new_lines": 0
+  },
+  "modified.dmesg": {
+    "before_lines": 8566,
+    "after_lines": 8580,
+    "new_lines_by_multiset": 64,
+    "signature_related_new_lines": 0
+  },
+  "modified.dlog_main": {
+    "before_lines": 7219,
+    "after_lines": 10021,
+    "new_lines_by_multiset": 2978,
+    "signature_related_new_lines": 0
+  },
+  "modified.dlog_system": {
+    "before_lines": 2781,
+    "after_lines": 3994,
+    "new_lines_by_multiset": 1260,
+    "signature_related_new_lines": 0
+  },
+  "restore.dmesg": {
+    "before_lines": 8564,
+    "after_lines": 8559,
+    "new_lines_by_multiset": 37,
+    "signature_related_new_lines": 0
+  },
+  "restore.dlog_main": {
+    "before_lines": 10066,
+    "after_lines": 9827,
+    "new_lines_by_multiset": 323,
+    "signature_related_new_lines": 0
+  },
+  "restore.dlog_system": {
+    "before_lines": 4054,
+    "after_lines": 4136,
+    "new_lines_by_multiset": 255,
+    "signature_related_new_lines": 0
+  }
+}

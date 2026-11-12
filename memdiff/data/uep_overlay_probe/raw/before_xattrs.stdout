@@ -1,0 +1,6 @@
+getfattr: Removing leading '/' from absolute path names
+# file: usr/bin/whoami
+security.SMACK64=0x5f
+
+
+__UEP_RC__0

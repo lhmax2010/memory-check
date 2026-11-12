@@ -1,0 +1,7 @@
+getfattr: Removing leading '/' from absolute path names
+# file: root/uep_probe/attr_test
+security.SMACK64=0x557365723a3a5368656c6c
+user.uep_probe=0x74657374
+
+
+__UEP_RC__0

@@ -1,0 +1,149 @@
+{
+  "start": "2026-11-12T07:51:06+00:00",
+  "status": "PROBED",
+  "path": "/usr/bin/whoami",
+  "upper_path": "/opt/.overlay/platform/upperdir/usr/bin/whoami",
+  "lower_path": "/.org_rootfs/usr/bin/whoami",
+  "original_sha256": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604",
+  "modified_sha256": "775773bd9c6099da7dec9c840569fc2218aed4457b87ba9830e2b75840b6c591",
+  "comment_offset": 16600,
+  "comment_size": 44,
+  "stage_created": true,
+  "touched": true,
+  "restored": true,
+  "baseline_command": "/usr/bin/whoami --version",
+  "updated": "2026-11-12T07:51:21+00:00",
+  "identity": {
+    "ARCH": "armv7l",
+    "MODEL": "Novatek NT72671D",
+    "CMDLINE": "dtsversion=260727.0_KSU2E_1_kantsu2e-2.0G-Builtin console=ttyS0,115200 earlycon rs232=0 maxcpus=4 no_console_suspend only_entry_model root=/dev/dm-1       KDUMP=16 SELP_ENABLE=20102011 _nvtca9-16m rootfstype=erofs rw init=/sbin/iniz mem=703744K@64M mem=394M@2048M mem=512M@2560M vmalloc=300M rootwait quiet trace_event=early_event,user bdinfo=00000010 model=4kbtin   blperf=8_3_434           pba_none partition_ab=a dm-mod.waitfor=/dev/mmcblk0p18 dm-mod.create=\"plt_linear, , 0, ro, 0 2340864 linear /dev/mmcblk0p18 2048;plt_verity, , 1, ro, 0 2304224 verity 1 /dev/dm-0 /dev/dm-0 4096 4096 288028 288028 sha256 3469faab1325451012324ee2bd99ed52b252244405de80e3e00a7894fbd776ee 543ddd01bf85ec11f13653ed06e504e683c16e0842da44188900cfd2480a9e25 11 check_at_most_once ignore_zero_blocks panic_on_corruption use_fec_from_device /dev/dm-0 fec_roots 2 fec_blocks 290298 fec_start 290298;prd_linear, , 2, ro, 0 81920 linear /dev/mmcblk0p18 2342912;prd_verity, , 3, ro, 0 79152 verity 1 /dev/dm-2 /dev/dm-2 4096 4096 9894 9894 sha256 ba0c4e54854dbcf97deed660cb25dcc2118a4b4d78984f6c19e6971ffdf4df04 7bbe3cda10b8fdf192e8ca3f5118a898dcf4fa93c0a82020084b420a9c1848d0 11 check_at_most_once ignore_zero_blocks panic_on_corruption use_fec_from_device /dev/dm-2 fec_roots 2 fec_blocks 9973 fec_start 9973\"",
+    "VERSION": "Linux version 6.12.60 (abuild@B4409DRG) (gcc (Tizen GCC 14.2.0 20240801 1.3) 14.2.0, GNU ld (GNU Binutils) 2.43) #1 SMP PREEMPT Wed Sep 30 16:04:58 UTC 2026",
+    "BUILD": "T-KSU2EJAKUC-0101-PERF-202610010416",
+    "BOOTID": "97c290b7-727f-4055-acbb-525ae5c7e134",
+    "UID": "5001"
+  },
+  "metadata_before": {
+    "sha256": {
+      "rc": 0,
+      "stdout": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604  /usr/bin/whoami\r\n\r",
+      "stderr": ""
+    },
+    "stat": {
+      "rc": 0,
+      "stdout": "0 0 755 17968\r\n\r",
+      "stderr": ""
+    },
+    "getcap": {
+      "rc": 0,
+      "stdout": "\r",
+      "stderr": ""
+    },
+    "chsmack": {
+      "rc": 0,
+      "stdout": "/usr/bin/whoami access=\"_\"\r\n\r",
+      "stderr": ""
+    },
+    "xattrs": {
+      "rc": 0,
+      "stdout": "getfattr: Removing leading '/' from absolute path names\r\n# file: usr/bin/whoami\r\nsecurity.SMACK64=0x5f\r\n\r\n\r",
+      "stderr": ""
+    }
+  },
+  "baseline_rc": 0,
+  "baseline_output": "whoami (GNU coreutils) 6.9\r\nCopyright (C) 2007 Free Software Foundation, Inc.\r\nThis is free software.  You may redistribute copies of it under the terms of\r\nthe GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\r\nThere is NO WARRANTY, to the extent permitted by law.\r\n\r\nWritten by Richard Mlynarik.\r\n\r",
+  "same_sha256": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604",
+  "same_metadata": {
+    "sha256": {
+      "rc": 0,
+      "stdout": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604  /usr/bin/whoami\r\n\r",
+      "stderr": ""
+    },
+    "stat": {
+      "rc": 0,
+      "stdout": "0 0 755 17968\r\n\r",
+      "stderr": ""
+    },
+    "getcap": {
+      "rc": 0,
+      "stdout": "\r",
+      "stderr": ""
+    },
+    "chsmack": {
+      "rc": 0,
+      "stdout": "/usr/bin/whoami access=\"_\"\r\n\r",
+      "stderr": ""
+    },
+    "xattrs": {
+      "rc": 0,
+      "stdout": "getfattr: Removing leading '/' from absolute path names\r\n# file: usr/bin/whoami\r\nsecurity.SMACK64=0x5f\r\n\r\n\r",
+      "stderr": ""
+    }
+  },
+  "same_metadata_equal": true,
+  "same_run_rc": 0,
+  "same_run_output": "whoami (GNU coreutils) 6.9\r\nCopyright (C) 2007 Free Software Foundation, Inc.\r\nThis is free software.  You may redistribute copies of it under the terms of\r\nthe GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\r\nThere is NO WARRANTY, to the extent permitted by law.\r\n\r\nWritten by Richard Mlynarik.\r\n\r",
+  "same_executes": true,
+  "modified_actual_sha256": "775773bd9c6099da7dec9c840569fc2218aed4457b87ba9830e2b75840b6c591",
+  "modified_metadata": {
+    "sha256": {
+      "rc": 0,
+      "stdout": "775773bd9c6099da7dec9c840569fc2218aed4457b87ba9830e2b75840b6c591  /usr/bin/whoami\r\n\r",
+      "stderr": ""
+    },
+    "stat": {
+      "rc": 0,
+      "stdout": "0 0 755 17968\r\n\r",
+      "stderr": ""
+    },
+    "getcap": {
+      "rc": 0,
+      "stdout": "\r",
+      "stderr": ""
+    },
+    "chsmack": {
+      "rc": 0,
+      "stdout": "/usr/bin/whoami access=\"_\"\r\n\r",
+      "stderr": ""
+    },
+    "xattrs": {
+      "rc": 0,
+      "stdout": "getfattr: Removing leading '/' from absolute path names\r\n# file: usr/bin/whoami\r\nsecurity.SMACK64=0x5f\r\n\r\n\r",
+      "stderr": ""
+    }
+  },
+  "modified_run_rc": 0,
+  "modified_run_output": "whoami (GNU coreutils) 6.9\r\nCopyright (C) 2007 Free Software Foundation, Inc.\r\nThis is free software.  You may redistribute copies of it under the terms of\r\nthe GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\r\nThere is NO WARRANTY, to the extent permitted by law.\r\n\r\nWritten by Richard Mlynarik.\r\n\r",
+  "modified_executes": true,
+  "restore_metadata": {
+    "sha256": {
+      "rc": 0,
+      "stdout": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604  /usr/bin/whoami\r\n\r",
+      "stderr": ""
+    },
+    "stat": {
+      "rc": 0,
+      "stdout": "0 0 755 17968\r\n\r",
+      "stderr": ""
+    },
+    "getcap": {
+      "rc": 0,
+      "stdout": "\r",
+      "stderr": ""
+    },
+    "chsmack": {
+      "rc": 0,
+      "stdout": "/usr/bin/whoami access=\"_\"\r\n\r",
+      "stderr": ""
+    },
+    "xattrs": {
+      "rc": 0,
+      "stdout": "getfattr: Removing leading '/' from absolute path names\r\n# file: usr/bin/whoami\r\nsecurity.SMACK64=0x5f\r\n\r\n\r",
+      "stderr": ""
+    }
+  },
+  "restore_metadata_equal": true,
+  "restore_sha256": "2b5e24b28f30a4a7bd5eb8a34f2cdfcf69f199ea36e187370140aabfb1bf1604",
+  "restored_run_rc": 0,
+  "restored_run_output": "whoami (GNU coreutils) 6.9\r\nCopyright (C) 2007 Free Software Foundation, Inc.\r\nThis is free software.  You may redistribute copies of it under the terms of\r\nthe GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\r\nThere is NO WARRANTY, to the extent permitted by law.\r\n\r\nWritten by Richard Mlynarik.\r\n\r",
+  "end": "2026-11-12T07:51:21+00:00"
+}

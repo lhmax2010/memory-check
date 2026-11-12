@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T07:51:08+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "touch /root/uep_probe/attr_test && /root/uep_probe/setfattr -n user.uep_probe -v test /root/uep_probe/attr_test && /root/uep_probe/getfattr -d -m - -e hex /root/uep_probe/attr_test && /root/uep_probe/setfattr -x user.uep_probe /root/uep_probe/attr_test && rm /root/uep_probe/attr_test; __uep_rc=$?; printf '\\n__UEP_RC__%d\\n' \"$__uep_rc\""
+  ],
+  "rc": 0,
+  "stdout_bytes": 178,
+  "stderr_bytes": 0
+}
