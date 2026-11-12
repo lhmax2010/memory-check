@@ -1,0 +1,8 @@
+{
+  "time": "2026-11-12T09:57:12+00:00",
+  "stage": "/opt/usr/prelink_ab_stage",
+  "tools": "/root/prelink_ab_tools",
+  "space_after": "Filesystem         1024-blocks      Used Available Capacity Mounted on\r\n/dev/mmcblk0p21        3986176   1284148   2702028      33% /opt\r\n/dev/mmcblk0p21        3986176   1284148   2702028      33% /opt\r\n\r",
+  "tar_sha256": "9f35a8cebfe54843a1dee1fd7ba8df71f64b2090900cf508ed5fe14e1b3327d1",
+  "status": "DONE"
+}

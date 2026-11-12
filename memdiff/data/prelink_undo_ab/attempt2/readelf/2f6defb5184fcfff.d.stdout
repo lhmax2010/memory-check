@@ -1,0 +1,27 @@
+
+Dynamic section at offset 0x10e0 contains 24 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x0000000e (SONAME)                     Library soname: [libpointer-constraints-unstable-v1-client.so.0]
+ 0x0000000c (INIT)                       0x4481c54c
+ 0x0000000d (FINI)                       0x4481c64c
+ 0x00000019 (INIT_ARRAY)                 0x4481d000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4481d004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4481c118
+ 0x00000005 (STRTAB)                     0x4481c214
+ 0x00000006 (SYMTAB)                     0x4481c144
+ 0x0000000a (STRSZ)                      320 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4481e000
+ 0x00000002 (PLTRELSZ)                   16 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4481c53c
+ 0x00000011 (REL)                        0x4481c354
+ 0x00000012 (RELSZ)                      488 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffa (RELCOUNT)                   47
+ 0x6ffffdf8 (CHECKSUM)                   0x8876ed5a
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

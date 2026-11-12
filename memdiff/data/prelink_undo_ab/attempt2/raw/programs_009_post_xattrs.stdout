@@ -1,0 +1,7 @@
+getfattr: Removing leading '/' from absolute path names
+# file: usr/bin/rscmgr-service
+security.SMACK64=0x5f
+security.SMACK64EXEC=0x53797374656d3a3a52756e
+
+
+__AB_RC__0

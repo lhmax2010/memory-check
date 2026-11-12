@@ -1,0 +1,46 @@
+
+Dynamic section at offset 0x8e7c4 contains 43 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-core.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdebug_rcv.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-chms.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ems.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-iss.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ics.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-util.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtv_player.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-time.so]
+ 0x00000001 (NEEDED)                     Shared library: [libVDCurl.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api-ipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-parser.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libtvs-si.so]
+ 0x0000000c (INIT)                       0x45c932b4
+ 0x0000000d (FINI)                       0x45ce0258
+ 0x00000019 (INIT_ARRAY)                 0x45cf5000
+ 0x0000001b (INIT_ARRAYSZ)               36 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x45cf5024
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x45c68138
+ 0x00000005 (STRTAB)                     0x45c71d3c
+ 0x00000006 (SYMTAB)                     0x45c6abec
+ 0x0000000a (STRSZ)                      106005 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x45cf7000
+ 0x00000002 (PLTRELSZ)                   5176 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x45c91834
+ 0x00000007 (RELA)                       0x45c8cb0c
+ 0x00000008 (RELASZ)                     19752 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x45c8c97c
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x45c8bb52
+ 0x6ffffff9 (RELACOUNT)                  22
+ 0x6ffffdf8 (CHECKSUM)                   0x483f5115
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

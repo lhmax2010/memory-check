@@ -1,0 +1,33 @@
+
+Dynamic section at offset 0x11874 contains 30 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libtinyxml2.so.10]
+ 0x0000000c (INIT)                       0x4696b9b4
+ 0x0000000d (FINI)                       0x46972bac
+ 0x00000019 (INIT_ARRAY)                 0x46976460
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x46976464
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46965138
+ 0x00000005 (STRTAB)                     0x469674a8
+ 0x00000006 (SYMTAB)                     0x46965fc8
+ 0x0000000a (STRSZ)                      12327 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x46977460
+ 0x00000002 (PLTRELSZ)                   1128 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4696b54c
+ 0x00000007 (RELA)                       0x4696a82c
+ 0x00000008 (RELASZ)                     3360 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4696a76c
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x4696a4d0
+ 0x6ffffff9 (RELACOUNT)                  77
+ 0x6ffffdf8 (CHECKSUM)                   0xbee51a73
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

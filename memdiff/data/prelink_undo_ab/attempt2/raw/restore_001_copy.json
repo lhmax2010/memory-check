@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T09:48:39+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "cat '/opt/usr/prelink_ab_stage/original/usr/apps/org.tizen.tv-viewer/bin/tv-viewer' > '/usr/apps/org.tizen.tv-viewer/bin/tv-viewer'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 84,
+  "stderr_bytes": 0
+}

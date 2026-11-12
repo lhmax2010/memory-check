@@ -1,0 +1,51 @@
+
+Dynamic section at offset 0x9264c contains 48 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libprivileged-service-client.so]
+ 0x00000001 (NEEDED)                     Shared library: [libppi-acm-core-acmd.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.1.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.1.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-wifi.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libwifi-direct.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-wifi-manager.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libsdp.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsecurestorage-client.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libtzplatform-config-2.0.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libjsoncpp.so.22]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libSNAP.so]
+ 0x0000000c (INIT)                       0x4104379c
+ 0x0000000d (FINI)                       0x410986dc
+ 0x00000019 (INIT_ARRAY)                 0x410c4b80
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x410c4b88
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x41033138
+ 0x00000005 (STRTAB)                     0x41039a54
+ 0x00000006 (SYMTAB)                     0x410352a4
+ 0x0000000a (STRSZ)                      23392 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x410c5b80
+ 0x00000002 (PLTRELSZ)                   5328 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x410422cc
+ 0x00000007 (RELA)                       0x4104004c
+ 0x00000008 (RELASZ)                     8832 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4103feac
+ 0x6fffffff (VERNEEDNUM)                 9
+ 0x6ffffff0 (VERSYM)                     0x4103f5b4
+ 0x6ffffff9 (RELACOUNT)                  423
+ 0x6ffffdf8 (CHECKSUM)                   0x782cd27d
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

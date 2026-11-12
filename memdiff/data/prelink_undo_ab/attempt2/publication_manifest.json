@@ -1,0 +1,4506 @@
+{
+  "included_file_count": 7019,
+  "included_bytes_before_manifest": 53208777,
+  "omitted": [
+    {
+      "path": "tvs-daemon.board",
+      "bytes": 534116,
+      "reason": "staging archive or ELF copy; content hashes retained"
+    },
+    {
+      "path": "stage_payload.tar",
+      "bytes": 264263680,
+      "reason": "staging archive or ELF copy; content hashes retained"
+    },
+    {
+      "path": "__pycache__/analyze_ab.cpython-312.pyc",
+      "bytes": 20459,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/final_recovery.cpython-312.pyc",
+      "bytes": 6196,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/scan_native.cpython-312.pyc",
+      "bytes": 9506,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/orchestrate.cpython-312.pyc",
+      "bytes": 6230,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/write_state.cpython-312.pyc",
+      "bytes": 19104,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/boot_run.cpython-312.pyc",
+      "bytes": 20546,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/pull_classify.cpython-312.pyc",
+      "bytes": 10895,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/inventory.cpython-312.pyc",
+      "bytes": 6091,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/preflight.cpython-312.pyc",
+      "bytes": 9297,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/pagemap13_collector.cpython-312.pyc",
+      "bytes": 15646,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "__pycache__/build_report.cpython-312.pyc",
+      "bytes": 16020,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-dsm.so",
+      "bytes": 1105404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-parser.so",
+      "bytes": 883540,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-b2b.so",
+      "bytes": 560780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-atsc30-parser.so",
+      "bytes": 588112,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-api.so",
+      "bytes": 1427968,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-api-native.so",
+      "bytes": 1548176,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-dvb-si.so",
+      "bytes": 909760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-iss.so",
+      "bytes": 997812,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-dvbbase-scan.so",
+      "bytes": 713168,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-si.so",
+      "bytes": 597844,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-ext.so",
+      "bytes": 772192,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/lib/libtvs-util.so",
+      "bytes": 946960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/pagemap13/elf/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "bytes": 6383516,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "boots/factory_1/memcheck_pull/05_elf/elf_files.tar.gz",
+      "bytes": 162672282,
+      "reason": "nested ELF archive; size/SHA/integrity in factory_attachment_validation.json"
+    },
+    {
+      "path": "boots/factory_2/memcheck_pull/05_elf/elf_files.tar.gz",
+      "bytes": 101810176,
+      "reason": "nested ELF archive; size/SHA/integrity in factory_attachment_validation.json"
+    },
+    {
+      "path": "pulled_root/usr/bin/amd",
+      "bytes": 18156,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/app_launcher",
+      "bytes": 74568,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/launchpad-loader",
+      "bytes": 44980,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/rscmgr-service",
+      "bytes": 509368,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/app-boot-manager",
+      "bytes": 89252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/fastvideo",
+      "bytes": 112976,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/fastlogo",
+      "bytes": 51036,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/hdmicec-service",
+      "bytes": 1020700,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/avocd",
+      "bytes": 1322024,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/tvs-daemon",
+      "bytes": 534116,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/launchpad-process-pool",
+      "bytes": 414376,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/TIFSDaemon",
+      "bytes": 934684,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/fastinit",
+      "bytes": 44808,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/bin/pulseaudio",
+      "bytes": 78204,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-egl.so.1.23.1",
+      "bytes": 10824,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libunwind-arm.so.8.0.1",
+      "bytes": 52008,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_evas.so.1.25.1",
+      "bytes": 141432,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libssl.so.1.1",
+      "bytes": 351788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvideo-dp-control.so.0.1.0",
+      "bytes": 43748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgstreamer-1.0.so.0.2411.0",
+      "bytes": 984452,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libavoc-managed.so",
+      "bytes": 33412,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtizen-audio.so.0.0.0",
+      "bytes": 49788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-objectfactory.so",
+      "bytes": 38660,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libboost_serialization.so.1.83.0",
+      "bytes": 230244,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dsm.so",
+      "bytes": 1105404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcontext-aware-api.so.1.1.2",
+      "bytes": 103944,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_imf_evas.so.1.25.1",
+      "bytes": 12176,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtizen-extension-tv-client.so.0.0.0",
+      "bytes": 31716,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-chms.so",
+      "bytes": 116860,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libAppBinaryMgrServiceAPI.so",
+      "bytes": 36732,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-isdb-sospec.so",
+      "bytes": 21744,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-tbm-server.so.0.0.0",
+      "bytes": 82568,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-client.so.0.26.0",
+      "bytes": 44508,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdt-api.so",
+      "bytes": 29104,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblaunchpad.so.0.49.30",
+      "bytes": 63972,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libep-iptv-service-api.so",
+      "bytes": 112236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsource-api.so",
+      "bytes": 99924,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfreetype.so.6.20.1",
+      "bytes": 454264,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libacl.so.1.1.2302",
+      "bytes": 27468,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsecurity-privilege-manager.so.1.4.3",
+      "bytes": 62084,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libicuuc.so.76.1",
+      "bytes": 1462524,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsecurestorage-client.so.1.0.0",
+      "bytes": 190520,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwind.so.0.0.509",
+      "bytes": 30892,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-network-wifi.so.1.0.128+tv",
+      "bytes": 70748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libui-gadget-1.so.0.2.13",
+      "bytes": 40304,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-network-tethering.so.0.1.0",
+      "bytes": 87584,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapputil.so.0.1.0",
+      "bytes": 62668,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwtz-shell-client.so.0.0.0",
+      "bytes": 10816,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libSLP-db-util.so.0.1.2",
+      "bytes": 20372,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libedje.so.1.25.1",
+      "bytes": 625800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libefl-assist.so.0.1.0",
+      "bytes": 73980,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_input_evas.so.1.25.1",
+      "bytes": 24912,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-isdb-scan.so",
+      "bytes": 161640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsecurity-manager-client.so.3.0.0",
+      "bytes": 219416,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcoreapp-fw-slim.so.0.1.0",
+      "bytes": 87224,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-sospec.so",
+      "bytes": 61360,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdemux-control.so.0.1",
+      "bytes": 19156,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdebug_rcv.so",
+      "bytes": 192508,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-app-context-manager.so",
+      "bytes": 20704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libaul-blink.so.0.83.21",
+      "bytes": 11280,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfluxpolicymanager-tv.so.0.1.0",
+      "bytes": 65460,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-sensor.so.0.2.5",
+      "bytes": 41632,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpcrecpp.so.0.0.2",
+      "bytes": 31920,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwas_db_api.so",
+      "bytes": 221556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-core.so.0.1",
+      "bytes": 174596,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-ui-config-manager-tv.so.0.1.0",
+      "bytes": 46772,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbixby.so",
+      "bytes": 79948,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp-control-api.so",
+      "bytes": 16224,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-atsc30-guide.so",
+      "bytes": 50828,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libGLESv2.so.2.0",
+      "bytes": 281308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvconf.so.0.3.1",
+      "bytes": 66160,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-udm.so",
+      "bytes": 238568,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libEGL.so.1.4",
+      "bytes": 43740,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtizen-extension-client.so.0.0.0",
+      "bytes": 24080,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-av.so",
+      "bytes": 260976,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-atsc30-live.so",
+      "bytes": 303640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-si.so",
+      "bytes": 622756,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgcc_s.so.1",
+      "bytes": 105464,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvideo-decoder-control.so.0.1",
+      "bytes": 19160,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libparcel.so.0.18.15",
+      "bytes": 32148,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_con.so.1.25.1",
+      "bytes": 470940,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-udm.so",
+      "bytes": 102888,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-server.so.0.23.1",
+      "bytes": 61216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-parser.so",
+      "bytes": 883540,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-register-device.so.1.0.0",
+      "bytes": 61536,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-tbm-client.so.0.0.0",
+      "bytes": 49592,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libicudata.so.76.1",
+      "bytes": 31860992,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhdmi-control.so.0.1",
+      "bytes": 40740,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libudev.so.1.6.16",
+      "bytes": 105816,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libeio.so.1.25.1",
+      "bytes": 95840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-b2b.so",
+      "bytes": 560780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgstvideo-1.0.so.0.2411.0",
+      "bytes": 568056,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-guide.so",
+      "bytes": 323320,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libblkid.so.1.1.0",
+      "bytes": 163868,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-ics.so",
+      "bytes": 171788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libca-api.so",
+      "bytes": 112764,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/librt.so.1",
+      "bytes": 11104,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdbuspolicy1.so.1.1.0",
+      "bytes": 102892,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libexpat.so.1.9.2",
+      "bytes": 101352,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsensord-shared.so",
+      "bytes": 83092,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblaunchpad-core.so.0.49.30",
+      "bytes": 206952,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dbms.so",
+      "bytes": 266372,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwtz-foreign-client.so.0.0.0",
+      "bytes": 10828,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcicam.so.0.1",
+      "bytes": 19156,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwtz-screen-client.so.0.0.0",
+      "bytes": 10836,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-creds-pid.so.0.26.0",
+      "bytes": 23760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtv-resource-manager.so.1.43",
+      "bytes": 132892,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtv-viewer-api.so.0.1.0",
+      "bytes": 246644,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-tvplus.so",
+      "bytes": 153520,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgmodule-2.0.so.0.8000.5",
+      "bytes": 15352,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libboost_filesystem.so.1.83.0",
+      "bytes": 113156,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgio-2.0.so.0.8000.5",
+      "bytes": 1250164,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdlog_redirect_stdout.so.0.0.0",
+      "bytes": 10960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libipg-data-provider.so.0.1.0",
+      "bytes": 168232,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libVDCurl.so.0.9",
+      "bytes": 117764,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libres-lookup.so.0.1",
+      "bytes": 40004,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-scan.so",
+      "bytes": 502908,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhyphen.so.0.3.0",
+      "bytes": 19236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libug_duck.so",
+      "bytes": 15092,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libaudio-control.so.0.1",
+      "bytes": 121776,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp-core-cpp.so.1.27.17",
+      "bytes": 75380,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libicui18n.so.76.1",
+      "bytes": 2351048,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-uid.so.0.26.0",
+      "bytes": 10496,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libector.so.1.25.1",
+      "bytes": 19640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblaunchpad-common.so.0.49.30",
+      "bytes": 57324,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp-core-efl-cpp.so.1.27.17",
+      "bytes": 28964,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libappcore-common.so.1.27.17",
+      "bytes": 34432,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-atsc30-scan.so",
+      "bytes": 87276,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsyspopup_caller.so.0.1.0",
+      "bytes": 17008,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcairo.so.2.11400.2",
+      "bytes": 667196,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfeedback.so.0.1.4",
+      "bytes": 29308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libqse.so.0.1.0",
+      "bytes": 152300,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-creds-self.so.0.26.0",
+      "bytes": 19664,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libxkbcommon.so.0.8.0",
+      "bytes": 294132,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libaul-extension.so.0.1.0",
+      "bytes": 46840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-screensaver.so",
+      "bytes": 19484,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpulse-simple.so.0.1.1",
+      "bytes": 20320,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-creds-socket.so.0.26.0",
+      "bytes": 15332,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-api-ipc.so",
+      "bytes": 95976,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-app-manager.so.0.17.0",
+      "bytes": 50296,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvorbis.so.0.4.9",
+      "bytes": 138532,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-ht.so",
+      "bytes": 356344,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0",
+      "bytes": 10856,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libAcmEngine.so",
+      "bytes": 451656,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-chms.so",
+      "bytes": 542712,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_ipc.so.1.25.1",
+      "bytes": 36492,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-atsc30-parser.so",
+      "bytes": 588112,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcrypt.so.1.1.0",
+      "bytes": 183180,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcursor-shape-v1-client.so.0.0.0",
+      "bytes": 10816,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libxml2.so.2.13.5",
+      "bytes": 831124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvideoenhance.so.0.1",
+      "bytes": 155640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-api.so",
+      "bytes": 1427968,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libltdl.so.7.3.2",
+      "bytes": 31876,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-session.so.0.26.0",
+      "bytes": 11024,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcontext-aware-common.so",
+      "bytes": 65484,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-app-control-uri.so.0.26.2",
+      "bytes": 27876,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-client.so.0.23.1",
+      "bytes": 48728,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libreminder-api.so.0.1.0",
+      "bytes": 326780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-api-native.so",
+      "bytes": 1548176,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblibtv-plpmanager.so",
+      "bytes": 130940,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtv-resource-information.so.1.24",
+      "bytes": 229568,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libboost_thread.so.1.83.0",
+      "bytes": 106076,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp-core-extension.so.0.1.0",
+      "bytes": 21272,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libogg.so.0.8.2",
+      "bytes": 23344,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpepper-efl.so.0.0.0",
+      "bytes": 39532,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvb-si.so",
+      "bytes": 909760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-tvtimer.so",
+      "bytes": 34540,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcares.so.2.7.2",
+      "bytes": 72752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-tvsensor-tv.so",
+      "bytes": 70484,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsmart-deadlock.so",
+      "bytes": 15192,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvb-chms.so",
+      "bytes": 184188,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_wl2.so.1.25.1",
+      "bytes": 216492,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwas_inner_db.so",
+      "bytes": 64216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libaul.so.0.83.21",
+      "bytes": 578108,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtuner-control.so.0.1",
+      "bytes": 27352,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-iss.so",
+      "bytes": 997812,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpepper.so.0.0.0",
+      "bytes": 86040,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdbus-1.so.3.19.13",
+      "bytes": 313060,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libamd.so.1.80.19",
+      "bytes": 728384,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwifi-direct.so.1.2.100_20260831",
+      "bytes": 131932,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libflux-manager.so.0.1.0",
+      "bytes": 743916,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbattery-control.so.0.1",
+      "bytes": 23364,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcryptocore.so.0.1.0",
+      "bytes": 234236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbms-api.so",
+      "bytes": 165280,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libefl.so.1.25.1",
+      "bytes": 375808,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbroadcastapp-util-core.so.0.1.0",
+      "bytes": 187348,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecs-sec-tv.so.0.1",
+      "bytes": 24464,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvirtualscreen-linker.so.0.0.509",
+      "bytes": 42232,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-ewbs.so",
+      "bytes": 156988,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libjson-glib-1.0.so.0.800.0",
+      "bytes": 126732,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfribidi.so.0.4.0",
+      "bytes": 105440,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbase-utils-i18n.so.3.1.5",
+      "bytes": 367292,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-config.so",
+      "bytes": 40420,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-tpms-base.so",
+      "bytes": 349360,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbuxton2.so.1.1",
+      "bytes": 57336,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtinyxml2.so.10.0.0",
+      "bytes": 78532,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwtz-video-shell-client.so.0.0.0",
+      "bytes": 10848,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwtz-blur-client.so.0.0.0",
+      "bytes": 10864,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfan-heat-control.so",
+      "bytes": 15164,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-live.so",
+      "bytes": 1269240,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/ld-linux.so.3",
+      "bytes": 180600,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libuifw_misc.so.0.1.0",
+      "bytes": 21604,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsecurestorage-credential.so.0.1.0",
+      "bytes": 15404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libethumb.so.1.25.1",
+      "bytes": 45792,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgobject-2.0.so.0.8000.5",
+      "bytes": 271420,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libffi.so.8.1.4",
+      "bytes": 44200,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtizen-launch-client.so.0.0.0",
+      "bytes": 10848,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsndfile.so.1.0.37",
+      "bytes": 295068,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdw-0.189.so",
+      "bytes": 429944,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpower-control.so.0.1",
+      "bytes": 72412,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpower-defs.so.0.1.1",
+      "bytes": 31800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtbm.so.1.0.0",
+      "bytes": 184948,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-api-lite.so",
+      "bytes": 218856,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-app-control.so.0.26.2",
+      "bytes": 108576,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_input.so.1.25.1",
+      "bytes": 81584,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/librlottie.so.0.2",
+      "bytes": 225556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libthorvg.so.1.1.0",
+      "bytes": 397560,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libc-2.40.so",
+      "bytes": 1453496,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libppi-factory-api.so",
+      "bytes": 19252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libappcore-agent.so.1.7.5",
+      "bytes": 34132,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-ai-interpreter-tv.so.2.3.0",
+      "bytes": 56728,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libminizip.so.1.0.0",
+      "bytes": 35568,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libemotion.so.1.25.1",
+      "bytes": 75012,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-media-sound-manager-tv.so.0.1.3",
+      "bytes": 58652,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-ht-api.so",
+      "bytes": 318316,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblwipc.so",
+      "bytes": 15068,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcert-svc-vcore.so.2.2.2",
+      "bytes": 371040,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdlog.so.0.0.0",
+      "bytes": 19668,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libattr.so.1.1.2501",
+      "bytes": 19456,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libnghttp2.so.14.24.1",
+      "bytes": 126012,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libunwind-ptrace.so.0.0.0",
+      "bytes": 15224,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libxslt.so.1.1.42",
+      "bytes": 180944,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdeviced.so.1.0.3",
+      "bytes": 260764,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/librpc-port.so.1.21.18",
+      "bytes": 351944,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpkgmgr-info.so.0.37.5",
+      "bytes": 498036,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-base-common.so.0.4.82",
+      "bytes": 73924,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-uid-creds.so..26.0",
+      "bytes": 23744,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp-core-rotation-cpp.so.1.27.17",
+      "bytes": 16840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpvr-service-api.so",
+      "bytes": 310524,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libautoinput.so.0.0.87",
+      "bytes": 28416,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-network-connection.so.1.0.139_20260710",
+      "bytes": 115040,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsensor-genuine.so.4.1.0",
+      "bytes": 146352,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libeina.so.1.25.1",
+      "bytes": 407304,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp_watchdog.so.0.0.1",
+      "bytes": 10716,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-atsc30-udm.so",
+      "bytes": 62172,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvb-sospec.so",
+      "bytes": 31188,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libppi-acm-core-acmd.so.0.1",
+      "bytes": 23252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libscreencontroller.so.0.0.509",
+      "bytes": 21548,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libklay.so.0.0.2",
+      "bytes": 175308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libteec_ppi.so",
+      "bytes": 14960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-guide.so",
+      "bytes": 302076,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-network-bluetooth.so.0.5.3",
+      "bytes": 719776,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-screen.so.0.1.0",
+      "bytes": 57484,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsdp-common.so.0.1.0",
+      "bytes": 34232,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_file.so.1.25.1",
+      "bytes": 28468,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libopus.so.0.8.0",
+      "bytes": 273844,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libm.so.6",
+      "bytes": 322576,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_wayland.so.1.25.1",
+      "bytes": 66132,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-info.so.0.2.1",
+      "bytes": 49544,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-isdb-live.so",
+      "bytes": 81240,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvd-capi-network.so.0.1.1.63",
+      "bytes": 221868,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libeo.so.1.25.1",
+      "bytes": 106788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libteec.so",
+      "bytes": 22048,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-ics.so",
+      "bytes": 389604,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libslive-framework.so.0.1.0",
+      "bytes": 58220,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsmack.so.1.3.1",
+      "bytes": 27440,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpsl.so.5.3.2",
+      "bytes": 64400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhdmicec-api.so.0.18.18",
+      "bytes": 45012,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhwcrypto.so.0.1.1",
+      "bytes": 21896,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpcre2-8.so.0.14.0",
+      "bytes": 470124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libprojector.so.0.1",
+      "bytes": 23240,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libjson-c.so.5.4.0",
+      "bytes": 52636,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhdmi-cec.so.0.1",
+      "bytes": 10960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsecurity-manager-commons.so.1.0.2",
+      "bytes": 975848,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libeet.so.1.25.1",
+      "bytes": 110700,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcoreapp-util.so.0.1.0",
+      "bytes": 83688,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-boost-tv.so.0.0.1",
+      "bytes": 28344,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgraphics-control.so.0.1",
+      "bytes": 40040,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblua.so.5.1",
+      "bytes": 119036,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libturbojpeg.so.0.3.0",
+      "bytes": 602048,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbundle.so.0.18.15",
+      "bytes": 86704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-media-sound-manager.so.0.7.15",
+      "bytes": 144484,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-usbdevice.so",
+      "bytes": 115344,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libaul-server.so.0.83.21",
+      "bytes": 69280,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsecure-clock.so.0.1.0",
+      "bytes": 39512,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbz2.so.1.0.8",
+      "bytes": 51592,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-client-commons.so.0.26.0",
+      "bytes": 31832,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libkeystone-ppi.so.0.1",
+      "bytes": 72404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_audio.so.1.25.1",
+      "bytes": 53472,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-atsc30-si.so",
+      "bytes": 358268,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-network-wifi-manager.so.1.3.25",
+      "bytes": 275148,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libopen-debugmenu.so",
+      "bytes": 23788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libeldbus.so.1.25.1",
+      "bytes": 182184,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdbus-glib-1.so.2.2.2",
+      "bytes": 124380,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libssl.so.3",
+      "bytes": 419552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libnetwork.so.0.0.0",
+      "bytes": 110556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfbproxyserver.so.0.2.0",
+      "bytes": 78548,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libmount.so.1.1.0",
+      "bytes": 221864,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-resource.so.1.0.0",
+      "bytes": 15048,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpkgmgr_common.so.0.23.4",
+      "bytes": 19500,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-app-operation-tv.so.0.1.0",
+      "bytes": 17776,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libboost_atomic.so.1.83.0",
+      "bytes": 9352,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsdp.so.0.1.0",
+      "bytes": 98020,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtizen-policy-ext-client.so.0.0.0",
+      "bytes": 10832,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/liblink.so.0.1",
+      "bytes": 31436,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libslive-provider.so.0.1",
+      "bytes": 356960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcurl.so.4.8.0",
+      "bytes": 490864,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libuuid.so.1.3.0",
+      "bytes": 27856,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtv-control.so.0.1.0",
+      "bytes": 36256,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libxdgmime.so.1.1.0",
+      "bytes": 27672,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libaul-ex.so.0.1.0",
+      "bytes": 12696,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-hbbtv-tv.so.0.1",
+      "bytes": 25224,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-display-rotator.so.0.1.1",
+      "bytes": 10532,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcrypto.so.3",
+      "bytes": 2458528,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-scan.so",
+      "bytes": 713168,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpepper-xkb.so.0.0.0",
+      "bytes": 15796,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libjpeg.so.8.3.2",
+      "bytes": 479156,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-convergence-bnr.so.1.0.0",
+      "bytes": 46252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libci-api.so",
+      "bytes": 475808,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libxmlsec1.so.1.2.41",
+      "bytes": 336908,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-egl-tizen.so.1.0.1",
+      "bytes": 11036,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-admin.so.0.26.0",
+      "bytes": 86084,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dvbbase-live.so",
+      "bytes": 68936,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libmmfsound.so.0.1.0",
+      "bytes": 103220,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libttrace.so.1.1.0",
+      "bytes": 15300,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpkgmgr-client.so.0.23.4",
+      "bytes": 187176,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-isdb-si.so",
+      "bytes": 186872,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsso_api.so",
+      "bytes": 245448,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtv-viewer-kevent.so.0.1.0",
+      "bytes": 99964,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwas_launcher_api.so",
+      "bytes": 84236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpng16.so.16.44.0",
+      "bytes": 146904,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcap.so.2.73",
+      "bytes": 32048,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libgstbase-1.0.so.0.2411.0",
+      "bytes": 440456,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpulse.so.0.24.0",
+      "bytes": 239928,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libstdc++.so.6.0.33",
+      "bytes": 1697800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtizen-core.so.0.2.4",
+      "bytes": 102200,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-si.so",
+      "bytes": 597844,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpixman-1.so.0.38.4",
+      "bytes": 519524,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-creds-commons.so.0.26.0",
+      "bytes": 27748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libnvram.so.0.1",
+      "bytes": 10952,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhpd-manager.so",
+      "bytes": 29236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdrm.so.2.124.0",
+      "bytes": 64764,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libharfbuzz.so.0.60822.0",
+      "bytes": 767084,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-window-tv.so.0.0.45",
+      "bytes": 56884,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-ems.so",
+      "bytes": 86976,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdisplay-panel.so.0.1",
+      "bytes": 47932,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libeeze.so.1.25.1",
+      "bytes": 53392,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libesg-api.so",
+      "bytes": 95900,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libprivileged-service-client.so",
+      "bytes": 31812,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcoreapp-util-channel.so.0.1.0",
+      "bytes": 41552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libdl.so.2",
+      "bytes": 15204,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsystemd.so.0.27.1",
+      "bytes": 443308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libxmlsec1-openssl.so.1.2.41",
+      "bytes": 197388,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtanchor-runtime.so.2.1.2",
+      "bytes": 57840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-ext.so",
+      "bytes": 772192,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbluetooth-api.so.1.0.0",
+      "bytes": 926444,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libz.so.1.3.1",
+      "bytes": 68492,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libhdmi-out-control.so.0.1",
+      "bytes": 10960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-runtime-info.so.0.0.200",
+      "bytes": 51284,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore_imf.so.1.25.1",
+      "bytes": 32000,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-time.so",
+      "bytes": 69492,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcomss-api.so",
+      "bytes": 36976,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libevas.so.1.25.1",
+      "bytes": 1819460,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-app-common.so.0.16.4",
+      "bytes": 33820,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libmmfkeysound.so.0.0.0",
+      "bytes": 15344,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libep-device-alarm-manager-interface.so",
+      "bytes": 16740,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libnotification.so.0.11.0",
+      "bytes": 359400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsessiond.so.11.0.0",
+      "bytes": 49320,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpcre.so.1.2.13",
+      "bytes": 330796,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libitvs-hybrid-info.so.0.1.0",
+      "bytes": 195996,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtzplatform-config-2.0.so.2.0.0",
+      "bytes": 28276,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libglib-2.0.so.0.8000.5",
+      "bytes": 1004332,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libim-control.so.0.1",
+      "bytes": 15152,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libspeexdsp.so.1.5.2",
+      "bytes": 56316,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfactory-interface-ATSC.so",
+      "bytes": 379636,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-application.so.0.10.0",
+      "bytes": 29004,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libembryo.so.1.25.1",
+      "bytes": 36200,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcoreapp-util-source.so.0.1.0",
+      "bytes": 25072,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-creds-gdbus.so.0.26.0",
+      "bytes": 24360,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libresource-center-api.so.0.9",
+      "bytes": 91276,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-storage.so.0.26.0",
+      "bytes": 115044,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libvd-win-util.so.0.0.509",
+      "bytes": 130420,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-util.so",
+      "bytes": 946960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libboost_iostreams.so.1.83.0",
+      "bytes": 59272,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libmmfsoundcommon.so.0.0.0",
+      "bytes": 20156,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-appfw-package-manager.so.0.15.2",
+      "bytes": 62940,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libemile.so.1.25.1",
+      "bytes": 122456,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwayland-cursor.so.0.23.1",
+      "bytes": 32036,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libavoc.so",
+      "bytes": 1224424,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-ui-efl-util.so.0.8.38",
+      "bytes": 52180,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-tpms.so",
+      "bytes": 674220,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtzfr_utility_nwd.so.0.1.0",
+      "bytes": 50636,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbt-settings-api.so",
+      "bytes": 84396,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpkgmgr_installer.so.0.23.4",
+      "bytes": 322868,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfconfig.so",
+      "bytes": 48720,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libjsoncpp.so.1.9.2",
+      "bytes": 156396,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libCLogger.so",
+      "bytes": 32760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libmbr.so.0.1.0",
+      "bytes": 390068,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libnagsam-api.so",
+      "bytes": 119592,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libwifi-vendor.so",
+      "bytes": 10968,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-nrt.so",
+      "bytes": 162368,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libep-common-gdbus.so",
+      "bytes": 24552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-system-system-settings.so.0.0.6",
+      "bytes": 125228,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfontconfig.so.1.12.0",
+      "bytes": 196092,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpointer-warp-v1-client.so.0.0.0",
+      "bytes": 10820,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libbptime.so",
+      "bytes": 15284,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libunifiedAuthentication.so.0.1.0",
+      "bytes": 143324,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libfbclient.so.0.2.0",
+      "bytes": 86784,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libapp-core-ui-cpp.so.1.27.17",
+      "bytes": 102332,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtv_player.so.0.0.0",
+      "bytes": 934896,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libethumb_client.so.1.25.1",
+      "bytes": 38216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsqlite3.so.3.50.2",
+      "bytes": 868008,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libnetcom.so",
+      "bytes": 69512,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libslive-dbus-proxy.so.0.1",
+      "bytes": 42144,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libtvs-dtmb-sospec.so",
+      "bytes": 17392,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libelementary.so.1.25.1",
+      "bytes": 3582992,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libSNAP.so",
+      "bytes": 611816,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libiniparser.so.4.2.4",
+      "bytes": 19360,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcynara-commons.so.0.26.0",
+      "bytes": 228788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/librelative-pointer-unstable-v1-client.so.0.0.0",
+      "bytes": 10832,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libanalog-input-control.so.0.1",
+      "bytes": 19160,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-network-bluetooth-tv.so.0.1.04_tv",
+      "bytes": 321404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libsettings-api.so",
+      "bytes": 132212,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcrypto.so.1.1",
+      "bytes": 1683296,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libpthread.so.0",
+      "bytes": 15204,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libefreet.so.1.25.1",
+      "bytes": 115448,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libecore.so.1.25.1",
+      "bytes": 391444,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libppi-system-info.so.0.1",
+      "bytes": 15056,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/libcapi-aov-tv.so",
+      "bytes": 211808,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/apps/org.tizen.acm-service/bin/acm-service",
+      "bytes": 1352512,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv",
+      "bytes": 697446,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/apps/org.tizen.btapp/bin/btapp",
+      "bytes": 395412,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "bytes": 6383516,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/apps/org.tizen.welcome-mode/bin/welcome-mode",
+      "bytes": 103192,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/hal/libhal-api-tbm.so.1.1",
+      "bytes": 27684,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/hal/libhal-api-common.so.0.1.0",
+      "bytes": 80844,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/pulseaudio/libpulsecore-15.0.so",
+      "bytes": 523624,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "pulled_root/usr/lib/pulseaudio/libpulsecommon-15.0.so",
+      "bytes": 375524,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/amd",
+      "bytes": 9552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/app_launcher",
+      "bytes": 55640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/launchpad-loader",
+      "bytes": 30400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/rscmgr-service",
+      "bytes": 445196,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/app-boot-manager",
+      "bytes": 75708,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/fastvideo",
+      "bytes": 100524,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/fastlogo",
+      "bytes": 42716,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/hdmicec-service",
+      "bytes": 887800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/avocd",
+      "bytes": 1297616,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/tvs-daemon",
+      "bytes": 298348,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/launchpad-process-pool",
+      "bytes": 355100,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/fastinit",
+      "bytes": 39536,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/bin/pulseaudio",
+      "bytes": 71980,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-egl.so.1.23.1",
+      "bytes": 9404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libunwind-arm.so.8.0.1",
+      "bytes": 50596,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_evas.so.1.25.1",
+      "bytes": 138604,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libssl.so.1.1",
+      "bytes": 350172,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvideo-dp-control.so.0.1.0",
+      "bytes": 42256,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgstreamer-1.0.so.0.2411.0",
+      "bytes": 981356,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libavoc-managed.so",
+      "bytes": 30276,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtizen-audio.so.0.0.0",
+      "bytes": 46676,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-objectfactory.so",
+      "bytes": 34268,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libboost_serialization.so.1.83.0",
+      "bytes": 224592,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dsm.so",
+      "bytes": 1089596,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcontext-aware-api.so.1.1.2",
+      "bytes": 100572,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_imf_evas.so.1.25.1",
+      "bytes": 9472,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtizen-extension-tv-client.so.0.0.0",
+      "bytes": 30216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-chms.so",
+      "bytes": 108564,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libAppBinaryMgrServiceAPI.so",
+      "bytes": 34336,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-isdb-sospec.so",
+      "bytes": 17756,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-tbm-server.so.0.0.0",
+      "bytes": 80408,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-client.so.0.26.0",
+      "bytes": 42280,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdt-api.so",
+      "bytes": 26200,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblaunchpad.so.0.49.30",
+      "bytes": 59560,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libep-iptv-service-api.so",
+      "bytes": 108868,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsource-api.so",
+      "bytes": 96456,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfreetype.so.6.20.1",
+      "bytes": 452588,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libacl.so.1.1.2302",
+      "bytes": 25900,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsecurity-privilege-manager.so.1.4.3",
+      "bytes": 59092,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libicuuc.so.76.1",
+      "bytes": 1436176,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsecurestorage-client.so.1.0.0",
+      "bytes": 186808,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwind.so.0.0.509",
+      "bytes": 25992,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-network-wifi.so.1.0.128+tv",
+      "bytes": 67600,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libui-gadget-1.so.0.2.13",
+      "bytes": 34256,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-network-tethering.so.0.1.0",
+      "bytes": 84560,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapputil.so.0.1.0",
+      "bytes": 59260,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwtz-shell-client.so.0.0.0",
+      "bytes": 9364,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libSLP-db-util.so.0.1.2",
+      "bytes": 17760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libedje.so.1.25.1",
+      "bytes": 622704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libefl-assist.so.0.1.0",
+      "bytes": 67592,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_input_evas.so.1.25.1",
+      "bytes": 22168,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-isdb-scan.so",
+      "bytes": 150044,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsecurity-manager-client.so.3.0.0",
+      "bytes": 215220,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcoreapp-fw-slim.so.0.1.0",
+      "bytes": 84260,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-sospec.so",
+      "bytes": 55108,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdemux-control.so.0.1",
+      "bytes": 17664,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdebug_rcv.so",
+      "bytes": 187580,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-app-context-manager.so",
+      "bytes": 17752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libaul-blink.so.0.83.21",
+      "bytes": 9560,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfluxpolicymanager-tv.so.0.1.0",
+      "bytes": 63640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-sensor.so.0.2.5",
+      "bytes": 38464,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpcrecpp.so.0.0.2",
+      "bytes": 30280,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwas_db_api.so",
+      "bytes": 217676,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-core.so.0.1",
+      "bytes": 166932,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-ui-config-manager-tv.so.0.1.0",
+      "bytes": 42692,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbixby.so",
+      "bytes": 75932,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp-control-api.so",
+      "bytes": 13744,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-atsc30-guide.so",
+      "bytes": 42804,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libGLESv2.so.2.0",
+      "bytes": 279816,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvconf.so.0.3.1",
+      "bytes": 63440,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-udm.so",
+      "bytes": 228240,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libEGL.so.1.4",
+      "bytes": 42248,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtizen-extension-client.so.0.0.0",
+      "bytes": 22628,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-av.so",
+      "bytes": 256548,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-atsc30-live.so",
+      "bytes": 297940,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-si.so",
+      "bytes": 610860,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgcc_s.so.1",
+      "bytes": 103960,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvideo-decoder-control.so.0.1",
+      "bytes": 17668,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libparcel.so.0.18.15",
+      "bytes": 30392,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_con.so.1.25.1",
+      "bytes": 468936,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-udm.so",
+      "bytes": 100260,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-server.so.0.23.1",
+      "bytes": 59612,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-parser.so",
+      "bytes": 859644,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-register-device.so.1.0.0",
+      "bytes": 58884,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-tbm-client.so.0.0.0",
+      "bytes": 47432,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libicudata.so.76.1",
+      "bytes": 31859780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhdmi-control.so.0.1",
+      "bytes": 38164,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libudev.so.1.6.16",
+      "bytes": 104060,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libeio.so.1.25.1",
+      "bytes": 93688,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-b2b.so",
+      "bytes": 540680,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgstvideo-1.0.so.0.2411.0",
+      "bytes": 564876,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-guide.so",
+      "bytes": 311100,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libblkid.so.1.1.0",
+      "bytes": 162288,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-ics.so",
+      "bytes": 162044,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libca-api.so",
+      "bytes": 108480,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/librt.so.1",
+      "bytes": 9556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdbuspolicy1.so.1.1.0",
+      "bytes": 100356,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libexpat.so.1.9.2",
+      "bytes": 99780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsensord-shared.so",
+      "bytes": 75864,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblaunchpad-core.so.0.49.30",
+      "bytes": 199804,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dbms.so",
+      "bytes": 256996,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwtz-foreign-client.so.0.0.0",
+      "bytes": 9376,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcicam.so.0.1",
+      "bytes": 17664,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwtz-screen-client.so.0.0.0",
+      "bytes": 9384,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-creds-pid.so.0.26.0",
+      "bytes": 21800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtv-resource-manager.so.1.43",
+      "bytes": 129320,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtv-viewer-api.so.0.1.0",
+      "bytes": 236360,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-tvplus.so",
+      "bytes": 145704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgmodule-2.0.so.0.8000.5",
+      "bytes": 13780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libboost_filesystem.so.1.83.0",
+      "bytes": 110948,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgio-2.0.so.0.8000.5",
+      "bytes": 1247764,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdlog_redirect_stdout.so.0.0.0",
+      "bytes": 9500,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libipg-data-provider.so.0.1.0",
+      "bytes": 162728,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libVDCurl.so.0.9",
+      "bytes": 112748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libres-lookup.so.0.1",
+      "bytes": 38248,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-scan.so",
+      "bytes": 487484,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhyphen.so.0.3.0",
+      "bytes": 17776,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libug_duck.so",
+      "bytes": 13600,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libaudio-control.so.0.1",
+      "bytes": 120104,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp-core-cpp.so.1.27.17",
+      "bytes": 71756,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libicui18n.so.76.1",
+      "bytes": 2316604,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-uid.so.0.26.0",
+      "bytes": 9252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libector.so.1.25.1",
+      "bytes": 18012,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblaunchpad-common.so.0.49.30",
+      "bytes": 55136,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp-core-efl-cpp.so.1.27.17",
+      "bytes": 22112,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libappcore-common.so.1.27.17",
+      "bytes": 30436,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-atsc30-scan.so",
+      "bytes": 75640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsyspopup_caller.so.0.1.0",
+      "bytes": 13740,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcairo.so.2.11400.2",
+      "bytes": 664308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfeedback.so.0.1.4",
+      "bytes": 26612,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libqse.so.0.1.0",
+      "bytes": 149528,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-creds-self.so.0.26.0",
+      "bytes": 17704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libxkbcommon.so.0.8.0",
+      "bytes": 292552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libaul-extension.so.0.1.0",
+      "bytes": 42696,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-screensaver.so",
+      "bytes": 17776,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpulse-simple.so.0.1.1",
+      "bytes": 17884,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-creds-socket.so.0.26.0",
+      "bytes": 13556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-api-ipc.so",
+      "bytes": 92188,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-app-manager.so.0.17.0",
+      "bytes": 46876,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvorbis.so.0.4.9",
+      "bytes": 136928,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-ht.so",
+      "bytes": 347396,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpointer-constraints-unstable-v1-client.so.0.0.0",
+      "bytes": 9404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libAcmEngine.so",
+      "bytes": 445780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-chms.so",
+      "bytes": 532672,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_ipc.so.1.25.1",
+      "bytes": 34492,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-atsc30-parser.so",
+      "bytes": 574556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcrypt.so.1.1.0",
+      "bytes": 181600,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcursor-shape-v1-client.so.0.0.0",
+      "bytes": 9364,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libxml2.so.2.13.5",
+      "bytes": 829512,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvideoenhance.so.0.1",
+      "bytes": 152984,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-api.so",
+      "bytes": 1395120,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libltdl.so.7.3.2",
+      "bytes": 30336,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-session.so.0.26.0",
+      "bytes": 9460,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcontext-aware-common.so",
+      "bytes": 63568,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-app-control-uri.so.0.26.2",
+      "bytes": 26140,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-client.so.0.23.1",
+      "bytes": 47124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libreminder-api.so.0.1.0",
+      "bytes": 319368,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-api-native.so",
+      "bytes": 1524236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblibtv-plpmanager.so",
+      "bytes": 124668,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtv-resource-information.so.1.24",
+      "bytes": 218312,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libboost_thread.so.1.83.0",
+      "bytes": 102644,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp-core-extension.so.0.1.0",
+      "bytes": 17780,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libogg.so.0.8.2",
+      "bytes": 21884,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpepper-efl.so.0.0.0",
+      "bytes": 34828,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvb-si.so",
+      "bytes": 886188,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-tvtimer.so",
+      "bytes": 30332,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcares.so.2.7.2",
+      "bytes": 71252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-tvsensor-tv.so",
+      "bytes": 67632,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsmart-deadlock.so",
+      "bytes": 13692,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvb-chms.so",
+      "bytes": 174552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_wl2.so.1.25.1",
+      "bytes": 212784,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwas_inner_db.so",
+      "bytes": 61416,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libaul.so.0.83.21",
+      "bytes": 570724,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtuner-control.so.0.1",
+      "bytes": 25860,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-iss.so",
+      "bytes": 980132,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpepper.so.0.0.0",
+      "bytes": 83920,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdbus-1.so.3.19.13",
+      "bytes": 310832,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libamd.so.1.80.19",
+      "bytes": 718404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwifi-direct.so.1.2.100_20260831",
+      "bytes": 128836,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libflux-manager.so.0.1.0",
+      "bytes": 735604,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbattery-control.so.0.1",
+      "bytes": 21832,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcryptocore.so.0.1.0",
+      "bytes": 232664,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbms-api.so",
+      "bytes": 158420,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libefl.so.1.25.1",
+      "bytes": 374140,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbroadcastapp-util-core.so.0.1.0",
+      "bytes": 182536,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecs-sec-tv.so.0.1",
+      "bytes": 21848,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvirtualscreen-linker.so.0.0.509",
+      "bytes": 38432,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-ewbs.so",
+      "bytes": 145748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libjson-glib-1.0.so.0.800.0",
+      "bytes": 124256,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfribidi.so.0.4.0",
+      "bytes": 103900,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbase-utils-i18n.so.3.1.5",
+      "bytes": 365420,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-config.so",
+      "bytes": 34400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-tpms-base.so",
+      "bytes": 339216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbuxton2.so.1.1",
+      "bytes": 54900,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtinyxml2.so.10.0.0",
+      "bytes": 75808,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwtz-video-shell-client.so.0.0.0",
+      "bytes": 9396,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwtz-blur-client.so.0.0.0",
+      "bytes": 9412,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfan-heat-control.so",
+      "bytes": 13632,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-live.so",
+      "bytes": 1246924,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libuifw_misc.so.0.1.0",
+      "bytes": 18760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsecurestorage-credential.so.0.1.0",
+      "bytes": 13768,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libethumb.so.1.25.1",
+      "bytes": 42704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgobject-2.0.so.0.8000.5",
+      "bytes": 269708,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libffi.so.8.1.4",
+      "bytes": 42620,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtizen-launch-client.so.0.0.0",
+      "bytes": 9396,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsndfile.so.1.0.37",
+      "bytes": 293356,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpower-control.so.0.1",
+      "bytes": 70920,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpower-defs.so.0.1.1",
+      "bytes": 30160,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtbm.so.1.0.0",
+      "bytes": 182752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-api-lite.so",
+      "bytes": 211656,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-app-control.so.0.26.2",
+      "bytes": 104748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_input.so.1.25.1",
+      "bytes": 79380,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/librlottie.so.0.2",
+      "bytes": 223068,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libthorvg.so.1.1.0",
+      "bytes": 395784,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libc-2.40.so",
+      "bytes": 1445972,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libppi-factory-api.so",
+      "bytes": 17720,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libappcore-agent.so.1.7.5",
+      "bytes": 30292,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-ai-interpreter-tv.so.2.3.0",
+      "bytes": 55084,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libminizip.so.1.0.0",
+      "bytes": 34036,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libemotion.so.1.25.1",
+      "bytes": 72124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-media-sound-manager-tv.so.0.1.3",
+      "bytes": 54968,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-ht-api.so",
+      "bytes": 310744,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblwipc.so",
+      "bytes": 13608,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcert-svc-vcore.so.2.2.2",
+      "bytes": 364956,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdlog.so.0.0.0",
+      "bytes": 18060,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libattr.so.1.1.2501",
+      "bytes": 17920,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libnghttp2.so.14.24.1",
+      "bytes": 124472,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libunwind-ptrace.so.0.0.0",
+      "bytes": 13724,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libxslt.so.1.1.42",
+      "bytes": 179300,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdeviced.so.1.0.3",
+      "bytes": 256824,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/librpc-port.so.1.21.18",
+      "bytes": 344548,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpkgmgr-info.so.0.37.5",
+      "bytes": 492096,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-base-common.so.0.4.82",
+      "bytes": 66920,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-uid-creds.so..26.0",
+      "bytes": 21800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp-core-rotation-cpp.so.1.27.17",
+      "bytes": 13672,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpvr-service-api.so",
+      "bytes": 306896,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libautoinput.so.0.0.87",
+      "bytes": 26020,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-network-connection.so.1.0.139_20260710",
+      "bytes": 111908,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsensor-genuine.so.4.1.0",
+      "bytes": 141900,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libeina.so.1.25.1",
+      "bytes": 405700,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp_watchdog.so.0.0.1",
+      "bytes": 9300,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-atsc30-udm.so",
+      "bytes": 59180,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvb-sospec.so",
+      "bytes": 21852,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libppi-acm-core-acmd.so.0.1",
+      "bytes": 21760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libscreencontroller.so.0.0.509",
+      "bytes": 17788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libklay.so.0.0.2",
+      "bytes": 171244,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libteec_ppi.so",
+      "bytes": 13564,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-guide.so",
+      "bytes": 290836,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-network-bluetooth.so.0.5.3",
+      "bytes": 716612,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-screen.so.0.1.0",
+      "bytes": 54788,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsdp-common.so.0.1.0",
+      "bytes": 30112,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_file.so.1.25.1",
+      "bytes": 26464,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libopus.so.0.8.0",
+      "bytes": 272272,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libm.so.6",
+      "bytes": 320908,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_wayland.so.1.25.1",
+      "bytes": 63656,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-info.so.0.2.1",
+      "bytes": 46524,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-isdb-live.so",
+      "bytes": 75540,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvd-capi-network.so.0.1.1.63",
+      "bytes": 218504,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libeo.so.1.25.1",
+      "bytes": 105152,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libteec.so",
+      "bytes": 18004,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-ics.so",
+      "bytes": 379932,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libslive-framework.so.0.1.0",
+      "bytes": 55172,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsmack.so.1.3.1",
+      "bytes": 25904,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpsl.so.5.3.2",
+      "bytes": 62804,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhdmicec-api.so.0.18.18",
+      "bytes": 42544,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhwcrypto.so.0.1.1",
+      "bytes": 17852,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpcre2-8.so.0.14.0",
+      "bytes": 468584,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libprojector.so.0.1",
+      "bytes": 21748,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libjson-c.so.5.4.0",
+      "bytes": 50984,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhdmi-cec.so.0.1",
+      "bytes": 9468,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsecurity-manager-commons.so.1.0.2",
+      "bytes": 966216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libeet.so.1.25.1",
+      "bytes": 108900,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcoreapp-util.so.0.1.0",
+      "bytes": 71528,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-boost-tv.so.0.0.1",
+      "bytes": 26232,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgraphics-control.so.0.1",
+      "bytes": 38468,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblua.so.5.1",
+      "bytes": 117424,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libturbojpeg.so.0.3.0",
+      "bytes": 600400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbundle.so.0.18.15",
+      "bytes": 83852,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-media-sound-manager.so.0.7.15",
+      "bytes": 141388,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-usbdevice.so",
+      "bytes": 112752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libaul-server.so.0.83.21",
+      "bytes": 67384,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsecure-clock.so.0.1.0",
+      "bytes": 34604,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbz2.so.1.0.8",
+      "bytes": 50044,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-client-commons.so.0.26.0",
+      "bytes": 29992,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libkeystone-ppi.so.0.1",
+      "bytes": 70912,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_audio.so.1.25.1",
+      "bytes": 51664,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-atsc30-si.so",
+      "bytes": 347840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-network-wifi-manager.so.1.3.25",
+      "bytes": 272124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libopen-debugmenu.so",
+      "bytes": 22172,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libeldbus.so.1.25.1",
+      "bytes": 179760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdbus-glib-1.so.2.2.2",
+      "bytes": 121840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libssl.so.3",
+      "bytes": 417936,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libnetwork.so.0.0.0",
+      "bytes": 108160,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfbproxyserver.so.0.2.0",
+      "bytes": 76908,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libmount.so.1.1.0",
+      "bytes": 220248,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-resource.so.1.0.0",
+      "bytes": 13556,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpkgmgr_common.so.0.23.4",
+      "bytes": 17836,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-app-operation-tv.so.0.1.0",
+      "bytes": 13632,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libboost_atomic.so.1.83.0",
+      "bytes": 7752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsdp.so.0.1.0",
+      "bytes": 92872,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtizen-policy-ext-client.so.0.0.0",
+      "bytes": 9380,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/liblink.so.0.1",
+      "bytes": 29944,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libslive-provider.so.0.1",
+      "bytes": 351580,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcurl.so.4.8.0",
+      "bytes": 488944,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libuuid.so.1.3.0",
+      "bytes": 26204,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtv-control.so.0.1.0",
+      "bytes": 30440,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libxdgmime.so.1.1.0",
+      "bytes": 26132,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libaul-ex.so.0.1.0",
+      "bytes": 9480,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-hbbtv-tv.so.0.1",
+      "bytes": 21916,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-display-rotator.so.0.1.1",
+      "bytes": 9288,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcrypto.so.3",
+      "bytes": 2456948,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-scan.so",
+      "bytes": 689328,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpepper-xkb.so.0.0.0",
+      "bytes": 13684,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libjpeg.so.8.3.2",
+      "bytes": 477508,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-convergence-bnr.so.1.0.0",
+      "bytes": 42640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libci-api.so",
+      "bytes": 466824,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libxmlsec1.so.1.2.41",
+      "bytes": 335272,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-egl-tizen.so.1.0.1",
+      "bytes": 9504,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-admin.so.0.26.0",
+      "bytes": 83240,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dvbbase-live.so",
+      "bytes": 63236,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libmmfsound.so.0.1.0",
+      "bytes": 100120,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libttrace.so.1.1.0",
+      "bytes": 13688,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpkgmgr-client.so.0.23.4",
+      "bytes": 182488,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-isdb-si.so",
+      "bytes": 174332,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsso_api.so",
+      "bytes": 240492,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtv-viewer-kevent.so.0.1.0",
+      "bytes": 96124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwas_launcher_api.so",
+      "bytes": 79752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpng16.so.16.44.0",
+      "bytes": 145308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcap.so.2.73",
+      "bytes": 30404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libgstbase-1.0.so.0.2411.0",
+      "bytes": 437316,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpulse.so.0.24.0",
+      "bytes": 237204,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libstdc++.so.6.0.33",
+      "bytes": 1675596,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtizen-core.so.0.2.4",
+      "bytes": 96300,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-si.so",
+      "bytes": 582540,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpixman-1.so.0.38.4",
+      "bytes": 517884,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-creds-commons.so.0.26.0",
+      "bytes": 25904,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libnvram.so.0.1",
+      "bytes": 9460,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhpd-manager.so",
+      "bytes": 26172,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdrm.so.2.124.0",
+      "bytes": 63224,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libharfbuzz.so.0.60822.0",
+      "bytes": 765380,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-window-tv.so.0.0.45",
+      "bytes": 51224,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-ems.so",
+      "bytes": 81196,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdisplay-panel.so.0.1",
+      "bytes": 46400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libeeze.so.1.25.1",
+      "bytes": 51220,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libesg-api.so",
+      "bytes": 92412,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libprivileged-service-client.so",
+      "bytes": 30212,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcoreapp-util-channel.so.0.1.0",
+      "bytes": 34392,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libdl.so.2",
+      "bytes": 13656,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsystemd.so.0.27.1",
+      "bytes": 441472,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libxmlsec1-openssl.so.1.2.41",
+      "bytes": 195680,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtanchor-runtime.so.2.1.2",
+      "bytes": 55028,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-ext.so",
+      "bytes": 762308,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbluetooth-api.so.1.0.0",
+      "bytes": 923392,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libz.so.1.3.1",
+      "bytes": 66912,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libhdmi-out-control.so.0.1",
+      "bytes": 9468,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-runtime-info.so.0.0.200",
+      "bytes": 48220,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore_imf.so.1.25.1",
+      "bytes": 30232,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-time.so",
+      "bytes": 63400,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcomss-api.so",
+      "bytes": 34360,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libevas.so.1.25.1",
+      "bytes": 1816708,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-app-common.so.0.16.4",
+      "bytes": 30392,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libmmfkeysound.so.0.0.0",
+      "bytes": 13656,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libep-device-alarm-manager-interface.so",
+      "bytes": 13676,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libnotification.so.0.11.0",
+      "bytes": 354752,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsessiond.so.11.0.0",
+      "bytes": 46884,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpcre.so.1.2.13",
+      "bytes": 329252,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libitvs-hybrid-info.so.0.1.0",
+      "bytes": 187404,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtzplatform-config-2.0.so.2.0.0",
+      "bytes": 26736,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libglib-2.0.so.0.8000.5",
+      "bytes": 1002756,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libim-control.so.0.1",
+      "bytes": 13620,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libspeexdsp.so.1.5.2",
+      "bytes": 54744,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfactory-interface-ATSC.so",
+      "bytes": 368552,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-application.so.0.10.0",
+      "bytes": 22060,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libembryo.so.1.25.1",
+      "bytes": 34564,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcoreapp-util-source.so.0.1.0",
+      "bytes": 22008,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-creds-gdbus.so.0.26.0",
+      "bytes": 21800,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libresource-center-api.so.0.9",
+      "bytes": 88112,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-storage.so.0.26.0",
+      "bytes": 111980,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libvd-win-util.so.0.0.509",
+      "bytes": 125480,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-util.so",
+      "bytes": 929428,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libboost_iostreams.so.1.83.0",
+      "bytes": 56824,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libmmfsoundcommon.so.0.0.0",
+      "bytes": 17760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-appfw-package-manager.so.0.15.2",
+      "bytes": 59272,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libemile.so.1.25.1",
+      "bytes": 120728,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwayland-cursor.so.0.23.1",
+      "bytes": 30468,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libavoc.so",
+      "bytes": 1221276,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-ui-efl-util.so.0.8.38",
+      "bytes": 47032,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-tpms.so",
+      "bytes": 664216,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtzfr_utility_nwd.so.0.1.0",
+      "bytes": 46420,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbt-settings-api.so",
+      "bytes": 80072,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpkgmgr_installer.so.0.23.4",
+      "bytes": 318760,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfconfig.so",
+      "bytes": 46876,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libjsoncpp.so.1.9.2",
+      "bytes": 154312,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libCLogger.so",
+      "bytes": 29992,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libmbr.so.0.1.0",
+      "bytes": 384668,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libnagsam-api.so",
+      "bytes": 112840,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libwifi-vendor.so",
+      "bytes": 9476,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-nrt.so",
+      "bytes": 154140,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libep-common-gdbus.so",
+      "bytes": 22024,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-system-system-settings.so.0.0.6",
+      "bytes": 121936,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfontconfig.so.1.12.0",
+      "bytes": 194384,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpointer-warp-v1-client.so.0.0.0",
+      "bytes": 9368,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libbptime.so",
+      "bytes": 13712,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libunifiedAuthentication.so.0.1.0",
+      "bytes": 137644,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libfbclient.so.0.2.0",
+      "bytes": 85144,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libapp-core-ui-cpp.so.1.27.17",
+      "bytes": 92704,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtv_player.so.0.0.0",
+      "bytes": 927000,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libethumb_client.so.1.25.1",
+      "bytes": 34540,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsqlite3.so.3.50.2",
+      "bytes": 866428,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libnetcom.so",
+      "bytes": 67688,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libslive-dbus-proxy.so.0.1",
+      "bytes": 38708,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libtvs-dtmb-sospec.so",
+      "bytes": 13640,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libelementary.so.1.25.1",
+      "bytes": 3577880,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libSNAP.so",
+      "bytes": 603756,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libiniparser.so.4.2.4",
+      "bytes": 17860,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcynara-commons.so.0.26.0",
+      "bytes": 222508,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/librelative-pointer-unstable-v1-client.so.0.0.0",
+      "bytes": 9380,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libanalog-input-control.so.0.1",
+      "bytes": 17668,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-network-bluetooth-tv.so.0.1.04_tv",
+      "bytes": 318112,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libsettings-api.so",
+      "bytes": 129068,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcrypto.so.1.1",
+      "bytes": 1681716,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libpthread.so.0",
+      "bytes": 13656,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libefreet.so.1.25.1",
+      "bytes": 113372,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libecore.so.1.25.1",
+      "bytes": 389672,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libppi-system-info.so.0.1",
+      "bytes": 13564,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/libcapi-aov-tv.so",
+      "bytes": 203764,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/apps/org.tizen.acm-service/bin/acm-service",
+      "bytes": 1230364,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/apps/org.tizen.btapp/bin/btapp",
+      "bytes": 343660,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "bytes": 5734176,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/apps/org.tizen.welcome-mode/bin/welcome-mode",
+      "bytes": 88092,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/hal/libhal-api-tbm.so.1.1",
+      "bytes": 26044,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/hal/libhal-api-common.so.0.1.0",
+      "bytes": 79248,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/pulseaudio/libpulsecore-15.0.so",
+      "bytes": 521064,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    },
+    {
+      "path": "undo_root/usr/lib/pulseaudio/libpulsecommon-15.0.so",
+      "bytes": 373124,
+      "reason": "host ELF copy or generated cache; hashes and readelf results retained"
+    }
+  ]
+}

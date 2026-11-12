@@ -1,0 +1,37 @@
+
+Dynamic section at offset 0x33434 contains 34 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libsecurity-manager-commons.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcap.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libsecurity-manager-client.so.3]
+ 0x0000001d (RUNPATH)                    Library runpath: [/usr/lib]
+ 0x0000000c (INIT)                       0x4453b028
+ 0x0000000d (FINI)                       0x445615b8
+ 0x00000019 (INIT_ARRAY)                 0x44568270
+ 0x0000001b (INIT_ARRAYSZ)               12 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4456827c
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x44535138
+ 0x00000005 (STRTAB)                     0x44536a44
+ 0x00000006 (SYMTAB)                     0x44535784
+ 0x0000000a (STRSZ)                      13676 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x44569270
+ 0x00000002 (PLTRELSZ)                   1328 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4453aaf8
+ 0x00000007 (RELA)                       0x4453a3a8
+ 0x00000008 (RELASZ)                     1872 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4453a208
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x44539fb0
+ 0x6ffffff9 (RELACOUNT)                  108
+ 0x6ffffdf8 (CHECKSUM)                   0x3b9ca46b
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

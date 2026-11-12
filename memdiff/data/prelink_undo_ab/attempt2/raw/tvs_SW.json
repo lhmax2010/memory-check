@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-12T08:10:30+00:00",
+  "argv": [
+    "/home/linhao/GBS-ROOT-TOOLCHAIN-GCC-R4-20260714/local/BUILD-ROOTS/scratch.x86_64.0/usr/bin/armv7l-tizen-linux-gnueabi-readelf",
+    "-SW",
+    "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/tvs-daemon.board"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 3018,
+  "stderr_bytes": 0
+}

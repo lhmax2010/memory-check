@@ -1,0 +1,32 @@
+
+Dynamic section at offset 0x500c contains 29 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libxdgmime.so.1]
+ 0x0000000c (INIT)                       0x43ae0b18
+ 0x0000000d (FINI)                       0x43ae4608
+ 0x00000019 (INIT_ARRAY)                 0x43ae5000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x43ae5004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x43ae0138
+ 0x00000005 (STRTAB)                     0x43ae0554
+ 0x00000006 (SYMTAB)                     0x43ae0194
+ 0x0000000a (STRSZ)                      777 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x43ae6000
+ 0x00000002 (PLTRELSZ)                   368 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x43ae09a8
+ 0x00000011 (REL)                        0x43ae0948
+ 0x00000012 (RELSZ)                      96 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x43ae08d8
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x43ae085e
+ 0x6ffffffa (RELCOUNT)                   7
+ 0x6ffffdf8 (CHECKSUM)                   0xea0f203b
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

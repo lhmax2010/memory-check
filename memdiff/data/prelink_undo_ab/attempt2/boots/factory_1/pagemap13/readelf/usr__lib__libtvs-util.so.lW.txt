@@ -1,0 +1,27 @@
+rc=0
+
+Elf file type is DYN (Shared object file)
+Entry point 0x44c4b000
+There are 7 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  ARM_EXIDX      0x0de230 0x44d29230 0x44d29230 0x02ca8 0x02ca8 R   0x4
+  LOAD           0x000000 0x44c4b000 0x44c4b000 0xe0edc 0xe0edc R E 0x1000
+  LOAD           0x0e1000 0x44d2c000 0x44d2c000 0x04970 0x05634 RW  0x1000
+  DYNAMIC        0x0e3218 0x44d2e218 0x44d2e218 0x001f0 0x001f0 RW  0x4
+  NOTE           0x000114 0x44c4b114 0x44c4b114 0x00024 0x00024 R   0x4
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RW  0x10
+  GNU_RELRO      0x0e1000 0x44d2c000 0x44d2c000 0x03000 0x03000 R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     .note.gnu.build-id .gnu.hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata .ARM.extab .ARM.exidx .eh_frame 
+   02     .init_array .fini_array .data.rel.ro .dynamic .got .data .bss 
+   03     .dynamic 
+   04     .note.gnu.build-id 
+   05     
+   06     .init_array .fini_array .data.rel.ro .dynamic 
+
+STDERR:

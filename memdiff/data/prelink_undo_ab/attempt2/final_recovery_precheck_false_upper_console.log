@@ -1,0 +1,116 @@
+2026-11-12T09:50:13+00:00 RUN recovery_precheck_root_on
+2026-11-12T09:50:13+00:00 END recovery_precheck_root_on rc=0 bytes=32
+2026-11-12T09:50:13+00:00 RUN recovery_precheck_uid
+2026-11-12T09:50:13+00:00 END recovery_precheck_uid rc=0 bytes=17
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_sha
+2026-11-12T09:50:13+00:00 END recovery_verify_001_sha rc=0 bytes=101
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_stat
+2026-11-12T09:50:13+00:00 END recovery_verify_001_stat rc=0 bytes=30
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_xattrs
+2026-11-12T09:50:13+00:00 END recovery_verify_001_xattrs rc=0 bytes=124
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_getcap
+2026-11-12T09:50:13+00:00 END recovery_verify_001_getcap rc=0 bytes=14
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_chsmack
+2026-11-12T09:50:13+00:00 END recovery_verify_001_chsmack rc=0 bytes=46
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_upper
+2026-11-12T09:50:13+00:00 END recovery_verify_001_upper rc=0 bytes=14
+2026-11-12T09:50:13+00:00 RUN recovery_verify_002_sha
+2026-11-12T09:50:14+00:00 END recovery_verify_002_sha rc=0 bytes=107
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_stat
+2026-11-12T09:50:14+00:00 END recovery_verify_002_stat rc=0 bytes=29
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_xattrs
+2026-11-12T09:50:14+00:00 END recovery_verify_002_xattrs rc=0 bytes=130
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_getcap
+2026-11-12T09:50:14+00:00 END recovery_verify_002_getcap rc=0 bytes=14
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_chsmack
+2026-11-12T09:50:14+00:00 END recovery_verify_002_chsmack rc=0 bytes=52
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_upper
+2026-11-12T09:50:14+00:00 END recovery_verify_002_upper rc=0 bytes=14
+2026-11-12T09:50:14+00:00 RUN recovery_verify_003_sha
+2026-11-12T09:50:14+00:00 END recovery_verify_003_sha rc=0 bytes=99
+2026-11-12T09:50:14+00:00 RUN recovery_verify_003_stat
+2026-11-12T09:50:14+00:00 END recovery_verify_003_stat rc=0 bytes=29
+2026-11-12T09:50:14+00:00 RUN recovery_verify_003_xattrs
+2026-11-12T09:50:15+00:00 END recovery_verify_003_xattrs rc=0 bytes=122
+2026-11-12T09:50:15+00:00 RUN recovery_verify_003_getcap
+2026-11-12T09:50:15+00:00 END recovery_verify_003_getcap rc=0 bytes=14
+2026-11-12T09:50:15+00:00 RUN recovery_verify_003_chsmack
+2026-11-12T09:50:15+00:00 END recovery_verify_003_chsmack rc=0 bytes=44
+2026-11-12T09:50:15+00:00 RUN recovery_verify_003_upper
+2026-11-12T09:50:15+00:00 END recovery_verify_003_upper rc=0 bytes=14
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_sha
+2026-11-12T09:50:15+00:00 END recovery_verify_004_sha rc=0 bytes=96
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_stat
+2026-11-12T09:50:15+00:00 END recovery_verify_004_stat rc=0 bytes=31
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_xattrs
+2026-11-12T09:50:15+00:00 END recovery_verify_004_xattrs rc=0 bytes=119
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_getcap
+2026-11-12T09:50:15+00:00 END recovery_verify_004_getcap rc=0 bytes=14
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_chsmack
+2026-11-12T09:50:16+00:00 END recovery_verify_004_chsmack rc=0 bytes=41
+2026-11-12T09:50:16+00:00 RUN recovery_verify_004_upper
+2026-11-12T09:50:16+00:00 END recovery_verify_004_upper rc=0 bytes=14
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_sha
+2026-11-12T09:50:16+00:00 END recovery_verify_005_sha rc=0 bytes=99
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_stat
+2026-11-12T09:50:16+00:00 END recovery_verify_005_stat rc=0 bytes=29
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_xattrs
+2026-11-12T09:50:16+00:00 END recovery_verify_005_xattrs rc=0 bytes=122
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_getcap
+2026-11-12T09:50:16+00:00 END recovery_verify_005_getcap rc=0 bytes=14
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_chsmack
+2026-11-12T09:50:16+00:00 END recovery_verify_005_chsmack rc=0 bytes=44
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_upper
+2026-11-12T09:50:16+00:00 END recovery_verify_005_upper rc=0 bytes=14
+2026-11-12T09:50:16+00:00 RUN recovery_verify_006_sha
+2026-11-12T09:50:16+00:00 END recovery_verify_006_sha rc=0 bytes=94
+2026-11-12T09:50:16+00:00 RUN recovery_verify_006_stat
+2026-11-12T09:50:17+00:00 END recovery_verify_006_stat rc=0 bytes=29
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_xattrs
+2026-11-12T09:50:17+00:00 END recovery_verify_006_xattrs rc=0 bytes=181
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_getcap
+2026-11-12T09:50:17+00:00 END recovery_verify_006_getcap rc=0 bytes=97
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_chsmack
+2026-11-12T09:50:17+00:00 END recovery_verify_006_chsmack rc=0 bytes=39
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_upper
+2026-11-12T09:50:17+00:00 END recovery_verify_006_upper rc=0 bytes=14
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_sha
+2026-11-12T09:50:17+00:00 END recovery_verify_007_sha rc=0 bytes=100
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_stat
+2026-11-12T09:50:17+00:00 END recovery_verify_007_stat rc=0 bytes=30
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_xattrs
+2026-11-12T09:50:17+00:00 END recovery_verify_007_xattrs rc=0 bytes=123
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_getcap
+2026-11-12T09:50:18+00:00 END recovery_verify_007_getcap rc=0 bytes=14
+2026-11-12T09:50:18+00:00 RUN recovery_verify_007_chsmack
+2026-11-12T09:50:18+00:00 END recovery_verify_007_chsmack rc=0 bytes=45
+2026-11-12T09:50:18+00:00 RUN recovery_verify_007_upper
+2026-11-12T09:50:18+00:00 END recovery_verify_007_upper rc=0 bytes=14
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_sha
+2026-11-12T09:50:18+00:00 END recovery_verify_008_sha rc=0 bytes=125
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_stat
+2026-11-12T09:50:18+00:00 END recovery_verify_008_stat rc=0 bytes=33
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_xattrs
+2026-11-12T09:50:18+00:00 END recovery_verify_008_xattrs rc=0 bytes=214
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_getcap
+2026-11-12T09:50:18+00:00 END recovery_verify_008_getcap rc=0 bytes=14
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_chsmack
+2026-11-12T09:50:19+00:00 END recovery_verify_008_chsmack rc=0 bytes=103
+2026-11-12T09:50:19+00:00 RUN recovery_verify_008_upper
+2026-11-12T09:50:19+00:00 END recovery_verify_008_upper rc=0 bytes=14
+2026-11-12T09:50:19+00:00 RUN recovery_precheck_root_off
+2026-11-12T09:50:19+00:00 END recovery_precheck_root_off rc=0 bytes=36
+2026-11-12T09:50:19+00:00 RUN recovery_precheck_sdk_uid
+2026-11-12T09:50:19+00:00 END recovery_precheck_sdk_uid rc=0 bytes=20
+2026-11-12T09:50:19+00:00 ERROR RuntimeError('1 files differ from originals')
+已结束 2026-11-12T09:50:19+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/final_recovery.py", line 67, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/final_recovery.py", line 37, in main
+    verify_originals()
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/final_recovery.py", line 30, in verify_originals
+    if errors:raise RuntimeError(f'{len(errors)} files differ from originals')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: 1 files differ from originals

@@ -1,0 +1,37 @@
+
+Dynamic section at offset 0x5030 contains 34 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libmmfkeysound.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libfeedback.so.0]
+ 0x0000000c (INIT)                       0x46127f40
+ 0x0000000d (FINI)                       0x46129778
+ 0x00000019 (INIT_ARRAY)                 0x4612c000
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4612c008
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46127138
+ 0x00000005 (STRTAB)                     0x461274d4
+ 0x00000006 (SYMTAB)                     0x461271e4
+ 0x0000000a (STRSZ)                      923 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4612d000
+ 0x00000002 (PLTRELSZ)                   224 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x46127e60
+ 0x00000011 (REL)                        0x46127980
+ 0x00000012 (RELSZ)                      1248 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x461278d0
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x46127870
+ 0x6ffffffa (RELCOUNT)                   151
+ 0x6ffffdf8 (CHECKSUM)                   0xc563a7e0
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

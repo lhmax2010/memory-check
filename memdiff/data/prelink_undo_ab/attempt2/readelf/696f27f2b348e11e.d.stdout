@@ -1,0 +1,36 @@
+
+Dynamic section at offset 0xe100 contains 33 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libjsoncpp.so.22]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcontext-aware-common.so]
+ 0x0000000c (INIT)                       0x4697f514
+ 0x0000000d (FINI)                       0x469862dc
+ 0x00000019 (INIT_ARRAY)                 0x469880a8
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x469880ac
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4697a138
+ 0x00000005 (STRTAB)                     0x4697bc4c
+ 0x00000006 (SYMTAB)                     0x4697a8ac
+ 0x0000000a (STRSZ)                      11731 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x469890a8
+ 0x00000002 (PLTRELSZ)                   1384 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4697efac
+ 0x00000007 (RELA)                       0x4697edb4
+ 0x00000008 (RELASZ)                     504 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4697ec94
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x4697ea20
+ 0x6ffffff9 (RELACOUNT)                  4
+ 0x6ffffdf8 (CHECKSUM)                   0xec9f9ec3
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

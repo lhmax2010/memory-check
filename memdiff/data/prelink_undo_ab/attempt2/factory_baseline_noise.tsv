@@ -1,0 +1,11 @@
+metric	factory_1_kB	factory_2_kB	mean_kB	range_kB
+Pss_plus_SwapPss_kB	576364.0	577422.0	576893.0	1058.0
+GCC_nonPIE_15_Pss_plus_SwapPss_kB	75471.0	75292.0	75381.5	179.0
+PageTables_kB	17768.0	17884.0	17826.0	116.0
+MemAvailable_kB	1110776.0	1108080.0	1109428.0	2696.0
+library_Private_Dirty_15_r--_kB	4132.0	4352.0	4242.0	220.0
+library_Private_Dirty_15_rw-_kB	312.0	1804.0	1058.0	1492.0
+library_Private_Dirty_other_r--_kB	56588.0	56628.0	56608.0	40.0
+library_Private_Dirty_other_rw-_kB	9416.0	10016.0	9716.0	600.0
+library_rx_Pss_exclusive_ten_kB	7076.0	7680.0	7378.0	604.0
+library_rx_Pss_also_other_or_absent_kB	33255.0	33248.0	33251.5	7.0

@@ -1,0 +1,52 @@
+
+Dynamic section at offset 0xe1c3c contains 49 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgstvideo-1.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgstreamer-1.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtv-resource-manager.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libtv-resource-information.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libresource-center-api.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libjsoncpp.so.22]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-boost-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-usbdevice.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libvideo-decoder-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libavoc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000e (SONAME)                     Library soname: [libtv_player.so.0]
+ 0x0000001d (RUNPATH)                    Library runpath: [/usr/lib]
+ 0x0000000c (INIT)                       0x44d4fba8
+ 0x0000000d (FINI)                       0x44de0b98
+ 0x00000019 (INIT_ARRAY)                 0x44e15000
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x44e15008
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x00000004 (HASH)                       0x44d34138
+ 0x6ffffef5 (GNU_HASH)                   0x44d363c0
+ 0x00000005 (STRTAB)                     0x44d3d160
+ 0x00000006 (SYMTAB)                     0x44d38590
+ 0x0000000a (STRSZ)                      56854 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x44e16000
+ 0x00000002 (PLTRELSZ)                   6736 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x44d4dcc4
+ 0x00000007 (RELA)                       0x44d4ba80
+ 0x00000008 (RELASZ)                     8772 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x44d4b8f0
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x44d4af76
+ 0x6ffffff9 (RELACOUNT)                  526
+ 0x6ffffdf8 (CHECKSUM)                   0xa1388b3f
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

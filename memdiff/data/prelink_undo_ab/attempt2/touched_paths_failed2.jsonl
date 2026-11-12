@@ -1,0 +1,16 @@
+{"path": "/usr/bin/tvs-daemon", "variant": "undo", "time": "2026-11-12T09:47:07+00:00"}
+{"path": "/usr/bin/app-boot-manager", "variant": "undo", "time": "2026-11-12T09:47:09+00:00"}
+{"path": "/usr/bin/fastinit", "variant": "undo", "time": "2026-11-12T09:47:10+00:00"}
+{"path": "/usr/bin/avocd", "variant": "undo", "time": "2026-11-12T09:47:11+00:00"}
+{"path": "/usr/bin/fastlogo", "variant": "undo", "time": "2026-11-12T09:47:13+00:00"}
+{"path": "/usr/bin/amd", "variant": "undo", "time": "2026-11-12T09:47:14+00:00"}
+{"path": "/usr/bin/fastvideo", "variant": "undo", "time": "2026-11-12T09:48:35+00:00"}
+{"path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer", "variant": "undo", "time": "2026-11-12T09:48:37+00:00"}
+{"path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer", "variant": "original", "time": "2026-11-12T09:48:39+00:00"}
+{"path": "/usr/bin/fastvideo", "variant": "original", "time": "2026-11-12T09:49:51+00:00"}
+{"path": "/usr/bin/amd", "variant": "original", "time": "2026-11-12T09:49:53+00:00"}
+{"path": "/usr/bin/fastlogo", "variant": "original", "time": "2026-11-12T09:49:56+00:00"}
+{"path": "/usr/bin/avocd", "variant": "original", "time": "2026-11-12T09:49:58+00:00"}
+{"path": "/usr/bin/fastinit", "variant": "original", "time": "2026-11-12T09:50:00+00:00"}
+{"path": "/usr/bin/app-boot-manager", "variant": "original", "time": "2026-11-12T09:50:02+00:00"}
+{"path": "/usr/bin/tvs-daemon", "variant": "original", "time": "2026-11-12T09:50:03+00:00"}

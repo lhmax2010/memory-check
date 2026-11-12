@@ -1,0 +1,7 @@
+{
+  "path": "/usr/bin/rscmgr-service",
+  "units": [
+    "aaa_rscmgr-service.service"
+  ],
+  "ps": " 683    1 rscmgr-service  /usr/bin/rscmgr-service\r\n1449    1 sh              /bin/sh -c ps -eo pid,ppid,comm,args | grep -F 'rscmgr-service'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\"\r\n1453 1449 grep            grep -F rscmgr-service\r\n\r"
+}

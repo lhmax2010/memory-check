@@ -1,0 +1,4 @@
+WARNING: Your data are to be sent over an unencrypted connection and could be read by others.
+pushed              all_elf_paths.txt	  0%	      0KB	    0KB/spushed              all_elf_paths.txt	100%	    120KB	    0KB/s
+1 file(s) pushed. 0 file(s) skipped.
+/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/all_elf_paths.txt   372KB/s (123701 bytes in 0.324s)

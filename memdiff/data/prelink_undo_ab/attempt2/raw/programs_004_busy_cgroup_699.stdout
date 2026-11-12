@@ -1,0 +1,12 @@
+9:name=resourced_cgroup:/
+8:cpuset:/
+7:cpuacct:/
+6:blkio:/
+5:freezer:/
+4:net_cls:/
+3:devices:/system.slice/avocd-launcher.service
+2:cpu:/default
+1:name=systemd:/system.slice/avocd-launcher.service
+0::/system.slice/avocd-launcher.service
+
+__AB_RC__0

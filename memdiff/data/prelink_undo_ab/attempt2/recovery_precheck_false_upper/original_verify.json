@@ -1,0 +1,11 @@
+{
+  "count": 8,
+  "errors": [
+    {
+      "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+      "errors": [
+        "overlay upper absent"
+      ]
+    }
+  ]
+}

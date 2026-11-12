@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T08:16:55+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "n=0; failures=0; while IFS= read -r f; do\n    [ -n \"$f\" ] || continue\n    LD_LIBRARY_PATH=/root/prelink_ab_tools /root/prelink_ab_tools/readelf -dW \"$f\" > /root/prelink_ab_tools/one.dynamic 2> /root/prelink_ab_tools/one.err\n    r=$?\n    if [ \"$r\" -ne 0 ]; then printf 'READ_ERROR\\t%s\\t%s\\n' \"$f\" \"$r\"; failures=$((failures+1)); fi\n    if grep -qF '(GNU_PRELINKED)' /root/prelink_ab_tools/one.dynamic; then printf 'GNU_PRELINKED\\t%s\\n' \"$f\"; fi\n    n=$((n+1)); if [ $((n%100)) -eq 0 ]; then printf 'PROGRESS\\t%s\\n' \"$n\"; fi\n  done < /root/prelink_ab_tools/elf_paths.txt\n  printf 'SUMMARY\\t%s\\t%s\\n' \"$n\" \"$failures\"\n  test \"$n\" -eq 3208 && test \"$failures\" -eq 0; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "remote_rc": 0,
+  "stdout_bytes": 20388,
+  "stderr_bytes": 0
+}

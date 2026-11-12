@@ -1,0 +1,33 @@
+
+Dynamic section at offset 0x104e4 contains 30 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcapi-base-common.so.0]
+ 0x0000000c (INIT)                       0x43618408
+ 0x0000000d (FINI)                       0x43618640
+ 0x00000019 (INIT_ARRAY)                 0x43622538
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4362253c
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x43614158
+ 0x00000005 (STRTAB)                     0x43614290
+ 0x00000006 (SYMTAB)                     0x43614190
+ 0x0000000a (STRSZ)                      287 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x43625538
+ 0x00000002 (PLTRELSZ)                   56 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x436183cc
+ 0x00000007 (RELA)                       0x43614430
+ 0x00000008 (RELASZ)                     16284 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x0000001e (FLAGS)                      STATIC_TLS
+ 0x6ffffffe (VERNEED)                    0x436143d0
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x436143b0
+ 0x6ffffff9 (RELACOUNT)                  1351
+ 0x6ffffdf8 (CHECKSUM)                   0x9a02e040
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

@@ -1,0 +1,7 @@
+各文件列说明（单位 kB）
+proc_rollup.txt : 总量(Pss+SwapPss) Pss Pss_Anon Pss_File Pss_Shmem Private_Dirty SwapPss Rss pid 进程名
+mapping.txt     : 总量(Pss+SwapPss) Pss SwapPss Private_Dirty Private_Clean Shared_Clean VMA个数 映射名
+proc_dso.txt    : 加载的.so个数 VMA个数 可执行文件自身的Private_Dirty 可执行文件自身的Pss ELF类型(02=非PIE 03=PIE) pid 进程名 可执行文件路径
+totals.txt      : 全部进程的合计
+dso_totals.txt  : 全部进程的 .so 个数、VMA 个数、可执行文件私有脏页合计，以及 PIE / 非 PIE 进程数
+05_elf/elf_exec_types.txt : ELF类型 路径（02=非PIE 03=PIE）

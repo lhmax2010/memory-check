@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T09:58:01+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "/root/prelink_ab_tools/setfattr -n 'security.capability' -v '0x01000002000000002a0028000000000000000000' '/usr/bin/amd'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 14,
+  "stderr_bytes": 0
+}

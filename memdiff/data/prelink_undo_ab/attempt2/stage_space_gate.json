@@ -1,0 +1,10 @@
+{
+  "selected_files": 434,
+  "original_total_bytes": 132932360,
+  "min_free_kib": 2960296,
+  "required_free_kib": 259634,
+  "stage_path": "/opt/usr/prelink_ab_stage",
+  "tools_path": "/root/prelink_ab_tools",
+  "tar_bytes": 264263680,
+  "tar_sha256": "9f35a8cebfe54843a1dee1fd7ba8df71f64b2090900cf508ed5fe14e1b3327d1"
+}

@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T09:58:19+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "ps -eo pid,ppid,comm,args | grep -F 'launchpad-loader'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 2556,
+  "stderr_bytes": 0
+}

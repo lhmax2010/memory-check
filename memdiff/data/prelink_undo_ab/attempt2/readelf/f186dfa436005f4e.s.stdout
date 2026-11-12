@@ -1,0 +1,36 @@
+There are 27 section headers, starting at offset 0x1d778:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            44683114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        44683138 000138 000e8c 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          44683fc4 000fc4 001450 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          44685414 002414 0033c6 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          446887da 0057da 00028a 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         44688a64 005a64 000070 00   A  4   3  4
+  [ 7] .rel.dyn          REL             44688ad4 005ad4 000040 08   A  3   0  4
+  [ 8] .rel.plt          REL             44688b14 005b14 000088 08  AI  3  19  4
+  [ 9] .init             PROGBITS        44688b9c 005b9c 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        44688ba8 005ba8 0000e0 04  AX  0   0  4
+  [11] .text             PROGBITS        44688c88 005c88 00d780 00  AX  0   0  4
+  [12] .fini             PROGBITS        44696408 013408 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        44696410 013410 0081ae 00   A  0   0  4
+  [14] .ARM.exidx        ARM_EXIDX       4469e5c0 01b5c0 000250 00  AL 11   0  4
+  [15] .eh_frame         PROGBITS        4469e810 01b810 000004 00   A  0   0  4
+  [16] .init_array       INIT_ARRAY      4469f000 01c000 000004 04  WA  0   0  4
+  [17] .fini_array       FINI_ARRAY      4469f004 01c004 000004 04  WA  0   0  4
+  [18] .dynamic          DYNAMIC         4469f008 01c008 000108 08  WA  4   0  4
+  [19] .got              PROGBITS        446a0000 01d000 000064 04  WA  0   0  4
+  [20] .data             PROGBITS        446a0064 01d064 000008 00  WA  0   0  4
+  [21] .bss              NOBITS          446a006c 01d06c 000024 00  WA  0   0  4
+  [22] .comment          PROGBITS        00000000 01d06c 00002c 01  MS  0   0  1
+  [23] .gnu.liblist      GNU_LIBLIST     00000000 01d098 0000b4 14     24   0  4
+  [24] .gnu.libstr       STRTAB          00000000 01d14c 000084 00      0   0  1
+  [25] .gnu.prelink_undo PROGBITS        00000000 01d1d0 0004ac 01      0   0  4
+  [26] .shstrtab         STRTAB          00000000 01d67c 0000fa 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)

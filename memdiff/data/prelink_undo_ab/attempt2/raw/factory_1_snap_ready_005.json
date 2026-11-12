@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T08:53:50+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "grep -q '步骤 4/6' /opt/usr/prelink_ab_stage/memcheck/gcc_boot1_20261112_005144/run.log; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 14,
+  "stderr_bytes": 0
+}

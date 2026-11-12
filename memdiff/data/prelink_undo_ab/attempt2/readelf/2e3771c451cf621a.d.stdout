@@ -1,0 +1,45 @@
+
+Dynamic section at offset 0x71e0 contains 42 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libecore_input.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libevas.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_wl2.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeina.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-extension-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpepper.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpepper-xkb.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-tbm-server.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-server.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtbm.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libpepper-efl.so.0]
+ 0x0000000c (INIT)                       0x46523ab4
+ 0x0000000d (FINI)                       0x46526d6c
+ 0x00000019 (INIT_ARRAY)                 0x46528000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x46528004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46521138
+ 0x00000005 (STRTAB)                     0x46521d98
+ 0x00000006 (SYMTAB)                     0x46521198
+ 0x0000000a (STRSZ)                      4707 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x46529000
+ 0x00000002 (PLTRELSZ)                   1312 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x46523594
+ 0x00000011 (REL)                        0x465231dc
+ 0x00000012 (RELSZ)                      952 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4652317c
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x46522ffc
+ 0x6ffffffa (RELCOUNT)                   101
+ 0x6ffffdf8 (CHECKSUM)                   0xa264dd1
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:46
+ 0x00000000 (NULL)                       0x0

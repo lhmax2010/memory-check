@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T08:16:20+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "push",
+    "/home/linhao/lss/memory_check/round3e_gbs_work/gcc_root/local/BUILD-ROOTS/scratch.armv7l.0/usr/lib/libctf-nobfd.so.0.0.0",
+    "/root/prelink_ab_tools/libctf-nobfd.so.0"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 414,
+  "stderr_bytes": 0
+}

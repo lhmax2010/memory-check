@@ -1,0 +1,49 @@
+
+Dynamic section at offset 0x1208c contains 46 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libwas_db_api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwas_inner_db.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-manager.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libttrace.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-hbbtv-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libaul.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbundle.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcynara-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcynara-session.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcynara-creds-self.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libwas_launcher_api.so]
+ 0x0000000c (INIT)                       0x458a15d0
+ 0x0000000d (FINI)                       0x458abd78
+ 0x00000019 (INIT_ARRAY)                 0x458b0068
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x458b0070
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4589e138
+ 0x00000005 (STRTAB)                     0x4589f134
+ 0x00000006 (SYMTAB)                     0x4589e504
+ 0x0000000a (STRSZ)                      7324 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x458b1068
+ 0x00000002 (PLTRELSZ)                   1064 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x458a11a4
+ 0x00000007 (RELA)                       0x458a1078
+ 0x00000008 (RELASZ)                     300 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x458a0f58
+ 0x6fffffff (VERNEEDNUM)                 5
+ 0x6ffffff0 (VERSYM)                     0x458a0dd0
+ 0x6ffffff9 (RELACOUNT)                  4
+ 0x6ffffdf8 (CHECKSUM)                   0x856d88c4
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:47
+ 0x00000000 (NULL)                       0x0

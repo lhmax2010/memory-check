@@ -1,0 +1,3217 @@
+2026-11-12T08:10:29+00:00 RUN connect
+2026-11-12T08:10:30+00:00 END connect rc=0 bytes=42
+2026-11-12T08:10:30+00:00 RUN identity
+2026-11-12T08:10:30+00:00 END identity rc=0 bytes=1824
+2026-11-12T08:10:30+00:00 RUN pull_tvs
+2026-11-12T08:10:30+00:00 END pull_tvs rc=0 bytes=231
+2026-11-12T08:10:30+00:00 RUN board_tvs_sha
+2026-11-12T08:10:30+00:00 END board_tvs_sha rc=0 bytes=101
+2026-11-12T08:10:30+00:00 RUN tvs_SW
+2026-11-12T08:10:30+00:00 END tvs_SW rc=0 bytes=3018
+2026-11-12T08:10:30+00:00 RUN tvs_dW
+2026-11-12T08:10:30+00:00 END tvs_dW rc=0 bytes=7375
+2026-11-12T08:10:30+00:00 RUN prelink_conf
+2026-11-12T08:10:30+00:00 END prelink_conf rc=0 bytes=217
+2026-11-12T08:10:30+00:00 RUN space
+2026-11-12T08:10:30+00:00 END space rc=0 bytes=218
+2026-11-12T08:10:30+00:00 RUN failed_units
+2026-11-12T08:10:31+00:00 END failed_units rc=0 bytes=582
+2026-11-12T08:10:31+00:00 RUN processes
+2026-11-12T08:10:31+00:00 END processes rc=0 bytes=10601
+2026-11-12T08:10:31+00:00 PREFLIGHT PASS
+2026-11-12T08:12:05+00:00 RUN inventory_root_on
+2026-11-12T08:12:05+00:00 END inventory_root_on rc=0 bytes=32
+2026-11-12T08:12:05+00:00 RUN inventory_uid
+2026-11-12T08:12:05+00:00 END inventory_uid rc=0 bytes=17
+2026-11-12T08:12:05+00:00 RUN all_regular_files
+2026-11-12T08:12:06+00:00 END all_regular_files rc=0 bytes=224032
+2026-11-12T08:12:06+00:00 all regular files: 4422
+2026-11-12T08:12:06+00:00 RUN undo_marker_candidates
+2026-11-12T08:12:14+00:00 END undo_marker_candidates rc=0 bytes=14160
+2026-11-12T08:12:14+00:00 undo marker candidates: 419
+2026-11-12T08:12:14+00:00 RUN targets_present
+2026-11-12T08:12:14+00:00 END targets_present rc=0 bytes=721
+2026-11-12T08:12:14+00:00 RUN inventory_root_off
+2026-11-12T08:12:14+00:00 END inventory_root_off rc=0 bytes=36
+2026-11-12T08:12:14+00:00 RUN inventory_sdk_uid
+2026-11-12T08:12:14+00:00 END inventory_sdk_uid rc=0 bytes=20
+2026-11-12T08:15:37+00:00 RUN scan_root_on
+2026-11-12T08:15:37+00:00 END scan_root_on rc=0 bytes=32
+2026-11-12T08:15:37+00:00 RUN scan_uid
+2026-11-12T08:15:37+00:00 END scan_uid rc=0 bytes=17
+2026-11-12T08:15:37+00:00 RUN scan_stage_absent
+2026-11-12T08:15:37+00:00 END scan_stage_absent rc=0 bytes=14
+2026-11-12T08:15:37+00:00 RUN scan_stage_create
+2026-11-12T08:15:38+00:00 END scan_stage_create rc=0 bytes=14
+2026-11-12T08:15:38+00:00 RUN scan_push_readelf
+2026-11-12T08:15:38+00:00 END scan_push_readelf rc=0 bytes=401
+2026-11-12T08:15:38+00:00 RUN scan_push_elf_paths.txt
+2026-11-12T08:15:38+00:00 END scan_push_elf_paths.txt rc=0 bytes=384
+2026-11-12T08:15:38+00:00 RUN scan_readelf_version
+2026-11-12T08:15:38+00:00 END scan_readelf_version rc=0 bytes=164
+2026-11-12T08:15:38+00:00 RUN scan_stage_cleanup
+2026-11-12T08:15:38+00:00 END scan_stage_cleanup rc=0 bytes=14
+2026-11-12T08:15:38+00:00 RUN scan_root_off
+2026-11-12T08:15:39+00:00 END scan_root_off rc=0 bytes=36
+2026-11-12T08:15:39+00:00 RUN scan_sdk_uid
+2026-11-12T08:15:39+00:00 END scan_sdk_uid rc=0 bytes=20
+2026-11-12T08:15:39+00:00 ERROR RuntimeError('native readelf cannot execute')
+2026-11-12T08:16:18+00:00 RUN scan_root_on
+2026-11-12T08:16:18+00:00 END scan_root_on rc=0 bytes=32
+2026-11-12T08:16:18+00:00 RUN scan_uid
+2026-11-12T08:16:18+00:00 END scan_uid rc=0 bytes=17
+2026-11-12T08:16:18+00:00 RUN scan_stage_absent
+2026-11-12T08:16:18+00:00 END scan_stage_absent rc=0 bytes=14
+2026-11-12T08:16:18+00:00 RUN scan_stage_create
+2026-11-12T08:16:19+00:00 END scan_stage_create rc=0 bytes=14
+2026-11-12T08:16:19+00:00 RUN scan_push_readelf
+2026-11-12T08:16:19+00:00 END scan_push_readelf rc=0 bytes=401
+2026-11-12T08:16:19+00:00 RUN scan_push_elf_paths.txt
+2026-11-12T08:16:19+00:00 END scan_push_elf_paths.txt rc=0 bytes=384
+2026-11-12T08:16:19+00:00 RUN scan_push_libctf-nobfd.so.0
+2026-11-12T08:16:20+00:00 END scan_push_libctf-nobfd.so.0 rc=0 bytes=414
+2026-11-12T08:16:20+00:00 RUN scan_push_libsframe.so.1
+2026-11-12T08:16:20+00:00 END scan_push_libsframe.so.1 rc=0 bytes=409
+2026-11-12T08:16:20+00:00 RUN scan_readelf_version
+2026-11-12T08:16:20+00:00 END scan_readelf_version rc=0 bytes=296
+2026-11-12T08:16:20+00:00 RUN native_prelinked_scan
+2026-11-12T08:16:21+00:00 PROGRESS	100
+2026-11-12T08:16:22+00:00 PROGRESS	200
+2026-11-12T08:16:24+00:00 PROGRESS	300
+2026-11-12T08:16:25+00:00 PROGRESS	400
+2026-11-12T08:16:26+00:00 PROGRESS	500
+2026-11-12T08:16:27+00:00 PROGRESS	600
+2026-11-12T08:16:28+00:00 PROGRESS	700
+2026-11-12T08:16:29+00:00 PROGRESS	800
+2026-11-12T08:16:30+00:00 PROGRESS	900
+2026-11-12T08:16:31+00:00 PROGRESS	1000
+2026-11-12T08:16:32+00:00 PROGRESS	1100
+2026-11-12T08:16:33+00:00 PROGRESS	1200
+2026-11-12T08:16:34+00:00 PROGRESS	1300
+2026-11-12T08:16:35+00:00 PROGRESS	1400
+2026-11-12T08:16:36+00:00 PROGRESS	1500
+2026-11-12T08:16:38+00:00 PROGRESS	1600
+2026-11-12T08:16:39+00:00 PROGRESS	1700
+2026-11-12T08:16:40+00:00 PROGRESS	1800
+2026-11-12T08:16:41+00:00 PROGRESS	1900
+2026-11-12T08:16:42+00:00 PROGRESS	2000
+2026-11-12T08:16:43+00:00 PROGRESS	2100
+2026-11-12T08:16:44+00:00 PROGRESS	2200
+2026-11-12T08:16:45+00:00 PROGRESS	2300
+2026-11-12T08:16:46+00:00 PROGRESS	2400
+2026-11-12T08:16:48+00:00 PROGRESS	2500
+2026-11-12T08:16:49+00:00 PROGRESS	2600
+2026-11-12T08:16:50+00:00 PROGRESS	2700
+2026-11-12T08:16:51+00:00 PROGRESS	2800
+2026-11-12T08:16:52+00:00 PROGRESS	2900
+2026-11-12T08:16:53+00:00 PROGRESS	3000
+2026-11-12T08:16:54+00:00 PROGRESS	3100
+2026-11-12T08:16:55+00:00 PROGRESS	3200
+2026-11-12T08:16:55+00:00 native scan complete: 418 GNU_PRELINKED paths; rc=0
+2026-11-12T08:16:55+00:00 RUN scan_stage_cleanup
+2026-11-12T08:16:55+00:00 END scan_stage_cleanup rc=0 bytes=14
+2026-11-12T08:16:55+00:00 RUN scan_root_off
+2026-11-12T08:16:55+00:00 END scan_root_off rc=0 bytes=36
+2026-11-12T08:16:55+00:00 RUN scan_sdk_uid
+2026-11-12T08:16:55+00:00 END scan_sdk_uid rc=0 bytes=20
+2026-11-12T08:18:12+00:00 ERROR TypeError("unsupported operand type(s) for |: 'list' and 'list'")
+2026-11-12T08:18:21+00:00 RUN pull_root_on
+2026-11-12T08:18:21+00:00 END pull_root_on rc=0 bytes=32
+2026-11-12T08:18:21+00:00 RUN pull_uid
+2026-11-12T08:18:21+00:00 END pull_uid rc=0 bytes=17
+2026-11-12T08:18:32+00:00 PULL_CLASSIFY 25/438
+2026-11-12T08:18:44+00:00 PULL_CLASSIFY 50/438
+2026-11-12T08:18:55+00:00 PULL_CLASSIFY 75/438
+2026-11-12T08:19:06+00:00 PULL_CLASSIFY 100/438
+2026-11-12T08:19:22+00:00 PULL_CLASSIFY 125/438
+2026-11-12T08:19:36+00:00 PULL_CLASSIFY 150/438
+2026-11-12T08:19:51+00:00 PULL_CLASSIFY 175/438
+2026-11-12T08:20:06+00:00 PULL_CLASSIFY 200/438
+2026-11-12T08:20:27+00:00 PULL_CLASSIFY 225/438
+2026-11-12T08:20:41+00:00 PULL_CLASSIFY 250/438
+2026-11-12T08:20:53+00:00 PULL_CLASSIFY 275/438
+2026-11-12T08:21:09+00:00 PULL_CLASSIFY 300/438
+2026-11-12T08:21:26+00:00 PULL_CLASSIFY 325/438
+2026-11-12T08:21:42+00:00 PULL_CLASSIFY 350/438
+2026-11-12T08:21:55+00:00 PULL_CLASSIFY 375/438
+2026-11-12T08:22:06+00:00 PULL_CLASSIFY 400/438
+2026-11-12T08:22:19+00:00 PULL_CLASSIFY 425/438
+2026-11-12T08:22:26+00:00 PULL_CLASSIFY 438/438
+2026-11-12T08:22:26+00:00 pull classify done
+2026-11-12T08:22:26+00:00 RUN pull_root_off
+2026-11-12T08:22:26+00:00 END pull_root_off rc=0 bytes=36
+2026-11-12T08:22:26+00:00 RUN pull_sdk_uid
+2026-11-12T08:22:27+00:00 END pull_sdk_uid rc=0 bytes=20
+2026-11-12T08:23:40+00:00 RUN metadata_root_on
+2026-11-12T08:23:41+00:00 END metadata_root_on rc=0 bytes=32
+2026-11-12T08:23:41+00:00 RUN metadata_uid
+2026-11-12T08:23:41+00:00 END metadata_uid rc=0 bytes=17
+2026-11-12T08:23:41+00:00 RUN metadata_stage_absent
+2026-11-12T08:23:41+00:00 END metadata_stage_absent rc=0 bytes=14
+2026-11-12T08:23:41+00:00 RUN metadata_stage_create
+2026-11-12T08:23:41+00:00 END metadata_stage_create rc=0 bytes=14
+2026-11-12T08:23:41+00:00 RUN metadata_push_getfattr
+2026-11-12T08:23:41+00:00 END metadata_push_getfattr rc=0 bytes=331
+2026-11-12T08:23:41+00:00 RUN metadata_push_setfattr
+2026-11-12T08:23:42+00:00 END metadata_push_setfattr rc=0 bytes=331
+2026-11-12T08:23:42+00:00 RUN metadata_tool_getfattr
+2026-11-12T08:23:42+00:00 END metadata_tool_getfattr rc=0 bytes=30
+2026-11-12T08:23:42+00:00 RUN metadata_tool_setfattr
+2026-11-12T08:23:42+00:00 END metadata_tool_setfattr rc=0 bytes=30
+2026-11-12T08:23:54+00:00 METADATA 25/434
+2026-11-12T08:24:05+00:00 METADATA 50/434
+2026-11-12T08:24:17+00:00 METADATA 75/434
+2026-11-12T08:24:29+00:00 METADATA 100/434
+2026-11-12T08:24:41+00:00 METADATA 125/434
+2026-11-12T08:24:53+00:00 METADATA 150/434
+2026-11-12T08:25:05+00:00 METADATA 175/434
+2026-11-12T08:25:16+00:00 METADATA 200/434
+2026-11-12T08:25:28+00:00 METADATA 225/434
+2026-11-12T08:25:40+00:00 METADATA 250/434
+2026-11-12T08:25:52+00:00 METADATA 275/434
+2026-11-12T08:26:03+00:00 METADATA 300/434
+2026-11-12T08:26:16+00:00 METADATA 325/434
+2026-11-12T08:26:28+00:00 METADATA 350/434
+2026-11-12T08:26:39+00:00 METADATA 375/434
+2026-11-12T08:26:51+00:00 METADATA 400/434
+2026-11-12T08:27:03+00:00 METADATA 425/434
+2026-11-12T08:27:07+00:00 METADATA 434/434
+2026-11-12T08:27:07+00:00 RUN metadata_stage_cleanup
+2026-11-12T08:27:07+00:00 END metadata_stage_cleanup rc=0 bytes=14
+2026-11-12T08:27:07+00:00 RUN metadata_root_off
+2026-11-12T08:27:07+00:00 END metadata_root_off rc=0 bytes=36
+2026-11-12T08:27:07+00:00 RUN metadata_sdk_uid
+2026-11-12T08:27:07+00:00 END metadata_sdk_uid rc=0 bytes=20
+2026-11-12T08:29:35+00:00 UNDO 25/434
+2026-11-12T08:29:40+00:00 UNDO 50/434
+2026-11-12T08:29:48+00:00 UNDO 75/434
+2026-11-12T08:29:51+00:00 UNDO 100/434
+2026-11-12T08:29:55+00:00 UNDO 125/434
+2026-11-12T08:30:02+00:00 UNDO 150/434
+2026-11-12T08:30:06+00:00 UNDO 175/434
+2026-11-12T08:30:12+00:00 UNDO 200/434
+2026-11-12T08:30:19+00:00 UNDO 225/434
+2026-11-12T08:30:23+00:00 UNDO 250/434
+2026-11-12T08:30:29+00:00 UNDO 275/434
+2026-11-12T08:30:32+00:00 UNDO 300/434
+2026-11-12T08:30:38+00:00 UNDO 325/434
+2026-11-12T08:30:42+00:00 UNDO 350/434
+2026-11-12T08:30:48+00:00 UNDO 375/434
+2026-11-12T08:30:51+00:00 UNDO 400/434
+2026-11-12T08:30:59+00:00 UNDO 425/434
+2026-11-12T08:31:01+00:00 UNDO 434/434
+2026-11-12T08:31:01+00:00 UNDO done
+2026-11-12T08:35:26+00:00 RUN stage_space_before
+2026-11-12T08:35:26+00:00 END stage_space_before rc=0 bytes=218
+2026-11-12T08:35:26+00:00 PACK 25/434
+2026-11-12T08:35:27+00:00 PACK 50/434
+2026-11-12T08:35:28+00:00 PACK 75/434
+2026-11-12T08:35:28+00:00 PACK 100/434
+2026-11-12T08:35:29+00:00 PACK 125/434
+2026-11-12T08:35:29+00:00 PACK 150/434
+2026-11-12T08:35:30+00:00 PACK 175/434
+2026-11-12T08:35:31+00:00 PACK 200/434
+2026-11-12T08:35:32+00:00 PACK 225/434
+2026-11-12T08:35:33+00:00 PACK 250/434
+2026-11-12T08:35:33+00:00 PACK 275/434
+2026-11-12T08:35:34+00:00 PACK 300/434
+2026-11-12T08:35:35+00:00 PACK 325/434
+2026-11-12T08:35:35+00:00 PACK 350/434
+2026-11-12T08:35:37+00:00 PACK 375/434
+2026-11-12T08:35:37+00:00 PACK 400/434
+2026-11-12T08:35:38+00:00 PACK 425/434
+2026-11-12T08:35:38+00:00 PACK 434/434
+2026-11-12T08:35:38+00:00 RUN stage_root_on
+2026-11-12T08:35:38+00:00 END stage_root_on rc=0 bytes=32
+2026-11-12T08:35:38+00:00 RUN stage_uid
+2026-11-12T08:35:38+00:00 END stage_uid rc=0 bytes=17
+2026-11-12T08:35:38+00:00 RUN stage_absent_prelink_ab_stage
+2026-11-12T08:35:38+00:00 END stage_absent_prelink_ab_stage rc=0 bytes=14
+2026-11-12T08:35:38+00:00 RUN stage_absent_prelink_ab_tools
+2026-11-12T08:35:39+00:00 END stage_absent_prelink_ab_tools rc=0 bytes=14
+2026-11-12T08:35:39+00:00 RUN stage_mkdir
+2026-11-12T08:35:39+00:00 END stage_mkdir rc=0 bytes=14
+2026-11-12T08:35:39+00:00 RUN stage_push_tar
+2026-11-12T08:36:07+00:00 END stage_push_tar rc=0 bytes=2090
+2026-11-12T08:36:07+00:00 RUN stage_tar_sha
+2026-11-12T08:36:12+00:00 END stage_tar_sha rc=0 bytes=119
+2026-11-12T08:36:12+00:00 RUN stage_extract
+2026-11-12T08:36:18+00:00 END stage_extract rc=0 bytes=14
+2026-11-12T08:36:18+00:00 RUN stage_remove_tar
+2026-11-12T08:36:19+00:00 END stage_remove_tar rc=0 bytes=14
+2026-11-12T08:36:19+00:00 RUN stage_push_getfattr
+2026-11-12T08:36:19+00:00 END stage_push_getfattr rc=0 bytes=331
+2026-11-12T08:36:19+00:00 RUN stage_check_getfattr
+2026-11-12T08:36:19+00:00 END stage_check_getfattr rc=0 bytes=30
+2026-11-12T08:36:19+00:00 RUN stage_push_setfattr
+2026-11-12T08:36:19+00:00 END stage_push_setfattr rc=0 bytes=331
+2026-11-12T08:36:19+00:00 RUN stage_check_setfattr
+2026-11-12T08:36:19+00:00 END stage_check_setfattr rc=0 bytes=30
+2026-11-12T08:36:19+00:00 RUN stage_payload_sha
+2026-11-12T08:36:20+00:00 END stage_payload_sha rc=0 bytes=119
+2026-11-12T08:36:20+00:00 RUN stage_space_after
+2026-11-12T08:36:20+00:00 END stage_space_after rc=0 bytes=218
+2026-11-12T08:36:20+00:00 STAGE DONE
+2026-11-12T08:36:20+00:00 RUN stage_root_off
+2026-11-12T08:36:20+00:00 END stage_root_off rc=0 bytes=36
+2026-11-12T08:36:20+00:00 RUN stage_sdk_uid
+2026-11-12T08:36:20+00:00 END stage_sdk_uid rc=0 bytes=20
+2026-11-12T08:41:21+00:00 RUN factory_1_before_arch
+2026-11-12T08:41:21+00:00 END factory_1_before_arch rc=0 bytes=22
+2026-11-12T08:41:21+00:00 RUN factory_1_before_model
+2026-11-12T08:41:21+00:00 END factory_1_before_model rc=0 bytes=31
+2026-11-12T08:41:21+00:00 RUN factory_1_before_cmdline
+2026-11-12T08:41:21+00:00 END factory_1_before_cmdline rc=0 bytes=1479
+2026-11-12T08:41:21+00:00 RUN factory_1_before_version
+2026-11-12T08:41:21+00:00 END factory_1_before_version rc=0 bytes=172
+2026-11-12T08:41:21+00:00 RUN factory_1_before_build
+2026-11-12T08:41:21+00:00 END factory_1_before_build rc=0 bytes=51
+2026-11-12T08:41:21+00:00 RUN factory_1_before_boot_id
+2026-11-12T08:41:22+00:00 END factory_1_before_boot_id rc=0 bytes=52
+2026-11-12T08:41:22+00:00 RUN factory_1_before_uptime
+2026-11-12T08:41:22+00:00 END factory_1_before_uptime rc=0 bytes=32
+2026-11-12T08:41:22+00:00 RUN factory_1_reboot
+2026-11-12T08:41:22+00:00 END factory_1_reboot rc=1 bytes=0
+2026-11-12T08:41:22+00:00 ERROR RuntimeError('sdb reboot failed')
+2026-11-12T08:43:31+00:00 RUN factory_1_before_arch
+2026-11-12T08:43:31+00:00 END factory_1_before_arch rc=0 bytes=22
+2026-11-12T08:43:31+00:00 RUN factory_1_before_model
+2026-11-12T08:43:32+00:00 END factory_1_before_model rc=0 bytes=31
+2026-11-12T08:43:32+00:00 RUN factory_1_before_cmdline
+2026-11-12T08:43:32+00:00 END factory_1_before_cmdline rc=0 bytes=1479
+2026-11-12T08:43:32+00:00 RUN factory_1_before_version
+2026-11-12T08:43:32+00:00 END factory_1_before_version rc=0 bytes=172
+2026-11-12T08:43:32+00:00 RUN factory_1_before_build
+2026-11-12T08:43:32+00:00 END factory_1_before_build rc=0 bytes=51
+2026-11-12T08:43:32+00:00 RUN factory_1_before_boot_id
+2026-11-12T08:43:32+00:00 END factory_1_before_boot_id rc=0 bytes=52
+2026-11-12T08:43:32+00:00 RUN factory_1_before_uptime
+2026-11-12T08:43:32+00:00 END factory_1_before_uptime rc=0 bytes=32
+2026-11-12T08:43:32+00:00 RUN factory_1_before_reboot_root_on
+2026-11-12T08:43:32+00:00 END factory_1_before_reboot_root_on rc=0 bytes=32
+2026-11-12T08:43:32+00:00 RUN factory_1_before_reboot_uid
+2026-11-12T08:43:32+00:00 END factory_1_before_reboot_uid rc=0 bytes=17
+2026-11-12T08:43:32+00:00 RUN factory_1_reboot
+2026-11-12T08:43:43+00:00 END factory_1_reboot rc=0 bytes=12
+2026-11-12T08:43:43+00:00 factory_1 reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T08:43:58+00:00 RUN factory_1_connect_01
+2026-11-12T08:44:01+00:00 END factory_1_connect_01 rc=0 bytes=73
+2026-11-12T08:44:01+00:00 RUN factory_1_boot_probe_01
+2026-11-12T08:44:02+00:00 END factory_1_boot_probe_01 rc=0 bytes=52
+2026-11-12T08:44:02+00:00 RUN factory_1_after_arch
+2026-11-12T08:44:02+00:00 END factory_1_after_arch rc=0 bytes=22
+2026-11-12T08:44:02+00:00 RUN factory_1_after_model
+2026-11-12T08:44:02+00:00 END factory_1_after_model rc=0 bytes=31
+2026-11-12T08:44:02+00:00 RUN factory_1_after_cmdline
+2026-11-12T08:44:02+00:00 END factory_1_after_cmdline rc=0 bytes=1479
+2026-11-12T08:44:02+00:00 RUN factory_1_after_version
+2026-11-12T08:44:02+00:00 END factory_1_after_version rc=0 bytes=172
+2026-11-12T08:44:02+00:00 RUN factory_1_after_build
+2026-11-12T08:44:02+00:00 END factory_1_after_build rc=0 bytes=51
+2026-11-12T08:44:02+00:00 RUN factory_1_after_boot_id
+2026-11-12T08:44:02+00:00 END factory_1_after_boot_id rc=0 bytes=52
+2026-11-12T08:44:02+00:00 RUN factory_1_after_uptime
+2026-11-12T08:44:02+00:00 END factory_1_after_uptime rc=0 bytes=26
+2026-11-12T08:44:02+00:00 factory_1 RECONNECTED new boot ID=50e66ab8-9813-4395-bc46-a4548de5800e
+2026-11-12T08:44:02+00:00 RUN factory_1_root_on
+2026-11-12T08:44:02+00:00 END factory_1_root_on rc=0 bytes=32
+2026-11-12T08:44:02+00:00 RUN factory_1_uid
+2026-11-12T08:44:03+00:00 END factory_1_uid rc=0 bytes=17
+2026-11-12T08:44:03+00:00 RUN factory_1_uptime_01
+2026-11-12T08:44:03+00:00 END factory_1_uptime_01 rc=0 bytes=18
+2026-11-12T08:44:03+00:00 RUN factory_1_ps_01
+2026-11-12T08:44:06+00:00 END factory_1_ps_01 rc=0 bytes=18104
+2026-11-12T08:44:06+00:00 factory_1 health wait uptime=21 missing=['acm-service']
+2026-11-12T08:44:36+00:00 RUN factory_1_uptime_02
+2026-11-12T08:44:36+00:00 END factory_1_uptime_02 rc=0 bytes=18
+2026-11-12T08:44:36+00:00 RUN factory_1_ps_02
+2026-11-12T08:44:36+00:00 END factory_1_ps_02 rc=0 bytes=18181
+2026-11-12T08:44:36+00:00 factory_1 health wait uptime=54 missing=['acm-service']
+2026-11-12T08:45:06+00:00 RUN factory_1_uptime_03
+2026-11-12T08:45:06+00:00 END factory_1_uptime_03 rc=0 bytes=18
+2026-11-12T08:45:06+00:00 RUN factory_1_ps_03
+2026-11-12T08:45:07+00:00 END factory_1_ps_03 rc=0 bytes=18079
+2026-11-12T08:45:07+00:00 factory_1 health wait uptime=84 missing=[]
+2026-11-12T08:45:37+00:00 RUN factory_1_uptime_04
+2026-11-12T08:45:37+00:00 END factory_1_uptime_04 rc=0 bytes=19
+2026-11-12T08:45:37+00:00 RUN factory_1_ps_04
+2026-11-12T08:45:37+00:00 END factory_1_ps_04 rc=0 bytes=18102
+2026-11-12T08:45:37+00:00 factory_1 health wait uptime=115 missing=[]
+2026-11-12T08:46:07+00:00 RUN factory_1_uptime_05
+2026-11-12T08:46:07+00:00 END factory_1_uptime_05 rc=0 bytes=19
+2026-11-12T08:46:07+00:00 RUN factory_1_ps_05
+2026-11-12T08:46:07+00:00 END factory_1_ps_05 rc=0 bytes=17931
+2026-11-12T08:46:07+00:00 factory_1 health wait uptime=145 missing=[]
+2026-11-12T08:46:37+00:00 RUN factory_1_uptime_06
+2026-11-12T08:46:37+00:00 END factory_1_uptime_06 rc=0 bytes=19
+2026-11-12T08:46:37+00:00 RUN factory_1_ps_06
+2026-11-12T08:46:38+00:00 END factory_1_ps_06 rc=0 bytes=17906
+2026-11-12T08:46:38+00:00 factory_1 health wait uptime=175 missing=['acm-service']
+2026-11-12T08:47:08+00:00 RUN factory_1_uptime_07
+2026-11-12T08:47:08+00:00 END factory_1_uptime_07 rc=0 bytes=19
+2026-11-12T08:47:08+00:00 RUN factory_1_ps_07
+2026-11-12T08:47:08+00:00 END factory_1_ps_07 rc=0 bytes=17999
+2026-11-12T08:47:08+00:00 RUN factory_1_failed_units
+2026-11-12T08:47:08+00:00 END factory_1_failed_units rc=0 bytes=501
+2026-11-12T08:47:08+00:00 RUN factory_1_dmesg
+2026-11-12T08:47:09+00:00 END factory_1_dmesg rc=0 bytes=728025
+2026-11-12T08:47:09+00:00 RUN factory_1_dlog_main
+2026-11-12T08:47:09+00:00 END factory_1_dlog_main rc=0 bytes=1066769
+2026-11-12T08:47:09+00:00 RUN factory_1_dlog_system
+2026-11-12T08:47:09+00:00 END factory_1_dlog_system rc=0 bytes=337909
+2026-11-12T08:47:10+00:00 factory_1 HEALTH False uptime=206 missing=[] new_failed=['com.samsung.tv.qse-daemon.service', 'kzram.service', 'org.tizen.mbr-daemon.service', 'security-emdaemon.service', 'ses-usb-installer@sda1.service', 'vdca-update.service'] refusals=0
+2026-11-12T08:47:10+00:00 RUN factory_1_root_off
+2026-11-12T08:47:10+00:00 END factory_1_root_off rc=0 bytes=36
+2026-11-12T08:47:10+00:00 RUN factory_1_sdk_uid
+2026-11-12T08:47:10+00:00 END factory_1_sdk_uid rc=0 bytes=20
+2026-11-12T08:47:10+00:00 ERROR RuntimeError('health gate failed')
+2026-11-12T08:47:37+00:00 RUN factory_1_before_arch
+2026-11-12T08:47:37+00:00 END factory_1_before_arch rc=0 bytes=22
+2026-11-12T08:47:37+00:00 RUN factory_1_before_model
+2026-11-12T08:47:37+00:00 END factory_1_before_model rc=0 bytes=31
+2026-11-12T08:47:37+00:00 RUN factory_1_before_cmdline
+2026-11-12T08:47:37+00:00 END factory_1_before_cmdline rc=0 bytes=1479
+2026-11-12T08:47:37+00:00 RUN factory_1_before_version
+2026-11-12T08:47:38+00:00 END factory_1_before_version rc=0 bytes=172
+2026-11-12T08:47:38+00:00 RUN factory_1_before_build
+2026-11-12T08:47:38+00:00 END factory_1_before_build rc=0 bytes=51
+2026-11-12T08:47:38+00:00 RUN factory_1_before_boot_id
+2026-11-12T08:47:38+00:00 END factory_1_before_boot_id rc=0 bytes=52
+2026-11-12T08:47:38+00:00 RUN factory_1_before_uptime
+2026-11-12T08:47:38+00:00 END factory_1_before_uptime rc=0 bytes=29
+2026-11-12T08:47:38+00:00 RUN factory_1_before_reboot_root_on
+2026-11-12T08:47:38+00:00 END factory_1_before_reboot_root_on rc=0 bytes=32
+2026-11-12T08:47:38+00:00 RUN factory_1_before_reboot_uid
+2026-11-12T08:47:38+00:00 END factory_1_before_reboot_uid rc=0 bytes=17
+2026-11-12T08:47:38+00:00 RUN factory_1_reboot
+2026-11-12T08:47:49+00:00 END factory_1_reboot rc=0 bytes=12
+2026-11-12T08:47:49+00:00 factory_1 reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T08:48:04+00:00 RUN factory_1_connect_01
+2026-11-12T08:48:07+00:00 END factory_1_connect_01 rc=0 bytes=73
+2026-11-12T08:48:07+00:00 RUN factory_1_boot_probe_01
+2026-11-12T08:48:25+00:00 END factory_1_boot_probe_01 rc=1 bytes=0
+2026-11-12T08:48:40+00:00 RUN factory_1_connect_02
+2026-11-12T08:48:40+00:00 END factory_1_connect_02 rc=0 bytes=42
+2026-11-12T08:48:40+00:00 RUN factory_1_boot_probe_02
+2026-11-12T08:48:41+00:00 END factory_1_boot_probe_02 rc=0 bytes=52
+2026-11-12T08:48:41+00:00 RUN factory_1_after_arch
+2026-11-12T08:48:41+00:00 END factory_1_after_arch rc=0 bytes=22
+2026-11-12T08:48:41+00:00 RUN factory_1_after_model
+2026-11-12T08:48:41+00:00 END factory_1_after_model rc=0 bytes=31
+2026-11-12T08:48:41+00:00 RUN factory_1_after_cmdline
+2026-11-12T08:48:41+00:00 END factory_1_after_cmdline rc=0 bytes=1479
+2026-11-12T08:48:41+00:00 RUN factory_1_after_version
+2026-11-12T08:48:41+00:00 END factory_1_after_version rc=0 bytes=172
+2026-11-12T08:48:41+00:00 RUN factory_1_after_build
+2026-11-12T08:48:41+00:00 END factory_1_after_build rc=0 bytes=51
+2026-11-12T08:48:41+00:00 RUN factory_1_after_boot_id
+2026-11-12T08:48:41+00:00 END factory_1_after_boot_id rc=0 bytes=52
+2026-11-12T08:48:41+00:00 RUN factory_1_after_uptime
+2026-11-12T08:48:41+00:00 END factory_1_after_uptime rc=0 bytes=27
+2026-11-12T08:48:41+00:00 factory_1 RECONNECTED new boot ID=af9b6596-73a7-423f-83fa-1eb106208876
+2026-11-12T08:48:41+00:00 RUN factory_1_root_on
+2026-11-12T08:48:41+00:00 END factory_1_root_on rc=0 bytes=32
+2026-11-12T08:48:41+00:00 RUN factory_1_uid
+2026-11-12T08:48:42+00:00 END factory_1_uid rc=0 bytes=17
+2026-11-12T08:48:42+00:00 RUN factory_1_uptime_01
+2026-11-12T08:48:42+00:00 END factory_1_uptime_01 rc=0 bytes=18
+2026-11-12T08:48:42+00:00 RUN factory_1_ps_01
+2026-11-12T08:48:42+00:00 END factory_1_ps_01 rc=0 bytes=18168
+2026-11-12T08:48:42+00:00 factory_1 health wait uptime=53 missing=['acm-service']
+2026-11-12T08:49:12+00:00 RUN factory_1_uptime_02
+2026-11-12T08:49:12+00:00 END factory_1_uptime_02 rc=0 bytes=18
+2026-11-12T08:49:12+00:00 RUN factory_1_ps_02
+2026-11-12T08:49:12+00:00 END factory_1_ps_02 rc=0 bytes=18061
+2026-11-12T08:49:12+00:00 factory_1 health wait uptime=84 missing=[]
+2026-11-12T08:49:42+00:00 RUN factory_1_uptime_03
+2026-11-12T08:49:42+00:00 END factory_1_uptime_03 rc=0 bytes=19
+2026-11-12T08:49:42+00:00 RUN factory_1_ps_03
+2026-11-12T08:49:43+00:00 END factory_1_ps_03 rc=0 bytes=18060
+2026-11-12T08:49:43+00:00 factory_1 health wait uptime=114 missing=[]
+2026-11-12T08:50:13+00:00 RUN factory_1_uptime_04
+2026-11-12T08:50:13+00:00 END factory_1_uptime_04 rc=0 bytes=19
+2026-11-12T08:50:13+00:00 RUN factory_1_ps_04
+2026-11-12T08:50:13+00:00 END factory_1_ps_04 rc=0 bytes=17937
+2026-11-12T08:50:13+00:00 factory_1 health wait uptime=144 missing=[]
+2026-11-12T08:50:43+00:00 RUN factory_1_uptime_05
+2026-11-12T08:50:43+00:00 END factory_1_uptime_05 rc=0 bytes=19
+2026-11-12T08:50:43+00:00 RUN factory_1_ps_05
+2026-11-12T08:50:43+00:00 END factory_1_ps_05 rc=0 bytes=17890
+2026-11-12T08:50:43+00:00 factory_1 health wait uptime=175 missing=['acm-service']
+2026-11-12T08:51:13+00:00 RUN factory_1_uptime_06
+2026-11-12T08:51:13+00:00 END factory_1_uptime_06 rc=0 bytes=19
+2026-11-12T08:51:13+00:00 RUN factory_1_ps_06
+2026-11-12T08:51:14+00:00 END factory_1_ps_06 rc=0 bytes=18091
+2026-11-12T08:51:14+00:00 RUN factory_1_failed_units
+2026-11-12T08:51:14+00:00 END factory_1_failed_units rc=0 bytes=501
+2026-11-12T08:51:14+00:00 RUN factory_1_dmesg
+2026-11-12T08:51:14+00:00 END factory_1_dmesg rc=0 bytes=737107
+2026-11-12T08:51:14+00:00 RUN factory_1_dlog_main
+2026-11-12T08:51:15+00:00 END factory_1_dlog_main rc=0 bytes=1068750
+2026-11-12T08:51:15+00:00 RUN factory_1_dlog_system
+2026-11-12T08:51:15+00:00 END factory_1_dlog_system rc=0 bytes=301471
+2026-11-12T08:51:15+00:00 factory_1 HEALTH True uptime=205 missing=[] new_failed=[] refusals=0
+2026-11-12T08:51:15+00:00 RUN factory_1_prelink_diag
+2026-11-12T08:51:15+00:00 END factory_1_prelink_diag rc=0 bytes=24430
+2026-11-12T08:51:15+00:00 factory_1 PRELINK_DIAG ['      3336:\tprelink checking: ok', '      3336:\tprelink checking: ok']
+2026-11-12T08:51:15+00:00 RUN factory_1_memcheck_launch
+2026-11-12T08:51:19+00:00 END factory_1_memcheck_launch rc=0 bytes=433
+2026-11-12T08:51:19+00:00 factory_1 MEMCHECK /opt/usr/prelink_ab_stage/memcheck/gcc_boot1_20261112_005144
+2026-11-12T08:51:49+00:00 RUN factory_1_poll_001
+2026-11-12T08:51:49+00:00 END factory_1_poll_001 rc=0 bytes=23
+2026-11-12T08:51:49+00:00 RUN factory_1_snap_ready_001
+2026-11-12T08:51:49+00:00 END factory_1_snap_ready_001 rc=0 bytes=14
+2026-11-12T08:52:19+00:00 RUN factory_1_poll_002
+2026-11-12T08:52:19+00:00 END factory_1_poll_002 rc=0 bytes=23
+2026-11-12T08:52:19+00:00 RUN factory_1_snap_ready_002
+2026-11-12T08:52:19+00:00 END factory_1_snap_ready_002 rc=0 bytes=14
+2026-11-12T08:52:49+00:00 RUN factory_1_poll_003
+2026-11-12T08:52:49+00:00 END factory_1_poll_003 rc=0 bytes=23
+2026-11-12T08:52:49+00:00 RUN factory_1_snap_ready_003
+2026-11-12T08:52:49+00:00 END factory_1_snap_ready_003 rc=0 bytes=14
+2026-11-12T08:53:19+00:00 RUN factory_1_poll_004
+2026-11-12T08:53:19+00:00 END factory_1_poll_004 rc=0 bytes=23
+2026-11-12T08:53:19+00:00 RUN factory_1_snap_ready_004
+2026-11-12T08:53:20+00:00 END factory_1_snap_ready_004 rc=0 bytes=14
+2026-11-12T08:53:50+00:00 RUN factory_1_poll_005
+2026-11-12T08:53:50+00:00 END factory_1_poll_005 rc=0 bytes=23
+2026-11-12T08:53:50+00:00 RUN factory_1_snap_ready_005
+2026-11-12T08:53:50+00:00 END factory_1_snap_ready_005 rc=0 bytes=14
+2026-11-12T08:54:20+00:00 RUN factory_1_poll_006
+2026-11-12T08:54:20+00:00 END factory_1_poll_006 rc=0 bytes=23
+2026-11-12T08:54:20+00:00 RUN factory_1_snap_ready_006
+2026-11-12T08:54:20+00:00 END factory_1_snap_ready_006 rc=0 bytes=14
+2026-11-12T08:54:50+00:00 RUN factory_1_poll_007
+2026-11-12T08:54:50+00:00 END factory_1_poll_007 rc=0 bytes=23
+2026-11-12T08:54:50+00:00 RUN factory_1_snap_ready_007
+2026-11-12T08:54:50+00:00 END factory_1_snap_ready_007 rc=0 bytes=14
+2026-11-12T08:55:20+00:00 RUN factory_1_poll_008
+2026-11-12T08:55:20+00:00 END factory_1_poll_008 rc=0 bytes=23
+2026-11-12T08:55:20+00:00 RUN factory_1_snap_ready_008
+2026-11-12T08:55:21+00:00 END factory_1_snap_ready_008 rc=0 bytes=14
+2026-11-12T08:55:51+00:00 RUN factory_1_poll_009
+2026-11-12T08:55:51+00:00 END factory_1_poll_009 rc=0 bytes=23
+2026-11-12T08:55:51+00:00 RUN factory_1_snap_ready_009
+2026-11-12T08:55:51+00:00 END factory_1_snap_ready_009 rc=0 bytes=14
+2026-11-12T08:56:21+00:00 RUN factory_1_poll_010
+2026-11-12T08:56:21+00:00 END factory_1_poll_010 rc=0 bytes=23
+2026-11-12T08:56:21+00:00 RUN factory_1_snap_ready_010
+2026-11-12T08:56:21+00:00 END factory_1_snap_ready_010 rc=0 bytes=14
+2026-11-12T08:56:21+00:00 factory_1 MEMCHECK poll=10 status=RUNNING
+2026-11-12T08:56:51+00:00 RUN factory_1_poll_011
+2026-11-12T08:56:51+00:00 END factory_1_poll_011 rc=0 bytes=23
+2026-11-12T08:56:51+00:00 RUN factory_1_snap_ready_011
+2026-11-12T08:56:51+00:00 END factory_1_snap_ready_011 rc=0 bytes=14
+2026-11-12T08:57:21+00:00 RUN factory_1_poll_012
+2026-11-12T08:57:21+00:00 END factory_1_poll_012 rc=0 bytes=23
+2026-11-12T08:57:21+00:00 RUN factory_1_snap_ready_012
+2026-11-12T08:57:22+00:00 END factory_1_snap_ready_012 rc=0 bytes=14
+2026-11-12T08:57:52+00:00 RUN factory_1_poll_013
+2026-11-12T08:57:52+00:00 END factory_1_poll_013 rc=0 bytes=23
+2026-11-12T08:57:52+00:00 RUN factory_1_snap_ready_013
+2026-11-12T08:57:52+00:00 END factory_1_snap_ready_013 rc=0 bytes=14
+2026-11-12T08:58:22+00:00 RUN factory_1_poll_014
+2026-11-12T08:58:22+00:00 END factory_1_poll_014 rc=0 bytes=23
+2026-11-12T08:58:22+00:00 RUN factory_1_snap_ready_014
+2026-11-12T08:58:22+00:00 END factory_1_snap_ready_014 rc=0 bytes=14
+2026-11-12T08:58:52+00:00 RUN factory_1_poll_015
+2026-11-12T08:58:52+00:00 END factory_1_poll_015 rc=0 bytes=23
+2026-11-12T08:58:52+00:00 RUN factory_1_snap_ready_015
+2026-11-12T08:58:52+00:00 END factory_1_snap_ready_015 rc=0 bytes=14
+2026-11-12T08:59:22+00:00 RUN factory_1_poll_016
+2026-11-12T08:59:22+00:00 END factory_1_poll_016 rc=0 bytes=23
+2026-11-12T08:59:22+00:00 RUN factory_1_snap_ready_016
+2026-11-12T08:59:23+00:00 END factory_1_snap_ready_016 rc=0 bytes=14
+2026-11-12T08:59:53+00:00 RUN factory_1_poll_017
+2026-11-12T08:59:53+00:00 END factory_1_poll_017 rc=0 bytes=23
+2026-11-12T08:59:53+00:00 RUN factory_1_snap_ready_017
+2026-11-12T08:59:53+00:00 END factory_1_snap_ready_017 rc=0 bytes=14
+2026-11-12T09:00:23+00:00 RUN factory_1_poll_018
+2026-11-12T09:00:23+00:00 END factory_1_poll_018 rc=0 bytes=23
+2026-11-12T09:00:23+00:00 RUN factory_1_snap_ready_018
+2026-11-12T09:00:23+00:00 END factory_1_snap_ready_018 rc=0 bytes=14
+2026-11-12T09:00:53+00:00 RUN factory_1_poll_019
+2026-11-12T09:00:53+00:00 END factory_1_poll_019 rc=0 bytes=23
+2026-11-12T09:00:53+00:00 RUN factory_1_snap_ready_019
+2026-11-12T09:00:53+00:00 END factory_1_snap_ready_019 rc=0 bytes=14
+2026-11-12T09:01:23+00:00 RUN factory_1_poll_020
+2026-11-12T09:01:23+00:00 END factory_1_poll_020 rc=0 bytes=23
+2026-11-12T09:01:23+00:00 RUN factory_1_snap_ready_020
+2026-11-12T09:01:23+00:00 END factory_1_snap_ready_020 rc=0 bytes=14
+2026-11-12T09:01:23+00:00 factory_1 MEMCHECK poll=20 status=RUNNING
+2026-11-12T09:01:53+00:00 RUN factory_1_poll_021
+2026-11-12T09:01:54+00:00 END factory_1_poll_021 rc=0 bytes=23
+2026-11-12T09:01:54+00:00 RUN factory_1_snap_ready_021
+2026-11-12T09:01:54+00:00 END factory_1_snap_ready_021 rc=0 bytes=14
+2026-11-12T09:02:24+00:00 RUN factory_1_poll_022
+2026-11-12T09:02:24+00:00 END factory_1_poll_022 rc=0 bytes=23
+2026-11-12T09:02:24+00:00 RUN factory_1_snap_ready_022
+2026-11-12T09:02:24+00:00 END factory_1_snap_ready_022 rc=0 bytes=14
+2026-11-12T09:02:54+00:00 RUN factory_1_poll_023
+2026-11-12T09:02:54+00:00 END factory_1_poll_023 rc=0 bytes=23
+2026-11-12T09:02:54+00:00 RUN factory_1_snap_ready_023
+2026-11-12T09:02:54+00:00 END factory_1_snap_ready_023 rc=0 bytes=14
+2026-11-12T09:02:54+00:00 RUN factory_1_for_pagemap_root_off
+2026-11-12T09:02:54+00:00 END factory_1_for_pagemap_root_off rc=0 bytes=36
+2026-11-12T09:02:54+00:00 RUN factory_1_for_pagemap_sdk_uid
+2026-11-12T09:02:54+00:00 END factory_1_for_pagemap_sdk_uid rc=0 bytes=20
+2026-11-12T09:03:12+00:00 factory_1 PAGEMAP13 rc=0
+2026-11-12T09:03:12+00:00 RUN factory_1_after_pagemap_root_on
+2026-11-12T09:03:12+00:00 END factory_1_after_pagemap_root_on rc=0 bytes=32
+2026-11-12T09:03:12+00:00 RUN factory_1_after_pagemap_uid
+2026-11-12T09:03:12+00:00 END factory_1_after_pagemap_uid rc=0 bytes=17
+2026-11-12T09:03:42+00:00 RUN factory_1_poll_024
+2026-11-12T09:03:42+00:00 END factory_1_poll_024 rc=0 bytes=23
+2026-11-12T09:04:12+00:00 RUN factory_1_poll_025
+2026-11-12T09:04:12+00:00 END factory_1_poll_025 rc=0 bytes=23
+2026-11-12T09:04:42+00:00 RUN factory_1_poll_026
+2026-11-12T09:04:42+00:00 END factory_1_poll_026 rc=0 bytes=23
+2026-11-12T09:05:12+00:00 RUN factory_1_poll_027
+2026-11-12T09:05:12+00:00 END factory_1_poll_027 rc=0 bytes=23
+2026-11-12T09:05:42+00:00 RUN factory_1_poll_028
+2026-11-12T09:05:42+00:00 END factory_1_poll_028 rc=0 bytes=23
+2026-11-12T09:06:12+00:00 RUN factory_1_poll_029
+2026-11-12T09:06:12+00:00 END factory_1_poll_029 rc=0 bytes=23
+2026-11-12T09:06:42+00:00 RUN factory_1_poll_030
+2026-11-12T09:06:43+00:00 END factory_1_poll_030 rc=0 bytes=23
+2026-11-12T09:06:43+00:00 factory_1 MEMCHECK poll=30 status=RUNNING
+2026-11-12T09:07:13+00:00 RUN factory_1_poll_031
+2026-11-12T09:07:13+00:00 END factory_1_poll_031 rc=0 bytes=23
+2026-11-12T09:07:43+00:00 RUN factory_1_poll_032
+2026-11-12T09:07:43+00:00 END factory_1_poll_032 rc=0 bytes=23
+2026-11-12T09:08:13+00:00 RUN factory_1_poll_033
+2026-11-12T09:08:13+00:00 END factory_1_poll_033 rc=0 bytes=23
+2026-11-12T09:08:43+00:00 RUN factory_1_poll_034
+2026-11-12T09:08:43+00:00 END factory_1_poll_034 rc=0 bytes=23
+2026-11-12T09:09:13+00:00 RUN factory_1_poll_035
+2026-11-12T09:09:13+00:00 END factory_1_poll_035 rc=0 bytes=23
+2026-11-12T09:09:43+00:00 RUN factory_1_poll_036
+2026-11-12T09:09:43+00:00 END factory_1_poll_036 rc=0 bytes=23
+2026-11-12T09:10:13+00:00 RUN factory_1_poll_037
+2026-11-12T09:10:13+00:00 END factory_1_poll_037 rc=0 bytes=23
+2026-11-12T09:10:43+00:00 RUN factory_1_poll_038
+2026-11-12T09:10:44+00:00 END factory_1_poll_038 rc=0 bytes=23
+2026-11-12T09:11:14+00:00 RUN factory_1_poll_039
+2026-11-12T09:11:14+00:00 END factory_1_poll_039 rc=0 bytes=23
+2026-11-12T09:11:44+00:00 RUN factory_1_poll_040
+2026-11-12T09:11:44+00:00 END factory_1_poll_040 rc=0 bytes=23
+2026-11-12T09:11:44+00:00 factory_1 MEMCHECK poll=40 status=RUNNING
+2026-11-12T09:12:14+00:00 RUN factory_1_poll_041
+2026-11-12T09:12:14+00:00 END factory_1_poll_041 rc=0 bytes=23
+2026-11-12T09:12:44+00:00 RUN factory_1_poll_042
+2026-11-12T09:12:44+00:00 END factory_1_poll_042 rc=0 bytes=23
+2026-11-12T09:13:14+00:00 RUN factory_1_poll_043
+2026-11-12T09:13:14+00:00 END factory_1_poll_043 rc=0 bytes=23
+2026-11-12T09:13:44+00:00 RUN factory_1_poll_044
+2026-11-12T09:13:44+00:00 END factory_1_poll_044 rc=0 bytes=20
+2026-11-12T09:13:44+00:00 factory_1 MEMCHECK DONE
+2026-11-12T09:13:44+00:00 RUN factory_1_pull_memcheck
+2026-11-12T09:14:08+00:00 END factory_1_pull_memcheck rc=0 bytes=14546
+2026-11-12T09:14:08+00:00 factory_1 MEMCHECK pulled and gzip checked
+2026-11-12T09:14:08+00:00 RUN factory_1_post_dmesg
+2026-11-12T09:14:09+00:00 END factory_1_post_dmesg rc=0 bytes=722556
+2026-11-12T09:14:09+00:00 RUN factory_1_post_dlog_main
+2026-11-12T09:14:09+00:00 END factory_1_post_dlog_main rc=0 bytes=1056816
+2026-11-12T09:14:09+00:00 RUN factory_1_post_dlog_system
+2026-11-12T09:14:09+00:00 END factory_1_post_dlog_system rc=0 bytes=312873
+2026-11-12T09:14:09+00:00 factory_1 DONE
+2026-11-12T09:14:09+00:00 RUN factory_1_root_off
+2026-11-12T09:14:09+00:00 END factory_1_root_off rc=0 bytes=36
+2026-11-12T09:14:09+00:00 RUN factory_1_sdk_uid
+2026-11-12T09:14:10+00:00 END factory_1_sdk_uid rc=0 bytes=20
+2026-11-12T09:15:03+00:00 PHASE_START factory2
+2026-11-12T09:15:03+00:00 RUN factory_2_before_arch
+2026-11-12T09:15:04+00:00 END factory_2_before_arch rc=0 bytes=22
+2026-11-12T09:15:04+00:00 RUN factory_2_before_model
+2026-11-12T09:15:04+00:00 END factory_2_before_model rc=0 bytes=31
+2026-11-12T09:15:04+00:00 RUN factory_2_before_cmdline
+2026-11-12T09:15:04+00:00 END factory_2_before_cmdline rc=0 bytes=1479
+2026-11-12T09:15:04+00:00 RUN factory_2_before_version
+2026-11-12T09:15:04+00:00 END factory_2_before_version rc=0 bytes=172
+2026-11-12T09:15:04+00:00 RUN factory_2_before_build
+2026-11-12T09:15:04+00:00 END factory_2_before_build rc=0 bytes=51
+2026-11-12T09:15:04+00:00 RUN factory_2_before_boot_id
+2026-11-12T09:15:04+00:00 END factory_2_before_boot_id rc=0 bytes=52
+2026-11-12T09:15:04+00:00 RUN factory_2_before_uptime
+2026-11-12T09:15:04+00:00 END factory_2_before_uptime rc=0 bytes=31
+2026-11-12T09:15:04+00:00 RUN factory_2_before_reboot_root_on
+2026-11-12T09:15:04+00:00 END factory_2_before_reboot_root_on rc=0 bytes=32
+2026-11-12T09:15:04+00:00 RUN factory_2_before_reboot_uid
+2026-11-12T09:15:04+00:00 END factory_2_before_reboot_uid rc=0 bytes=17
+2026-11-12T09:15:04+00:00 RUN factory_2_reboot
+2026-11-12T09:15:15+00:00 END factory_2_reboot rc=0 bytes=12
+2026-11-12T09:15:15+00:00 factory_2 reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T09:15:30+00:00 RUN factory_2_connect_01
+2026-11-12T09:15:32+00:00 END factory_2_connect_01 rc=0 bytes=73
+2026-11-12T09:15:32+00:00 RUN factory_2_boot_probe_01
+2026-11-12T09:15:32+00:00 END factory_2_boot_probe_01 rc=0 bytes=52
+2026-11-12T09:15:32+00:00 RUN factory_2_after_arch
+2026-11-12T09:15:32+00:00 END factory_2_after_arch rc=0 bytes=22
+2026-11-12T09:15:32+00:00 RUN factory_2_after_model
+2026-11-12T09:15:32+00:00 END factory_2_after_model rc=0 bytes=31
+2026-11-12T09:15:32+00:00 RUN factory_2_after_cmdline
+2026-11-12T09:15:32+00:00 END factory_2_after_cmdline rc=0 bytes=1479
+2026-11-12T09:15:32+00:00 RUN factory_2_after_version
+2026-11-12T09:15:33+00:00 END factory_2_after_version rc=0 bytes=172
+2026-11-12T09:15:33+00:00 RUN factory_2_after_build
+2026-11-12T09:15:33+00:00 END factory_2_after_build rc=0 bytes=51
+2026-11-12T09:15:33+00:00 RUN factory_2_after_boot_id
+2026-11-12T09:15:33+00:00 END factory_2_after_boot_id rc=0 bytes=52
+2026-11-12T09:15:33+00:00 RUN factory_2_after_uptime
+2026-11-12T09:15:33+00:00 END factory_2_after_uptime rc=0 bytes=26
+2026-11-12T09:15:33+00:00 factory_2 RECONNECTED new boot ID=c4140aa4-59b6-4346-b5d2-5d49f7bd174b
+2026-11-12T09:15:33+00:00 RUN factory_2_root_on
+2026-11-12T09:15:33+00:00 END factory_2_root_on rc=0 bytes=32
+2026-11-12T09:15:33+00:00 RUN factory_2_uid
+2026-11-12T09:15:34+00:00 END factory_2_uid rc=0 bytes=17
+2026-11-12T09:15:34+00:00 RUN factory_2_uptime_01
+2026-11-12T09:15:34+00:00 END factory_2_uptime_01 rc=0 bytes=18
+2026-11-12T09:15:34+00:00 RUN factory_2_ps_01
+2026-11-12T09:15:40+00:00 END factory_2_ps_01 rc=0 bytes=18265
+2026-11-12T09:15:40+00:00 factory_2 health wait uptime=19 missing=['acm-service']
+2026-11-12T09:16:10+00:00 RUN factory_2_uptime_02
+2026-11-12T09:16:10+00:00 END factory_2_uptime_02 rc=0 bytes=18
+2026-11-12T09:16:10+00:00 RUN factory_2_ps_02
+2026-11-12T09:16:10+00:00 END factory_2_ps_02 rc=0 bytes=18730
+2026-11-12T09:16:10+00:00 factory_2 health wait uptime=55 missing=['acm-service']
+2026-11-12T09:16:40+00:00 RUN factory_2_uptime_03
+2026-11-12T09:16:40+00:00 END factory_2_uptime_03 rc=0 bytes=18
+2026-11-12T09:16:40+00:00 RUN factory_2_ps_03
+2026-11-12T09:16:40+00:00 END factory_2_ps_03 rc=0 bytes=18302
+2026-11-12T09:16:40+00:00 factory_2 health wait uptime=85 missing=[]
+2026-11-12T09:17:10+00:00 RUN factory_2_uptime_04
+2026-11-12T09:17:10+00:00 END factory_2_uptime_04 rc=0 bytes=19
+2026-11-12T09:17:10+00:00 RUN factory_2_ps_04
+2026-11-12T09:17:11+00:00 END factory_2_ps_04 rc=0 bytes=18186
+2026-11-12T09:17:11+00:00 factory_2 health wait uptime=116 missing=[]
+2026-11-12T09:17:41+00:00 RUN factory_2_uptime_05
+2026-11-12T09:17:41+00:00 END factory_2_uptime_05 rc=0 bytes=19
+2026-11-12T09:17:41+00:00 RUN factory_2_ps_05
+2026-11-12T09:17:41+00:00 END factory_2_ps_05 rc=0 bytes=18133
+2026-11-12T09:17:41+00:00 factory_2 health wait uptime=146 missing=[]
+2026-11-12T09:18:11+00:00 RUN factory_2_uptime_06
+2026-11-12T09:18:11+00:00 END factory_2_uptime_06 rc=0 bytes=19
+2026-11-12T09:18:11+00:00 RUN factory_2_ps_06
+2026-11-12T09:18:11+00:00 END factory_2_ps_06 rc=0 bytes=18080
+2026-11-12T09:18:11+00:00 factory_2 health wait uptime=176 missing=['acm-service']
+2026-11-12T09:18:41+00:00 RUN factory_2_uptime_07
+2026-11-12T09:18:42+00:00 END factory_2_uptime_07 rc=0 bytes=19
+2026-11-12T09:18:42+00:00 RUN factory_2_ps_07
+2026-11-12T09:18:42+00:00 END factory_2_ps_07 rc=0 bytes=18271
+2026-11-12T09:18:42+00:00 RUN factory_2_failed_units
+2026-11-12T09:18:42+00:00 END factory_2_failed_units rc=0 bytes=501
+2026-11-12T09:18:42+00:00 RUN factory_2_dmesg
+2026-11-12T09:18:42+00:00 END factory_2_dmesg rc=0 bytes=727875
+2026-11-12T09:18:42+00:00 RUN factory_2_dlog_main
+2026-11-12T09:18:43+00:00 END factory_2_dlog_main rc=0 bytes=1056283
+2026-11-12T09:18:43+00:00 RUN factory_2_dlog_system
+2026-11-12T09:18:43+00:00 END factory_2_dlog_system rc=0 bytes=341805
+2026-11-12T09:18:43+00:00 factory_2 HEALTH True uptime=207 missing=[] new_failed=[] refusals=0
+2026-11-12T09:18:43+00:00 RUN factory_2_prelink_diag
+2026-11-12T09:18:43+00:00 END factory_2_prelink_diag rc=0 bytes=24430
+2026-11-12T09:18:43+00:00 factory_2 PRELINK_DIAG ['      3332:\tprelink checking: ok', '      3332:\tprelink checking: ok']
+2026-11-12T09:18:43+00:00 RUN factory_2_memcheck_launch
+2026-11-12T09:18:47+00:00 END factory_2_memcheck_launch rc=0 bytes=433
+2026-11-12T09:18:47+00:00 factory_2 MEMCHECK /opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910
+2026-11-12T09:19:17+00:00 RUN factory_2_poll_001
+2026-11-12T09:19:17+00:00 END factory_2_poll_001 rc=0 bytes=23
+2026-11-12T09:19:47+00:00 RUN factory_2_poll_002
+2026-11-12T09:19:47+00:00 END factory_2_poll_002 rc=0 bytes=23
+2026-11-12T09:20:17+00:00 RUN factory_2_poll_003
+2026-11-12T09:20:17+00:00 END factory_2_poll_003 rc=0 bytes=23
+2026-11-12T09:20:47+00:00 RUN factory_2_poll_004
+2026-11-12T09:20:47+00:00 END factory_2_poll_004 rc=0 bytes=23
+2026-11-12T09:21:17+00:00 RUN factory_2_poll_005
+2026-11-12T09:21:17+00:00 END factory_2_poll_005 rc=0 bytes=23
+2026-11-12T09:21:47+00:00 RUN factory_2_poll_006
+2026-11-12T09:21:47+00:00 END factory_2_poll_006 rc=0 bytes=23
+2026-11-12T09:22:17+00:00 RUN factory_2_poll_007
+2026-11-12T09:22:17+00:00 END factory_2_poll_007 rc=0 bytes=23
+2026-11-12T09:22:47+00:00 RUN factory_2_poll_008
+2026-11-12T09:22:48+00:00 END factory_2_poll_008 rc=0 bytes=23
+2026-11-12T09:23:18+00:00 RUN factory_2_poll_009
+2026-11-12T09:23:18+00:00 END factory_2_poll_009 rc=0 bytes=23
+2026-11-12T09:23:48+00:00 RUN factory_2_poll_010
+2026-11-12T09:23:48+00:00 END factory_2_poll_010 rc=0 bytes=23
+2026-11-12T09:23:48+00:00 factory_2 MEMCHECK poll=10 status=RUNNING
+2026-11-12T09:24:18+00:00 RUN factory_2_poll_011
+2026-11-12T09:24:18+00:00 END factory_2_poll_011 rc=0 bytes=23
+2026-11-12T09:24:48+00:00 RUN factory_2_poll_012
+2026-11-12T09:24:48+00:00 END factory_2_poll_012 rc=0 bytes=23
+2026-11-12T09:25:18+00:00 RUN factory_2_poll_013
+2026-11-12T09:25:18+00:00 END factory_2_poll_013 rc=0 bytes=23
+2026-11-12T09:25:48+00:00 RUN factory_2_poll_014
+2026-11-12T09:25:48+00:00 END factory_2_poll_014 rc=0 bytes=23
+2026-11-12T09:26:18+00:00 RUN factory_2_poll_015
+2026-11-12T09:26:19+00:00 END factory_2_poll_015 rc=0 bytes=23
+2026-11-12T09:26:49+00:00 RUN factory_2_poll_016
+2026-11-12T09:26:49+00:00 END factory_2_poll_016 rc=0 bytes=23
+2026-11-12T09:27:19+00:00 RUN factory_2_poll_017
+2026-11-12T09:27:19+00:00 END factory_2_poll_017 rc=0 bytes=23
+2026-11-12T09:27:49+00:00 RUN factory_2_poll_018
+2026-11-12T09:27:49+00:00 END factory_2_poll_018 rc=0 bytes=23
+2026-11-12T09:28:19+00:00 RUN factory_2_poll_019
+2026-11-12T09:28:19+00:00 END factory_2_poll_019 rc=0 bytes=23
+2026-11-12T09:28:49+00:00 RUN factory_2_poll_020
+2026-11-12T09:28:49+00:00 END factory_2_poll_020 rc=0 bytes=23
+2026-11-12T09:28:49+00:00 factory_2 MEMCHECK poll=20 status=RUNNING
+2026-11-12T09:29:19+00:00 RUN factory_2_poll_021
+2026-11-12T09:29:19+00:00 END factory_2_poll_021 rc=0 bytes=23
+2026-11-12T09:29:49+00:00 RUN factory_2_poll_022
+2026-11-12T09:29:49+00:00 END factory_2_poll_022 rc=0 bytes=23
+2026-11-12T09:30:19+00:00 RUN factory_2_poll_023
+2026-11-12T09:30:20+00:00 END factory_2_poll_023 rc=0 bytes=23
+2026-11-12T09:30:50+00:00 RUN factory_2_poll_024
+2026-11-12T09:30:50+00:00 END factory_2_poll_024 rc=0 bytes=23
+2026-11-12T09:31:20+00:00 RUN factory_2_poll_025
+2026-11-12T09:31:20+00:00 END factory_2_poll_025 rc=0 bytes=23
+2026-11-12T09:31:50+00:00 RUN factory_2_poll_026
+2026-11-12T09:31:50+00:00 END factory_2_poll_026 rc=0 bytes=23
+2026-11-12T09:32:20+00:00 RUN factory_2_poll_027
+2026-11-12T09:32:20+00:00 END factory_2_poll_027 rc=0 bytes=23
+2026-11-12T09:32:50+00:00 RUN factory_2_poll_028
+2026-11-12T09:32:50+00:00 END factory_2_poll_028 rc=0 bytes=23
+2026-11-12T09:33:20+00:00 RUN factory_2_poll_029
+2026-11-12T09:33:20+00:00 END factory_2_poll_029 rc=0 bytes=23
+2026-11-12T09:33:50+00:00 RUN factory_2_poll_030
+2026-11-12T09:33:50+00:00 END factory_2_poll_030 rc=0 bytes=23
+2026-11-12T09:33:50+00:00 factory_2 MEMCHECK poll=30 status=RUNNING
+2026-11-12T09:34:20+00:00 RUN factory_2_poll_031
+2026-11-12T09:34:21+00:00 END factory_2_poll_031 rc=0 bytes=23
+2026-11-12T09:34:51+00:00 RUN factory_2_poll_032
+2026-11-12T09:34:51+00:00 END factory_2_poll_032 rc=0 bytes=23
+2026-11-12T09:35:21+00:00 RUN factory_2_poll_033
+2026-11-12T09:35:21+00:00 END factory_2_poll_033 rc=0 bytes=23
+2026-11-12T09:35:51+00:00 RUN factory_2_poll_034
+2026-11-12T09:35:51+00:00 END factory_2_poll_034 rc=0 bytes=23
+2026-11-12T09:36:21+00:00 RUN factory_2_poll_035
+2026-11-12T09:36:21+00:00 END factory_2_poll_035 rc=0 bytes=23
+2026-11-12T09:36:51+00:00 RUN factory_2_poll_036
+2026-11-12T09:36:51+00:00 END factory_2_poll_036 rc=0 bytes=23
+2026-11-12T09:37:21+00:00 RUN factory_2_poll_037
+2026-11-12T09:37:21+00:00 END factory_2_poll_037 rc=0 bytes=23
+2026-11-12T09:37:51+00:00 RUN factory_2_poll_038
+2026-11-12T09:37:51+00:00 END factory_2_poll_038 rc=0 bytes=23
+2026-11-12T09:38:21+00:00 RUN factory_2_poll_039
+2026-11-12T09:38:22+00:00 END factory_2_poll_039 rc=0 bytes=23
+2026-11-12T09:38:52+00:00 RUN factory_2_poll_040
+2026-11-12T09:38:52+00:00 END factory_2_poll_040 rc=0 bytes=23
+2026-11-12T09:38:52+00:00 factory_2 MEMCHECK poll=40 status=RUNNING
+2026-11-12T09:39:22+00:00 RUN factory_2_poll_041
+2026-11-12T09:39:22+00:00 END factory_2_poll_041 rc=0 bytes=23
+2026-11-12T09:39:52+00:00 RUN factory_2_poll_042
+2026-11-12T09:39:52+00:00 END factory_2_poll_042 rc=0 bytes=23
+2026-11-12T09:40:22+00:00 RUN factory_2_poll_043
+2026-11-12T09:40:22+00:00 END factory_2_poll_043 rc=0 bytes=20
+2026-11-12T09:40:22+00:00 factory_2 MEMCHECK DONE
+2026-11-12T09:40:22+00:00 RUN factory_2_pull_memcheck
+2026-11-12T09:40:39+00:00 END factory_2_pull_memcheck rc=0 bytes=14168
+2026-11-12T09:40:40+00:00 factory_2 MEMCHECK pulled and gzip checked
+2026-11-12T09:40:40+00:00 RUN factory_2_post_dmesg
+2026-11-12T09:40:40+00:00 END factory_2_post_dmesg rc=0 bytes=722873
+2026-11-12T09:40:40+00:00 RUN factory_2_post_dlog_main
+2026-11-12T09:40:40+00:00 END factory_2_post_dlog_main rc=0 bytes=1008038
+2026-11-12T09:40:40+00:00 RUN factory_2_post_dlog_system
+2026-11-12T09:40:41+00:00 END factory_2_post_dlog_system rc=0 bytes=369021
+2026-11-12T09:40:41+00:00 factory_2 DONE
+2026-11-12T09:40:41+00:00 RUN factory_2_root_off
+2026-11-12T09:40:41+00:00 END factory_2_root_off rc=0 bytes=36
+2026-11-12T09:40:41+00:00 RUN factory_2_sdk_uid
+2026-11-12T09:40:41+00:00 END factory_2_sdk_uid rc=0 bytes=20
+2026-11-12T09:40:41+00:00 PHASE_END factory2 rc=0
+2026-11-12T09:40:41+00:00 RUN upper_before_root_on
+2026-11-12T09:40:41+00:00 END upper_before_root_on rc=0 bytes=32
+2026-11-12T09:40:41+00:00 RUN upper_before
+2026-11-12T09:40:41+00:00 END upper_before rc=0 bytes=4649
+2026-11-12T09:40:41+00:00 RUN upper_before_root_off
+2026-11-12T09:40:41+00:00 END upper_before_root_off rc=0 bytes=36
+2026-11-12T09:40:41+00:00 RUN upper_before_uid
+2026-11-12T09:40:41+00:00 END upper_before_uid rc=0 bytes=20
+2026-11-12T09:40:41+00:00 PHASE_START apply_programs
+2026-11-12T09:40:41+00:00 RUN write_root_on
+2026-11-12T09:40:41+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:40:41+00:00 RUN write_root_uid
+2026-11-12T09:40:42+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:40:42+00:00 RUN write_tools_getfattr_ready
+2026-11-12T09:40:42+00:00 END write_tools_getfattr_ready rc=0 bytes=30
+2026-11-12T09:40:42+00:00 RUN write_tools_setfattr_ready
+2026-11-12T09:40:42+00:00 END write_tools_setfattr_ready rc=0 bytes=30
+2026-11-12T09:40:42+00:00 RUN write_stage_ready
+2026-11-12T09:40:42+00:00 END write_stage_ready rc=0 bytes=14
+2026-11-12T09:40:42+00:00 RUN programs_001_stage_sha
+2026-11-12T09:40:42+00:00 END programs_001_stage_sha rc=0 bytes=131
+2026-11-12T09:40:42+00:00 RUN programs_001_copy
+2026-11-12T09:40:42+00:00 END programs_001_copy rc=0 bytes=60
+2026-11-12T09:40:42+00:00 RUN programs_001_busy_ps
+2026-11-12T09:40:42+00:00 END programs_001_busy_ps rc=0 bytes=243
+2026-11-12T09:40:42+00:00 RUN programs_001_busy_cgroup_697
+2026-11-12T09:40:42+00:00 END programs_001_busy_cgroup_697 rc=0 bytes=261
+2026-11-12T09:40:42+00:00 RUN programs_001_stop_unit
+2026-11-12T09:41:08+00:00 END programs_001_stop_unit rc=0 bytes=65
+2026-11-12T09:41:08+00:00 RUN write_root_off
+2026-11-12T09:41:08+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:41:08+00:00 RUN write_sdk_uid
+2026-11-12T09:41:08+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:41:08+00:00 ERROR RuntimeError('programs_001_stop_unit remote rc=1:  Failed to wait for response: Connection timed out\r\n\r')
+2026-11-12T09:41:08+00:00 PHASE_END apply_programs rc=1
+2026-11-12T09:41:08+00:00 EXPERIMENT_STOP RuntimeError('apply_programs failed; see apply_programs_console.log')
+2026-11-12T09:41:08+00:00 PHASE_START restore
+2026-11-12T09:41:08+00:00 RUN write_root_on
+2026-11-12T09:41:08+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:41:08+00:00 RUN write_root_uid
+2026-11-12T09:41:08+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:41:08+00:00 RUN restore_001_before_sha
+2026-11-12T09:41:08+00:00 END restore_001_before_sha rc=0 bytes=101
+2026-11-12T09:41:08+00:00 RUN restore_001_before_stat
+2026-11-12T09:41:08+00:00 END restore_001_before_stat rc=0 bytes=30
+2026-11-12T09:41:08+00:00 RUN restore_001_before_xattrs
+2026-11-12T09:41:08+00:00 END restore_001_before_xattrs rc=0 bytes=124
+2026-11-12T09:41:08+00:00 RUN restore_001_before_getcap
+2026-11-12T09:41:09+00:00 END restore_001_before_getcap rc=0 bytes=14
+2026-11-12T09:41:09+00:00 RUN restore_001_before_chsmack
+2026-11-12T09:41:09+00:00 END restore_001_before_chsmack rc=0 bytes=46
+2026-11-12T09:41:09+00:00 RUN restore_001_before_upper
+2026-11-12T09:41:09+00:00 END restore_001_before_upper rc=0 bytes=14
+2026-11-12T09:41:09+00:00 RUN restore_001_stage_sha
+2026-11-12T09:41:09+00:00 END restore_001_stage_sha rc=0 bytes=135
+2026-11-12T09:41:09+00:00 RUN restore_001_copy
+2026-11-12T09:41:09+00:00 END restore_001_copy rc=0 bytes=14
+2026-11-12T09:41:09+00:00 RUN restore_001_post_sha
+2026-11-12T09:41:09+00:00 END restore_001_post_sha rc=0 bytes=101
+2026-11-12T09:41:09+00:00 RUN restore_001_post_stat
+2026-11-12T09:41:09+00:00 END restore_001_post_stat rc=0 bytes=30
+2026-11-12T09:41:09+00:00 RUN restore_001_post_xattrs
+2026-11-12T09:41:09+00:00 END restore_001_post_xattrs rc=0 bytes=124
+2026-11-12T09:41:09+00:00 RUN restore_001_post_getcap
+2026-11-12T09:41:10+00:00 END restore_001_post_getcap rc=0 bytes=14
+2026-11-12T09:41:10+00:00 RUN restore_001_post_chsmack
+2026-11-12T09:41:10+00:00 END restore_001_post_chsmack rc=0 bytes=46
+2026-11-12T09:41:10+00:00 RUN restore_001_post_upper
+2026-11-12T09:41:10+00:00 END restore_001_post_upper rc=0 bytes=14
+2026-11-12T09:41:10+00:00 WRITE_OK original /usr/bin/tvs-daemon
+2026-11-12T09:41:10+00:00 RUN write_root_off
+2026-11-12T09:41:10+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:41:10+00:00 RUN write_sdk_uid
+2026-11-12T09:41:10+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:41:10+00:00 PHASE_END restore rc=0
+2026-11-12T09:41:10+00:00 PHASE_START final_recovery
+2026-11-12T09:41:10+00:00 RUN recovery_precheck_root_on
+2026-11-12T09:41:10+00:00 END recovery_precheck_root_on rc=0 bytes=32
+2026-11-12T09:41:10+00:00 RUN recovery_precheck_uid
+2026-11-12T09:41:10+00:00 END recovery_precheck_uid rc=0 bytes=17
+2026-11-12T09:41:10+00:00 RUN recovery_verify_001_sha
+2026-11-12T09:41:10+00:00 END recovery_verify_001_sha rc=0 bytes=101
+2026-11-12T09:41:10+00:00 RUN recovery_verify_001_stat
+2026-11-12T09:41:10+00:00 END recovery_verify_001_stat rc=0 bytes=30
+2026-11-12T09:41:10+00:00 RUN recovery_verify_001_xattrs
+2026-11-12T09:41:11+00:00 END recovery_verify_001_xattrs rc=0 bytes=124
+2026-11-12T09:41:11+00:00 RUN recovery_verify_001_getcap
+2026-11-12T09:41:11+00:00 END recovery_verify_001_getcap rc=0 bytes=14
+2026-11-12T09:41:11+00:00 RUN recovery_verify_001_chsmack
+2026-11-12T09:41:11+00:00 END recovery_verify_001_chsmack rc=0 bytes=46
+2026-11-12T09:41:11+00:00 RUN recovery_verify_001_upper
+2026-11-12T09:41:11+00:00 END recovery_verify_001_upper rc=0 bytes=14
+2026-11-12T09:41:11+00:00 RUN overlay_before_recovery_reboot
+2026-11-12T09:41:11+00:00 END overlay_before_recovery_reboot rc=0 bytes=4701
+2026-11-12T09:41:11+00:00 RUN recovery_precheck_root_off
+2026-11-12T09:41:11+00:00 END recovery_precheck_root_off rc=0 bytes=36
+2026-11-12T09:41:11+00:00 RUN recovery_precheck_sdk_uid
+2026-11-12T09:41:11+00:00 END recovery_precheck_sdk_uid rc=0 bytes=20
+2026-11-12T09:41:11+00:00 RUN recovery_before_arch
+2026-11-12T09:41:11+00:00 END recovery_before_arch rc=0 bytes=22
+2026-11-12T09:41:11+00:00 RUN recovery_before_model
+2026-11-12T09:41:11+00:00 END recovery_before_model rc=0 bytes=31
+2026-11-12T09:41:11+00:00 RUN recovery_before_cmdline
+2026-11-12T09:41:12+00:00 END recovery_before_cmdline rc=0 bytes=1479
+2026-11-12T09:41:12+00:00 RUN recovery_before_version
+2026-11-12T09:41:12+00:00 END recovery_before_version rc=0 bytes=172
+2026-11-12T09:41:12+00:00 RUN recovery_before_build
+2026-11-12T09:41:12+00:00 END recovery_before_build rc=0 bytes=51
+2026-11-12T09:41:12+00:00 RUN recovery_before_boot_id
+2026-11-12T09:41:12+00:00 END recovery_before_boot_id rc=0 bytes=52
+2026-11-12T09:41:12+00:00 RUN recovery_before_uptime
+2026-11-12T09:41:12+00:00 END recovery_before_uptime rc=0 bytes=31
+2026-11-12T09:41:12+00:00 RUN recovery_before_reboot_root_on
+2026-11-12T09:41:12+00:00 END recovery_before_reboot_root_on rc=0 bytes=32
+2026-11-12T09:41:12+00:00 RUN recovery_before_reboot_uid
+2026-11-12T09:41:12+00:00 END recovery_before_reboot_uid rc=0 bytes=17
+2026-11-12T09:41:12+00:00 RUN recovery_reboot
+2026-11-12T09:41:23+00:00 END recovery_reboot rc=0 bytes=12
+2026-11-12T09:41:23+00:00 recovery reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T09:41:38+00:00 RUN recovery_connect_01
+2026-11-12T09:41:40+00:00 END recovery_connect_01 rc=0 bytes=73
+2026-11-12T09:41:40+00:00 RUN recovery_boot_probe_01
+2026-11-12T09:41:56+00:00 END recovery_boot_probe_01 rc=1 bytes=0
+2026-11-12T09:42:11+00:00 RUN recovery_connect_02
+2026-11-12T09:42:11+00:00 END recovery_connect_02 rc=0 bytes=42
+2026-11-12T09:42:11+00:00 RUN recovery_boot_probe_02
+2026-11-12T09:42:12+00:00 END recovery_boot_probe_02 rc=0 bytes=52
+2026-11-12T09:42:12+00:00 RUN recovery_after_arch
+2026-11-12T09:42:12+00:00 END recovery_after_arch rc=0 bytes=22
+2026-11-12T09:42:12+00:00 RUN recovery_after_model
+2026-11-12T09:42:12+00:00 END recovery_after_model rc=0 bytes=31
+2026-11-12T09:42:12+00:00 RUN recovery_after_cmdline
+2026-11-12T09:42:12+00:00 END recovery_after_cmdline rc=0 bytes=1479
+2026-11-12T09:42:12+00:00 RUN recovery_after_version
+2026-11-12T09:42:12+00:00 END recovery_after_version rc=0 bytes=172
+2026-11-12T09:42:12+00:00 RUN recovery_after_build
+2026-11-12T09:42:12+00:00 END recovery_after_build rc=0 bytes=51
+2026-11-12T09:42:12+00:00 RUN recovery_after_boot_id
+2026-11-12T09:42:12+00:00 END recovery_after_boot_id rc=0 bytes=52
+2026-11-12T09:42:12+00:00 RUN recovery_after_uptime
+2026-11-12T09:42:12+00:00 END recovery_after_uptime rc=0 bytes=27
+2026-11-12T09:42:12+00:00 recovery RECONNECTED new boot ID=b3013aff-9188-48bc-a8e7-1e87337e50e9
+2026-11-12T09:42:12+00:00 RUN recovery_postboot_root_on
+2026-11-12T09:42:13+00:00 END recovery_postboot_root_on rc=0 bytes=32
+2026-11-12T09:42:13+00:00 RUN recovery_postboot_uid
+2026-11-12T09:42:13+00:00 END recovery_postboot_uid rc=0 bytes=17
+2026-11-12T09:42:13+00:00 RUN recovery_uptime_01
+2026-11-12T09:42:13+00:00 END recovery_uptime_01 rc=0 bytes=18
+2026-11-12T09:42:13+00:00 RUN recovery_ps_01
+2026-11-12T09:42:13+00:00 END recovery_ps_01 rc=0 bytes=18320
+2026-11-12T09:42:13+00:00 recovery health wait uptime=50 missing=['acm-service']
+2026-11-12T09:42:43+00:00 RUN recovery_uptime_02
+2026-11-12T09:42:43+00:00 END recovery_uptime_02 rc=0 bytes=18
+2026-11-12T09:42:43+00:00 RUN recovery_ps_02
+2026-11-12T09:42:43+00:00 END recovery_ps_02 rc=0 bytes=18398
+2026-11-12T09:42:43+00:00 recovery health wait uptime=80 missing=[]
+2026-11-12T09:43:13+00:00 RUN recovery_uptime_03
+2026-11-12T09:43:14+00:00 END recovery_uptime_03 rc=0 bytes=19
+2026-11-12T09:43:14+00:00 RUN recovery_ps_03
+2026-11-12T09:43:14+00:00 END recovery_ps_03 rc=0 bytes=18215
+2026-11-12T09:43:14+00:00 recovery health wait uptime=111 missing=[]
+2026-11-12T09:43:44+00:00 RUN recovery_uptime_04
+2026-11-12T09:43:44+00:00 END recovery_uptime_04 rc=0 bytes=19
+2026-11-12T09:43:44+00:00 RUN recovery_ps_04
+2026-11-12T09:43:44+00:00 END recovery_ps_04 rc=0 bytes=18043
+2026-11-12T09:43:44+00:00 recovery health wait uptime=141 missing=[]
+2026-11-12T09:44:14+00:00 RUN recovery_uptime_05
+2026-11-12T09:44:14+00:00 END recovery_uptime_05 rc=0 bytes=19
+2026-11-12T09:44:14+00:00 RUN recovery_ps_05
+2026-11-12T09:44:14+00:00 END recovery_ps_05 rc=0 bytes=17997
+2026-11-12T09:44:14+00:00 recovery health wait uptime=172 missing=['acm-service']
+2026-11-12T09:44:44+00:00 RUN recovery_uptime_06
+2026-11-12T09:44:45+00:00 END recovery_uptime_06 rc=0 bytes=19
+2026-11-12T09:44:45+00:00 RUN recovery_ps_06
+2026-11-12T09:44:45+00:00 END recovery_ps_06 rc=0 bytes=18160
+2026-11-12T09:44:45+00:00 RUN recovery_failed_units
+2026-11-12T09:44:45+00:00 END recovery_failed_units rc=0 bytes=501
+2026-11-12T09:44:45+00:00 RUN recovery_dmesg
+2026-11-12T09:44:45+00:00 END recovery_dmesg rc=0 bytes=729439
+2026-11-12T09:44:45+00:00 RUN recovery_dlog_main
+2026-11-12T09:44:46+00:00 END recovery_dlog_main rc=0 bytes=1013755
+2026-11-12T09:44:46+00:00 RUN recovery_dlog_system
+2026-11-12T09:44:46+00:00 END recovery_dlog_system rc=0 bytes=336755
+2026-11-12T09:44:46+00:00 recovery HEALTH True uptime=202 missing=[] new_failed=[] refusals=0
+2026-11-12T09:44:46+00:00 RUN recovery_prelink_diag
+2026-11-12T09:44:46+00:00 END recovery_prelink_diag rc=0 bytes=24430
+2026-11-12T09:44:46+00:00 recovery PRELINK_DIAG ['      3332:\tprelink checking: ok', '      3332:\tprelink checking: ok']
+2026-11-12T09:44:46+00:00 RUN overlay_after_recovery_reboot
+2026-11-12T09:44:47+00:00 END overlay_after_recovery_reboot rc=0 bytes=4701
+2026-11-12T09:44:47+00:00 RUN recovery_cleanup_stage
+2026-11-12T09:44:48+00:00 END recovery_cleanup_stage rc=0 bytes=14
+2026-11-12T09:44:48+00:00 RUN recovery_cleanup_tools
+2026-11-12T09:44:48+00:00 END recovery_cleanup_tools rc=0 bytes=14
+2026-11-12T09:44:48+00:00 RUN recovery_postboot_root_off
+2026-11-12T09:44:48+00:00 END recovery_postboot_root_off rc=0 bytes=36
+2026-11-12T09:44:48+00:00 RUN recovery_postboot_sdk_uid
+2026-11-12T09:44:48+00:00 END recovery_postboot_sdk_uid rc=0 bytes=20
+2026-11-12T09:44:48+00:00 PHASE_END final_recovery rc=0
+2026-11-12T09:44:48+00:00 ERROR RuntimeError('apply_programs failed; see apply_programs_console.log')
+2026-11-12T09:45:50+00:00 RUN stage_space_before
+2026-11-12T09:45:50+00:00 END stage_space_before rc=0 bytes=218
+2026-11-12T09:45:50+00:00 PACK 25/434
+2026-11-12T09:45:50+00:00 PACK 50/434
+2026-11-12T09:45:50+00:00 PACK 75/434
+2026-11-12T09:45:50+00:00 PACK 100/434
+2026-11-12T09:45:50+00:00 PACK 125/434
+2026-11-12T09:45:50+00:00 PACK 150/434
+2026-11-12T09:45:50+00:00 PACK 175/434
+2026-11-12T09:45:50+00:00 PACK 200/434
+2026-11-12T09:45:50+00:00 PACK 225/434
+2026-11-12T09:45:50+00:00 PACK 250/434
+2026-11-12T09:45:50+00:00 PACK 275/434
+2026-11-12T09:45:50+00:00 PACK 300/434
+2026-11-12T09:45:50+00:00 PACK 325/434
+2026-11-12T09:45:50+00:00 PACK 350/434
+2026-11-12T09:45:50+00:00 PACK 375/434
+2026-11-12T09:45:50+00:00 PACK 400/434
+2026-11-12T09:45:50+00:00 PACK 425/434
+2026-11-12T09:45:50+00:00 PACK 434/434
+2026-11-12T09:45:52+00:00 RUN stage_root_on
+2026-11-12T09:45:52+00:00 END stage_root_on rc=0 bytes=32
+2026-11-12T09:45:52+00:00 RUN stage_uid
+2026-11-12T09:45:52+00:00 END stage_uid rc=0 bytes=17
+2026-11-12T09:45:52+00:00 RUN stage_absent_prelink_ab_stage
+2026-11-12T09:45:52+00:00 END stage_absent_prelink_ab_stage rc=0 bytes=14
+2026-11-12T09:45:52+00:00 RUN stage_absent_prelink_ab_tools
+2026-11-12T09:45:53+00:00 END stage_absent_prelink_ab_tools rc=0 bytes=14
+2026-11-12T09:45:53+00:00 RUN stage_mkdir
+2026-11-12T09:45:53+00:00 END stage_mkdir rc=0 bytes=14
+2026-11-12T09:45:53+00:00 RUN stage_push_tar
+2026-11-12T09:46:22+00:00 END stage_push_tar rc=0 bytes=2153
+2026-11-12T09:46:22+00:00 RUN stage_tar_sha
+2026-11-12T09:46:26+00:00 END stage_tar_sha rc=0 bytes=119
+2026-11-12T09:46:26+00:00 RUN stage_extract
+2026-11-12T09:46:31+00:00 END stage_extract rc=0 bytes=14
+2026-11-12T09:46:31+00:00 RUN stage_remove_tar
+2026-11-12T09:46:31+00:00 END stage_remove_tar rc=0 bytes=14
+2026-11-12T09:46:31+00:00 RUN stage_push_getfattr
+2026-11-12T09:46:32+00:00 END stage_push_getfattr rc=0 bytes=331
+2026-11-12T09:46:32+00:00 RUN stage_check_getfattr
+2026-11-12T09:46:32+00:00 END stage_check_getfattr rc=0 bytes=30
+2026-11-12T09:46:32+00:00 RUN stage_push_setfattr
+2026-11-12T09:46:33+00:00 END stage_push_setfattr rc=0 bytes=331
+2026-11-12T09:46:33+00:00 RUN stage_check_setfattr
+2026-11-12T09:46:33+00:00 END stage_check_setfattr rc=0 bytes=30
+2026-11-12T09:46:33+00:00 RUN stage_payload_sha
+2026-11-12T09:46:33+00:00 END stage_payload_sha rc=0 bytes=119
+2026-11-12T09:46:33+00:00 RUN stage_space_after
+2026-11-12T09:46:33+00:00 END stage_space_after rc=0 bytes=218
+2026-11-12T09:46:33+00:00 STAGE DONE
+2026-11-12T09:46:33+00:00 RUN stage_root_off
+2026-11-12T09:46:33+00:00 END stage_root_off rc=0 bytes=36
+2026-11-12T09:46:33+00:00 RUN stage_sdk_uid
+2026-11-12T09:46:33+00:00 END stage_sdk_uid rc=0 bytes=20
+2026-11-12T09:47:06+00:00 PHASE_START apply_programs_retry
+2026-11-12T09:47:07+00:00 RUN write_root_on
+2026-11-12T09:47:07+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:47:07+00:00 RUN write_root_uid
+2026-11-12T09:47:07+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:47:07+00:00 RUN write_tools_getfattr_ready
+2026-11-12T09:47:07+00:00 END write_tools_getfattr_ready rc=0 bytes=30
+2026-11-12T09:47:07+00:00 RUN write_tools_setfattr_ready
+2026-11-12T09:47:07+00:00 END write_tools_setfattr_ready rc=0 bytes=30
+2026-11-12T09:47:07+00:00 RUN write_stage_ready
+2026-11-12T09:47:07+00:00 END write_stage_ready rc=0 bytes=14
+2026-11-12T09:47:07+00:00 RUN programs_001_stage_sha
+2026-11-12T09:47:07+00:00 END programs_001_stage_sha rc=0 bytes=131
+2026-11-12T09:47:07+00:00 RUN programs_001_copy
+2026-11-12T09:47:07+00:00 END programs_001_copy rc=0 bytes=60
+2026-11-12T09:47:07+00:00 RUN programs_001_busy_ps
+2026-11-12T09:47:08+00:00 END programs_001_busy_ps rc=0 bytes=243
+2026-11-12T09:47:08+00:00 RUN programs_001_busy_cgroup_675
+2026-11-12T09:47:08+00:00 END programs_001_busy_cgroup_675 rc=0 bytes=261
+2026-11-12T09:47:08+00:00 RUN programs_001_stop_unit_nonblocking
+2026-11-12T09:47:08+00:00 END programs_001_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:47:08+00:00 RUN programs_001_stop_poll_01
+2026-11-12T09:47:08+00:00 END programs_001_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:47:08+00:00 RUN programs_001_copy_after_stop
+2026-11-12T09:47:08+00:00 END programs_001_copy_after_stop rc=0 bytes=14
+2026-11-12T09:47:08+00:00 RUN programs_001_post_sha
+2026-11-12T09:47:08+00:00 END programs_001_post_sha rc=0 bytes=101
+2026-11-12T09:47:08+00:00 RUN programs_001_post_stat
+2026-11-12T09:47:08+00:00 END programs_001_post_stat rc=0 bytes=30
+2026-11-12T09:47:08+00:00 RUN programs_001_post_xattrs
+2026-11-12T09:47:09+00:00 END programs_001_post_xattrs rc=0 bytes=124
+2026-11-12T09:47:09+00:00 RUN programs_001_post_getcap
+2026-11-12T09:47:09+00:00 END programs_001_post_getcap rc=0 bytes=14
+2026-11-12T09:47:09+00:00 RUN programs_001_post_chsmack
+2026-11-12T09:47:09+00:00 END programs_001_post_chsmack rc=0 bytes=46
+2026-11-12T09:47:09+00:00 RUN programs_001_post_upper
+2026-11-12T09:47:09+00:00 END programs_001_post_upper rc=0 bytes=14
+2026-11-12T09:47:09+00:00 WRITE_OK undo /usr/bin/tvs-daemon
+2026-11-12T09:47:09+00:00 RUN programs_002_stage_sha
+2026-11-12T09:47:09+00:00 END programs_002_stage_sha rc=0 bytes=137
+2026-11-12T09:47:09+00:00 RUN programs_002_copy
+2026-11-12T09:47:09+00:00 END programs_002_copy rc=0 bytes=14
+2026-11-12T09:47:09+00:00 RUN programs_002_post_sha
+2026-11-12T09:47:09+00:00 END programs_002_post_sha rc=0 bytes=107
+2026-11-12T09:47:09+00:00 RUN programs_002_post_stat
+2026-11-12T09:47:10+00:00 END programs_002_post_stat rc=0 bytes=29
+2026-11-12T09:47:10+00:00 RUN programs_002_post_xattrs
+2026-11-12T09:47:10+00:00 END programs_002_post_xattrs rc=0 bytes=130
+2026-11-12T09:47:10+00:00 RUN programs_002_post_getcap
+2026-11-12T09:47:10+00:00 END programs_002_post_getcap rc=0 bytes=14
+2026-11-12T09:47:10+00:00 RUN programs_002_post_chsmack
+2026-11-12T09:47:10+00:00 END programs_002_post_chsmack rc=0 bytes=52
+2026-11-12T09:47:10+00:00 RUN programs_002_post_upper
+2026-11-12T09:47:10+00:00 END programs_002_post_upper rc=0 bytes=14
+2026-11-12T09:47:10+00:00 WRITE_OK undo /usr/bin/app-boot-manager
+2026-11-12T09:47:10+00:00 RUN programs_003_stage_sha
+2026-11-12T09:47:10+00:00 END programs_003_stage_sha rc=0 bytes=129
+2026-11-12T09:47:10+00:00 RUN programs_003_copy
+2026-11-12T09:47:10+00:00 END programs_003_copy rc=0 bytes=14
+2026-11-12T09:47:10+00:00 RUN programs_003_post_sha
+2026-11-12T09:47:10+00:00 END programs_003_post_sha rc=0 bytes=99
+2026-11-12T09:47:10+00:00 RUN programs_003_post_stat
+2026-11-12T09:47:11+00:00 END programs_003_post_stat rc=0 bytes=29
+2026-11-12T09:47:11+00:00 RUN programs_003_post_xattrs
+2026-11-12T09:47:11+00:00 END programs_003_post_xattrs rc=0 bytes=122
+2026-11-12T09:47:11+00:00 RUN programs_003_post_getcap
+2026-11-12T09:47:11+00:00 END programs_003_post_getcap rc=0 bytes=14
+2026-11-12T09:47:11+00:00 RUN programs_003_post_chsmack
+2026-11-12T09:47:11+00:00 END programs_003_post_chsmack rc=0 bytes=44
+2026-11-12T09:47:11+00:00 RUN programs_003_post_upper
+2026-11-12T09:47:11+00:00 END programs_003_post_upper rc=0 bytes=14
+2026-11-12T09:47:11+00:00 WRITE_OK undo /usr/bin/fastinit
+2026-11-12T09:47:11+00:00 RUN programs_004_stage_sha
+2026-11-12T09:47:11+00:00 END programs_004_stage_sha rc=0 bytes=126
+2026-11-12T09:47:11+00:00 RUN programs_004_copy
+2026-11-12T09:47:11+00:00 END programs_004_copy rc=0 bytes=55
+2026-11-12T09:47:11+00:00 RUN programs_004_busy_ps
+2026-11-12T09:47:12+00:00 END programs_004_busy_ps rc=0 bytes=231
+2026-11-12T09:47:12+00:00 RUN programs_004_busy_cgroup_699
+2026-11-12T09:47:12+00:00 END programs_004_busy_cgroup_699 rc=0 bytes=261
+2026-11-12T09:47:12+00:00 RUN programs_004_stop_unit_nonblocking
+2026-11-12T09:47:12+00:00 END programs_004_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:47:12+00:00 RUN programs_004_stop_poll_01
+2026-11-12T09:47:12+00:00 END programs_004_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:47:12+00:00 RUN programs_004_copy_after_stop
+2026-11-12T09:47:12+00:00 END programs_004_copy_after_stop rc=0 bytes=14
+2026-11-12T09:47:12+00:00 RUN programs_004_post_sha
+2026-11-12T09:47:12+00:00 END programs_004_post_sha rc=0 bytes=96
+2026-11-12T09:47:12+00:00 RUN programs_004_post_stat
+2026-11-12T09:47:12+00:00 END programs_004_post_stat rc=0 bytes=31
+2026-11-12T09:47:12+00:00 RUN programs_004_post_xattrs
+2026-11-12T09:47:13+00:00 END programs_004_post_xattrs rc=0 bytes=119
+2026-11-12T09:47:13+00:00 RUN programs_004_post_getcap
+2026-11-12T09:47:13+00:00 END programs_004_post_getcap rc=0 bytes=14
+2026-11-12T09:47:13+00:00 RUN programs_004_post_chsmack
+2026-11-12T09:47:13+00:00 END programs_004_post_chsmack rc=0 bytes=41
+2026-11-12T09:47:13+00:00 RUN programs_004_post_upper
+2026-11-12T09:47:13+00:00 END programs_004_post_upper rc=0 bytes=14
+2026-11-12T09:47:13+00:00 WRITE_OK undo /usr/bin/avocd
+2026-11-12T09:47:13+00:00 RUN programs_005_stage_sha
+2026-11-12T09:47:13+00:00 END programs_005_stage_sha rc=0 bytes=129
+2026-11-12T09:47:13+00:00 RUN programs_005_copy
+2026-11-12T09:47:13+00:00 END programs_005_copy rc=0 bytes=14
+2026-11-12T09:47:13+00:00 RUN programs_005_post_sha
+2026-11-12T09:47:13+00:00 END programs_005_post_sha rc=0 bytes=99
+2026-11-12T09:47:13+00:00 RUN programs_005_post_stat
+2026-11-12T09:47:13+00:00 END programs_005_post_stat rc=0 bytes=29
+2026-11-12T09:47:13+00:00 RUN programs_005_post_xattrs
+2026-11-12T09:47:14+00:00 END programs_005_post_xattrs rc=0 bytes=122
+2026-11-12T09:47:14+00:00 RUN programs_005_post_getcap
+2026-11-12T09:47:14+00:00 END programs_005_post_getcap rc=0 bytes=14
+2026-11-12T09:47:14+00:00 RUN programs_005_post_chsmack
+2026-11-12T09:47:14+00:00 END programs_005_post_chsmack rc=0 bytes=44
+2026-11-12T09:47:14+00:00 RUN programs_005_post_upper
+2026-11-12T09:47:14+00:00 END programs_005_post_upper rc=0 bytes=14
+2026-11-12T09:47:14+00:00 WRITE_OK undo /usr/bin/fastlogo
+2026-11-12T09:47:14+00:00 RUN programs_006_stage_sha
+2026-11-12T09:47:14+00:00 END programs_006_stage_sha rc=0 bytes=124
+2026-11-12T09:47:14+00:00 RUN programs_006_copy
+2026-11-12T09:47:14+00:00 END programs_006_copy rc=0 bytes=53
+2026-11-12T09:47:14+00:00 RUN programs_006_busy_ps
+2026-11-12T09:47:14+00:00 END programs_006_busy_ps rc=0 bytes=222
+2026-11-12T09:47:14+00:00 RUN programs_006_busy_cgroup_670
+2026-11-12T09:47:15+00:00 END programs_006_busy_cgroup_670 rc=0 bytes=225
+2026-11-12T09:47:15+00:00 RUN programs_006_stop_unit_nonblocking
+2026-11-12T09:47:15+00:00 END programs_006_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:47:15+00:00 RUN programs_006_stop_poll_01
+2026-11-12T09:47:15+00:00 END programs_006_stop_poll_01 rc=0 bytes=19
+2026-11-12T09:47:20+00:00 RUN programs_006_stop_poll_02
+2026-11-12T09:47:20+00:00 END programs_006_stop_poll_02 rc=0 bytes=20
+2026-11-12T09:47:25+00:00 RUN programs_006_stop_poll_03
+2026-11-12T09:47:25+00:00 END programs_006_stop_poll_03 rc=0 bytes=20
+2026-11-12T09:47:30+00:00 RUN programs_006_stop_poll_04
+2026-11-12T09:47:30+00:00 END programs_006_stop_poll_04 rc=0 bytes=20
+2026-11-12T09:47:35+00:00 RUN programs_006_stop_poll_05
+2026-11-12T09:47:36+00:00 END programs_006_stop_poll_05 rc=0 bytes=20
+2026-11-12T09:47:41+00:00 RUN programs_006_stop_poll_06
+2026-11-12T09:47:41+00:00 END programs_006_stop_poll_06 rc=0 bytes=20
+2026-11-12T09:47:46+00:00 RUN programs_006_stop_poll_07
+2026-11-12T09:47:46+00:00 END programs_006_stop_poll_07 rc=0 bytes=20
+2026-11-12T09:47:51+00:00 RUN programs_006_stop_poll_08
+2026-11-12T09:47:51+00:00 END programs_006_stop_poll_08 rc=0 bytes=20
+2026-11-12T09:47:56+00:00 RUN programs_006_stop_poll_09
+2026-11-12T09:47:56+00:00 END programs_006_stop_poll_09 rc=0 bytes=20
+2026-11-12T09:48:01+00:00 RUN programs_006_stop_poll_10
+2026-11-12T09:48:02+00:00 END programs_006_stop_poll_10 rc=0 bytes=20
+2026-11-12T09:48:07+00:00 RUN programs_006_stop_poll_11
+2026-11-12T09:48:07+00:00 END programs_006_stop_poll_11 rc=0 bytes=20
+2026-11-12T09:48:12+00:00 RUN programs_006_stop_poll_12
+2026-11-12T09:48:12+00:00 END programs_006_stop_poll_12 rc=0 bytes=20
+2026-11-12T09:48:17+00:00 RUN programs_006_stop_poll_13
+2026-11-12T09:48:17+00:00 END programs_006_stop_poll_13 rc=0 bytes=20
+2026-11-12T09:48:22+00:00 RUN programs_006_stop_poll_14
+2026-11-12T09:48:22+00:00 END programs_006_stop_poll_14 rc=0 bytes=20
+2026-11-12T09:48:27+00:00 RUN programs_006_stop_poll_15
+2026-11-12T09:48:27+00:00 END programs_006_stop_poll_15 rc=0 bytes=20
+2026-11-12T09:48:32+00:00 RUN programs_006_stop_poll_16
+2026-11-12T09:48:33+00:00 END programs_006_stop_poll_16 rc=0 bytes=14
+2026-11-12T09:48:33+00:00 RUN programs_006_copy_after_stop
+2026-11-12T09:48:33+00:00 END programs_006_copy_after_stop rc=0 bytes=14
+2026-11-12T09:48:33+00:00 RUN programs_006_post_sha
+2026-11-12T09:48:33+00:00 END programs_006_post_sha rc=0 bytes=94
+2026-11-12T09:48:33+00:00 RUN programs_006_post_stat
+2026-11-12T09:48:33+00:00 END programs_006_post_stat rc=0 bytes=28
+2026-11-12T09:48:33+00:00 RUN programs_006_post_xattrs
+2026-11-12T09:48:33+00:00 END programs_006_post_xattrs rc=0 bytes=117
+2026-11-12T09:48:33+00:00 RUN programs_006_post_getcap
+2026-11-12T09:48:33+00:00 END programs_006_post_getcap rc=0 bytes=14
+2026-11-12T09:48:33+00:00 RUN programs_006_post_chsmack
+2026-11-12T09:48:33+00:00 END programs_006_post_chsmack rc=0 bytes=39
+2026-11-12T09:48:33+00:00 RUN programs_006_post_upper
+2026-11-12T09:48:33+00:00 END programs_006_post_upper rc=0 bytes=14
+2026-11-12T09:48:33+00:00 RUN programs_006_fixattrs_chown
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_chmod
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_before_xattr_restore_sha
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_before_xattr_restore_sha rc=0 bytes=94
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_before_xattr_restore_stat
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_before_xattr_restore_stat rc=0 bytes=28
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_before_xattr_restore_xattrs rc=0 bytes=117
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_before_xattr_restore_chsmack rc=0 bytes=39
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_before_xattr_restore_upper
+2026-11-12T09:48:34+00:00 END programs_006_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:48:34+00:00 RUN programs_006_fixattrs_set_security.capability
+2026-11-12T09:48:35+00:00 END programs_006_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:48:35+00:00 RUN programs_006_postfix_sha
+2026-11-12T09:48:35+00:00 END programs_006_postfix_sha rc=0 bytes=94
+2026-11-12T09:48:35+00:00 RUN programs_006_postfix_stat
+2026-11-12T09:48:35+00:00 END programs_006_postfix_stat rc=0 bytes=28
+2026-11-12T09:48:35+00:00 RUN programs_006_postfix_xattrs
+2026-11-12T09:48:35+00:00 END programs_006_postfix_xattrs rc=0 bytes=181
+2026-11-12T09:48:35+00:00 RUN programs_006_postfix_getcap
+2026-11-12T09:48:35+00:00 END programs_006_postfix_getcap rc=0 bytes=97
+2026-11-12T09:48:35+00:00 RUN programs_006_postfix_chsmack
+2026-11-12T09:48:35+00:00 END programs_006_postfix_chsmack rc=0 bytes=39
+2026-11-12T09:48:35+00:00 RUN programs_006_postfix_upper
+2026-11-12T09:48:35+00:00 END programs_006_postfix_upper rc=0 bytes=14
+2026-11-12T09:48:35+00:00 WRITE_OK undo /usr/bin/amd
+2026-11-12T09:48:35+00:00 RUN programs_007_stage_sha
+2026-11-12T09:48:35+00:00 END programs_007_stage_sha rc=0 bytes=130
+2026-11-12T09:48:35+00:00 RUN programs_007_copy
+2026-11-12T09:48:36+00:00 END programs_007_copy rc=0 bytes=14
+2026-11-12T09:48:36+00:00 RUN programs_007_post_sha
+2026-11-12T09:48:36+00:00 END programs_007_post_sha rc=0 bytes=100
+2026-11-12T09:48:36+00:00 RUN programs_007_post_stat
+2026-11-12T09:48:36+00:00 END programs_007_post_stat rc=0 bytes=30
+2026-11-12T09:48:36+00:00 RUN programs_007_post_xattrs
+2026-11-12T09:48:36+00:00 END programs_007_post_xattrs rc=0 bytes=123
+2026-11-12T09:48:36+00:00 RUN programs_007_post_getcap
+2026-11-12T09:48:36+00:00 END programs_007_post_getcap rc=0 bytes=14
+2026-11-12T09:48:36+00:00 RUN programs_007_post_chsmack
+2026-11-12T09:48:36+00:00 END programs_007_post_chsmack rc=0 bytes=45
+2026-11-12T09:48:36+00:00 RUN programs_007_post_upper
+2026-11-12T09:48:36+00:00 END programs_007_post_upper rc=0 bytes=14
+2026-11-12T09:48:36+00:00 WRITE_OK undo /usr/bin/fastvideo
+2026-11-12T09:48:36+00:00 RUN programs_008_stage_sha
+2026-11-12T09:48:37+00:00 END programs_008_stage_sha rc=0 bytes=155
+2026-11-12T09:48:37+00:00 RUN programs_008_copy
+2026-11-12T09:48:37+00:00 END programs_008_copy rc=0 bytes=84
+2026-11-12T09:48:37+00:00 RUN programs_008_busy_ps
+2026-11-12T09:48:37+00:00 END programs_008_busy_ps rc=0 bytes=1300
+2026-11-12T09:48:37+00:00 RUN programs_008_busy_cgroup_483
+2026-11-12T09:48:37+00:00 END programs_008_busy_cgroup_483 rc=0 bytes=180
+2026-11-12T09:48:37+00:00 RUN write_root_off
+2026-11-12T09:48:37+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:48:37+00:00 RUN write_sdk_uid
+2026-11-12T09:48:37+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:48:37+00:00 ERROR RuntimeError('copy failed /usr/apps/org.tizen.tv-viewer/bin/tv-viewer rc=1:  /bin/sh: /usr/apps/org.tizen.tv-viewer/bin/tv-viewer: Text file busy\r\n\r')
+2026-11-12T09:48:37+00:00 PHASE_END apply_programs_retry rc=1
+2026-11-12T09:48:37+00:00 RETRY_STOP RuntimeError('apply_programs_retry failed; see apply_programs_retry_console.log')
+2026-11-12T09:48:37+00:00 PHASE_START restore_retry
+2026-11-12T09:48:37+00:00 RUN write_root_on
+2026-11-12T09:48:37+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:48:37+00:00 RUN write_root_uid
+2026-11-12T09:48:37+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:48:37+00:00 RUN restore_001_before_sha
+2026-11-12T09:48:38+00:00 END restore_001_before_sha rc=0 bytes=125
+2026-11-12T09:48:38+00:00 RUN restore_001_before_stat
+2026-11-12T09:48:38+00:00 END restore_001_before_stat rc=0 bytes=33
+2026-11-12T09:48:38+00:00 RUN restore_001_before_xattrs
+2026-11-12T09:48:38+00:00 END restore_001_before_xattrs rc=0 bytes=214
+2026-11-12T09:48:38+00:00 RUN restore_001_before_getcap
+2026-11-12T09:48:38+00:00 END restore_001_before_getcap rc=0 bytes=14
+2026-11-12T09:48:38+00:00 RUN restore_001_before_chsmack
+2026-11-12T09:48:38+00:00 END restore_001_before_chsmack rc=0 bytes=103
+2026-11-12T09:48:38+00:00 RUN restore_001_before_upper
+2026-11-12T09:48:38+00:00 END restore_001_before_upper rc=0 bytes=14
+2026-11-12T09:48:38+00:00 RUN restore_001_stage_sha
+2026-11-12T09:48:39+00:00 END restore_001_stage_sha rc=0 bytes=159
+2026-11-12T09:48:39+00:00 RUN restore_001_copy
+2026-11-12T09:48:39+00:00 END restore_001_copy rc=0 bytes=84
+2026-11-12T09:48:39+00:00 RUN restore_001_busy_ps
+2026-11-12T09:48:39+00:00 END restore_001_busy_ps rc=0 bytes=1300
+2026-11-12T09:48:39+00:00 RUN restore_001_busy_cgroup_483
+2026-11-12T09:48:39+00:00 END restore_001_busy_cgroup_483 rc=0 bytes=180
+2026-11-12T09:48:39+00:00 RUN write_root_off
+2026-11-12T09:48:39+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:48:39+00:00 RUN write_sdk_uid
+2026-11-12T09:48:39+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:48:39+00:00 ERROR RuntimeError('copy failed /usr/apps/org.tizen.tv-viewer/bin/tv-viewer rc=1:  /bin/sh: /usr/apps/org.tizen.tv-viewer/bin/tv-viewer: Text file busy\r\n\r')
+2026-11-12T09:48:39+00:00 PHASE_END restore_retry rc=1
+2026-11-12T09:48:39+00:00 RETRY_RESTORE_FAILED RuntimeError('restore_retry failed; see restore_retry_console.log')
+2026-11-12T09:48:39+00:00 ERROR RuntimeError('apply_programs_retry failed; see apply_programs_retry_console.log')
+2026-11-12T09:49:49+00:00 RUN write_root_on
+2026-11-12T09:49:49+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:49:49+00:00 RUN write_root_uid
+2026-11-12T09:49:49+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:49:49+00:00 RUN restore_001_before_sha
+2026-11-12T09:49:50+00:00 END restore_001_before_sha rc=0 bytes=125
+2026-11-12T09:49:50+00:00 RUN restore_001_before_stat
+2026-11-12T09:49:50+00:00 END restore_001_before_stat rc=0 bytes=33
+2026-11-12T09:49:50+00:00 RUN restore_001_before_xattrs
+2026-11-12T09:49:50+00:00 END restore_001_before_xattrs rc=0 bytes=214
+2026-11-12T09:49:50+00:00 RUN restore_001_before_getcap
+2026-11-12T09:49:50+00:00 END restore_001_before_getcap rc=0 bytes=14
+2026-11-12T09:49:50+00:00 RUN restore_001_before_chsmack
+2026-11-12T09:49:50+00:00 END restore_001_before_chsmack rc=0 bytes=103
+2026-11-12T09:49:50+00:00 RUN restore_001_before_upper
+2026-11-12T09:49:50+00:00 END restore_001_before_upper rc=0 bytes=14
+2026-11-12T09:49:50+00:00 RESTORE_ALREADY_OK /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+2026-11-12T09:49:50+00:00 RUN restore_002_before_sha
+2026-11-12T09:49:50+00:00 END restore_002_before_sha rc=0 bytes=100
+2026-11-12T09:49:50+00:00 RUN restore_002_before_stat
+2026-11-12T09:49:51+00:00 END restore_002_before_stat rc=0 bytes=30
+2026-11-12T09:49:51+00:00 RUN restore_002_before_xattrs
+2026-11-12T09:49:51+00:00 END restore_002_before_xattrs rc=0 bytes=123
+2026-11-12T09:49:51+00:00 RUN restore_002_before_getcap
+2026-11-12T09:49:51+00:00 END restore_002_before_getcap rc=0 bytes=14
+2026-11-12T09:49:51+00:00 RUN restore_002_before_chsmack
+2026-11-12T09:49:51+00:00 END restore_002_before_chsmack rc=0 bytes=45
+2026-11-12T09:49:51+00:00 RUN restore_002_before_upper
+2026-11-12T09:49:51+00:00 END restore_002_before_upper rc=0 bytes=14
+2026-11-12T09:49:51+00:00 RUN restore_002_stage_sha
+2026-11-12T09:49:51+00:00 END restore_002_stage_sha rc=0 bytes=134
+2026-11-12T09:49:51+00:00 RUN restore_002_copy
+2026-11-12T09:49:51+00:00 END restore_002_copy rc=0 bytes=14
+2026-11-12T09:49:51+00:00 RUN restore_002_post_sha
+2026-11-12T09:49:51+00:00 END restore_002_post_sha rc=0 bytes=100
+2026-11-12T09:49:51+00:00 RUN restore_002_post_stat
+2026-11-12T09:49:52+00:00 END restore_002_post_stat rc=0 bytes=30
+2026-11-12T09:49:52+00:00 RUN restore_002_post_xattrs
+2026-11-12T09:49:52+00:00 END restore_002_post_xattrs rc=0 bytes=123
+2026-11-12T09:49:52+00:00 RUN restore_002_post_getcap
+2026-11-12T09:49:52+00:00 END restore_002_post_getcap rc=0 bytes=14
+2026-11-12T09:49:52+00:00 RUN restore_002_post_chsmack
+2026-11-12T09:49:52+00:00 END restore_002_post_chsmack rc=0 bytes=45
+2026-11-12T09:49:52+00:00 RUN restore_002_post_upper
+2026-11-12T09:49:52+00:00 END restore_002_post_upper rc=0 bytes=14
+2026-11-12T09:49:52+00:00 WRITE_OK original /usr/bin/fastvideo
+2026-11-12T09:49:52+00:00 RUN restore_003_before_sha
+2026-11-12T09:49:52+00:00 END restore_003_before_sha rc=0 bytes=94
+2026-11-12T09:49:52+00:00 RUN restore_003_before_stat
+2026-11-12T09:49:52+00:00 END restore_003_before_stat rc=0 bytes=28
+2026-11-12T09:49:52+00:00 RUN restore_003_before_xattrs
+2026-11-12T09:49:52+00:00 END restore_003_before_xattrs rc=0 bytes=181
+2026-11-12T09:49:52+00:00 RUN restore_003_before_getcap
+2026-11-12T09:49:52+00:00 END restore_003_before_getcap rc=0 bytes=97
+2026-11-12T09:49:52+00:00 RUN restore_003_before_chsmack
+2026-11-12T09:49:53+00:00 END restore_003_before_chsmack rc=0 bytes=39
+2026-11-12T09:49:53+00:00 RUN restore_003_before_upper
+2026-11-12T09:49:53+00:00 END restore_003_before_upper rc=0 bytes=14
+2026-11-12T09:49:53+00:00 RUN restore_003_stage_sha
+2026-11-12T09:49:53+00:00 END restore_003_stage_sha rc=0 bytes=128
+2026-11-12T09:49:53+00:00 RUN restore_003_copy
+2026-11-12T09:49:53+00:00 END restore_003_copy rc=0 bytes=14
+2026-11-12T09:49:53+00:00 RUN restore_003_post_sha
+2026-11-12T09:49:53+00:00 END restore_003_post_sha rc=0 bytes=94
+2026-11-12T09:49:53+00:00 RUN restore_003_post_stat
+2026-11-12T09:49:53+00:00 END restore_003_post_stat rc=0 bytes=29
+2026-11-12T09:49:53+00:00 RUN restore_003_post_xattrs
+2026-11-12T09:49:53+00:00 END restore_003_post_xattrs rc=0 bytes=117
+2026-11-12T09:49:53+00:00 RUN restore_003_post_getcap
+2026-11-12T09:49:54+00:00 END restore_003_post_getcap rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_post_chsmack
+2026-11-12T09:49:54+00:00 END restore_003_post_chsmack rc=0 bytes=39
+2026-11-12T09:49:54+00:00 RUN restore_003_post_upper
+2026-11-12T09:49:54+00:00 END restore_003_post_upper rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_chown
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_chmod
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_sha
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_before_xattr_restore_sha rc=0 bytes=94
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_stat
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_before_xattr_restore_stat rc=0 bytes=29
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_before_xattr_restore_xattrs rc=0 bytes=117
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:49:55+00:00 RUN restore_003_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_before_xattr_restore_chsmack rc=0 bytes=39
+2026-11-12T09:49:55+00:00 RUN restore_003_fixattrs_before_xattr_restore_upper
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:49:55+00:00 RUN restore_003_fixattrs_set_security.capability
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_sha
+2026-11-12T09:49:55+00:00 END restore_003_postfix_sha rc=0 bytes=94
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_stat
+2026-11-12T09:49:55+00:00 END restore_003_postfix_stat rc=0 bytes=29
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_xattrs
+2026-11-12T09:49:55+00:00 END restore_003_postfix_xattrs rc=0 bytes=181
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_getcap
+2026-11-12T09:49:55+00:00 END restore_003_postfix_getcap rc=0 bytes=97
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_chsmack
+2026-11-12T09:49:55+00:00 END restore_003_postfix_chsmack rc=0 bytes=39
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_upper
+2026-11-12T09:49:56+00:00 END restore_003_postfix_upper rc=0 bytes=14
+2026-11-12T09:49:56+00:00 WRITE_OK original /usr/bin/amd
+2026-11-12T09:49:56+00:00 RUN restore_004_before_sha
+2026-11-12T09:49:56+00:00 END restore_004_before_sha rc=0 bytes=99
+2026-11-12T09:49:56+00:00 RUN restore_004_before_stat
+2026-11-12T09:49:56+00:00 END restore_004_before_stat rc=0 bytes=29
+2026-11-12T09:49:56+00:00 RUN restore_004_before_xattrs
+2026-11-12T09:49:56+00:00 END restore_004_before_xattrs rc=0 bytes=122
+2026-11-12T09:49:56+00:00 RUN restore_004_before_getcap
+2026-11-12T09:49:56+00:00 END restore_004_before_getcap rc=0 bytes=14
+2026-11-12T09:49:56+00:00 RUN restore_004_before_chsmack
+2026-11-12T09:49:56+00:00 END restore_004_before_chsmack rc=0 bytes=44
+2026-11-12T09:49:56+00:00 RUN restore_004_before_upper
+2026-11-12T09:49:56+00:00 END restore_004_before_upper rc=0 bytes=14
+2026-11-12T09:49:56+00:00 RUN restore_004_stage_sha
+2026-11-12T09:49:56+00:00 END restore_004_stage_sha rc=0 bytes=133
+2026-11-12T09:49:56+00:00 RUN restore_004_copy
+2026-11-12T09:49:57+00:00 END restore_004_copy rc=0 bytes=14
+2026-11-12T09:49:57+00:00 RUN restore_004_post_sha
+2026-11-12T09:49:57+00:00 END restore_004_post_sha rc=0 bytes=99
+2026-11-12T09:49:57+00:00 RUN restore_004_post_stat
+2026-11-12T09:49:57+00:00 END restore_004_post_stat rc=0 bytes=29
+2026-11-12T09:49:57+00:00 RUN restore_004_post_xattrs
+2026-11-12T09:49:57+00:00 END restore_004_post_xattrs rc=0 bytes=122
+2026-11-12T09:49:57+00:00 RUN restore_004_post_getcap
+2026-11-12T09:49:57+00:00 END restore_004_post_getcap rc=0 bytes=14
+2026-11-12T09:49:57+00:00 RUN restore_004_post_chsmack
+2026-11-12T09:49:57+00:00 END restore_004_post_chsmack rc=0 bytes=44
+2026-11-12T09:49:57+00:00 RUN restore_004_post_upper
+2026-11-12T09:49:57+00:00 END restore_004_post_upper rc=0 bytes=14
+2026-11-12T09:49:57+00:00 WRITE_OK original /usr/bin/fastlogo
+2026-11-12T09:49:57+00:00 RUN restore_005_before_sha
+2026-11-12T09:49:57+00:00 END restore_005_before_sha rc=0 bytes=96
+2026-11-12T09:49:57+00:00 RUN restore_005_before_stat
+2026-11-12T09:49:58+00:00 END restore_005_before_stat rc=0 bytes=31
+2026-11-12T09:49:58+00:00 RUN restore_005_before_xattrs
+2026-11-12T09:49:58+00:00 END restore_005_before_xattrs rc=0 bytes=119
+2026-11-12T09:49:58+00:00 RUN restore_005_before_getcap
+2026-11-12T09:49:58+00:00 END restore_005_before_getcap rc=0 bytes=14
+2026-11-12T09:49:58+00:00 RUN restore_005_before_chsmack
+2026-11-12T09:49:58+00:00 END restore_005_before_chsmack rc=0 bytes=41
+2026-11-12T09:49:58+00:00 RUN restore_005_before_upper
+2026-11-12T09:49:58+00:00 END restore_005_before_upper rc=0 bytes=14
+2026-11-12T09:49:58+00:00 RUN restore_005_stage_sha
+2026-11-12T09:49:58+00:00 END restore_005_stage_sha rc=0 bytes=130
+2026-11-12T09:49:58+00:00 RUN restore_005_copy
+2026-11-12T09:49:58+00:00 END restore_005_copy rc=0 bytes=14
+2026-11-12T09:49:58+00:00 RUN restore_005_post_sha
+2026-11-12T09:49:58+00:00 END restore_005_post_sha rc=0 bytes=96
+2026-11-12T09:49:58+00:00 RUN restore_005_post_stat
+2026-11-12T09:49:59+00:00 END restore_005_post_stat rc=0 bytes=31
+2026-11-12T09:49:59+00:00 RUN restore_005_post_xattrs
+2026-11-12T09:49:59+00:00 END restore_005_post_xattrs rc=0 bytes=119
+2026-11-12T09:49:59+00:00 RUN restore_005_post_getcap
+2026-11-12T09:49:59+00:00 END restore_005_post_getcap rc=0 bytes=14
+2026-11-12T09:49:59+00:00 RUN restore_005_post_chsmack
+2026-11-12T09:49:59+00:00 END restore_005_post_chsmack rc=0 bytes=41
+2026-11-12T09:49:59+00:00 RUN restore_005_post_upper
+2026-11-12T09:49:59+00:00 END restore_005_post_upper rc=0 bytes=14
+2026-11-12T09:49:59+00:00 WRITE_OK original /usr/bin/avocd
+2026-11-12T09:49:59+00:00 RUN restore_006_before_sha
+2026-11-12T09:49:59+00:00 END restore_006_before_sha rc=0 bytes=99
+2026-11-12T09:49:59+00:00 RUN restore_006_before_stat
+2026-11-12T09:49:59+00:00 END restore_006_before_stat rc=0 bytes=29
+2026-11-12T09:49:59+00:00 RUN restore_006_before_xattrs
+2026-11-12T09:49:59+00:00 END restore_006_before_xattrs rc=0 bytes=122
+2026-11-12T09:49:59+00:00 RUN restore_006_before_getcap
+2026-11-12T09:50:00+00:00 END restore_006_before_getcap rc=0 bytes=14
+2026-11-12T09:50:00+00:00 RUN restore_006_before_chsmack
+2026-11-12T09:50:00+00:00 END restore_006_before_chsmack rc=0 bytes=44
+2026-11-12T09:50:00+00:00 RUN restore_006_before_upper
+2026-11-12T09:50:00+00:00 END restore_006_before_upper rc=0 bytes=14
+2026-11-12T09:50:00+00:00 RUN restore_006_stage_sha
+2026-11-12T09:50:00+00:00 END restore_006_stage_sha rc=0 bytes=133
+2026-11-12T09:50:00+00:00 RUN restore_006_copy
+2026-11-12T09:50:00+00:00 END restore_006_copy rc=0 bytes=14
+2026-11-12T09:50:00+00:00 RUN restore_006_post_sha
+2026-11-12T09:50:00+00:00 END restore_006_post_sha rc=0 bytes=99
+2026-11-12T09:50:00+00:00 RUN restore_006_post_stat
+2026-11-12T09:50:00+00:00 END restore_006_post_stat rc=0 bytes=29
+2026-11-12T09:50:00+00:00 RUN restore_006_post_xattrs
+2026-11-12T09:50:00+00:00 END restore_006_post_xattrs rc=0 bytes=122
+2026-11-12T09:50:00+00:00 RUN restore_006_post_getcap
+2026-11-12T09:50:01+00:00 END restore_006_post_getcap rc=0 bytes=14
+2026-11-12T09:50:01+00:00 RUN restore_006_post_chsmack
+2026-11-12T09:50:01+00:00 END restore_006_post_chsmack rc=0 bytes=44
+2026-11-12T09:50:01+00:00 RUN restore_006_post_upper
+2026-11-12T09:50:01+00:00 END restore_006_post_upper rc=0 bytes=14
+2026-11-12T09:50:01+00:00 WRITE_OK original /usr/bin/fastinit
+2026-11-12T09:50:01+00:00 RUN restore_007_before_sha
+2026-11-12T09:50:01+00:00 END restore_007_before_sha rc=0 bytes=107
+2026-11-12T09:50:01+00:00 RUN restore_007_before_stat
+2026-11-12T09:50:01+00:00 END restore_007_before_stat rc=0 bytes=29
+2026-11-12T09:50:01+00:00 RUN restore_007_before_xattrs
+2026-11-12T09:50:01+00:00 END restore_007_before_xattrs rc=0 bytes=130
+2026-11-12T09:50:01+00:00 RUN restore_007_before_getcap
+2026-11-12T09:50:01+00:00 END restore_007_before_getcap rc=0 bytes=14
+2026-11-12T09:50:01+00:00 RUN restore_007_before_chsmack
+2026-11-12T09:50:01+00:00 END restore_007_before_chsmack rc=0 bytes=52
+2026-11-12T09:50:01+00:00 RUN restore_007_before_upper
+2026-11-12T09:50:02+00:00 END restore_007_before_upper rc=0 bytes=14
+2026-11-12T09:50:02+00:00 RUN restore_007_stage_sha
+2026-11-12T09:50:02+00:00 END restore_007_stage_sha rc=0 bytes=141
+2026-11-12T09:50:02+00:00 RUN restore_007_copy
+2026-11-12T09:50:02+00:00 END restore_007_copy rc=0 bytes=14
+2026-11-12T09:50:02+00:00 RUN restore_007_post_sha
+2026-11-12T09:50:02+00:00 END restore_007_post_sha rc=0 bytes=107
+2026-11-12T09:50:02+00:00 RUN restore_007_post_stat
+2026-11-12T09:50:02+00:00 END restore_007_post_stat rc=0 bytes=29
+2026-11-12T09:50:02+00:00 RUN restore_007_post_xattrs
+2026-11-12T09:50:02+00:00 END restore_007_post_xattrs rc=0 bytes=130
+2026-11-12T09:50:02+00:00 RUN restore_007_post_getcap
+2026-11-12T09:50:02+00:00 END restore_007_post_getcap rc=0 bytes=14
+2026-11-12T09:50:02+00:00 RUN restore_007_post_chsmack
+2026-11-12T09:50:02+00:00 END restore_007_post_chsmack rc=0 bytes=52
+2026-11-12T09:50:02+00:00 RUN restore_007_post_upper
+2026-11-12T09:50:03+00:00 END restore_007_post_upper rc=0 bytes=14
+2026-11-12T09:50:03+00:00 WRITE_OK original /usr/bin/app-boot-manager
+2026-11-12T09:50:03+00:00 RUN restore_008_before_sha
+2026-11-12T09:50:03+00:00 END restore_008_before_sha rc=0 bytes=101
+2026-11-12T09:50:03+00:00 RUN restore_008_before_stat
+2026-11-12T09:50:03+00:00 END restore_008_before_stat rc=0 bytes=30
+2026-11-12T09:50:03+00:00 RUN restore_008_before_xattrs
+2026-11-12T09:50:03+00:00 END restore_008_before_xattrs rc=0 bytes=124
+2026-11-12T09:50:03+00:00 RUN restore_008_before_getcap
+2026-11-12T09:50:03+00:00 END restore_008_before_getcap rc=0 bytes=14
+2026-11-12T09:50:03+00:00 RUN restore_008_before_chsmack
+2026-11-12T09:50:03+00:00 END restore_008_before_chsmack rc=0 bytes=46
+2026-11-12T09:50:03+00:00 RUN restore_008_before_upper
+2026-11-12T09:50:03+00:00 END restore_008_before_upper rc=0 bytes=14
+2026-11-12T09:50:03+00:00 RUN restore_008_stage_sha
+2026-11-12T09:50:03+00:00 END restore_008_stage_sha rc=0 bytes=135
+2026-11-12T09:50:03+00:00 RUN restore_008_copy
+2026-11-12T09:50:04+00:00 END restore_008_copy rc=0 bytes=14
+2026-11-12T09:50:04+00:00 RUN restore_008_post_sha
+2026-11-12T09:50:04+00:00 END restore_008_post_sha rc=0 bytes=101
+2026-11-12T09:50:04+00:00 RUN restore_008_post_stat
+2026-11-12T09:50:04+00:00 END restore_008_post_stat rc=0 bytes=30
+2026-11-12T09:50:04+00:00 RUN restore_008_post_xattrs
+2026-11-12T09:50:04+00:00 END restore_008_post_xattrs rc=0 bytes=124
+2026-11-12T09:50:04+00:00 RUN restore_008_post_getcap
+2026-11-12T09:50:04+00:00 END restore_008_post_getcap rc=0 bytes=14
+2026-11-12T09:50:04+00:00 RUN restore_008_post_chsmack
+2026-11-12T09:50:04+00:00 END restore_008_post_chsmack rc=0 bytes=46
+2026-11-12T09:50:04+00:00 RUN restore_008_post_upper
+2026-11-12T09:50:04+00:00 END restore_008_post_upper rc=0 bytes=14
+2026-11-12T09:50:04+00:00 WRITE_OK original /usr/bin/tvs-daemon
+2026-11-12T09:50:04+00:00 RUN write_root_off
+2026-11-12T09:50:04+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:50:04+00:00 RUN write_sdk_uid
+2026-11-12T09:50:04+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:50:13+00:00 RUN recovery_precheck_root_on
+2026-11-12T09:50:13+00:00 END recovery_precheck_root_on rc=0 bytes=32
+2026-11-12T09:50:13+00:00 RUN recovery_precheck_uid
+2026-11-12T09:50:13+00:00 END recovery_precheck_uid rc=0 bytes=17
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_sha
+2026-11-12T09:50:13+00:00 END recovery_verify_001_sha rc=0 bytes=101
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_stat
+2026-11-12T09:50:13+00:00 END recovery_verify_001_stat rc=0 bytes=30
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_xattrs
+2026-11-12T09:50:13+00:00 END recovery_verify_001_xattrs rc=0 bytes=124
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_getcap
+2026-11-12T09:50:13+00:00 END recovery_verify_001_getcap rc=0 bytes=14
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_chsmack
+2026-11-12T09:50:13+00:00 END recovery_verify_001_chsmack rc=0 bytes=46
+2026-11-12T09:50:13+00:00 RUN recovery_verify_001_upper
+2026-11-12T09:50:13+00:00 END recovery_verify_001_upper rc=0 bytes=14
+2026-11-12T09:50:13+00:00 RUN recovery_verify_002_sha
+2026-11-12T09:50:14+00:00 END recovery_verify_002_sha rc=0 bytes=107
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_stat
+2026-11-12T09:50:14+00:00 END recovery_verify_002_stat rc=0 bytes=29
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_xattrs
+2026-11-12T09:50:14+00:00 END recovery_verify_002_xattrs rc=0 bytes=130
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_getcap
+2026-11-12T09:50:14+00:00 END recovery_verify_002_getcap rc=0 bytes=14
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_chsmack
+2026-11-12T09:50:14+00:00 END recovery_verify_002_chsmack rc=0 bytes=52
+2026-11-12T09:50:14+00:00 RUN recovery_verify_002_upper
+2026-11-12T09:50:14+00:00 END recovery_verify_002_upper rc=0 bytes=14
+2026-11-12T09:50:14+00:00 RUN recovery_verify_003_sha
+2026-11-12T09:50:14+00:00 END recovery_verify_003_sha rc=0 bytes=99
+2026-11-12T09:50:14+00:00 RUN recovery_verify_003_stat
+2026-11-12T09:50:14+00:00 END recovery_verify_003_stat rc=0 bytes=29
+2026-11-12T09:50:14+00:00 RUN recovery_verify_003_xattrs
+2026-11-12T09:50:15+00:00 END recovery_verify_003_xattrs rc=0 bytes=122
+2026-11-12T09:50:15+00:00 RUN recovery_verify_003_getcap
+2026-11-12T09:50:15+00:00 END recovery_verify_003_getcap rc=0 bytes=14
+2026-11-12T09:50:15+00:00 RUN recovery_verify_003_chsmack
+2026-11-12T09:50:15+00:00 END recovery_verify_003_chsmack rc=0 bytes=44
+2026-11-12T09:50:15+00:00 RUN recovery_verify_003_upper
+2026-11-12T09:50:15+00:00 END recovery_verify_003_upper rc=0 bytes=14
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_sha
+2026-11-12T09:50:15+00:00 END recovery_verify_004_sha rc=0 bytes=96
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_stat
+2026-11-12T09:50:15+00:00 END recovery_verify_004_stat rc=0 bytes=31
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_xattrs
+2026-11-12T09:50:15+00:00 END recovery_verify_004_xattrs rc=0 bytes=119
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_getcap
+2026-11-12T09:50:15+00:00 END recovery_verify_004_getcap rc=0 bytes=14
+2026-11-12T09:50:15+00:00 RUN recovery_verify_004_chsmack
+2026-11-12T09:50:16+00:00 END recovery_verify_004_chsmack rc=0 bytes=41
+2026-11-12T09:50:16+00:00 RUN recovery_verify_004_upper
+2026-11-12T09:50:16+00:00 END recovery_verify_004_upper rc=0 bytes=14
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_sha
+2026-11-12T09:50:16+00:00 END recovery_verify_005_sha rc=0 bytes=99
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_stat
+2026-11-12T09:50:16+00:00 END recovery_verify_005_stat rc=0 bytes=29
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_xattrs
+2026-11-12T09:50:16+00:00 END recovery_verify_005_xattrs rc=0 bytes=122
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_getcap
+2026-11-12T09:50:16+00:00 END recovery_verify_005_getcap rc=0 bytes=14
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_chsmack
+2026-11-12T09:50:16+00:00 END recovery_verify_005_chsmack rc=0 bytes=44
+2026-11-12T09:50:16+00:00 RUN recovery_verify_005_upper
+2026-11-12T09:50:16+00:00 END recovery_verify_005_upper rc=0 bytes=14
+2026-11-12T09:50:16+00:00 RUN recovery_verify_006_sha
+2026-11-12T09:50:16+00:00 END recovery_verify_006_sha rc=0 bytes=94
+2026-11-12T09:50:16+00:00 RUN recovery_verify_006_stat
+2026-11-12T09:50:17+00:00 END recovery_verify_006_stat rc=0 bytes=29
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_xattrs
+2026-11-12T09:50:17+00:00 END recovery_verify_006_xattrs rc=0 bytes=181
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_getcap
+2026-11-12T09:50:17+00:00 END recovery_verify_006_getcap rc=0 bytes=97
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_chsmack
+2026-11-12T09:50:17+00:00 END recovery_verify_006_chsmack rc=0 bytes=39
+2026-11-12T09:50:17+00:00 RUN recovery_verify_006_upper
+2026-11-12T09:50:17+00:00 END recovery_verify_006_upper rc=0 bytes=14
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_sha
+2026-11-12T09:50:17+00:00 END recovery_verify_007_sha rc=0 bytes=100
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_stat
+2026-11-12T09:50:17+00:00 END recovery_verify_007_stat rc=0 bytes=30
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_xattrs
+2026-11-12T09:50:17+00:00 END recovery_verify_007_xattrs rc=0 bytes=123
+2026-11-12T09:50:17+00:00 RUN recovery_verify_007_getcap
+2026-11-12T09:50:18+00:00 END recovery_verify_007_getcap rc=0 bytes=14
+2026-11-12T09:50:18+00:00 RUN recovery_verify_007_chsmack
+2026-11-12T09:50:18+00:00 END recovery_verify_007_chsmack rc=0 bytes=45
+2026-11-12T09:50:18+00:00 RUN recovery_verify_007_upper
+2026-11-12T09:50:18+00:00 END recovery_verify_007_upper rc=0 bytes=14
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_sha
+2026-11-12T09:50:18+00:00 END recovery_verify_008_sha rc=0 bytes=125
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_stat
+2026-11-12T09:50:18+00:00 END recovery_verify_008_stat rc=0 bytes=33
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_xattrs
+2026-11-12T09:50:18+00:00 END recovery_verify_008_xattrs rc=0 bytes=214
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_getcap
+2026-11-12T09:50:18+00:00 END recovery_verify_008_getcap rc=0 bytes=14
+2026-11-12T09:50:18+00:00 RUN recovery_verify_008_chsmack
+2026-11-12T09:50:19+00:00 END recovery_verify_008_chsmack rc=0 bytes=103
+2026-11-12T09:50:19+00:00 RUN recovery_verify_008_upper
+2026-11-12T09:50:19+00:00 END recovery_verify_008_upper rc=0 bytes=14
+2026-11-12T09:50:19+00:00 RUN recovery_precheck_root_off
+2026-11-12T09:50:19+00:00 END recovery_precheck_root_off rc=0 bytes=36
+2026-11-12T09:50:19+00:00 RUN recovery_precheck_sdk_uid
+2026-11-12T09:50:19+00:00 END recovery_precheck_sdk_uid rc=0 bytes=20
+2026-11-12T09:50:19+00:00 ERROR RuntimeError('1 files differ from originals')
+2026-11-12T09:50:43+00:00 RUN recovery_precheck_root_on
+2026-11-12T09:50:43+00:00 END recovery_precheck_root_on rc=0 bytes=32
+2026-11-12T09:50:43+00:00 RUN recovery_precheck_uid
+2026-11-12T09:50:43+00:00 END recovery_precheck_uid rc=0 bytes=17
+2026-11-12T09:50:43+00:00 RUN recovery_verify_001_sha
+2026-11-12T09:50:43+00:00 END recovery_verify_001_sha rc=0 bytes=101
+2026-11-12T09:50:43+00:00 RUN recovery_verify_001_stat
+2026-11-12T09:50:43+00:00 END recovery_verify_001_stat rc=0 bytes=30
+2026-11-12T09:50:43+00:00 RUN recovery_verify_001_xattrs
+2026-11-12T09:50:43+00:00 END recovery_verify_001_xattrs rc=0 bytes=124
+2026-11-12T09:50:43+00:00 RUN recovery_verify_001_getcap
+2026-11-12T09:50:43+00:00 END recovery_verify_001_getcap rc=0 bytes=14
+2026-11-12T09:50:43+00:00 RUN recovery_verify_001_chsmack
+2026-11-12T09:50:43+00:00 END recovery_verify_001_chsmack rc=0 bytes=46
+2026-11-12T09:50:43+00:00 RUN recovery_verify_001_upper
+2026-11-12T09:50:44+00:00 END recovery_verify_001_upper rc=0 bytes=14
+2026-11-12T09:50:44+00:00 RUN recovery_verify_002_sha
+2026-11-12T09:50:44+00:00 END recovery_verify_002_sha rc=0 bytes=107
+2026-11-12T09:50:44+00:00 RUN recovery_verify_002_stat
+2026-11-12T09:50:44+00:00 END recovery_verify_002_stat rc=0 bytes=29
+2026-11-12T09:50:44+00:00 RUN recovery_verify_002_xattrs
+2026-11-12T09:50:44+00:00 END recovery_verify_002_xattrs rc=0 bytes=130
+2026-11-12T09:50:44+00:00 RUN recovery_verify_002_getcap
+2026-11-12T09:50:44+00:00 END recovery_verify_002_getcap rc=0 bytes=14
+2026-11-12T09:50:44+00:00 RUN recovery_verify_002_chsmack
+2026-11-12T09:50:44+00:00 END recovery_verify_002_chsmack rc=0 bytes=52
+2026-11-12T09:50:44+00:00 RUN recovery_verify_002_upper
+2026-11-12T09:50:44+00:00 END recovery_verify_002_upper rc=0 bytes=14
+2026-11-12T09:50:44+00:00 RUN recovery_verify_003_sha
+2026-11-12T09:50:44+00:00 END recovery_verify_003_sha rc=0 bytes=99
+2026-11-12T09:50:44+00:00 RUN recovery_verify_003_stat
+2026-11-12T09:50:45+00:00 END recovery_verify_003_stat rc=0 bytes=29
+2026-11-12T09:50:45+00:00 RUN recovery_verify_003_xattrs
+2026-11-12T09:50:45+00:00 END recovery_verify_003_xattrs rc=0 bytes=122
+2026-11-12T09:50:45+00:00 RUN recovery_verify_003_getcap
+2026-11-12T09:50:45+00:00 END recovery_verify_003_getcap rc=0 bytes=14
+2026-11-12T09:50:45+00:00 RUN recovery_verify_003_chsmack
+2026-11-12T09:50:45+00:00 END recovery_verify_003_chsmack rc=0 bytes=44
+2026-11-12T09:50:45+00:00 RUN recovery_verify_003_upper
+2026-11-12T09:50:45+00:00 END recovery_verify_003_upper rc=0 bytes=14
+2026-11-12T09:50:45+00:00 RUN recovery_verify_004_sha
+2026-11-12T09:50:45+00:00 END recovery_verify_004_sha rc=0 bytes=96
+2026-11-12T09:50:45+00:00 RUN recovery_verify_004_stat
+2026-11-12T09:50:45+00:00 END recovery_verify_004_stat rc=0 bytes=31
+2026-11-12T09:50:45+00:00 RUN recovery_verify_004_xattrs
+2026-11-12T09:50:45+00:00 END recovery_verify_004_xattrs rc=0 bytes=119
+2026-11-12T09:50:45+00:00 RUN recovery_verify_004_getcap
+2026-11-12T09:50:46+00:00 END recovery_verify_004_getcap rc=0 bytes=14
+2026-11-12T09:50:46+00:00 RUN recovery_verify_004_chsmack
+2026-11-12T09:50:46+00:00 END recovery_verify_004_chsmack rc=0 bytes=41
+2026-11-12T09:50:46+00:00 RUN recovery_verify_004_upper
+2026-11-12T09:50:46+00:00 END recovery_verify_004_upper rc=0 bytes=14
+2026-11-12T09:50:46+00:00 RUN recovery_verify_005_sha
+2026-11-12T09:50:46+00:00 END recovery_verify_005_sha rc=0 bytes=99
+2026-11-12T09:50:46+00:00 RUN recovery_verify_005_stat
+2026-11-12T09:50:46+00:00 END recovery_verify_005_stat rc=0 bytes=29
+2026-11-12T09:50:46+00:00 RUN recovery_verify_005_xattrs
+2026-11-12T09:50:46+00:00 END recovery_verify_005_xattrs rc=0 bytes=122
+2026-11-12T09:50:46+00:00 RUN recovery_verify_005_getcap
+2026-11-12T09:50:46+00:00 END recovery_verify_005_getcap rc=0 bytes=14
+2026-11-12T09:50:46+00:00 RUN recovery_verify_005_chsmack
+2026-11-12T09:50:46+00:00 END recovery_verify_005_chsmack rc=0 bytes=44
+2026-11-12T09:50:46+00:00 RUN recovery_verify_005_upper
+2026-11-12T09:50:47+00:00 END recovery_verify_005_upper rc=0 bytes=14
+2026-11-12T09:50:47+00:00 RUN recovery_verify_006_sha
+2026-11-12T09:50:47+00:00 END recovery_verify_006_sha rc=0 bytes=94
+2026-11-12T09:50:47+00:00 RUN recovery_verify_006_stat
+2026-11-12T09:50:47+00:00 END recovery_verify_006_stat rc=0 bytes=29
+2026-11-12T09:50:47+00:00 RUN recovery_verify_006_xattrs
+2026-11-12T09:50:47+00:00 END recovery_verify_006_xattrs rc=0 bytes=181
+2026-11-12T09:50:47+00:00 RUN recovery_verify_006_getcap
+2026-11-12T09:50:47+00:00 END recovery_verify_006_getcap rc=0 bytes=97
+2026-11-12T09:50:47+00:00 RUN recovery_verify_006_chsmack
+2026-11-12T09:50:47+00:00 END recovery_verify_006_chsmack rc=0 bytes=39
+2026-11-12T09:50:47+00:00 RUN recovery_verify_006_upper
+2026-11-12T09:50:47+00:00 END recovery_verify_006_upper rc=0 bytes=14
+2026-11-12T09:50:47+00:00 RUN recovery_verify_007_sha
+2026-11-12T09:50:47+00:00 END recovery_verify_007_sha rc=0 bytes=100
+2026-11-12T09:50:47+00:00 RUN recovery_verify_007_stat
+2026-11-12T09:50:48+00:00 END recovery_verify_007_stat rc=0 bytes=30
+2026-11-12T09:50:48+00:00 RUN recovery_verify_007_xattrs
+2026-11-12T09:50:48+00:00 END recovery_verify_007_xattrs rc=0 bytes=123
+2026-11-12T09:50:48+00:00 RUN recovery_verify_007_getcap
+2026-11-12T09:50:48+00:00 END recovery_verify_007_getcap rc=0 bytes=14
+2026-11-12T09:50:48+00:00 RUN recovery_verify_007_chsmack
+2026-11-12T09:50:48+00:00 END recovery_verify_007_chsmack rc=0 bytes=45
+2026-11-12T09:50:48+00:00 RUN recovery_verify_007_upper
+2026-11-12T09:50:48+00:00 END recovery_verify_007_upper rc=0 bytes=14
+2026-11-12T09:50:48+00:00 RUN recovery_verify_008_sha
+2026-11-12T09:50:48+00:00 END recovery_verify_008_sha rc=0 bytes=125
+2026-11-12T09:50:48+00:00 RUN recovery_verify_008_stat
+2026-11-12T09:50:48+00:00 END recovery_verify_008_stat rc=0 bytes=33
+2026-11-12T09:50:48+00:00 RUN recovery_verify_008_xattrs
+2026-11-12T09:50:49+00:00 END recovery_verify_008_xattrs rc=0 bytes=214
+2026-11-12T09:50:49+00:00 RUN recovery_verify_008_getcap
+2026-11-12T09:50:49+00:00 END recovery_verify_008_getcap rc=0 bytes=14
+2026-11-12T09:50:49+00:00 RUN recovery_verify_008_chsmack
+2026-11-12T09:50:49+00:00 END recovery_verify_008_chsmack rc=0 bytes=103
+2026-11-12T09:50:49+00:00 RUN recovery_verify_008_upper
+2026-11-12T09:50:49+00:00 END recovery_verify_008_upper rc=0 bytes=14
+2026-11-12T09:50:49+00:00 RUN overlay_before_recovery_reboot
+2026-11-12T09:50:49+00:00 END overlay_before_recovery_reboot rc=0 bytes=5002
+2026-11-12T09:50:49+00:00 RUN recovery_precheck_root_off
+2026-11-12T09:50:49+00:00 END recovery_precheck_root_off rc=0 bytes=36
+2026-11-12T09:50:49+00:00 RUN recovery_precheck_sdk_uid
+2026-11-12T09:50:49+00:00 END recovery_precheck_sdk_uid rc=0 bytes=20
+2026-11-12T09:50:49+00:00 RUN recovery_before_arch
+2026-11-12T09:50:49+00:00 END recovery_before_arch rc=0 bytes=22
+2026-11-12T09:50:49+00:00 RUN recovery_before_model
+2026-11-12T09:50:49+00:00 END recovery_before_model rc=0 bytes=31
+2026-11-12T09:50:49+00:00 RUN recovery_before_cmdline
+2026-11-12T09:50:50+00:00 END recovery_before_cmdline rc=0 bytes=1479
+2026-11-12T09:50:50+00:00 RUN recovery_before_version
+2026-11-12T09:50:50+00:00 END recovery_before_version rc=0 bytes=172
+2026-11-12T09:50:50+00:00 RUN recovery_before_build
+2026-11-12T09:50:50+00:00 END recovery_before_build rc=0 bytes=51
+2026-11-12T09:50:50+00:00 RUN recovery_before_boot_id
+2026-11-12T09:50:50+00:00 END recovery_before_boot_id rc=0 bytes=52
+2026-11-12T09:50:50+00:00 RUN recovery_before_uptime
+2026-11-12T09:50:50+00:00 END recovery_before_uptime rc=0 bytes=30
+2026-11-12T09:50:50+00:00 RUN recovery_before_reboot_root_on
+2026-11-12T09:50:50+00:00 END recovery_before_reboot_root_on rc=0 bytes=32
+2026-11-12T09:50:50+00:00 RUN recovery_before_reboot_uid
+2026-11-12T09:50:50+00:00 END recovery_before_reboot_uid rc=0 bytes=17
+2026-11-12T09:50:50+00:00 RUN recovery_reboot
+2026-11-12T09:51:01+00:00 END recovery_reboot rc=0 bytes=12
+2026-11-12T09:51:01+00:00 recovery reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T09:51:16+00:00 RUN recovery_connect_01
+2026-11-12T09:51:19+00:00 END recovery_connect_01 rc=1 bytes=81
+2026-11-12T09:51:34+00:00 RUN recovery_connect_02
+2026-11-12T09:51:34+00:00 END recovery_connect_02 rc=0 bytes=42
+2026-11-12T09:51:34+00:00 RUN recovery_boot_probe_02
+2026-11-12T09:51:34+00:00 END recovery_boot_probe_02 rc=0 bytes=52
+2026-11-12T09:51:34+00:00 RUN recovery_after_arch
+2026-11-12T09:51:34+00:00 END recovery_after_arch rc=0 bytes=22
+2026-11-12T09:51:34+00:00 RUN recovery_after_model
+2026-11-12T09:51:34+00:00 END recovery_after_model rc=0 bytes=31
+2026-11-12T09:51:34+00:00 RUN recovery_after_cmdline
+2026-11-12T09:51:35+00:00 END recovery_after_cmdline rc=0 bytes=1479
+2026-11-12T09:51:35+00:00 RUN recovery_after_version
+2026-11-12T09:51:35+00:00 END recovery_after_version rc=0 bytes=172
+2026-11-12T09:51:35+00:00 RUN recovery_after_build
+2026-11-12T09:51:35+00:00 END recovery_after_build rc=0 bytes=51
+2026-11-12T09:51:35+00:00 RUN recovery_after_boot_id
+2026-11-12T09:51:35+00:00 END recovery_after_boot_id rc=0 bytes=52
+2026-11-12T09:51:35+00:00 RUN recovery_after_uptime
+2026-11-12T09:51:35+00:00 END recovery_after_uptime rc=0 bytes=26
+2026-11-12T09:51:35+00:00 recovery RECONNECTED new boot ID=aa23f45e-f3da-489e-9c65-37987f36d762
+2026-11-12T09:51:35+00:00 RUN recovery_postboot_root_on
+2026-11-12T09:51:35+00:00 END recovery_postboot_root_on rc=0 bytes=32
+2026-11-12T09:51:35+00:00 RUN recovery_postboot_uid
+2026-11-12T09:51:36+00:00 END recovery_postboot_uid rc=0 bytes=17
+2026-11-12T09:51:36+00:00 RUN recovery_uptime_01
+2026-11-12T09:51:36+00:00 END recovery_uptime_01 rc=0 bytes=18
+2026-11-12T09:51:36+00:00 RUN recovery_ps_01
+2026-11-12T09:51:36+00:00 END recovery_ps_01 rc=0 bytes=18309
+2026-11-12T09:51:36+00:00 recovery health wait uptime=35 missing=['acm-service']
+2026-11-12T09:52:06+00:00 RUN recovery_uptime_02
+2026-11-12T09:52:06+00:00 END recovery_uptime_02 rc=0 bytes=18
+2026-11-12T09:52:06+00:00 RUN recovery_ps_02
+2026-11-12T09:52:06+00:00 END recovery_ps_02 rc=0 bytes=18216
+2026-11-12T09:52:06+00:00 recovery health wait uptime=66 missing=['acm-service']
+2026-11-12T09:52:36+00:00 RUN recovery_uptime_03
+2026-11-12T09:52:36+00:00 END recovery_uptime_03 rc=0 bytes=18
+2026-11-12T09:52:36+00:00 RUN recovery_ps_03
+2026-11-12T09:52:37+00:00 END recovery_ps_03 rc=0 bytes=18140
+2026-11-12T09:52:37+00:00 recovery health wait uptime=96 missing=[]
+2026-11-12T09:53:07+00:00 RUN recovery_uptime_04
+2026-11-12T09:53:07+00:00 END recovery_uptime_04 rc=0 bytes=19
+2026-11-12T09:53:07+00:00 RUN recovery_ps_04
+2026-11-12T09:53:07+00:00 END recovery_ps_04 rc=0 bytes=17974
+2026-11-12T09:53:07+00:00 recovery health wait uptime=126 missing=[]
+2026-11-12T09:53:37+00:00 RUN recovery_uptime_05
+2026-11-12T09:53:37+00:00 END recovery_uptime_05 rc=0 bytes=19
+2026-11-12T09:53:37+00:00 RUN recovery_ps_05
+2026-11-12T09:53:37+00:00 END recovery_ps_05 rc=0 bytes=17964
+2026-11-12T09:53:37+00:00 recovery health wait uptime=157 missing=['acm-service']
+2026-11-12T09:54:07+00:00 RUN recovery_uptime_06
+2026-11-12T09:54:07+00:00 END recovery_uptime_06 rc=0 bytes=19
+2026-11-12T09:54:07+00:00 RUN recovery_ps_06
+2026-11-12T09:54:08+00:00 END recovery_ps_06 rc=0 bytes=17943
+2026-11-12T09:54:08+00:00 recovery health wait uptime=187 missing=['acm-service']
+2026-11-12T09:54:38+00:00 RUN recovery_uptime_07
+2026-11-12T09:54:38+00:00 END recovery_uptime_07 rc=0 bytes=19
+2026-11-12T09:54:38+00:00 RUN recovery_ps_07
+2026-11-12T09:54:38+00:00 END recovery_ps_07 rc=0 bytes=18060
+2026-11-12T09:54:38+00:00 RUN recovery_failed_units
+2026-11-12T09:54:38+00:00 END recovery_failed_units rc=0 bytes=501
+2026-11-12T09:54:38+00:00 RUN recovery_amd_activation_units
+2026-11-12T09:54:39+00:00 END recovery_amd_activation_units rc=0 bytes=132
+2026-11-12T09:54:39+00:00 RUN recovery_dmesg
+2026-11-12T09:54:39+00:00 END recovery_dmesg rc=0 bytes=731408
+2026-11-12T09:54:39+00:00 RUN recovery_dlog_main
+2026-11-12T09:54:40+00:00 END recovery_dlog_main rc=0 bytes=1074538
+2026-11-12T09:54:40+00:00 RUN recovery_dlog_system
+2026-11-12T09:54:40+00:00 END recovery_dlog_system rc=0 bytes=341959
+2026-11-12T09:54:40+00:00 recovery HEALTH True uptime=217 missing=[] new_failed=[] refusals=0
+2026-11-12T09:54:40+00:00 RUN recovery_prelink_diag
+2026-11-12T09:54:40+00:00 END recovery_prelink_diag rc=0 bytes=24430
+2026-11-12T09:54:40+00:00 recovery PRELINK_DIAG ['      3344:\tprelink checking: ok', '      3344:\tprelink checking: ok']
+2026-11-12T09:54:40+00:00 RUN overlay_after_recovery_reboot
+2026-11-12T09:54:40+00:00 END overlay_after_recovery_reboot rc=0 bytes=5002
+2026-11-12T09:54:40+00:00 RUN recovery_cleanup_stage
+2026-11-12T09:54:41+00:00 END recovery_cleanup_stage rc=0 bytes=14
+2026-11-12T09:54:41+00:00 RUN recovery_cleanup_tools
+2026-11-12T09:54:41+00:00 END recovery_cleanup_tools rc=0 bytes=14
+2026-11-12T09:54:41+00:00 RUN recovery_postboot_root_off
+2026-11-12T09:54:41+00:00 END recovery_postboot_root_off rc=0 bytes=36
+2026-11-12T09:54:41+00:00 RUN recovery_postboot_sdk_uid
+2026-11-12T09:54:41+00:00 END recovery_postboot_sdk_uid rc=0 bytes=20
+2026-11-12T09:55:29+00:00 RUN ownership_root_on
+2026-11-12T09:55:30+00:00 END ownership_root_on rc=0 bytes=32
+2026-11-12T09:55:30+00:00 RUN ownership_pidof_tvs-daemon
+2026-11-12T09:55:30+00:00 END ownership_pidof_tvs-daemon rc=0 bytes=19
+2026-11-12T09:55:30+00:00 RUN ownership_exe_tvs-daemon_695
+2026-11-12T09:55:30+00:00 END ownership_exe_tvs-daemon_695 rc=0 bytes=35
+2026-11-12T09:55:30+00:00 RUN ownership_cgroup_tvs-daemon_695
+2026-11-12T09:55:30+00:00 END ownership_cgroup_tvs-daemon_695 rc=0 bytes=261
+2026-11-12T09:55:30+00:00 RUN ownership_pidof_app-boot-manager
+2026-11-12T09:55:30+00:00 END ownership_pidof_app-boot-manager rc=0 bytes=14
+2026-11-12T09:55:30+00:00 RUN ownership_pidof_fastinit
+2026-11-12T09:55:30+00:00 END ownership_pidof_fastinit rc=0 bytes=14
+2026-11-12T09:55:30+00:00 RUN ownership_pidof_avocd
+2026-11-12T09:55:30+00:00 END ownership_pidof_avocd rc=0 bytes=19
+2026-11-12T09:55:30+00:00 RUN ownership_exe_avocd_853
+2026-11-12T09:55:31+00:00 END ownership_exe_avocd_853 rc=0 bytes=30
+2026-11-12T09:55:31+00:00 RUN ownership_cgroup_avocd_853
+2026-11-12T09:55:31+00:00 END ownership_cgroup_avocd_853 rc=0 bytes=261
+2026-11-12T09:55:31+00:00 RUN ownership_pidof_fastlogo
+2026-11-12T09:55:31+00:00 END ownership_pidof_fastlogo rc=0 bytes=14
+2026-11-12T09:55:31+00:00 RUN ownership_pidof_amd
+2026-11-12T09:55:31+00:00 END ownership_pidof_amd rc=0 bytes=19
+2026-11-12T09:55:31+00:00 RUN ownership_exe_amd_698
+2026-11-12T09:55:31+00:00 END ownership_exe_amd_698 rc=0 bytes=28
+2026-11-12T09:55:31+00:00 RUN ownership_cgroup_amd_698
+2026-11-12T09:55:31+00:00 END ownership_cgroup_amd_698 rc=0 bytes=225
+2026-11-12T09:55:31+00:00 RUN ownership_pidof_fastvideo
+2026-11-12T09:55:32+00:00 END ownership_pidof_fastvideo rc=0 bytes=14
+2026-11-12T09:55:32+00:00 RUN ownership_pidof_tv-viewer
+2026-11-12T09:55:32+00:00 END ownership_pidof_tv-viewer rc=0 bytes=19
+2026-11-12T09:55:32+00:00 RUN ownership_exe_tv-viewer_601
+2026-11-12T09:55:32+00:00 END ownership_exe_tv-viewer_601 rc=0 bytes=59
+2026-11-12T09:55:32+00:00 RUN ownership_cgroup_tv-viewer_601
+2026-11-12T09:55:32+00:00 END ownership_cgroup_tv-viewer_601 rc=0 bytes=180
+2026-11-12T09:55:32+00:00 RUN ownership_pidof_rscmgr-service
+2026-11-12T09:55:32+00:00 END ownership_pidof_rscmgr-service rc=0 bytes=19
+2026-11-12T09:55:32+00:00 RUN ownership_exe_rscmgr-service_683
+2026-11-12T09:55:32+00:00 END ownership_exe_rscmgr-service_683 rc=0 bytes=39
+2026-11-12T09:55:32+00:00 RUN ownership_cgroup_rscmgr-service_683
+2026-11-12T09:55:32+00:00 END ownership_cgroup_rscmgr-service_683 rc=0 bytes=273
+2026-11-12T09:55:32+00:00 RUN ownership_pidof_pulseaudio
+2026-11-12T09:55:33+00:00 END ownership_pidof_pulseaudio rc=0 bytes=20
+2026-11-12T09:55:33+00:00 RUN ownership_exe_pulseaudio_1086
+2026-11-12T09:55:33+00:00 END ownership_exe_pulseaudio_1086 rc=0 bytes=35
+2026-11-12T09:55:33+00:00 RUN ownership_cgroup_pulseaudio_1086
+2026-11-12T09:55:33+00:00 END ownership_cgroup_pulseaudio_1086 rc=0 bytes=249
+2026-11-12T09:55:33+00:00 RUN ownership_pidof_btapp
+2026-11-12T09:55:33+00:00 END ownership_pidof_btapp rc=0 bytes=14
+2026-11-12T09:55:33+00:00 RUN ownership_pidof_hdmicec-service
+2026-11-12T09:55:33+00:00 END ownership_pidof_hdmicec-service rc=0 bytes=14
+2026-11-12T09:55:33+00:00 RUN ownership_pidof_acm-service
+2026-11-12T09:55:33+00:00 END ownership_pidof_acm-service rc=0 bytes=20
+2026-11-12T09:55:33+00:00 RUN ownership_exe_acm-service_3233
+2026-11-12T09:55:33+00:00 END ownership_exe_acm-service_3233 rc=0 bytes=63
+2026-11-12T09:55:33+00:00 RUN ownership_cgroup_acm-service_3233
+2026-11-12T09:55:34+00:00 END ownership_cgroup_acm-service_3233 rc=0 bytes=282
+2026-11-12T09:55:34+00:00 RUN ownership_pidof_launchpad-loader
+2026-11-12T09:55:34+00:00 END ownership_pidof_launchpad-loader rc=0 bytes=19
+2026-11-12T09:55:34+00:00 RUN ownership_exe_launchpad-loader_820
+2026-11-12T09:55:34+00:00 END ownership_exe_launchpad-loader_820 rc=0 bytes=41
+2026-11-12T09:55:34+00:00 RUN ownership_cgroup_launchpad-loader_820
+2026-11-12T09:55:34+00:00 END ownership_cgroup_launchpad-loader_820 rc=0 bytes=176
+2026-11-12T09:55:34+00:00 RUN ownership_pidof_launchpad-process-pool
+2026-11-12T09:55:34+00:00 END ownership_pidof_launchpad-process-pool rc=0 bytes=19
+2026-11-12T09:55:34+00:00 RUN ownership_exe_launchpad-process-pool_269
+2026-11-12T09:55:34+00:00 END ownership_exe_launchpad-process-pool_269 rc=0 bytes=47
+2026-11-12T09:55:34+00:00 RUN ownership_cgroup_launchpad-process-pool_269
+2026-11-12T09:55:34+00:00 END ownership_cgroup_launchpad-process-pool_269 rc=0 bytes=176
+2026-11-12T09:55:34+00:00 RUN ownership_pidof_app_launcher
+2026-11-12T09:55:35+00:00 END ownership_pidof_app_launcher rc=0 bytes=14
+2026-11-12T09:55:35+00:00 RUN ownership_pidof_welcome-mode
+2026-11-12T09:55:35+00:00 END ownership_pidof_welcome-mode rc=0 bytes=14
+2026-11-12T09:55:35+00:00 RUN ownership_root_off
+2026-11-12T09:55:35+00:00 END ownership_root_off rc=0 bytes=36
+2026-11-12T09:55:35+00:00 RUN ownership_sdk_uid
+2026-11-12T09:55:35+00:00 END ownership_sdk_uid rc=0 bytes=20
+2026-11-12T09:56:26+00:00 RUN stage_space_before
+2026-11-12T09:56:27+00:00 END stage_space_before rc=0 bytes=218
+2026-11-12T09:56:27+00:00 PACK 25/434
+2026-11-12T09:56:27+00:00 PACK 50/434
+2026-11-12T09:56:27+00:00 PACK 75/434
+2026-11-12T09:56:27+00:00 PACK 100/434
+2026-11-12T09:56:27+00:00 PACK 125/434
+2026-11-12T09:56:27+00:00 PACK 150/434
+2026-11-12T09:56:27+00:00 PACK 175/434
+2026-11-12T09:56:27+00:00 PACK 200/434
+2026-11-12T09:56:27+00:00 PACK 225/434
+2026-11-12T09:56:27+00:00 PACK 250/434
+2026-11-12T09:56:27+00:00 PACK 275/434
+2026-11-12T09:56:27+00:00 PACK 300/434
+2026-11-12T09:56:27+00:00 PACK 325/434
+2026-11-12T09:56:27+00:00 PACK 350/434
+2026-11-12T09:56:27+00:00 PACK 375/434
+2026-11-12T09:56:27+00:00 PACK 400/434
+2026-11-12T09:56:27+00:00 PACK 425/434
+2026-11-12T09:56:27+00:00 PACK 434/434
+2026-11-12T09:56:29+00:00 RUN stage_root_on
+2026-11-12T09:56:29+00:00 END stage_root_on rc=0 bytes=32
+2026-11-12T09:56:29+00:00 RUN stage_uid
+2026-11-12T09:56:29+00:00 END stage_uid rc=0 bytes=17
+2026-11-12T09:56:29+00:00 RUN stage_absent_prelink_ab_stage
+2026-11-12T09:56:29+00:00 END stage_absent_prelink_ab_stage rc=0 bytes=14
+2026-11-12T09:56:29+00:00 RUN stage_absent_prelink_ab_tools
+2026-11-12T09:56:29+00:00 END stage_absent_prelink_ab_tools rc=0 bytes=14
+2026-11-12T09:56:29+00:00 RUN stage_mkdir
+2026-11-12T09:56:29+00:00 END stage_mkdir rc=0 bytes=14
+2026-11-12T09:56:29+00:00 RUN stage_push_tar
+2026-11-12T09:56:59+00:00 END stage_push_tar rc=0 bytes=2216
+2026-11-12T09:56:59+00:00 RUN stage_tar_sha
+2026-11-12T09:57:05+00:00 END stage_tar_sha rc=0 bytes=119
+2026-11-12T09:57:05+00:00 RUN stage_extract
+2026-11-12T09:57:10+00:00 END stage_extract rc=0 bytes=14
+2026-11-12T09:57:10+00:00 RUN stage_remove_tar
+2026-11-12T09:57:11+00:00 END stage_remove_tar rc=0 bytes=14
+2026-11-12T09:57:11+00:00 RUN stage_push_getfattr
+2026-11-12T09:57:11+00:00 END stage_push_getfattr rc=0 bytes=331
+2026-11-12T09:57:11+00:00 RUN stage_check_getfattr
+2026-11-12T09:57:11+00:00 END stage_check_getfattr rc=0 bytes=30
+2026-11-12T09:57:11+00:00 RUN stage_push_setfattr
+2026-11-12T09:57:12+00:00 END stage_push_setfattr rc=0 bytes=331
+2026-11-12T09:57:12+00:00 RUN stage_check_setfattr
+2026-11-12T09:57:12+00:00 END stage_check_setfattr rc=0 bytes=30
+2026-11-12T09:57:12+00:00 RUN stage_payload_sha
+2026-11-12T09:57:12+00:00 END stage_payload_sha rc=0 bytes=119
+2026-11-12T09:57:12+00:00 RUN stage_space_after
+2026-11-12T09:57:12+00:00 END stage_space_after rc=0 bytes=218
+2026-11-12T09:57:12+00:00 STAGE DONE
+2026-11-12T09:57:12+00:00 RUN stage_root_off
+2026-11-12T09:57:12+00:00 END stage_root_off rc=0 bytes=36
+2026-11-12T09:57:12+00:00 RUN stage_sdk_uid
+2026-11-12T09:57:12+00:00 END stage_sdk_uid rc=0 bytes=20
+2026-11-12T09:57:30+00:00 PHASE_START apply_programs_retry
+2026-11-12T09:57:30+00:00 RUN write_root_on
+2026-11-12T09:57:30+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:57:30+00:00 RUN write_root_uid
+2026-11-12T09:57:30+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:57:30+00:00 RUN write_tools_getfattr_ready
+2026-11-12T09:57:30+00:00 END write_tools_getfattr_ready rc=0 bytes=30
+2026-11-12T09:57:30+00:00 RUN write_tools_setfattr_ready
+2026-11-12T09:57:30+00:00 END write_tools_setfattr_ready rc=0 bytes=30
+2026-11-12T09:57:30+00:00 RUN write_stage_ready
+2026-11-12T09:57:30+00:00 END write_stage_ready rc=0 bytes=14
+2026-11-12T09:57:30+00:00 RUN programs_001_stage_sha
+2026-11-12T09:57:30+00:00 END programs_001_stage_sha rc=0 bytes=131
+2026-11-12T09:57:30+00:00 RUN programs_001_copy
+2026-11-12T09:57:30+00:00 END programs_001_copy rc=0 bytes=60
+2026-11-12T09:57:30+00:00 RUN programs_001_busy_ps
+2026-11-12T09:57:31+00:00 END programs_001_busy_ps rc=0 bytes=243
+2026-11-12T09:57:31+00:00 RUN programs_001_busy_cgroup_695
+2026-11-12T09:57:31+00:00 END programs_001_busy_cgroup_695 rc=0 bytes=261
+2026-11-12T09:57:31+00:00 RUN programs_001_stop_unit_nonblocking
+2026-11-12T09:57:31+00:00 END programs_001_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:57:31+00:00 RUN programs_001_stop_poll_01
+2026-11-12T09:57:31+00:00 END programs_001_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:57:31+00:00 RUN programs_001_copy_after_stop
+2026-11-12T09:57:31+00:00 END programs_001_copy_after_stop rc=0 bytes=14
+2026-11-12T09:57:31+00:00 RUN programs_001_post_sha
+2026-11-12T09:57:31+00:00 END programs_001_post_sha rc=0 bytes=101
+2026-11-12T09:57:31+00:00 RUN programs_001_post_stat
+2026-11-12T09:57:31+00:00 END programs_001_post_stat rc=0 bytes=30
+2026-11-12T09:57:31+00:00 RUN programs_001_post_xattrs
+2026-11-12T09:57:32+00:00 END programs_001_post_xattrs rc=0 bytes=124
+2026-11-12T09:57:32+00:00 RUN programs_001_post_getcap
+2026-11-12T09:57:32+00:00 END programs_001_post_getcap rc=0 bytes=14
+2026-11-12T09:57:32+00:00 RUN programs_001_post_chsmack
+2026-11-12T09:57:32+00:00 END programs_001_post_chsmack rc=0 bytes=46
+2026-11-12T09:57:32+00:00 RUN programs_001_post_upper
+2026-11-12T09:57:32+00:00 END programs_001_post_upper rc=0 bytes=14
+2026-11-12T09:57:32+00:00 WRITE_OK undo /usr/bin/tvs-daemon
+2026-11-12T09:57:32+00:00 RUN programs_002_stage_sha
+2026-11-12T09:57:32+00:00 END programs_002_stage_sha rc=0 bytes=137
+2026-11-12T09:57:32+00:00 RUN programs_002_copy
+2026-11-12T09:57:32+00:00 END programs_002_copy rc=0 bytes=14
+2026-11-12T09:57:32+00:00 RUN programs_002_post_sha
+2026-11-12T09:57:32+00:00 END programs_002_post_sha rc=0 bytes=107
+2026-11-12T09:57:32+00:00 RUN programs_002_post_stat
+2026-11-12T09:57:33+00:00 END programs_002_post_stat rc=0 bytes=29
+2026-11-12T09:57:33+00:00 RUN programs_002_post_xattrs
+2026-11-12T09:57:33+00:00 END programs_002_post_xattrs rc=0 bytes=130
+2026-11-12T09:57:33+00:00 RUN programs_002_post_getcap
+2026-11-12T09:57:33+00:00 END programs_002_post_getcap rc=0 bytes=14
+2026-11-12T09:57:33+00:00 RUN programs_002_post_chsmack
+2026-11-12T09:57:33+00:00 END programs_002_post_chsmack rc=0 bytes=52
+2026-11-12T09:57:33+00:00 RUN programs_002_post_upper
+2026-11-12T09:57:33+00:00 END programs_002_post_upper rc=0 bytes=14
+2026-11-12T09:57:33+00:00 WRITE_OK undo /usr/bin/app-boot-manager
+2026-11-12T09:57:33+00:00 RUN programs_003_stage_sha
+2026-11-12T09:57:33+00:00 END programs_003_stage_sha rc=0 bytes=129
+2026-11-12T09:57:33+00:00 RUN programs_003_copy
+2026-11-12T09:57:33+00:00 END programs_003_copy rc=0 bytes=14
+2026-11-12T09:57:33+00:00 RUN programs_003_post_sha
+2026-11-12T09:57:33+00:00 END programs_003_post_sha rc=0 bytes=99
+2026-11-12T09:57:33+00:00 RUN programs_003_post_stat
+2026-11-12T09:57:34+00:00 END programs_003_post_stat rc=0 bytes=29
+2026-11-12T09:57:34+00:00 RUN programs_003_post_xattrs
+2026-11-12T09:57:34+00:00 END programs_003_post_xattrs rc=0 bytes=122
+2026-11-12T09:57:34+00:00 RUN programs_003_post_getcap
+2026-11-12T09:57:34+00:00 END programs_003_post_getcap rc=0 bytes=14
+2026-11-12T09:57:34+00:00 RUN programs_003_post_chsmack
+2026-11-12T09:57:34+00:00 END programs_003_post_chsmack rc=0 bytes=44
+2026-11-12T09:57:34+00:00 RUN programs_003_post_upper
+2026-11-12T09:57:34+00:00 END programs_003_post_upper rc=0 bytes=14
+2026-11-12T09:57:34+00:00 WRITE_OK undo /usr/bin/fastinit
+2026-11-12T09:57:34+00:00 RUN programs_004_stage_sha
+2026-11-12T09:57:34+00:00 END programs_004_stage_sha rc=0 bytes=126
+2026-11-12T09:57:34+00:00 RUN programs_004_copy
+2026-11-12T09:57:34+00:00 END programs_004_copy rc=0 bytes=55
+2026-11-12T09:57:34+00:00 RUN programs_004_busy_ps
+2026-11-12T09:57:35+00:00 END programs_004_busy_ps rc=0 bytes=231
+2026-11-12T09:57:35+00:00 RUN programs_004_busy_cgroup_853
+2026-11-12T09:57:35+00:00 END programs_004_busy_cgroup_853 rc=0 bytes=261
+2026-11-12T09:57:35+00:00 RUN programs_004_stop_unit_nonblocking
+2026-11-12T09:57:35+00:00 END programs_004_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:57:35+00:00 RUN programs_004_stop_poll_01
+2026-11-12T09:57:35+00:00 END programs_004_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:57:35+00:00 RUN programs_004_copy_after_stop
+2026-11-12T09:57:35+00:00 END programs_004_copy_after_stop rc=0 bytes=14
+2026-11-12T09:57:35+00:00 RUN programs_004_post_sha
+2026-11-12T09:57:35+00:00 END programs_004_post_sha rc=0 bytes=96
+2026-11-12T09:57:35+00:00 RUN programs_004_post_stat
+2026-11-12T09:57:35+00:00 END programs_004_post_stat rc=0 bytes=31
+2026-11-12T09:57:35+00:00 RUN programs_004_post_xattrs
+2026-11-12T09:57:36+00:00 END programs_004_post_xattrs rc=0 bytes=119
+2026-11-12T09:57:36+00:00 RUN programs_004_post_getcap
+2026-11-12T09:57:36+00:00 END programs_004_post_getcap rc=0 bytes=14
+2026-11-12T09:57:36+00:00 RUN programs_004_post_chsmack
+2026-11-12T09:57:36+00:00 END programs_004_post_chsmack rc=0 bytes=41
+2026-11-12T09:57:36+00:00 RUN programs_004_post_upper
+2026-11-12T09:57:36+00:00 END programs_004_post_upper rc=0 bytes=14
+2026-11-12T09:57:36+00:00 WRITE_OK undo /usr/bin/avocd
+2026-11-12T09:57:36+00:00 RUN programs_005_stage_sha
+2026-11-12T09:57:36+00:00 END programs_005_stage_sha rc=0 bytes=129
+2026-11-12T09:57:36+00:00 RUN programs_005_copy
+2026-11-12T09:57:36+00:00 END programs_005_copy rc=0 bytes=14
+2026-11-12T09:57:36+00:00 RUN programs_005_post_sha
+2026-11-12T09:57:36+00:00 END programs_005_post_sha rc=0 bytes=99
+2026-11-12T09:57:36+00:00 RUN programs_005_post_stat
+2026-11-12T09:57:37+00:00 END programs_005_post_stat rc=0 bytes=29
+2026-11-12T09:57:37+00:00 RUN programs_005_post_xattrs
+2026-11-12T09:57:37+00:00 END programs_005_post_xattrs rc=0 bytes=122
+2026-11-12T09:57:37+00:00 RUN programs_005_post_getcap
+2026-11-12T09:57:37+00:00 END programs_005_post_getcap rc=0 bytes=14
+2026-11-12T09:57:37+00:00 RUN programs_005_post_chsmack
+2026-11-12T09:57:37+00:00 END programs_005_post_chsmack rc=0 bytes=44
+2026-11-12T09:57:37+00:00 RUN programs_005_post_upper
+2026-11-12T09:57:37+00:00 END programs_005_post_upper rc=0 bytes=14
+2026-11-12T09:57:37+00:00 WRITE_OK undo /usr/bin/fastlogo
+2026-11-12T09:57:37+00:00 RUN programs_006_stage_sha
+2026-11-12T09:57:37+00:00 END programs_006_stage_sha rc=0 bytes=124
+2026-11-12T09:57:37+00:00 RUN programs_006_copy
+2026-11-12T09:57:37+00:00 END programs_006_copy rc=0 bytes=53
+2026-11-12T09:57:37+00:00 RUN programs_006_busy_ps
+2026-11-12T09:57:37+00:00 END programs_006_busy_ps rc=0 bytes=222
+2026-11-12T09:57:37+00:00 RUN programs_006_busy_cgroup_698
+2026-11-12T09:57:38+00:00 END programs_006_busy_cgroup_698 rc=0 bytes=225
+2026-11-12T09:57:38+00:00 RUN programs_006_stop_unit_nonblocking
+2026-11-12T09:57:38+00:00 END programs_006_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:57:38+00:00 RUN programs_006_stop_poll_01
+2026-11-12T09:57:38+00:00 END programs_006_stop_poll_01 rc=0 bytes=19
+2026-11-12T09:57:43+00:00 RUN programs_006_stop_poll_02
+2026-11-12T09:57:43+00:00 END programs_006_stop_poll_02 rc=0 bytes=19
+2026-11-12T09:57:48+00:00 RUN programs_006_stop_poll_03
+2026-11-12T09:57:48+00:00 END programs_006_stop_poll_03 rc=0 bytes=19
+2026-11-12T09:57:53+00:00 RUN programs_006_stop_poll_04
+2026-11-12T09:57:54+00:00 END programs_006_stop_poll_04 rc=0 bytes=19
+2026-11-12T09:57:59+00:00 RUN programs_006_stop_poll_05
+2026-11-12T09:57:59+00:00 END programs_006_stop_poll_05 rc=0 bytes=14
+2026-11-12T09:57:59+00:00 RUN programs_006_copy_after_stop
+2026-11-12T09:57:59+00:00 END programs_006_copy_after_stop rc=0 bytes=14
+2026-11-12T09:57:59+00:00 RUN programs_006_post_sha
+2026-11-12T09:57:59+00:00 END programs_006_post_sha rc=0 bytes=94
+2026-11-12T09:57:59+00:00 RUN programs_006_post_stat
+2026-11-12T09:57:59+00:00 END programs_006_post_stat rc=0 bytes=28
+2026-11-12T09:57:59+00:00 RUN programs_006_post_xattrs
+2026-11-12T09:57:59+00:00 END programs_006_post_xattrs rc=0 bytes=117
+2026-11-12T09:57:59+00:00 RUN programs_006_post_getcap
+2026-11-12T09:57:59+00:00 END programs_006_post_getcap rc=0 bytes=14
+2026-11-12T09:57:59+00:00 RUN programs_006_post_chsmack
+2026-11-12T09:58:00+00:00 END programs_006_post_chsmack rc=0 bytes=39
+2026-11-12T09:58:00+00:00 RUN programs_006_post_upper
+2026-11-12T09:58:00+00:00 END programs_006_post_upper rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_chown
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_chmod
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_sha
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_sha rc=0 bytes=94
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_stat
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_stat rc=0 bytes=28
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_xattrs rc=0 bytes=117
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:58:01+00:00 END programs_006_fixattrs_before_xattr_restore_chsmack rc=0 bytes=39
+2026-11-12T09:58:01+00:00 RUN programs_006_fixattrs_before_xattr_restore_upper
+2026-11-12T09:58:01+00:00 END programs_006_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:58:01+00:00 RUN programs_006_fixattrs_set_security.capability
+2026-11-12T09:58:01+00:00 END programs_006_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_sha
+2026-11-12T09:58:01+00:00 END programs_006_postfix_sha rc=0 bytes=94
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_stat
+2026-11-12T09:58:01+00:00 END programs_006_postfix_stat rc=0 bytes=28
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_xattrs
+2026-11-12T09:58:01+00:00 END programs_006_postfix_xattrs rc=0 bytes=181
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_getcap
+2026-11-12T09:58:01+00:00 END programs_006_postfix_getcap rc=0 bytes=97
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_chsmack
+2026-11-12T09:58:01+00:00 END programs_006_postfix_chsmack rc=0 bytes=39
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_upper
+2026-11-12T09:58:01+00:00 END programs_006_postfix_upper rc=0 bytes=14
+2026-11-12T09:58:01+00:00 WRITE_OK undo /usr/bin/amd
+2026-11-12T09:58:01+00:00 RUN programs_007_stage_sha
+2026-11-12T09:58:02+00:00 END programs_007_stage_sha rc=0 bytes=130
+2026-11-12T09:58:02+00:00 RUN programs_007_copy
+2026-11-12T09:58:02+00:00 END programs_007_copy rc=0 bytes=14
+2026-11-12T09:58:02+00:00 RUN programs_007_post_sha
+2026-11-12T09:58:02+00:00 END programs_007_post_sha rc=0 bytes=100
+2026-11-12T09:58:02+00:00 RUN programs_007_post_stat
+2026-11-12T09:58:02+00:00 END programs_007_post_stat rc=0 bytes=30
+2026-11-12T09:58:02+00:00 RUN programs_007_post_xattrs
+2026-11-12T09:58:02+00:00 END programs_007_post_xattrs rc=0 bytes=123
+2026-11-12T09:58:02+00:00 RUN programs_007_post_getcap
+2026-11-12T09:58:02+00:00 END programs_007_post_getcap rc=0 bytes=14
+2026-11-12T09:58:02+00:00 RUN programs_007_post_chsmack
+2026-11-12T09:58:02+00:00 END programs_007_post_chsmack rc=0 bytes=45
+2026-11-12T09:58:02+00:00 RUN programs_007_post_upper
+2026-11-12T09:58:02+00:00 END programs_007_post_upper rc=0 bytes=14
+2026-11-12T09:58:02+00:00 WRITE_OK undo /usr/bin/fastvideo
+2026-11-12T09:58:02+00:00 RUN programs_008_stage_sha
+2026-11-12T09:58:03+00:00 END programs_008_stage_sha rc=0 bytes=155
+2026-11-12T09:58:03+00:00 RUN programs_008_copy
+2026-11-12T09:58:03+00:00 END programs_008_copy rc=0 bytes=84
+2026-11-12T09:58:03+00:00 RUN programs_008_busy_ps
+2026-11-12T09:58:03+00:00 END programs_008_busy_ps rc=0 bytes=1300
+2026-11-12T09:58:03+00:00 RUN programs_008_busy_cgroup_601
+2026-11-12T09:58:03+00:00 END programs_008_busy_cgroup_601 rc=0 bytes=180
+2026-11-12T09:58:03+00:00 RUN programs_008_app_exe_601
+2026-11-12T09:58:03+00:00 END programs_008_app_exe_601 rc=0 bytes=59
+2026-11-12T09:58:03+00:00 RUN programs_008_app_term_601
+2026-11-12T09:58:03+00:00 END programs_008_app_term_601 rc=0 bytes=14
+2026-11-12T09:58:03+00:00 RUN programs_008_app_poll_01
+2026-11-12T09:58:04+00:00 END programs_008_app_poll_01 rc=0 bytes=19
+2026-11-12T09:58:09+00:00 RUN programs_008_app_poll_02
+2026-11-12T09:58:09+00:00 END programs_008_app_poll_02 rc=0 bytes=14
+2026-11-12T09:58:09+00:00 RUN programs_008_copy_after_app_term
+2026-11-12T09:58:09+00:00 END programs_008_copy_after_app_term rc=0 bytes=14
+2026-11-12T09:58:09+00:00 RUN programs_008_post_sha
+2026-11-12T09:58:09+00:00 END programs_008_post_sha rc=0 bytes=125
+2026-11-12T09:58:09+00:00 RUN programs_008_post_stat
+2026-11-12T09:58:09+00:00 END programs_008_post_stat rc=0 bytes=33
+2026-11-12T09:58:09+00:00 RUN programs_008_post_xattrs
+2026-11-12T09:58:09+00:00 END programs_008_post_xattrs rc=0 bytes=214
+2026-11-12T09:58:09+00:00 RUN programs_008_post_getcap
+2026-11-12T09:58:10+00:00 END programs_008_post_getcap rc=0 bytes=14
+2026-11-12T09:58:10+00:00 RUN programs_008_post_chsmack
+2026-11-12T09:58:10+00:00 END programs_008_post_chsmack rc=0 bytes=103
+2026-11-12T09:58:10+00:00 RUN programs_008_post_upper
+2026-11-12T09:58:10+00:00 END programs_008_post_upper rc=0 bytes=14
+2026-11-12T09:58:10+00:00 WRITE_OK undo /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+2026-11-12T09:58:10+00:00 RUN programs_009_stage_sha
+2026-11-12T09:58:10+00:00 END programs_009_stage_sha rc=0 bytes=135
+2026-11-12T09:58:10+00:00 RUN programs_009_copy
+2026-11-12T09:58:10+00:00 END programs_009_copy rc=0 bytes=64
+2026-11-12T09:58:10+00:00 RUN programs_009_busy_ps
+2026-11-12T09:58:10+00:00 END programs_009_busy_ps rc=0 bytes=255
+2026-11-12T09:58:10+00:00 RUN programs_009_busy_cgroup_683
+2026-11-12T09:58:10+00:00 END programs_009_busy_cgroup_683 rc=0 bytes=273
+2026-11-12T09:58:10+00:00 RUN programs_009_stop_unit_nonblocking
+2026-11-12T09:58:11+00:00 END programs_009_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:58:11+00:00 RUN programs_009_stop_poll_01
+2026-11-12T09:58:11+00:00 END programs_009_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:58:11+00:00 RUN programs_009_copy_after_stop
+2026-11-12T09:58:11+00:00 END programs_009_copy_after_stop rc=0 bytes=14
+2026-11-12T09:58:11+00:00 RUN programs_009_post_sha
+2026-11-12T09:58:11+00:00 END programs_009_post_sha rc=0 bytes=105
+2026-11-12T09:58:11+00:00 RUN programs_009_post_stat
+2026-11-12T09:58:11+00:00 END programs_009_post_stat rc=0 bytes=30
+2026-11-12T09:58:11+00:00 RUN programs_009_post_xattrs
+2026-11-12T09:58:11+00:00 END programs_009_post_xattrs rc=0 bytes=175
+2026-11-12T09:58:11+00:00 RUN programs_009_post_getcap
+2026-11-12T09:58:12+00:00 END programs_009_post_getcap rc=0 bytes=14
+2026-11-12T09:58:12+00:00 RUN programs_009_post_chsmack
+2026-11-12T09:58:12+00:00 END programs_009_post_chsmack rc=0 bytes=72
+2026-11-12T09:58:12+00:00 RUN programs_009_post_upper
+2026-11-12T09:58:12+00:00 END programs_009_post_upper rc=0 bytes=14
+2026-11-12T09:58:12+00:00 WRITE_OK undo /usr/bin/rscmgr-service
+2026-11-12T09:58:12+00:00 RUN programs_010_stage_sha
+2026-11-12T09:58:12+00:00 END programs_010_stage_sha rc=0 bytes=131
+2026-11-12T09:58:12+00:00 RUN programs_010_copy
+2026-11-12T09:58:12+00:00 END programs_010_copy rc=0 bytes=60
+2026-11-12T09:58:12+00:00 RUN programs_010_busy_ps
+2026-11-12T09:58:12+00:00 END programs_010_busy_ps rc=0 bytes=243
+2026-11-12T09:58:12+00:00 RUN programs_010_busy_cgroup_1086
+2026-11-12T09:58:12+00:00 END programs_010_busy_cgroup_1086 rc=0 bytes=249
+2026-11-12T09:58:12+00:00 RUN programs_010_stop_unit_nonblocking
+2026-11-12T09:58:13+00:00 END programs_010_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_stop_poll_01
+2026-11-12T09:58:13+00:00 END programs_010_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_copy_after_stop
+2026-11-12T09:58:13+00:00 END programs_010_copy_after_stop rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_post_sha
+2026-11-12T09:58:13+00:00 END programs_010_post_sha rc=0 bytes=101
+2026-11-12T09:58:13+00:00 RUN programs_010_post_stat
+2026-11-12T09:58:13+00:00 END programs_010_post_stat rc=0 bytes=29
+2026-11-12T09:58:13+00:00 RUN programs_010_post_xattrs
+2026-11-12T09:58:13+00:00 END programs_010_post_xattrs rc=0 bytes=124
+2026-11-12T09:58:13+00:00 RUN programs_010_post_getcap
+2026-11-12T09:58:13+00:00 END programs_010_post_getcap rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_post_chsmack
+2026-11-12T09:58:14+00:00 END programs_010_post_chsmack rc=0 bytes=46
+2026-11-12T09:58:14+00:00 RUN programs_010_post_upper
+2026-11-12T09:58:14+00:00 END programs_010_post_upper rc=0 bytes=14
+2026-11-12T09:58:14+00:00 WRITE_OK undo /usr/bin/pulseaudio
+2026-11-12T09:58:14+00:00 RUN programs_011_stage_sha
+2026-11-12T09:58:14+00:00 END programs_011_stage_sha rc=0 bytes=147
+2026-11-12T09:58:14+00:00 RUN programs_011_copy
+2026-11-12T09:58:14+00:00 END programs_011_copy rc=0 bytes=14
+2026-11-12T09:58:14+00:00 RUN programs_011_post_sha
+2026-11-12T09:58:14+00:00 END programs_011_post_sha rc=0 bytes=117
+2026-11-12T09:58:14+00:00 RUN programs_011_post_stat
+2026-11-12T09:58:14+00:00 END programs_011_post_stat rc=0 bytes=32
+2026-11-12T09:58:14+00:00 RUN programs_011_post_xattrs
+2026-11-12T09:58:14+00:00 END programs_011_post_xattrs rc=0 bytes=198
+2026-11-12T09:58:14+00:00 RUN programs_011_post_getcap
+2026-11-12T09:58:14+00:00 END programs_011_post_getcap rc=0 bytes=14
+2026-11-12T09:58:14+00:00 RUN programs_011_post_chsmack
+2026-11-12T09:58:15+00:00 END programs_011_post_chsmack rc=0 bytes=91
+2026-11-12T09:58:15+00:00 RUN programs_011_post_upper
+2026-11-12T09:58:15+00:00 END programs_011_post_upper rc=0 bytes=14
+2026-11-12T09:58:15+00:00 WRITE_OK undo /usr/apps/org.tizen.btapp/bin/btapp
+2026-11-12T09:58:15+00:00 RUN programs_012_stage_sha
+2026-11-12T09:58:15+00:00 END programs_012_stage_sha rc=0 bytes=136
+2026-11-12T09:58:15+00:00 RUN programs_012_copy
+2026-11-12T09:58:15+00:00 END programs_012_copy rc=0 bytes=14
+2026-11-12T09:58:15+00:00 RUN programs_012_post_sha
+2026-11-12T09:58:15+00:00 END programs_012_post_sha rc=0 bytes=106
+2026-11-12T09:58:15+00:00 RUN programs_012_post_stat
+2026-11-12T09:58:15+00:00 END programs_012_post_stat rc=0 bytes=30
+2026-11-12T09:58:15+00:00 RUN programs_012_post_xattrs
+2026-11-12T09:58:15+00:00 END programs_012_post_xattrs rc=0 bytes=129
+2026-11-12T09:58:15+00:00 RUN programs_012_post_getcap
+2026-11-12T09:58:16+00:00 END programs_012_post_getcap rc=0 bytes=14
+2026-11-12T09:58:16+00:00 RUN programs_012_post_chsmack
+2026-11-12T09:58:16+00:00 END programs_012_post_chsmack rc=0 bytes=51
+2026-11-12T09:58:16+00:00 RUN programs_012_post_upper
+2026-11-12T09:58:16+00:00 END programs_012_post_upper rc=0 bytes=14
+2026-11-12T09:58:16+00:00 WRITE_OK undo /usr/bin/hdmicec-service
+2026-11-12T09:58:16+00:00 RUN programs_013_stage_sha
+2026-11-12T09:58:16+00:00 END programs_013_stage_sha rc=0 bytes=159
+2026-11-12T09:58:16+00:00 RUN programs_013_copy
+2026-11-12T09:58:16+00:00 END programs_013_copy rc=0 bytes=14
+2026-11-12T09:58:16+00:00 RUN programs_013_post_sha
+2026-11-12T09:58:16+00:00 END programs_013_post_sha rc=0 bytes=129
+2026-11-12T09:58:16+00:00 RUN programs_013_post_stat
+2026-11-12T09:58:16+00:00 END programs_013_post_stat rc=0 bytes=31
+2026-11-12T09:58:16+00:00 RUN programs_013_post_xattrs
+2026-11-12T09:58:17+00:00 END programs_013_post_xattrs rc=0 bytes=152
+2026-11-12T09:58:17+00:00 RUN programs_013_post_getcap
+2026-11-12T09:58:17+00:00 END programs_013_post_getcap rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_post_chsmack
+2026-11-12T09:58:17+00:00 END programs_013_post_chsmack rc=0 bytes=74
+2026-11-12T09:58:17+00:00 RUN programs_013_post_upper
+2026-11-12T09:58:17+00:00 END programs_013_post_upper rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_chown
+2026-11-12T09:58:17+00:00 END programs_013_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_chmod
+2026-11-12T09:58:17+00:00 END programs_013_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_before_xattr_restore_sha
+2026-11-12T09:58:17+00:00 END programs_013_fixattrs_before_xattr_restore_sha rc=0 bytes=129
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_before_xattr_restore_stat
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_stat rc=0 bytes=31
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_xattrs rc=0 bytes=152
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_chsmack rc=0 bytes=74
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_upper
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_set_security.capability
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:58:18+00:00 RUN programs_013_postfix_sha
+2026-11-12T09:58:18+00:00 END programs_013_postfix_sha rc=0 bytes=129
+2026-11-12T09:58:18+00:00 RUN programs_013_postfix_stat
+2026-11-12T09:58:18+00:00 END programs_013_postfix_stat rc=0 bytes=31
+2026-11-12T09:58:18+00:00 RUN programs_013_postfix_xattrs
+2026-11-12T09:58:19+00:00 END programs_013_postfix_xattrs rc=0 bytes=216
+2026-11-12T09:58:19+00:00 RUN programs_013_postfix_getcap
+2026-11-12T09:58:19+00:00 END programs_013_postfix_getcap rc=0 bytes=97
+2026-11-12T09:58:19+00:00 RUN programs_013_postfix_chsmack
+2026-11-12T09:58:19+00:00 END programs_013_postfix_chsmack rc=0 bytes=74
+2026-11-12T09:58:19+00:00 RUN programs_013_postfix_upper
+2026-11-12T09:58:19+00:00 END programs_013_postfix_upper rc=0 bytes=14
+2026-11-12T09:58:19+00:00 WRITE_OK undo /usr/apps/org.tizen.acm-service/bin/acm-service
+2026-11-12T09:58:19+00:00 RUN programs_014_stage_sha
+2026-11-12T09:58:19+00:00 END programs_014_stage_sha rc=0 bytes=137
+2026-11-12T09:58:19+00:00 RUN programs_014_copy
+2026-11-12T09:58:19+00:00 END programs_014_copy rc=0 bytes=66
+2026-11-12T09:58:19+00:00 RUN programs_014_busy_ps
+2026-11-12T09:58:19+00:00 END programs_014_busy_ps rc=0 bytes=2556
+2026-11-12T09:58:19+00:00 RUN programs_014_busy_cgroup_820
+2026-11-12T09:58:19+00:00 END programs_014_busy_cgroup_820 rc=0 bytes=176
+2026-11-12T09:58:19+00:00 RUN programs_014_app_exe_820
+2026-11-12T09:58:20+00:00 END programs_014_app_exe_820 rc=0 bytes=41
+2026-11-12T09:58:20+00:00 RUN programs_014_app_term_820
+2026-11-12T09:58:20+00:00 END programs_014_app_term_820 rc=0 bytes=14
+2026-11-12T09:58:20+00:00 RUN programs_014_app_poll_01
+2026-11-12T09:58:20+00:00 END programs_014_app_poll_01 rc=0 bytes=20
+2026-11-12T09:58:25+00:00 RUN programs_014_app_poll_02
+2026-11-12T09:58:25+00:00 END programs_014_app_poll_02 rc=0 bytes=20
+2026-11-12T09:58:30+00:00 RUN programs_014_app_poll_03
+2026-11-12T09:58:30+00:00 END programs_014_app_poll_03 rc=0 bytes=20
+2026-11-12T09:58:35+00:00 RUN programs_014_app_poll_04
+2026-11-12T09:58:35+00:00 END programs_014_app_poll_04 rc=0 bytes=20
+2026-11-12T09:58:40+00:00 RUN programs_014_app_poll_05
+2026-11-12T09:58:41+00:00 END programs_014_app_poll_05 rc=0 bytes=20
+2026-11-12T09:58:46+00:00 RUN programs_014_app_poll_06
+2026-11-12T09:58:46+00:00 END programs_014_app_poll_06 rc=0 bytes=20
+2026-11-12T09:58:51+00:00 RUN programs_014_app_poll_07
+2026-11-12T09:58:51+00:00 END programs_014_app_poll_07 rc=0 bytes=20
+2026-11-12T09:58:56+00:00 RUN programs_014_app_poll_08
+2026-11-12T09:58:56+00:00 END programs_014_app_poll_08 rc=0 bytes=20
+2026-11-12T09:59:01+00:00 RUN programs_014_app_poll_09
+2026-11-12T09:59:01+00:00 END programs_014_app_poll_09 rc=0 bytes=20
+2026-11-12T09:59:06+00:00 RUN programs_014_app_poll_10
+2026-11-12T09:59:06+00:00 END programs_014_app_poll_10 rc=0 bytes=20
+2026-11-12T09:59:11+00:00 RUN programs_014_app_poll_11
+2026-11-12T09:59:12+00:00 END programs_014_app_poll_11 rc=0 bytes=20
+2026-11-12T09:59:17+00:00 RUN programs_014_app_poll_12
+2026-11-12T09:59:17+00:00 END programs_014_app_poll_12 rc=0 bytes=20
+2026-11-12T09:59:22+00:00 RUN write_root_off
+2026-11-12T09:59:22+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:59:22+00:00 RUN write_sdk_uid
+2026-11-12T09:59:22+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:59:22+00:00 ERROR RuntimeError('app did not exit within 60 s: /usr/bin/launchpad-loader')
+2026-11-12T09:59:22+00:00 PHASE_END apply_programs_retry rc=1
+2026-11-12T09:59:22+00:00 RETRY_STOP RuntimeError('apply_programs_retry failed; see apply_programs_retry_console.log')
+2026-11-12T09:59:22+00:00 PHASE_START restore_retry
+2026-11-12T09:59:22+00:00 RUN write_root_on
+2026-11-12T09:59:22+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:59:22+00:00 RUN write_root_uid
+2026-11-12T09:59:22+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:59:22+00:00 RUN restore_001_before_sha
+2026-11-12T09:59:22+00:00 END restore_001_before_sha rc=0 bytes=107
+2026-11-12T09:59:22+00:00 RUN restore_001_before_stat
+2026-11-12T09:59:23+00:00 END restore_001_before_stat rc=0 bytes=29
+2026-11-12T09:59:23+00:00 RUN restore_001_before_xattrs
+2026-11-12T09:59:23+00:00 END restore_001_before_xattrs rc=0 bytes=233
+2026-11-12T09:59:23+00:00 RUN restore_001_before_getcap
+2026-11-12T09:59:23+00:00 END restore_001_before_getcap rc=0 bytes=96
+2026-11-12T09:59:23+00:00 RUN restore_001_before_chsmack
+2026-11-12T09:59:23+00:00 END restore_001_before_chsmack rc=0 bytes=70
+2026-11-12T09:59:23+00:00 RUN restore_001_before_upper
+2026-11-12T09:59:23+00:00 END restore_001_before_upper rc=0 bytes=14
+2026-11-12T09:59:23+00:00 RESTORE_ALREADY_OK /usr/bin/launchpad-loader
+2026-11-12T09:59:23+00:00 RUN restore_002_before_sha
+2026-11-12T09:59:23+00:00 END restore_002_before_sha rc=0 bytes=129
+2026-11-12T09:59:23+00:00 RUN restore_002_before_stat
+2026-11-12T09:59:23+00:00 END restore_002_before_stat rc=0 bytes=31
+2026-11-12T09:59:23+00:00 RUN restore_002_before_xattrs
+2026-11-12T09:59:23+00:00 END restore_002_before_xattrs rc=0 bytes=216
+2026-11-12T09:59:23+00:00 RUN restore_002_before_getcap
+2026-11-12T09:59:24+00:00 END restore_002_before_getcap rc=0 bytes=97
+2026-11-12T09:59:24+00:00 RUN restore_002_before_chsmack
+2026-11-12T09:59:24+00:00 END restore_002_before_chsmack rc=0 bytes=74
+2026-11-12T09:59:24+00:00 RUN restore_002_before_upper
+2026-11-12T09:59:24+00:00 END restore_002_before_upper rc=0 bytes=14
+2026-11-12T09:59:24+00:00 RUN restore_002_stage_sha
+2026-11-12T09:59:24+00:00 END restore_002_stage_sha rc=0 bytes=163
+2026-11-12T09:59:24+00:00 RUN restore_002_copy
+2026-11-12T09:59:24+00:00 END restore_002_copy rc=0 bytes=88
+2026-11-12T09:59:24+00:00 RUN restore_002_busy_ps
+2026-11-12T09:59:24+00:00 END restore_002_busy_ps rc=0 bytes=273
+2026-11-12T09:59:24+00:00 RUN restore_002_busy_cgroup_1808
+2026-11-12T09:59:24+00:00 END restore_002_busy_cgroup_1808 rc=0 bytes=282
+2026-11-12T09:59:24+00:00 RUN restore_002_stop_unit_nonblocking
+2026-11-12T09:59:24+00:00 END restore_002_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:59:24+00:00 RUN restore_002_stop_poll_01
+2026-11-12T09:59:25+00:00 END restore_002_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:59:25+00:00 RUN restore_002_copy_after_stop
+2026-11-12T09:59:25+00:00 END restore_002_copy_after_stop rc=0 bytes=14
+2026-11-12T09:59:25+00:00 RUN restore_002_post_sha
+2026-11-12T09:59:25+00:00 END restore_002_post_sha rc=0 bytes=129
+2026-11-12T09:59:25+00:00 RUN restore_002_post_stat
+2026-11-12T09:59:25+00:00 END restore_002_post_stat rc=0 bytes=31
+2026-11-12T09:59:25+00:00 RUN restore_002_post_xattrs
+2026-11-12T09:59:25+00:00 END restore_002_post_xattrs rc=0 bytes=152
+2026-11-12T09:59:25+00:00 RUN restore_002_post_getcap
+2026-11-12T09:59:25+00:00 END restore_002_post_getcap rc=0 bytes=14
+2026-11-12T09:59:25+00:00 RUN restore_002_post_chsmack
+2026-11-12T09:59:25+00:00 END restore_002_post_chsmack rc=0 bytes=74
+2026-11-12T09:59:25+00:00 RUN restore_002_post_upper
+2026-11-12T09:59:25+00:00 END restore_002_post_upper rc=0 bytes=14
+2026-11-12T09:59:25+00:00 RUN restore_002_fixattrs_chown
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_chmod
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_before_xattr_restore_sha
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_before_xattr_restore_sha rc=0 bytes=129
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_before_xattr_restore_stat
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_before_xattr_restore_stat rc=0 bytes=31
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_before_xattr_restore_xattrs rc=0 bytes=152
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_before_xattr_restore_chsmack rc=0 bytes=74
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_before_xattr_restore_upper
+2026-11-12T09:59:26+00:00 END restore_002_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:59:26+00:00 RUN restore_002_fixattrs_set_security.capability
+2026-11-12T09:59:27+00:00 END restore_002_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:59:27+00:00 RUN restore_002_postfix_sha
+2026-11-12T09:59:27+00:00 END restore_002_postfix_sha rc=0 bytes=129
+2026-11-12T09:59:27+00:00 RUN restore_002_postfix_stat
+2026-11-12T09:59:27+00:00 END restore_002_postfix_stat rc=0 bytes=31
+2026-11-12T09:59:27+00:00 RUN restore_002_postfix_xattrs
+2026-11-12T09:59:27+00:00 END restore_002_postfix_xattrs rc=0 bytes=216
+2026-11-12T09:59:27+00:00 RUN restore_002_postfix_getcap
+2026-11-12T09:59:27+00:00 END restore_002_postfix_getcap rc=0 bytes=97
+2026-11-12T09:59:27+00:00 RUN restore_002_postfix_chsmack
+2026-11-12T09:59:27+00:00 END restore_002_postfix_chsmack rc=0 bytes=74
+2026-11-12T09:59:27+00:00 RUN restore_002_postfix_upper
+2026-11-12T09:59:27+00:00 END restore_002_postfix_upper rc=0 bytes=14
+2026-11-12T09:59:27+00:00 WRITE_OK original /usr/apps/org.tizen.acm-service/bin/acm-service
+2026-11-12T09:59:27+00:00 RUN restore_003_before_sha
+2026-11-12T09:59:27+00:00 END restore_003_before_sha rc=0 bytes=106
+2026-11-12T09:59:27+00:00 RUN restore_003_before_stat
+2026-11-12T09:59:28+00:00 END restore_003_before_stat rc=0 bytes=30
+2026-11-12T09:59:28+00:00 RUN restore_003_before_xattrs
+2026-11-12T09:59:28+00:00 END restore_003_before_xattrs rc=0 bytes=129
+2026-11-12T09:59:28+00:00 RUN restore_003_before_getcap
+2026-11-12T09:59:28+00:00 END restore_003_before_getcap rc=0 bytes=14
+2026-11-12T09:59:28+00:00 RUN restore_003_before_chsmack
+2026-11-12T09:59:28+00:00 END restore_003_before_chsmack rc=0 bytes=51
+2026-11-12T09:59:28+00:00 RUN restore_003_before_upper
+2026-11-12T09:59:28+00:00 END restore_003_before_upper rc=0 bytes=14
+2026-11-12T09:59:28+00:00 RUN restore_003_stage_sha
+2026-11-12T09:59:28+00:00 END restore_003_stage_sha rc=0 bytes=140
+2026-11-12T09:59:28+00:00 RUN restore_003_copy
+2026-11-12T09:59:28+00:00 END restore_003_copy rc=0 bytes=14
+2026-11-12T09:59:28+00:00 RUN restore_003_post_sha
+2026-11-12T09:59:28+00:00 END restore_003_post_sha rc=0 bytes=106
+2026-11-12T09:59:28+00:00 RUN restore_003_post_stat
+2026-11-12T09:59:29+00:00 END restore_003_post_stat rc=0 bytes=31
+2026-11-12T09:59:29+00:00 RUN restore_003_post_xattrs
+2026-11-12T09:59:29+00:00 END restore_003_post_xattrs rc=0 bytes=129
+2026-11-12T09:59:29+00:00 RUN restore_003_post_getcap
+2026-11-12T09:59:29+00:00 END restore_003_post_getcap rc=0 bytes=14
+2026-11-12T09:59:29+00:00 RUN restore_003_post_chsmack
+2026-11-12T09:59:29+00:00 END restore_003_post_chsmack rc=0 bytes=51
+2026-11-12T09:59:29+00:00 RUN restore_003_post_upper
+2026-11-12T09:59:29+00:00 END restore_003_post_upper rc=0 bytes=14
+2026-11-12T09:59:29+00:00 WRITE_OK original /usr/bin/hdmicec-service
+2026-11-12T09:59:29+00:00 RUN restore_004_before_sha
+2026-11-12T09:59:29+00:00 END restore_004_before_sha rc=0 bytes=117
+2026-11-12T09:59:29+00:00 RUN restore_004_before_stat
+2026-11-12T09:59:29+00:00 END restore_004_before_stat rc=0 bytes=32
+2026-11-12T09:59:29+00:00 RUN restore_004_before_xattrs
+2026-11-12T09:59:29+00:00 END restore_004_before_xattrs rc=0 bytes=198
+2026-11-12T09:59:29+00:00 RUN restore_004_before_getcap
+2026-11-12T09:59:30+00:00 END restore_004_before_getcap rc=0 bytes=14
+2026-11-12T09:59:30+00:00 RUN restore_004_before_chsmack
+2026-11-12T09:59:30+00:00 END restore_004_before_chsmack rc=0 bytes=91
+2026-11-12T09:59:30+00:00 RUN restore_004_before_upper
+2026-11-12T09:59:30+00:00 END restore_004_before_upper rc=0 bytes=14
+2026-11-12T09:59:30+00:00 RUN restore_004_stage_sha
+2026-11-12T09:59:30+00:00 END restore_004_stage_sha rc=0 bytes=151
+2026-11-12T09:59:30+00:00 RUN restore_004_copy
+2026-11-12T09:59:30+00:00 END restore_004_copy rc=0 bytes=14
+2026-11-12T09:59:30+00:00 RUN restore_004_post_sha
+2026-11-12T09:59:30+00:00 END restore_004_post_sha rc=0 bytes=117
+2026-11-12T09:59:30+00:00 RUN restore_004_post_stat
+2026-11-12T09:59:30+00:00 END restore_004_post_stat rc=0 bytes=32
+2026-11-12T09:59:30+00:00 RUN restore_004_post_xattrs
+2026-11-12T09:59:30+00:00 END restore_004_post_xattrs rc=0 bytes=198
+2026-11-12T09:59:30+00:00 RUN restore_004_post_getcap
+2026-11-12T09:59:30+00:00 END restore_004_post_getcap rc=0 bytes=14
+2026-11-12T09:59:30+00:00 RUN restore_004_post_chsmack
+2026-11-12T09:59:31+00:00 END restore_004_post_chsmack rc=0 bytes=91
+2026-11-12T09:59:31+00:00 RUN restore_004_post_upper
+2026-11-12T09:59:31+00:00 END restore_004_post_upper rc=0 bytes=14
+2026-11-12T09:59:31+00:00 WRITE_OK original /usr/apps/org.tizen.btapp/bin/btapp
+2026-11-12T09:59:31+00:00 RUN restore_005_before_sha
+2026-11-12T09:59:31+00:00 END restore_005_before_sha rc=0 bytes=101
+2026-11-12T09:59:31+00:00 RUN restore_005_before_stat
+2026-11-12T09:59:31+00:00 END restore_005_before_stat rc=0 bytes=29
+2026-11-12T09:59:31+00:00 RUN restore_005_before_xattrs
+2026-11-12T09:59:31+00:00 END restore_005_before_xattrs rc=0 bytes=124
+2026-11-12T09:59:31+00:00 RUN restore_005_before_getcap
+2026-11-12T09:59:31+00:00 END restore_005_before_getcap rc=0 bytes=14
+2026-11-12T09:59:31+00:00 RUN restore_005_before_chsmack
+2026-11-12T09:59:31+00:00 END restore_005_before_chsmack rc=0 bytes=46
+2026-11-12T09:59:31+00:00 RUN restore_005_before_upper
+2026-11-12T09:59:31+00:00 END restore_005_before_upper rc=0 bytes=14
+2026-11-12T09:59:31+00:00 RUN restore_005_stage_sha
+2026-11-12T09:59:32+00:00 END restore_005_stage_sha rc=0 bytes=135
+2026-11-12T09:59:32+00:00 RUN restore_005_copy
+2026-11-12T09:59:32+00:00 END restore_005_copy rc=0 bytes=14
+2026-11-12T09:59:32+00:00 RUN restore_005_post_sha
+2026-11-12T09:59:32+00:00 END restore_005_post_sha rc=0 bytes=101
+2026-11-12T09:59:32+00:00 RUN restore_005_post_stat
+2026-11-12T09:59:32+00:00 END restore_005_post_stat rc=0 bytes=29
+2026-11-12T09:59:32+00:00 RUN restore_005_post_xattrs
+2026-11-12T09:59:32+00:00 END restore_005_post_xattrs rc=0 bytes=124
+2026-11-12T09:59:32+00:00 RUN restore_005_post_getcap
+2026-11-12T09:59:32+00:00 END restore_005_post_getcap rc=0 bytes=14
+2026-11-12T09:59:32+00:00 RUN restore_005_post_chsmack
+2026-11-12T09:59:32+00:00 END restore_005_post_chsmack rc=0 bytes=46
+2026-11-12T09:59:32+00:00 RUN restore_005_post_upper
+2026-11-12T09:59:32+00:00 END restore_005_post_upper rc=0 bytes=14
+2026-11-12T09:59:32+00:00 WRITE_OK original /usr/bin/pulseaudio
+2026-11-12T09:59:32+00:00 RUN restore_006_before_sha
+2026-11-12T09:59:33+00:00 END restore_006_before_sha rc=0 bytes=105
+2026-11-12T09:59:33+00:00 RUN restore_006_before_stat
+2026-11-12T09:59:33+00:00 END restore_006_before_stat rc=0 bytes=30
+2026-11-12T09:59:33+00:00 RUN restore_006_before_xattrs
+2026-11-12T09:59:33+00:00 END restore_006_before_xattrs rc=0 bytes=175
+2026-11-12T09:59:33+00:00 RUN restore_006_before_getcap
+2026-11-12T09:59:33+00:00 END restore_006_before_getcap rc=0 bytes=14
+2026-11-12T09:59:33+00:00 RUN restore_006_before_chsmack
+2026-11-12T09:59:33+00:00 END restore_006_before_chsmack rc=0 bytes=72
+2026-11-12T09:59:33+00:00 RUN restore_006_before_upper
+2026-11-12T09:59:33+00:00 END restore_006_before_upper rc=0 bytes=14
+2026-11-12T09:59:33+00:00 RUN restore_006_stage_sha
+2026-11-12T09:59:33+00:00 END restore_006_stage_sha rc=0 bytes=139
+2026-11-12T09:59:33+00:00 RUN restore_006_copy
+2026-11-12T09:59:33+00:00 END restore_006_copy rc=0 bytes=14
+2026-11-12T09:59:33+00:00 RUN restore_006_post_sha
+2026-11-12T09:59:34+00:00 END restore_006_post_sha rc=0 bytes=105
+2026-11-12T09:59:34+00:00 RUN restore_006_post_stat
+2026-11-12T09:59:34+00:00 END restore_006_post_stat rc=0 bytes=30
+2026-11-12T09:59:34+00:00 RUN restore_006_post_xattrs
+2026-11-12T09:59:34+00:00 END restore_006_post_xattrs rc=0 bytes=175
+2026-11-12T09:59:34+00:00 RUN restore_006_post_getcap
+2026-11-12T09:59:34+00:00 END restore_006_post_getcap rc=0 bytes=14
+2026-11-12T09:59:34+00:00 RUN restore_006_post_chsmack
+2026-11-12T09:59:34+00:00 END restore_006_post_chsmack rc=0 bytes=72
+2026-11-12T09:59:34+00:00 RUN restore_006_post_upper
+2026-11-12T09:59:34+00:00 END restore_006_post_upper rc=0 bytes=14
+2026-11-12T09:59:34+00:00 WRITE_OK original /usr/bin/rscmgr-service
+2026-11-12T09:59:34+00:00 RUN restore_007_before_sha
+2026-11-12T09:59:34+00:00 END restore_007_before_sha rc=0 bytes=125
+2026-11-12T09:59:34+00:00 RUN restore_007_before_stat
+2026-11-12T09:59:34+00:00 END restore_007_before_stat rc=0 bytes=33
+2026-11-12T09:59:34+00:00 RUN restore_007_before_xattrs
+2026-11-12T09:59:35+00:00 END restore_007_before_xattrs rc=0 bytes=214
+2026-11-12T09:59:35+00:00 RUN restore_007_before_getcap
+2026-11-12T09:59:35+00:00 END restore_007_before_getcap rc=0 bytes=14
+2026-11-12T09:59:35+00:00 RUN restore_007_before_chsmack
+2026-11-12T09:59:35+00:00 END restore_007_before_chsmack rc=0 bytes=103
+2026-11-12T09:59:35+00:00 RUN restore_007_before_upper
+2026-11-12T09:59:35+00:00 END restore_007_before_upper rc=0 bytes=14
+2026-11-12T09:59:35+00:00 RUN restore_007_stage_sha
+2026-11-12T09:59:35+00:00 END restore_007_stage_sha rc=0 bytes=159
+2026-11-12T09:59:35+00:00 RUN restore_007_copy
+2026-11-12T09:59:35+00:00 END restore_007_copy rc=0 bytes=14
+2026-11-12T09:59:35+00:00 RUN restore_007_post_sha
+2026-11-12T09:59:36+00:00 END restore_007_post_sha rc=0 bytes=125
+2026-11-12T09:59:36+00:00 RUN restore_007_post_stat
+2026-11-12T09:59:36+00:00 END restore_007_post_stat rc=0 bytes=33
+2026-11-12T09:59:36+00:00 RUN restore_007_post_xattrs
+2026-11-12T09:59:36+00:00 END restore_007_post_xattrs rc=0 bytes=214
+2026-11-12T09:59:36+00:00 RUN restore_007_post_getcap
+2026-11-12T09:59:36+00:00 END restore_007_post_getcap rc=0 bytes=14
+2026-11-12T09:59:36+00:00 RUN restore_007_post_chsmack
+2026-11-12T09:59:36+00:00 END restore_007_post_chsmack rc=0 bytes=103
+2026-11-12T09:59:36+00:00 RUN restore_007_post_upper
+2026-11-12T09:59:36+00:00 END restore_007_post_upper rc=0 bytes=14
+2026-11-12T09:59:36+00:00 WRITE_OK original /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+2026-11-12T09:59:36+00:00 RUN restore_008_before_sha
+2026-11-12T09:59:36+00:00 END restore_008_before_sha rc=0 bytes=100
+2026-11-12T09:59:36+00:00 RUN restore_008_before_stat
+2026-11-12T09:59:36+00:00 END restore_008_before_stat rc=0 bytes=30
+2026-11-12T09:59:36+00:00 RUN restore_008_before_xattrs
+2026-11-12T09:59:37+00:00 END restore_008_before_xattrs rc=0 bytes=123
+2026-11-12T09:59:37+00:00 RUN restore_008_before_getcap
+2026-11-12T09:59:37+00:00 END restore_008_before_getcap rc=0 bytes=14
+2026-11-12T09:59:37+00:00 RUN restore_008_before_chsmack
+2026-11-12T09:59:37+00:00 END restore_008_before_chsmack rc=0 bytes=45
+2026-11-12T09:59:37+00:00 RUN restore_008_before_upper
+2026-11-12T09:59:37+00:00 END restore_008_before_upper rc=0 bytes=14
+2026-11-12T09:59:37+00:00 RUN restore_008_stage_sha
+2026-11-12T09:59:37+00:00 END restore_008_stage_sha rc=0 bytes=134
+2026-11-12T09:59:37+00:00 RUN restore_008_copy
+2026-11-12T09:59:37+00:00 END restore_008_copy rc=0 bytes=14
+2026-11-12T09:59:37+00:00 RUN restore_008_post_sha
+2026-11-12T09:59:37+00:00 END restore_008_post_sha rc=0 bytes=100
+2026-11-12T09:59:37+00:00 RUN restore_008_post_stat
+2026-11-12T09:59:37+00:00 END restore_008_post_stat rc=0 bytes=30
+2026-11-12T09:59:37+00:00 RUN restore_008_post_xattrs
+2026-11-12T09:59:38+00:00 END restore_008_post_xattrs rc=0 bytes=123
+2026-11-12T09:59:38+00:00 RUN restore_008_post_getcap
+2026-11-12T09:59:38+00:00 END restore_008_post_getcap rc=0 bytes=14
+2026-11-12T09:59:38+00:00 RUN restore_008_post_chsmack
+2026-11-12T09:59:38+00:00 END restore_008_post_chsmack rc=0 bytes=45
+2026-11-12T09:59:38+00:00 RUN restore_008_post_upper
+2026-11-12T09:59:38+00:00 END restore_008_post_upper rc=0 bytes=14
+2026-11-12T09:59:38+00:00 WRITE_OK original /usr/bin/fastvideo
+2026-11-12T09:59:38+00:00 RUN restore_009_before_sha
+2026-11-12T09:59:38+00:00 END restore_009_before_sha rc=0 bytes=94
+2026-11-12T09:59:38+00:00 RUN restore_009_before_stat
+2026-11-12T09:59:38+00:00 END restore_009_before_stat rc=0 bytes=28
+2026-11-12T09:59:38+00:00 RUN restore_009_before_xattrs
+2026-11-12T09:59:38+00:00 END restore_009_before_xattrs rc=0 bytes=181
+2026-11-12T09:59:38+00:00 RUN restore_009_before_getcap
+2026-11-12T09:59:38+00:00 END restore_009_before_getcap rc=0 bytes=97
+2026-11-12T09:59:38+00:00 RUN restore_009_before_chsmack
+2026-11-12T09:59:38+00:00 END restore_009_before_chsmack rc=0 bytes=39
+2026-11-12T09:59:38+00:00 RUN restore_009_before_upper
+2026-11-12T09:59:39+00:00 END restore_009_before_upper rc=0 bytes=14
+2026-11-12T09:59:39+00:00 RUN restore_009_stage_sha
+2026-11-12T09:59:39+00:00 END restore_009_stage_sha rc=0 bytes=128
+2026-11-12T09:59:39+00:00 RUN restore_009_copy
+2026-11-12T09:59:39+00:00 END restore_009_copy rc=0 bytes=14
+2026-11-12T09:59:39+00:00 RUN restore_009_post_sha
+2026-11-12T09:59:39+00:00 END restore_009_post_sha rc=0 bytes=94
+2026-11-12T09:59:39+00:00 RUN restore_009_post_stat
+2026-11-12T09:59:39+00:00 END restore_009_post_stat rc=0 bytes=29
+2026-11-12T09:59:39+00:00 RUN restore_009_post_xattrs
+2026-11-12T09:59:39+00:00 END restore_009_post_xattrs rc=0 bytes=117
+2026-11-12T09:59:39+00:00 RUN restore_009_post_getcap
+2026-11-12T09:59:39+00:00 END restore_009_post_getcap rc=0 bytes=14
+2026-11-12T09:59:39+00:00 RUN restore_009_post_chsmack
+2026-11-12T09:59:39+00:00 END restore_009_post_chsmack rc=0 bytes=39
+2026-11-12T09:59:39+00:00 RUN restore_009_post_upper
+2026-11-12T09:59:40+00:00 END restore_009_post_upper rc=0 bytes=14
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_chown
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_chmod
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_before_xattr_restore_sha
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_before_xattr_restore_sha rc=0 bytes=94
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_before_xattr_restore_stat
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_before_xattr_restore_stat rc=0 bytes=29
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_before_xattr_restore_xattrs rc=0 bytes=117
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_before_xattr_restore_chsmack rc=0 bytes=39
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_before_xattr_restore_upper
+2026-11-12T09:59:40+00:00 END restore_009_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:59:40+00:00 RUN restore_009_fixattrs_set_security.capability
+2026-11-12T09:59:41+00:00 END restore_009_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:59:41+00:00 RUN restore_009_postfix_sha
+2026-11-12T09:59:41+00:00 END restore_009_postfix_sha rc=0 bytes=94
+2026-11-12T09:59:41+00:00 RUN restore_009_postfix_stat
+2026-11-12T09:59:41+00:00 END restore_009_postfix_stat rc=0 bytes=29
+2026-11-12T09:59:41+00:00 RUN restore_009_postfix_xattrs
+2026-11-12T09:59:41+00:00 END restore_009_postfix_xattrs rc=0 bytes=181
+2026-11-12T09:59:41+00:00 RUN restore_009_postfix_getcap
+2026-11-12T09:59:41+00:00 END restore_009_postfix_getcap rc=0 bytes=97
+2026-11-12T09:59:41+00:00 RUN restore_009_postfix_chsmack
+2026-11-12T09:59:41+00:00 END restore_009_postfix_chsmack rc=0 bytes=39
+2026-11-12T09:59:41+00:00 RUN restore_009_postfix_upper
+2026-11-12T09:59:41+00:00 END restore_009_postfix_upper rc=0 bytes=14
+2026-11-12T09:59:41+00:00 WRITE_OK original /usr/bin/amd
+2026-11-12T09:59:41+00:00 RUN restore_010_before_sha
+2026-11-12T09:59:41+00:00 END restore_010_before_sha rc=0 bytes=99
+2026-11-12T09:59:41+00:00 RUN restore_010_before_stat
+2026-11-12T09:59:42+00:00 END restore_010_before_stat rc=0 bytes=29
+2026-11-12T09:59:42+00:00 RUN restore_010_before_xattrs
+2026-11-12T09:59:42+00:00 END restore_010_before_xattrs rc=0 bytes=122
+2026-11-12T09:59:42+00:00 RUN restore_010_before_getcap
+2026-11-12T09:59:42+00:00 END restore_010_before_getcap rc=0 bytes=14
+2026-11-12T09:59:42+00:00 RUN restore_010_before_chsmack
+2026-11-12T09:59:42+00:00 END restore_010_before_chsmack rc=0 bytes=44
+2026-11-12T09:59:42+00:00 RUN restore_010_before_upper
+2026-11-12T09:59:42+00:00 END restore_010_before_upper rc=0 bytes=14
+2026-11-12T09:59:42+00:00 RUN restore_010_stage_sha
+2026-11-12T09:59:42+00:00 END restore_010_stage_sha rc=0 bytes=133
+2026-11-12T09:59:42+00:00 RUN restore_010_copy
+2026-11-12T09:59:42+00:00 END restore_010_copy rc=0 bytes=14
+2026-11-12T09:59:42+00:00 RUN restore_010_post_sha
+2026-11-12T09:59:42+00:00 END restore_010_post_sha rc=0 bytes=99
+2026-11-12T09:59:42+00:00 RUN restore_010_post_stat
+2026-11-12T09:59:43+00:00 END restore_010_post_stat rc=0 bytes=29
+2026-11-12T09:59:43+00:00 RUN restore_010_post_xattrs
+2026-11-12T09:59:43+00:00 END restore_010_post_xattrs rc=0 bytes=122
+2026-11-12T09:59:43+00:00 RUN restore_010_post_getcap
+2026-11-12T09:59:43+00:00 END restore_010_post_getcap rc=0 bytes=14
+2026-11-12T09:59:43+00:00 RUN restore_010_post_chsmack
+2026-11-12T09:59:43+00:00 END restore_010_post_chsmack rc=0 bytes=44
+2026-11-12T09:59:43+00:00 RUN restore_010_post_upper
+2026-11-12T09:59:43+00:00 END restore_010_post_upper rc=0 bytes=14
+2026-11-12T09:59:43+00:00 WRITE_OK original /usr/bin/fastlogo
+2026-11-12T09:59:43+00:00 RUN restore_011_before_sha
+2026-11-12T09:59:43+00:00 END restore_011_before_sha rc=0 bytes=96
+2026-11-12T09:59:43+00:00 RUN restore_011_before_stat
+2026-11-12T09:59:43+00:00 END restore_011_before_stat rc=0 bytes=31
+2026-11-12T09:59:43+00:00 RUN restore_011_before_xattrs
+2026-11-12T09:59:43+00:00 END restore_011_before_xattrs rc=0 bytes=119
+2026-11-12T09:59:43+00:00 RUN restore_011_before_getcap
+2026-11-12T09:59:43+00:00 END restore_011_before_getcap rc=0 bytes=14
+2026-11-12T09:59:43+00:00 RUN restore_011_before_chsmack
+2026-11-12T09:59:44+00:00 END restore_011_before_chsmack rc=0 bytes=41
+2026-11-12T09:59:44+00:00 RUN restore_011_before_upper
+2026-11-12T09:59:44+00:00 END restore_011_before_upper rc=0 bytes=14
+2026-11-12T09:59:44+00:00 RUN restore_011_stage_sha
+2026-11-12T09:59:44+00:00 END restore_011_stage_sha rc=0 bytes=130
+2026-11-12T09:59:44+00:00 RUN restore_011_copy
+2026-11-12T09:59:44+00:00 END restore_011_copy rc=0 bytes=14
+2026-11-12T09:59:44+00:00 RUN restore_011_post_sha
+2026-11-12T09:59:44+00:00 END restore_011_post_sha rc=0 bytes=96
+2026-11-12T09:59:44+00:00 RUN restore_011_post_stat
+2026-11-12T09:59:44+00:00 END restore_011_post_stat rc=0 bytes=31
+2026-11-12T09:59:44+00:00 RUN restore_011_post_xattrs
+2026-11-12T09:59:44+00:00 END restore_011_post_xattrs rc=0 bytes=119
+2026-11-12T09:59:44+00:00 RUN restore_011_post_getcap
+2026-11-12T09:59:45+00:00 END restore_011_post_getcap rc=0 bytes=14
+2026-11-12T09:59:45+00:00 RUN restore_011_post_chsmack
+2026-11-12T09:59:45+00:00 END restore_011_post_chsmack rc=0 bytes=41
+2026-11-12T09:59:45+00:00 RUN restore_011_post_upper
+2026-11-12T09:59:45+00:00 END restore_011_post_upper rc=0 bytes=14
+2026-11-12T09:59:45+00:00 WRITE_OK original /usr/bin/avocd
+2026-11-12T09:59:45+00:00 RUN restore_012_before_sha
+2026-11-12T09:59:45+00:00 END restore_012_before_sha rc=0 bytes=99
+2026-11-12T09:59:45+00:00 RUN restore_012_before_stat
+2026-11-12T09:59:45+00:00 END restore_012_before_stat rc=0 bytes=29
+2026-11-12T09:59:45+00:00 RUN restore_012_before_xattrs
+2026-11-12T09:59:45+00:00 END restore_012_before_xattrs rc=0 bytes=122
+2026-11-12T09:59:45+00:00 RUN restore_012_before_getcap
+2026-11-12T09:59:45+00:00 END restore_012_before_getcap rc=0 bytes=14
+2026-11-12T09:59:45+00:00 RUN restore_012_before_chsmack
+2026-11-12T09:59:45+00:00 END restore_012_before_chsmack rc=0 bytes=44
+2026-11-12T09:59:45+00:00 RUN restore_012_before_upper
+2026-11-12T09:59:46+00:00 END restore_012_before_upper rc=0 bytes=14
+2026-11-12T09:59:46+00:00 RUN restore_012_stage_sha
+2026-11-12T09:59:46+00:00 END restore_012_stage_sha rc=0 bytes=133
+2026-11-12T09:59:46+00:00 RUN restore_012_copy
+2026-11-12T09:59:46+00:00 END restore_012_copy rc=0 bytes=14
+2026-11-12T09:59:46+00:00 RUN restore_012_post_sha
+2026-11-12T09:59:46+00:00 END restore_012_post_sha rc=0 bytes=99
+2026-11-12T09:59:46+00:00 RUN restore_012_post_stat
+2026-11-12T09:59:46+00:00 END restore_012_post_stat rc=0 bytes=29
+2026-11-12T09:59:46+00:00 RUN restore_012_post_xattrs
+2026-11-12T09:59:46+00:00 END restore_012_post_xattrs rc=0 bytes=122
+2026-11-12T09:59:46+00:00 RUN restore_012_post_getcap
+2026-11-12T09:59:46+00:00 END restore_012_post_getcap rc=0 bytes=14
+2026-11-12T09:59:46+00:00 RUN restore_012_post_chsmack
+2026-11-12T09:59:46+00:00 END restore_012_post_chsmack rc=0 bytes=44
+2026-11-12T09:59:46+00:00 RUN restore_012_post_upper
+2026-11-12T09:59:47+00:00 END restore_012_post_upper rc=0 bytes=14
+2026-11-12T09:59:47+00:00 WRITE_OK original /usr/bin/fastinit
+2026-11-12T09:59:47+00:00 RUN restore_013_before_sha
+2026-11-12T09:59:47+00:00 END restore_013_before_sha rc=0 bytes=107
+2026-11-12T09:59:47+00:00 RUN restore_013_before_stat
+2026-11-12T09:59:47+00:00 END restore_013_before_stat rc=0 bytes=29
+2026-11-12T09:59:47+00:00 RUN restore_013_before_xattrs
+2026-11-12T09:59:47+00:00 END restore_013_before_xattrs rc=0 bytes=130
+2026-11-12T09:59:47+00:00 RUN restore_013_before_getcap
+2026-11-12T09:59:47+00:00 END restore_013_before_getcap rc=0 bytes=14
+2026-11-12T09:59:47+00:00 RUN restore_013_before_chsmack
+2026-11-12T09:59:47+00:00 END restore_013_before_chsmack rc=0 bytes=52
+2026-11-12T09:59:47+00:00 RUN restore_013_before_upper
+2026-11-12T09:59:47+00:00 END restore_013_before_upper rc=0 bytes=14
+2026-11-12T09:59:47+00:00 RUN restore_013_stage_sha
+2026-11-12T09:59:47+00:00 END restore_013_stage_sha rc=0 bytes=141
+2026-11-12T09:59:47+00:00 RUN restore_013_copy
+2026-11-12T09:59:48+00:00 END restore_013_copy rc=0 bytes=14
+2026-11-12T09:59:48+00:00 RUN restore_013_post_sha
+2026-11-12T09:59:48+00:00 END restore_013_post_sha rc=0 bytes=107
+2026-11-12T09:59:48+00:00 RUN restore_013_post_stat
+2026-11-12T09:59:48+00:00 END restore_013_post_stat rc=0 bytes=29
+2026-11-12T09:59:48+00:00 RUN restore_013_post_xattrs
+2026-11-12T09:59:48+00:00 END restore_013_post_xattrs rc=0 bytes=130
+2026-11-12T09:59:48+00:00 RUN restore_013_post_getcap
+2026-11-12T09:59:48+00:00 END restore_013_post_getcap rc=0 bytes=14
+2026-11-12T09:59:48+00:00 RUN restore_013_post_chsmack
+2026-11-12T09:59:48+00:00 END restore_013_post_chsmack rc=0 bytes=52
+2026-11-12T09:59:48+00:00 RUN restore_013_post_upper
+2026-11-12T09:59:48+00:00 END restore_013_post_upper rc=0 bytes=14
+2026-11-12T09:59:48+00:00 WRITE_OK original /usr/bin/app-boot-manager
+2026-11-12T09:59:48+00:00 RUN restore_014_before_sha
+2026-11-12T09:59:48+00:00 END restore_014_before_sha rc=0 bytes=101
+2026-11-12T09:59:48+00:00 RUN restore_014_before_stat
+2026-11-12T09:59:49+00:00 END restore_014_before_stat rc=0 bytes=30
+2026-11-12T09:59:49+00:00 RUN restore_014_before_xattrs
+2026-11-12T09:59:49+00:00 END restore_014_before_xattrs rc=0 bytes=124
+2026-11-12T09:59:49+00:00 RUN restore_014_before_getcap
+2026-11-12T09:59:49+00:00 END restore_014_before_getcap rc=0 bytes=14
+2026-11-12T09:59:49+00:00 RUN restore_014_before_chsmack
+2026-11-12T09:59:49+00:00 END restore_014_before_chsmack rc=0 bytes=46
+2026-11-12T09:59:49+00:00 RUN restore_014_before_upper
+2026-11-12T09:59:49+00:00 END restore_014_before_upper rc=0 bytes=14
+2026-11-12T09:59:49+00:00 RUN restore_014_stage_sha
+2026-11-12T09:59:49+00:00 END restore_014_stage_sha rc=0 bytes=135
+2026-11-12T09:59:49+00:00 RUN restore_014_copy
+2026-11-12T09:59:49+00:00 END restore_014_copy rc=0 bytes=14
+2026-11-12T09:59:49+00:00 RUN restore_014_post_sha
+2026-11-12T09:59:49+00:00 END restore_014_post_sha rc=0 bytes=101
+2026-11-12T09:59:49+00:00 RUN restore_014_post_stat
+2026-11-12T09:59:50+00:00 END restore_014_post_stat rc=0 bytes=30
+2026-11-12T09:59:50+00:00 RUN restore_014_post_xattrs
+2026-11-12T09:59:50+00:00 END restore_014_post_xattrs rc=0 bytes=124
+2026-11-12T09:59:50+00:00 RUN restore_014_post_getcap
+2026-11-12T09:59:50+00:00 END restore_014_post_getcap rc=0 bytes=14
+2026-11-12T09:59:50+00:00 RUN restore_014_post_chsmack
+2026-11-12T09:59:50+00:00 END restore_014_post_chsmack rc=0 bytes=46
+2026-11-12T09:59:50+00:00 RUN restore_014_post_upper
+2026-11-12T09:59:50+00:00 END restore_014_post_upper rc=0 bytes=14
+2026-11-12T09:59:50+00:00 WRITE_OK original /usr/bin/tvs-daemon
+2026-11-12T09:59:50+00:00 RUN write_root_off
+2026-11-12T09:59:50+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:59:50+00:00 RUN write_sdk_uid
+2026-11-12T09:59:50+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:59:50+00:00 PHASE_END restore_retry rc=0
+2026-11-12T09:59:50+00:00 PHASE_START final_recovery_retry
+2026-11-12T09:59:50+00:00 RUN recovery_precheck_root_on
+2026-11-12T09:59:50+00:00 END recovery_precheck_root_on rc=0 bytes=32
+2026-11-12T09:59:50+00:00 RUN recovery_precheck_uid
+2026-11-12T09:59:50+00:00 END recovery_precheck_uid rc=0 bytes=17
+2026-11-12T09:59:50+00:00 RUN recovery_verify_001_sha
+2026-11-12T09:59:51+00:00 END recovery_verify_001_sha rc=0 bytes=101
+2026-11-12T09:59:51+00:00 RUN recovery_verify_001_stat
+2026-11-12T09:59:51+00:00 END recovery_verify_001_stat rc=0 bytes=30
+2026-11-12T09:59:51+00:00 RUN recovery_verify_001_xattrs
+2026-11-12T09:59:51+00:00 END recovery_verify_001_xattrs rc=0 bytes=124
+2026-11-12T09:59:51+00:00 RUN recovery_verify_001_getcap
+2026-11-12T09:59:51+00:00 END recovery_verify_001_getcap rc=0 bytes=14
+2026-11-12T09:59:51+00:00 RUN recovery_verify_001_chsmack
+2026-11-12T09:59:51+00:00 END recovery_verify_001_chsmack rc=0 bytes=46
+2026-11-12T09:59:51+00:00 RUN recovery_verify_001_upper
+2026-11-12T09:59:51+00:00 END recovery_verify_001_upper rc=0 bytes=14
+2026-11-12T09:59:51+00:00 RUN recovery_verify_002_sha
+2026-11-12T09:59:51+00:00 END recovery_verify_002_sha rc=0 bytes=107
+2026-11-12T09:59:51+00:00 RUN recovery_verify_002_stat
+2026-11-12T09:59:51+00:00 END recovery_verify_002_stat rc=0 bytes=29
+2026-11-12T09:59:51+00:00 RUN recovery_verify_002_xattrs
+2026-11-12T09:59:52+00:00 END recovery_verify_002_xattrs rc=0 bytes=130
+2026-11-12T09:59:52+00:00 RUN recovery_verify_002_getcap
+2026-11-12T09:59:52+00:00 END recovery_verify_002_getcap rc=0 bytes=14
+2026-11-12T09:59:52+00:00 RUN recovery_verify_002_chsmack
+2026-11-12T09:59:52+00:00 END recovery_verify_002_chsmack rc=0 bytes=52
+2026-11-12T09:59:52+00:00 RUN recovery_verify_002_upper
+2026-11-12T09:59:52+00:00 END recovery_verify_002_upper rc=0 bytes=14
+2026-11-12T09:59:52+00:00 RUN recovery_verify_003_sha
+2026-11-12T09:59:52+00:00 END recovery_verify_003_sha rc=0 bytes=99
+2026-11-12T09:59:52+00:00 RUN recovery_verify_003_stat
+2026-11-12T09:59:52+00:00 END recovery_verify_003_stat rc=0 bytes=29
+2026-11-12T09:59:52+00:00 RUN recovery_verify_003_xattrs
+2026-11-12T09:59:52+00:00 END recovery_verify_003_xattrs rc=0 bytes=122
+2026-11-12T09:59:52+00:00 RUN recovery_verify_003_getcap
+2026-11-12T09:59:52+00:00 END recovery_verify_003_getcap rc=0 bytes=14
+2026-11-12T09:59:52+00:00 RUN recovery_verify_003_chsmack
+2026-11-12T09:59:53+00:00 END recovery_verify_003_chsmack rc=0 bytes=44
+2026-11-12T09:59:53+00:00 RUN recovery_verify_003_upper
+2026-11-12T09:59:53+00:00 END recovery_verify_003_upper rc=0 bytes=14
+2026-11-12T09:59:53+00:00 RUN recovery_verify_004_sha
+2026-11-12T09:59:53+00:00 END recovery_verify_004_sha rc=0 bytes=96
+2026-11-12T09:59:53+00:00 RUN recovery_verify_004_stat
+2026-11-12T09:59:53+00:00 END recovery_verify_004_stat rc=0 bytes=31
+2026-11-12T09:59:53+00:00 RUN recovery_verify_004_xattrs
+2026-11-12T09:59:53+00:00 END recovery_verify_004_xattrs rc=0 bytes=119
+2026-11-12T09:59:53+00:00 RUN recovery_verify_004_getcap
+2026-11-12T09:59:53+00:00 END recovery_verify_004_getcap rc=0 bytes=14
+2026-11-12T09:59:53+00:00 RUN recovery_verify_004_chsmack
+2026-11-12T09:59:53+00:00 END recovery_verify_004_chsmack rc=0 bytes=41
+2026-11-12T09:59:53+00:00 RUN recovery_verify_004_upper
+2026-11-12T09:59:53+00:00 END recovery_verify_004_upper rc=0 bytes=14
+2026-11-12T09:59:53+00:00 RUN recovery_verify_005_sha
+2026-11-12T09:59:54+00:00 END recovery_verify_005_sha rc=0 bytes=99
+2026-11-12T09:59:54+00:00 RUN recovery_verify_005_stat
+2026-11-12T09:59:54+00:00 END recovery_verify_005_stat rc=0 bytes=29
+2026-11-12T09:59:54+00:00 RUN recovery_verify_005_xattrs
+2026-11-12T09:59:54+00:00 END recovery_verify_005_xattrs rc=0 bytes=122
+2026-11-12T09:59:54+00:00 RUN recovery_verify_005_getcap
+2026-11-12T09:59:54+00:00 END recovery_verify_005_getcap rc=0 bytes=14
+2026-11-12T09:59:54+00:00 RUN recovery_verify_005_chsmack
+2026-11-12T09:59:54+00:00 END recovery_verify_005_chsmack rc=0 bytes=44
+2026-11-12T09:59:54+00:00 RUN recovery_verify_005_upper
+2026-11-12T09:59:54+00:00 END recovery_verify_005_upper rc=0 bytes=14
+2026-11-12T09:59:54+00:00 RUN recovery_verify_006_sha
+2026-11-12T09:59:54+00:00 END recovery_verify_006_sha rc=0 bytes=94
+2026-11-12T09:59:54+00:00 RUN recovery_verify_006_stat
+2026-11-12T09:59:54+00:00 END recovery_verify_006_stat rc=0 bytes=29
+2026-11-12T09:59:54+00:00 RUN recovery_verify_006_xattrs
+2026-11-12T09:59:55+00:00 END recovery_verify_006_xattrs rc=0 bytes=181
+2026-11-12T09:59:55+00:00 RUN recovery_verify_006_getcap
+2026-11-12T09:59:55+00:00 END recovery_verify_006_getcap rc=0 bytes=97
+2026-11-12T09:59:55+00:00 RUN recovery_verify_006_chsmack
+2026-11-12T09:59:55+00:00 END recovery_verify_006_chsmack rc=0 bytes=39
+2026-11-12T09:59:55+00:00 RUN recovery_verify_006_upper
+2026-11-12T09:59:55+00:00 END recovery_verify_006_upper rc=0 bytes=14
+2026-11-12T09:59:55+00:00 RUN recovery_verify_007_sha
+2026-11-12T09:59:55+00:00 END recovery_verify_007_sha rc=0 bytes=100
+2026-11-12T09:59:55+00:00 RUN recovery_verify_007_stat
+2026-11-12T09:59:55+00:00 END recovery_verify_007_stat rc=0 bytes=30
+2026-11-12T09:59:55+00:00 RUN recovery_verify_007_xattrs
+2026-11-12T09:59:55+00:00 END recovery_verify_007_xattrs rc=0 bytes=123
+2026-11-12T09:59:55+00:00 RUN recovery_verify_007_getcap
+2026-11-12T09:59:55+00:00 END recovery_verify_007_getcap rc=0 bytes=14
+2026-11-12T09:59:55+00:00 RUN recovery_verify_007_chsmack
+2026-11-12T09:59:56+00:00 END recovery_verify_007_chsmack rc=0 bytes=45
+2026-11-12T09:59:56+00:00 RUN recovery_verify_007_upper
+2026-11-12T09:59:56+00:00 END recovery_verify_007_upper rc=0 bytes=14
+2026-11-12T09:59:56+00:00 RUN recovery_verify_008_sha
+2026-11-12T09:59:56+00:00 END recovery_verify_008_sha rc=0 bytes=125
+2026-11-12T09:59:56+00:00 RUN recovery_verify_008_stat
+2026-11-12T09:59:56+00:00 END recovery_verify_008_stat rc=0 bytes=33
+2026-11-12T09:59:56+00:00 RUN recovery_verify_008_xattrs
+2026-11-12T09:59:56+00:00 END recovery_verify_008_xattrs rc=0 bytes=214
+2026-11-12T09:59:56+00:00 RUN recovery_verify_008_getcap
+2026-11-12T09:59:56+00:00 END recovery_verify_008_getcap rc=0 bytes=14
+2026-11-12T09:59:56+00:00 RUN recovery_verify_008_chsmack
+2026-11-12T09:59:56+00:00 END recovery_verify_008_chsmack rc=0 bytes=103
+2026-11-12T09:59:56+00:00 RUN recovery_verify_008_upper
+2026-11-12T09:59:56+00:00 END recovery_verify_008_upper rc=0 bytes=14
+2026-11-12T09:59:56+00:00 RUN recovery_verify_009_sha
+2026-11-12T09:59:57+00:00 END recovery_verify_009_sha rc=0 bytes=105
+2026-11-12T09:59:57+00:00 RUN recovery_verify_009_stat
+2026-11-12T09:59:57+00:00 END recovery_verify_009_stat rc=0 bytes=30
+2026-11-12T09:59:57+00:00 RUN recovery_verify_009_xattrs
+2026-11-12T09:59:57+00:00 END recovery_verify_009_xattrs rc=0 bytes=175
+2026-11-12T09:59:57+00:00 RUN recovery_verify_009_getcap
+2026-11-12T09:59:57+00:00 END recovery_verify_009_getcap rc=0 bytes=14
+2026-11-12T09:59:57+00:00 RUN recovery_verify_009_chsmack
+2026-11-12T09:59:57+00:00 END recovery_verify_009_chsmack rc=0 bytes=72
+2026-11-12T09:59:57+00:00 RUN recovery_verify_009_upper
+2026-11-12T09:59:57+00:00 END recovery_verify_009_upper rc=0 bytes=14
+2026-11-12T09:59:57+00:00 RUN recovery_verify_010_sha
+2026-11-12T09:59:57+00:00 END recovery_verify_010_sha rc=0 bytes=101
+2026-11-12T09:59:57+00:00 RUN recovery_verify_010_stat
+2026-11-12T09:59:57+00:00 END recovery_verify_010_stat rc=0 bytes=29
+2026-11-12T09:59:57+00:00 RUN recovery_verify_010_xattrs
+2026-11-12T09:59:58+00:00 END recovery_verify_010_xattrs rc=0 bytes=124
+2026-11-12T09:59:58+00:00 RUN recovery_verify_010_getcap
+2026-11-12T09:59:58+00:00 END recovery_verify_010_getcap rc=0 bytes=14
+2026-11-12T09:59:58+00:00 RUN recovery_verify_010_chsmack
+2026-11-12T09:59:58+00:00 END recovery_verify_010_chsmack rc=0 bytes=46
+2026-11-12T09:59:58+00:00 RUN recovery_verify_010_upper
+2026-11-12T09:59:58+00:00 END recovery_verify_010_upper rc=0 bytes=14
+2026-11-12T09:59:58+00:00 RUN recovery_verify_011_sha
+2026-11-12T09:59:58+00:00 END recovery_verify_011_sha rc=0 bytes=117
+2026-11-12T09:59:58+00:00 RUN recovery_verify_011_stat
+2026-11-12T09:59:58+00:00 END recovery_verify_011_stat rc=0 bytes=32
+2026-11-12T09:59:58+00:00 RUN recovery_verify_011_xattrs
+2026-11-12T09:59:58+00:00 END recovery_verify_011_xattrs rc=0 bytes=198
+2026-11-12T09:59:58+00:00 RUN recovery_verify_011_getcap
+2026-11-12T09:59:58+00:00 END recovery_verify_011_getcap rc=0 bytes=14
+2026-11-12T09:59:58+00:00 RUN recovery_verify_011_chsmack
+2026-11-12T09:59:58+00:00 END recovery_verify_011_chsmack rc=0 bytes=91
+2026-11-12T09:59:58+00:00 RUN recovery_verify_011_upper
+2026-11-12T09:59:59+00:00 END recovery_verify_011_upper rc=0 bytes=14
+2026-11-12T09:59:59+00:00 RUN recovery_verify_012_sha
+2026-11-12T09:59:59+00:00 END recovery_verify_012_sha rc=0 bytes=106
+2026-11-12T09:59:59+00:00 RUN recovery_verify_012_stat
+2026-11-12T09:59:59+00:00 END recovery_verify_012_stat rc=0 bytes=31
+2026-11-12T09:59:59+00:00 RUN recovery_verify_012_xattrs
+2026-11-12T09:59:59+00:00 END recovery_verify_012_xattrs rc=0 bytes=129
+2026-11-12T09:59:59+00:00 RUN recovery_verify_012_getcap
+2026-11-12T09:59:59+00:00 END recovery_verify_012_getcap rc=0 bytes=14
+2026-11-12T09:59:59+00:00 RUN recovery_verify_012_chsmack
+2026-11-12T09:59:59+00:00 END recovery_verify_012_chsmack rc=0 bytes=51
+2026-11-12T09:59:59+00:00 RUN recovery_verify_012_upper
+2026-11-12T09:59:59+00:00 END recovery_verify_012_upper rc=0 bytes=14
+2026-11-12T09:59:59+00:00 RUN recovery_verify_013_sha
+2026-11-12T09:59:59+00:00 END recovery_verify_013_sha rc=0 bytes=129
+2026-11-12T09:59:59+00:00 RUN recovery_verify_013_stat
+2026-11-12T10:00:00+00:00 END recovery_verify_013_stat rc=0 bytes=31
+2026-11-12T10:00:00+00:00 RUN recovery_verify_013_xattrs
+2026-11-12T10:00:00+00:00 END recovery_verify_013_xattrs rc=0 bytes=216
+2026-11-12T10:00:00+00:00 RUN recovery_verify_013_getcap
+2026-11-12T10:00:00+00:00 END recovery_verify_013_getcap rc=0 bytes=97
+2026-11-12T10:00:00+00:00 RUN recovery_verify_013_chsmack
+2026-11-12T10:00:00+00:00 END recovery_verify_013_chsmack rc=0 bytes=74
+2026-11-12T10:00:00+00:00 RUN recovery_verify_013_upper
+2026-11-12T10:00:00+00:00 END recovery_verify_013_upper rc=0 bytes=14
+2026-11-12T10:00:00+00:00 RUN recovery_verify_014_sha
+2026-11-12T10:00:00+00:00 END recovery_verify_014_sha rc=0 bytes=107
+2026-11-12T10:00:00+00:00 RUN recovery_verify_014_stat
+2026-11-12T10:00:00+00:00 END recovery_verify_014_stat rc=0 bytes=29
+2026-11-12T10:00:00+00:00 RUN recovery_verify_014_xattrs
+2026-11-12T10:00:00+00:00 END recovery_verify_014_xattrs rc=0 bytes=233
+2026-11-12T10:00:00+00:00 RUN recovery_verify_014_getcap
+2026-11-12T10:00:01+00:00 END recovery_verify_014_getcap rc=0 bytes=96
+2026-11-12T10:00:01+00:00 RUN recovery_verify_014_chsmack
+2026-11-12T10:00:01+00:00 END recovery_verify_014_chsmack rc=0 bytes=70
+2026-11-12T10:00:01+00:00 RUN recovery_verify_014_upper
+2026-11-12T10:00:01+00:00 END recovery_verify_014_upper rc=0 bytes=14
+2026-11-12T10:00:01+00:00 RUN overlay_before_recovery_reboot
+2026-11-12T10:00:01+00:00 END overlay_before_recovery_reboot rc=0 bytes=5391
+2026-11-12T10:00:01+00:00 RUN recovery_precheck_root_off
+2026-11-12T10:00:01+00:00 END recovery_precheck_root_off rc=0 bytes=36
+2026-11-12T10:00:01+00:00 RUN recovery_precheck_sdk_uid
+2026-11-12T10:00:01+00:00 END recovery_precheck_sdk_uid rc=0 bytes=20
+2026-11-12T10:00:01+00:00 RUN recovery_before_arch
+2026-11-12T10:00:01+00:00 END recovery_before_arch rc=0 bytes=22
+2026-11-12T10:00:01+00:00 RUN recovery_before_model
+2026-11-12T10:00:01+00:00 END recovery_before_model rc=0 bytes=31
+2026-11-12T10:00:01+00:00 RUN recovery_before_cmdline
+2026-11-12T10:00:01+00:00 END recovery_before_cmdline rc=0 bytes=1479
+2026-11-12T10:00:01+00:00 RUN recovery_before_version
+2026-11-12T10:00:02+00:00 END recovery_before_version rc=0 bytes=172
+2026-11-12T10:00:02+00:00 RUN recovery_before_build
+2026-11-12T10:00:02+00:00 END recovery_before_build rc=0 bytes=51
+2026-11-12T10:00:02+00:00 RUN recovery_before_boot_id
+2026-11-12T10:00:02+00:00 END recovery_before_boot_id rc=0 bytes=52
+2026-11-12T10:00:02+00:00 RUN recovery_before_uptime
+2026-11-12T10:00:02+00:00 END recovery_before_uptime rc=0 bytes=30
+2026-11-12T10:00:02+00:00 RUN recovery_before_reboot_root_on
+2026-11-12T10:00:02+00:00 END recovery_before_reboot_root_on rc=0 bytes=32
+2026-11-12T10:00:02+00:00 RUN recovery_before_reboot_uid
+2026-11-12T10:00:02+00:00 END recovery_before_reboot_uid rc=0 bytes=17
+2026-11-12T10:00:02+00:00 RUN recovery_reboot
+2026-11-12T10:00:13+00:00 END recovery_reboot rc=0 bytes=12
+2026-11-12T10:00:13+00:00 recovery reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T10:00:28+00:00 RUN recovery_connect_01
+2026-11-12T10:00:31+00:00 END recovery_connect_01 rc=0 bytes=73
+2026-11-12T10:00:31+00:00 RUN recovery_boot_probe_01
+2026-11-12T10:00:39+00:00 END recovery_boot_probe_01 rc=1 bytes=0
+2026-11-12T10:00:54+00:00 RUN recovery_connect_02
+2026-11-12T10:00:54+00:00 END recovery_connect_02 rc=0 bytes=42
+2026-11-12T10:00:54+00:00 RUN recovery_boot_probe_02
+2026-11-12T10:00:54+00:00 END recovery_boot_probe_02 rc=0 bytes=52
+2026-11-12T10:00:54+00:00 RUN recovery_after_arch
+2026-11-12T10:00:55+00:00 END recovery_after_arch rc=0 bytes=22
+2026-11-12T10:00:55+00:00 RUN recovery_after_model
+2026-11-12T10:00:55+00:00 END recovery_after_model rc=0 bytes=31
+2026-11-12T10:00:55+00:00 RUN recovery_after_cmdline
+2026-11-12T10:00:55+00:00 END recovery_after_cmdline rc=0 bytes=1479
+2026-11-12T10:00:55+00:00 RUN recovery_after_version
+2026-11-12T10:00:55+00:00 END recovery_after_version rc=0 bytes=172
+2026-11-12T10:00:55+00:00 RUN recovery_after_build
+2026-11-12T10:00:55+00:00 END recovery_after_build rc=0 bytes=51
+2026-11-12T10:00:55+00:00 RUN recovery_after_boot_id
+2026-11-12T10:00:55+00:00 END recovery_after_boot_id rc=0 bytes=52
+2026-11-12T10:00:55+00:00 RUN recovery_after_uptime
+2026-11-12T10:00:55+00:00 END recovery_after_uptime rc=0 bytes=27
+2026-11-12T10:00:55+00:00 recovery RECONNECTED new boot ID=46721947-1f98-45c1-a5b5-9cdfa9abc4a6
+2026-11-12T10:00:55+00:00 RUN recovery_postboot_root_on
+2026-11-12T10:00:55+00:00 END recovery_postboot_root_on rc=0 bytes=32
+2026-11-12T10:00:55+00:00 RUN recovery_postboot_uid
+2026-11-12T10:00:56+00:00 END recovery_postboot_uid rc=0 bytes=17
+2026-11-12T10:00:56+00:00 RUN recovery_uptime_01
+2026-11-12T10:00:56+00:00 END recovery_uptime_01 rc=0 bytes=18
+2026-11-12T10:00:56+00:00 RUN recovery_ps_01
+2026-11-12T10:00:56+00:00 END recovery_ps_01 rc=0 bytes=18156
+2026-11-12T10:00:56+00:00 recovery health wait uptime=43 missing=['acm-service']
+2026-11-12T10:01:26+00:00 RUN recovery_uptime_02
+2026-11-12T10:01:26+00:00 END recovery_uptime_02 rc=0 bytes=18
+2026-11-12T10:01:26+00:00 RUN recovery_ps_02
+2026-11-12T10:01:26+00:00 END recovery_ps_02 rc=0 bytes=18073
+2026-11-12T10:01:26+00:00 recovery health wait uptime=74 missing=['acm-service']
+2026-11-12T10:01:56+00:00 RUN recovery_uptime_03
+2026-11-12T10:01:56+00:00 END recovery_uptime_03 rc=0 bytes=19
+2026-11-12T10:01:56+00:00 RUN recovery_ps_03
+2026-11-12T10:01:57+00:00 END recovery_ps_03 rc=0 bytes=18118
+2026-11-12T10:01:57+00:00 recovery health wait uptime=104 missing=[]
+2026-11-12T10:02:27+00:00 RUN recovery_uptime_04
+2026-11-12T10:02:27+00:00 END recovery_uptime_04 rc=0 bytes=19
+2026-11-12T10:02:27+00:00 RUN recovery_ps_04
+2026-11-12T10:02:27+00:00 END recovery_ps_04 rc=0 bytes=17922
+2026-11-12T10:02:27+00:00 recovery health wait uptime=134 missing=[]
+2026-11-12T10:02:57+00:00 RUN recovery_uptime_05
+2026-11-12T10:02:57+00:00 END recovery_uptime_05 rc=0 bytes=19
+2026-11-12T10:02:57+00:00 RUN recovery_ps_05
+2026-11-12T10:02:57+00:00 END recovery_ps_05 rc=0 bytes=17906
+2026-11-12T10:02:57+00:00 recovery health wait uptime=165 missing=['acm-service']
+2026-11-12T10:03:27+00:00 RUN recovery_uptime_06
+2026-11-12T10:03:27+00:00 END recovery_uptime_06 rc=0 bytes=19
+2026-11-12T10:03:27+00:00 RUN recovery_ps_06
+2026-11-12T10:03:28+00:00 END recovery_ps_06 rc=0 bytes=18178
+2026-11-12T10:03:28+00:00 RUN recovery_failed_units
+2026-11-12T10:03:28+00:00 END recovery_failed_units rc=0 bytes=501
+2026-11-12T10:03:28+00:00 RUN recovery_amd_activation_units
+2026-11-12T10:03:28+00:00 END recovery_amd_activation_units rc=0 bytes=132
+2026-11-12T10:03:28+00:00 RUN recovery_dmesg
+2026-11-12T10:03:29+00:00 END recovery_dmesg rc=0 bytes=728007
+2026-11-12T10:03:29+00:00 RUN recovery_dlog_main
+2026-11-12T10:03:29+00:00 END recovery_dlog_main rc=0 bytes=1011996
+2026-11-12T10:03:29+00:00 RUN recovery_dlog_system
+2026-11-12T10:03:30+00:00 END recovery_dlog_system rc=0 bytes=337710
+2026-11-12T10:03:30+00:00 recovery HEALTH True uptime=195 missing=[] new_failed=[] refusals=0
+2026-11-12T10:03:30+00:00 RUN recovery_prelink_diag
+2026-11-12T10:03:30+00:00 END recovery_prelink_diag rc=0 bytes=24430
+2026-11-12T10:03:30+00:00 recovery PRELINK_DIAG ['      3357:\tprelink checking: ok', '      3357:\tprelink checking: ok']
+2026-11-12T10:03:30+00:00 RUN overlay_after_recovery_reboot
+2026-11-12T10:03:30+00:00 END overlay_after_recovery_reboot rc=0 bytes=5391
+2026-11-12T10:03:30+00:00 RUN recovery_cleanup_stage
+2026-11-12T10:03:31+00:00 END recovery_cleanup_stage rc=0 bytes=14
+2026-11-12T10:03:31+00:00 RUN recovery_cleanup_tools
+2026-11-12T10:03:31+00:00 END recovery_cleanup_tools rc=0 bytes=14
+2026-11-12T10:03:31+00:00 RUN recovery_postboot_root_off
+2026-11-12T10:03:31+00:00 END recovery_postboot_root_off rc=0 bytes=36
+2026-11-12T10:03:31+00:00 RUN recovery_postboot_sdk_uid
+2026-11-12T10:03:31+00:00 END recovery_postboot_sdk_uid rc=0 bytes=20
+2026-11-12T10:03:31+00:00 PHASE_END final_recovery_retry rc=0
+2026-11-12T10:03:31+00:00 ERROR RuntimeError('apply_programs_retry failed; see apply_programs_retry_console.log')
+2026-11-12T10:04:17+00:00 VERIFY factory_1
+2026-11-12T10:04:20+00:00 VALID factory_1 elf_archive bytes=162672282
+2026-11-12T10:04:20+00:00 VALID factory_1 steady_smaps bytes=1481722
+2026-11-12T10:04:20+00:00 VERIFY factory_2
+2026-11-12T10:04:21+00:00 ERROR EOFError('Compressed file ended before the end-of-stream marker was reached')
+2026-11-12T10:04:59+00:00 VERIFY factory_1
+2026-11-12T10:05:02+00:00 VALID factory_1 elf_archive bytes=162672282
+2026-11-12T10:05:02+00:00 VALID factory_1 steady_smaps bytes=1481722
+2026-11-12T10:05:02+00:00 VERIFY factory_2
+2026-11-12T10:05:04+00:00 VALID factory_2 elf_archive bytes=101810176
+2026-11-12T10:05:04+00:00 VALID factory_2 steady_smaps bytes=1502262
+2026-11-12T10:05:04+00:00 ERROR RuntimeError("factory_2 elf_archive EOFError('Compressed file ended before the end-of-stream marker was reached'); factory_2 tar \ngzip: stdin: unexpected end of file\ntar: Unexpected EOF in archive\ntar: Error is not recoverable: exiting now\n")
+2026-11-12T10:06:49+00:00 FACTORY factory_1 userspace=576364 15group=75471
+2026-11-12T10:06:49+00:00 FACTORY factory_2 userspace=577422 15group=75292
+2026-11-12T10:06:49+00:00 FACTORY SUMMARY DONE

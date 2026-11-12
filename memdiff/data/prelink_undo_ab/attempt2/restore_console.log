@@ -1,0 +1,38 @@
+2026-11-12T09:41:08+00:00 RUN write_root_on
+2026-11-12T09:41:08+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:41:08+00:00 RUN write_root_uid
+2026-11-12T09:41:08+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:41:08+00:00 RUN restore_001_before_sha
+2026-11-12T09:41:08+00:00 END restore_001_before_sha rc=0 bytes=101
+2026-11-12T09:41:08+00:00 RUN restore_001_before_stat
+2026-11-12T09:41:08+00:00 END restore_001_before_stat rc=0 bytes=30
+2026-11-12T09:41:08+00:00 RUN restore_001_before_xattrs
+2026-11-12T09:41:08+00:00 END restore_001_before_xattrs rc=0 bytes=124
+2026-11-12T09:41:08+00:00 RUN restore_001_before_getcap
+2026-11-12T09:41:09+00:00 END restore_001_before_getcap rc=0 bytes=14
+2026-11-12T09:41:09+00:00 RUN restore_001_before_chsmack
+2026-11-12T09:41:09+00:00 END restore_001_before_chsmack rc=0 bytes=46
+2026-11-12T09:41:09+00:00 RUN restore_001_before_upper
+2026-11-12T09:41:09+00:00 END restore_001_before_upper rc=0 bytes=14
+2026-11-12T09:41:09+00:00 RUN restore_001_stage_sha
+2026-11-12T09:41:09+00:00 END restore_001_stage_sha rc=0 bytes=135
+2026-11-12T09:41:09+00:00 RUN restore_001_copy
+2026-11-12T09:41:09+00:00 END restore_001_copy rc=0 bytes=14
+2026-11-12T09:41:09+00:00 RUN restore_001_post_sha
+2026-11-12T09:41:09+00:00 END restore_001_post_sha rc=0 bytes=101
+2026-11-12T09:41:09+00:00 RUN restore_001_post_stat
+2026-11-12T09:41:09+00:00 END restore_001_post_stat rc=0 bytes=30
+2026-11-12T09:41:09+00:00 RUN restore_001_post_xattrs
+2026-11-12T09:41:09+00:00 END restore_001_post_xattrs rc=0 bytes=124
+2026-11-12T09:41:09+00:00 RUN restore_001_post_getcap
+2026-11-12T09:41:10+00:00 END restore_001_post_getcap rc=0 bytes=14
+2026-11-12T09:41:10+00:00 RUN restore_001_post_chsmack
+2026-11-12T09:41:10+00:00 END restore_001_post_chsmack rc=0 bytes=46
+2026-11-12T09:41:10+00:00 RUN restore_001_post_upper
+2026-11-12T09:41:10+00:00 END restore_001_post_upper rc=0 bytes=14
+2026-11-12T09:41:10+00:00 WRITE_OK original /usr/bin/tvs-daemon
+2026-11-12T09:41:10+00:00 RUN write_root_off
+2026-11-12T09:41:10+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:41:10+00:00 RUN write_sdk_uid
+2026-11-12T09:41:10+00:00 END write_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T09:41:10+00:00 状态=成功

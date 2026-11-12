@@ -1,0 +1,38 @@
+
+Dynamic section at offset 0x3008 contains 35 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libpulse.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpulsecommon-15.0.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libpulse-simple.so.0]
+ 0x0000001d (RUNPATH)                    Library runpath: [/usr/lib/pulseaudio]
+ 0x0000000c (INIT)                       0x448ebe20
+ 0x0000000d (FINI)                       0x448ece84
+ 0x00000019 (INIT_ARRAY)                 0x448ee000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x448ee004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x448eb138
+ 0x00000005 (STRTAB)                     0x448eb5b8
+ 0x00000006 (SYMTAB)                     0x448eb1b8
+ 0x0000000a (STRSZ)                      1381 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x448ef000
+ 0x00000002 (PLTRELSZ)                   392 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x448ebc98
+ 0x00000011 (REL)                        0x448ebc58
+ 0x00000012 (RELSZ)                      64 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x448ebba0
+ 0x6ffffffd (VERDEFNUM)                  2
+ 0x6ffffffb (FLAGS_1)                    Flags: NODELETE
+ 0x6ffffffe (VERNEED)                    0x448ebbd8
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x448ebb1e
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0x66f0a941
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

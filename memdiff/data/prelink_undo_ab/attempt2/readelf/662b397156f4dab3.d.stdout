@@ -1,0 +1,32 @@
+
+Dynamic section at offset 0x3008 contains 29 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libanalog-input-control.so.0]
+ 0x0000000c (INIT)                       0x4103ccd0
+ 0x0000000d (FINI)                       0x4103de00
+ 0x00000019 (INIT_ARRAY)                 0x4103f000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4103f004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4103c138
+ 0x00000005 (STRTAB)                     0x4103c5a8
+ 0x00000006 (SYMTAB)                     0x4103c2d8
+ 0x0000000a (STRSZ)                      1526 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x41040000
+ 0x00000002 (PLTRELSZ)                   80 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4103cc80
+ 0x00000011 (REL)                        0x4103cc48
+ 0x00000012 (RELSZ)                      56 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4103cbf8
+ 0x6fffffff (VERNEEDNUM)                 2
+ 0x6ffffff0 (VERSYM)                     0x4103cb9e
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0x69794387
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:46
+ 0x00000000 (NULL)                       0x0

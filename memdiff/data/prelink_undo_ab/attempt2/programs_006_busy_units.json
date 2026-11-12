@@ -1,0 +1,7 @@
+{
+  "path": "/usr/bin/amd",
+  "units": [
+    "ac.service"
+  ],
+  "ps": " 594    1 sh              /bin/sh -c ps -eo pid,ppid,comm,args | grep -F 'amd'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\"\r\n 597  594 grep            grep -F amd\r\n 698    1 amd             /usr/bin/amd\r\n\r"
+}

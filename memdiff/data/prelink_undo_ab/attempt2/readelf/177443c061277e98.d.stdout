@@ -1,0 +1,35 @@
+
+Dynamic section at offset 0x5188 contains 32 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-core.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-util.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libtvs-dvb-sospec.so]
+ 0x0000000c (INIT)                       0x441a9868
+ 0x0000000d (FINI)                       0x441ab830
+ 0x00000019 (INIT_ARRAY)                 0x441ac000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x441ac004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x441a7138
+ 0x00000005 (STRTAB)                     0x441a7840
+ 0x00000006 (SYMTAB)                     0x441a73d0
+ 0x0000000a (STRSZ)                      2935 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x441ad000
+ 0x00000002 (PLTRELSZ)                   104 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x441a898c
+ 0x00000007 (RELA)                       0x441a84e8
+ 0x00000008 (RELASZ)                     1188 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x441a8448
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x441a83b8
+ 0x6ffffff9 (RELACOUNT)                  28
+ 0x6ffffdf8 (CHECKSUM)                   0x2470f85e
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

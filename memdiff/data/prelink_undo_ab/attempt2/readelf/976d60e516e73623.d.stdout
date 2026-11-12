@@ -1,0 +1,27 @@
+
+Dynamic section at offset 0x4d88 contains 24 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x0000000e (SONAME)                     Library soname: [libtizen-extension-client.so.0]
+ 0x0000000c (INIT)                       0x441b24f0
+ 0x0000000d (FINI)                       0x441b25f0
+ 0x00000019 (INIT_ARRAY)                 0x441b4000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x441b4004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x441b0118
+ 0x00000005 (STRTAB)                     0x441b04ac
+ 0x00000006 (SYMTAB)                     0x441b023c
+ 0x0000000a (STRSZ)                      1003 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x441b5000
+ 0x00000002 (PLTRELSZ)                   16 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x441b24e0
+ 0x00000011 (REL)                        0x441b0898
+ 0x00000012 (RELSZ)                      7240 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffa (RELCOUNT)                   781
+ 0x6ffffdf8 (CHECKSUM)                   0xd4ad7323
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

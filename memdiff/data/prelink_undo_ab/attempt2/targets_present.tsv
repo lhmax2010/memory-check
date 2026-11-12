@@ -1,0 +1,21 @@
+state	path
+present	/usr/bin/tvs-daemon
+present	/usr/bin/TIFSDaemon
+present	/usr/bin/app-boot-manager
+present	/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv
+present	/usr/bin/fastinit
+present	/usr/bin/avocd
+present	/usr/bin/fastlogo
+present	/usr/bin/amd
+present	/usr/bin/fastvideo
+present	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+present	/usr/bin/rscmgr-service
+present	/usr/bin/pulseaudio
+present	/usr/apps/org.tizen.btapp/bin/btapp
+present	/usr/bin/hdmicec-service
+present	/usr/apps/org.tizen.acm-service/bin/acm-service
+present	/usr/bin/launchpad-loader
+present	/usr/bin/launchpad-process-pool
+present	/usr/bin/app_launcher
+present	/usr/apps/org.tizen.welcome-mode/bin/welcome-mode
+

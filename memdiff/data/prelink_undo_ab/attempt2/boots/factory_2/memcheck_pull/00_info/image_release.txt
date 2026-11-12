@@ -1,0 +1,55 @@
+### /etc/tizen-release
+Tizen10/TV 10.0.0 (arm)
+VERSION = 10.0.0
+CODENAME = TTEN
+BUILD_ID=T-KSU2EJAKUC-0101-PERF-202610010416
+### /etc/os-release
+NAME=Tizen
+VERSION="10.0.0 (Tizen10/TV)"
+ID=tizen
+VERSION_ID=10.0.0
+PRETTY_NAME="Tizen 10.0.0 (Tizen10/TV)"
+ANSI_COLOR="0;36"
+CPE_NAME="cpe:/o:tizen:tizen:10.0.0"
+BUILD_ID=T-KSU2EJAKUC-0101-PERF-202610010416
+### /etc/info.ini
+[Version]
+Model=Tizen10/TV;
+Build=latest;
+Release=latest;
+[Build]
+Type=eng;
+Date=20260930_194858;
+Time=19:48:58;
+Variant=NONE;
+ID=latest;
+### /etc/tizen-build.conf
+TZ_BUILD_RELEASE_NAME="Tizen10/TV"
+TZ_BUILD_VERSION=10.0
+TZ_BUILD_FULLVER=10.0.0
+TZ_BUILD_RELEASE_TYPE=eng
+TZ_BUILD_VARIANT=NONE
+
+TZ_BUILD_PROFILE=tv
+TZ_BUILD_PROJECT=Tizen:10.1:Base
+
+TZ_BUILD_VENDOR=tizen
+TZ_BUILD_REPO=standard
+TZ_BUILD_ARCH=arm
+
+TZ_BUILD_ID=latest
+TZ_BUILD_DATE=20260930_194858
+TZ_BUILD_TIME=19:48:58
+TZ_BUILD_TS=1790797738
+
+TZ_BUILD_URL=http://download.tizen.org
+TZ_BUILD_SNAPSHOT_URL=${TZ_BUILD_URL}/snapshots/tizen/tv/
+TZ_BUILD_DAILY_URL=${TZ_BUILD_URL}/releases/daily/tizen/tv/
+TZ_BUILD_WEEKLY_URL=${TZ_BUILD_URL}/releases/weekly/tizen/tv/
+TZ_BUILD_MILESTONE_URL=${TZ_BUILD_URL}/releases/milestone/tizen/tv/
+
+TZ_BUILD_WITH_MESA=1
+TZ_BUILD_WITH_WAYLAND=1
+TZ_BUILD_WITH_RDP=1
+TZ_BUILD_WITH_X=
+

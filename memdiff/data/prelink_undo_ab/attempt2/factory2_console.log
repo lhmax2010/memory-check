@@ -1,0 +1,199 @@
+2026-11-12T09:15:03+00:00 RUN factory_2_before_arch
+2026-11-12T09:15:04+00:00 END factory_2_before_arch rc=0 bytes=22
+2026-11-12T09:15:04+00:00 RUN factory_2_before_model
+2026-11-12T09:15:04+00:00 END factory_2_before_model rc=0 bytes=31
+2026-11-12T09:15:04+00:00 RUN factory_2_before_cmdline
+2026-11-12T09:15:04+00:00 END factory_2_before_cmdline rc=0 bytes=1479
+2026-11-12T09:15:04+00:00 RUN factory_2_before_version
+2026-11-12T09:15:04+00:00 END factory_2_before_version rc=0 bytes=172
+2026-11-12T09:15:04+00:00 RUN factory_2_before_build
+2026-11-12T09:15:04+00:00 END factory_2_before_build rc=0 bytes=51
+2026-11-12T09:15:04+00:00 RUN factory_2_before_boot_id
+2026-11-12T09:15:04+00:00 END factory_2_before_boot_id rc=0 bytes=52
+2026-11-12T09:15:04+00:00 RUN factory_2_before_uptime
+2026-11-12T09:15:04+00:00 END factory_2_before_uptime rc=0 bytes=31
+2026-11-12T09:15:04+00:00 RUN factory_2_before_reboot_root_on
+2026-11-12T09:15:04+00:00 END factory_2_before_reboot_root_on rc=0 bytes=32
+2026-11-12T09:15:04+00:00 RUN factory_2_before_reboot_uid
+2026-11-12T09:15:04+00:00 END factory_2_before_reboot_uid rc=0 bytes=17
+2026-11-12T09:15:04+00:00 RUN factory_2_reboot
+2026-11-12T09:15:15+00:00 END factory_2_reboot rc=0 bytes=12
+2026-11-12T09:15:15+00:00 factory_2 reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T09:15:30+00:00 RUN factory_2_connect_01
+2026-11-12T09:15:32+00:00 END factory_2_connect_01 rc=0 bytes=73
+2026-11-12T09:15:32+00:00 RUN factory_2_boot_probe_01
+2026-11-12T09:15:32+00:00 END factory_2_boot_probe_01 rc=0 bytes=52
+2026-11-12T09:15:32+00:00 RUN factory_2_after_arch
+2026-11-12T09:15:32+00:00 END factory_2_after_arch rc=0 bytes=22
+2026-11-12T09:15:32+00:00 RUN factory_2_after_model
+2026-11-12T09:15:32+00:00 END factory_2_after_model rc=0 bytes=31
+2026-11-12T09:15:32+00:00 RUN factory_2_after_cmdline
+2026-11-12T09:15:32+00:00 END factory_2_after_cmdline rc=0 bytes=1479
+2026-11-12T09:15:32+00:00 RUN factory_2_after_version
+2026-11-12T09:15:33+00:00 END factory_2_after_version rc=0 bytes=172
+2026-11-12T09:15:33+00:00 RUN factory_2_after_build
+2026-11-12T09:15:33+00:00 END factory_2_after_build rc=0 bytes=51
+2026-11-12T09:15:33+00:00 RUN factory_2_after_boot_id
+2026-11-12T09:15:33+00:00 END factory_2_after_boot_id rc=0 bytes=52
+2026-11-12T09:15:33+00:00 RUN factory_2_after_uptime
+2026-11-12T09:15:33+00:00 END factory_2_after_uptime rc=0 bytes=26
+2026-11-12T09:15:33+00:00 factory_2 RECONNECTED new boot ID=c4140aa4-59b6-4346-b5d2-5d49f7bd174b
+2026-11-12T09:15:33+00:00 RUN factory_2_root_on
+2026-11-12T09:15:33+00:00 END factory_2_root_on rc=0 bytes=32
+2026-11-12T09:15:33+00:00 RUN factory_2_uid
+2026-11-12T09:15:34+00:00 END factory_2_uid rc=0 bytes=17
+2026-11-12T09:15:34+00:00 RUN factory_2_uptime_01
+2026-11-12T09:15:34+00:00 END factory_2_uptime_01 rc=0 bytes=18
+2026-11-12T09:15:34+00:00 RUN factory_2_ps_01
+2026-11-12T09:15:40+00:00 END factory_2_ps_01 rc=0 bytes=18265
+2026-11-12T09:15:40+00:00 factory_2 health wait uptime=19 missing=['acm-service']
+2026-11-12T09:16:10+00:00 RUN factory_2_uptime_02
+2026-11-12T09:16:10+00:00 END factory_2_uptime_02 rc=0 bytes=18
+2026-11-12T09:16:10+00:00 RUN factory_2_ps_02
+2026-11-12T09:16:10+00:00 END factory_2_ps_02 rc=0 bytes=18730
+2026-11-12T09:16:10+00:00 factory_2 health wait uptime=55 missing=['acm-service']
+2026-11-12T09:16:40+00:00 RUN factory_2_uptime_03
+2026-11-12T09:16:40+00:00 END factory_2_uptime_03 rc=0 bytes=18
+2026-11-12T09:16:40+00:00 RUN factory_2_ps_03
+2026-11-12T09:16:40+00:00 END factory_2_ps_03 rc=0 bytes=18302
+2026-11-12T09:16:40+00:00 factory_2 health wait uptime=85 missing=[]
+2026-11-12T09:17:10+00:00 RUN factory_2_uptime_04
+2026-11-12T09:17:10+00:00 END factory_2_uptime_04 rc=0 bytes=19
+2026-11-12T09:17:10+00:00 RUN factory_2_ps_04
+2026-11-12T09:17:11+00:00 END factory_2_ps_04 rc=0 bytes=18186
+2026-11-12T09:17:11+00:00 factory_2 health wait uptime=116 missing=[]
+2026-11-12T09:17:41+00:00 RUN factory_2_uptime_05
+2026-11-12T09:17:41+00:00 END factory_2_uptime_05 rc=0 bytes=19
+2026-11-12T09:17:41+00:00 RUN factory_2_ps_05
+2026-11-12T09:17:41+00:00 END factory_2_ps_05 rc=0 bytes=18133
+2026-11-12T09:17:41+00:00 factory_2 health wait uptime=146 missing=[]
+2026-11-12T09:18:11+00:00 RUN factory_2_uptime_06
+2026-11-12T09:18:11+00:00 END factory_2_uptime_06 rc=0 bytes=19
+2026-11-12T09:18:11+00:00 RUN factory_2_ps_06
+2026-11-12T09:18:11+00:00 END factory_2_ps_06 rc=0 bytes=18080
+2026-11-12T09:18:11+00:00 factory_2 health wait uptime=176 missing=['acm-service']
+2026-11-12T09:18:41+00:00 RUN factory_2_uptime_07
+2026-11-12T09:18:42+00:00 END factory_2_uptime_07 rc=0 bytes=19
+2026-11-12T09:18:42+00:00 RUN factory_2_ps_07
+2026-11-12T09:18:42+00:00 END factory_2_ps_07 rc=0 bytes=18271
+2026-11-12T09:18:42+00:00 RUN factory_2_failed_units
+2026-11-12T09:18:42+00:00 END factory_2_failed_units rc=0 bytes=501
+2026-11-12T09:18:42+00:00 RUN factory_2_dmesg
+2026-11-12T09:18:42+00:00 END factory_2_dmesg rc=0 bytes=727875
+2026-11-12T09:18:42+00:00 RUN factory_2_dlog_main
+2026-11-12T09:18:43+00:00 END factory_2_dlog_main rc=0 bytes=1056283
+2026-11-12T09:18:43+00:00 RUN factory_2_dlog_system
+2026-11-12T09:18:43+00:00 END factory_2_dlog_system rc=0 bytes=341805
+2026-11-12T09:18:43+00:00 factory_2 HEALTH True uptime=207 missing=[] new_failed=[] refusals=0
+2026-11-12T09:18:43+00:00 RUN factory_2_prelink_diag
+2026-11-12T09:18:43+00:00 END factory_2_prelink_diag rc=0 bytes=24430
+2026-11-12T09:18:43+00:00 factory_2 PRELINK_DIAG ['      3332:\tprelink checking: ok', '      3332:\tprelink checking: ok']
+2026-11-12T09:18:43+00:00 RUN factory_2_memcheck_launch
+2026-11-12T09:18:47+00:00 END factory_2_memcheck_launch rc=0 bytes=433
+2026-11-12T09:18:47+00:00 factory_2 MEMCHECK /opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910
+2026-11-12T09:19:17+00:00 RUN factory_2_poll_001
+2026-11-12T09:19:17+00:00 END factory_2_poll_001 rc=0 bytes=23
+2026-11-12T09:19:47+00:00 RUN factory_2_poll_002
+2026-11-12T09:19:47+00:00 END factory_2_poll_002 rc=0 bytes=23
+2026-11-12T09:20:17+00:00 RUN factory_2_poll_003
+2026-11-12T09:20:17+00:00 END factory_2_poll_003 rc=0 bytes=23
+2026-11-12T09:20:47+00:00 RUN factory_2_poll_004
+2026-11-12T09:20:47+00:00 END factory_2_poll_004 rc=0 bytes=23
+2026-11-12T09:21:17+00:00 RUN factory_2_poll_005
+2026-11-12T09:21:17+00:00 END factory_2_poll_005 rc=0 bytes=23
+2026-11-12T09:21:47+00:00 RUN factory_2_poll_006
+2026-11-12T09:21:47+00:00 END factory_2_poll_006 rc=0 bytes=23
+2026-11-12T09:22:17+00:00 RUN factory_2_poll_007
+2026-11-12T09:22:17+00:00 END factory_2_poll_007 rc=0 bytes=23
+2026-11-12T09:22:47+00:00 RUN factory_2_poll_008
+2026-11-12T09:22:48+00:00 END factory_2_poll_008 rc=0 bytes=23
+2026-11-12T09:23:18+00:00 RUN factory_2_poll_009
+2026-11-12T09:23:18+00:00 END factory_2_poll_009 rc=0 bytes=23
+2026-11-12T09:23:48+00:00 RUN factory_2_poll_010
+2026-11-12T09:23:48+00:00 END factory_2_poll_010 rc=0 bytes=23
+2026-11-12T09:23:48+00:00 factory_2 MEMCHECK poll=10 status=RUNNING
+2026-11-12T09:24:18+00:00 RUN factory_2_poll_011
+2026-11-12T09:24:18+00:00 END factory_2_poll_011 rc=0 bytes=23
+2026-11-12T09:24:48+00:00 RUN factory_2_poll_012
+2026-11-12T09:24:48+00:00 END factory_2_poll_012 rc=0 bytes=23
+2026-11-12T09:25:18+00:00 RUN factory_2_poll_013
+2026-11-12T09:25:18+00:00 END factory_2_poll_013 rc=0 bytes=23
+2026-11-12T09:25:48+00:00 RUN factory_2_poll_014
+2026-11-12T09:25:48+00:00 END factory_2_poll_014 rc=0 bytes=23
+2026-11-12T09:26:18+00:00 RUN factory_2_poll_015
+2026-11-12T09:26:19+00:00 END factory_2_poll_015 rc=0 bytes=23
+2026-11-12T09:26:49+00:00 RUN factory_2_poll_016
+2026-11-12T09:26:49+00:00 END factory_2_poll_016 rc=0 bytes=23
+2026-11-12T09:27:19+00:00 RUN factory_2_poll_017
+2026-11-12T09:27:19+00:00 END factory_2_poll_017 rc=0 bytes=23
+2026-11-12T09:27:49+00:00 RUN factory_2_poll_018
+2026-11-12T09:27:49+00:00 END factory_2_poll_018 rc=0 bytes=23
+2026-11-12T09:28:19+00:00 RUN factory_2_poll_019
+2026-11-12T09:28:19+00:00 END factory_2_poll_019 rc=0 bytes=23
+2026-11-12T09:28:49+00:00 RUN factory_2_poll_020
+2026-11-12T09:28:49+00:00 END factory_2_poll_020 rc=0 bytes=23
+2026-11-12T09:28:49+00:00 factory_2 MEMCHECK poll=20 status=RUNNING
+2026-11-12T09:29:19+00:00 RUN factory_2_poll_021
+2026-11-12T09:29:19+00:00 END factory_2_poll_021 rc=0 bytes=23
+2026-11-12T09:29:49+00:00 RUN factory_2_poll_022
+2026-11-12T09:29:49+00:00 END factory_2_poll_022 rc=0 bytes=23
+2026-11-12T09:30:19+00:00 RUN factory_2_poll_023
+2026-11-12T09:30:20+00:00 END factory_2_poll_023 rc=0 bytes=23
+2026-11-12T09:30:50+00:00 RUN factory_2_poll_024
+2026-11-12T09:30:50+00:00 END factory_2_poll_024 rc=0 bytes=23
+2026-11-12T09:31:20+00:00 RUN factory_2_poll_025
+2026-11-12T09:31:20+00:00 END factory_2_poll_025 rc=0 bytes=23
+2026-11-12T09:31:50+00:00 RUN factory_2_poll_026
+2026-11-12T09:31:50+00:00 END factory_2_poll_026 rc=0 bytes=23
+2026-11-12T09:32:20+00:00 RUN factory_2_poll_027
+2026-11-12T09:32:20+00:00 END factory_2_poll_027 rc=0 bytes=23
+2026-11-12T09:32:50+00:00 RUN factory_2_poll_028
+2026-11-12T09:32:50+00:00 END factory_2_poll_028 rc=0 bytes=23
+2026-11-12T09:33:20+00:00 RUN factory_2_poll_029
+2026-11-12T09:33:20+00:00 END factory_2_poll_029 rc=0 bytes=23
+2026-11-12T09:33:50+00:00 RUN factory_2_poll_030
+2026-11-12T09:33:50+00:00 END factory_2_poll_030 rc=0 bytes=23
+2026-11-12T09:33:50+00:00 factory_2 MEMCHECK poll=30 status=RUNNING
+2026-11-12T09:34:20+00:00 RUN factory_2_poll_031
+2026-11-12T09:34:21+00:00 END factory_2_poll_031 rc=0 bytes=23
+2026-11-12T09:34:51+00:00 RUN factory_2_poll_032
+2026-11-12T09:34:51+00:00 END factory_2_poll_032 rc=0 bytes=23
+2026-11-12T09:35:21+00:00 RUN factory_2_poll_033
+2026-11-12T09:35:21+00:00 END factory_2_poll_033 rc=0 bytes=23
+2026-11-12T09:35:51+00:00 RUN factory_2_poll_034
+2026-11-12T09:35:51+00:00 END factory_2_poll_034 rc=0 bytes=23
+2026-11-12T09:36:21+00:00 RUN factory_2_poll_035
+2026-11-12T09:36:21+00:00 END factory_2_poll_035 rc=0 bytes=23
+2026-11-12T09:36:51+00:00 RUN factory_2_poll_036
+2026-11-12T09:36:51+00:00 END factory_2_poll_036 rc=0 bytes=23
+2026-11-12T09:37:21+00:00 RUN factory_2_poll_037
+2026-11-12T09:37:21+00:00 END factory_2_poll_037 rc=0 bytes=23
+2026-11-12T09:37:51+00:00 RUN factory_2_poll_038
+2026-11-12T09:37:51+00:00 END factory_2_poll_038 rc=0 bytes=23
+2026-11-12T09:38:21+00:00 RUN factory_2_poll_039
+2026-11-12T09:38:22+00:00 END factory_2_poll_039 rc=0 bytes=23
+2026-11-12T09:38:52+00:00 RUN factory_2_poll_040
+2026-11-12T09:38:52+00:00 END factory_2_poll_040 rc=0 bytes=23
+2026-11-12T09:38:52+00:00 factory_2 MEMCHECK poll=40 status=RUNNING
+2026-11-12T09:39:22+00:00 RUN factory_2_poll_041
+2026-11-12T09:39:22+00:00 END factory_2_poll_041 rc=0 bytes=23
+2026-11-12T09:39:52+00:00 RUN factory_2_poll_042
+2026-11-12T09:39:52+00:00 END factory_2_poll_042 rc=0 bytes=23
+2026-11-12T09:40:22+00:00 RUN factory_2_poll_043
+2026-11-12T09:40:22+00:00 END factory_2_poll_043 rc=0 bytes=20
+2026-11-12T09:40:22+00:00 factory_2 MEMCHECK DONE
+2026-11-12T09:40:22+00:00 RUN factory_2_pull_memcheck
+2026-11-12T09:40:39+00:00 END factory_2_pull_memcheck rc=0 bytes=14168
+2026-11-12T09:40:40+00:00 factory_2 MEMCHECK pulled and gzip checked
+2026-11-12T09:40:40+00:00 RUN factory_2_post_dmesg
+2026-11-12T09:40:40+00:00 END factory_2_post_dmesg rc=0 bytes=722873
+2026-11-12T09:40:40+00:00 RUN factory_2_post_dlog_main
+2026-11-12T09:40:40+00:00 END factory_2_post_dlog_main rc=0 bytes=1008038
+2026-11-12T09:40:40+00:00 RUN factory_2_post_dlog_system
+2026-11-12T09:40:41+00:00 END factory_2_post_dlog_system rc=0 bytes=369021
+2026-11-12T09:40:41+00:00 factory_2 DONE
+2026-11-12T09:40:41+00:00 RUN factory_2_root_off
+2026-11-12T09:40:41+00:00 END factory_2_root_off rc=0 bytes=36
+2026-11-12T09:40:41+00:00 RUN factory_2_sdk_uid
+2026-11-12T09:40:41+00:00 END factory_2_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T09:40:41+00:00 状态=成功

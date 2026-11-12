@@ -1,0 +1,122 @@
+2026-11-12T09:41:10+00:00 RUN recovery_precheck_root_on
+2026-11-12T09:41:10+00:00 END recovery_precheck_root_on rc=0 bytes=32
+2026-11-12T09:41:10+00:00 RUN recovery_precheck_uid
+2026-11-12T09:41:10+00:00 END recovery_precheck_uid rc=0 bytes=17
+2026-11-12T09:41:10+00:00 RUN recovery_verify_001_sha
+2026-11-12T09:41:10+00:00 END recovery_verify_001_sha rc=0 bytes=101
+2026-11-12T09:41:10+00:00 RUN recovery_verify_001_stat
+2026-11-12T09:41:10+00:00 END recovery_verify_001_stat rc=0 bytes=30
+2026-11-12T09:41:10+00:00 RUN recovery_verify_001_xattrs
+2026-11-12T09:41:11+00:00 END recovery_verify_001_xattrs rc=0 bytes=124
+2026-11-12T09:41:11+00:00 RUN recovery_verify_001_getcap
+2026-11-12T09:41:11+00:00 END recovery_verify_001_getcap rc=0 bytes=14
+2026-11-12T09:41:11+00:00 RUN recovery_verify_001_chsmack
+2026-11-12T09:41:11+00:00 END recovery_verify_001_chsmack rc=0 bytes=46
+2026-11-12T09:41:11+00:00 RUN recovery_verify_001_upper
+2026-11-12T09:41:11+00:00 END recovery_verify_001_upper rc=0 bytes=14
+2026-11-12T09:41:11+00:00 RUN overlay_before_recovery_reboot
+2026-11-12T09:41:11+00:00 END overlay_before_recovery_reboot rc=0 bytes=4701
+2026-11-12T09:41:11+00:00 RUN recovery_precheck_root_off
+2026-11-12T09:41:11+00:00 END recovery_precheck_root_off rc=0 bytes=36
+2026-11-12T09:41:11+00:00 RUN recovery_precheck_sdk_uid
+2026-11-12T09:41:11+00:00 END recovery_precheck_sdk_uid rc=0 bytes=20
+2026-11-12T09:41:11+00:00 RUN recovery_before_arch
+2026-11-12T09:41:11+00:00 END recovery_before_arch rc=0 bytes=22
+2026-11-12T09:41:11+00:00 RUN recovery_before_model
+2026-11-12T09:41:11+00:00 END recovery_before_model rc=0 bytes=31
+2026-11-12T09:41:11+00:00 RUN recovery_before_cmdline
+2026-11-12T09:41:12+00:00 END recovery_before_cmdline rc=0 bytes=1479
+2026-11-12T09:41:12+00:00 RUN recovery_before_version
+2026-11-12T09:41:12+00:00 END recovery_before_version rc=0 bytes=172
+2026-11-12T09:41:12+00:00 RUN recovery_before_build
+2026-11-12T09:41:12+00:00 END recovery_before_build rc=0 bytes=51
+2026-11-12T09:41:12+00:00 RUN recovery_before_boot_id
+2026-11-12T09:41:12+00:00 END recovery_before_boot_id rc=0 bytes=52
+2026-11-12T09:41:12+00:00 RUN recovery_before_uptime
+2026-11-12T09:41:12+00:00 END recovery_before_uptime rc=0 bytes=31
+2026-11-12T09:41:12+00:00 RUN recovery_before_reboot_root_on
+2026-11-12T09:41:12+00:00 END recovery_before_reboot_root_on rc=0 bytes=32
+2026-11-12T09:41:12+00:00 RUN recovery_before_reboot_uid
+2026-11-12T09:41:12+00:00 END recovery_before_reboot_uid rc=0 bytes=17
+2026-11-12T09:41:12+00:00 RUN recovery_reboot
+2026-11-12T09:41:23+00:00 END recovery_reboot rc=0 bytes=12
+2026-11-12T09:41:23+00:00 recovery reboot transport/remote result=255; awaiting changed boot ID
+2026-11-12T09:41:38+00:00 RUN recovery_connect_01
+2026-11-12T09:41:40+00:00 END recovery_connect_01 rc=0 bytes=73
+2026-11-12T09:41:40+00:00 RUN recovery_boot_probe_01
+2026-11-12T09:41:56+00:00 END recovery_boot_probe_01 rc=1 bytes=0
+2026-11-12T09:42:11+00:00 RUN recovery_connect_02
+2026-11-12T09:42:11+00:00 END recovery_connect_02 rc=0 bytes=42
+2026-11-12T09:42:11+00:00 RUN recovery_boot_probe_02
+2026-11-12T09:42:12+00:00 END recovery_boot_probe_02 rc=0 bytes=52
+2026-11-12T09:42:12+00:00 RUN recovery_after_arch
+2026-11-12T09:42:12+00:00 END recovery_after_arch rc=0 bytes=22
+2026-11-12T09:42:12+00:00 RUN recovery_after_model
+2026-11-12T09:42:12+00:00 END recovery_after_model rc=0 bytes=31
+2026-11-12T09:42:12+00:00 RUN recovery_after_cmdline
+2026-11-12T09:42:12+00:00 END recovery_after_cmdline rc=0 bytes=1479
+2026-11-12T09:42:12+00:00 RUN recovery_after_version
+2026-11-12T09:42:12+00:00 END recovery_after_version rc=0 bytes=172
+2026-11-12T09:42:12+00:00 RUN recovery_after_build
+2026-11-12T09:42:12+00:00 END recovery_after_build rc=0 bytes=51
+2026-11-12T09:42:12+00:00 RUN recovery_after_boot_id
+2026-11-12T09:42:12+00:00 END recovery_after_boot_id rc=0 bytes=52
+2026-11-12T09:42:12+00:00 RUN recovery_after_uptime
+2026-11-12T09:42:12+00:00 END recovery_after_uptime rc=0 bytes=27
+2026-11-12T09:42:12+00:00 recovery RECONNECTED new boot ID=b3013aff-9188-48bc-a8e7-1e87337e50e9
+2026-11-12T09:42:12+00:00 RUN recovery_postboot_root_on
+2026-11-12T09:42:13+00:00 END recovery_postboot_root_on rc=0 bytes=32
+2026-11-12T09:42:13+00:00 RUN recovery_postboot_uid
+2026-11-12T09:42:13+00:00 END recovery_postboot_uid rc=0 bytes=17
+2026-11-12T09:42:13+00:00 RUN recovery_uptime_01
+2026-11-12T09:42:13+00:00 END recovery_uptime_01 rc=0 bytes=18
+2026-11-12T09:42:13+00:00 RUN recovery_ps_01
+2026-11-12T09:42:13+00:00 END recovery_ps_01 rc=0 bytes=18320
+2026-11-12T09:42:13+00:00 recovery health wait uptime=50 missing=['acm-service']
+2026-11-12T09:42:43+00:00 RUN recovery_uptime_02
+2026-11-12T09:42:43+00:00 END recovery_uptime_02 rc=0 bytes=18
+2026-11-12T09:42:43+00:00 RUN recovery_ps_02
+2026-11-12T09:42:43+00:00 END recovery_ps_02 rc=0 bytes=18398
+2026-11-12T09:42:43+00:00 recovery health wait uptime=80 missing=[]
+2026-11-12T09:43:13+00:00 RUN recovery_uptime_03
+2026-11-12T09:43:14+00:00 END recovery_uptime_03 rc=0 bytes=19
+2026-11-12T09:43:14+00:00 RUN recovery_ps_03
+2026-11-12T09:43:14+00:00 END recovery_ps_03 rc=0 bytes=18215
+2026-11-12T09:43:14+00:00 recovery health wait uptime=111 missing=[]
+2026-11-12T09:43:44+00:00 RUN recovery_uptime_04
+2026-11-12T09:43:44+00:00 END recovery_uptime_04 rc=0 bytes=19
+2026-11-12T09:43:44+00:00 RUN recovery_ps_04
+2026-11-12T09:43:44+00:00 END recovery_ps_04 rc=0 bytes=18043
+2026-11-12T09:43:44+00:00 recovery health wait uptime=141 missing=[]
+2026-11-12T09:44:14+00:00 RUN recovery_uptime_05
+2026-11-12T09:44:14+00:00 END recovery_uptime_05 rc=0 bytes=19
+2026-11-12T09:44:14+00:00 RUN recovery_ps_05
+2026-11-12T09:44:14+00:00 END recovery_ps_05 rc=0 bytes=17997
+2026-11-12T09:44:14+00:00 recovery health wait uptime=172 missing=['acm-service']
+2026-11-12T09:44:44+00:00 RUN recovery_uptime_06
+2026-11-12T09:44:45+00:00 END recovery_uptime_06 rc=0 bytes=19
+2026-11-12T09:44:45+00:00 RUN recovery_ps_06
+2026-11-12T09:44:45+00:00 END recovery_ps_06 rc=0 bytes=18160
+2026-11-12T09:44:45+00:00 RUN recovery_failed_units
+2026-11-12T09:44:45+00:00 END recovery_failed_units rc=0 bytes=501
+2026-11-12T09:44:45+00:00 RUN recovery_dmesg
+2026-11-12T09:44:45+00:00 END recovery_dmesg rc=0 bytes=729439
+2026-11-12T09:44:45+00:00 RUN recovery_dlog_main
+2026-11-12T09:44:46+00:00 END recovery_dlog_main rc=0 bytes=1013755
+2026-11-12T09:44:46+00:00 RUN recovery_dlog_system
+2026-11-12T09:44:46+00:00 END recovery_dlog_system rc=0 bytes=336755
+2026-11-12T09:44:46+00:00 recovery HEALTH True uptime=202 missing=[] new_failed=[] refusals=0
+2026-11-12T09:44:46+00:00 RUN recovery_prelink_diag
+2026-11-12T09:44:46+00:00 END recovery_prelink_diag rc=0 bytes=24430
+2026-11-12T09:44:46+00:00 recovery PRELINK_DIAG ['      3332:\tprelink checking: ok', '      3332:\tprelink checking: ok']
+2026-11-12T09:44:46+00:00 RUN overlay_after_recovery_reboot
+2026-11-12T09:44:47+00:00 END overlay_after_recovery_reboot rc=0 bytes=4701
+2026-11-12T09:44:47+00:00 RUN recovery_cleanup_stage
+2026-11-12T09:44:48+00:00 END recovery_cleanup_stage rc=0 bytes=14
+2026-11-12T09:44:48+00:00 RUN recovery_cleanup_tools
+2026-11-12T09:44:48+00:00 END recovery_cleanup_tools rc=0 bytes=14
+2026-11-12T09:44:48+00:00 RUN recovery_postboot_root_off
+2026-11-12T09:44:48+00:00 END recovery_postboot_root_off rc=0 bytes=36
+2026-11-12T09:44:48+00:00 RUN recovery_postboot_sdk_uid
+2026-11-12T09:44:48+00:00 END recovery_postboot_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T09:44:48+00:00 状态=成功

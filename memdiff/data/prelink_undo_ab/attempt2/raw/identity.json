@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T08:10:30+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "printf '__ARCH__\\n'; uname -m; printf '__MODEL__\\n'; cat /proc/device-tree/model; printf '\\n__CMDLINE__\\n'; cat /proc/cmdline; printf '__VERSION__\\n'; cat /proc/version; printf '__BUILD__\\n'; sed -n 's/^BUILD_ID=//p' /etc/os-release; printf '__BOOTID__\\n'; cat /proc/sys/kernel/random/boot_id; printf '__UID__\\n'; id -u; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 1824,
+  "stderr_bytes": 0
+}

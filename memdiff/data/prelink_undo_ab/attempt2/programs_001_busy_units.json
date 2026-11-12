@@ -1,0 +1,7 @@
+{
+  "path": "/usr/bin/tvs-daemon",
+  "units": [
+    "aaa_tvs_deamon.service"
+  ],
+  "ps": " 695    1 tvs-daemon      /usr/bin/tvs-daemon\r\n4004    1 sh              /bin/sh -c ps -eo pid,ppid,comm,args | grep -F 'tvs-daemon'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\"\r\n4007 4004 grep            grep -F tvs-daemon\r\n\r"
+}

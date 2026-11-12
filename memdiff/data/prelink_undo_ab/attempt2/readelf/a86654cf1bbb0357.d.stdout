@@ -1,0 +1,45 @@
+
+Dynamic section at offset 0x33078 contains 42 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsqlite3.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libjsoncpp.so.22]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpkgmgr-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtzplatform-config-2.0.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libparcel.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libwas_db_api.so]
+ 0x0000000c (INIT)                       0x4544e970
+ 0x0000000d (FINI)                       0x45471378
+ 0x00000019 (INIT_ARRAY)                 0x4547b058
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4547b05c
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x45448138
+ 0x00000005 (STRTAB)                     0x4544a344
+ 0x00000006 (SYMTAB)                     0x45448b74
+ 0x0000000a (STRSZ)                      14327 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4547c058
+ 0x00000002 (PLTRELSZ)                   2256 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4544e0a0
+ 0x00000007 (RELA)                       0x4544df98
+ 0x00000008 (RELASZ)                     264 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4544de38
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x4544db3c
+ 0x6ffffff9 (RELACOUNT)                  3
+ 0x6ffffdf8 (CHECKSUM)                   0xea5b632c
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:46
+ 0x00000000 (NULL)                       0x0

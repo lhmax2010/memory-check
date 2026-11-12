@@ -1,0 +1,14 @@
+boot	process	path	rx_present_kB	loader_sections_resident_kB
+factory_1	tv-viewer	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	2012.0	236.236328
+factory_1	tv-viewer	/usr/lib/libtvs-api.so	264.0	35.8125
+factory_1	tv-viewer	/usr/lib/libtvs-parser.so	56.0	35.693359
+factory_1	tvs-daemon	/usr/lib/libtvs-api-native.so	596.0	29.091797
+factory_1	tvs-daemon	/usr/lib/libtvs-atsc30-parser.so	32.0	27.000977
+factory_1	tvs-daemon	/usr/lib/libtvs-b2b.so	128.0	23.09082
+factory_1	tvs-daemon	/usr/lib/libtvs-dsm.so	56.0	29.838867
+factory_1	tvs-daemon	/usr/lib/libtvs-dvb-si.so	36.0	19.810547
+factory_1	tvs-daemon	/usr/lib/libtvs-dvbbase-scan.so	36.0	21.327148
+factory_1	tvs-daemon	/usr/lib/libtvs-ext.so	232.0	23.233398
+factory_1	tvs-daemon	/usr/lib/libtvs-iss.so	412.0	24.125977
+factory_1	tvs-daemon	/usr/lib/libtvs-si.so	56.0	27.694336
+factory_1	tvs-daemon	/usr/lib/libtvs-util.so	464.0	43.695312

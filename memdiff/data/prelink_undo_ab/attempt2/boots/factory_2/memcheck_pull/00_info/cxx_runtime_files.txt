@@ -1,0 +1,15 @@
+ls: cannot access /usr/lib/libc++*: No such file or directory
+ls: cannot access /usr/lib/libc++abi*: No such file or directory
+-rw-r--r-- 1 root root  105464 Sep 30 12:55 /usr/lib/libgcc_s.so.1
+lrwxrwxrwx 1 root root      19 Sep 18 05:10 /usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.33
+-rwxr-xr-x 1 root root 1697800 Sep 30 12:55 /usr/lib/libstdc++.so.6.0.33
+lrwxrwxrwx 1 root root      22 Sep 18 02:18 /usr/lib/libunwind-arm.so.8 -> libunwind-arm.so.8.0.1
+-rwxr-xr-x 1 root root   52008 Sep 30 12:55 /usr/lib/libunwind-arm.so.8.0.1
+lrwxrwxrwx 1 root root      27 Sep 18 02:18 /usr/lib/libunwind-coredump.so.0 -> libunwind-coredump.so.0.0.0
+-rwxr-xr-x 1 root root   13436 Sep 30 12:55 /usr/lib/libunwind-coredump.so.0.0.0
+lrwxrwxrwx 1 root root      25 Sep 18 02:18 /usr/lib/libunwind-ptrace.so.0 -> libunwind-ptrace.so.0.0.0
+-rwxr-xr-x 1 root root   15224 Sep 30 12:55 /usr/lib/libunwind-ptrace.so.0.0.0
+lrwxrwxrwx 1 root root      25 Sep 18 02:18 /usr/lib/libunwind-setjmp.so.0 -> libunwind-setjmp.so.0.0.0
+-rwxr-xr-x 1 root root    9200 Sep 30 12:55 /usr/lib/libunwind-setjmp.so.0.0.0
+lrwxrwxrwx 1 root root      18 Sep 18 02:18 /usr/lib/libunwind.so.8 -> libunwind.so.8.0.1
+-rwxr-xr-x 1 root root   42432 Sep 30 12:55 /usr/lib/libunwind.so.8.0.1

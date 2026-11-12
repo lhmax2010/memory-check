@@ -1,0 +1,3 @@
+Node 0, zone   Normal    492    276    211     98     60     19      9      5      2      0      0 
+Node 0, zone  HighMem     79     25     14      8      4      1      2      0      0      0      0 
+Node 0, zone      CMA   1916   4131   1275    360     77     13      2      1      0      0      0 

@@ -1,0 +1,20 @@
+2026-11-12T10:04:59+00:00 VERIFY factory_1
+2026-11-12T10:05:02+00:00 VALID factory_1 elf_archive bytes=162672282
+2026-11-12T10:05:02+00:00 VALID factory_1 steady_smaps bytes=1481722
+2026-11-12T10:05:02+00:00 VERIFY factory_2
+2026-11-12T10:05:04+00:00 VALID factory_2 elf_archive bytes=101810176
+2026-11-12T10:05:04+00:00 VALID factory_2 steady_smaps bytes=1502262
+2026-11-12T10:05:04+00:00 ERROR RuntimeError("factory_2 elf_archive EOFError('Compressed file ended before the end-of-stream marker was reached'); factory_2 tar \ngzip: stdin: unexpected end of file\ntar: Unexpected EOF in archive\ntar: Error is not recoverable: exiting now\n")
+已结束 2026-11-12T10:05:04+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/verify_factory_archives.py", line 43, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/verify_factory_archives.py", line 39, in main
+    if failures:raise RuntimeError('; '.join(failures))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: factory_2 elf_archive EOFError('Compressed file ended before the end-of-stream marker was reached'); factory_2 tar 
+gzip: stdin: unexpected end of file
+tar: Unexpected EOF in archive
+tar: Error is not recoverable: exiting now
+

@@ -1,0 +1,39 @@
+There are 30 section headers, starting at offset 0x27b6c:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            435ea114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        435ea138 000138 000618 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          435ea750 000750 000ea0 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          435eb5f0 0015f0 000fcc 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          435ec5bc 0025bc 0001d4 02   A  3   0  2
+  [ 6] .gnu.version_d    VERDEF          435ec790 002790 0001e8 00   A  4  14  4
+  [ 7] .gnu.version_r    VERNEED         435ec978 002978 0000c0 00   A  4   3  4
+  [ 8] .rel.dyn          REL             435eca38 002a38 001118 08   A  3   0  4
+  [ 9] .rel.plt          REL             435edb50 003b50 000520 08  AI  3  22  4
+  [10] .init             PROGBITS        435ee070 004070 00000c 00  AX  0   0  4
+  [11] .plt              PROGBITS        435ee07c 00407c 0007e4 04  AX  0   0  4
+  [12] .text             PROGBITS        435ee860 004860 019504 00  AX  0   0  8
+  [13] .fini             PROGBITS        43607d64 01dd64 000008 00  AX  0   0  4
+  [14] .rodata           PROGBITS        43607d70 01dd70 004ba1 00   A  0   0  8
+  [15] .ARM.extab        PROGBITS        4360c914 022914 00027c 00   A  0   0  4
+  [16] .ARM.exidx        ARM_EXIDX       4360cb90 022b90 000890 00  AL 12   0  4
+  [17] .eh_frame         PROGBITS        4360d420 023420 000004 00   A  0   0  4
+  [18] .init_array       INIT_ARRAY      4360e000 024000 000008 04  WA  0   0  4
+  [19] .fini_array       FINI_ARRAY      4360e008 024008 000004 04  WA  0   0  4
+  [20] .data.rel.ro      PROGBITS        4360e010 024010 002904 00  WA  0   0  8
+  [21] .dynamic          DYNAMIC         43610914 026914 000108 08  WA  4   0  4
+  [22] .got              PROGBITS        43611000 027000 0002b4 04  WA  0   0  4
+  [23] .data             PROGBITS        436112b8 0272b8 0001dc 00  WA  0   0  8
+  [24] .bss              NOBITS          43611494 027494 000010 00  WA  0   0  4
+  [25] .comment          PROGBITS        00000000 027494 00002c 01  MS  0   0  1
+  [26] .gnu.liblist      GNU_LIBLIST     00000000 0274c0 00003c 14     27   0  4
+  [27] .gnu.libstr       STRTAB          00000000 0274fc 000027 00      0   0  1
+  [28] .gnu.prelink_undo PROGBITS        00000000 027524 000524 01      0   0  4
+  [29] .shstrtab         STRTAB          00000000 027a48 000121 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)

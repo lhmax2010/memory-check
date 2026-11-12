@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T08:23:42+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "push",
+    "/tmp/prelink_undo_attr/usr/bin/setfattr",
+    "/root/prelink_ab_tools/setfattr"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 331,
+  "stderr_bytes": 0
+}

@@ -1,0 +1,9 @@
+{
+  "expected_elf_paths": 3208,
+  "native_gnu_prelinked": 418,
+  "remote_rc": 0,
+  "summary_lines": [
+    "SUMMARY\t3208\t0"
+  ],
+  "native_readelf_version": "GNU readelf (GNU Binutils) 2.43\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) any later version.\nThis program has absolutely no warranty.\n\n__AB_RC__0"
+}

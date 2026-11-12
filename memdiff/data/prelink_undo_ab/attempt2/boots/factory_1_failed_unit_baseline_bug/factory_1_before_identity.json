@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "arch": "armv7l",
+    "model": "Novatek NT72671D",
+    "cmdline": "dtsversion=260727.0_KSU2E_1_kantsu2e-2.0G-Builtin console=ttyS0,115200 earlycon rs232=0 maxcpus=4 no_console_suspend only_entry_model root=/dev/dm-1       KDUMP=16 SELP_ENABLE=20102011 _nvtca9-16m rootfstype=erofs rw init=/sbin/iniz mem=703744K@64M mem=394M@2048M mem=512M@2560M vmalloc=300M rootwait quiet trace_event=early_event,user bdinfo=00000010 model=4kbtin   blperf=8_3_434           pba_none partition_ab=a dm-mod.waitfor=/dev/mmcblk0p18 dm-mod.create=\"plt_linear, , 0, ro, 0 2340864 linear /dev/mmcblk0p18 2048;plt_verity, , 1, ro, 0 2304224 verity 1 /dev/dm-0 /dev/dm-0 4096 4096 288028 288028 sha256 3469faab1325451012324ee2bd99ed52b252244405de80e3e00a7894fbd776ee 543ddd01bf85ec11f13653ed06e504e683c16e0842da44188900cfd2480a9e25 11 check_at_most_once ignore_zero_blocks panic_on_corruption use_fec_from_device /dev/dm-0 fec_roots 2 fec_blocks 290298 fec_start 290298;prd_linear, , 2, ro, 0 81920 linear /dev/mmcblk0p18 2342912;prd_verity, , 3, ro, 0 79152 verity 1 /dev/dm-2 /dev/dm-2 4096 4096 9894 9894 sha256 ba0c4e54854dbcf97deed660cb25dcc2118a4b4d78984f6c19e6971ffdf4df04 7bbe3cda10b8fdf192e8ca3f5118a898dcf4fa93c0a82020084b420a9c1848d0 11 check_at_most_once ignore_zero_blocks panic_on_corruption use_fec_from_device /dev/dm-2 fec_roots 2 fec_blocks 9973 fec_start 9973\"",
+    "version": "Linux version 6.12.60 (abuild@B4409DRG) (gcc (Tizen GCC 14.2.0 20240801 1.3) 14.2.0, GNU ld (GNU Binutils) 2.43) #1 SMP PREEMPT Wed Sep 30 16:04:58 UTC 2026",
+    "build": "T-KSU2EJAKUC-0101-PERF-202610010416",
+    "boot_id": "97c290b7-727f-4055-acbb-525ae5c7e134",
+    "uptime": "5614.37 17460.01"
+  },
+  "checks": {
+    "armv7l": true,
+    "NT72671D": true,
+    "KSU2E": true,
+    "GCC_kernel": true,
+    "BUILD_ID": true,
+    "boot_id": true
+  }
+}

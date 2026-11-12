@@ -1,0 +1,1 @@
+--w------- 1 root root 0 Nov 12 01:19 /proc/sys/vm/drop_caches

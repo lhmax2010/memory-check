@@ -1,0 +1,22 @@
+2026-11-12T09:57:30+00:00 PHASE_START apply_programs_retry
+2026-11-12T09:59:22+00:00 PHASE_END apply_programs_retry rc=1
+2026-11-12T09:59:22+00:00 RETRY_STOP RuntimeError('apply_programs_retry failed; see apply_programs_retry_console.log')
+2026-11-12T09:59:22+00:00 PHASE_START restore_retry
+2026-11-12T09:59:50+00:00 PHASE_END restore_retry rc=0
+2026-11-12T09:59:50+00:00 PHASE_START final_recovery_retry
+2026-11-12T10:03:31+00:00 PHASE_END final_recovery_retry rc=0
+2026-11-12T10:03:31+00:00 ERROR RuntimeError('apply_programs_retry failed; see apply_programs_retry_console.log')
+已结束 2026-11-12T10:03:31+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/orchestrate_resume.py", line 45, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/orchestrate_resume.py", line 41, in main
+    if failure:raise failure
+               ^^^^^^^^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/orchestrate_resume.py", line 27, in main
+    child('apply_programs_retry',['write_state.py','programs'],3600)
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/orchestrate.py", line 18, in child
+    if q.returncode:raise RuntimeError(f'{label} failed; see {label}_console.log')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: apply_programs_retry failed; see apply_programs_retry_console.log

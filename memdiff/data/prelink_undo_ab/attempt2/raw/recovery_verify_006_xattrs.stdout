@@ -1,0 +1,7 @@
+getfattr: Removing leading '/' from absolute path names
+# file: usr/bin/amd
+security.SMACK64=0x5f
+security.capability=0x01000002000000002a0028000000000000000000
+
+
+__AB_RC__0

@@ -1,0 +1,6 @@
+后台采集已启动：/opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910
+预计 20～60 分钟（含等待系统静止），期间请不要操作电视
+
+查看进度：tail -n 20 /opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910/run.log
+查看状态：cat /opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910/STATUS    （RUNNING=还在跑  DONE=正常结束  FAILED=中途退出）
+

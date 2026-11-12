@@ -1,0 +1,38 @@
+
+Dynamic section at offset 0xd05c contains 35 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpkgmgr-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsqlite3.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtzplatform-config-2.0.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libiniparser.so.4]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libsecurity-privilege-manager.so.1]
+ 0x0000000c (INIT)                       0x4478b420
+ 0x0000000d (FINI)                       0x44791600
+ 0x00000019 (INIT_ARRAY)                 0x44796000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x44796004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x44789138
+ 0x00000005 (STRTAB)                     0x44789d6c
+ 0x00000006 (SYMTAB)                     0x447894cc
+ 0x0000000a (STRSZ)                      4447 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x44797000
+ 0x00000002 (PLTRELSZ)                   752 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4478b130
+ 0x00000011 (REL)                        0x4478b060
+ 0x00000012 (RELSZ)                      208 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4478afe0
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x4478aecc
+ 0x6ffffffa (RELCOUNT)                   17
+ 0x6ffffdf8 (CHECKSUM)                   0x7d03bcda
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

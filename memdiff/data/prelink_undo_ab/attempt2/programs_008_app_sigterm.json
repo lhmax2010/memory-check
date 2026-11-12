@@ -1,0 +1,8 @@
+{
+  "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+  "pids": [
+    "601"
+  ],
+  "signal": "TERM",
+  "time": "2026-11-12T09:58:03+00:00"
+}

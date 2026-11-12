@@ -1,0 +1,627 @@
+      3357:	find library=libpulsecore-15.0.so [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libpulsecore-15.0.so
+      3357:	
+      3357:	find library=libpulsecommon-15.0.so [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libpulsecommon-15.0.so
+      3357:	
+      3357:	find library=libpulse.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libpulse.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libpulse.so.0
+      3357:	
+      3357:	find library=libltdl.so.7 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libltdl.so.7
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libltdl.so.7
+      3357:	
+      3357:	find library=libcap.so.2 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcap.so.2
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcap.so.2
+      3357:	
+      3357:	find library=libdbus-1.so.3 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libdbus-1.so.3
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libdbus-1.so.3
+      3357:	
+      3357:	find library=libsystemd.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libsystemd.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libsystemd.so.0
+      3357:	
+      3357:	find library=liblwipc.so [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/liblwipc.so
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/liblwipc.so
+      3357:	
+      3357:	find library=libgcc_s.so.1 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libgcc_s.so.1
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libgcc_s.so.1
+      3357:	
+      3357:	find library=libc.so.6 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libc.so.6
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libc.so.6
+      3357:	
+      3357:	find library=libm.so.6 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libm.so.6
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libm.so.6
+      3357:	
+      3357:	find library=libsndfile.so.1 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libsndfile.so.1
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libsndfile.so.1
+      3357:	
+      3357:	find library=libspeexdsp.so.1 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libspeexdsp.so.1
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libspeexdsp.so.1
+      3357:	
+      3357:	find library=libcynara-client.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-client.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-client.so.0
+      3357:	
+      3357:	find library=libcynara-commons.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-commons.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-commons.so.0
+      3357:	
+      3357:	find library=libcynara-creds-socket.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-creds-socket.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-creds-socket.so.0
+      3357:	
+      3357:	find library=libcynara-session.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-session.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-session.so.0
+      3357:	
+      3357:	find library=libdlog.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libdlog.so.0
+      3357:	
+      3357:	find library=libcapi-boost-tv.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcapi-boost-tv.so.0
+      3357:	
+      3357:	find library=libdbuspolicy1.so.1 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libdbuspolicy1.so.1
+      3357:	
+      3357:	find library=libvorbis.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libvorbis.so.0
+      3357:	
+      3357:	find library=libopus.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libopus.so.0
+      3357:	
+      3357:	find library=libogg.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libogg.so.0
+      3357:	
+      3357:	find library=libcynara-client-commons.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-client-commons.so.0
+      3357:	
+      3357:	find library=libcapi-system-resource.so.1 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcapi-system-resource.so.1
+      3357:	
+      3357:	find library=libstdc++.so.6 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libstdc++.so.6
+      3357:	
+      3357:	find library=libcynara-uid-creds.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-uid-creds.so.0
+      3357:	
+      3357:	find library=libcynara-creds-commons.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-creds-commons.so.0
+      3357:	
+      3357:	find library=libcynara-creds-self.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-creds-self.so.0
+      3357:	
+      3357:	find library=libexpat.so.1 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libexpat.so.1
+      3357:	
+      3357:	find library=libcynara-uid.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-uid.so.0
+      3357:	
+      3357:	
+      3357:	prelink checking: ok
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-uid.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /lib/ld-linux.so.3
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libc.so.6
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libm.so.6
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libgcc_s.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libexpat.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libdlog.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libstdc++.so.6
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-commons.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-creds-commons.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-uid-creds.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-creds-self.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcapi-system-resource.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-client-commons.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-session.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-client.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcapi-boost-tv.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcapi-system-resource-plugin.so
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libogg.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libopus.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libvorbis.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libdbuspolicy1.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-creds-socket.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libspeexdsp.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libsndfile.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/liblwipc.so
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcap.so.2
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libsystemd.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libdbus-1.so.3
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libltdl.so.7
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/pulseaudio/libpulsecommon-15.0.so
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libpulse.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/pulseaudio/libpulsecore-15.0.so
+      3357:	
+      3357:	
+      3357:	initialize program: /usr/bin/pulseaudio
+      3357:	
+      3357:	
+      3357:	transferring control: /usr/bin/pulseaudio
+      3357:	
+      3357:	find library=libpulsecore-15.0.so [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libpulsecore-15.0.so
+      3357:	
+      3357:	find library=libpulsecommon-15.0.so [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libpulsecommon-15.0.so
+      3357:	
+      3357:	find library=libpulse.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libpulse.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libpulse.so.0
+      3357:	
+      3357:	find library=libltdl.so.7 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libltdl.so.7
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libltdl.so.7
+      3357:	
+      3357:	find library=libcap.so.2 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcap.so.2
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcap.so.2
+      3357:	
+      3357:	find library=libdbus-1.so.3 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libdbus-1.so.3
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libdbus-1.so.3
+      3357:	
+      3357:	find library=libsystemd.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libsystemd.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libsystemd.so.0
+      3357:	
+      3357:	find library=liblwipc.so [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/liblwipc.so
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/liblwipc.so
+      3357:	
+      3357:	find library=libgcc_s.so.1 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libgcc_s.so.1
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libgcc_s.so.1
+      3357:	
+      3357:	find library=libc.so.6 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libc.so.6
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libc.so.6
+      3357:	
+      3357:	find library=libm.so.6 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libm.so.6
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libm.so.6
+      3357:	
+      3357:	find library=libsndfile.so.1 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libsndfile.so.1
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libsndfile.so.1
+      3357:	
+      3357:	find library=libspeexdsp.so.1 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libspeexdsp.so.1
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libspeexdsp.so.1
+      3357:	
+      3357:	find library=libcynara-client.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-client.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-client.so.0
+      3357:	
+      3357:	find library=libcynara-commons.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-commons.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-commons.so.0
+      3357:	
+      3357:	find library=libcynara-creds-socket.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-creds-socket.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-creds-socket.so.0
+      3357:	
+      3357:	find library=libcynara-session.so.0 [0]; searching
+      3357:	 search path=/usr/lib/pulseaudio		(RUNPATH from file /usr/bin/pulseaudio)
+      3357:	  trying file=/usr/lib/pulseaudio/libcynara-session.so.0
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-session.so.0
+      3357:	
+      3357:	find library=libdlog.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libdlog.so.0
+      3357:	
+      3357:	find library=libcapi-boost-tv.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcapi-boost-tv.so.0
+      3357:	
+      3357:	find library=libdbuspolicy1.so.1 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libdbuspolicy1.so.1
+      3357:	
+      3357:	find library=libvorbis.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libvorbis.so.0
+      3357:	
+      3357:	find library=libopus.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libopus.so.0
+      3357:	
+      3357:	find library=libogg.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libogg.so.0
+      3357:	
+      3357:	find library=libcynara-client-commons.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-client-commons.so.0
+      3357:	
+      3357:	find library=libcapi-system-resource.so.1 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcapi-system-resource.so.1
+      3357:	
+      3357:	find library=libstdc++.so.6 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libstdc++.so.6
+      3357:	
+      3357:	find library=libcynara-uid-creds.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-uid-creds.so.0
+      3357:	
+      3357:	find library=libcynara-creds-commons.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-creds-commons.so.0
+      3357:	
+      3357:	find library=libcynara-creds-self.so.0 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libcynara-creds-self.so.0
+      3357:	
+      3357:	find library=libexpat.so.1 [0]; searching
+      3357:	 search cache=/etc/ld.so.cache
+      3357:	  trying file=/usr/lib/libexpat.so.1
+      3357:	
+      3357:	find library=libcynara-uid.so.0 [0]; searching
+      3357:	 search path=/usr/lib		(system search path)
+      3357:	  trying file=/usr/lib/libcynara-uid.so.0
+      3357:	
+      3357:	
+      3357:	prelink checking: ok
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-uid.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /lib/ld-linux.so.3
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libc.so.6
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libm.so.6
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libgcc_s.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libexpat.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libdlog.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libstdc++.so.6
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-commons.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-creds-commons.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-uid-creds.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-creds-self.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcapi-system-resource.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-client-commons.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-session.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-client.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcapi-boost-tv.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcapi-system-resource-plugin.so
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libogg.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libopus.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libvorbis.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libdbuspolicy1.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcynara-creds-socket.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libspeexdsp.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libsndfile.so.1
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/liblwipc.so
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libcap.so.2
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libsystemd.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libdbus-1.so.3
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libltdl.so.7
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/pulseaudio/libpulsecommon-15.0.so
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/libpulse.so.0
+      3357:	
+      3357:	
+      3357:	calling init: /usr/lib/pulseaudio/libpulsecore-15.0.so
+      3357:	
+      3357:	
+      3357:	initialize program: /usr/bin/pulseaudio
+      3357:	
+      3357:	
+      3357:	transferring control: /usr/bin/pulseaudio
+      3357:	
+pulseaudio 15.0
+      3357:	
+      3357:	calling fini:  [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/pulseaudio/libpulsecore-15.0.so [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libpulse.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/pulseaudio/libpulsecommon-15.0.so [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libltdl.so.7 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libdbus-1.so.3 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libsystemd.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcap.so.2 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/liblwipc.so [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libsndfile.so.1 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libspeexdsp.so.1 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-creds-socket.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libdbuspolicy1.so.1 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libvorbis.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libopus.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libogg.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libexpat.so.1 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcapi-system-resource-plugin.so [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcapi-boost-tv.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-session.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-creds-self.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-uid-creds.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-uid.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-creds-commons.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-client.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcapi-system-resource.so.1 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-client-commons.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libcynara-commons.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libstdc++.so.6 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libm.so.6 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libdlog.so.0 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libgcc_s.so.1 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /usr/lib/libc.so.6 [0]
+      3357:	
+      3357:	
+      3357:	calling fini: /lib/ld-linux.so.3 [0]
+      3357:	
+
+__AB_RC__0

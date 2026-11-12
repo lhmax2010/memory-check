@@ -1,0 +1,29 @@
+
+Dynamic section at offset 0x1008 contains 26 entries:
+  Tag        Type                         Name/Value
+ 0x0000000e (SONAME)                     Library soname: [libcynara-uid.so.0]
+ 0x0000001d (RUNPATH)                    Library runpath: [/usr/lib]
+ 0x0000000c (INIT)                       0x4102e2fc
+ 0x0000000d (FINI)                       0x4102e494
+ 0x00000019 (INIT_ARRAY)                 0x4102f000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4102f004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4102e138
+ 0x00000005 (STRTAB)                     0x4102e208
+ 0x00000006 (SYMTAB)                     0x4102e168
+ 0x0000000a (STRSZ)                      172 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4102f0e8
+ 0x00000002 (PLTRELSZ)                   16 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4102e2ec
+ 0x00000011 (REL)                        0x4102e2b4
+ 0x00000012 (RELSZ)                      56 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x0000001e (FLAGS)                      BIND_NOW
+ 0x6ffffffb (FLAGS_1)                    Flags: NOW
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0xc19347fe
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

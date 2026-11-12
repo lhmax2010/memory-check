@@ -1,0 +1,1 @@
+进程数=109 总量(Pss+SwapPss)=577785 Pss=444909 Pss_Anon=209034 Pss_File=232952 Pss_Shmem=2877 Private_Dirty=199600 SwapPss=132876 匿名合计(Pss_Anon+SwapPss)=341910 (kB)

@@ -1,0 +1,9 @@
+### memory
+some avg2=0.00 avg6=0.00 avg10=0.00 total=521651
+full avg2=0.00 avg6=0.00 avg10=0.00 total=432156
+### cpu
+some avg2=2.27 avg6=2.49 avg10=2.55 total=99805178
+full avg2=0.00 avg6=0.00 avg10=0.00 total=0
+### io
+some avg2=0.00 avg6=0.00 avg10=0.00 total=7772322
+full avg2=0.00 avg6=0.00 avg10=0.00 total=2360524

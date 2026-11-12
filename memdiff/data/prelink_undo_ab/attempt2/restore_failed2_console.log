@@ -1,0 +1,255 @@
+2026-11-12T09:49:49+00:00 RUN write_root_on
+2026-11-12T09:49:49+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:49:49+00:00 RUN write_root_uid
+2026-11-12T09:49:49+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:49:49+00:00 RUN restore_001_before_sha
+2026-11-12T09:49:50+00:00 END restore_001_before_sha rc=0 bytes=125
+2026-11-12T09:49:50+00:00 RUN restore_001_before_stat
+2026-11-12T09:49:50+00:00 END restore_001_before_stat rc=0 bytes=33
+2026-11-12T09:49:50+00:00 RUN restore_001_before_xattrs
+2026-11-12T09:49:50+00:00 END restore_001_before_xattrs rc=0 bytes=214
+2026-11-12T09:49:50+00:00 RUN restore_001_before_getcap
+2026-11-12T09:49:50+00:00 END restore_001_before_getcap rc=0 bytes=14
+2026-11-12T09:49:50+00:00 RUN restore_001_before_chsmack
+2026-11-12T09:49:50+00:00 END restore_001_before_chsmack rc=0 bytes=103
+2026-11-12T09:49:50+00:00 RUN restore_001_before_upper
+2026-11-12T09:49:50+00:00 END restore_001_before_upper rc=0 bytes=14
+2026-11-12T09:49:50+00:00 RESTORE_ALREADY_OK /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+2026-11-12T09:49:50+00:00 RUN restore_002_before_sha
+2026-11-12T09:49:50+00:00 END restore_002_before_sha rc=0 bytes=100
+2026-11-12T09:49:50+00:00 RUN restore_002_before_stat
+2026-11-12T09:49:51+00:00 END restore_002_before_stat rc=0 bytes=30
+2026-11-12T09:49:51+00:00 RUN restore_002_before_xattrs
+2026-11-12T09:49:51+00:00 END restore_002_before_xattrs rc=0 bytes=123
+2026-11-12T09:49:51+00:00 RUN restore_002_before_getcap
+2026-11-12T09:49:51+00:00 END restore_002_before_getcap rc=0 bytes=14
+2026-11-12T09:49:51+00:00 RUN restore_002_before_chsmack
+2026-11-12T09:49:51+00:00 END restore_002_before_chsmack rc=0 bytes=45
+2026-11-12T09:49:51+00:00 RUN restore_002_before_upper
+2026-11-12T09:49:51+00:00 END restore_002_before_upper rc=0 bytes=14
+2026-11-12T09:49:51+00:00 RUN restore_002_stage_sha
+2026-11-12T09:49:51+00:00 END restore_002_stage_sha rc=0 bytes=134
+2026-11-12T09:49:51+00:00 RUN restore_002_copy
+2026-11-12T09:49:51+00:00 END restore_002_copy rc=0 bytes=14
+2026-11-12T09:49:51+00:00 RUN restore_002_post_sha
+2026-11-12T09:49:51+00:00 END restore_002_post_sha rc=0 bytes=100
+2026-11-12T09:49:51+00:00 RUN restore_002_post_stat
+2026-11-12T09:49:52+00:00 END restore_002_post_stat rc=0 bytes=30
+2026-11-12T09:49:52+00:00 RUN restore_002_post_xattrs
+2026-11-12T09:49:52+00:00 END restore_002_post_xattrs rc=0 bytes=123
+2026-11-12T09:49:52+00:00 RUN restore_002_post_getcap
+2026-11-12T09:49:52+00:00 END restore_002_post_getcap rc=0 bytes=14
+2026-11-12T09:49:52+00:00 RUN restore_002_post_chsmack
+2026-11-12T09:49:52+00:00 END restore_002_post_chsmack rc=0 bytes=45
+2026-11-12T09:49:52+00:00 RUN restore_002_post_upper
+2026-11-12T09:49:52+00:00 END restore_002_post_upper rc=0 bytes=14
+2026-11-12T09:49:52+00:00 WRITE_OK original /usr/bin/fastvideo
+2026-11-12T09:49:52+00:00 RUN restore_003_before_sha
+2026-11-12T09:49:52+00:00 END restore_003_before_sha rc=0 bytes=94
+2026-11-12T09:49:52+00:00 RUN restore_003_before_stat
+2026-11-12T09:49:52+00:00 END restore_003_before_stat rc=0 bytes=28
+2026-11-12T09:49:52+00:00 RUN restore_003_before_xattrs
+2026-11-12T09:49:52+00:00 END restore_003_before_xattrs rc=0 bytes=181
+2026-11-12T09:49:52+00:00 RUN restore_003_before_getcap
+2026-11-12T09:49:52+00:00 END restore_003_before_getcap rc=0 bytes=97
+2026-11-12T09:49:52+00:00 RUN restore_003_before_chsmack
+2026-11-12T09:49:53+00:00 END restore_003_before_chsmack rc=0 bytes=39
+2026-11-12T09:49:53+00:00 RUN restore_003_before_upper
+2026-11-12T09:49:53+00:00 END restore_003_before_upper rc=0 bytes=14
+2026-11-12T09:49:53+00:00 RUN restore_003_stage_sha
+2026-11-12T09:49:53+00:00 END restore_003_stage_sha rc=0 bytes=128
+2026-11-12T09:49:53+00:00 RUN restore_003_copy
+2026-11-12T09:49:53+00:00 END restore_003_copy rc=0 bytes=14
+2026-11-12T09:49:53+00:00 RUN restore_003_post_sha
+2026-11-12T09:49:53+00:00 END restore_003_post_sha rc=0 bytes=94
+2026-11-12T09:49:53+00:00 RUN restore_003_post_stat
+2026-11-12T09:49:53+00:00 END restore_003_post_stat rc=0 bytes=29
+2026-11-12T09:49:53+00:00 RUN restore_003_post_xattrs
+2026-11-12T09:49:53+00:00 END restore_003_post_xattrs rc=0 bytes=117
+2026-11-12T09:49:53+00:00 RUN restore_003_post_getcap
+2026-11-12T09:49:54+00:00 END restore_003_post_getcap rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_post_chsmack
+2026-11-12T09:49:54+00:00 END restore_003_post_chsmack rc=0 bytes=39
+2026-11-12T09:49:54+00:00 RUN restore_003_post_upper
+2026-11-12T09:49:54+00:00 END restore_003_post_upper rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_chown
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_chmod
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_sha
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_before_xattr_restore_sha rc=0 bytes=94
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_stat
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_before_xattr_restore_stat rc=0 bytes=29
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:49:54+00:00 END restore_003_fixattrs_before_xattr_restore_xattrs rc=0 bytes=117
+2026-11-12T09:49:54+00:00 RUN restore_003_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:49:55+00:00 RUN restore_003_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_before_xattr_restore_chsmack rc=0 bytes=39
+2026-11-12T09:49:55+00:00 RUN restore_003_fixattrs_before_xattr_restore_upper
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:49:55+00:00 RUN restore_003_fixattrs_set_security.capability
+2026-11-12T09:49:55+00:00 END restore_003_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_sha
+2026-11-12T09:49:55+00:00 END restore_003_postfix_sha rc=0 bytes=94
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_stat
+2026-11-12T09:49:55+00:00 END restore_003_postfix_stat rc=0 bytes=29
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_xattrs
+2026-11-12T09:49:55+00:00 END restore_003_postfix_xattrs rc=0 bytes=181
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_getcap
+2026-11-12T09:49:55+00:00 END restore_003_postfix_getcap rc=0 bytes=97
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_chsmack
+2026-11-12T09:49:55+00:00 END restore_003_postfix_chsmack rc=0 bytes=39
+2026-11-12T09:49:55+00:00 RUN restore_003_postfix_upper
+2026-11-12T09:49:56+00:00 END restore_003_postfix_upper rc=0 bytes=14
+2026-11-12T09:49:56+00:00 WRITE_OK original /usr/bin/amd
+2026-11-12T09:49:56+00:00 RUN restore_004_before_sha
+2026-11-12T09:49:56+00:00 END restore_004_before_sha rc=0 bytes=99
+2026-11-12T09:49:56+00:00 RUN restore_004_before_stat
+2026-11-12T09:49:56+00:00 END restore_004_before_stat rc=0 bytes=29
+2026-11-12T09:49:56+00:00 RUN restore_004_before_xattrs
+2026-11-12T09:49:56+00:00 END restore_004_before_xattrs rc=0 bytes=122
+2026-11-12T09:49:56+00:00 RUN restore_004_before_getcap
+2026-11-12T09:49:56+00:00 END restore_004_before_getcap rc=0 bytes=14
+2026-11-12T09:49:56+00:00 RUN restore_004_before_chsmack
+2026-11-12T09:49:56+00:00 END restore_004_before_chsmack rc=0 bytes=44
+2026-11-12T09:49:56+00:00 RUN restore_004_before_upper
+2026-11-12T09:49:56+00:00 END restore_004_before_upper rc=0 bytes=14
+2026-11-12T09:49:56+00:00 RUN restore_004_stage_sha
+2026-11-12T09:49:56+00:00 END restore_004_stage_sha rc=0 bytes=133
+2026-11-12T09:49:56+00:00 RUN restore_004_copy
+2026-11-12T09:49:57+00:00 END restore_004_copy rc=0 bytes=14
+2026-11-12T09:49:57+00:00 RUN restore_004_post_sha
+2026-11-12T09:49:57+00:00 END restore_004_post_sha rc=0 bytes=99
+2026-11-12T09:49:57+00:00 RUN restore_004_post_stat
+2026-11-12T09:49:57+00:00 END restore_004_post_stat rc=0 bytes=29
+2026-11-12T09:49:57+00:00 RUN restore_004_post_xattrs
+2026-11-12T09:49:57+00:00 END restore_004_post_xattrs rc=0 bytes=122
+2026-11-12T09:49:57+00:00 RUN restore_004_post_getcap
+2026-11-12T09:49:57+00:00 END restore_004_post_getcap rc=0 bytes=14
+2026-11-12T09:49:57+00:00 RUN restore_004_post_chsmack
+2026-11-12T09:49:57+00:00 END restore_004_post_chsmack rc=0 bytes=44
+2026-11-12T09:49:57+00:00 RUN restore_004_post_upper
+2026-11-12T09:49:57+00:00 END restore_004_post_upper rc=0 bytes=14
+2026-11-12T09:49:57+00:00 WRITE_OK original /usr/bin/fastlogo
+2026-11-12T09:49:57+00:00 RUN restore_005_before_sha
+2026-11-12T09:49:57+00:00 END restore_005_before_sha rc=0 bytes=96
+2026-11-12T09:49:57+00:00 RUN restore_005_before_stat
+2026-11-12T09:49:58+00:00 END restore_005_before_stat rc=0 bytes=31
+2026-11-12T09:49:58+00:00 RUN restore_005_before_xattrs
+2026-11-12T09:49:58+00:00 END restore_005_before_xattrs rc=0 bytes=119
+2026-11-12T09:49:58+00:00 RUN restore_005_before_getcap
+2026-11-12T09:49:58+00:00 END restore_005_before_getcap rc=0 bytes=14
+2026-11-12T09:49:58+00:00 RUN restore_005_before_chsmack
+2026-11-12T09:49:58+00:00 END restore_005_before_chsmack rc=0 bytes=41
+2026-11-12T09:49:58+00:00 RUN restore_005_before_upper
+2026-11-12T09:49:58+00:00 END restore_005_before_upper rc=0 bytes=14
+2026-11-12T09:49:58+00:00 RUN restore_005_stage_sha
+2026-11-12T09:49:58+00:00 END restore_005_stage_sha rc=0 bytes=130
+2026-11-12T09:49:58+00:00 RUN restore_005_copy
+2026-11-12T09:49:58+00:00 END restore_005_copy rc=0 bytes=14
+2026-11-12T09:49:58+00:00 RUN restore_005_post_sha
+2026-11-12T09:49:58+00:00 END restore_005_post_sha rc=0 bytes=96
+2026-11-12T09:49:58+00:00 RUN restore_005_post_stat
+2026-11-12T09:49:59+00:00 END restore_005_post_stat rc=0 bytes=31
+2026-11-12T09:49:59+00:00 RUN restore_005_post_xattrs
+2026-11-12T09:49:59+00:00 END restore_005_post_xattrs rc=0 bytes=119
+2026-11-12T09:49:59+00:00 RUN restore_005_post_getcap
+2026-11-12T09:49:59+00:00 END restore_005_post_getcap rc=0 bytes=14
+2026-11-12T09:49:59+00:00 RUN restore_005_post_chsmack
+2026-11-12T09:49:59+00:00 END restore_005_post_chsmack rc=0 bytes=41
+2026-11-12T09:49:59+00:00 RUN restore_005_post_upper
+2026-11-12T09:49:59+00:00 END restore_005_post_upper rc=0 bytes=14
+2026-11-12T09:49:59+00:00 WRITE_OK original /usr/bin/avocd
+2026-11-12T09:49:59+00:00 RUN restore_006_before_sha
+2026-11-12T09:49:59+00:00 END restore_006_before_sha rc=0 bytes=99
+2026-11-12T09:49:59+00:00 RUN restore_006_before_stat
+2026-11-12T09:49:59+00:00 END restore_006_before_stat rc=0 bytes=29
+2026-11-12T09:49:59+00:00 RUN restore_006_before_xattrs
+2026-11-12T09:49:59+00:00 END restore_006_before_xattrs rc=0 bytes=122
+2026-11-12T09:49:59+00:00 RUN restore_006_before_getcap
+2026-11-12T09:50:00+00:00 END restore_006_before_getcap rc=0 bytes=14
+2026-11-12T09:50:00+00:00 RUN restore_006_before_chsmack
+2026-11-12T09:50:00+00:00 END restore_006_before_chsmack rc=0 bytes=44
+2026-11-12T09:50:00+00:00 RUN restore_006_before_upper
+2026-11-12T09:50:00+00:00 END restore_006_before_upper rc=0 bytes=14
+2026-11-12T09:50:00+00:00 RUN restore_006_stage_sha
+2026-11-12T09:50:00+00:00 END restore_006_stage_sha rc=0 bytes=133
+2026-11-12T09:50:00+00:00 RUN restore_006_copy
+2026-11-12T09:50:00+00:00 END restore_006_copy rc=0 bytes=14
+2026-11-12T09:50:00+00:00 RUN restore_006_post_sha
+2026-11-12T09:50:00+00:00 END restore_006_post_sha rc=0 bytes=99
+2026-11-12T09:50:00+00:00 RUN restore_006_post_stat
+2026-11-12T09:50:00+00:00 END restore_006_post_stat rc=0 bytes=29
+2026-11-12T09:50:00+00:00 RUN restore_006_post_xattrs
+2026-11-12T09:50:00+00:00 END restore_006_post_xattrs rc=0 bytes=122
+2026-11-12T09:50:00+00:00 RUN restore_006_post_getcap
+2026-11-12T09:50:01+00:00 END restore_006_post_getcap rc=0 bytes=14
+2026-11-12T09:50:01+00:00 RUN restore_006_post_chsmack
+2026-11-12T09:50:01+00:00 END restore_006_post_chsmack rc=0 bytes=44
+2026-11-12T09:50:01+00:00 RUN restore_006_post_upper
+2026-11-12T09:50:01+00:00 END restore_006_post_upper rc=0 bytes=14
+2026-11-12T09:50:01+00:00 WRITE_OK original /usr/bin/fastinit
+2026-11-12T09:50:01+00:00 RUN restore_007_before_sha
+2026-11-12T09:50:01+00:00 END restore_007_before_sha rc=0 bytes=107
+2026-11-12T09:50:01+00:00 RUN restore_007_before_stat
+2026-11-12T09:50:01+00:00 END restore_007_before_stat rc=0 bytes=29
+2026-11-12T09:50:01+00:00 RUN restore_007_before_xattrs
+2026-11-12T09:50:01+00:00 END restore_007_before_xattrs rc=0 bytes=130
+2026-11-12T09:50:01+00:00 RUN restore_007_before_getcap
+2026-11-12T09:50:01+00:00 END restore_007_before_getcap rc=0 bytes=14
+2026-11-12T09:50:01+00:00 RUN restore_007_before_chsmack
+2026-11-12T09:50:01+00:00 END restore_007_before_chsmack rc=0 bytes=52
+2026-11-12T09:50:01+00:00 RUN restore_007_before_upper
+2026-11-12T09:50:02+00:00 END restore_007_before_upper rc=0 bytes=14
+2026-11-12T09:50:02+00:00 RUN restore_007_stage_sha
+2026-11-12T09:50:02+00:00 END restore_007_stage_sha rc=0 bytes=141
+2026-11-12T09:50:02+00:00 RUN restore_007_copy
+2026-11-12T09:50:02+00:00 END restore_007_copy rc=0 bytes=14
+2026-11-12T09:50:02+00:00 RUN restore_007_post_sha
+2026-11-12T09:50:02+00:00 END restore_007_post_sha rc=0 bytes=107
+2026-11-12T09:50:02+00:00 RUN restore_007_post_stat
+2026-11-12T09:50:02+00:00 END restore_007_post_stat rc=0 bytes=29
+2026-11-12T09:50:02+00:00 RUN restore_007_post_xattrs
+2026-11-12T09:50:02+00:00 END restore_007_post_xattrs rc=0 bytes=130
+2026-11-12T09:50:02+00:00 RUN restore_007_post_getcap
+2026-11-12T09:50:02+00:00 END restore_007_post_getcap rc=0 bytes=14
+2026-11-12T09:50:02+00:00 RUN restore_007_post_chsmack
+2026-11-12T09:50:02+00:00 END restore_007_post_chsmack rc=0 bytes=52
+2026-11-12T09:50:02+00:00 RUN restore_007_post_upper
+2026-11-12T09:50:03+00:00 END restore_007_post_upper rc=0 bytes=14
+2026-11-12T09:50:03+00:00 WRITE_OK original /usr/bin/app-boot-manager
+2026-11-12T09:50:03+00:00 RUN restore_008_before_sha
+2026-11-12T09:50:03+00:00 END restore_008_before_sha rc=0 bytes=101
+2026-11-12T09:50:03+00:00 RUN restore_008_before_stat
+2026-11-12T09:50:03+00:00 END restore_008_before_stat rc=0 bytes=30
+2026-11-12T09:50:03+00:00 RUN restore_008_before_xattrs
+2026-11-12T09:50:03+00:00 END restore_008_before_xattrs rc=0 bytes=124
+2026-11-12T09:50:03+00:00 RUN restore_008_before_getcap
+2026-11-12T09:50:03+00:00 END restore_008_before_getcap rc=0 bytes=14
+2026-11-12T09:50:03+00:00 RUN restore_008_before_chsmack
+2026-11-12T09:50:03+00:00 END restore_008_before_chsmack rc=0 bytes=46
+2026-11-12T09:50:03+00:00 RUN restore_008_before_upper
+2026-11-12T09:50:03+00:00 END restore_008_before_upper rc=0 bytes=14
+2026-11-12T09:50:03+00:00 RUN restore_008_stage_sha
+2026-11-12T09:50:03+00:00 END restore_008_stage_sha rc=0 bytes=135
+2026-11-12T09:50:03+00:00 RUN restore_008_copy
+2026-11-12T09:50:04+00:00 END restore_008_copy rc=0 bytes=14
+2026-11-12T09:50:04+00:00 RUN restore_008_post_sha
+2026-11-12T09:50:04+00:00 END restore_008_post_sha rc=0 bytes=101
+2026-11-12T09:50:04+00:00 RUN restore_008_post_stat
+2026-11-12T09:50:04+00:00 END restore_008_post_stat rc=0 bytes=30
+2026-11-12T09:50:04+00:00 RUN restore_008_post_xattrs
+2026-11-12T09:50:04+00:00 END restore_008_post_xattrs rc=0 bytes=124
+2026-11-12T09:50:04+00:00 RUN restore_008_post_getcap
+2026-11-12T09:50:04+00:00 END restore_008_post_getcap rc=0 bytes=14
+2026-11-12T09:50:04+00:00 RUN restore_008_post_chsmack
+2026-11-12T09:50:04+00:00 END restore_008_post_chsmack rc=0 bytes=46
+2026-11-12T09:50:04+00:00 RUN restore_008_post_upper
+2026-11-12T09:50:04+00:00 END restore_008_post_upper rc=0 bytes=14
+2026-11-12T09:50:04+00:00 WRITE_OK original /usr/bin/tvs-daemon
+2026-11-12T09:50:04+00:00 RUN write_root_off
+2026-11-12T09:50:04+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:50:04+00:00 RUN write_sdk_uid
+2026-11-12T09:50:04+00:00 END write_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T09:50:04+00:00 状态=成功

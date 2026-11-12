@@ -1,0 +1,42 @@
+
+Dynamic section at offset 0x334e4 contains 39 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsmart-deadlock.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libtvs-api-lite.so]
+ 0x0000000c (INIT)                       0x4541d59c
+ 0x0000000d (FINI)                       0x45439098
+ 0x00000019 (INIT_ARRAY)                 0x45444000
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x45444008
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x45411138
+ 0x00000005 (STRTAB)                     0x454147d4
+ 0x00000006 (SYMTAB)                     0x45412404
+ 0x0000000a (STRSZ)                      25555 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x45445000
+ 0x00000002 (PLTRELSZ)                   2304 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4541c1f8
+ 0x00000007 (RELA)                       0x4541b1e4
+ 0x00000008 (RELASZ)                     4116 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffb (FLAGS_1)                    Flags: NODELETE
+ 0x6ffffffe (VERNEED)                    0x4541b024
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x4541aba8
+ 0x6ffffff9 (RELACOUNT)                  80
+ 0x6ffffdf8 (CHECKSUM)                   0x53f3474d
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

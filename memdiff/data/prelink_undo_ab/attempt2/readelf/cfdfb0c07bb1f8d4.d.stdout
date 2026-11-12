@@ -1,0 +1,36 @@
+
+Dynamic section at offset 0x4008 contains 33 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libeina.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libevas.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeo.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_input.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libecore_input_evas.so.1]
+ 0x0000000c (INIT)                       0x4562d880
+ 0x0000000d (FINI)                       0x4562f494
+ 0x00000019 (INIT_ARRAY)                 0x45630000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x45630004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4562c138
+ 0x00000005 (STRTAB)                     0x4562c904
+ 0x00000006 (SYMTAB)                     0x4562c244
+ 0x0000000a (STRSZ)                      2866 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x45631000
+ 0x00000002 (PLTRELSZ)                   560 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4562d650
+ 0x00000011 (REL)                        0x4562d560
+ 0x00000012 (RELSZ)                      240 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4562d510
+ 0x6fffffff (VERNEEDNUM)                 2
+ 0x6ffffff0 (VERSYM)                     0x4562d436
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0x6be7b8d8
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

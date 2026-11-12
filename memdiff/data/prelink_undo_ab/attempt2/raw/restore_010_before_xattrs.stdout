@@ -1,0 +1,6 @@
+getfattr: Removing leading '/' from absolute path names
+# file: usr/bin/fastlogo
+security.SMACK64=0x5f
+
+
+__AB_RC__0

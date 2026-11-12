@@ -1,0 +1,42 @@
+
+Dynamic section at offset 0x3d640 contains 39 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libpower-defs.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpower-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblink.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbattery-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libdeviced.so.1]
+ 0x0000000c (INIT)                       0x43b4ca18
+ 0x0000000d (FINI)                       0x43b733b4
+ 0x00000019 (INIT_ARRAY)                 0x43b7f2a8
+ 0x0000001b (INIT_ARRAYSZ)               12 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x43b7f2b4
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x00000004 (HASH)                       0x43b42138
+ 0x6ffffef5 (GNU_HASH)                   0x43b42d40
+ 0x00000005 (STRTAB)                     0x43b45738
+ 0x00000006 (SYMTAB)                     0x43b437a8
+ 0x0000000a (STRSZ)                      24054 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x43b802a8
+ 0x00000002 (PLTRELSZ)                   1928 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x43b4c28c
+ 0x00000007 (RELA)                       0x43b4baa0
+ 0x00000008 (RELASZ)                     2028 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x43b4b920
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x43b4b52e
+ 0x6ffffff9 (RELACOUNT)                  61
+ 0x6ffffdf8 (CHECKSUM)                   0x7e62140c
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

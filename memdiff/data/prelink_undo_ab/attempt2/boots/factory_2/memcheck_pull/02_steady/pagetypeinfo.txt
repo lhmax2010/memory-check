@@ -1,0 +1,27 @@
+Page block order: 10
+Pages per block:  1024
+
+Free pages count per migrate type at order                       0      1      2      3      4      5      6      7      8      9     10 
+Node    0, zone   Normal, type    Unmovable watermark_boost:0   332    228    121     71     48     28     13      4      6      0      0 
+Node    0, zone   Normal, type      Movable watermark_boost:0     1     11     14      7      1      1      0      0      0      1      0 
+Node    0, zone   Normal, type  Reclaimable watermark_boost:0     1      1      2      6      4      0      0      0      0      0      0 
+Node    0, zone   Normal, type   HighAtomic watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone   Normal, type          CMA watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone   Normal, type      Isolate watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type    Unmovable watermark_boost:0     1      1      0      1      1      1      0      0      0      0      0 
+Node    0, zone  HighMem, type      Movable watermark_boost:0     1      1      1      1      1      1      0      2      0      0      0 
+Node    0, zone  HighMem, type  Reclaimable watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type   HighAtomic watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type          CMA watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone  HighMem, type      Isolate watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      CMA, type    Unmovable watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      CMA, type      Movable watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      CMA, type  Reclaimable watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      CMA, type   HighAtomic watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      CMA, type          CMA watermark_boost:0  1535   3982   1353    360     98     19      3      1      1      0      0 
+Node    0, zone      CMA, type      Isolate watermark_boost:0     0      0      0      0      0      0      0      0      0      0      0 
+
+Number of blocks type     Unmovable      Movable  Reclaimable   HighAtomic          CMA      Isolate 
+Node 0, zone   Normal           32          106            8            0            0            0 
+Node 0, zone  HighMem           24          154            0            0            0            0 
+Node 0, zone      CMA            0            0            0            0           76            0 

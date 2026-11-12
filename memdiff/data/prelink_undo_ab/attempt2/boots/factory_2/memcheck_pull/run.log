@@ -1,0 +1,30 @@
+[2026-11-12 01:19:10] === 开始：镜像=gcc 结果目录=/opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910
+[2026-11-12 01:19:10] 步骤 1/6 记录板子、内核、镜像和内存相关配置
+[2026-11-12 01:19:13] 步骤 2/6 等待系统静止
+[2026-11-12 01:19:13] 等待系统静止：开机满 600s，连续 10 次采样内 MemAvailable 与 Swap 已用的波动都 < 16011 kB（MemTotal 的 1%），且平均 CPU 忙碌率 < 21%
+[2026-11-12 01:24:14] 仍在等待静止（已等 301s，开机 513s）：开机未满 600s
+[2026-11-12 01:29:15] 仍在等待静止（已等 602s，开机 813s）：窗口波动 MemAvailable=13088kB Swap=2412kB CPU=22%
+[2026-11-12 01:29:45] 系统已静止：窗口波动 MemAvailable=10820kB Swap=2412kB CPU=20%
+[2026-11-12 01:29:45] 步骤 3/6 静止后快照（含全部进程 smaps 原始数据）
+[2026-11-12 01:29:45] 快照 02_steady 开始
+memcheck: line 217: /proc/1527/comm: No such file or directory
+memcheck: line 217: /proc/4kbtin/comm: Not a directory
+[2026-11-12 01:30:18] 快照 02_steady 完成：进程数=109 总量(Pss+SwapPss)=577422 Pss=444502 Pss_Anon=208630 Pss_File=232949 Pss_Shmem=2877 Private_Dirty=199156 SwapPss=132920 匿名合计(Pss_Anon+SwapPss)=341550 (kB)
+[2026-11-12 01:30:18] 快照 02_steady 进程/库统计：进程数=109 .so合计=14936 VMA合计=55321 可执行文件私有脏页合计=1608kB 非PIE进程=15 PIE进程=94
+[2026-11-12 01:30:18] 步骤 4/6 等待 300s 后再采一次，用来看噪声
+[2026-11-12 01:35:18] 快照 03_steady_repeat 开始
+memcheck: line 217: /proc/4kbtin/comm: Not a directory
+[2026-11-12 01:35:52] 快照 03_steady_repeat 完成：进程数=110 总量(Pss+SwapPss)=577756 Pss=444872 Pss_Anon=208986 Pss_File=232963 Pss_Shmem=2877 Private_Dirty=199540 SwapPss=132884 匿名合计(Pss_Anon+SwapPss)=341870 (kB)
+[2026-11-12 01:35:52] 快照 03_steady_repeat 进程/库统计：进程数=109 .so合计=14936 VMA合计=55321 可执行文件私有脏页合计=1608kB 非PIE进程=15 PIE进程=94
+[2026-11-12 01:35:52] 步骤 5/6 清 page cache（sync + drop_caches=3），等待 120s 后快照
+[2026-11-12 01:37:53] 快照 04_after_drop_caches 开始
+memcheck: line 217: /proc/4003/comm: No such file or directory
+memcheck: line 217: /proc/4kbtin/comm: Not a directory
+[2026-11-12 01:38:27] 快照 04_after_drop_caches 完成：进程数=109 总量(Pss+SwapPss)=577785 Pss=444909 Pss_Anon=209034 Pss_File=232952 Pss_Shmem=2877 Private_Dirty=199600 SwapPss=132876 匿名合计(Pss_Anon+SwapPss)=341910 (kB)
+[2026-11-12 01:38:27] 快照 04_after_drop_caches 进程/库统计：进程数=109 .so合计=14936 VMA合计=55321 可执行文件私有脏页合计=1608kB 非PIE进程=15 PIE进程=94
+[2026-11-12 01:38:27] 步骤 6/6 统计可执行文件 PIE 情况，并打包关键 ELF 供宿主机分析
+[2026-11-12 01:38:57] 可执行文件 ELF 类型统计（02=非PIE 03=PIE）：类型02 93 个 类型03 1174 个 
+awk: (FILENAME=/opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910/02_steady/mapping.txt FNR=318) fatal: print to "standard output" failed (Broken pipe)
+[2026-11-12 01:40:33] ELF 打包有报错，见 /opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910/05_elf/tar_err.txt（已打进去的部分仍在 elf_files.tar.gz）
+[2026-11-12 01:40:33] 结果目录大小：101660 kB
+[2026-11-12 01:40:33] === 已结束：正常完成（状态 DONE），结果目录 /opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910

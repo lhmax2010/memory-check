@@ -1,0 +1,3 @@
+boot	Pss_plus_SwapPss_kB	GCC_nonPIE_15_Pss_plus_SwapPss_kB	PageTables_kB	MemAvailable_kB	rollup_pids_missing_in_smaps	library_Private_Dirty_15_r--_kB	library_Private_Dirty_15_rw-_kB	library_Private_Dirty_other_r--_kB	library_Private_Dirty_other_rw-_kB	library_rx_Pss_exclusive_ten_kB	library_rx_Pss_also_other_or_absent_kB
+factory_1	576364	75471	17768	1110776	2417:acm-service:/usr/apps/org.tizen.acm-service/bin/acm-service;2717:bash:exe_unresolved;2718:sort:exe_unresolved;2595:sleep:exe_unresolved	4132	312	56588	9416	7076	33255
+factory_2	577422	75292	17884	1108080	2456:bash:exe_unresolved;2457:sort:exe_unresolved	4352	1804	56628	10016	7680	33248

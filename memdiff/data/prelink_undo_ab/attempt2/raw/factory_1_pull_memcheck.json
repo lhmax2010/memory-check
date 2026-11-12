@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T09:14:08+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "pull",
+    "/opt/usr/prelink_ab_stage/memcheck/gcc_boot1_20261112_005144",
+    "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/boots/factory_1/memcheck_pull"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 14546,
+  "stderr_bytes": 0
+}

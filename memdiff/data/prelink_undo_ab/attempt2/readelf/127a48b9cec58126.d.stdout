@@ -1,0 +1,62 @@
+
+Dynamic section at offset 0x32938 contains 59 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libecore.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeina.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeo.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_input.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeio.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeet.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_file.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libttrace.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-server.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libxkbcommon.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-cursor.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-extension-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-launch-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-tbm-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtbm.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-base-common.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-egl.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-egl-tizen.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-policy-ext-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwtz-foreign-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwtz-shell-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwtz-screen-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwtz-video-shell-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [librelative-pointer-unstable-v1-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpointer-constraints-unstable-v1-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwtz-blur-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpointer-warp-v1-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcursor-shape-v1-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libecore_wl2.so.1]
+ 0x0000000c (INIT)                       0x445b1450
+ 0x0000000d (FINI)                       0x445cd548
+ 0x00000019 (INIT_ARRAY)                 0x445d7000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x445d7004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x445a5138
+ 0x00000005 (STRTAB)                     0x445a95e4
+ 0x00000006 (SYMTAB)                     0x445a6694
+ 0x0000000a (STRSZ)                      22039 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x445d8000
+ 0x00000002 (PLTRELSZ)                   2624 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x445b0a10
+ 0x00000011 (REL)                        0x445af2c8
+ 0x00000012 (RELSZ)                      5960 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x445af1e8
+ 0x6fffffff (VERNEEDNUM)                 5
+ 0x6ffffff0 (VERSYM)                     0x445aebfc
+ 0x6ffffffa (RELCOUNT)                   531
+ 0x6ffffdf8 (CHECKSUM)                   0xd77ead1b
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T08:10:30+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "pull",
+    "/usr/bin/tvs-daemon",
+    "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/tvs-daemon.board"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 231,
+  "stderr_bytes": 0
+}

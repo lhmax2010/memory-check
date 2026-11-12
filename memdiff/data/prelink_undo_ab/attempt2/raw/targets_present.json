@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T08:12:14+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "for f in /usr/bin/tvs-daemon /usr/bin/TIFSDaemon /usr/bin/app-boot-manager /usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv /usr/bin/fastinit /usr/bin/avocd /usr/bin/fastlogo /usr/bin/amd /usr/bin/fastvideo /usr/apps/org.tizen.tv-viewer/bin/tv-viewer /usr/bin/rscmgr-service /usr/bin/pulseaudio /usr/apps/org.tizen.btapp/bin/btapp /usr/bin/hdmicec-service /usr/apps/org.tizen.acm-service/bin/acm-service /usr/bin/launchpad-loader /usr/bin/launchpad-process-pool /usr/bin/app_launcher /usr/apps/org.tizen.welcome-mode/bin/welcome-mode; do if [ -f \"$f\" ]; then printf \"present\\t%s\\n\" \"$f\"; else printf \"missing\\t%s\\n\" \"$f\"; fi; done; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 721,
+  "stderr_bytes": 0
+}

@@ -1,0 +1,41 @@
+
+Dynamic section at offset 0x1a008 contains 38 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libnetwork.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-base-common.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcapi-network-connection.so.1]
+ 0x0000000c (INIT)                       0x460555e8
+ 0x0000000d (FINI)                       0x46064838
+ 0x00000019 (INIT_ARRAY)                 0x4606a000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4606a004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46050158
+ 0x00000005 (STRTAB)                     0x46052350
+ 0x00000006 (SYMTAB)                     0x46050cf0
+ 0x0000000a (STRSZ)                      10521 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4606a148
+ 0x00000002 (PLTRELSZ)                   1488 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x46055018
+ 0x00000011 (REL)                        0x46054fb8
+ 0x00000012 (RELSZ)                      96 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x0000001e (FLAGS)                      BIND_NOW
+ 0x6ffffffb (FLAGS_1)                    Flags: NOW
+ 0x6ffffffe (VERNEED)                    0x46054f38
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x46054c6a
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0xb0df0fc
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

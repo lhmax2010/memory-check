@@ -1,0 +1,12 @@
+9:name=resourced_cgroup:/
+8:cpuacct:/
+7:freezer:/
+6:cpu:/default
+5:cpuset:/
+4:net_cls:/
+3:blkio:/
+2:devices:/system.slice/org.tizen.acm-service.service
+1:name=systemd:/system.slice/org.tizen.acm-service.service
+0::/system.slice/org.tizen.acm-service.service
+
+__AB_RC__0

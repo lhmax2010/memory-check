@@ -1,0 +1,27 @@
+
+Dynamic section at offset 0x1140 contains 24 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x0000000e (SONAME)                     Library soname: [libtizen-launch-client.so.0]
+ 0x0000000c (INIT)                       0x4482b564
+ 0x0000000d (FINI)                       0x4482b664
+ 0x00000019 (INIT_ARRAY)                 0x4482c000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4482c004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4482b118
+ 0x00000005 (STRTAB)                     0x4482b1fc
+ 0x00000006 (SYMTAB)                     0x4482b14c
+ 0x0000000a (STRSZ)                      248 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4482d000
+ 0x00000002 (PLTRELSZ)                   16 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4482b554
+ 0x00000011 (REL)                        0x4482b2f4
+ 0x00000012 (RELSZ)                      608 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffa (RELCOUNT)                   70
+ 0x6ffffdf8 (CHECKSUM)                   0xfd7c7bc3
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

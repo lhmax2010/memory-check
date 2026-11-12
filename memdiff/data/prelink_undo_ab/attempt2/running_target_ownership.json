@@ -1,0 +1,56 @@
+[
+  {
+    "path": "/usr/bin/tvs-daemon",
+    "pid": "695",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/system.slice/aaa_tvs_deamon.service\r\n1:name=systemd:/system.slice/aaa_tvs_deamon.service\r\n0::/system.slice/aaa_tvs_deamon.service\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/bin/avocd",
+    "pid": "853",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/system.slice/avocd-launcher.service\r\n1:name=systemd:/system.slice/avocd-launcher.service\r\n0::/system.slice/avocd-launcher.service\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/bin/amd",
+    "pid": "698",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/service\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/system.slice/ac.service\r\n1:name=systemd:/system.slice/ac.service\r\n0::/system.slice/ac.service\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/apps/org.tizen.tv-viewer/bin/tv-viewer",
+    "pid": "601",
+    "cgroup": "9:name=resourced_cgroup:/Apps\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/\r\n1:name=systemd:/init.scope\r\n0::/init.scope\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/bin/rscmgr-service",
+    "pid": "683",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/system.slice/aaa_rscmgr-service.service\r\n1:name=systemd:/system.slice/aaa_rscmgr-service.service\r\n0::/system.slice/aaa_rscmgr-service.service\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/bin/pulseaudio",
+    "pid": "1086",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/system.slice/pulseaudio.service\r\n1:name=systemd:/system.slice/pulseaudio.service\r\n0::/system.slice/pulseaudio.service\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/apps/org.tizen.acm-service/bin/acm-service",
+    "pid": "3233",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/system.slice/org.tizen.acm-service.service\r\n1:name=systemd:/system.slice/org.tizen.acm-service.service\r\n0::/system.slice/org.tizen.acm-service.service\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/bin/launchpad-loader",
+    "pid": "820",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/\r\n1:name=systemd:/init.scope\r\n0::/init.scope\r\n\r",
+    "cgroup_rc": 0
+  },
+  {
+    "path": "/usr/bin/launchpad-process-pool",
+    "pid": "269",
+    "cgroup": "9:name=resourced_cgroup:/\r\n8:cpuacct:/\r\n7:freezer:/\r\n6:cpu:/default\r\n5:cpuset:/\r\n4:net_cls:/\r\n3:blkio:/\r\n2:devices:/\r\n1:name=systemd:/init.scope\r\n0::/init.scope\r\n\r",
+    "cgroup_rc": 0
+  }
+]

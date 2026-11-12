@@ -1,0 +1,38 @@
+2026-11-12T08:18:12+00:00 ERROR TypeError("unsupported operand type(s) for |: 'list' and 'list'")
+已结束 2026-11-12T08:18:12+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/pull_classify.py", line 91, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/pull_classify.py", line 33, in main
+    paths=sorted(x for x in libs if x)|list(inv.TARGETS)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for |: 'list' and 'list'
+2026-11-12T08:18:21+00:00 RUN pull_root_on
+2026-11-12T08:18:21+00:00 END pull_root_on rc=0 bytes=32
+2026-11-12T08:18:21+00:00 RUN pull_uid
+2026-11-12T08:18:21+00:00 END pull_uid rc=0 bytes=17
+2026-11-12T08:18:32+00:00 PULL_CLASSIFY 25/438
+2026-11-12T08:18:44+00:00 PULL_CLASSIFY 50/438
+2026-11-12T08:18:55+00:00 PULL_CLASSIFY 75/438
+2026-11-12T08:19:06+00:00 PULL_CLASSIFY 100/438
+2026-11-12T08:19:22+00:00 PULL_CLASSIFY 125/438
+2026-11-12T08:19:36+00:00 PULL_CLASSIFY 150/438
+2026-11-12T08:19:51+00:00 PULL_CLASSIFY 175/438
+2026-11-12T08:20:06+00:00 PULL_CLASSIFY 200/438
+2026-11-12T08:20:27+00:00 PULL_CLASSIFY 225/438
+2026-11-12T08:20:41+00:00 PULL_CLASSIFY 250/438
+2026-11-12T08:20:53+00:00 PULL_CLASSIFY 275/438
+2026-11-12T08:21:09+00:00 PULL_CLASSIFY 300/438
+2026-11-12T08:21:26+00:00 PULL_CLASSIFY 325/438
+2026-11-12T08:21:42+00:00 PULL_CLASSIFY 350/438
+2026-11-12T08:21:55+00:00 PULL_CLASSIFY 375/438
+2026-11-12T08:22:06+00:00 PULL_CLASSIFY 400/438
+2026-11-12T08:22:19+00:00 PULL_CLASSIFY 425/438
+2026-11-12T08:22:26+00:00 PULL_CLASSIFY 438/438
+2026-11-12T08:22:26+00:00 pull classify done
+2026-11-12T08:22:26+00:00 RUN pull_root_off
+2026-11-12T08:22:26+00:00 END pull_root_off rc=0 bytes=36
+2026-11-12T08:22:26+00:00 RUN pull_sdk_uid
+2026-11-12T08:22:27+00:00 END pull_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T08:22:27+00:00 状态=成功

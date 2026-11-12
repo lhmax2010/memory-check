@@ -1,0 +1,44 @@
+
+Dynamic section at offset 0xd194 contains 41 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libaul.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbundle.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbuxton2.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libtzplatform-config-2.0.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libsecurity-manager-client.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libtanchor-runtime.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [liblaunchpad-core.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblaunchpad-common.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libparcel.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [liblaunchpad.so.0]
+ 0x0000000c (INIT)                       0x410bc3b4
+ 0x0000000d (FINI)                       0x410c27dc
+ 0x00000019 (INIT_ARRAY)                 0x410c50f0
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x410c50f8
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x410b8138
+ 0x00000005 (STRTAB)                     0x410b9378
+ 0x00000006 (SYMTAB)                     0x410b8488
+ 0x0000000a (STRSZ)                      9125 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x410c60f0
+ 0x00000002 (PLTRELSZ)                   1608 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x410bbd6c
+ 0x00000007 (RELA)                       0x410bba9c
+ 0x00000008 (RELASZ)                     720 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x410bb8fc
+ 0x6fffffff (VERNEEDNUM)                 5
+ 0x6ffffff0 (VERSYM)                     0x410bb71e
+ 0x6ffffff9 (RELACOUNT)                  20
+ 0x6ffffdf8 (CHECKSUM)                   0x3f66691b
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

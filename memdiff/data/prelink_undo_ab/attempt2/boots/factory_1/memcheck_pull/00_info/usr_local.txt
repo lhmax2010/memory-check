@@ -1,0 +1,37 @@
+/usr/local:
+total 44
+drwxr-xr-x 12 root root 189 Sep 30 12:57 .
+drwxr-xr-x  1 root root   2 Sep 30 12:57 ..
+drwxr-xr-x  3 root root  41 Sep 30 12:57 BM
+drwxr-xr-x  2 root root  83 Sep 30 12:20 bin
+drwxr-xr-x  3 root root  45 Sep 30 12:57 etc
+drwxr-xr-x  2 root root  27 Sep 17 21:33 games
+drwxr-xr-x  2 root root  27 Sep 17 21:33 include
+drwxr-xr-x  2 root root 296 Sep 30 12:21 lib
+drwxr-xr-x  2 root root  27 Sep 17 21:33 libexec
+drwxr-xr-x  2 root root  27 Sep 17 21:33 sbin
+drwxr-xr-x  5 root root  82 Sep 17 21:33 share
+drwxr-xr-x  2 root root  27 Sep 17 21:33 src
+
+/usr/local/bin:
+total 436
+drwxr-xr-x  2 root root     83 Sep 30 12:20 .
+drwxr-xr-x 12 root root    189 Sep 30 12:57 ..
+-rwxr-xr-x  1 root root 322732 Sep 30 12:55 alsan
+-rwxr-xr-x  1 root root 297764 Sep 30 12:55 futexctn
+-rwxr-xr-x  1 root root 351276 Sep 30 12:55 memleak
+
+/usr/local/lib:
+total 6668
+drwxr-xr-x  2 root root      296 Sep 30 12:21 .
+drwxr-xr-x 12 root root      189 Sep 30 12:57 ..
+-rwxr-xr-x  1 root root 11359076 Sep 30 12:55 libavcodec.so
+lrwxrwxrwx  1 root root       13 Sep 30 12:21 libavcodec.so.55 -> libavcodec.so
+-rwxr-xr-x  1 root root   914424 Sep 30 12:55 libavformat.so
+lrwxrwxrwx  1 root root       14 Sep 30 12:21 libavformat.so.55 -> libavformat.so
+-rwxr-xr-x  1 root root   501584 Sep 30 12:55 libavutil.so
+lrwxrwxrwx  1 root root       12 Sep 30 12:21 libavutil.so.52 -> libavutil.so
+-rwxr-xr-x  1 root root    91528 Sep 30 12:55 libswresample.so
+lrwxrwxrwx  1 root root       16 Sep 30 12:21 libswresample.so.3 -> libswresample.so
+-rwxr-xr-x  1 root root   419208 Sep 30 12:55 libswscale.so
+lrwxrwxrwx  1 root root       13 Sep 30 12:21 libswscale.so.2 -> libswscale.so

@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T08:16:19+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "push",
+    "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/all_elf_paths.txt",
+    "/root/prelink_ab_tools/elf_paths.txt"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 384,
+  "stderr_bytes": 0
+}

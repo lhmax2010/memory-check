@@ -1,0 +1,35 @@
+
+Dynamic section at offset 0x4008 contains 32 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libbattery-control.so.0]
+ 0x0000000c (INIT)                       0x43baba78
+ 0x0000000d (FINI)                       0x43badadc
+ 0x00000019 (INIT_ARRAY)                 0x43baf000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x43baf004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x43bab138
+ 0x00000005 (STRTAB)                     0x43bab4ac
+ 0x00000006 (SYMTAB)                     0x43bab24c
+ 0x0000000a (STRSZ)                      1087 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x43bb0000
+ 0x00000002 (PLTRELSZ)                   96 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x43baba18
+ 0x00000011 (REL)                        0x43bab9d8
+ 0x00000012 (RELSZ)                      64 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x43bab938
+ 0x6ffffffd (VERDEFNUM)                  2
+ 0x6ffffffe (VERNEED)                    0x43bab968
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x43bab8ec
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0x2f4d9454
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

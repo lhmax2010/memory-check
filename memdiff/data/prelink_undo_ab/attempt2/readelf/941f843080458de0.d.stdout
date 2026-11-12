@@ -1,0 +1,31 @@
+
+Dynamic section at offset 0x1008 contains 28 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000e (SONAME)                     Library soname: [libwayland-egl-tizen.so.1]
+ 0x0000000c (INIT)                       0x44835680
+ 0x0000000d (FINI)                       0x44835b14
+ 0x00000019 (INIT_ARRAY)                 0x44836000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x44836004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x44835138
+ 0x00000005 (STRTAB)                     0x44835338
+ 0x00000006 (SYMTAB)                     0x448351d8
+ 0x0000000a (STRSZ)                      674 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x44837000
+ 0x00000002 (PLTRELSZ)                   32 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x44835660
+ 0x00000011 (REL)                        0x44835628
+ 0x00000012 (RELSZ)                      56 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x44835608
+ 0x6fffffff (VERNEEDNUM)                 1
+ 0x6ffffff0 (VERSYM)                     0x448355da
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0x923101c
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

@@ -1,0 +1,37 @@
+
+Dynamic section at offset 0x162fa0 contains 34 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libicudata.so.76]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libicuuc.so.76]
+ 0x00000010 (SYMBOLIC)                   0x0
+ 0x0000000c (INIT)                       0x45a7e748
+ 0x0000000d (FINI)                       0x45b25d68
+ 0x00000019 (INIT_ARRAY)                 0x45b88080
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x45b88084
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x45a2f138
+ 0x00000005 (STRTAB)                     0x45a44c6c
+ 0x00000006 (SYMTAB)                     0x45a34eec
+ 0x0000000a (STRSZ)                      152996 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x45b93080
+ 0x00000002 (PLTRELSZ)                   680 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x45a7e4a0
+ 0x00000007 (RELA)                       0x45a6c320
+ 0x00000008 (RELASZ)                     74112 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x0000001e (FLAGS)                      SYMBOLIC
+ 0x6ffffffe (VERNEED)                    0x45a6c1c0
+ 0x6fffffff (VERNEEDNUM)                 5
+ 0x6ffffff0 (VERSYM)                     0x45a6a210
+ 0x6ffffff9 (RELACOUNT)                  5859
+ 0x6ffffdf8 (CHECKSUM)                   0x28700280
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

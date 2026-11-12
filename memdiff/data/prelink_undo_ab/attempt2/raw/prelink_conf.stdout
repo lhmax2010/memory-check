@@ -1,0 +1,10 @@
+-l /opt/usr/apps/com.samsung.tv.slive-daemon/lib
+-l /lib
+-l /usr/lib
+-l /prd/usr/lib
+-l /usr/lib/was-api
+-l /usr/lib/ecore_imf/modules/isf/v-1.13
+-l /usr/lib/gstreamer-1.0
+-l /usr/lib/pulseaudio
+
+__AB_RC__0

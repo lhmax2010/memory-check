@@ -1,0 +1,57 @@
+
+Dynamic section at offset 0x4caa8 contains 54 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libaul.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpvr-service-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-system-settings.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libslive-provider.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libjsoncpp.so.22]
+ 0x00000001 (NEEDED)                     Shared library: [libapputil.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libca-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-parser.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libavoc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ht.so]
+ 0x00000001 (NEEDED)                     Shared library: [libsqlite3.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdeviced.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libitvs-hybrid-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libmbr.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbroadcastapp-util-core.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libreminder-api.so.0]
+ 0x0000000c (INIT)                       0x4673e16c
+ 0x0000000d (FINI)                       0x4676b2dc
+ 0x00000019 (INIT_ARRAY)                 0x467785a0
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x467785a8
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4672c138
+ 0x00000005 (STRTAB)                     0x46730c60
+ 0x00000006 (SYMTAB)                     0x4672da40
+ 0x0000000a (STRSZ)                      44221 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x467795a0
+ 0x00000002 (PLTRELSZ)                   3976 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4673d1e4
+ 0x00000007 (RELA)                       0x4673c104
+ 0x00000008 (RELASZ)                     4320 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4673bf64
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x4673b91e
+ 0x6ffffff9 (RELACOUNT)                  108
+ 0x6ffffdf8 (CHECKSUM)                   0x4cd1ffc0
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:46
+ 0x00000000 (NULL)                       0x0

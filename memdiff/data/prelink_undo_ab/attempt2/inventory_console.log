@@ -1,0 +1,17 @@
+2026-11-12T08:12:05+00:00 RUN inventory_root_on
+2026-11-12T08:12:05+00:00 END inventory_root_on rc=0 bytes=32
+2026-11-12T08:12:05+00:00 RUN inventory_uid
+2026-11-12T08:12:05+00:00 END inventory_uid rc=0 bytes=17
+2026-11-12T08:12:05+00:00 RUN all_regular_files
+2026-11-12T08:12:06+00:00 END all_regular_files rc=0 bytes=224032
+2026-11-12T08:12:06+00:00 all regular files: 4422
+2026-11-12T08:12:06+00:00 RUN undo_marker_candidates
+2026-11-12T08:12:14+00:00 END undo_marker_candidates rc=0 bytes=14160
+2026-11-12T08:12:14+00:00 undo marker candidates: 419
+2026-11-12T08:12:14+00:00 RUN targets_present
+2026-11-12T08:12:14+00:00 END targets_present rc=0 bytes=721
+2026-11-12T08:12:14+00:00 RUN inventory_root_off
+2026-11-12T08:12:14+00:00 END inventory_root_off rc=0 bytes=36
+2026-11-12T08:12:14+00:00 RUN inventory_sdk_uid
+2026-11-12T08:12:14+00:00 END inventory_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T08:12:14+00:00 状态=成功

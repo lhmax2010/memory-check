@@ -1,0 +1,38 @@
+
+Dynamic section at offset 0x8cc48 contains 35 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-parser.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libtvs-atsc30-parser.so]
+ 0x0000000c (INIT)                       0x45f41d3c
+ 0x0000000d (FINI)                       0x45f8c520
+ 0x00000019 (INIT_ARRAY)                 0x45fa5750
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x45fa5758
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x45f1b138
+ 0x00000005 (STRTAB)                     0x45f26c84
+ 0x00000006 (SYMTAB)                     0x45f1e854
+ 0x0000000a (STRSZ)                      71279 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x45fa8750
+ 0x00000002 (PLTRELSZ)                   4640 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x45f40b1c
+ 0x00000007 (RELA)                       0x45f3952c
+ 0x00000008 (RELASZ)                     30192 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x45f3937c
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x45f382f4
+ 0x6ffffff9 (RELACOUNT)                  662
+ 0x6ffffdf8 (CHECKSUM)                   0x1c8acb9f
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

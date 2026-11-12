@@ -1,0 +1,53 @@
+
+Dynamic section at offset 0x356ecc contains 50 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libeina.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeet.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libemile.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libefl.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeo.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libevas.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_evas.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_file.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_input.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_imf.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_con.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libedje.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeldbus.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libefreet.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libethumb_client.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libemotion.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeio.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_wl2.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libelementary.so.1]
+ 0x0000000c (INIT)                       0x4497b544
+ 0x0000000d (FINI)                       0x44bc9ab8
+ 0x00000019 (INIT_ARRAY)                 0x44c45000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x44c45004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x448f7138
+ 0x00000005 (STRTAB)                     0x4491a3a4
+ 0x00000006 (SYMTAB)                     0x448fee94
+ 0x0000000a (STRSZ)                      206118 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x44c4f000
+ 0x00000002 (PLTRELSZ)                   36136 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4497281c
+ 0x00000011 (REL)                        0x4495002c
+ 0x00000012 (RELSZ)                      141296 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4494ff6c
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x4494c8ca
+ 0x6ffffffa (RELCOUNT)                   10976
+ 0x6ffffdf8 (CHECKSUM)                   0x59bc1320
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

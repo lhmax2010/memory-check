@@ -1,0 +1,353 @@
+ PID PPID COMMAND         COMMAND
+   4    2 kworker/R-kvfre [kworker/R-kvfree_rcu_reclaim]
+   1    0 systemd         /usr/lib/systemd/systemd
+   2    0 kthreadd        [kthreadd]
+   3    2 pool_workqueue_ [pool_workqueue_release]
+   4    2 kworker/R-kvfre [kworker/R-kvfree_rcu_reclaim]
+   5    2 kworker/R-rcu_g [kworker/R-rcu_gp]
+   6    2 kworker/R-sync_ [kworker/R-sync_wq]
+   7    2 kworker/R-slub_ [kworker/R-slub_flushwq]
+   8    2 kworker/R-netns [kworker/R-netns]
+   9    2 kworker/0:0-eve [kworker/0:0-events]
+  10    2 kworker/0:1+rcu [kworker/0:1+rcu_gp]
+  11    2 kworker/0:0H-ev [kworker/0:0H-events_highpri]
+  12    2 kworker/0:0R-kv [kworker/0:0R-kverityd]
+  13    2 kworker/u24:0-i [kworker/u24:0-ipv6_addrconf]
+  14    2 kworker/R-mm_pe [kworker/R-mm_percpu_wq]
+  15    2 rcu_tasks_kthre [rcu_tasks_kthread]
+  16    2 icu-update      [icu-update]
+  17    2 ksoftirqd/0     [ksoftirqd/0]
+  18    2 rcu_preempt     [rcu_preempt]
+  19    2 rcu_exp_par_gp_ [rcu_exp_par_gp_kthread_worker/0]
+  20    2 rcu_exp_gp_kthr [rcu_exp_gp_kthread_worker]
+  21    2 migration/0     [migration/0]
+  22    2 cpuhp/0         [cpuhp/0]
+  23    2 cpuhp/1         [cpuhp/1]
+  24    2 migration/1     [migration/1]
+  25    2 ksoftirqd/1     [ksoftirqd/1]
+  26    2 kworker/1:0-eve [kworker/1:0-events]
+  27    2 kworker/1:0H-ev [kworker/1:0H-events_highpri]
+  28    2 kworker/1:0R-mm [kworker/1:0R-mmc_complete]
+  29    2 cpuhp/2         [cpuhp/2]
+  30    2 migration/2     [migration/2]
+  31    2 ksoftirqd/2     [ksoftirqd/2]
+  32    2 kworker/2:0-tra [kworker/2:0-trace_contention_worker]
+  33    2 kworker/2:0H-ev [kworker/2:0H-events_highpri]
+  34    2 kworker/2:0R-kv [kworker/2:0R-kverityd]
+  35    2 cpuhp/3         [cpuhp/3]
+  36    2 migration/3     [migration/3]
+  37    2 ksoftirqd/3     [ksoftirqd/3]
+  38    2 kworker/3:0-rcu [kworker/3:0-rcu_gp]
+  39    2 kworker/3:0H-ev [kworker/3:0H-events_highpri]
+  40    2 kworker/3:0R-kv [kworker/3:0R-kverityd]
+  41    2 kworker/u25:0-e [kworker/u25:0-events_unbound]
+  42    2 kworker/u26:0-d [kworker/u26:0-dput_wq]
+  43    2 kworker/u27:0-d [kworker/u27:0-dput_wq]
+  44    2 kworker/u28:0-d [kworker/u28:0-dput_wq]
+  45    2 kdevtmpfs       [kdevtmpfs]
+  46    2 kworker/R-inet_ [kworker/R-inet_frag_wq]
+  47    2 kiomond         [kiomond]
+  48    2 kauditd         [kauditd]
+  49    2 printk          [printk]
+  50    2 oom_reaper      [oom_reaper]
+  51    2 kworker/u25:1-e [kworker/u25:1-events_unbound]
+  52    2 kworker/R-write [kworker/R-writeback]
+  53    2 kcompactd0      [kcompactd0]
+  54    2 ksmd            [ksmd]
+  55    2 kworker/R-kbloc [kworker/R-kblockd]
+  56    2 kworker/R-md    [kworker/R-md]
+  57    2 kworker/R-md_bi [kworker/R-md_bitmap]
+  58    2 kworker/u29:0-p [kworker/u29:0-pmu_monitor_wq]
+  59    2 kworker/u30:0-k [kworker/u30:0-kbase_pm_poweroff_wait]
+  60    2 kworker/u31:0-v [kworker/u31:0-vd_time_occupy_workqueue]
+  61    2 kworker/u32:0-k [kworker/u32:0-kbase_pm_poweroff_wait]
+  62    2 kworker/u33:0-k [kworker/u33:0-kbase_pm_shader_poweroff]
+  63    2 kworker/R-sdhci [kworker/R-sdhci]
+  64    2 irq/35-mmc0     [irq/35-mmc0]
+  65    2 kworker/2:1-eve [kworker/2:1-events]
+  66    2 kworker/R-nvt_c [kworker/R-nvt_clkgate_wq]
+  67    2 kworker/1:1+eve [kworker/1:1+events]
+  68    2 kworker/u27:1-e [kworker/u27:1-events_unbound]
+  69    2 kworker/2:1H    [kworker/2:1H]
+  70    2 kworker/2:2-cgr [kworker/2:2-cgroup_free]
+  71    2 kdtvlogd        [kdtvlogd]
+  72    2 kworker/R-trace [kworker/R-trace_contention_worker]
+  73    2 kworker/R-conte [kworker/R-contention_store_wq]
+  74    2 kswapd0         [kswapd0]
+  75    2 erofs_worker/0  [erofs_worker/0]
+  76    2 erofs_worker/1  [erofs_worker/1]
+  77    2 erofs_worker/2  [erofs_worker/2]
+  78    2 erofs_worker/3  [erofs_worker/3]
+  79    2 kworker/R-sim_w [kworker/R-sim_watchdog]
+  80    2 kworker/R-kthro [kworker/R-kthrotld]
+  81    2 softirq_mon     [softirq_mon]
+  82    2 kworker/R-fd0f0 [kworker/R-fd0f0c28.tsensor]
+  83    2 zram_bgrecompd  [zram_bgrecompd]
+  84    2 memnotify       [memnotify]
+  85    2 kworker/R-Eth_r [kworker/R-Eth_readTrim]
+  86    2 kworker/u26:1-e [kworker/u26:1-events_unbound]
+  87    2 kworker/R-Eth_p [kworker/R-Eth_plugDetect]
+  88    2 kworker/R-Eth_r [kworker/R-Eth_reset_mac]
+  89    2 rc0             [rc0]
+  90    2 rc1             [rc1]
+  91    2 kworker/R-dm_bu [kworker/R-dm_bufio_cache]
+  92    2 kworker/R-mmc_c [kworker/R-mmc_complete]
+  93    2 kworker/1:1R-mm [kworker/1:1R-mmc_complete]
+  94    2 mmc_trace_vlog  [mmc_trace_vlog]
+  95    2 kworker/1:1H    [kworker/1:1H]
+  96    2 kworker/R-mld   [kworker/R-mld]
+  97    2 kworker/R-ipv6_ [kworker/R-ipv6_addrconf]
+  98    2 kworker/u24:1+d [kworker/u24:1+dvb_core_wq]
+  99    2 kworker/R-vd_ti [kworker/R-vd_time_occupy_workqueue]
+ 100    2 kworker/R-trace [kworker/R-trace_aops_worker]
+ 101    2 kworker/R-kdmfl [kworker/R-kdmflush/252:0]
+ 102    2 kworker/R-kdmfl [kworker/R-kdmflush/252:1]
+ 103    2 kworker/R-kveri [kworker/R-kverityd]
+ 104    2 kworker/R-kdmfl [kworker/R-kdmflush/252:2]
+ 105    2 kworker/R-kdmfl [kworker/R-kdmflush/252:3]
+ 106    2 kworker/R-kveri [kworker/R-kverityd]
+ 107    2 kworker/0:1H    [kworker/0:1H]
+ 108    2 kworker/1:2R-mm [kworker/1:2R-mmc_complete]
+ 110    2 kworker/3:1R-kv [kworker/3:1R-kverityd]
+ 111    2 kworker/3:1-rcu [kworker/3:1-rcu_gp]
+ 115    2 kworker/2:1R-kv [kworker/2:1R-kverityd]
+ 119    2 kworker/0:1R-kb [kworker/0:1R-kblockd]
+ 125    2 kworker/3:1H    [kworker/3:1H]
+ 153    2 kworker/u31:1-v [kworker/u31:1-vd_time_occupy_workqueue]
+ 165    2 kworker/2:2R-kb [kworker/2:2R-kblockd]
+ 182    2 kworker/0:2R-kv [kworker/0:2R-kverityd]
+ 183    2 kworker/u28:1-e [kworker/u28:1-events_unbound]
+ 197    1 kfactoryd       /prd/usr/bin/kfactoryd
+ 198    2 vlog_task       [vlog_task]
+ 199    2 kworker/3:2R-kb [kworker/3:2R-kblockd]
+ 206    2 kworker/2:3R-kv [kworker/2:3R-kverityd]
+ 209    1 cynara          /usr/bin/cynara
+ 218    1 buxton2d_worker /usr/sbin/buxton2d -f
+ 220    1 buxton2d_lite_w /prd/usr/bin/buxton2d_lite -f
+ 250    1 enlightenment   /usr/bin/enlightenment
+ 251    1 launchpad-proce /bin/sh /usr/bin/launchpad-process-pool.sh init
+ 258    1 security-manage /usr/bin/security-manager
+ 264    1 ps_agent        /usr/apps/privileged-service/bin/ps_agent
+ 267  251 launchpad-proce /usr/bin/launchpad-process-pool
+ 268    1 boot-helper-dyb /usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboo
+ 280    1 fconfigd        /usr/bin/fconfigd -d
+ 282    2 menu            [menu]
+ 283    2 kworker/2:4R-kb [kworker/2:4R-kblockd]
+ 284    2 kworker/0:3R-kb [kworker/0:3R-kblockd]
+ 285    2 kworker/u26:2-d [kworker/u26:2-dput_wq]
+ 286    2 kworker/1:3R-kv [kworker/1:3R-kverityd]
+ 288    2 kworker/u27:2-e [kworker/u27:2-events_unbound]
+ 291    2 _NerveTask_     [_NerveTask_]
+ 292    2 kworker/u25:2-d [kworker/u25:2-dput_wq]
+ 293    2 _NerveMTask_    [_NerveMTask_]
+ 296    2 _NVTAsyncTask_  [_NVTAsyncTask_]
+ 297    2 _NVTAsyncTask_  [_NVTAsyncTask_]
+ 298    2 _NVTAsyncTask_  [_NVTAsyncTask_]
+ 299    2 _NVTAsyncTask_  [_NVTAsyncTask_]
+ 300    2 _NVTAsyncTask_  [_NVTAsyncTask_]
+ 303    2 kworker/u28:2-d [kworker/u28:2-dput_wq]
+ 304    2 DRV_DBG_UART    [DRV_DBG_UART]
+ 305    2 DRV_STBC_CALLBA [DRV_STBC_CALLBACK_TASK]
+ 309    2 irq/49-ntkMsgBo [irq/49-ntkMsgBox]
+ 310    2 MLBX_TEST_Threa [MLBX_TEST_Thread]
+ 311    2 kworker/u28:3-e [kworker/u28:3-events_unbound]
+ 314    2 kworker/3:2-eve [kworker/3:2-events]
+ 315    2 tztv_mc_debug_p [tztv_mc_debug_print]
+ 318    1 non_boost_launc /bin/sh /usr/bin/non_boost_launcher.sh
+ 319    2 kthread_watchdo [kthread_watchdog]
+ 328  318 predevattr      /usr/bin/predevattr
+ 373    1 fb.sh           /bin/sh /usr/apps/fastboot/bin/fb.sh
+ 384  373 launch_splash.s /bin/bash /usr/bin/launch_splash.sh
+ 386    2 kworker/1:2-eve [kworker/1:2-events]
+ 390    2 kworker/0:2-eve [kworker/0:2-events]
+ 393    2 kworker/R-free_ [kworker/R-free_pages_workq]
+ 395    2 tzdev-tee-threa [tzdev-tee-threads]
+ 396    2 kworker/R-kbase [kworker/R-kbase_job_fault_resume_work_que]
+ 397    2 kworker/u32:1-v [kworker/u32:1-vd_time_occupy_workqueue]
+ 398    2 nsrpc:0         [nsrpc:0]
+ 399    2 nsrpc:1         [nsrpc:1]
+ 400    2 nsrpc:2         [nsrpc:2]
+ 401  267 wrt-loader      /usr/bin/wrt-loader     0                             
+ 404    1 vd-pkginfo-serv /bin/bash /usr/bin/vd-pkginfo-server.sh
+ 412    2 nsrpcwatchdog   [nsrpcwatchdog]
+ 419  404 pkginfo-server  /usr/bin/pkginfo-server
+ 449  384 boot_splashscre /usr/bin/boot_splashscreen
+ 453    2 hdmi_vlog_threa [hdmi_vlog_thread]
+ 454    2 _MEM_HandleDmem [_MEM_HandleDmem]
+ 455    2 kworker/u26:3-d [kworker/u26:3-dput_wq]
+ 456    2 tzlogd          [tzlogd]
+ 457    2 teedrv_watch    [teedrv_watch]
+ 458  267 TA_native-home  team:com.samsung.tv.native-home
+ 460    2 dspMonitor      [dspMonitor]
+ 461    2 _SPDIF_OclTrigg [_SPDIF_OclTrigger]
+ 470    2 HDCP22_PROC     [HDCP22_PROC]
+ 472    2 HDMI_EvtThread  [HDMI_EvtThread]
+ 473    2 cube_event0     [cube_event0]
+ 484    1 pm_monitor.sh   /bin/bash /usr/bin/pm_monitor.sh 321
+ 486    2 cube_event1     [cube_event1]
+ 488    2 DRV_VD          [DRV_VD]
+ 489    2 _APUTask_       [_APUTask_]
+ 499    2 TSD_TASK        [TSD_TASK]
+ 500    2 DEMUX_TASK      [DEMUX_TASK]
+ 501    2 kworker/3:3-eve [kworker/3:3-events]
+ 502    2 kworker/R-dvb_c [kworker/R-dvb_core_wq]
+ 503    2 DEMUX_FEED_TASK [DEMUX_FEED_TASK]
+ 504    2 ATSC30_CB_TASK  [ATSC30_CB_TASK]
+ 508    2 irq/83-frc_leon [irq/83-frc_leon2_irq]
+ 509    2 KER_CI_timer    [KER_CI_timer]
+ 512    2 kworker/u25:3-e [kworker/u25:3-events_unbound]
+ 513    2 PQ_MPFW_TASK    [PQ_MPFW_TASK]
+ 514    2 kdvb-ca-0:0     [kdvb-ca-0:0]
+ 515    2 PQ_SHELL_DBG_TA [PQ_SHELL_DBG_TASK]
+ 518    2 DRV_TVADC       [DRV_TVADC]
+ 519    2 _VPL_SRC_KADC   [_VPL_SRC_KADC]
+ 522    2 DRV_VBI         [DRV_VBI]
+ 523    2 VPL_SCLR_CTRL_M [VPL_SCLR_CTRL_MONITOR]
+ 525    2 SCLR_DP0        [SCLR_DP0]
+ 526    2 SRC_ModeTask    [SRC_ModeTask]
+ 527    2 PLAT_VC_UPDATE_ [PLAT_VC_UPDATE_TASK]
+ 530    2 SRC_MonitorTask [SRC_MonitorTask]
+ 531    2 PLAT_VC_UPDATE_ [PLAT_VC_UPDATE_TASK]
+ 532    2 kworker/3:4-pm  [kworker/3:4-pm]
+ 533    2 CHK5V_NDP_HDMI  [CHK5V_NDP_HDMI]
+ 534    2 SCLR_IP0        [SCLR_IP0]
+ 535    2 CLK_DET_NDP_HDM [CLK_DET_NDP_HDMI]
+ 536    2 SCLR_SHL_Scale0 [SCLR_SHL_Scale0]
+ 537    2 VRR_ST_NDP_HDMI [VRR_ST_NDP_HDMI]
+ 538    2 SCLR_IP1        [SCLR_IP1]
+ 539    2 VPL_SRC_MODE_EV [VPL_SRC_MODE_EVENT_TASK]
+ 540    2 SCLR_SHL_Scale1 [SCLR_SHL_Scale1]
+ 541    2 SCLR_SHL_Scale2 [SCLR_SHL_Scale2]
+ 542    2 SCLR_SHL_Scale3 [SCLR_SHL_Scale3]
+ 543    2 SCLR_SHL_Scale4 [SCLR_SHL_Scale4]
+ 544    2 card0-crtc0     [card0-crtc0]
+ 545    2 SCLR_SHL_Bio    [SCLR_SHL_Bio]
+ 546    2 card0-crtc1     [card0-crtc1]
+ 547    2 kworker/3:5-cgr [kworker/3:5-cgroup_release]
+ 553    2 kworker/3:6-tra [kworker/3:6-trace_contention_worker]
+ 555    2 kworker/3:7     [kworker/3:7]
+ 562  267 tv-viewer       /usr/apps/org.tizen.tv-viewer/bin/tv-viewer `zaybxcwdv
+ 563    2 kworker/u27:3-d [kworker/u27:3-dput_wq]
+ 565    2 eArcTask        [eArcTask]
+ 574  267 volume-app      /usr/apps/org.tizen.volume-app/bin/volume-app `zaybxcw
+ 579    2 kworker/0:3-eve [kworker/0:3-events]
+ 594    2 kworker/R-cfg80 [kworker/R-cfg80211]
+ 627    2 kworker/u24:2-E [kworker/u24:2-Eth_plugDetect]
+ 628    2 kworker/R-kbase [kworker/R-kbase_event]
+ 637  636 zone-init       /usr/bin/zone-init
+ 649    2 kworker/u30:1-k [kworker/u30:1-kbase_pm_poweroff_wait]
+ 650    2 kworker/u29:1   [kworker/u29:1]
+ 674    1 tzdaemon        /usr/bin/tzdaemon
+ 677    1 resource-center /usr/bin/resource-center
+ 678    1 rscmgr-service  /usr/bin/rscmgr-service
+ 689    1 tvs-lite        /usr/bin/tvs-lite
+ 697    1 tvs-daemon      /usr/bin/tvs-daemon
+ 698    1 amd             /usr/bin/amd
+ 720    1 adagent-service /opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-
+ 721    1 app-boot-manage /usr/bin/app-boot-manager
+ 726    2 kworker/R-kbase [kworker/R-kbase_event]
+ 733    1 tvctx-manager   /usr/bin/tvctx-manager /etc/tvctx-manager/appctx-confi
+ 758    1 avocd           /usr/bin/avocd -d
+ 786    1 bt-service      /usr/bin/bt-service
+ 824    1 common-activato /usr/bin/common-activator
+ 832    1 common-daemon-b /usr/bin/common-daemon-basic-monitor
+ 850    1 connectivity-co /usr/bin/connectivity-common-daemon
+ 852    1 connmand        /usr/sbin/connmand --nodnsproxy --nodaemon --noplugin 
+ 856    1 deviced         /usr/bin/deviced
+ 858    1 launcher-securi /usr/sbin/launcher-security
+ 863    2 kworker/R-kbase [kworker/R-kbase_event]
+ 864    1 nagsam-daemon   /usr/bin/nagsam-daemon
+ 865    2 scsi_eh_0       [scsi_eh_0]
+ 867    1 net-config      /usr/sbin/net-config
+ 885    2 kworker/R-scsi_ [kworker/R-scsi_tmf_0]
+ 886    2 usb-storage     [usb-storage]
+ 898    1 TIFSDaemon      /usr/bin/TIFSDaemon
+ 900  267 app-defined-loa /usr/bin/app-defined-loader     0                     
+ 925    2 kworker/u26:4-d [kworker/u26:4-dput_wq]
+ 941    2 kworker/2:3-tra [kworker/2:3-trace_contention_worker]
+ 944    2 kworker/u30:2-m [kworker/u30:2-mali_jd]
+ 945  267 launchpad-loade /usr/bin/launchpad-loader     0                       
+ 951  267 dotnet-hydra-lo /usr/bin/dotnet-hydra-loader 3 0 1 NWVjM2U3YjE2OWUzMzc
+ 952  267 contextengine   /opt/usr/apps/com.samsung.tizen.contextengine/bin/cont
+ 956    2 kworker/u24:3-i [kworker/u24:3-ipv6_addrconf]
+ 957    2 kworker/u33:1   [kworker/u33:1]
+ 992  951 dotnet-hydra-lo /usr/bin/dotnet-hydra-loader candidate                
+ 993    2 kworker/R-kbase [kworker/R-kbase_event]
+1030    2 kworker/R-kbase [kworker/R-kbase_event]
+1049    1 security-soluti /usr/bin/security-solution-daemon
+1053    1 speaker-manager /usr/bin/speaker-manager
+1056    1 tizen-watcherd  /usr/bin/tizen-watcherd
+1058    1 vd-net-config   /usr/sbin/vd-net-config
+1060    1 wpa_supplicant  /usr/sbin/wpa_supplicant -u -t -dd -O /var/run/wpa_sup
+1062    1 pulseaudio      /usr/bin/pulseaudio
+1064    1 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1065  267 com.samsung.tiz /opt/usr/apps/com.samsung.tizen.perception-engine/bin/
+1066    1 TAgentD         /usr/bin/TAgentD
+1069    1 securestorage-s /usr/bin/securestorage-server
+1070    1 psa-init        /usr/bin/psa-init
+1072    1 systemd         /usr/lib/systemd/systemd --user
+1075    1 wfd-manager     /usr/bin/wfd-manager
+1082    1 p2p-asm         /usr/bin/p2p-asm
+1085    2 kworker/1:3-eve [kworker/1:3-events]
+1090    1 sleep           /usr/bin/sleep 100
+1091    2 kworker/R-kbase [kworker/R-kbase_event]
+1098    2 kworker/R-kbase [kworker/R-kbase_event]
+1110 1072 ewaiter         [ewaiter] <defunct>
+1111 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1112 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1113 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1114 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1115 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1117 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1118 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1119 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1121 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1122 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1124 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1163 1062 pulseaudio      /usr/bin/pulseaudio
+1164 1163 pulseaudio      /usr/bin/pulseaudio
+1180    1 appbinary-manag /usr/bin/appbinary-manager
+1181    1 custom-service  /usr/bin/custom-service
+1183    1 sessiond        /usr/bin/sessiond --mandatory-client buxton --disable 
+1185    1 storaged        /usr/bin/storaged
+1198 1064 systemd-udevd   /usr/lib/systemd/systemd-udevd --resolve-names=late
+1199    1 udevadm         /usr/bin/udevadm trigger --type=devices --action=add
+1202    1 esd             /usr/bin/esd
+1253  267 mcf-agent       /opt/usr/apps/com.samsung.tizen.mcf-agent/bin/mcf-agen
+1275    1 askuser-notific /usr/bin/askuser-notification
+1276    1 systemctl       /usr/bin/systemctl start starter.target
+1278    1 crash-manager-t /usr/bin/crash-manager-tv
+1279    1 license-manager [license-manager]
+1280    1 mediacontroller /usr/bin/mediacontroller
+1281    1 grep            [grep] <defunct>
+1303    2 smdl_daemon     [smdl_daemon]
+1308    1 scenario-mgr-tv /usr/bin/scenario-mgr-tv
+1309    1 isf             /usr/bin/isf
+1315    2 RTW_CMD_THREAD  [RTW_CMD_THREAD]
+1316    1 ssc-service     /usr/bin/ssc-service
+1319    1 tpad_agent      [tpad_agent]
+1321    1 vd-cacert-servi /usr/bin/vd-cacert-service
+1322    1 check_vdca.sh   /bin/sh /usr/apps/ca-manager/check_vdca.sh
+1323    1 sdbd            /usr/sbin/sdbd
+1381    2 kworker/1:4-eve [kworker/1:4-events]
+1395  267 home-mainhub    /opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mai
+1458    1 sh              [sh] <defunct>
+1460  484 sleep           sleep 5
+1475    1 parseinfo.sh    /bin/bash /opt/etc/parseinfo.sh
+1476    1 app_launcher    /usr/bin/app_launcher -s com.samsung.tv.contentservice
+1477    1 allshare-svc    /usr/bin/allshare-svc
+1478    1 bt-monitor      /usr/bin/bt-monitor
+1479    1 qse-daemon      /usr/bin/qse-daemon
+1482    1 issue_report_ag /bin/issue_report_agent
+1483    1 aisctrlmgr_serv /usr/bin/aisctrlmgr_server -s org.tizen.AISControlMana
+1484    1 qdinfo-daemon   /usr/bin/qdinfo-daemon
+1485    1 dseal           /opt/usr/apps/org.tizen.dseal/bin/dseal
+1486    1 mbr-daemon      /usr/bin/mbr-daemon
+1488    1 register-device /usr/bin/register-device
+1489    1 settings-servic /usr/bin/settings-service
+1490    1 slive-provider- /opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-pr
+1493    1 source-service  /usr/bin/source-service
+1521    1 sh              /bin/sh -c ps -eo pid,ppid,comm,args; __ab_rc=$?; prin
+1523 1521 ps              ps -eo pid,ppid,comm,args
+
+__AB_RC__0

@@ -1,0 +1,107 @@
+pulled                        run.log	  0%	      0 B	    0KB/spulled                        run.log	100%	   3466 B	    0KB/s
+pulled       drop_caches_original.txt	  0%	      0 B	    0KB/spulled       drop_caches_original.txt	100%	      1 B	    0KB/s
+pulled    drop_caches_original.stderr	  0%	      0 B	    0KB/spulled    drop_caches_original.stderr	100%	     49 B	    0KB/s
+pulled           drop_caches_mode.txt	  0%	      0 B	    0KB/spulled           drop_caches_mode.txt	100%	     63 B	    0KB/s
+pulled                         STATUS	  0%	      0 B	    0KB/spulled                         STATUS	100%	      5 B	    0KB/s
+pulled                    COLUMNS.txt	  0%	      0 B	    0KB/spulled                    COLUMNS.txt	100%	    666 B	    0KB/s
+pulled          01_steady_samples.txt	  0%	      0 B	    0KB/spulled          01_steady_samples.txt	100%	    721 B	    0KB/s
+pulled                    tar_err.txt	  0%	      0 B	    0KB/spulled                    tar_err.txt	100%	    209 B	    0KB/s
+pulled               elf_files.tar.gz	  0%	      0MB	    0KB/spulled               elf_files.tar.gz	  8%	      8MB	 8590KB/spulled               elf_files.tar.gz	 18%	     17MB	 9162KB/spulled               elf_files.tar.gz	 27%	     26MB	 9348KB/spulled               elf_files.tar.gz	 36%	     35MB	 9119KB/spulled               elf_files.tar.gz	 45%	     44MB	 9098KB/spulled               elf_files.tar.gz	 54%	     53MB	 9190KB/spulled               elf_files.tar.gz	 62%	     60MB	 7357KB/spulled               elf_files.tar.gz	 71%	     69MB	 9117KB/spulled               elf_files.tar.gz	 80%	     78MB	 9274KB/spulled               elf_files.tar.gz	 89%	     87MB	 8996KB/spulled               elf_files.tar.gz	 99%	     96MB	 9240KB/spulled               elf_files.tar.gz	100%	     97MB	 9240KB/s
+pulled     elf_exec_types_summary.txt	  0%	      0 B	    0KB/spulled     elf_exec_types_summary.txt	100%	     34 B	    0KB/s
+pulled             elf_exec_types.txt	  0%	      0KB	    0KB/spulled             elf_exec_types.txt	100%	     41KB	    0KB/s
+pulled            collect_skipped.txt	100%	      0 B	    0KB/spulled            collect_skipped.txt	100%	      0 B	    0KB/s
+pulled               collect_list.txt	  0%	      0 B	    0KB/spulled               collect_list.txt	100%	   6890 B	    0KB/s
+pulled               zram_mm_stat.txt	  0%	      0 B	    0KB/spulled               zram_mm_stat.txt	100%	    135 B	    0KB/s
+pulled                   zoneinfo.txt	  0%	      0 B	    0KB/spulled                   zoneinfo.txt	100%	   5221 B	    0KB/s
+pulled                     vmstat.txt	  0%	      0 B	    0KB/spulled                     vmstat.txt	100%	   3067 B	    0KB/s
+pulled                vmallocinfo.txt	  0%	      0KB	    0KB/spulled                vmallocinfo.txt	100%	    127KB	    0KB/s
+pulled                 vd_memps_v.txt	  0%	      0KB	    0KB/spulled                 vd_memps_v.txt	100%	     26KB	    0KB/s
+pulled                     totals.txt	  0%	      0 B	    0KB/spulled                     totals.txt	100%	    178 B	    0KB/s
+pulled                       time.txt	  0%	      0 B	    0KB/spulled                       time.txt	100%	     44 B	    0KB/s
+pulled                      swaps.txt	  0%	      0 B	    0KB/spulled                      swaps.txt	100%	    109 B	    0KB/s
+pulled               smaps_raw.txt.gz	  0%	      0KB	    0KB/spulled               smaps_raw.txt.gz	100%	   1467KB	    0KB/s
+pulled                smaps_after.txt	  0%	      0 B	    0KB/spulled                smaps_after.txt	100%	     51 B	    0KB/s
+pulled                   slabinfo.txt	  0%	      0KB	    0KB/spulled                   slabinfo.txt	100%	     13KB	    0KB/s
+pulled                        psi.txt	  0%	      0 B	    0KB/spulled                        psi.txt	100%	    320 B	    0KB/s
+pulled                         ps.txt	  0%	      0KB	    0KB/spulled                         ps.txt	100%	     73KB	    0KB/s
+pulled                proc_rollup.txt	  0%	      0 B	    0KB/spulled                proc_rollup.txt	100%	   5653 B	    0KB/s
+pulled                   proc_dso.txt	  0%	      0 B	    0KB/spulled                   proc_dso.txt	100%	   6986 B	    0KB/s
+pulled               pagetypeinfo.txt	  0%	      0 B	    0KB/spulled               pagetypeinfo.txt	100%	   3091 B	    0KB/s
+pulled          memps_unavailable.txt	  0%	      0 B	    0KB/spulled          memps_unavailable.txt	100%	     80 B	    0KB/s
+pulled               memps_before.txt	  0%	      0 B	    0KB/spulled               memps_before.txt	100%	     51 B	    0KB/s
+pulled                memps_after.txt	  0%	      0 B	    0KB/spulled                memps_after.txt	100%	     51 B	    0KB/s
+pulled                    meminfo.txt	  0%	      0 B	    0KB/spulled                    meminfo.txt	100%	   1413 B	    0KB/s
+pulled                    mapping.txt	  0%	      0KB	    0KB/spulled                    mapping.txt	100%	    103KB	    0KB/s
+pulled                 gpu_dmabuf.txt	  0%	      0 B	    0KB/spulled                 gpu_dmabuf.txt	100%	   9871 B	    0KB/s
+pulled                 dso_totals.txt	  0%	      0 B	    0KB/spulled                 dso_totals.txt	100%	    116 B	    0KB/s
+pulled                  buddyinfo.txt	  0%	      0 B	    0KB/spulled                  buddyinfo.txt	100%	    300 B	    0KB/s
+pulled               zram_mm_stat.txt	  0%	      0 B	    0KB/spulled               zram_mm_stat.txt	100%	    135 B	    0KB/s
+pulled                   zoneinfo.txt	  0%	      0 B	    0KB/spulled                   zoneinfo.txt	100%	   5220 B	    0KB/s
+pulled                     vmstat.txt	  0%	      0 B	    0KB/spulled                     vmstat.txt	100%	   3068 B	    0KB/s
+pulled                vmallocinfo.txt	  0%	      0KB	    0KB/spulled                vmallocinfo.txt	100%	    143KB	    0KB/s
+pulled                 vd_memps_v.txt	  0%	      0KB	    0KB/spulled                 vd_memps_v.txt	100%	     26KB	    0KB/s
+pulled                     totals.txt	  0%	      0 B	    0KB/spulled                     totals.txt	100%	    178 B	    0KB/s
+pulled                       time.txt	  0%	      0 B	    0KB/spulled                       time.txt	100%	     44 B	    0KB/s
+pulled                      swaps.txt	  0%	      0 B	    0KB/spulled                      swaps.txt	100%	    109 B	    0KB/s
+pulled               smaps_raw.txt.gz	  0%	      0KB	    0KB/spulled               smaps_raw.txt.gz	100%	   1467KB	    0KB/s
+pulled                smaps_after.txt	  0%	      0 B	    0KB/spulled                smaps_after.txt	100%	     51 B	    0KB/s
+pulled                   slabinfo.txt	  0%	      0KB	    0KB/spulled                   slabinfo.txt	100%	     13KB	    0KB/s
+pulled                        psi.txt	  0%	      0 B	    0KB/spulled                        psi.txt	100%	    319 B	    0KB/s
+pulled                         ps.txt	  0%	      0KB	    0KB/spulled                         ps.txt	100%	     73KB	    0KB/s
+pulled                proc_rollup.txt	  0%	      0 B	    0KB/spulled                proc_rollup.txt	100%	   5690 B	    0KB/s
+pulled                   proc_dso.txt	  0%	      0 B	    0KB/spulled                   proc_dso.txt	100%	   6987 B	    0KB/s
+pulled               pagetypeinfo.txt	  0%	      0 B	    0KB/spulled               pagetypeinfo.txt	100%	   3091 B	    0KB/s
+pulled          memps_unavailable.txt	  0%	      0 B	    0KB/spulled          memps_unavailable.txt	100%	     80 B	    0KB/s
+pulled               memps_before.txt	  0%	      0 B	    0KB/spulled               memps_before.txt	100%	     51 B	    0KB/s
+pulled                memps_after.txt	  0%	      0 B	    0KB/spulled                memps_after.txt	100%	     51 B	    0KB/s
+pulled                    meminfo.txt	  0%	      0 B	    0KB/spulled                    meminfo.txt	100%	   1413 B	    0KB/s
+pulled                    mapping.txt	  0%	      0KB	    0KB/spulled                    mapping.txt	100%	    103KB	    0KB/s
+pulled                 gpu_dmabuf.txt	  0%	      0 B	    0KB/spulled                 gpu_dmabuf.txt	100%	   9871 B	    0KB/s
+pulled                 dso_totals.txt	  0%	      0 B	    0KB/spulled                 dso_totals.txt	100%	    116 B	    0KB/s
+pulled                  buddyinfo.txt	  0%	      0 B	    0KB/spulled                  buddyinfo.txt	100%	    300 B	    0KB/s
+pulled               zram_mm_stat.txt	  0%	      0 B	    0KB/spulled               zram_mm_stat.txt	100%	    135 B	    0KB/s
+pulled                   zoneinfo.txt	  0%	      0 B	    0KB/spulled                   zoneinfo.txt	100%	   5218 B	    0KB/s
+pulled                     vmstat.txt	  0%	      0 B	    0KB/spulled                     vmstat.txt	100%	   3067 B	    0KB/s
+pulled                vmallocinfo.txt	  0%	      0KB	    0KB/spulled                vmallocinfo.txt	100%	    122KB	    0KB/s
+pulled                 vd_memps_v.txt	  0%	      0KB	    0KB/spulled                 vd_memps_v.txt	100%	     26KB	    0KB/s
+pulled                     totals.txt	  0%	      0 B	    0KB/spulled                     totals.txt	100%	    178 B	    0KB/s
+pulled                       time.txt	  0%	      0 B	    0KB/spulled                       time.txt	100%	     43 B	    0KB/s
+pulled                      swaps.txt	  0%	      0 B	    0KB/spulled                      swaps.txt	100%	    109 B	    0KB/s
+pulled               smaps_raw.txt.gz	  0%	      0KB	    0KB/spulled               smaps_raw.txt.gz	100%	   1467KB	    0KB/s
+pulled                smaps_after.txt	  0%	      0 B	    0KB/spulled                smaps_after.txt	100%	     50 B	    0KB/s
+pulled                   slabinfo.txt	  0%	      0KB	    0KB/spulled                   slabinfo.txt	100%	     13KB	    0KB/s
+pulled                        psi.txt	  0%	      0 B	    0KB/spulled                        psi.txt	100%	    319 B	    0KB/s
+pulled                         ps.txt	  0%	      0KB	    0KB/spulled                         ps.txt	100%	     73KB	    0KB/s
+pulled                proc_rollup.txt	  0%	      0 B	    0KB/spulled                proc_rollup.txt	100%	   5655 B	    0KB/s
+pulled                   proc_dso.txt	  0%	      0 B	    0KB/spulled                   proc_dso.txt	100%	   6987 B	    0KB/s
+pulled               pagetypeinfo.txt	  0%	      0 B	    0KB/spulled               pagetypeinfo.txt	100%	   3091 B	    0KB/s
+pulled          memps_unavailable.txt	  0%	      0 B	    0KB/spulled          memps_unavailable.txt	100%	     80 B	    0KB/s
+pulled               memps_before.txt	  0%	      0 B	    0KB/spulled               memps_before.txt	100%	     50 B	    0KB/s
+pulled                memps_after.txt	  0%	      0 B	    0KB/spulled                memps_after.txt	100%	     50 B	    0KB/s
+pulled                    meminfo.txt	  0%	      0 B	    0KB/spulled                    meminfo.txt	100%	   1413 B	    0KB/s
+pulled                    mapping.txt	  0%	      0KB	    0KB/spulled                    mapping.txt	100%	    103KB	    0KB/s
+pulled                 gpu_dmabuf.txt	  0%	      0 B	    0KB/spulled                 gpu_dmabuf.txt	100%	   9871 B	    0KB/s
+pulled                 dso_totals.txt	  0%	      0 B	    0KB/spulled                 dso_totals.txt	100%	    116 B	    0KB/s
+pulled                  buddyinfo.txt	  0%	      0 B	    0KB/spulled                  buddyinfo.txt	100%	    300 B	    0KB/s
+pulled                zram_config.txt	  0%	      0 B	    0KB/spulled                zram_config.txt	100%	    102 B	    0KB/s
+pulled                  usr_local.txt	  0%	      0 B	    0KB/spulled                  usr_local.txt	100%	   1677 B	    0KB/s
+pulled                  sysctl_vm.txt	  0%	      0 B	    0KB/spulled                  sysctl_vm.txt	100%	   1003 B	    0KB/s
+pulled                      swaps.txt	  0%	      0 B	    0KB/spulled                      swaps.txt	100%	    109 B	    0KB/s
+pulled                   run_meta.txt	  0%	      0 B	    0KB/spulled                   run_meta.txt	100%	     61 B	    0KB/s
+pulled                   rpm_list.txt	  0%	      0KB	    0KB/spulled                   rpm_list.txt	100%	     42KB	    0KB/s
+pulled                   ps_start.txt	  0%	      0KB	    0KB/spulled                   ps_start.txt	100%	     73KB	    0KB/s
+pulled               memcg_limits.txt	100%	      0 B	    0KB/spulled               memcg_limits.txt	100%	      0 B	    0KB/s
+pulled                  iomem_ram.txt	  0%	      0 B	    0KB/spulled                  iomem_ram.txt	100%	     93 B	    0KB/s
+pulled              image_release.txt	  0%	      0 B	    0KB/spulled              image_release.txt	100%	   1250 B	    0KB/s
+pulled                         df.txt	  0%	      0 B	    0KB/spulled                         df.txt	100%	   1366 B	    0KB/s
+pulled          cxx_runtime_files.txt	  0%	      0 B	    0KB/spulled          cxx_runtime_files.txt	100%	   1249 B	    0KB/s
+pulled                    cmdline.txt	  0%	      0 B	    0KB/spulled                    cmdline.txt	100%	   1464 B	    0KB/s
+pulled               board_kernel.txt	  0%	      0 B	    0KB/spulled               board_kernel.txt	100%	    259 B	    0KB/s
+pulled              proc_product.conf	  0%	      0 B	    0KB/spulled              proc_product.conf	100%	    149 B	    0KB/s
+pulled                      proc.conf	  0%	      0 B	    0KB/spulled                      proc.conf	100%	    740 B	    0KB/s
+pulled            memory_product.conf	  0%	      0 B	    0KB/spulled            memory_product.conf	100%	    770 B	    0KB/s
+pulled                    memory.conf	  0%	      0 B	    0KB/spulled                    memory.conf	100%	   7201 B	    0KB/s
+pulled                     block.conf	  0%	      0 B	    0KB/spulled                     block.conf	100%	    220 B	    0KB/s
+pulled             enlightenment.conf	  0%	      0 B	    0KB/spulled             enlightenment.conf	100%	     59 B	    0KB/s
+105 file(s) pulled. 0 file(s) skipped.
+/opt/usr/prelink_ab_stage/memcheck/gcc_boot2_20261112_011910   6032KB/s (107688680 bytes in 17.434s)

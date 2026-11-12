@@ -1,0 +1,33 @@
+
+Dynamic section at offset 0xf580 contains 30 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libtvs-dvbbase-live.so]
+ 0x0000000c (INIT)                       0x44321754
+ 0x0000000d (FINI)                       0x443279b4
+ 0x00000019 (INIT_ARRAY)                 0x4432a000
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4432a008
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x4431b138
+ 0x00000005 (STRTAB)                     0x4431c7b4
+ 0x00000006 (SYMTAB)                     0x4431b674
+ 0x0000000a (STRSZ)                      11982 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4432b000
+ 0x00000002 (PLTRELSZ)                   712 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x443209fc
+ 0x00000007 (RELA)                       0x4431f9ac
+ 0x00000008 (RELASZ)                     4176 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4431f8ac
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x4431f682
+ 0x6ffffff9 (RELACOUNT)                  80
+ 0x6ffffdf8 (CHECKSUM)                   0x26e1382a
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

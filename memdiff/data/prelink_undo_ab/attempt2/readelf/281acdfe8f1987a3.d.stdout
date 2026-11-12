@@ -1,0 +1,40 @@
+
+Dynamic section at offset 0x4204 contains 37 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libapp-core-efl-cpp.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libapp-core-ui-cpp.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libapp-core-cpp.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libbundle.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-common.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcapi-appfw-application.so.0]
+ 0x0000000c (INIT)                       0x46552c44
+ 0x0000000d (FINI)                       0x46553d40
+ 0x00000019 (INIT_ARRAY)                 0x46555114
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4655511c
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46551138
+ 0x00000005 (STRTAB)                     0x46551800
+ 0x00000006 (SYMTAB)                     0x465511e0
+ 0x0000000a (STRSZ)                      3537 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x46556114
+ 0x00000002 (PLTRELSZ)                   400 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x46552ab4
+ 0x00000007 (RELA)                       0x46552778
+ 0x00000008 (RELASZ)                     828 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x46552698
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x465525d2
+ 0x6ffffff9 (RELACOUNT)                  30
+ 0x6ffffdf8 (CHECKSUM)                   0xbe7440ca
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

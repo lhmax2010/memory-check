@@ -1,0 +1,35 @@
+
+Dynamic section at offset 0x2008 contains 32 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpthread.so.0]
+ 0x0000000c (INIT)                       0x43efd7c4
+ 0x0000000d (FINI)                       0x43efe940
+ 0x00000019 (INIT_ARRAY)                 0x43eff000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x43eff004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x00000004 (HASH)                       0x43efd158
+ 0x6ffffef5 (GNU_HASH)                   0x43efd254
+ 0x00000005 (STRTAB)                     0x43efd480
+ 0x00000006 (SYMTAB)                     0x43efd2d0
+ 0x0000000a (STRSZ)                      316 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x43eff118
+ 0x00000002 (PLTRELSZ)                   56 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x43efd78c
+ 0x00000011 (REL)                        0x43efd724
+ 0x00000012 (RELSZ)                      104 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x43efd5f4
+ 0x6ffffffd (VERDEFNUM)                  8
+ 0x0000001e (FLAGS)                      BIND_NOW
+ 0x6ffffffb (FLAGS_1)                    Flags: NOW
+ 0x6ffffffe (VERNEED)                    0x43efd704
+ 0x6fffffff (VERNEEDNUM)                 1
+ 0x6ffffff0 (VERSYM)                     0x43efd5bc
+ 0x6ffffffa (RELCOUNT)                   7
+ 0x6ffffdf8 (CHECKSUM)                   0xdae60261
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

@@ -1,0 +1,27 @@
+{
+  "original_path": "memdiff/scripts/memcheck_runtime.sh",
+  "original_sha256": "8070e97a9ca788bb89d0c514dfa1fc76d064752c5e44b34962f8127a98c3a723",
+  "payload_sha256": "7999a63fc908248c253a1800c4a2fa024742bae1427ed1f70d968ed40a8bcd82",
+  "edits": [
+    [
+      "SCRIPT=/opt/usr/memcheck/memcheck.sh",
+      "SCRIPT=/opt/usr/prelink_ab_stage/memcheck.sh"
+    ],
+    [
+      "BASE=/opt/usr/memcheck",
+      "BASE=/opt/usr/prelink_ab_stage/memcheck"
+    ],
+    [
+      "STEADY_CPU_BUSY_MAX=20",
+      "STEADY_CPU_BUSY_MAX=21"
+    ],
+    [
+      "STEADY_TIMEOUT=2700",
+      "STEADY_TIMEOUT=1800"
+    ],
+    [
+      "ab>=cb",
+      "ab>cb"
+    ]
+  ]
+}

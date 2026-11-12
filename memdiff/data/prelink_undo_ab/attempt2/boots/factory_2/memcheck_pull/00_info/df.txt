@@ -1,0 +1,20 @@
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root              1148696   1148696         0 100% /.org_rootfs
+/dev/dm-3                39524     39524         0 100% /.org_rootfs/prd
+/dev/mmcblk0p21        3986176   1440856   2545320  37% /.org_rootfs/opt
+overlay                3986176   1440856   2545320  37% /
+/dev/mmcblk0p22            640       640         0 100% /.org_rootfs/factory_peq
+overlay                3986176   1440856   2545320  37% /factory_peq
+overlay                3986176   1440856   2545320  37% /prd
+none                    644712         0    644712   0% /dev
+tmpfs                   800564       176    800388   1% /tmp
+tmpfs                   800564      1888    798676   1% /run
+/dev/mmcblk0p20          20480      1616     18864   8% /mnt/systemrw
+/dev/mmcblk0p21        3986176   1440856   2545320  37% /opt
+tmpfs                   800564       172    800392   1% /run/user/5001
+tmpfs                   800564      2544    798020   1% /dev/shm
+/dev/mmcblk0p17          12288      1976     10312  17% /mnt/drm
+tmpfs                   800564         0    800564   0% /sys/fs/cgroup
+tmpfs                   800564         0    800564   0% /opt/media
+/dev/sda1            244185216 186322048  57863168  77% /opt/media/USBDriveA1
+/dev/mmcblk0p21        3986176   1440856   2545320  37% /opt/usr/home/owner/content

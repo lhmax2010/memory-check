@@ -1,0 +1,45 @@
+There are 36 section headers, starting at offset 0x3a398:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            444bf114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        444bf138 000138 001414 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          444c054c 00154c 002870 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          444c2dbc 003dbc 0038a6 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          444c6662 007662 00050e 02   A  3   0  2
+  [ 6] .gnu.version_d    VERDEF          444c6b70 007b70 000038 00   A  4   2  4
+  [ 7] .gnu.version_r    VERNEED         444c6ba8 007ba8 0000e0 00   A  4   5  4
+  [ 8] .rel.dyn          REL             444c6c88 007c88 000660 08   A  3   0  4
+  [ 9] .rel.plt          REL             444c72e8 0082e8 000bb8 08  AI  3  22  4
+  [10] .init             PROGBITS        444c7ea0 008ea0 00000c 00  AX  0   0  4
+  [11] .plt              PROGBITS        444c7eac 008eac 001240 04  AX  0   0  4
+  [12] .text             PROGBITS        444c90f0 00a0f0 024188 00  AX  0   0  8
+  [13] .fini             PROGBITS        444ed278 02e278 000008 00  AX  0   0  4
+  [14] .rodata           PROGBITS        444ed280 02e280 00897c 00   A  0   0  8
+  [15] .ARM.extab        PROGBITS        444f5bfc 036bfc 000108 00   A  0   0  4
+  [16] .ARM.exidx        ARM_EXIDX       444f5d04 036d04 000ba0 00  AL 12   0  4
+  [17] .eh_frame         PROGBITS        444f68a4 0378a4 000004 00   A  0   0  4
+  [18] .init_array       INIT_ARRAY      444f7000 038000 000004 04  WA  0   0  4
+  [19] .fini_array       FINI_ARRAY      444f7004 038004 000004 04  WA  0   0  4
+  [20] .data.rel.ro      PROGBITS        444f7008 038008 000450 00  WA  0   0  8
+  [21] .dynamic          DYNAMIC         444f7458 038458 000138 08  WA  4   0  4
+  [22] .got              PROGBITS        444f8000 039000 00062c 04  WA  0   0  4
+  [23] .data             PROGBITS        444f862c 03962c 00000c 00  WA  0   0  4
+  [24] .bss              NOBITS          444f8638 039638 00001c 00  WA  0   0  4
+  [25] .comment          PROGBITS        00000000 039638 00002c 01  MS  0   0  1
+  [26] .gnu.warning.pa_context_get_autoload_info_by_name PROGBITS        00000000 039664 000029 00      0   0  1
+  [27] .gnu.warning.pa_context_get_autoload_info_by_index PROGBITS        00000000 03968d 000029 00      0   0  1
+  [28] .gnu.warning.pa_context_get_autoload_info_list PROGBITS        00000000 0396b6 000029 00      0   0  1
+  [29] .gnu.warning.pa_context_add_autoload PROGBITS        00000000 0396df 000029 00      0   0  1
+  [30] .gnu.warning.pa_context_remove_autoload_by_name PROGBITS        00000000 039708 000029 00      0   0  1
+  [31] .gnu.warning.pa_context_remove_autoload_by_index PROGBITS        00000000 039731 000029 00      0   0  1
+  [32] .gnu.liblist      GNU_LIBLIST     00000000 03975c 000208 14     33   0  4
+  [33] .gnu.libstr       STRTAB          00000000 039964 0001e1 00      0   0  1
+  [34] .gnu.prelink_undo PROGBITS        00000000 039b48 000614 01      0   0  4
+  [35] .shstrtab         STRTAB          00000000 03a15c 00023b 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)

@@ -1,0 +1,415 @@
+2026-11-12T09:57:30+00:00 RUN write_root_on
+2026-11-12T09:57:30+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:57:30+00:00 RUN write_root_uid
+2026-11-12T09:57:30+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:57:30+00:00 RUN write_tools_getfattr_ready
+2026-11-12T09:57:30+00:00 END write_tools_getfattr_ready rc=0 bytes=30
+2026-11-12T09:57:30+00:00 RUN write_tools_setfattr_ready
+2026-11-12T09:57:30+00:00 END write_tools_setfattr_ready rc=0 bytes=30
+2026-11-12T09:57:30+00:00 RUN write_stage_ready
+2026-11-12T09:57:30+00:00 END write_stage_ready rc=0 bytes=14
+2026-11-12T09:57:30+00:00 RUN programs_001_stage_sha
+2026-11-12T09:57:30+00:00 END programs_001_stage_sha rc=0 bytes=131
+2026-11-12T09:57:30+00:00 RUN programs_001_copy
+2026-11-12T09:57:30+00:00 END programs_001_copy rc=0 bytes=60
+2026-11-12T09:57:30+00:00 RUN programs_001_busy_ps
+2026-11-12T09:57:31+00:00 END programs_001_busy_ps rc=0 bytes=243
+2026-11-12T09:57:31+00:00 RUN programs_001_busy_cgroup_695
+2026-11-12T09:57:31+00:00 END programs_001_busy_cgroup_695 rc=0 bytes=261
+2026-11-12T09:57:31+00:00 RUN programs_001_stop_unit_nonblocking
+2026-11-12T09:57:31+00:00 END programs_001_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:57:31+00:00 RUN programs_001_stop_poll_01
+2026-11-12T09:57:31+00:00 END programs_001_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:57:31+00:00 RUN programs_001_copy_after_stop
+2026-11-12T09:57:31+00:00 END programs_001_copy_after_stop rc=0 bytes=14
+2026-11-12T09:57:31+00:00 RUN programs_001_post_sha
+2026-11-12T09:57:31+00:00 END programs_001_post_sha rc=0 bytes=101
+2026-11-12T09:57:31+00:00 RUN programs_001_post_stat
+2026-11-12T09:57:31+00:00 END programs_001_post_stat rc=0 bytes=30
+2026-11-12T09:57:31+00:00 RUN programs_001_post_xattrs
+2026-11-12T09:57:32+00:00 END programs_001_post_xattrs rc=0 bytes=124
+2026-11-12T09:57:32+00:00 RUN programs_001_post_getcap
+2026-11-12T09:57:32+00:00 END programs_001_post_getcap rc=0 bytes=14
+2026-11-12T09:57:32+00:00 RUN programs_001_post_chsmack
+2026-11-12T09:57:32+00:00 END programs_001_post_chsmack rc=0 bytes=46
+2026-11-12T09:57:32+00:00 RUN programs_001_post_upper
+2026-11-12T09:57:32+00:00 END programs_001_post_upper rc=0 bytes=14
+2026-11-12T09:57:32+00:00 WRITE_OK undo /usr/bin/tvs-daemon
+2026-11-12T09:57:32+00:00 RUN programs_002_stage_sha
+2026-11-12T09:57:32+00:00 END programs_002_stage_sha rc=0 bytes=137
+2026-11-12T09:57:32+00:00 RUN programs_002_copy
+2026-11-12T09:57:32+00:00 END programs_002_copy rc=0 bytes=14
+2026-11-12T09:57:32+00:00 RUN programs_002_post_sha
+2026-11-12T09:57:32+00:00 END programs_002_post_sha rc=0 bytes=107
+2026-11-12T09:57:32+00:00 RUN programs_002_post_stat
+2026-11-12T09:57:33+00:00 END programs_002_post_stat rc=0 bytes=29
+2026-11-12T09:57:33+00:00 RUN programs_002_post_xattrs
+2026-11-12T09:57:33+00:00 END programs_002_post_xattrs rc=0 bytes=130
+2026-11-12T09:57:33+00:00 RUN programs_002_post_getcap
+2026-11-12T09:57:33+00:00 END programs_002_post_getcap rc=0 bytes=14
+2026-11-12T09:57:33+00:00 RUN programs_002_post_chsmack
+2026-11-12T09:57:33+00:00 END programs_002_post_chsmack rc=0 bytes=52
+2026-11-12T09:57:33+00:00 RUN programs_002_post_upper
+2026-11-12T09:57:33+00:00 END programs_002_post_upper rc=0 bytes=14
+2026-11-12T09:57:33+00:00 WRITE_OK undo /usr/bin/app-boot-manager
+2026-11-12T09:57:33+00:00 RUN programs_003_stage_sha
+2026-11-12T09:57:33+00:00 END programs_003_stage_sha rc=0 bytes=129
+2026-11-12T09:57:33+00:00 RUN programs_003_copy
+2026-11-12T09:57:33+00:00 END programs_003_copy rc=0 bytes=14
+2026-11-12T09:57:33+00:00 RUN programs_003_post_sha
+2026-11-12T09:57:33+00:00 END programs_003_post_sha rc=0 bytes=99
+2026-11-12T09:57:33+00:00 RUN programs_003_post_stat
+2026-11-12T09:57:34+00:00 END programs_003_post_stat rc=0 bytes=29
+2026-11-12T09:57:34+00:00 RUN programs_003_post_xattrs
+2026-11-12T09:57:34+00:00 END programs_003_post_xattrs rc=0 bytes=122
+2026-11-12T09:57:34+00:00 RUN programs_003_post_getcap
+2026-11-12T09:57:34+00:00 END programs_003_post_getcap rc=0 bytes=14
+2026-11-12T09:57:34+00:00 RUN programs_003_post_chsmack
+2026-11-12T09:57:34+00:00 END programs_003_post_chsmack rc=0 bytes=44
+2026-11-12T09:57:34+00:00 RUN programs_003_post_upper
+2026-11-12T09:57:34+00:00 END programs_003_post_upper rc=0 bytes=14
+2026-11-12T09:57:34+00:00 WRITE_OK undo /usr/bin/fastinit
+2026-11-12T09:57:34+00:00 RUN programs_004_stage_sha
+2026-11-12T09:57:34+00:00 END programs_004_stage_sha rc=0 bytes=126
+2026-11-12T09:57:34+00:00 RUN programs_004_copy
+2026-11-12T09:57:34+00:00 END programs_004_copy rc=0 bytes=55
+2026-11-12T09:57:34+00:00 RUN programs_004_busy_ps
+2026-11-12T09:57:35+00:00 END programs_004_busy_ps rc=0 bytes=231
+2026-11-12T09:57:35+00:00 RUN programs_004_busy_cgroup_853
+2026-11-12T09:57:35+00:00 END programs_004_busy_cgroup_853 rc=0 bytes=261
+2026-11-12T09:57:35+00:00 RUN programs_004_stop_unit_nonblocking
+2026-11-12T09:57:35+00:00 END programs_004_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:57:35+00:00 RUN programs_004_stop_poll_01
+2026-11-12T09:57:35+00:00 END programs_004_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:57:35+00:00 RUN programs_004_copy_after_stop
+2026-11-12T09:57:35+00:00 END programs_004_copy_after_stop rc=0 bytes=14
+2026-11-12T09:57:35+00:00 RUN programs_004_post_sha
+2026-11-12T09:57:35+00:00 END programs_004_post_sha rc=0 bytes=96
+2026-11-12T09:57:35+00:00 RUN programs_004_post_stat
+2026-11-12T09:57:35+00:00 END programs_004_post_stat rc=0 bytes=31
+2026-11-12T09:57:35+00:00 RUN programs_004_post_xattrs
+2026-11-12T09:57:36+00:00 END programs_004_post_xattrs rc=0 bytes=119
+2026-11-12T09:57:36+00:00 RUN programs_004_post_getcap
+2026-11-12T09:57:36+00:00 END programs_004_post_getcap rc=0 bytes=14
+2026-11-12T09:57:36+00:00 RUN programs_004_post_chsmack
+2026-11-12T09:57:36+00:00 END programs_004_post_chsmack rc=0 bytes=41
+2026-11-12T09:57:36+00:00 RUN programs_004_post_upper
+2026-11-12T09:57:36+00:00 END programs_004_post_upper rc=0 bytes=14
+2026-11-12T09:57:36+00:00 WRITE_OK undo /usr/bin/avocd
+2026-11-12T09:57:36+00:00 RUN programs_005_stage_sha
+2026-11-12T09:57:36+00:00 END programs_005_stage_sha rc=0 bytes=129
+2026-11-12T09:57:36+00:00 RUN programs_005_copy
+2026-11-12T09:57:36+00:00 END programs_005_copy rc=0 bytes=14
+2026-11-12T09:57:36+00:00 RUN programs_005_post_sha
+2026-11-12T09:57:36+00:00 END programs_005_post_sha rc=0 bytes=99
+2026-11-12T09:57:36+00:00 RUN programs_005_post_stat
+2026-11-12T09:57:37+00:00 END programs_005_post_stat rc=0 bytes=29
+2026-11-12T09:57:37+00:00 RUN programs_005_post_xattrs
+2026-11-12T09:57:37+00:00 END programs_005_post_xattrs rc=0 bytes=122
+2026-11-12T09:57:37+00:00 RUN programs_005_post_getcap
+2026-11-12T09:57:37+00:00 END programs_005_post_getcap rc=0 bytes=14
+2026-11-12T09:57:37+00:00 RUN programs_005_post_chsmack
+2026-11-12T09:57:37+00:00 END programs_005_post_chsmack rc=0 bytes=44
+2026-11-12T09:57:37+00:00 RUN programs_005_post_upper
+2026-11-12T09:57:37+00:00 END programs_005_post_upper rc=0 bytes=14
+2026-11-12T09:57:37+00:00 WRITE_OK undo /usr/bin/fastlogo
+2026-11-12T09:57:37+00:00 RUN programs_006_stage_sha
+2026-11-12T09:57:37+00:00 END programs_006_stage_sha rc=0 bytes=124
+2026-11-12T09:57:37+00:00 RUN programs_006_copy
+2026-11-12T09:57:37+00:00 END programs_006_copy rc=0 bytes=53
+2026-11-12T09:57:37+00:00 RUN programs_006_busy_ps
+2026-11-12T09:57:37+00:00 END programs_006_busy_ps rc=0 bytes=222
+2026-11-12T09:57:37+00:00 RUN programs_006_busy_cgroup_698
+2026-11-12T09:57:38+00:00 END programs_006_busy_cgroup_698 rc=0 bytes=225
+2026-11-12T09:57:38+00:00 RUN programs_006_stop_unit_nonblocking
+2026-11-12T09:57:38+00:00 END programs_006_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:57:38+00:00 RUN programs_006_stop_poll_01
+2026-11-12T09:57:38+00:00 END programs_006_stop_poll_01 rc=0 bytes=19
+2026-11-12T09:57:43+00:00 RUN programs_006_stop_poll_02
+2026-11-12T09:57:43+00:00 END programs_006_stop_poll_02 rc=0 bytes=19
+2026-11-12T09:57:48+00:00 RUN programs_006_stop_poll_03
+2026-11-12T09:57:48+00:00 END programs_006_stop_poll_03 rc=0 bytes=19
+2026-11-12T09:57:53+00:00 RUN programs_006_stop_poll_04
+2026-11-12T09:57:54+00:00 END programs_006_stop_poll_04 rc=0 bytes=19
+2026-11-12T09:57:59+00:00 RUN programs_006_stop_poll_05
+2026-11-12T09:57:59+00:00 END programs_006_stop_poll_05 rc=0 bytes=14
+2026-11-12T09:57:59+00:00 RUN programs_006_copy_after_stop
+2026-11-12T09:57:59+00:00 END programs_006_copy_after_stop rc=0 bytes=14
+2026-11-12T09:57:59+00:00 RUN programs_006_post_sha
+2026-11-12T09:57:59+00:00 END programs_006_post_sha rc=0 bytes=94
+2026-11-12T09:57:59+00:00 RUN programs_006_post_stat
+2026-11-12T09:57:59+00:00 END programs_006_post_stat rc=0 bytes=28
+2026-11-12T09:57:59+00:00 RUN programs_006_post_xattrs
+2026-11-12T09:57:59+00:00 END programs_006_post_xattrs rc=0 bytes=117
+2026-11-12T09:57:59+00:00 RUN programs_006_post_getcap
+2026-11-12T09:57:59+00:00 END programs_006_post_getcap rc=0 bytes=14
+2026-11-12T09:57:59+00:00 RUN programs_006_post_chsmack
+2026-11-12T09:58:00+00:00 END programs_006_post_chsmack rc=0 bytes=39
+2026-11-12T09:58:00+00:00 RUN programs_006_post_upper
+2026-11-12T09:58:00+00:00 END programs_006_post_upper rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_chown
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_chmod
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_sha
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_sha rc=0 bytes=94
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_stat
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_stat rc=0 bytes=28
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_xattrs rc=0 bytes=117
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:58:00+00:00 END programs_006_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:58:00+00:00 RUN programs_006_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:58:01+00:00 END programs_006_fixattrs_before_xattr_restore_chsmack rc=0 bytes=39
+2026-11-12T09:58:01+00:00 RUN programs_006_fixattrs_before_xattr_restore_upper
+2026-11-12T09:58:01+00:00 END programs_006_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:58:01+00:00 RUN programs_006_fixattrs_set_security.capability
+2026-11-12T09:58:01+00:00 END programs_006_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_sha
+2026-11-12T09:58:01+00:00 END programs_006_postfix_sha rc=0 bytes=94
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_stat
+2026-11-12T09:58:01+00:00 END programs_006_postfix_stat rc=0 bytes=28
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_xattrs
+2026-11-12T09:58:01+00:00 END programs_006_postfix_xattrs rc=0 bytes=181
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_getcap
+2026-11-12T09:58:01+00:00 END programs_006_postfix_getcap rc=0 bytes=97
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_chsmack
+2026-11-12T09:58:01+00:00 END programs_006_postfix_chsmack rc=0 bytes=39
+2026-11-12T09:58:01+00:00 RUN programs_006_postfix_upper
+2026-11-12T09:58:01+00:00 END programs_006_postfix_upper rc=0 bytes=14
+2026-11-12T09:58:01+00:00 WRITE_OK undo /usr/bin/amd
+2026-11-12T09:58:01+00:00 RUN programs_007_stage_sha
+2026-11-12T09:58:02+00:00 END programs_007_stage_sha rc=0 bytes=130
+2026-11-12T09:58:02+00:00 RUN programs_007_copy
+2026-11-12T09:58:02+00:00 END programs_007_copy rc=0 bytes=14
+2026-11-12T09:58:02+00:00 RUN programs_007_post_sha
+2026-11-12T09:58:02+00:00 END programs_007_post_sha rc=0 bytes=100
+2026-11-12T09:58:02+00:00 RUN programs_007_post_stat
+2026-11-12T09:58:02+00:00 END programs_007_post_stat rc=0 bytes=30
+2026-11-12T09:58:02+00:00 RUN programs_007_post_xattrs
+2026-11-12T09:58:02+00:00 END programs_007_post_xattrs rc=0 bytes=123
+2026-11-12T09:58:02+00:00 RUN programs_007_post_getcap
+2026-11-12T09:58:02+00:00 END programs_007_post_getcap rc=0 bytes=14
+2026-11-12T09:58:02+00:00 RUN programs_007_post_chsmack
+2026-11-12T09:58:02+00:00 END programs_007_post_chsmack rc=0 bytes=45
+2026-11-12T09:58:02+00:00 RUN programs_007_post_upper
+2026-11-12T09:58:02+00:00 END programs_007_post_upper rc=0 bytes=14
+2026-11-12T09:58:02+00:00 WRITE_OK undo /usr/bin/fastvideo
+2026-11-12T09:58:02+00:00 RUN programs_008_stage_sha
+2026-11-12T09:58:03+00:00 END programs_008_stage_sha rc=0 bytes=155
+2026-11-12T09:58:03+00:00 RUN programs_008_copy
+2026-11-12T09:58:03+00:00 END programs_008_copy rc=0 bytes=84
+2026-11-12T09:58:03+00:00 RUN programs_008_busy_ps
+2026-11-12T09:58:03+00:00 END programs_008_busy_ps rc=0 bytes=1300
+2026-11-12T09:58:03+00:00 RUN programs_008_busy_cgroup_601
+2026-11-12T09:58:03+00:00 END programs_008_busy_cgroup_601 rc=0 bytes=180
+2026-11-12T09:58:03+00:00 RUN programs_008_app_exe_601
+2026-11-12T09:58:03+00:00 END programs_008_app_exe_601 rc=0 bytes=59
+2026-11-12T09:58:03+00:00 RUN programs_008_app_term_601
+2026-11-12T09:58:03+00:00 END programs_008_app_term_601 rc=0 bytes=14
+2026-11-12T09:58:03+00:00 RUN programs_008_app_poll_01
+2026-11-12T09:58:04+00:00 END programs_008_app_poll_01 rc=0 bytes=19
+2026-11-12T09:58:09+00:00 RUN programs_008_app_poll_02
+2026-11-12T09:58:09+00:00 END programs_008_app_poll_02 rc=0 bytes=14
+2026-11-12T09:58:09+00:00 RUN programs_008_copy_after_app_term
+2026-11-12T09:58:09+00:00 END programs_008_copy_after_app_term rc=0 bytes=14
+2026-11-12T09:58:09+00:00 RUN programs_008_post_sha
+2026-11-12T09:58:09+00:00 END programs_008_post_sha rc=0 bytes=125
+2026-11-12T09:58:09+00:00 RUN programs_008_post_stat
+2026-11-12T09:58:09+00:00 END programs_008_post_stat rc=0 bytes=33
+2026-11-12T09:58:09+00:00 RUN programs_008_post_xattrs
+2026-11-12T09:58:09+00:00 END programs_008_post_xattrs rc=0 bytes=214
+2026-11-12T09:58:09+00:00 RUN programs_008_post_getcap
+2026-11-12T09:58:10+00:00 END programs_008_post_getcap rc=0 bytes=14
+2026-11-12T09:58:10+00:00 RUN programs_008_post_chsmack
+2026-11-12T09:58:10+00:00 END programs_008_post_chsmack rc=0 bytes=103
+2026-11-12T09:58:10+00:00 RUN programs_008_post_upper
+2026-11-12T09:58:10+00:00 END programs_008_post_upper rc=0 bytes=14
+2026-11-12T09:58:10+00:00 WRITE_OK undo /usr/apps/org.tizen.tv-viewer/bin/tv-viewer
+2026-11-12T09:58:10+00:00 RUN programs_009_stage_sha
+2026-11-12T09:58:10+00:00 END programs_009_stage_sha rc=0 bytes=135
+2026-11-12T09:58:10+00:00 RUN programs_009_copy
+2026-11-12T09:58:10+00:00 END programs_009_copy rc=0 bytes=64
+2026-11-12T09:58:10+00:00 RUN programs_009_busy_ps
+2026-11-12T09:58:10+00:00 END programs_009_busy_ps rc=0 bytes=255
+2026-11-12T09:58:10+00:00 RUN programs_009_busy_cgroup_683
+2026-11-12T09:58:10+00:00 END programs_009_busy_cgroup_683 rc=0 bytes=273
+2026-11-12T09:58:10+00:00 RUN programs_009_stop_unit_nonblocking
+2026-11-12T09:58:11+00:00 END programs_009_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:58:11+00:00 RUN programs_009_stop_poll_01
+2026-11-12T09:58:11+00:00 END programs_009_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:58:11+00:00 RUN programs_009_copy_after_stop
+2026-11-12T09:58:11+00:00 END programs_009_copy_after_stop rc=0 bytes=14
+2026-11-12T09:58:11+00:00 RUN programs_009_post_sha
+2026-11-12T09:58:11+00:00 END programs_009_post_sha rc=0 bytes=105
+2026-11-12T09:58:11+00:00 RUN programs_009_post_stat
+2026-11-12T09:58:11+00:00 END programs_009_post_stat rc=0 bytes=30
+2026-11-12T09:58:11+00:00 RUN programs_009_post_xattrs
+2026-11-12T09:58:11+00:00 END programs_009_post_xattrs rc=0 bytes=175
+2026-11-12T09:58:11+00:00 RUN programs_009_post_getcap
+2026-11-12T09:58:12+00:00 END programs_009_post_getcap rc=0 bytes=14
+2026-11-12T09:58:12+00:00 RUN programs_009_post_chsmack
+2026-11-12T09:58:12+00:00 END programs_009_post_chsmack rc=0 bytes=72
+2026-11-12T09:58:12+00:00 RUN programs_009_post_upper
+2026-11-12T09:58:12+00:00 END programs_009_post_upper rc=0 bytes=14
+2026-11-12T09:58:12+00:00 WRITE_OK undo /usr/bin/rscmgr-service
+2026-11-12T09:58:12+00:00 RUN programs_010_stage_sha
+2026-11-12T09:58:12+00:00 END programs_010_stage_sha rc=0 bytes=131
+2026-11-12T09:58:12+00:00 RUN programs_010_copy
+2026-11-12T09:58:12+00:00 END programs_010_copy rc=0 bytes=60
+2026-11-12T09:58:12+00:00 RUN programs_010_busy_ps
+2026-11-12T09:58:12+00:00 END programs_010_busy_ps rc=0 bytes=243
+2026-11-12T09:58:12+00:00 RUN programs_010_busy_cgroup_1086
+2026-11-12T09:58:12+00:00 END programs_010_busy_cgroup_1086 rc=0 bytes=249
+2026-11-12T09:58:12+00:00 RUN programs_010_stop_unit_nonblocking
+2026-11-12T09:58:13+00:00 END programs_010_stop_unit_nonblocking rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_stop_poll_01
+2026-11-12T09:58:13+00:00 END programs_010_stop_poll_01 rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_copy_after_stop
+2026-11-12T09:58:13+00:00 END programs_010_copy_after_stop rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_post_sha
+2026-11-12T09:58:13+00:00 END programs_010_post_sha rc=0 bytes=101
+2026-11-12T09:58:13+00:00 RUN programs_010_post_stat
+2026-11-12T09:58:13+00:00 END programs_010_post_stat rc=0 bytes=29
+2026-11-12T09:58:13+00:00 RUN programs_010_post_xattrs
+2026-11-12T09:58:13+00:00 END programs_010_post_xattrs rc=0 bytes=124
+2026-11-12T09:58:13+00:00 RUN programs_010_post_getcap
+2026-11-12T09:58:13+00:00 END programs_010_post_getcap rc=0 bytes=14
+2026-11-12T09:58:13+00:00 RUN programs_010_post_chsmack
+2026-11-12T09:58:14+00:00 END programs_010_post_chsmack rc=0 bytes=46
+2026-11-12T09:58:14+00:00 RUN programs_010_post_upper
+2026-11-12T09:58:14+00:00 END programs_010_post_upper rc=0 bytes=14
+2026-11-12T09:58:14+00:00 WRITE_OK undo /usr/bin/pulseaudio
+2026-11-12T09:58:14+00:00 RUN programs_011_stage_sha
+2026-11-12T09:58:14+00:00 END programs_011_stage_sha rc=0 bytes=147
+2026-11-12T09:58:14+00:00 RUN programs_011_copy
+2026-11-12T09:58:14+00:00 END programs_011_copy rc=0 bytes=14
+2026-11-12T09:58:14+00:00 RUN programs_011_post_sha
+2026-11-12T09:58:14+00:00 END programs_011_post_sha rc=0 bytes=117
+2026-11-12T09:58:14+00:00 RUN programs_011_post_stat
+2026-11-12T09:58:14+00:00 END programs_011_post_stat rc=0 bytes=32
+2026-11-12T09:58:14+00:00 RUN programs_011_post_xattrs
+2026-11-12T09:58:14+00:00 END programs_011_post_xattrs rc=0 bytes=198
+2026-11-12T09:58:14+00:00 RUN programs_011_post_getcap
+2026-11-12T09:58:14+00:00 END programs_011_post_getcap rc=0 bytes=14
+2026-11-12T09:58:14+00:00 RUN programs_011_post_chsmack
+2026-11-12T09:58:15+00:00 END programs_011_post_chsmack rc=0 bytes=91
+2026-11-12T09:58:15+00:00 RUN programs_011_post_upper
+2026-11-12T09:58:15+00:00 END programs_011_post_upper rc=0 bytes=14
+2026-11-12T09:58:15+00:00 WRITE_OK undo /usr/apps/org.tizen.btapp/bin/btapp
+2026-11-12T09:58:15+00:00 RUN programs_012_stage_sha
+2026-11-12T09:58:15+00:00 END programs_012_stage_sha rc=0 bytes=136
+2026-11-12T09:58:15+00:00 RUN programs_012_copy
+2026-11-12T09:58:15+00:00 END programs_012_copy rc=0 bytes=14
+2026-11-12T09:58:15+00:00 RUN programs_012_post_sha
+2026-11-12T09:58:15+00:00 END programs_012_post_sha rc=0 bytes=106
+2026-11-12T09:58:15+00:00 RUN programs_012_post_stat
+2026-11-12T09:58:15+00:00 END programs_012_post_stat rc=0 bytes=30
+2026-11-12T09:58:15+00:00 RUN programs_012_post_xattrs
+2026-11-12T09:58:15+00:00 END programs_012_post_xattrs rc=0 bytes=129
+2026-11-12T09:58:15+00:00 RUN programs_012_post_getcap
+2026-11-12T09:58:16+00:00 END programs_012_post_getcap rc=0 bytes=14
+2026-11-12T09:58:16+00:00 RUN programs_012_post_chsmack
+2026-11-12T09:58:16+00:00 END programs_012_post_chsmack rc=0 bytes=51
+2026-11-12T09:58:16+00:00 RUN programs_012_post_upper
+2026-11-12T09:58:16+00:00 END programs_012_post_upper rc=0 bytes=14
+2026-11-12T09:58:16+00:00 WRITE_OK undo /usr/bin/hdmicec-service
+2026-11-12T09:58:16+00:00 RUN programs_013_stage_sha
+2026-11-12T09:58:16+00:00 END programs_013_stage_sha rc=0 bytes=159
+2026-11-12T09:58:16+00:00 RUN programs_013_copy
+2026-11-12T09:58:16+00:00 END programs_013_copy rc=0 bytes=14
+2026-11-12T09:58:16+00:00 RUN programs_013_post_sha
+2026-11-12T09:58:16+00:00 END programs_013_post_sha rc=0 bytes=129
+2026-11-12T09:58:16+00:00 RUN programs_013_post_stat
+2026-11-12T09:58:16+00:00 END programs_013_post_stat rc=0 bytes=31
+2026-11-12T09:58:16+00:00 RUN programs_013_post_xattrs
+2026-11-12T09:58:17+00:00 END programs_013_post_xattrs rc=0 bytes=152
+2026-11-12T09:58:17+00:00 RUN programs_013_post_getcap
+2026-11-12T09:58:17+00:00 END programs_013_post_getcap rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_post_chsmack
+2026-11-12T09:58:17+00:00 END programs_013_post_chsmack rc=0 bytes=74
+2026-11-12T09:58:17+00:00 RUN programs_013_post_upper
+2026-11-12T09:58:17+00:00 END programs_013_post_upper rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_chown
+2026-11-12T09:58:17+00:00 END programs_013_fixattrs_chown rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_chmod
+2026-11-12T09:58:17+00:00 END programs_013_fixattrs_chmod rc=0 bytes=14
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_before_xattr_restore_sha
+2026-11-12T09:58:17+00:00 END programs_013_fixattrs_before_xattr_restore_sha rc=0 bytes=129
+2026-11-12T09:58:17+00:00 RUN programs_013_fixattrs_before_xattr_restore_stat
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_stat rc=0 bytes=31
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_xattrs
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_xattrs rc=0 bytes=152
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_getcap
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_getcap rc=0 bytes=14
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_chsmack
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_chsmack rc=0 bytes=74
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_before_xattr_restore_upper
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_before_xattr_restore_upper rc=0 bytes=14
+2026-11-12T09:58:18+00:00 RUN programs_013_fixattrs_set_security.capability
+2026-11-12T09:58:18+00:00 END programs_013_fixattrs_set_security.capability rc=0 bytes=14
+2026-11-12T09:58:18+00:00 RUN programs_013_postfix_sha
+2026-11-12T09:58:18+00:00 END programs_013_postfix_sha rc=0 bytes=129
+2026-11-12T09:58:18+00:00 RUN programs_013_postfix_stat
+2026-11-12T09:58:18+00:00 END programs_013_postfix_stat rc=0 bytes=31
+2026-11-12T09:58:18+00:00 RUN programs_013_postfix_xattrs
+2026-11-12T09:58:19+00:00 END programs_013_postfix_xattrs rc=0 bytes=216
+2026-11-12T09:58:19+00:00 RUN programs_013_postfix_getcap
+2026-11-12T09:58:19+00:00 END programs_013_postfix_getcap rc=0 bytes=97
+2026-11-12T09:58:19+00:00 RUN programs_013_postfix_chsmack
+2026-11-12T09:58:19+00:00 END programs_013_postfix_chsmack rc=0 bytes=74
+2026-11-12T09:58:19+00:00 RUN programs_013_postfix_upper
+2026-11-12T09:58:19+00:00 END programs_013_postfix_upper rc=0 bytes=14
+2026-11-12T09:58:19+00:00 WRITE_OK undo /usr/apps/org.tizen.acm-service/bin/acm-service
+2026-11-12T09:58:19+00:00 RUN programs_014_stage_sha
+2026-11-12T09:58:19+00:00 END programs_014_stage_sha rc=0 bytes=137
+2026-11-12T09:58:19+00:00 RUN programs_014_copy
+2026-11-12T09:58:19+00:00 END programs_014_copy rc=0 bytes=66
+2026-11-12T09:58:19+00:00 RUN programs_014_busy_ps
+2026-11-12T09:58:19+00:00 END programs_014_busy_ps rc=0 bytes=2556
+2026-11-12T09:58:19+00:00 RUN programs_014_busy_cgroup_820
+2026-11-12T09:58:19+00:00 END programs_014_busy_cgroup_820 rc=0 bytes=176
+2026-11-12T09:58:19+00:00 RUN programs_014_app_exe_820
+2026-11-12T09:58:20+00:00 END programs_014_app_exe_820 rc=0 bytes=41
+2026-11-12T09:58:20+00:00 RUN programs_014_app_term_820
+2026-11-12T09:58:20+00:00 END programs_014_app_term_820 rc=0 bytes=14
+2026-11-12T09:58:20+00:00 RUN programs_014_app_poll_01
+2026-11-12T09:58:20+00:00 END programs_014_app_poll_01 rc=0 bytes=20
+2026-11-12T09:58:25+00:00 RUN programs_014_app_poll_02
+2026-11-12T09:58:25+00:00 END programs_014_app_poll_02 rc=0 bytes=20
+2026-11-12T09:58:30+00:00 RUN programs_014_app_poll_03
+2026-11-12T09:58:30+00:00 END programs_014_app_poll_03 rc=0 bytes=20
+2026-11-12T09:58:35+00:00 RUN programs_014_app_poll_04
+2026-11-12T09:58:35+00:00 END programs_014_app_poll_04 rc=0 bytes=20
+2026-11-12T09:58:40+00:00 RUN programs_014_app_poll_05
+2026-11-12T09:58:41+00:00 END programs_014_app_poll_05 rc=0 bytes=20
+2026-11-12T09:58:46+00:00 RUN programs_014_app_poll_06
+2026-11-12T09:58:46+00:00 END programs_014_app_poll_06 rc=0 bytes=20
+2026-11-12T09:58:51+00:00 RUN programs_014_app_poll_07
+2026-11-12T09:58:51+00:00 END programs_014_app_poll_07 rc=0 bytes=20
+2026-11-12T09:58:56+00:00 RUN programs_014_app_poll_08
+2026-11-12T09:58:56+00:00 END programs_014_app_poll_08 rc=0 bytes=20
+2026-11-12T09:59:01+00:00 RUN programs_014_app_poll_09
+2026-11-12T09:59:01+00:00 END programs_014_app_poll_09 rc=0 bytes=20
+2026-11-12T09:59:06+00:00 RUN programs_014_app_poll_10
+2026-11-12T09:59:06+00:00 END programs_014_app_poll_10 rc=0 bytes=20
+2026-11-12T09:59:11+00:00 RUN programs_014_app_poll_11
+2026-11-12T09:59:12+00:00 END programs_014_app_poll_11 rc=0 bytes=20
+2026-11-12T09:59:17+00:00 RUN programs_014_app_poll_12
+2026-11-12T09:59:17+00:00 END programs_014_app_poll_12 rc=0 bytes=20
+2026-11-12T09:59:22+00:00 RUN write_root_off
+2026-11-12T09:59:22+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:59:22+00:00 RUN write_sdk_uid
+2026-11-12T09:59:22+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:59:22+00:00 ERROR RuntimeError('app did not exit within 60 s: /usr/bin/launchpad-loader')
+已结束 2026-11-12T09:59:22+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 197, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 190, in main
+    write_one(path,'undo',f'{args.action}_{i:03d}',undo[path]['after_sha256'],baselines[path])
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 146, in write_one
+    if not stopped:raise RuntimeError('app did not exit within 60 s: '+path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: app did not exit within 60 s: /usr/bin/launchpad-loader

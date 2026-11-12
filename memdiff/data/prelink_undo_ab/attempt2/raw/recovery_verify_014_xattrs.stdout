@@ -1,0 +1,8 @@
+getfattr: Removing leading '/' from absolute path names
+# file: usr/bin/launchpad-loader
+security.SMACK64=0x55736572
+security.SMACK64EXEC=0x55736572
+security.capability=0x01000002000000004000a0000000000002000000
+
+
+__AB_RC__0

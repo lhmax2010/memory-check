@@ -1,0 +1,32 @@
+
+Dynamic section at offset 0x10008 contains 29 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpower-control.so.0]
+ 0x0000000c (INIT)                       0x43b866c8
+ 0x0000000d (FINI)                       0x43b8e314
+ 0x00000019 (INIT_ARRAY)                 0x43b93000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x43b93004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x43b83138
+ 0x00000005 (STRTAB)                     0x43b84630
+ 0x00000006 (SYMTAB)                     0x43b83a20
+ 0x0000000a (STRSZ)                      7731 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x43b94000
+ 0x00000002 (PLTRELSZ)                   88 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x43b86670
+ 0x00000011 (REL)                        0x43b86638
+ 0x00000012 (RELSZ)                      56 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x43b865e8
+ 0x6fffffff (VERNEEDNUM)                 2
+ 0x6ffffff0 (VERSYM)                     0x43b86464
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0x912c0e1d
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

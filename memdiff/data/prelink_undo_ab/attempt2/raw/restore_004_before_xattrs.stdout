@@ -1,0 +1,6 @@
+getfattr: Removing leading '/' from absolute path names
+# file: usr/apps/org.tizen.btapp/bin/btapp
+security.SMACK64=0x557365723a3a506b673a3a6f72672e74697a656e2e62746170703a3a524f
+
+
+__AB_RC__0

@@ -1,0 +1,28 @@
+
+Dynamic section at offset 0x1e61008 contains 25 entries:
+  Tag        Type                         Name/Value
+ 0x0000000e (SONAME)                     Library soname: [libicudata.so.76]
+ 0x00000010 (SYMBOLIC)                   0x0
+ 0x0000000c (INIT)                       0x41033274
+ 0x0000000d (FINI)                       0x41033374
+ 0x00000019 (INIT_ARRAY)                 0x42e94000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x42e94004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x41033118
+ 0x00000005 (STRTAB)                     0x410331b8
+ 0x00000006 (SYMTAB)                     0x41033138
+ 0x0000000a (STRSZ)                      114 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x42e95000
+ 0x00000002 (PLTRELSZ)                   16 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x41033264
+ 0x00000011 (REL)                        0x4103322c
+ 0x00000012 (RELSZ)                      56 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x0000001e (FLAGS)                      SYMBOLIC
+ 0x6ffffffa (RELCOUNT)                   3
+ 0x6ffffdf8 (CHECKSUM)                   0xb5a4ac42
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

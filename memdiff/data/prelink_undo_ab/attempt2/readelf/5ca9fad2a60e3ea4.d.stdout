@@ -1,0 +1,37 @@
+
+Dynamic section at offset 0x19188 contains 34 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libeina.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libemile.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libjpeg.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libeet.so.1]
+ 0x0000000c (INIT)                       0x44123ff0
+ 0x0000000d (FINI)                       0x44135a4c
+ 0x00000019 (INIT_ARRAY)                 0x44139000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x44139004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x44120138
+ 0x00000005 (STRTAB)                     0x44121a6c
+ 0x00000006 (SYMTAB)                     0x441206fc
+ 0x0000000a (STRSZ)                      6069 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4413a000
+ 0x00000002 (PLTRELSZ)                   1704 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x44123948
+ 0x00000011 (REL)                        0x44123590
+ 0x00000012 (RELSZ)                      952 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x44123490
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x44123222
+ 0x6ffffffa (RELCOUNT)                   87
+ 0x6ffffdf8 (CHECKSUM)                   0xa64a912d
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:44
+ 0x00000000 (NULL)                       0x0

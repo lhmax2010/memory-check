@@ -1,0 +1,22 @@
+
+Dynamic section at offset 0x2a1d0 contains 19 entries:
+  Tag        Type                         Name/Value
+ 0x0000000e (SONAME)                     Library soname: [ld-linux.so.3]
+ 0x00000004 (HASH)                       0x41000138
+ 0x6ffffef5 (GNU_HASH)                   0x4100027c
+ 0x00000005 (STRTAB)                     0x4100067c
+ 0x00000006 (SYMTAB)                     0x410003dc
+ 0x0000000a (STRSZ)                      715 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000011 (REL)                        0x41000a40
+ 0x00000012 (RELSZ)                      184 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x4100099c
+ 0x6ffffffd (VERDEFNUM)                  5
+ 0x0000001e (FLAGS)                      BIND_NOW
+ 0x6ffffffb (FLAGS_1)                    Flags: NOW
+ 0x6ffffff0 (VERSYM)                     0x41000948
+ 0x6ffffffa (RELCOUNT)                   20
+ 0x6ffffdf8 (CHECKSUM)                   0xb45a1aa4
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

@@ -1,0 +1,41 @@
+[
+  {
+    "boot": "factory_1",
+    "kind": "elf_archive",
+    "path": "boots/factory_1/memcheck_pull/05_elf/elf_files.tar.gz",
+    "bytes": 162672282,
+    "sha256": "0770ecf77dcb5128b61fd63c7c15389d1870d21e655fc15d8c866674914f4d7b",
+    "gzip_valid": true,
+    "tar_rc": 0,
+    "tar_entries": 199,
+    "tar_stderr": ""
+  },
+  {
+    "boot": "factory_1",
+    "kind": "steady_smaps",
+    "path": "boots/factory_1/memcheck_pull/02_steady/smaps_raw.txt.gz",
+    "bytes": 1481722,
+    "sha256": "32ddf8d55078a3eafb62a8b7f945771e7a85d48b4381bc83c9250f5dea7635f6",
+    "gzip_valid": true
+  },
+  {
+    "boot": "factory_2",
+    "kind": "elf_archive",
+    "path": "boots/factory_2/memcheck_pull/05_elf/elf_files.tar.gz",
+    "bytes": 101810176,
+    "sha256": "f8b4e1f0bc4f2201f0f68411cd8e8d02fc01415712547ae66e0578a7bab9c7b6",
+    "gzip_valid": false,
+    "gzip_error": "EOFError('Compressed file ended before the end-of-stream marker was reached')",
+    "tar_rc": 2,
+    "tar_entries": 177,
+    "tar_stderr": "\ngzip: stdin: unexpected end of file\ntar: Unexpected EOF in archive\ntar: Error is not recoverable: exiting now\n"
+  },
+  {
+    "boot": "factory_2",
+    "kind": "steady_smaps",
+    "path": "boots/factory_2/memcheck_pull/02_steady/smaps_raw.txt.gz",
+    "bytes": 1502262,
+    "sha256": "d7a367254d6a997a514b5550117a8534969043fa798b7c9da8e5dc422633859c",
+    "gzip_valid": true
+  }
+]

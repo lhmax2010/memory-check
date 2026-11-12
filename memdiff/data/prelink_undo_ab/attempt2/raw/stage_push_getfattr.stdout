@@ -1,0 +1,4 @@
+WARNING: Your data are to be sent over an unencrypted connection and could be read by others.
+pushed                       getfattr	  0%	      0KB	    0KB/spushed                       getfattr	100%	     17KB	    0KB/s
+1 file(s) pushed. 0 file(s) skipped.
+/tmp/prelink_undo_attr/usr/bin/getfattr   53KB/s (18192 bytes in 0.329s)

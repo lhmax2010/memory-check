@@ -1,0 +1,42 @@
+
+Dynamic section at offset 0x900c contains 39 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgraphics-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdeviced.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libpower-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdisplay-panel.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000001d (RUNPATH)                    Library runpath: [/home/abuild/rpmbuild/BUILD/fastboot-0.2.0/fb_lib/source/fb_proxy:]
+ 0x0000000c (INIT)                       0x12610
+ 0x0000000d (FINI)                       0x15c28
+ 0x00000019 (INIT_ARRAY)                 0x19000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x19004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x101ac
+ 0x00000005 (STRTAB)                     0x1abd8
+ 0x00000006 (SYMTAB)                     0x10994
+ 0x0000000a (STRSZ)                      3305 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0x1a000
+ 0x00000002 (PLTRELSZ)                   592 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x123c0
+ 0x00000011 (REL)                        0x123b0
+ 0x00000012 (RELSZ)                      16 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x122e0
+ 0x6fffffff (VERNEEDNUM)                 5
+ 0x6ffffff0 (VERSYM)                     0x1217e
+ 0x6ffffef9 (GNU_LIBLIST)                0x11494
+ 0x6ffffdf7 (GNU_LIBLISTSZ)              980 (bytes)
+ 0x6ffffef8 (GNU_CONFLICT)               0x11868
+ 0x6ffffdf6 (GNU_CONFLICTSZ)             1464 (bytes)
+ 0x00000000 (NULL)                       0x0

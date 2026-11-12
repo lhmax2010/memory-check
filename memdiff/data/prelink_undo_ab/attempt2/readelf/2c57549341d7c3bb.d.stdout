@@ -1,0 +1,33 @@
+
+Dynamic section at offset 0x200c contains 30 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libteec_ppi.so]
+ 0x0000000c (INIT)                       0x461518e8
+ 0x0000000d (FINI)                       0x46152164
+ 0x00000019 (INIT_ARRAY)                 0x46153000
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x46153008
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46151118
+ 0x00000005 (STRTAB)                     0x46151454
+ 0x00000006 (SYMTAB)                     0x46151234
+ 0x0000000a (STRSZ)                      734 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x46154000
+ 0x00000002 (PLTRELSZ)                   48 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x461518b8
+ 0x00000011 (REL)                        0x46151870
+ 0x00000012 (RELSZ)                      72 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x46151778
+ 0x6ffffffd (VERDEFNUM)                  6
+ 0x6ffffffb (FLAGS_1)                    Flags: NODELETE
+ 0x6ffffffe (VERNEED)                    0x46151840
+ 0x6fffffff (VERNEEDNUM)                 1
+ 0x6ffffff0 (VERSYM)                     0x46151732
+ 0x6ffffffa (RELCOUNT)                   4
+ 0x6ffffdf8 (CHECKSUM)                   0x714a91f3
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:45
+ 0x00000000 (NULL)                       0x0

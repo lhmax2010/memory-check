@@ -1,0 +1,39 @@
+2026-11-12T09:40:41+00:00 RUN write_root_on
+2026-11-12T09:40:41+00:00 END write_root_on rc=0 bytes=32
+2026-11-12T09:40:41+00:00 RUN write_root_uid
+2026-11-12T09:40:42+00:00 END write_root_uid rc=0 bytes=17
+2026-11-12T09:40:42+00:00 RUN write_tools_getfattr_ready
+2026-11-12T09:40:42+00:00 END write_tools_getfattr_ready rc=0 bytes=30
+2026-11-12T09:40:42+00:00 RUN write_tools_setfattr_ready
+2026-11-12T09:40:42+00:00 END write_tools_setfattr_ready rc=0 bytes=30
+2026-11-12T09:40:42+00:00 RUN write_stage_ready
+2026-11-12T09:40:42+00:00 END write_stage_ready rc=0 bytes=14
+2026-11-12T09:40:42+00:00 RUN programs_001_stage_sha
+2026-11-12T09:40:42+00:00 END programs_001_stage_sha rc=0 bytes=131
+2026-11-12T09:40:42+00:00 RUN programs_001_copy
+2026-11-12T09:40:42+00:00 END programs_001_copy rc=0 bytes=60
+2026-11-12T09:40:42+00:00 RUN programs_001_busy_ps
+2026-11-12T09:40:42+00:00 END programs_001_busy_ps rc=0 bytes=243
+2026-11-12T09:40:42+00:00 RUN programs_001_busy_cgroup_697
+2026-11-12T09:40:42+00:00 END programs_001_busy_cgroup_697 rc=0 bytes=261
+2026-11-12T09:40:42+00:00 RUN programs_001_stop_unit
+2026-11-12T09:41:08+00:00 END programs_001_stop_unit rc=0 bytes=65
+2026-11-12T09:41:08+00:00 RUN write_root_off
+2026-11-12T09:41:08+00:00 END write_root_off rc=0 bytes=36
+2026-11-12T09:41:08+00:00 RUN write_sdk_uid
+2026-11-12T09:41:08+00:00 END write_sdk_uid rc=0 bytes=20
+2026-11-12T09:41:08+00:00 ERROR RuntimeError('programs_001_stop_unit remote rc=1:  Failed to wait for response: Connection timed out\r\n\r')
+已结束 2026-11-12T09:41:08+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 165, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 158, in main
+    write_one(path,'undo',f'{args.action}_{i:03d}',undo[path]['after_sha256'],baselines[path])
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 114, in write_one
+    board(tag+'_stop_unit',f'systemctl stop {q(unit)}',120)
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/write_state.py", line 22, in board
+    if rc:raise RuntimeError(f'{name} remote rc={rc}: {err[-300:]} {out[-300:]}')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: programs_001_stop_unit remote rc=1:  Failed to wait for response: Connection timed out
+

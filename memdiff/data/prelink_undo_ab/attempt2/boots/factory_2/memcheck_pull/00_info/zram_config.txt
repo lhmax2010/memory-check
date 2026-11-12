@@ -1,0 +1,5 @@
+### /sys/block/zram0
+disksize: 1065439232
+comp_algorithm: lz4 [zstd] 
+max_comp_streams: 4
+mem_limit: 

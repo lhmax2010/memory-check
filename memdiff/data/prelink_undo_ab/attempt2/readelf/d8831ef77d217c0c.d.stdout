@@ -1,0 +1,40 @@
+
+Dynamic section at offset 0xc070 contains 37 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libaul.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbundle.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpkgmgr-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000c (INIT)                       0x13b88
+ 0x0000000d (FINI)                       0x19cdc
+ 0x00000019 (INIT_ARRAY)                 0x1c000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x1c004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x101ac
+ 0x00000005 (STRTAB)                     0x1d424
+ 0x00000006 (SYMTAB)                     0x10bc4
+ 0x0000000a (STRSZ)                      7422 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0x1d000
+ 0x00000002 (PLTRELSZ)                   848 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x13838
+ 0x00000011 (REL)                        0x13800
+ 0x00000012 (RELSZ)                      56 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x136c0
+ 0x6fffffff (VERNEEDNUM)                 4
+ 0x6ffffff0 (VERSYM)                     0x13532
+ 0x6ffffef9 (GNU_LIBLIST)                0x11834
+ 0x6ffffdf7 (GNU_LIBLISTSZ)              960 (bytes)
+ 0x6ffffef8 (GNU_CONFLICT)               0x1f3d4
+ 0x6ffffdf6 (GNU_CONFLICTSZ)             9096 (bytes)
+ 0x00000000 (NULL)                       0x0

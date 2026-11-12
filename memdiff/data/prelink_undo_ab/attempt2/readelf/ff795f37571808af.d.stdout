@@ -1,0 +1,31 @@
+
+Dynamic section at offset 0x15f79c contains 28 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libc.so.6]
+ 0x00000019 (INIT_ARRAY)                 0x4319e248
+ 0x0000001b (INIT_ARRAYSZ)               12 (bytes)
+ 0x00000004 (HASH)                       0x430401b8
+ 0x6ffffef5 (GNU_HASH)                   0x430443c8
+ 0x00000005 (STRTAB)                     0x43055dec
+ 0x00000006 (SYMTAB)                     0x4304955c
+ 0x0000000a (STRSZ)                      36474 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4319f88c
+ 0x00000002 (PLTRELSZ)                   168 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x430640c8
+ 0x00000007 (RELA)                       0x43060ab0
+ 0x00000008 (RELASZ)                     13848 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffc (VERDEF)                     0x43060578
+ 0x6ffffffd (VERDEFNUM)                  36
+ 0x0000001e (FLAGS)                      BIND_NOW STATIC_TLS
+ 0x6ffffffb (FLAGS_1)                    Flags: NOW
+ 0x6ffffffe (VERNEED)                    0x43060a70
+ 0x6fffffff (VERNEEDNUM)                 1
+ 0x6ffffff0 (VERSYM)                     0x4305ec66
+ 0x6ffffff9 (RELACOUNT)                  1073
+ 0x6ffffdf8 (CHECKSUM)                   0x5b451aa8
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:43
+ 0x00000000 (NULL)                       0x0

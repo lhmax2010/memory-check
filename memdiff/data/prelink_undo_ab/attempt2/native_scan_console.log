@@ -1,0 +1,89 @@
+2026-11-12T08:15:37+00:00 RUN scan_root_on
+2026-11-12T08:15:37+00:00 END scan_root_on rc=0 bytes=32
+2026-11-12T08:15:37+00:00 RUN scan_uid
+2026-11-12T08:15:37+00:00 END scan_uid rc=0 bytes=17
+2026-11-12T08:15:37+00:00 RUN scan_stage_absent
+2026-11-12T08:15:37+00:00 END scan_stage_absent rc=0 bytes=14
+2026-11-12T08:15:37+00:00 RUN scan_stage_create
+2026-11-12T08:15:38+00:00 END scan_stage_create rc=0 bytes=14
+2026-11-12T08:15:38+00:00 RUN scan_push_readelf
+2026-11-12T08:15:38+00:00 END scan_push_readelf rc=0 bytes=401
+2026-11-12T08:15:38+00:00 RUN scan_push_elf_paths.txt
+2026-11-12T08:15:38+00:00 END scan_push_elf_paths.txt rc=0 bytes=384
+2026-11-12T08:15:38+00:00 RUN scan_readelf_version
+2026-11-12T08:15:38+00:00 END scan_readelf_version rc=0 bytes=164
+2026-11-12T08:15:38+00:00 RUN scan_stage_cleanup
+2026-11-12T08:15:38+00:00 END scan_stage_cleanup rc=0 bytes=14
+2026-11-12T08:15:38+00:00 RUN scan_root_off
+2026-11-12T08:15:39+00:00 END scan_root_off rc=0 bytes=36
+2026-11-12T08:15:39+00:00 RUN scan_sdk_uid
+2026-11-12T08:15:39+00:00 END scan_sdk_uid rc=0 bytes=20
+2026-11-12T08:15:39+00:00 ERROR RuntimeError('native readelf cannot execute')
+已结束 2026-11-12T08:15:39+00:00 状态=失败
+Traceback (most recent call last):
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/scan_native.py", line 74, in <module>
+    try:main()
+        ^^^^^^
+  File "/home/linhao/lss/memory_check/TPMS/memdiff/data/prelink_undo_ab/attempt2/scan_native.py", line 31, in main
+    if rc:raise RuntimeError('native readelf cannot execute')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: native readelf cannot execute
+2026-11-12T08:16:18+00:00 RUN scan_root_on
+2026-11-12T08:16:18+00:00 END scan_root_on rc=0 bytes=32
+2026-11-12T08:16:18+00:00 RUN scan_uid
+2026-11-12T08:16:18+00:00 END scan_uid rc=0 bytes=17
+2026-11-12T08:16:18+00:00 RUN scan_stage_absent
+2026-11-12T08:16:18+00:00 END scan_stage_absent rc=0 bytes=14
+2026-11-12T08:16:18+00:00 RUN scan_stage_create
+2026-11-12T08:16:19+00:00 END scan_stage_create rc=0 bytes=14
+2026-11-12T08:16:19+00:00 RUN scan_push_readelf
+2026-11-12T08:16:19+00:00 END scan_push_readelf rc=0 bytes=401
+2026-11-12T08:16:19+00:00 RUN scan_push_elf_paths.txt
+2026-11-12T08:16:19+00:00 END scan_push_elf_paths.txt rc=0 bytes=384
+2026-11-12T08:16:19+00:00 RUN scan_push_libctf-nobfd.so.0
+2026-11-12T08:16:20+00:00 END scan_push_libctf-nobfd.so.0 rc=0 bytes=414
+2026-11-12T08:16:20+00:00 RUN scan_push_libsframe.so.1
+2026-11-12T08:16:20+00:00 END scan_push_libsframe.so.1 rc=0 bytes=409
+2026-11-12T08:16:20+00:00 RUN scan_readelf_version
+2026-11-12T08:16:20+00:00 END scan_readelf_version rc=0 bytes=296
+2026-11-12T08:16:20+00:00 RUN native_prelinked_scan
+2026-11-12T08:16:21+00:00 PROGRESS	100
+2026-11-12T08:16:22+00:00 PROGRESS	200
+2026-11-12T08:16:24+00:00 PROGRESS	300
+2026-11-12T08:16:25+00:00 PROGRESS	400
+2026-11-12T08:16:26+00:00 PROGRESS	500
+2026-11-12T08:16:27+00:00 PROGRESS	600
+2026-11-12T08:16:28+00:00 PROGRESS	700
+2026-11-12T08:16:29+00:00 PROGRESS	800
+2026-11-12T08:16:30+00:00 PROGRESS	900
+2026-11-12T08:16:31+00:00 PROGRESS	1000
+2026-11-12T08:16:32+00:00 PROGRESS	1100
+2026-11-12T08:16:33+00:00 PROGRESS	1200
+2026-11-12T08:16:34+00:00 PROGRESS	1300
+2026-11-12T08:16:35+00:00 PROGRESS	1400
+2026-11-12T08:16:36+00:00 PROGRESS	1500
+2026-11-12T08:16:38+00:00 PROGRESS	1600
+2026-11-12T08:16:39+00:00 PROGRESS	1700
+2026-11-12T08:16:40+00:00 PROGRESS	1800
+2026-11-12T08:16:41+00:00 PROGRESS	1900
+2026-11-12T08:16:42+00:00 PROGRESS	2000
+2026-11-12T08:16:43+00:00 PROGRESS	2100
+2026-11-12T08:16:44+00:00 PROGRESS	2200
+2026-11-12T08:16:45+00:00 PROGRESS	2300
+2026-11-12T08:16:46+00:00 PROGRESS	2400
+2026-11-12T08:16:48+00:00 PROGRESS	2500
+2026-11-12T08:16:49+00:00 PROGRESS	2600
+2026-11-12T08:16:50+00:00 PROGRESS	2700
+2026-11-12T08:16:51+00:00 PROGRESS	2800
+2026-11-12T08:16:52+00:00 PROGRESS	2900
+2026-11-12T08:16:53+00:00 PROGRESS	3000
+2026-11-12T08:16:54+00:00 PROGRESS	3100
+2026-11-12T08:16:55+00:00 PROGRESS	3200
+2026-11-12T08:16:55+00:00 native scan complete: 418 GNU_PRELINKED paths; rc=0
+2026-11-12T08:16:55+00:00 RUN scan_stage_cleanup
+2026-11-12T08:16:55+00:00 END scan_stage_cleanup rc=0 bytes=14
+2026-11-12T08:16:55+00:00 RUN scan_root_off
+2026-11-12T08:16:55+00:00 END scan_root_off rc=0 bytes=36
+2026-11-12T08:16:55+00:00 RUN scan_sdk_uid
+2026-11-12T08:16:55+00:00 END scan_sdk_uid rc=0 bytes=20
+已结束 2026-11-12T08:16:55+00:00 状态=成功

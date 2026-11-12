@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T08:12:14+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "for d in /opt/usr/apps/com.samsung.tv.slive-daemon/lib /lib /usr/lib /prd/usr/lib /usr/lib/was-api /usr/lib/ecore_imf/modules/isf/v-1.13 /usr/lib/gstreamer-1.0 /usr/lib/pulseaudio; do if [ -d \"$d\" ]; then find \"$d\" -xdev -type f -exec grep -alF .gnu.prelink_undo {} +; fi; done; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 14160,
+  "stderr_bytes": 0
+}

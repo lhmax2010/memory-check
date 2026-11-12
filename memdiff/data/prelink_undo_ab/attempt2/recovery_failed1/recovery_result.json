@@ -1,0 +1,40 @@
+{
+  "status": "DONE",
+  "health": {
+    "uptime_s": 202,
+    "processes": {
+      "tvs-daemon": true,
+      "tv-viewer": true,
+      "avocd": true,
+      "amd": true,
+      "launchpad-loader": true,
+      "launchpad-process-pool": true,
+      "pulseaudio": true,
+      "rscmgr-service": true,
+      "acm-service": true,
+      "boot-helper-dyboost-tv": true
+    },
+    "failed_units": [
+      "com.samsung.tv.qse-daemon.service",
+      "kzram.service",
+      "org.tizen.mbr-daemon.service",
+      "security-emdaemon.service",
+      "ses-usb-installer@sda1.service",
+      "vdca-update.service"
+    ],
+    "new_failed_units": [],
+    "signature_refusal_lines": 0,
+    "healthy": true
+  },
+  "prelink_diag": {
+    "rc": 0,
+    "lines": [
+      "      3332:\tprelink checking: ok",
+      "      3332:\tprelink checking: ok"
+    ],
+    "has_ok": true,
+    "has_not_prelinked": false
+  },
+  "stage_cleaned": true,
+  "postcheck_error": null
+}

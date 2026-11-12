@@ -1,0 +1,205 @@
+################################################################
+	vd_memps v3.2 - VD Memory Usage Profiling Tool.
+################################################################
+Start_time [1332.3750]
+   PID   PPID   PGID       SC       SD       PC       PD     PEAK      RSS      PSS      USS     SWAP      GPU   GEMRSS   GEMPSS    TOTAL  OOM_ADJ   CMDLINE
+   637    636    637      364        0        4       36      488      404       42       40       36        0        0        0       78        0   /usr/bin/zone-init
+   479    484      0      492        0       12       76      580      580       92       88        0        0        0        0       92        0   sleep 5
+  2142   2096   2096      496        0       56       24      640      576       84       80       64        0        0        0      148     -900   /opt/usr/share/argot/.local/bin/tsr-bwrap --args 43 -- /opt/usr/share/argot/.local/bin/tsr --port 1
+   532   3352   3352      608        0       48      104      760      760      157      152        0        0        0        0      157     -900   vd_memps -v
+  2143   2142   2143    1,356        0        0       68    1,516    1,424      131       68       88        0        0        0      219     -900   /opt/usr/share/argot/.local/bin/tsr --port 18080 --proxy-fd 12 --exec-arg /usr/apps/com.samsung.tiz
+   404      1    404    1,004        0        0       36    1,152    1,040      113       36      112        0        0        0      225        0   /bin/bash /usr/bin/vd-pkginfo-server.sh
+  1662      1   1662    1,400        0       28       64    1,632    1,492      104       92      140        0        0        0      244   -1,000   /usr/bin/vddebugmenu
+   484      1      0    1,044        0        0      120    1,196    1,164      210      120       36        0        0        0      246        0   /bin/bash /usr/bin/pm_monitor.sh 321
+   251      1      0    1,040        4        0       32    1,236    1,076      124       32      160        0        0        0      284        0   /bin/sh /usr/bin/launchpad-process-pool.sh init
+  3352      1   3352    1,052        0       20      312    1,388    1,384      420      332        0        0        0        0      420     -900   bash -c #!/bin/sh
+# GCC / LLVM 镜像内存对比采集脚本（同一块板上分别刷两个镜�
+   197      1      0    1,896       36        8      212    2,416    2,152      236      220      224        0        0        0      460        0   /prd/usr/bin/kfactoryd
+  1335      1   1335      840        0        0      340    1,180    1,180      494      340        0        0        0        0      494     -900   [lxc monitor] /zone securezone
+   636      1    636      800        0        0      352    1,152    1,152      506      352        0        0        0        0      506        0   [lxc monitor] /zone appzone
+   858      1    858    1,736        4      128      240    2,280    2,108      381      368      180        0        0        0      561     -900   /usr/sbin/launcher-security
+  1066      1   1066    2,692      160       52      124    3,396    3,028      199      176      368        0        0        0      567     -900   /usr/bin/TAgentD
+  1279      1   1279    1,848        0       72      300    2,404    2,220      389      372      184        0        0        0      573     -400   /usr/bin/license-manager-agent
+  2096      1   2096    1,612        0      276       60    2,200    1,948      405      336      252        0        0        0      657     -900   /opt/usr/share/argot/.local/bin/tsr --sandbox-id argot --settings /opt/usr/share/argot/tsr/argot.js
+  2356      1   2356    1,584        0      232      140    2,204    1,956      427      372      248        0        0        0      675     -900   sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+  1717   1072   1717    4,400      104       28      328    5,416    4,860      402      356      556        0        0        0      958     -900   /usr/libexec/at-spi-bus-launcher
+  2218      1   2218    4,564       12       44      368    5,540    4,988      464      412      552        0        0        0    1,016     -900   /usr/bin/aifw-data-managerd
+  2419      1   2419    5,548      260        8      284    6,904    6,100      348      292      804        0        0        0    1,152     -900   /usr/bin/fw-update-watcher
+   267    251    267    3,052      180      344      376    4,336    3,952      808      720      344        0        0        0    1,152   -1,000   /usr/bin/launchpad-process-pool
+  1280      1   1280    5,320       76       20      548    6,480    5,964      657      568      516        0        0        0    1,173     -400   /usr/bin/mediacontroller
+  1064      1   1064    2,280        0      120      856    3,420    3,256    1,149      976       28        0        0        0    1,177   -1,000   /usr/lib/systemd/systemd-udevd --resolve-names=late
+  1069      1   1069    3,860        0      160      576    5,068    4,596      807      736      444        0        0        0    1,251   -1,000   /usr/bin/securestorage-server
+   220      1      0    3,448       60      108      560    4,796    4,176      733      668      616        0        0        0    1,349        0   /prd/usr/bin/buxton2d_lite -f
+   677      1    677    5,156      832      252      448    7,188    6,688      818      700      540        0        0        0    1,358     -900   /usr/bin/resource-center
+  1341   1335   1341    3,404        0        0      908    4,320    4,312    1,435      908        0        0        0        0    1,435     -900   /usr/lib/systemd/systemd
+  2227    267   2227    5,708      248       68      616    7,324    6,640      767      684      676        0        0        0    1,443     -500   /usr/apps/com.samsung.tv.cis-api-service-app/bin/cis-api-service-app `zaybxcwdveuftgsh` __AUL_TARGE
+  1053      1   1053    4,600      192      148    1,028    6,124    5,968    1,260    1,176      188        0        0        0    1,448     -900   /usr/bin/speaker-manager
+  1478      1   1478    4,844      240      208      588    6,412    5,880      903      796      556        0        0        0    1,459     -900   /usr/bin/bt-monitor
+  2619      1   2619    6,860      544       36      448    8,828    7,888      584      484      956        0        0        0    1,540     -900   /usr/apps/pvod-appfw/bin/pvodservice
+  2257      1   2257    5,780      576       32      816    7,764    7,204      946      848      604        0        0        0    1,550     -900   /usr/bin/sesd
+   280      1    280    2,384      132      104      432    4,020    3,052      596      536      968        0        0        0    1,564   -1,000   /usr/bin/fconfigd -d
+  1483      1   1483    4,976      188       32      656    6,624    5,852      811      688      796        0        0        0    1,607     -900   /usr/bin/aisctrlmgr_server -s org.tizen.AISControlManager __LAUNCH_APP_MODE__ SYNC
+  1185      1   1185    4,508      216      308      680    6,232    5,712    1,074      988      536        0        0        0    1,610   -1,000   /usr/bin/storaged
+   678      1    678    3,908      356      324      400    5,820    4,988      806      724      848        0        0        0    1,654   -1,000   /usr/bin/rscmgr-service
+   852      1    852    4,448       88      544      640    6,212    5,720    1,264    1,184      428        0        0        0    1,692   -1,000   /usr/sbin/connmand --nodnsproxy --nodaemon --noplugin vpn
+  2529      1   2529    5,748      244      328    1,392    7,712    7,712    1,805    1,720       24        0        0        0    1,829   -1,000   /usr/bin/resourced
+   258      1    258    4,444        0      344      804    6,252    5,592    1,231    1,148      632        0        0        0    1,863   -1,000   /usr/bin/security-manager
+  1814   1341   1814    4,708       88      272    1,524    7,232    6,592    1,874    1,796       24        0        0        0    1,898     -900   /usr/apps/sim/bin/AttDaemonBin
+   867      1    867    5,692      252      284      844    7,784    7,072    1,209    1,128      732        0        0        0    1,941   -1,000   /usr/sbin/net-config
+   674      1    674    3,688      140      964      560    7,804    5,352    1,577    1,524      368        0        0        0    1,945   -1,000   /usr/bin/tzdaemon
+   900    267    900    7,456      624       24      360    9,816    8,464      585      384    1,376        0        0        0    1,961        0   /usr/bin/app-defined-loader     0
+  2372      1   2372    6,972       68      128      940    8,764    8,108    1,217    1,068      752        0        0        0    1,969     -900   /usr/bin/usb-launcher-service SERVICE
+  2487    267   2487    8,612    1,088      180      552   11,576   10,432      920      732    1,056        0        0        0    1,976     -500   /usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service `zaybxcwdveuftgsh` __AUL_STAR
+  1308      1   1308    5,940      260      304    1,552    8,064    8,056    1,976    1,856       28        0        0        0    2,004     -900   /usr/bin/scenario-mgr-tv
+  1075      1   1075    5,672      272      400      904    7,868    7,248    1,381    1,304      676        0        0        0    2,057   -1,000   /usr/bin/wfd-manager
+   419    404    419    5,004    1,208      164      864    8,428    7,240    1,341    1,028      764        0        0        0    2,105        0   /usr/bin/pkginfo-server
+  1060      1   1060    3,940       84      900      608    5,980    5,532    1,623    1,508      492        0        0        0    2,115     -900   /usr/sbin/wpa_supplicant -u -t -dd -O /var/run/wpa_supplicant -F /opt/var/log/wpa_supplicant.log
+   268      1      0    3,776      556      508      848    6,332    5,688    1,432    1,356      720        0        0        0    2,152        0   /usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv
+   689      1    689    6,632      180      116    1,152    8,920    8,080    1,410    1,268      860        0        0        0    2,270     -900   /usr/bin/tvs-lite
+  1309      1   1309    6,404      624      608      488    9,192    8,124    1,351    1,096    1,068        0        0        0    2,419     -900   /usr/bin/isf
+   856      1    856    6,096      312      536      980    8,344    7,924    1,841    1,516      592        0        0        0    2,433   -1,000   /usr/bin/deviced
+  1072      1   1072    3,444        0       40    1,748    5,400    5,232    2,347    1,788      152        0        0        0    2,499     -900   /usr/lib/systemd/systemd --user
+  1180      1   1180    8,460      268      192      992   11,160    9,912    1,307    1,184    1,276        0        0        0    2,583     -400   /usr/bin/appbinary-manager
+  1742      1   1742    7,700      128      192      940    9,980    8,960    1,698    1,132    1,024        0        0        0    2,722     -900   /usr/bin/was_background_update
+  1323      1   1323    8,888      200      192    1,540   12,312   10,820    1,981    1,732    1,008        0        0        0    2,989     -900   /usr/sbin/sdbd
+  1477      1   1477    5,656      208    1,304      944    8,640    8,112    2,332    2,248      820        0        0        0    3,152     -900   /usr/bin/allshare-svc
+  3816    267   3816   10,328      416      352    2,632   13,744   13,728    3,171    2,984       24        0        0        0    3,195      240   /opt/usr/apps/com.samsung.tv.termsclient/bin/termsclient `zaybxcwdveuftgsh` __ACTIVATION_TYPE__ LQA
+  2299      1   2299    5,996        0    1,004      848    9,112    7,848    2,061    1,852    1,236        0        0        0    3,297     -400   /usr/bin/key-manager
+  2282      1   2282    9,024      304      860    1,596   11,804   11,784    2,728    2,456      600        0        0        0    3,328     -900   /usr/bin/pushd
+  1164      1   1163    4,732      544    1,548      416    8,492    7,240    2,164    1,964    1,256        0        0        0    3,420   -1,000   /usr/bin/pulseaudio
+  2281      1   2281    9,812      620      476    1,804   13,168   12,712    2,760    2,280      680        0        0        0    3,440     -900   /opt/usr/apps/com.samsung.tv.pisa-service/bin/pisa-service
+  2618      1   2618    7,212       60      556    1,080   10,364    8,908    2,011    1,636    1,480        0        0        0    3,491     -900   /usr/apps/org.tizen.webserver/bin/webserver
+  1082      1   1082    8,988      404      732    1,432   12,632   11,556    2,394    2,164    1,120        0        0        0    3,514     -900   /usr/bin/p2p-asm
+  1750    267   1750   11,324      436      320    1,628   15,128   13,708    2,314    1,948    1,436        0        0        0    3,750     -500   /opt/usr/apps/com.samsung.tv.contentservicemanager/bin/contentservicemanager `zaybxcwdveuftgsh` __A
+     1      0      0    3,596       80       40    2,708    6,840    6,424    3,346    2,748      436        0        0        0    3,782     -900   /usr/lib/systemd/systemd
+  1056      1   1056    9,792    1,508      664    1,784   14,784   13,748    2,830    2,448    1,100        0        0        0    3,930     -900   /usr/bin/tizen-watcherd
+  1070      1   1070   11,168      236      776    1,336   15,716   13,516    2,543    2,112    1,696        0        0        0    4,239     -900   /usr/bin/psa-init
+  1894    267   1894   12,036      476      492    1,388   16,504   14,392    2,407    1,880    1,880        0        0        0    4,287      240   /usr/apps/comss/bin/comss `zaybxcwdveuftgsh` __AUL_TARGET_UID__ KAAAAAEEAAATAAAAX19BVUxfVEFSR0VUX1V
+   209      1    209    3,608        0      172    3,776    7,992    7,556    3,979    3,948      404        0        0        0    4,383   -1,000   /usr/bin/cynara
+  1058      1   1058   11,192      360      836    2,012   15,372   14,400    3,216    2,848    1,168        0        0        0    4,384   -1,000   /usr/sbin/vd-net-config
+  1743    267   1743   10,736      288      724    1,232   15,052   12,980    2,324    1,956    2,072        0        0        0    4,396      240   /opt/usr/apps/com.samsung.tv.multiprofile-service/bin/multiprofile-serviceapp `zaybxcwdveuftgsh` __
+   218      1      0    4,904      368      340    2,048    9,536    7,660    2,501    2,388    1,896        0        0        0    4,397   -1,000   /usr/sbin/buxton2d -f
+  1488      1   1488   10,632      440      120    1,496   15,588   12,688    2,061    1,616    2,376        0        0        0    4,437   -1,000   /usr/bin/register-device
+  1490      1   1490   10,640      688    1,152    1,132   15,084   13,612    2,991    2,284    1,504        0        0        0    4,495     -900   /opt/usr/apps/com.samsung.tv.slive-daemon/bin/slive-provider-daemon
+   337      1    337    6,956      972    1,416    3,028   12,372   12,372    4,627    4,444       28        0        0        0    4,655     -400   /usr/apps/org.tizen.acm-service/bin/acm-service
+  3138      1   3138   10,228      252    1,440    2,792   14,712   14,712    4,645    4,232       28        0        0        0    4,673   -1,000   /usr/bin/SWUAutoUpgrade
+  2620      1   2620   10,568      376    1,168    1,580   15,104   13,692    3,223    2,748    1,568        0        0        0    4,791     -900   /usr/bin/remote-server
+   720      1    720   10,148      348    1,528    1,548   14,892   13,572    3,469    3,076    1,344        0        0        0    4,813     -900   /opt/usr/apps/com.samsung.tv.pisa-service/bin/adagent-service
+  1202      1   1202    9,708    1,392    1,792    1,944   15,556   14,836    4,268    3,736      804        0        0        0    5,072   -1,000   /usr/bin/esd
+  2289    267   2289    8,292      804    2,440    1,068   13,960   12,604    3,805    3,508    1,372        0        0        0    5,177     -500   /opt/usr/apps/com.samsung.tizen.smartthings-thing/bin/smartthings-thing `zaybxcwdveuftgsh` __K_RPC_
+  1049      1   1049    9,148      228    1,484    2,496   13,920   13,356    4,163    3,980    1,088        0        0        0    5,251   -1,000   /usr/bin/security-solution-daemon
+   733      1    733   14,880    1,752      548    1,460   21,288   18,640    2,741    2,008    2,668        0        0        0    5,409   -1,000   /usr/bin/tvctx-manager /etc/tvctx-manager/appctx-config.json /etc/tvctx-manager/launcher
+  2617      1   2617   11,908      496    1,320    1,668   17,136   15,392    3,734    2,988    1,784        0        0        0    5,518   -1,000   /usr/apps/org.tizen.webappservice/bin/webappservice
+   898      1    898   12,528      948    1,624    1,368   18,332   16,468    3,508    2,992    2,040        0        0        0    5,548     -900   /usr/bin/TIFSDaemon
+  1485      1   1485   12,228      352    1,604    1,364   17,512   15,548    3,661    2,968    1,972        0        0        0    5,633     -900   /opt/usr/apps/org.tizen.dseal/bin/dseal
+  2258    267   2258   12,472      516    1,512    2,244   18,140   16,744    4,229    3,756    1,440        0        0        0    5,669     -500   /opt/usr/apps/org.tizen.easysetup-daemon/bin/org.tizen.easysetup-daemon `zaybxcwdveuftgsh` __AUL_TA
+  1493      1   1493   13,084      456      704    2,456   18,824   16,700    3,756    3,160    2,152        0        0        0    5,908     -900   /usr/bin/source-service
+  1977      1   1977   12,684      920    2,280      804   18,724   16,688    4,177    3,084    2,060        0        0        0    6,237     -900   /opt/usr/apps/com.samsung.tv.slive-daemon/bin/bms-service
+   698      1    698    9,688    1,960    1,940    2,320   17,392   15,908    4,930    4,260    1,360        0        0        0    6,290   -1,000   /usr/bin/amd
+  2371    267   2371   11,308      864    1,296    2,000   17,896   15,468    3,998    3,296    2,460        0        0        0    6,458   -1,000   /opt/usr/apps/org.tizen.ssoservice/bin/sso-service `zaybxcwdveuftgsh` __AUL_TARGET_UID__ KAAAAAEEAA
+   758      1    743    7,092    1,104    1,892    3,356   14,652   13,444    5,820    5,248    1,248        0        0        0    7,068   -1,000   /usr/bin/avocd -d
+   832      1    832   15,928      644    1,092    2,780   22,904   20,444    4,729    3,872    2,556        0        0        0    7,285     -900   /usr/bin/common-daemon-basic-monitor
+   945    267    945   16,400    1,112       56      968   23,828   18,536    2,653    1,024    4,752      272        0        0    7,677        0   /usr/bin/launchpad-loader     0
+   951    267    951   14,340    4,888    1,488       20   26,116   20,736    5,645    1,508    2,116        0        0        0    7,761        0   /usr/bin/dotnet-hydra-loader 3 0 1 NWVjM2U3YjE2OWUzMzc0ZWVkODU4OTQ2NzBkODg4MmMpAAAAAQQAAAoAAAAtLWFw
+  1489      1   1489   17,660      852      268    3,192   24,512   21,972    5,461    3,460    2,760        0        0        0    8,221     -900   /usr/bin/settings-service
+   850      1    850   11,772      456    2,688    1,380   20,608   16,296    4,596    4,068    3,844        0        0        0    8,440     -900   /usr/bin/connectivity-common-daemon
+   574    267    574   16,568      672      404    2,312   25,424   19,956    4,235    2,716    4,936      268        0        0    9,439      360   /usr/apps/org.tizen.volume-app/bin/volume-app `zaybxcwdveuftgsh` __AUL_APPID__ MwAAAAEEAAAOAAAAX19B
+   786      1    786    7,240      516    6,808      848   17,220   15,412    7,807    7,656    1,824        0        0        0    9,631   -1,000   /usr/bin/bt-service
+   952    267    952   17,428    1,752    3,220    5,652   29,420   28,052    9,936    8,872    1,424        0        0        0   11,360     -500   /opt/usr/apps/com.samsung.tizen.contextengine/bin/contextengine `zaybxcwdveuftgsh` __K_RPC_PORT NAA
+  2147   2143   2143    7,352      156    5,944    2,304   19,232   15,756    8,702    8,248    3,484        0        0        0   12,186     -900   /usr/apps/com.samsung.tizen.argot/bin/argot daemon
+   562    267    562   17,900    1,840    2,140    1,972   31,096   23,852    6,071    4,112    6,628      860        0        0   13,559   -1,000   /usr/apps/org.tizen.tv-viewer/bin/tv-viewer `zaybxcwdveuftgsh` cmd GQAAAAEEAAAEAAAAY21kAAUAAABpbml0
+  1482      1   1482   20,804      676    4,384    6,156   32,396   32,020   12,572   10,540    2,404        0        0        0   14,976     -900   /bin/issue_report_agent
+   697      1    688   11,716    1,040    6,852    4,816   27,564   24,424   12,727   11,668    3,036        0        4        4   15,767   -1,000   /usr/bin/tvs-daemon
+  1065    267   1065   10,352    2,888    5,776    6,464   33,204   25,480   13,310   12,240    3,596        0        0        0   16,906     -500   /opt/usr/apps/com.samsung.tizen.perception-engine/bin/com.samsung.tizen.perception-engine `zaybxcwd
+  2718    951   2718   13,104    7,348    2,176    5,308   34,360   27,936   12,783    7,484    4,712        0        0        0   17,495        0   /usr/bin/dotnet-hydra-loader candidate
+  1395    267   1395   18,400    1,276   10,992    7,184   41,128   37,852   19,482   18,176    2,636        0        0        0   22,118      200   /opt/usr/apps/com.samsung.tv.home.mainhub/bin/home-mainhub `zaybxcwdveuftgsh` __APP_SVC_OP_TYPE__ U
+   250      1      0   15,272      720    5,296   11,712   38,116   33,000   18,286   17,008    5,204    1,892    8,116    8,112   33,498   -1,000   /usr/bin/enlightenment
+   992    951    992   32,956    9,888    2,740   20,700   77,788   66,284   32,712   23,440    3,440      996        4        4   37,152      330   /usr/apps/org.tizen.menu/bin/org.tizen.menu.dll
+   401    267    401   24,248    1,148   13,600   29,328   71,768   68,324   45,729   42,928       24      224        0        0   45,977        0   /usr/bin/wrt-loader     0
+   458    267    458   29,300    1,676   16,992   23,392   97,920   71,360   45,120   40,384       24   23,508      692      688   69,344      200   team:com.samsung.tv.native-home
+
+  TOTAL:    S(CODE)    S(DATA)    P(CODE)    P(DATA)        RSS        PSS        USS     GEMRSS     GEMPSS    GPU(DEVICE)       SWAP
+            893,224     71,828    141,872    235,064  1,341,988    442,695    376,936      8,816      8,808         28,020    134,672 
+
+################### System stats #####################
+                   MemTotal:  1563 MB ( 1,601,132 kB)
+                    MemFree:   837 MB (   857,468 kB)
+                   MemUsed*:   726 MB (   743,664 kB)
+               MemAvailable:  1089 MB ( 1,115,400 kB)
+                    Buffers:     3 MB (     3,132 kB)
+                     Cached:   279 MB (   286,492 kB)
+                 SwapCached:     0 MB (       524 kB)
+                     Active:   405 MB (   414,980 kB)
+                   Inactive:    77 MB (    79,480 kB)
+               Active(anon):   211 MB (   216,176 kB)
+             Inactive(anon):     0 MB (       604 kB)
+               Active(file):   194 MB (   198,804 kB)
+             Inactive(file):    77 MB (    78,876 kB)
+                Unevictable:     7 MB (     7,804 kB)
+                    Mlocked:     7 MB (     7,804 kB)
+                  HighTotal:  1013 MB ( 1,037,568 kB)
+                   HighFree:   455 MB (   466,672 kB)
+                   LowTotal:   550 MB (   563,564 kB)
+                    LowFree:   381 MB (   390,796 kB)
+                  SwapTotal:  1016 MB ( 1,040,464 kB)
+                   SwapFree:   885 MB (   906,716 kB)
+                      Dirty:     0 MB (       616 kB)
+                  Writeback:     0 MB (         0 kB)
+                  AnonPages:   207 MB (   212,188 kB)
+                     Mapped:   231 MB (   237,284 kB)
+                      Shmem:     5 MB (     5,788 kB)
+               KReclaimable:    15 MB (    15,812 kB)
+                       Slab:    65 MB (    67,000 kB)
+               SReclaimable:    15 MB (    15,812 kB)
+                 SUnreclaim:    49 MB (    51,188 kB)
+                KernelStack:     5 MB (     5,984 kB)
+            On-demandKStack:     0 MB (       180 kB)
+                  PageTable:    17 MB (    17,824 kB)
+               NFS_Unstable:     0 MB (         0 kB)
+                     Bounce:     0 MB (         0 kB)
+               WritebackTmp:     0 MB (         0 kB)
+                CommitLimit:  1797 MB ( 1,841,028 kB)
+               Committed_AS:  6343 MB ( 6,496,192 kB)
+                     Percpu:     0 MB (     1,008 kB)
+               VmallocTotal:   296 MB (   303,104 kB)
+             VmallocUsedPhy:    55 MB (    56,800 kB)
+                                      ( ModulesUsedPhy   24232kB   VMallocPhy   26404kB KernelStackPhy    6164kB )
+                VmallocUsed:   122 MB (   125,728 kB)
+                                      (   vm_map_ram    8192kB      ioremap   47548kB      vmalloc   63888kB )
+                                      (  ModulesUsed   25184kB  VmallocUsed   38608kB  KernelStack      96kB  VmallcoUsed   38608kB )
+                                      (         vmap     144kB      usermap       8kB       vpages    8228kB dma-coherent    2880kB   overlapped    8236kB )
+        (Vmalloc RAM Usage):    25 MB (    26,404 kB)
+                 VMUnpurged:    26 MB (    26,680 kB)
+                  VMFreeing:     0 MB (         0 kB)
+                VmallocPeak:   226 MB (   231,928 kB)
+               VmallocChunk:    98 MB (   100,456 kB)
+               ModulesTotal:    28 MB (    28,672 kB)
+                ModulesUsed:    24 MB (    25,184 kB)
+               ModulesChunk:     3 MB (     3,424 kB)
+                ModulesPeak:    24 MB (    25,216 kB)
+                   CMATotal:   304 MB (   311,296 kB)
+                    CMAFree:    85 MB (    87,316 kB)
+                CMAUsed-DMA:     2 MB (     2,724 kB)
+               CMAUsed-USER:   216 MB (   221,256 kB)
+                      zram0:    33 MB (    34,232 kB) [ OrigDataSize 131888 kB ComprDataSize 31220 kB MemUsedTotal 34232 kB IncompressibleTotal 0 kB  ]
+              BGRecomp Total:    30 MB (    30,894 kB) [ OrigDataSize(Compressed) 35354 kB RecomprDataSize 30894 kB   SavedTotal 4460 kB  ]
+                    GemTotal:     8 MB (     8,808 kB)
+	(Contiguous        :      12 kB)
+	(Non-contiguous    :   8,796 kB)
+                   GPUTotal:    27 MB (    28,020 kB)
+	   (GPU :   28,020 kB)
+ 
+######################################################
+########## Summarized Result (Values in MB) ##########
+                   MemTotal:  1563 MB ( 1,601,132 kB)
+                    MemUsed:   726 MB (   743,664 kB)
+                        PSS:   442 MB (   453,583 kB)
+           SWAP(Compressed):    33 MB (    34,232 kB)
+                   GemTotal:     8 MB (     8,808 kB)
+                   GPUTotal:    27 MB (    28,020 kB)
+                KernelTotal:   139 MB (   142,396 kB)
+              Vmalloc Other:    13 MB (    14,292 kB)
+                        DMA:     2 MB (     2,724 kB)
+                 Cached Mem:    51 MB (    52,864 kB)
+#######################################################
+End_time [1332.6905]

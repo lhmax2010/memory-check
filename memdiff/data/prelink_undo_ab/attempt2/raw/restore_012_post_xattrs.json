@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T09:59:46+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "/root/prelink_ab_tools/getfattr -d -m - -e hex '/usr/bin/fastinit'; __ab_rc=$?; printf '\\n__AB_RC__%d\\n' \"$__ab_rc\""
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 122,
+  "stderr_bytes": 0
+}

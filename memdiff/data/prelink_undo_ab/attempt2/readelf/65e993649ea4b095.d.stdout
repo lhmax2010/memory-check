@@ -1,0 +1,36 @@
+
+Dynamic section at offset 0x3708c contains 33 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [librt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libpthread.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_serialization.so.1.83.0]
+ 0x0000000c (INIT)                       0x46824344
+ 0x0000000d (FINI)                       0x46842c00
+ 0x00000019 (INIT_ARRAY)                 0x4684a124
+ 0x0000001b (INIT_ARRAYSZ)               72 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x4684a16c
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x00000004 (HASH)                       0x46813118
+ 0x6ffffef5 (GNU_HASH)                   0x46814244
+ 0x00000005 (STRTAB)                     0x468173c8
+ 0x00000006 (SYMTAB)                     0x46814fc8
+ 0x0000000a (STRSZ)                      38423 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x4684b1a4
+ 0x00000002 (PLTRELSZ)                   1352 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x46823dfc
+ 0x00000007 (RELA)                       0x46820f70
+ 0x00000008 (RELASZ)                     11916 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x46820e60
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x468209e0
+ 0x6ffffff9 (RELACOUNT)                  656
+ 0x6ffffdf8 (CHECKSUM)                   0x4b747c56
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-09-30T19:55:46
+ 0x00000000 (NULL)                       0x0

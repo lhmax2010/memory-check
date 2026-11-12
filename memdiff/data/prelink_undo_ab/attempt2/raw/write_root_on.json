@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-12T09:59:22+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "root",
+    "on"
+  ],
+  "transport_rc": 0,
+  "stdout_bytes": 32,
+  "stderr_bytes": 0
+}

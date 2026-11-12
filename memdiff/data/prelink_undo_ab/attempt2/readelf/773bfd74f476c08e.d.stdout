@@ -1,0 +1,104 @@
+
+Dynamic section at offset 0xe21f8 contains 101 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-system-settings.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libppi-factory-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libfbclient.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libavoc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libnvram.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-operation-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libaul-extension.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libCLogger.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwas_db_api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf-internal-keys-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libfkp.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsmart-deadlock.so]
+ 0x00000001 (NEEDED)                     Shared library: [libvd-capi-network.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libnetwork_test.so.0.1]
+ 0x00000001 (NEEDED)                     Shared library: [libbt-settings-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-bluetooth-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-bluetooth.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-sensor.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-connection.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libIUARTService.so]
+ 0x00000001 (NEEDED)                     Shared library: [libqrencode.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libpower-control-diagnosis.so]
+ 0x00000001 (NEEDED)                     Shared library: [libvideoenhance.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libjson-glib-1.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libjson-c.so.5]
+ 0x00000001 (NEEDED)                     Shared library: [libapputil.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libaudio-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libfactory.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libEM_REE.so]
+ 0x00000001 (NEEDED)                     Shared library: [libvd-win-util.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libaul.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbundle.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpng16.so.16]
+ 0x00000001 (NEEDED)                     Shared library: [libecs-sec-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libim-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libfan-heat-control.so]
+ 0x00000001 (NEEDED)                     Shared library: [librotator.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdisplay-panel.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsoc-ir.so]
+ 0x00000001 (NEEDED)                     Shared library: [libhdmi-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtuner-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbroadcast-diagnosis.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpba-inspection.so]
+ 0x00000001 (NEEDED)                     Shared library: [librobot-projector.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libbattery-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblink.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libSoftwareUpgradeAPI.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-usbdevice.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libdeviced.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libep-vconf-internal-keys-signage.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libfactory-interface.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libfconfig.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgooglecast-platform-tv.so]
+ 0x00000001 (NEEDED)                     Shared library: [libQSysLink.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-display-rotator.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libprojector.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libkey-lock-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsdm.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libep-customapp-setting.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcore-light-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-selfdiagframework-tv.so]
+ 0x00000001 (NEEDED)                     Shared library: [libvideo-misc.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcamera-control.so]
+ 0x00000001 (NEEDED)                     Shared library: [libproidiom.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtest-oqc-tv-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtouch-interactive-api.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000001d (RUNPATH)                    Library runpath: [/usr/lib:/hal/lib]
+ 0x0000000c (INIT)                       0x39bf4
+ 0x0000000d (FINI)                       0xbb748
+ 0x00000019 (INIT_ARRAY)                 0xf2000
+ 0x0000001b (INIT_ARRAYSZ)               8 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0xf2008
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x101ac
+ 0x00000005 (STRTAB)                     0x1c314
+ 0x00000006 (SYMTAB)                     0x13b74
+ 0x0000000a (STRSZ)                      110428 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0xf3000
+ 0x00000002 (PLTRELSZ)                   5392 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x386e4
+ 0x00000011 (REL)                        0x38654
+ 0x00000012 (RELSZ)                      144 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x38364
+ 0x6fffffff (VERNEEDNUM)                 13
+ 0x6ffffff0 (VERSYM)                     0x37270
+ 0x00000000 (NULL)                       0x0
