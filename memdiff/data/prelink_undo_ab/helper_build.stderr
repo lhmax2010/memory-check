@@ -1,0 +1,10 @@
+Using built-in specs.
+COLLECT_GCC=/home/linhao/lss/memory_check/round3e_gbs_work/gcc_root/local/BUILD-ROOTS/scratch.armv7l.0/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/home/linhao/lss/memory_check/round3e_gbs_work/gcc_root/local/BUILD-ROOTS/scratch.armv7l.0/usr/bin/../lib/gcc/armv7l-tizen-linux-gnueabi/14.2.0/lto-wrapper
+Target: armv7l-tizen-linux-gnueabi
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib --libexecdir=/usr/lib --enable-languages=c,c++,fortran --enable-checking=release --disable-libssp --disable-bootstrap --disable-libvtv --enable-plugin --disable-libgcj --with-slibdir=/usr/lib --with-system-zlib --with-sysroot=/ --enable-__cxa_atexit --enable-libstdcxx-allocator=new --enable-version-specific-runtime-libs --enable-linker-build-id --without-system-libunwind --enable-threads=posix --disable-multilib --disable-cet --enable-lto --enable-libcc1 --enable-libgfortran --with-arch=armv7-a --with-tune=cortex-a8 --disable-sjlj-exceptions --with-bugurl=http://bugs.tizen.org/ --with-pkgversion='Tizen GCC 14.2.0 20240801 4.30' --target=armv7l-tizen-linux-gnueabi --host=armv7l-tizen-linux-gnueabi --build=armv7l-tizen-linux-gnueabi
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 14.2.0 (Tizen GCC 14.2.0 20240801 4.30) 
+COLLECT_GCC_OPTIONS='-v' '-O2' '-o' '/tmp/prelink_undo_xattr_helper'  '-mtune=cortex-a8' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a' '-march=armv7-a' '-dumpdir' '/tmp/prelink_undo_xattr_helper-'
+ /home/linhao/lss/memory_check/round3e_gbs_work/gcc_root/local/BUILD-ROOTS/scratch.armv7l.0/usr/bin/../lib/gcc/armv7l-tizen-linux-gnueabi/14.2.0/cc1 -quiet -v -iprefix /home/linhao/lss/memory_check/round3e_gbs_work/gcc_root/local/BUILD-ROOTS/scratch.armv7l.0/usr/bin/../lib/gcc/armv7l-tizen-linux-gnueabi/14.2.0/ memdiff/data/prelink_undo_ab/xattr_helper.c -quiet -dumpdir /tmp/prelink_undo_xattr_helper- -dumpbase xattr_helper.c -dumpbase-ext .c -mtune=cortex-a8 -mtls-dialect=gnu -marm -mlibarch=armv7-a -march=armv7-a -O2 -version -o /tmp/ccbEJNVm.s

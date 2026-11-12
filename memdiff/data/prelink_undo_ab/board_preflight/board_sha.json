@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-12T07:18:25+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "-s",
+    "192.168.108.26",
+    "shell",
+    "sha256sum /usr/bin/tvs-daemon"
+  ],
+  "rc": 0
+}

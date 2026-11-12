@@ -1,0 +1,4 @@
+2026-11-12T07:18:25+00:00 connect 192.168.108.26
+2026-11-12T07:18:25+00:00 identity passed, checking tvs-daemon ELF without board modification
+2026-11-12T07:18:25+00:00 preflight PASS
+已结束 2026-11-12T07:18:25+00:00 状态=成功

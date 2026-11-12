@@ -498,3 +498,11 @@ systemd 实例：新 `nopie_capture_instances.sh` 为未来普查记录每个进
 TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpInternal.so` 唯一副本为 `/opt/usr/apps/Ddrm/fkp/lib/libfkpInternal.so`，由 `libfkp.so.0.1.0` 引用；该目录不在原 `--ld-library-path` 或 8 行 prelink.conf。`libcamera-control.so` 的保存路径 `/hal/lib` 也在两者之外。19 个目标里 8 个没有本地 ELF 副本；有副本的 11 个目标中仅 TIFSDaemon 找到上述目录外库。证据 `dependency_edges.tsv`、`outside_ld_path.tsv`、`missing_copies.tsv`。补 FKP 目录、再补 HAL 目录及 prelink.conf 的五组隔离试验均未改动 TIFSDaemon，虽然命令返回 0，实际先报保存根缺 `libfactory-interface.so`，故不能判断补目录是否足够或是否需同时更新配置；证据 `tifs_interp_trials.tsv` 与对应原始日志。
 
 挂账：只凭不完整的 GCC ELF 副本、推定链接和缺少 VD 私有 `--ignore-soname` 的上游工具，不能证明与 VD 出镜像工具逐字节一致；其余 8 个缺副本目标的依赖、TIFSDaemon 完整根下的预链接结果未确定。需要内网提供完整 GCC 根或缺失的实际文件及 VD prelink/vdprelink 对应源码/补丁，后续由用户和 Claude 决定；本轮未访问开发板。仅推送本轮报告、数据与状态新增小节到 `lhmax2010/memory-check`，不带 TPMS 工作区已有未提交改动。
+
+### GCC PERF 板上预链接撤销 A/B：准备阶段停止（2026-11-12）
+
+计划与进度：用户确认 IP `192.168.108.26`，并将 tvs-daemon 门禁更正为 `GNU_LIBLIST + .gnu.prelink_undo`。身份、BUILD_ID、板上/本机 SHA256、readelf 标记均通过；本轮板上 `BUILD_ID=T-KSU2EJAKUC-0101-PERF-202610010416`。八个 prelink.conf 目录只读筛出 421 行、去重 419 个带 `.gnu.prelink_undo` 字节串的候选文件，尚未逐 ELF 正式核对。证据 `memdiff/data/prelink_undo_ab/preflight.json`、`board_prelink_candidates.txt`，报告 `memdiff/reports/prelink_undo_ab.md`。
+
+停止条件：板上缺 `getfattr/setfattr` 等通用扩展属性工具；从官方 Tizen Base 临时提取的工具在 `/opt/usr` 暂存目录执行时被拒绝（直接执行 126，经动态加载器 127）。无法满足“全部扩展属性可备份、可恢复才改写”的硬条件，故实际修改程序/库数均为 0，三个状态的开机和内存测量均未执行；没有收益数据。证据 `board_xattr_tools.stdout`、`attr_tool_probe.stdout`、`attr_tool_probe.stderr`。旧 GCC 副本的本机 `prelink -u` 成功不替代板上文件属性门禁。
+
+恢复核对：仅曾推入两份临时属性工具，现已删除，暂存目录不存在；板上系统 ELF 未修改且 tvs-daemon SHA256 不变；未重启，boot ID 不变；`sdb root off` 后 UID 5001。证据 `board_cleanup.stdout`、`post_cleanup_identity.stdout`。挂账：需有板上实际可执行的完整 xattr 备份/恢复工具，或能逐文件证明并恢复全部原属性的等效方案，才可重新开展实验。

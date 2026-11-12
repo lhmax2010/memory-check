@@ -1,0 +1,30 @@
+readelf=getfattr=setfattr=getcap=/usr/sbin/getcap
+setcap=/usr/sbin/setcap
+chsmack=/usr/bin/chsmack
+findmnt=/usr/bin/findmnt
+stat=/usr/bin/stat
+sha256sum=/usr/bin/sha256sum
+__CONF__
+-l /opt/usr/apps/com.samsung.tv.slive-daemon/lib
+-l /lib
+-l /usr/lib
+-l /prd/usr/lib
+-l /usr/lib/was-api
+-l /usr/lib/ecore_imf/modules/isf/v-1.13
+-l /usr/lib/gstreamer-1.0
+-l /usr/lib/pulseaudio
+__DF__
+Filesystem         1024-blocks      Used Available Capacity Mounted on
+/dev/mmcblk0p21        3986176   1015564   2970612      26% /opt
+/dev/mmcblk0p21        3986176   1015564   2970612      26% /opt
+__MOUNTS__
+/dev/root /.org_rootfs erofs ro,relatime,user_xattr,acl,cache_strategy=disabled 0 0
+/dev/dm-3 /.org_rootfs/prd erofs ro,relatime,user_xattr,acl,cache_strategy=disabled 0 0
+/dev/mmcblk0p21 /.org_rootfs/opt vdfs rw,noatime,dncs 0 0
+overlay / overlay rw,relatime,lowerdir=/,upperdir=/opt/.overlay/platform/upperdir,workdir=/opt/.overlay/platform/workdir 0 0
+overlay /factory_peq overlay rw,relatime,lowerdir=/factory_peq,upperdir=/opt/.overlay/factory_peq/upperdir,workdir=/opt/.overlay/factory_peq/workdir 0 0
+overlay /prd overlay rw,relatime,lowerdir=/prd,upperdir=/opt/.overlay/prd/upperdir,workdir=/opt/.overlay/prd/workdir 0 0
+/dev/mmcblk0p20 /mnt/systemrw vdfs rw,noatime,dncs 0 0
+/dev/mmcblk0p21 /opt vdfs rw,noatime,dncs 0 0
+/dev/mmcblk0p17 /mnt/drm vdfs rw,relatime,dncs 0 0
+/dev/mmcblk0p21 /opt/usr/home/owner/content vdfs rw,noatime,dncs 0 0

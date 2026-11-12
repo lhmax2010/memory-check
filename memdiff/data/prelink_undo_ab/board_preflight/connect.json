@@ -1,0 +1,9 @@
+{
+  "time": "2026-11-12T07:18:25+00:00",
+  "argv": [
+    "/home/linhao/tizen-studio/tools/sdb",
+    "connect",
+    "192.168.108.26"
+  ],
+  "rc": 0
+}

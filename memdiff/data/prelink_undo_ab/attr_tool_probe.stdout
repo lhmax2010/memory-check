@@ -1,0 +1,4 @@
+/bin/sh: /opt/usr/tmp_prelink_undo_ab_20261112/getfattr: Operation not permitted
+GETFATTR_RC=126
+/bin/sh: /opt/usr/tmp_prelink_undo_ab_20261112/setfattr: Operation not permitted
+SETFATTR_RC=126

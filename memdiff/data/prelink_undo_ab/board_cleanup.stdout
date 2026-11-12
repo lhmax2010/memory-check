@@ -1,0 +1,7 @@
+BOOT_ID=97c290b7-727f-4055-acbb-525ae5c7e134
+TVS_SHA=6e4c83d344dcb256c73d1b72a88c7273f179311d1ca0b85548a027345b20954e  /usr/bin/tvs-daemon
+ROOT_UID=0
+ATTR_TOOL_DIR_BEFORE=/opt/usr/tmp_prelink_undo_ab_20261112 2
+/opt/usr/tmp_prelink_undo_ab_20261112/getfattr 18192
+/opt/usr/tmp_prelink_undo_ab_20261112/setfattr 13928
+CLEANUP_RC=0NO_STAGE_RC=0
