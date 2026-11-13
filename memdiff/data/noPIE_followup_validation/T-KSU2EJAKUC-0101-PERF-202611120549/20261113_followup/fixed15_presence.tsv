@@ -1,0 +1,16 @@
+exe	GCC1	GCC2	LLVM31	LLVM32	noPIE1	noPIE2
+/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	1	1	1	1	1	1
+/usr/apps/com.samsung.tv.home-service/bin/com.samsung.tv.home-service	1	1	1	1	1	1
+/usr/apps/org.tizen.acm-service/bin/acm-service	1	1	0	0	0	0
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	1	1	1	1	1	1
+/usr/bin/TAgentD	1	1	1	1	1	1
+/usr/bin/TIFSDaemon	1	1	1	1	1	1
+/usr/bin/amd	1	1	1	1	1	1
+/usr/bin/app-defined-loader	1	1	1	1	1	1
+/usr/bin/avocd	1	1	1	1	1	1
+/usr/bin/launchpad-loader	1	1	1	1	1	1
+/usr/bin/launchpad-process-pool	1	1	1	1	1	1
+/usr/bin/pulseaudio	1	1	1	1	1	1
+/usr/bin/rscmgr-service	1	1	1	1	1	1
+/usr/bin/tvs-daemon	1	1	1	1	1	1
+/usr/bin/tzdaemon	1	1	1	1	1	1

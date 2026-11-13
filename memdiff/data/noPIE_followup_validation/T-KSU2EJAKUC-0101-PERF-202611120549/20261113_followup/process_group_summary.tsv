@@ -1,0 +1,7 @@
+boot	process_count	strict_common_identities	all_Pss_SwapPss_kB	strict_common_Pss_SwapPss_kB	fixed15_Pss_SwapPss_kB	fixed15_instances	fixed15_paths_present
+GCC1	324	94	572599.0	515309.0	74668.0	15	15
+GCC2	321	94	554891.0	502846.0	74496.0	15	15
+LLVM31	315	94	557390.0	518574.0	85594.0	14	14
+LLVM32	313	94	548902.0	511505.0	85688.0	14	14
+noPIE1	106	94	540855.0	489377.0	69422.0	14	14
+noPIE2	105	94	539875.0	488412.0	69358.0	14	14

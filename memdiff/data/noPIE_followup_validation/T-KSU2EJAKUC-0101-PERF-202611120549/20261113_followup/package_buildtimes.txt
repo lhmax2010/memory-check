@@ -1,0 +1,8 @@
+glibc	2.40-1.99	0
+package clang is not installed
+package llvm is not installed
+package prelink is not installed
+package vdprelink is not installed
+tvs-api	0.5.18-1	0
+tvs-api-native	0.4.0-1	0
+factory-service	9.0.01-0	0

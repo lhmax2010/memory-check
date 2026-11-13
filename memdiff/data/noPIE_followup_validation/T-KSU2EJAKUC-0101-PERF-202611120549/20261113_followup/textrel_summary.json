@@ -1,0 +1,17 @@
+{
+  "noPIE": {
+    "scanned": 1385,
+    "parse_ok": 1385,
+    "textrel": 1
+  },
+  "GCC": {
+    "scanned": 1463,
+    "parse_ok": 1463,
+    "textrel": 1
+  },
+  "LLVM3": {
+    "scanned": 1403,
+    "parse_ok": 1403,
+    "textrel": 1
+  }
+}

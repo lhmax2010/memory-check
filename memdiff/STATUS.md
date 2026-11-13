@@ -566,3 +566,12 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 已闭合：19 个目标均存在且为 EXEC，18 个同时带 GNU_LIBLIST 与 `.gnu.prelink_undo`；TIFSDaemon 无标记。419 个库候选中交叉 readelf 确认 418 个带预链接标记；`LD_DEBUG=libs /usr/bin/pulseaudio --version` 打印 `prelink checking: ok`。两次采集分别有 315/314 个完整 PID、各 6 个退出或不完整 PID，拉回 ELF 1,384/1,385 个且 SHA 全匹配，root off 后 UID=5001。新镜像的 410 库 `r--+rw-` 私脏：15 程序组 5,428/5,216 KiB，其余进程 67,808/67,108 KiB。乙组固定 62 库 r-x Pss 6,132/6,172 KiB；13 对象加载器节 r-x 驻留两次均 596.417 KiB。跨镜像差异不单独归因预链接，详见 `memdiff/reports/noPIE_prelink_validation.md`、`memdiff/data/noPIE_prelink_validation/{first_part_summary.json,three_image_comparison.tsv,loader13_comparison.tsv}`。
 
 质量与挂账：十个要求的程序只有 9 个在两次快照中运行，`acm-service` 缺席；当前 6 个失败单元，但 11-11 无同项基线；当前 crash 目录无常规文件，旧基线缺失，新增数未确定。除了 pulseaudio，其他目标无安全快速退出诊断，`ld-linux --list tvs-daemon` 未打印 prelink 检查结果。11-11 和 GCC 的 13 对象 pagemap 仅各单次，LTO/MLGO/PIE 同时变化，因此预链接的同镜像收益仍待第二部分控制变量实验。第一部分提交推送并回报后，再决定是否执行第二部分。
+
+## noPIE 新镜像后续验证（2026-11-13）
+
+- 本轮只读核查已完成：板端 BUILD_ID `T-KSU2EJAKUC-0101-PERF-202611120549`、armv7l/NT72671D/KSU2E 通过；T0/T1 同一 boot ID，6 个失败单元无新增，acm-service 仍 inactive。见 `reports/noPIE_followup_validation.md`、本地 `data/noPIE_followup_validation/T-KSU2EJAKUC-0101-PERF-202611120549/20261113_followup/`。
+- 已拉回的映射 ELF 范围 TEXTREL 扫描：noPIE 1/1385、GCC 1/1463、LLVM3 1/1403，均为 `/usr/bin/bt-service`；全 rootfs 未取得，完整镜像范围挂账。
+- 固定 15 路径组与六次快照共同进程集合已复算；`acm-service` 仅在 GCC 两次出现，跨镜像内存差不能单独归因预链接。原始表与算法见本轮报告及 `scripts/nopie_followup_offline.py`。
+- HEVC 两项 BLOCKED：目标媒体未找到，板端缺 `ffmpeg`，GStreamer 缺 `avdec_h265`。没有无效试跑或 FPS。需同媒体、插件/工具部署与解码路径证据后复测。
+- 构建来源挂账：对应 BUILD_ID 的产品/Base 快照、build.conf、关键包 build.log、prelink 逐目标日志未取得。TIFSDaemon 当前未预链接，历史 FKP 路径缺口不能直接当成本镜像确认根因。
+- 本轮没有改板端文件或设置；收尾 `sdb root off` 后 UID=5001，boot ID 未变。仅提交报告、脚本与可公开的清洁汇总；原始进程/日志输出仅本地留存。

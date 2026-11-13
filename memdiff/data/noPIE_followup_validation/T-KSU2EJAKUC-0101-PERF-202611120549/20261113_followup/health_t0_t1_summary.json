@@ -1,0 +1,24 @@
+{
+  "failed_units": {
+    "T0_lines": 11,
+    "T1_lines": 11,
+    "new_distinct_lines": 0
+  },
+  "crash_files": {
+    "T0_lines": 2,
+    "T1_lines": 2,
+    "new_distinct_lines": 0
+  },
+  "dmesg_signals": {
+    "T0_lines": 1,
+    "T1_lines": 1,
+    "new_distinct_lines": 0
+  },
+  "journal_anomaly": {
+    "T0_lines": 0,
+    "T1_lines": 0,
+    "new_distinct_lines": 0
+  },
+  "boot_id_unchanged": true,
+  "root_off_UID": 5001
+}
