@@ -1,0 +1,7 @@
+comparison	category	identity_count	base1_instances	base2_instances	new1_instances	new2_instances	observed_base_mean_kB	observed_new_mean_kB	observed_delta_kB	unknown_absence_identities
+noPIE_minus_GCC	absence_unknown	8	7	5	2	1	23221.0	2861.5	-20359.5	8
+noPIE_minus_GCC	both_sides_observed_not_C	3	5	5	5	5	31446.5	32566	1119.5	0
+noPIE_minus_GCC	new_only_observed	4	0	0	5	5	0	16043	16043	0
+noPIE_minus_LLVM3	absence_unknown	6	5	4	2	1	2220.0	2861.5	641.5	6
+noPIE_minus_LLVM3	both_sides_observed_not_C	4	6	5	6	6	35886.5	35451	-435.5	0
+noPIE_minus_LLVM3	new_only_observed	3	0	0	4	4	0	13158	13158	0

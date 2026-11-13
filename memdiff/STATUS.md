@@ -575,3 +575,10 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 - HEVC 两项 BLOCKED：目标媒体未找到，板端缺 `ffmpeg`，GStreamer 缺 `avdec_h265`。没有无效试跑或 FPS。需同媒体、插件/工具部署与解码路径证据后复测。
 - 构建来源挂账：对应 BUILD_ID 的产品/Base 快照、build.conf、关键包 build.log、prelink 逐目标日志未取得。TIFSDaemon 当前未预链接，历史 FKP 路径缺口不能直接当成本镜像确认根因。
 - 本轮没有改板端文件或设置；收尾 `sdb root off` 后 UID=5001，boot ID 未变。仅提交报告、脚本与可公开的清洁汇总；原始进程/日志输出仅本地留存。
+
+## noPIE 整体内存差值分解（2026-11-13）
+
+- 已用 GCC、LLVM 第三轮、noPIE 各两次原始快照按逐映射 smaps 的 Pss+SwapPss 统一复算；固定 94 个 `(进程名, exe 路径)` 身份集合逐次验证为每快照各 94 个实例。报告 `reports/noPIE_memory_delta_reconciliation.md`，中间表 `data/noPIE_memory_delta_reconciliation/`，脚本 `scripts/nopie_memory_delta_reconciliation.py`。
+- 新镜像相对第三轮 LLVM：全部已采集用户进程均值 −12,781 KiB，94 身份 −26,145 KiB，R 组 +13,364 KiB；其中新侧两次确认的 argot、tsr、tsr-bwrap 路径族合计 +13,158 KiB。相对 GCC：T −23,380、C −20,183、R −3,197 KiB。
+- 六次 `T=C+R`、两组 `ΔT=ΔC+ΔR`、R 的逐身份及类别合计均精确守恒；旧报告数字与本轮一致，无数值更正。5 项小样本测试通过。
+- 覆盖挂账：noPIE 两次各 6 个采集期间退出 PID 没有身份或完整 smaps，不把未知当成已确认缺席；历史四次均约 45 分钟上限采样且 `steady=no`，noPIE 两次在 823/799 秒满足稳定条件。跨镜像差值为会计分解，不能单独归因预链接、LTO 或 MLGO。

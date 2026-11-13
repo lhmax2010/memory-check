@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "strict_identity_source": "memdiff/data/noPIE_followup_validation/T-KSU2EJAKUC-0101-PERF-202611120549/20261113_followup/strict_common_processes.tsv",
+  "original_group_summary": "memdiff/data/noPIE_followup_validation/T-KSU2EJAKUC-0101-PERF-202611120549/20261113_followup/process_group_summary.tsv",
+  "published_total_source": "memdiff/data/noPIE_prelink_validation/three_image_comparison.tsv",
+  "snapshots": [
+    {
+      "label": "GCC1",
+      "image": "GCC",
+      "boot": 1,
+      "kind": "historical_smaps",
+      "smaps": "memdiff/data/gcc_baseline/boot1/memcheck/gcc_boot1_20261102_182343/02_steady/smaps_raw.txt.gz",
+      "boot_metadata": "memdiff/data/gcc_baseline/boot1/latest_boot.json",
+      "run_meta": "memdiff/data/gcc_baseline/boot1/memcheck/gcc_boot1_20261102_182343/00_info/run_meta.txt",
+      "sample_time": "memdiff/data/gcc_baseline/boot1/memcheck/gcc_boot1_20261102_182343/02_steady/time.txt",
+      "quality": "memdiff/data/gcc_baseline/boot1/quality.json"
+    },
+    {
+      "label": "GCC2",
+      "image": "GCC",
+      "boot": 2,
+      "kind": "historical_smaps",
+      "smaps": "memdiff/data/gcc_baseline/boot2/memcheck/gcc_boot2_20261102_192351/02_steady/smaps_raw.txt.gz",
+      "boot_metadata": "memdiff/data/gcc_baseline/boot2/latest_boot.json",
+      "run_meta": "memdiff/data/gcc_baseline/boot2/memcheck/gcc_boot2_20261102_192351/00_info/run_meta.txt",
+      "sample_time": "memdiff/data/gcc_baseline/boot2/memcheck/gcc_boot2_20261102_192351/02_steady/time.txt",
+      "quality": "memdiff/data/gcc_baseline/boot2/quality.json"
+    },
+    {
+      "label": "LLVM31",
+      "image": "LLVM3",
+      "boot": 1,
+      "kind": "historical_smaps",
+      "smaps": "memdiff/data/llvm_round3/boot1/memcheck/llvm_boot1_20261103_015124/02_steady/smaps_raw.txt.gz",
+      "boot_metadata": "memdiff/data/llvm_round3/boot1/latest_boot.json",
+      "run_meta": "memdiff/data/llvm_round3/boot1/memcheck/llvm_boot1_20261103_015124/00_info/run_meta.txt",
+      "sample_time": "memdiff/data/llvm_round3/boot1/memcheck/llvm_boot1_20261103_015124/02_steady/time.txt",
+      "quality": "memdiff/data/llvm_round3/boot1/quality.json"
+    },
+    {
+      "label": "LLVM32",
+      "image": "LLVM3",
+      "boot": 2,
+      "kind": "historical_smaps",
+      "smaps": "memdiff/data/llvm_round3/boot2/memcheck/llvm_boot2_20261103_030258/02_steady/smaps_raw.txt.gz",
+      "boot_metadata": "memdiff/data/llvm_round3/boot2/latest_boot.json",
+      "run_meta": "memdiff/data/llvm_round3/boot2/memcheck/llvm_boot2_20261103_030258/00_info/run_meta.txt",
+      "sample_time": "memdiff/data/llvm_round3/boot2/memcheck/llvm_boot2_20261103_030258/02_steady/time.txt",
+      "quality": "memdiff/data/llvm_round3/boot2/quality.json"
+    },
+    {
+      "label": "noPIE1",
+      "image": "noPIE",
+      "boot": 1,
+      "kind": "image_budget",
+      "collection": "memdiff/data/noPIE_prelink_validation/boots/boot1/collection/collection.json",
+      "process_budget": "memdiff/data/noPIE_prelink_validation/boots/boot1/budget/process_budget.tsv",
+      "derived_summary": "memdiff/data/noPIE_prelink_validation/boots/boot1/budget/derived_summary.json"
+    },
+    {
+      "label": "noPIE2",
+      "image": "noPIE",
+      "boot": 2,
+      "kind": "image_budget",
+      "collection": "memdiff/data/noPIE_prelink_validation/boots/boot2/collection/collection.json",
+      "process_budget": "memdiff/data/noPIE_prelink_validation/boots/boot2/budget/process_budget.tsv",
+      "derived_summary": "memdiff/data/noPIE_prelink_validation/boots/boot2/budget/derived_summary.json"
+    }
+  ]
+}

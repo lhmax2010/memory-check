@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "fixed_identities": 94,
+  "published_strict_rows": 564,
+  "per_boot_T_equals_C_plus_R": {
+    "GCC1": "0",
+    "GCC2": "0",
+    "LLVM31": "0",
+    "LLVM32": "0",
+    "noPIE1": "0",
+    "noPIE2": "0"
+  },
+  "T_vs_published": {
+    "GCC1": "0.0",
+    "GCC2": "0.0",
+    "LLVM31": "0.0",
+    "LLVM32": "0.0",
+    "noPIE1": "0.0",
+    "noPIE2": "0.0"
+  },
+  "C_vs_published": {
+    "GCC1": "0.0",
+    "GCC2": "0.0",
+    "LLVM31": "0.0",
+    "LLVM32": "0.0",
+    "noPIE1": "0.0",
+    "noPIE2": "0.0"
+  },
+  "T_vs_first_part": {
+    "GCC1": "0",
+    "GCC2": "0",
+    "LLVM31": "0",
+    "LLVM32": "0",
+    "noPIE1": "0",
+    "noPIE2": "0"
+  },
+  "delta_conservation": {
+    "noPIE_minus_GCC": "0.0",
+    "noPIE_minus_LLVM3": "0.0"
+  },
+  "unresolved_identity_measured_kB": "0",
+  "incomplete_processes": {
+    "GCC1": [],
+    "GCC2": [],
+    "LLVM31": [],
+    "LLVM32": [],
+    "noPIE1": [
+      3292,
+      3417,
+      3888,
+      3924,
+      3939,
+      3982
+    ],
+    "noPIE2": [
+      3443,
+      3831,
+      3885,
+      3912,
+      3936,
+      3983
+    ]
+  },
+  "note": "All totals are measured populations; no unknown memory is imputed."
+}
