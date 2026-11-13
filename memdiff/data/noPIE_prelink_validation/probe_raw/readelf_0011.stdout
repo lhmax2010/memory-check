@@ -1,0 +1,116 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x28748
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          566160 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         10
+  Size of section headers:           40 (bytes)
+  Number of section headers:         31
+  Section header string table index: 30
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        00010174 000174 000013 00   A  0   0  1
+  [ 2] .note.gnu.build-id NOTE            00010188 000188 000024 00   A  0   0  4
+  [ 3] .note.ABI-tag     NOTE            000101ac 0001ac 000020 00   A  0   0  4
+  [ 4] .gnu.hash         GNU_HASH        000101cc 0001cc 002688 04   A  5   0  4
+  [ 5] .dynsym           DYNSYM          00012854 002854 004a60 10   A 27   1  4
+  [ 6] .gnu.liblist      GNU_LIBLIST     000172b4 0072b4 000578 14   A 27   0  4
+  [ 7] .gnu.conflict     RELA            0001782c 00782c 002c7c 0c   A  5   0  4
+  [ 8] .gnu.version      VERSYM          00026634 016634 00094c 02   A  5   0  2
+  [ 9] .gnu.version_r    VERNEED         00026f80 016f80 0001b0 00   A 27   7  4
+  [10] .rel.dyn          REL             00027130 017130 000070 08   A  5   0  4
+  [11] .rel.plt          REL             000271a0 0171a0 000800 08  AI  5  24  4
+  [12] .init             PROGBITS        000279a0 0179a0 00000c 00  AX  0   0  4
+  [13] .plt              PROGBITS        000279ac 0179ac 000c54 04  AX  0   0  4
+  [14] .text             PROGBITS        00028600 018600 046e0e 00  AX  0   0 16
+  [15] .fini             PROGBITS        0006f410 05f410 000008 00  AX  0   0  4
+  [16] .rodata           PROGBITS        0006f418 05f418 013b7c 00   A  0   0  8
+  [17] .ARM.extab        PROGBITS        00082f94 072f94 003b48 00   A  0   0  4
+  [18] .ARM.exidx        ARM_EXIDX       00086adc 076adc 0019a8 00  AL 14   0  4
+  [19] .eh_frame         PROGBITS        00088484 078484 000004 00   A  0   0  4
+  [20] .init_array       INIT_ARRAY      00089000 079000 000014 04  WA  0   0  4
+  [21] .fini_array       FINI_ARRAY      00089014 079014 000004 04  WA  0   0  4
+  [22] .data.rel.ro      PROGBITS        00089018 079018 000158 00  WA  0   0  8
+  [23] .dynamic          DYNAMIC         00089170 079170 000190 08  WA 27   0  4
+  [24] .got              PROGBITS        0008a000 07a000 000420 04  WA  0   0  4
+  [25] .data             PROGBITS        0008a420 07a420 000138 00  WA  0   0  4
+  [26] .bss              NOBITS          0008a558 07a558 0011a8 00  WA  0   0  8
+  [27] .dynstr           STRTAB          0008c558 07a558 00f73d 00   A  0   0  1
+  [28] .comment          PROGBITS        00000000 089c95 000042 01  MS  0   0  1
+  [29] .gnu.prelink_undo PROGBITS        00000000 089cd8 00058c 01      0   0  4
+  [30] .shstrtab         STRTAB          00000000 08a264 00012a 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0x79170 contains 49 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtv-resource-information.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsmart-deadlock.so]
+ 0x00000001 (NEEDED)                     Shared library: [libttrace.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libaul.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-extension-tv-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libdeviced.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libudev.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libjsoncpp.so.22]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000001d (RUNPATH)                    Library runpath: [/usr/lib]
+ 0x0000000c (INIT)                       0x279a0
+ 0x0000000d (FINI)                       0x6f410
+ 0x00000019 (INIT_ARRAY)                 0x89000
+ 0x0000001b (INIT_ARRAYSZ)               20 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x89014
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x101cc
+ 0x00000005 (STRTAB)                     0x8c558
+ 0x00000006 (SYMTAB)                     0x12854
+ 0x0000000a (STRSZ)                      62367 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0x8a000
+ 0x00000002 (PLTRELSZ)                   2048 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x271a0
+ 0x00000011 (REL)                        0x27130
+ 0x00000012 (RELSZ)                      112 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x26f80
+ 0x6fffffff (VERNEEDNUM)                 7
+ 0x6ffffff0 (VERSYM)                     0x26634
+ 0x6ffffef9 (GNU_LIBLIST)                0x172b4
+ 0x6ffffdf7 (GNU_LIBLISTSZ)              1400 (bytes)
+ 0x6ffffef8 (GNU_CONFLICT)               0x1782c
+ 0x6ffffdf6 (GNU_CONFLICTSZ)             11388 (bytes)
+ 0x00000000 (NULL)                       0x0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0
+  [    2d]  clang version 22.1.8
+

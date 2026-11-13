@@ -1,0 +1,13 @@
+{
+  "rx_Pss_kB": 212919,
+  "classified_Pss_kB": {
+    "arm_unwind": 1232.6618111979565,
+    "loader_related": 63790.8828963532,
+    "code_other": 4853.839984081578,
+    "plt": 4329.10396023631,
+    "rodata": 26086.294351393826,
+    "text": 112626.21699673707
+  },
+  "coverage_file_count": 1556,
+  "sum_check_kB": 212918.99999999994
+}

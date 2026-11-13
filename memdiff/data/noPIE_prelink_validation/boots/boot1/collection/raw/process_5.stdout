@@ -1,0 +1,53 @@
+__MAPS_BEGIN__
+__MAPS_END__
+__SMAPS_BEGIN__
+__SMAPS_END__
+__STATUS_BEGIN__
+Name:	kworker/R-rcu_gp
+Umask:	0000
+State:	I (idle)
+Tgid:	5
+Ngid:	0
+Pid:	5
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	32
+Groups:	 
+NStgid:	5
+NSpid:	5
+NSpgid:	0
+NSsid:	0
+Kthread:	1
+Threads:	1
+SigQ:	5/10080
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	ffffffffffffffff
+SigCgt:	0000000000000000
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	unknown
+SpeculationIndirectBranch:	unsupported
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	2
+nonvoluntary_ctxt_switches:	0
+__STATUS_END__
+__CMDLINE_BEGIN__
+
+__CMDLINE_END__
+__EXE_BEGIN__
+__EXE_END__
+__DONE__
+

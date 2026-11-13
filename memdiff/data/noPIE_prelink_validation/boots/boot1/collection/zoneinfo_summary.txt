@@ -1,0 +1,44 @@
+Node 0, zone   Normal
+  pages free     7586
+        min      750
+        low      937
+        high     1124
+        present  148480
+        managed  141101
+        protection: (0, 3840, 3840, 3840)
+              high:  234
+              high:  234
+              high:  234
+              high:  265
+Node 0, zone  HighMem
+  pages free     876
+        min      128
+        low      369
+        high     610
+        present  181568
+        managed  181568
+        protection: (0, 0, 0, 0)
+              high:  252
+              high:  252
+              high:  252
+              high:  252
+Node 0, zone  Movable
+  pages free     0
+        min      32
+        low      32
+        high     32
+        present  0
+        managed  0
+        protection: (0, 0, 0, 0)
+Node 0, zone      CMA
+  pages free     20368
+        min      76
+        low      179
+        high     282
+        present  77824
+        managed  77824
+        protection: (0, 0, 0, 0)
+              high:  60
+              high:  60
+              high:  60
+              high:  60

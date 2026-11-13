@@ -1,0 +1,100 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x42a89000
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          61448 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         8
+  Size of section headers:           40 (bytes)
+  Number of section headers:         29
+  Section header string table index: 28
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            42a89134 000134 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        42a89158 000158 000850 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          42a899a8 0009a8 001550 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          42a8aef8 001ef8 002607 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          42a8d500 004500 0002aa 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         42a8d7ac 0047ac 000060 00   A  4   3  4
+  [ 7] .rel.dyn          REL             42a8d80c 00480c 000078 08   A  3   0  4
+  [ 8] .rel.plt          REL             42a8d884 004884 000570 08  AI  3  21  4
+  [ 9] .init             PROGBITS        42a8ddf4 004df4 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        42a8de00 004e00 000840 04  AX  0   0  4
+  [11] .text             PROGBITS        42a8e640 005640 004bdc 00  AX  0   0  4
+  [12] .fini             PROGBITS        42a9321c 00a21c 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        42a93228 00a228 0029c4 00   A  0   0  8
+  [14] .ARM.exidx        ARM_EXIDX       42a95bec 00cbec 000368 00  AL 11   0  4
+  [15] .eh_frame         PROGBITS        42a95f54 00cf54 000004 00   A  0   0  4
+  [16] .tbss             NOBITS          42a96000 00cf58 00006c 00 WAT  0   0  4
+  [17] .init_array       INIT_ARRAY      42a96000 00d000 000004 04  WA  0   0  4
+  [18] .fini_array       FINI_ARRAY      42a96004 00d004 000004 04  WA  0   0  4
+  [19] .data.rel.ro      PROGBITS        42a96008 00d008 00001c 00  WA  0   0  4
+  [20] .dynamic          DYNAMIC         42a96024 00d024 000128 08  WA  4   0  4
+  [21] .got              PROGBITS        42a97000 00e000 0002e4 04  WA  0   0  4
+  [22] .data             PROGBITS        42a972e4 00e2e4 000004 00  WA  0   0  4
+  [23] .bss              NOBITS          42a972e8 00e2e8 000004 00  WA  0   0  1
+  [24] .comment          PROGBITS        00000000 00e2e8 000042 01  MS  0   0  1
+  [25] .gnu.liblist      GNU_LIBLIST     00000000 00e32c 000370 14     26   0  4
+  [26] .gnu.libstr       STRTAB          00000000 00e69c 000340 00      0   0  1
+  [27] .gnu.prelink_undo PROGBITS        00000000 00e9dc 00051c 01      0   0  4
+  [28] .shstrtab         STRTAB          00000000 00eef8 00010d 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0xd024 contains 35 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-wifi-manager.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libpthread.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcapi-network-wifi.so.1]
+ 0x0000000c (INIT)                       0x42a8ddf4
+ 0x0000000d (FINI)                       0x42a9321c
+ 0x00000019 (INIT_ARRAY)                 0x42a96000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x42a96004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x42a89158
+ 0x00000005 (STRTAB)                     0x42a8aef8
+ 0x00000006 (SYMTAB)                     0x42a899a8
+ 0x0000000a (STRSZ)                      9735 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x42a97000
+ 0x00000002 (PLTRELSZ)                   1392 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x42a8d884
+ 0x00000011 (REL)                        0x42a8d80c
+ 0x00000012 (RELSZ)                      120 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x42a8d7ac
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x42a8d500
+ 0x6ffffffa (RELCOUNT)                   9
+ 0x6ffffdf8 (CHECKSUM)                   0x7372360e
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-11-11T21:44:45
+ 0x00000000 (NULL)                       0x0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0
+  [    2d]  clang version 22.1.8
+

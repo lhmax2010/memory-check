@@ -1,0 +1,740 @@
+__MAPS_BEGIN__
+004c2000-004d5000 r-xp 00000000 b3:15 2511       /opt/usr/share/argot/.local/bin/tsr-bwrap
+004d5000-004d6000 r--p 00013000 b3:15 2511       /opt/usr/share/argot/.local/bin/tsr-bwrap
+004d6000-004d7000 rw-p 00014000 b3:15 2511       /opt/usr/share/argot/.local/bin/tsr-bwrap
+01426000-01447000 rw-p 00000000 00:00 0          [heap]
+b5f74000-b5f8f000 r-xp 00000000 00:14 17078245   /usr/lib/libgcc_s.so.1
+b5f8f000-b5f90000 rw-p 0001a000 00:14 17078245   /usr/lib/libgcc_s.so.1
+b5f90000-b60ea000 r-xp 00000000 00:14 17075455   /usr/lib/libc-2.40.so
+b60ea000-b60ec000 r--p 0015a000 00:14 17075455   /usr/lib/libc-2.40.so
+b60ec000-b60ed000 rw-p 0015c000 00:14 17075455   /usr/lib/libc-2.40.so
+b60ed000-b60f2000 rw-p 00000000 00:00 0 
+b60f2000-b60f4000 rw-p 00000000 00:00 0 
+b6119000-b6142000 r-xp 00000000 00:14 17078481   /usr/lib/ld-linux.so.3
+b6142000-b6144000 r--p 00029000 00:14 17078481   /usr/lib/ld-linux.so.3
+b6144000-b6145000 rw-p 0002b000 00:14 17078481   /usr/lib/ld-linux.so.3
+bde6f000-bde90000 rw-p 00000000 00:00 0          [stack]
+be021000-be022000 r-xp 00000000 00:00 0          [sigpage]
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+__MAPS_END__
+__SMAPS_BEGIN__
+004c2000-004d5000 r-xp 00000000 b3:15 2511       /opt/usr/share/argot/.local/bin/tsr-bwrap
+Size:                 76 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  68 kB
+Pss:                  68 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:        68 kB
+Private_Dirty:         0 kB
+Referenced:           68 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd ex mr mw me 
+004d5000-004d6000 r--p 00013000 b3:15 2511       /opt/usr/share/argot/.local/bin/tsr-bwrap
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Pss_Dirty:             4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd mr mw me ac 
+004d6000-004d7000 rw-p 00014000 b3:15 2511       /opt/usr/share/argot/.local/bin/tsr-bwrap
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  4 kB
+SwapPss:               4 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac 
+01426000-01447000 rw-p 00000000 00:00 0          [heap]
+Size:                132 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                 24 kB
+SwapPss:              24 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac 
+b5f74000-b5f8f000 r-xp 00000000 00:14 17078245   /usr/lib/libgcc_s.so.1
+Size:                108 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                  28 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:         28 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           28 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd ex mr mw me 
+b5f8f000-b5f90000 rw-p 0001a000 00:14 17078245   /usr/lib/libgcc_s.so.1
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  4 kB
+SwapPss:               4 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac 
+b5f90000-b60ea000 r-xp 00000000 00:14 17075455   /usr/lib/libc-2.40.so
+Size:               1384 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                 328 kB
+Pss:                   3 kB
+Pss_Dirty:             0 kB
+Shared_Clean:        328 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          328 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd ex mr mw me 
+b60ea000-b60ec000 r--p 0015a000 00:14 17075455   /usr/lib/libc-2.40.so
+Size:                  8 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   8 kB
+Pss:                   8 kB
+Pss_Dirty:             8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:            8 kB
+Anonymous:             8 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd mr mw me ac 
+b60ec000-b60ed000 rw-p 0015c000 00:14 17075455   /usr/lib/libc-2.40.so
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  4 kB
+SwapPss:               4 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac 
+b60ed000-b60f2000 rw-p 00000000 00:00 0 
+Size:                 20 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                 16 kB
+SwapPss:              16 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac mg 
+b60f2000-b60f4000 rw-p 00000000 00:00 0 
+Size:                  8 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  8 kB
+SwapPss:               8 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac mg 
+b6119000-b6142000 r-xp 00000000 00:14 17078481   /usr/lib/ld-linux.so.3
+Size:                164 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                 152 kB
+Pss:                   1 kB
+Pss_Dirty:             0 kB
+Shared_Clean:        152 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          152 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd ex mr mw me 
+b6142000-b6144000 r--p 00029000 00:14 17078481   /usr/lib/ld-linux.so.3
+Size:                  8 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   8 kB
+Pss:                   8 kB
+Pss_Dirty:             8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:            8 kB
+Anonymous:             8 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd mr mw me ac 
+b6144000-b6145000 rw-p 0002b000 00:14 17078481   /usr/lib/ld-linux.so.3
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  4 kB
+SwapPss:               4 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me ac 
+bde6f000-bde90000 rw-p 00000000 00:00 0          [stack]
+Size:                132 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         4 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  4 kB
+SwapPss:               4 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd wr mr mw me gd ac 
+be021000-be022000 r-xp 00000000 00:00 0          [sigpage]
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd ex mr mw me de 
+ffff0000-ffff1000 r-xp 00000000 00:00 0          [vectors]
+Size:                  4 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Pss_Dirty:             0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+KSM:                   0 kB
+LazyFree:              0 kB
+AnonHugePages:         0 kB
+ShmemPmdMapped:        0 kB
+FilePmdMapped:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+Locked:                0 kB
+THPeligible:           0
+VmFlags: rd ex mr me 
+__SMAPS_END__
+__STATUS_BEGIN__
+Name:	tsr-bwrap
+Umask:	0022
+State:	S (sleeping)
+Tgid:	2078
+Ngid:	0
+Pid:	2078
+PPid:	2057
+TracerPid:	0
+Uid:	940	940	940	940
+Gid:	100	100	100	100
+FDSize:	64
+Groups:	29 44 100 201 1051 1051 1901 6525 10001 10013 10014 10212 10501 10502 10503 10704 10705 10711 10901 10903 11103 11201 
+NStgid:	2078
+NSpid:	2078
+NSpgid:	2057
+NSsid:	2057
+Kthread:	0
+VmPeak:	    2080 kB
+VmSize:	    2064 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	     600 kB
+VmRSS:	     600 kB
+RssAnon:	      24 kB
+RssFile:	     576 kB
+RssShmem:	       0 kB
+VmData:	     176 kB
+VmStk:	     132 kB
+VmExe:	      76 kB
+VmLib:	    1660 kB
+VmPTE:	      10 kB
+VmSwap:	      68 kB
+CoreDumping:	0
+THP_enabled:	0
+untag_mask:	0xffffffff
+Threads:	1
+SigQ:	0/10080
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000010000
+SigIgn:	0000000000001000
+SigCgt:	0000000000000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	1
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	unknown
+SpeculationIndirectBranch:	unsupported
+Cpus_allowed:	f
+Cpus_allowed_list:	0-3
+Mems_allowed:	1
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	4
+nonvoluntary_ctxt_switches:	24
+__STATUS_END__
+__CMDLINE_BEGIN__
+/opt/usr/share/argot/.local/bin/tsr-bwrap --args 38 -- /opt/usr/share/argot/.local/bin/tsr --port 18080 --proxy-fd 7 --exec-arg /usr/apps/com.samsung.tizen.argot/bin/argot --exec-arg daemon 
+__CMDLINE_END__
+__EXE_BEGIN__
+/opt/usr/share/argot/.local/bin/tsr-bwrap
+__EXE_END__
+__PAGE_BEGIN__	004c2000-004d5000	r-xp	00000000	/opt/usr/share/argot/.local/bin/tsr-bwrap	19
+ a1000000000845f7 a1000000000845f8
+ a1000000000845f9 a1000000000845fa
+ a1000000000845fc 0000000000000000
+ a1000000000845fe a1000000000845ff
+ a1000000000a72c8 a1000000000a72c9
+ a1000000000a72ca 0000000000000000
+ a1000000000a72cc a1000000000a72cd
+ a1000000000a72ce a1000000000a72cf
+ a1000000000a72d0 a1000000000a72d1
+ a1000000000a72d2
+__PAGE_END__	0
+__PAGE_BEGIN__	b5f74000-b5f8f000	r-xp	00000000	/usr/lib/libgcc_s.so.1	27
+ a000000000098832 0000000000000000
+ a000000000098834 a000000000098835
+ a000000000098836 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a00000000009883b
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000098840 a000000000098841
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000
+__PAGE_END__	0
+__PAGE_BEGIN__	b5f90000-b60ea000	r-xp	00000000	/usr/lib/libc-2.40.so	346
+ a000000000098878 a000000000098879
+ a00000000009887a a00000000009887b
+ a00000000009887c a00000000009887d
+ a00000000009887e a00000000009887f
+ a000000000098880 a000000000098881
+ a000000000098882 a000000000098883
+ a000000000098884 a000000000098885
+ a000000000098886 a000000000098887
+ a000000000098888 a000000000098889
+ a00000000009888a a00000000009888b
+ a00000000009888c a00000000009888d
+ a00000000009888e a00000000009888f
+ a000000000098890 a000000000098891
+ a000000000098892 a000000000098893
+ a000000000098894 a000000000098895
+ a000000000098896 a000000000098897
+ a000000000098898 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a0000000000988e6 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a0000000000988ec a0000000000988ed
+ a0000000000988ee 0000000000000000
+ 0000000000000000 a0000000000988f1
+ a0000000000988f2 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a0000000000988fb
+ 0000000000000000 0000000000000000
+ 0000000000000000 a0000000000988ff
+ a000000000098900 a000000000098901
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000098908 a000000000098909
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a000000000098980
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a00000000009898f 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000098993 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000098999 a00000000009899a
+ a00000000009899b a00000000009899c
+ a00000000009899d a00000000009899e
+ a00000000009899f 0000000000000000
+ a0000000000989a1 a0000000000989a2
+ a0000000000989a3 0000000000000000
+ a0000000000989a5 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000081e09 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000081e0f a000000000081e10
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a000000000098967
+ a00000000009893d 0000000000000000
+ 0000000000000000 0000000000000000
+ a000000000098941 a000000000098942
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a00000000009894a
+ a00000000009894b a00000000009894c
+ a00000000009894d a00000000009894e
+ 0000000000000000 0000000000000000
+ a000000000098951 0000000000000000
+ a000000000098953 a000000000098954
+ a000000000098955 a000000000098956
+ a000000000098957 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a000000000098924
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 a00000000009892a
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a0000000000988d5 a0000000000988d4
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ a0000000000988c2 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+ 0000000000000000 0000000000000000
+__PAGE_END__	0
+__PAGE_BEGIN__	b6119000-b6142000	r-xp	00000000	/usr/lib/ld-linux.so.3	41
+ a000000000081d6c 0000000000000000
+ a000000000081d6e a000000000081d6f
+ a000000000081d70 a000000000081d71
+ a000000000081d72 a000000000081d73
+ a000000000081d74 a000000000081d75
+ a000000000081d76 0000000000000000
+ a000000000081d78 a000000000081d79
+ a000000000081d7a a000000000081d7b
+ a000000000081d7c a000000000081d7d
+ a000000000081d7e a000000000081d7f
+ a000000000081d80 a000000000081d81
+ a000000000081d82 a000000000081d83
+ a000000000081d84 a000000000081d85
+ a000000000081d86 a000000000081db3
+ a000000000081db4 a000000000081db5
+ a000000000081db6 a000000000081db7
+ a000000000081db8 a000000000081db9
+ a000000000081dba a000000000081dbb
+ a000000000081dbc a000000000081dbd
+ a000000000081dbe a000000000081dbf
+ 0000000000000000
+__PAGE_END__	0
+__DONE__
+

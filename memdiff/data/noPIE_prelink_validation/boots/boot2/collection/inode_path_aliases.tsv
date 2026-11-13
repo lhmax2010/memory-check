@@ -1,0 +1,5 @@
+dev	inode	paths
+00:1a	1154688	/prd/usr/lib/libbuxton2_lite.so.1.1 | /usr/lib/libbuxton2_lite.so.1.1
+00:1a	1155051	/prd/usr/lib/libsystem-info-external-plugin.so | /usr/lib/libsystem-info-external-plugin.so
+00:1a	1155156	/prd/usr/lib/libvconf-prd.so.1.0 | /usr/lib/libvconf-prd.so.1.0
+00:1a	1155163	/prd/usr/lib/libvconf_lite.so.0.3.1 | /usr/lib/libvconf_lite.so.0.3.1

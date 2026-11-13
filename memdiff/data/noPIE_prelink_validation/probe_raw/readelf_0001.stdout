@@ -1,0 +1,171 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x280d0
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          544272 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         9
+  Size of section headers:           40 (bytes)
+  Number of section headers:         32
+  Section header string table index: 31
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        00010154 000154 000013 00   A  0   0  1
+  [ 2] .note.gnu.build-id NOTE            00010168 000168 000024 00   A  0   0  4
+  [ 3] .note.ABI-tag     NOTE            0001018c 00018c 000020 00   A  0   0  4
+  [ 4] .gnu.hash         GNU_HASH        000101ac 0001ac 002788 04   A  5   0  4
+  [ 5] .dynsym           DYNSYM          00012934 002934 004fc0 10   A 27   1  4
+  [ 6] .rel.dyn          RELA            000178f4 0078f4 0009c0 0c   A  5   0  4
+  [ 7] .rel.plt          REL             000182b4 0082b4 000ec0 08  AI  5  23  4
+  [ 8] .gnu.liblist      GNU_LIBLIST     00019174 009174 001018 14   A 27   0  4
+  [ 9] .gnu.version      VERSYM          000244e2 0144e2 0009f8 02   A  5   0  2
+  [10] .gnu.version_r    VERNEED         00024edc 014edc 0001b0 00   A 27   6  4
+  [11] .init             PROGBITS        000265cc 0165cc 00000c 00  AX  0   0  4
+  [12] .plt              PROGBITS        000265d8 0165d8 0016ac 04  AX  0   0  4
+  [13] .text             PROGBITS        00027c88 017c88 01b9e0 00  AX  0   0  8
+  [14] .fini             PROGBITS        00043668 033668 000008 00  AX  0   0  4
+  [15] .rodata           PROGBITS        00043670 033670 00ab88 00   A  0   0  8
+  [16] .ARM.extab        PROGBITS        0004e1f8 03e1f8 002eec 00   A  0   0  4
+  [17] .ARM.exidx        ARM_EXIDX       000510e4 0410e4 000e90 00  AL 13   0  4
+  [18] .eh_frame         PROGBITS        00051f74 041f74 000004 00   A  0   0  4
+  [19] .init_array       INIT_ARRAY      00052000 042000 000048 04  WA  0   0  4
+  [20] .fini_array       FINI_ARRAY      00052048 042048 000004 04  WA  0   0  4
+  [21] .data.rel.ro      PROGBITS        00052050 042050 001b04 00  WA  0   0  8
+  [22] .dynamic          DYNAMIC         00053b54 043b54 000340 08  WA 27   0  4
+  [23] .got              PROGBITS        00054000 044000 000780 04  WA  0   0  4
+  [24] .data             PROGBITS        00054780 044780 000028 00  WA  0   0  4
+  [25] .dynbss           PROGBITS        000547a8 0447a8 000040 00  WA  0   0  8
+  [26] .bss              PROGBITS        000547e8 0447e8 000320 00  WA  0   0  8
+  [27] .dynstr           STRTAB          00054b08 044b08 00d621 00   A  0   0  1
+  [28] .gnu.conflict     RELA            0006212c 05212c 0325e0 0c   A  5   0  4
+  [29] .comment          PROGBITS        00000000 08470c 000042 01  MS  0   0  1
+  [30] .gnu.prelink_undo PROGBITS        00000000 084750 00058c 01      0   0  4
+  [31] .shstrtab         STRTAB          00000000 084cdc 000132 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0x43b54 contains 103 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api-native.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-chms.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dbms.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-tpms.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-core.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdebug_rcv.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ems.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-util.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-iss.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-config.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ics.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-time.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-objectfactory.so]
+ 0x00000001 (NEEDED)                     Shared library: [libfactory-interface.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-tvtimer.so]
+ 0x00000001 (NEEDED)                     Shared library: [libapputil.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdeviced.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libsmart-deadlock.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api-ipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api-lite.so]
+ 0x00000001 (NEEDED)                     Shared library: [libAppBinaryMgrServiceAPI.so]
+ 0x00000001 (NEEDED)                     Shared library: [libresource-center-api.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtzplatform-config-2.0.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-extension-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-extension-tv-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-tvplus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libaudio-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-live.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-av.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-guide.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-si.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-scan.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-sospec.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-udm.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dsm.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ext.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-tpms-base.so]
+ 0x00000001 (NEEDED)                     Shared library: [liblibtv-plpmanager.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-nrt.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-atsc30-live.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-atsc30-udm.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-atsc30-scan.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-atsc30-guide.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-atsc30-si.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-ics.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-scan.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-guide.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-udm.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-chms.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-si.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvb-sospec.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvb-chms.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvb-si.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-ewbs.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-isdb-live.so]
+ 0x00000001 (NEEDED)                     Shared library: [libfbclient.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dvbbase-live.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-isdb-scan.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-isdb-sospec.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-isdb-si.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-dtmb-sospec.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-b2b.so]
+ 0x00000001 (NEEDED)                     Shared library: [libtvs-api.so]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000c (INIT)                       0x265cc
+ 0x0000000d (FINI)                       0x43668
+ 0x00000019 (INIT_ARRAY)                 0x52000
+ 0x0000001b (INIT_ARRAYSZ)               72 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x52048
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x101ac
+ 0x00000005 (STRTAB)                     0x54b08
+ 0x00000006 (SYMTAB)                     0x12934
+ 0x0000000a (STRSZ)                      52205 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0x54000
+ 0x00000002 (PLTRELSZ)                   3776 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x182b4
+ 0x00000007 (RELA)                       0x178f4
+ 0x00000008 (RELASZ)                     2496 (bytes)
+ 0x00000009 (RELAENT)                    12 (bytes)
+ 0x6ffffffe (VERNEED)                    0x24edc
+ 0x6fffffff (VERNEEDNUM)                 6
+ 0x6ffffff0 (VERSYM)                     0x244e2
+ 0x6ffffef9 (GNU_LIBLIST)                0x19174
+ 0x6ffffdf7 (GNU_LIBLISTSZ)              4120 (bytes)
+ 0x6ffffef8 (GNU_CONFLICT)               0x6212c
+ 0x6ffffdf6 (GNU_CONFLICTSZ)             206304 (bytes)
+ 0x00000000 (NULL)                       0x0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0
+  [    2d]  clang version 22.1.8
+

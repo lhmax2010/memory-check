@@ -1,0 +1,8 @@
+{
+  "build_id": "T-KSU2EJAKUC-0101-PERF-202611120549",
+  "boot_count": 1,
+  "capture_reason": "steady_criteria_met",
+  "capture_uptime_s": 823,
+  "PageTables_kB": 17020,
+  "process_identity_source": "proc_status_exe"
+}

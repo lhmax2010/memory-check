@@ -1,0 +1,14 @@
+process	path	GCC_factory1_loader_kB	LLVM1111_loader_kB	noPIE_boot1_loader_kB	noPIE_boot2_loader_kB
+tvs-daemon	/usr/lib/libtvs-api-native.so	29.091797	545.966797	29.792969	29.792969
+tvs-daemon	/usr/lib/libtvs-dvb-si.so	19.810547	373.474609	21.736328	21.736328
+tvs-daemon	/usr/lib/libtvs-iss.so	24.125977	442.12793	26.560547	26.560547
+tvs-daemon	/usr/lib/libtvs-util.so	43.695312	428.192383	24.544922	24.544922
+tvs-daemon	/usr/lib/libtvs-dsm.so	29.838867	340.928711	28.65918	28.65918
+tvs-daemon	/usr/lib/libtvs-b2b.so	23.09082	325.544922	24.607422	24.607422
+tvs-daemon	/usr/lib/libtvs-dvbbase-scan.so	21.327148	235.336914	21.87793	21.87793
+tvs-daemon	/usr/lib/libtvs-atsc30-parser.so	27.000977	223.799805	26.100586	26.100586
+tvs-daemon	/usr/lib/libtvs-ext.so	23.233398	263.791016	22.854492	22.854492
+tvs-daemon	/usr/lib/libtvs-si.so	27.694336	214.445312	24.575195	24.575195
+tv-viewer	/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	236.236328	589.938477	271.128906	271.128906
+tv-viewer	/usr/lib/libtvs-parser.so	35.693359	445.977539	40.431641	40.431641
+tv-viewer	/usr/lib/libtvs-api.so	35.8125	612.152344	33.546875	33.546875

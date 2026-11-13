@@ -1,0 +1,14 @@
+path	reason
+/prd/usr/lib/libbuxton2_lite.so.1.1	same_inode_multiple_paths
+/prd/usr/lib/libsystem-info-external-plugin.so	same_inode_multiple_paths
+/prd/usr/lib/libvconf-prd.so.1.0	same_inode_multiple_paths
+/prd/usr/lib/libvconf_lite.so.0.3.1	same_inode_multiple_paths
+/usr/apps/org.tizen.menu/bin/SettingsCommon.dll	rx_Private_Dirty
+/usr/apps/org.tizen.menu/bin/SettingsText.dll	rx_Private_Dirty
+/usr/apps/org.tizen.menu/bin/Widget.dll	rx_Private_Dirty
+/usr/apps/org.tizen.menu/bin/org.tizen.menu.dll	rx_Private_Dirty
+/usr/bin/bt-service	rx_Private_Dirty
+/usr/lib/libbuxton2_lite.so.1.1	same_inode_multiple_paths
+/usr/lib/libsystem-info-external-plugin.so	same_inode_multiple_paths
+/usr/lib/libvconf-prd.so.1.0	same_inode_multiple_paths
+/usr/lib/libvconf_lite.so.0.3.1	same_inode_multiple_paths

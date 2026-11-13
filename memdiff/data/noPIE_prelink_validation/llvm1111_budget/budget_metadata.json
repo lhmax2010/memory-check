@@ -1,0 +1,8 @@
+{
+  "build_id": "T-KSU2EJAKUC-0101-PERF-202611061751",
+  "boot_count": 1,
+  "capture_reason": "legacy_snapshot",
+  "capture_uptime_s": null,
+  "PageTables_kB": null,
+  "process_identity_source": "first_rx_mapping_fallback"
+}

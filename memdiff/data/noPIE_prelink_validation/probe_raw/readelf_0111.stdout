@@ -1,0 +1,104 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x46116000
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          55736 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         7
+  Size of section headers:           40 (bytes)
+  Number of section headers:         28
+  Section header string table index: 27
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            46116114 000114 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        46116138 000138 000684 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          461167bc 0007bc 0013a0 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          46117b5c 001b5c 002685 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          4611a1e2 0041e2 000274 02   A  3   0  2
+  [ 6] .gnu.version_r    VERNEED         4611a458 004458 000040 00   A  4   2  4
+  [ 7] .rel.dyn          REL             4611a498 004498 000058 08   A  3   0  4
+  [ 8] .rel.plt          REL             4611a4f0 0044f0 000558 08  AI  3  20  4
+  [ 9] .init             PROGBITS        4611aa48 004a48 00000c 00  AX  0   0  4
+  [10] .plt              PROGBITS        4611aa54 004a54 00088c 04  AX  0   0  4
+  [11] .text             PROGBITS        4611b2e0 0052e0 003060 00  AX  0   0  4
+  [12] .fini             PROGBITS        4611e340 008340 000008 00  AX  0   0  4
+  [13] .rodata           PROGBITS        4611e348 008348 00211c 00   A  0   0  4
+  [14] .ARM.exidx        ARM_EXIDX       46120464 00a464 000250 00  AL 11   0  4
+  [15] .eh_frame         PROGBITS        461206b4 00a6b4 000004 00   A  0   0  4
+  [16] .init_array       INIT_ARRAY      46121000 00b000 000004 04  WA  0   0  4
+  [17] .fini_array       FINI_ARRAY      46121004 00b004 000004 04  WA  0   0  4
+  [18] .data.rel.ro      PROGBITS        46121008 00b008 000004 00  WA  0   0  4
+  [19] .dynamic          DYNAMIC         4612100c 00b00c 000150 08  WA  4   0  4
+  [20] .got              PROGBITS        46122000 00c000 0002d4 04  WA  0   0  4
+  [21] .data             PROGBITS        461222d4 00c2d4 000004 00  WA  0   0  4
+  [22] .bss              NOBITS          461222d8 00c2d8 000030 00  WA  0   0  4
+  [23] .comment          PROGBITS        00000000 00c2d8 000042 01  MS  0   0  1
+  [24] .gnu.liblist      GNU_LIBLIST     00000000 00c31c 000884 14     25   0  4
+  [25] .gnu.libstr       STRTAB          00000000 00cba0 00083a 00      0   0  1
+  [26] .gnu.prelink_undo PROGBITS        00000000 00d3dc 0004d4 01      0   0  4
+  [27] .shstrtab         STRTAB          00000000 00d8b0 000107 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0xb00c contains 40 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libvd-win-util.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvirtualscreen-linker.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwind.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_wl2.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_evas.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libevas.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libeina.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libtizen-extension-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwayland-client.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgraphics-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libecore_wayland.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcapi-window-tv.so.0]
+ 0x0000000c (INIT)                       0x4611aa48
+ 0x0000000d (FINI)                       0x4611e340
+ 0x00000019 (INIT_ARRAY)                 0x46121000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x46121004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x46116138
+ 0x00000005 (STRTAB)                     0x46117b5c
+ 0x00000006 (SYMTAB)                     0x461167bc
+ 0x0000000a (STRSZ)                      9861 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x46122000
+ 0x00000002 (PLTRELSZ)                   1368 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x4611a4f0
+ 0x00000011 (REL)                        0x4611a498
+ 0x00000012 (RELSZ)                      88 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x4611a458
+ 0x6fffffff (VERNEEDNUM)                 2
+ 0x6ffffff0 (VERSYM)                     0x4611a1e2
+ 0x6ffffffa (RELCOUNT)                   4
+ 0x6ffffdf8 (CHECKSUM)                   0x89028f6c
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-11-11T21:44:44
+ 0x00000000 (NULL)                       0x0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0
+  [    2d]  clang version 22.1.8
+

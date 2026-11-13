@@ -1,0 +1,137 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x84410
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          2704692 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         9
+  Size of section headers:           40 (bytes)
+  Number of section headers:         32
+  Section header string table index: 31
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        00010154 000154 000013 00   A  0   0  1
+  [ 2] .note.gnu.build-id NOTE            00010168 000168 000024 00   A  0   0  4
+  [ 3] .note.ABI-tag     NOTE            0001018c 00018c 000020 00   A  0   0  4
+  [ 4] .gnu.hash         GNU_HASH        000101ac 0001ac 008dd8 04   A  5   0  4
+  [ 5] .dynsym           DYNSYM          00018f84 008f84 0177a0 10   A 28   1  4
+  [ 6] .gnu.liblist      GNU_LIBLIST     00030724 020724 000d34 14   A 28   0  4
+  [ 7] .gnu.conflict     RELA            00031458 021458 002838 0c   A  5   0  4
+  [ 8] .gnu.version      VERSYM          0007d29c 06d29c 002ef4 02   A  5   0  2
+  [ 9] .gnu.version_r    VERNEED         00080190 070190 000240 00   A 28  10  4
+  [10] .rel.dyn          REL             000803d0 0703d0 000028 08   A  5   0  4
+  [11] .rel.plt          REL             000803f8 0703f8 0013b0 08  AI  5  24  4
+  [12] .init             PROGBITS        000817a8 0717a8 00000c 00  AX  0   0  4
+  [13] .plt              PROGBITS        000817b4 0717b4 001d9c 04  AX  0   0  4
+  [14] .text             PROGBITS        00083550 073550 137aae 00  AX  0   0 16
+  [15] .fini             PROGBITS        001bb000 1ab000 000008 00  AX  0   0  4
+  [16] .rodata           PROGBITS        001bb008 1ab008 064348 00   A  0   0  8
+  [17] .ARM.extab        PROGBITS        0021f350 20f350 0168a0 00   A  0   0  4
+  [18] .ARM.exidx        ARM_EXIDX       00235bf0 225bf0 00a1b0 00  AL 14   0  4
+  [19] .eh_frame         PROGBITS        0023fda0 22fda0 000004 00   A  0   0  4
+  [20] .init_array       INIT_ARRAY      00240000 230000 00001c 04  WA  0   0  4
+  [21] .fini_array       FINI_ARRAY      0024001c 23001c 000004 04  WA  0   0  4
+  [22] .data.rel.ro      PROGBITS        00240020 230020 000030 00  WA  0   0  8
+  [23] .dynamic          DYNAMIC         00240050 230050 000238 08  WA 28   0  4
+  [24] .got              PROGBITS        00241000 231000 0009ec 04  WA  0   0  4
+  [25] .data             PROGBITS        002419ec 2319ec 014924 00  WA  0   0  4
+  [26] .dynbss           PROGBITS        00256310 246310 000094 00  WA  0   0  8
+  [27] .bss              PROGBITS        002563a4 2463a4 000544 00  WA  0   0  8
+  [28] .dynstr           STRTAB          002568e8 2468e8 04d54a 00   A  0   0  1
+  [29] .comment          PROGBITS        00000000 293e32 000042 01  MS  0   0  1
+  [30] .gnu.prelink_undo PROGBITS        00000000 293e74 00058c 01      0   0  4
+  [31] .shstrtab         STRTAB          00000000 294400 000132 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0x230050 contains 69 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libfactory-interface.so]
+ 0x00000001 (NEEDED)                     Shared library: [libsystemd.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libres-lookup.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-media-sound-manager-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-system-settings.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libmmfsound.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-network-bluetooth-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsmart-deadlock.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-tvtimer.so]
+ 0x00000001 (NEEDED)                     Shared library: [libsqlite3.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdeviced.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libpower-defs.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libttrace.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libCLogger.so]
+ 0x00000001 (NEEDED)                     Shared library: [libaudio-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libresource-center-api.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libapputil.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libecs-sec-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libhdmi-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvideo-dp-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-resource.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-boost-tv.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvideoenhance.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libprojector.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvd-win-util.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-info.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblwipc.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdisplay-panel.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-system-sensor.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdlog.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libvconf.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcapi-appfw-app-control.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtzplatform-config-2.0.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libcurl.so.4]
+ 0x00000001 (NEEDED)                     Shared library: [libkeystone-ppi.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000c (INIT)                       0x817a8
+ 0x0000000d (FINI)                       0x1bb000
+ 0x00000019 (INIT_ARRAY)                 0x240000
+ 0x0000001b (INIT_ARRAYSZ)               28 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x24001c
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x101ac
+ 0x00000005 (STRTAB)                     0x2568e8
+ 0x00000006 (SYMTAB)                     0x18f84
+ 0x0000000a (STRSZ)                      314231 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000015 (DEBUG)                      0x0
+ 0x00000003 (PLTGOT)                     0x241000
+ 0x00000002 (PLTRELSZ)                   5040 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x803f8
+ 0x00000011 (REL)                        0x803d0
+ 0x00000012 (RELSZ)                      40 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffe (VERNEED)                    0x80190
+ 0x6fffffff (VERNEEDNUM)                 10
+ 0x6ffffff0 (VERSYM)                     0x7d29c
+ 0x6ffffef9 (GNU_LIBLIST)                0x30724
+ 0x6ffffdf7 (GNU_LIBLISTSZ)              3380 (bytes)
+ 0x6ffffef8 (GNU_CONFLICT)               0x31458
+ 0x6ffffdf6 (GNU_CONFLICTSZ)             10296 (bytes)
+ 0x00000000 (NULL)                       0x0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0
+  [    2d]  clang version 22.1.8
+

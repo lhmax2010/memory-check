@@ -1,0 +1,20 @@
+path	exists	ELF_type	GNU_LIBLIST	gnu_prelink_undo	comment	sha256
+/usr/bin/tvs-daemon	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	658fe5b30f1cf140cf12720bd92a45e68822d3d2f096ef4b8fd97edae2fc9e72
+/usr/bin/TIFSDaemon	True	EXEC	False	False	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	f4259db870f5e22e173fd3ee71711b98e0d43ce0a8011f9eef477294b5b8ac40
+/usr/bin/app-boot-manager	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	012730e3b3109bc9830df9245b58f0fe8237c144bdd5fcda8185f00840508ada
+/usr/apps/boot-helper-dyboost-tv/bin/boot-helper-dyboost-tv	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	5a5fcc40145b9c9c115ac089c9afe77ecd1286c7cb727f8705830572b2ec0be8
+/usr/bin/fastinit	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	bd545035418838b8bfbc2b8f4eade4d85c7f8086f51aadc80b4e4f83088bb5b1
+/usr/bin/avocd	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	968da8371415c72869a563335f34c5d1de14798c081e825bed4aafc17bc0e604
+/usr/bin/fastlogo	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	bcfd59629e743f83cd3b5730be6706b77cbea56ce57c04a65608f7bf89a50755
+/usr/bin/amd	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	e8d86eeea86fd749e4f42da7143d654c5df9b4559a42e04bac97456c1f1b6984
+/usr/bin/fastvideo	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	f3566ad09aff8861d6c4919c8159a15d61f33bc41d3d7b33614e30f9433483da
+/usr/apps/org.tizen.tv-viewer/bin/tv-viewer	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	d1bb328fca6f3b1f6d8b7f69616c40e5a201fc56174ccc89e2eb075eae855a09
+/usr/bin/rscmgr-service	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	04079580f2097af89ba41a64af67de1452581e24d1cf526e79484007963bc8b7
+/usr/bin/pulseaudio	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	0d4abb51374df1a9cd7af69b523569d41b1cf7107e7022c055a3a7782b48559c
+/usr/apps/org.tizen.btapp/bin/btapp	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	97f4b2d68bd4988cfe04b47b2f150a489009c4b1a014083f4d96156f104a2b28
+/usr/bin/hdmicec-service	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	1bbfaa38aba9a432c2b883df0fafeb3737cf6d8a1d3e70a3dfc5b8dcd436c9a0
+/usr/apps/org.tizen.acm-service/bin/acm-service	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	c6014a27f8494ac23f634ade4d5ed53dad8fa077b7308ad65e6883d918ec24c5
+/usr/bin/launchpad-loader	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	3774dc0d706e29a07bb52867371280c8abf4efd1fdb0e904ac5c51cac7177ade
+/usr/bin/launchpad-process-pool	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	2d3df99fcb36c2efb784213cae24d6d9b7ef4b52d028d8fc27f294945b28c348
+/usr/bin/app_launcher	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	2c73ce362032fbbf46df1181508536e29a2fedd124fda2fc50f9cbce0dcb4749
+/usr/apps/org.tizen.welcome-mode/bin/welcome-mode	True	EXEC	True	True	GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0; clang version 22.1.8	cb83bd7203021902f3bac2d3dd6a61c87e4036503cd587f948d71e2276b054a3

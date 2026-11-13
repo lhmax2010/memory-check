@@ -1,0 +1,30 @@
+{
+  "mapped_ELF_count": 1385,
+  "ELF_copies": 1385,
+  "total_relocation_types": {
+    "RELATIVE": 1008483,
+    "GLOB_DAT": 68629,
+    "JUMP_SLOT": 295816,
+    "ABS32": 222972,
+    "other": 1208
+  },
+  "library_prediction_kB": 163684,
+  "library_eager_or_nonplt_prediction_kB": 162372,
+  "library_observed_file_r--_rw-_Private_Dirty_kB": 92872,
+  "signed_error_kB": 70812,
+  "absolute_error_kB": 71268,
+  "absolute_percentage_error_vs_observed": 0.7673787578602809,
+  "vtable_typeinfo_page_upper_kB": {
+    "all_library_pages_kB": 163684,
+    "eager_or_nonplt_library_pages_kB": 162372,
+    "vtable_upper_kB": 18160,
+    "typeinfo_upper_kB": 21084,
+    "small_target_lt256_kB": 61492
+  },
+  "Bsymbolic_function_candidate_relocs": {
+    "GLOB_DAT": 22232,
+    "JUMP_SLOT": 115751
+  },
+  "readelf_errors": 0,
+  "dynamic_relocations_parsed": 1597108
+}

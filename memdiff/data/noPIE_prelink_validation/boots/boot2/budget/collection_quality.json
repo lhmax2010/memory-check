@@ -1,0 +1,8 @@
+{
+  "pull_status_counts": {
+    "not_elf_or_unreadable": 220,
+    "hash_match": 1385
+  },
+  "missing_or_unverified_elf_paths": [],
+  "incomplete_processes": 6
+}

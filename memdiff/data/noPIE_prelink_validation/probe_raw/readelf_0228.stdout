@@ -1,0 +1,98 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x41a12000
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          47320 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         8
+  Size of section headers:           40 (bytes)
+  Number of section headers:         31
+  Section header string table index: 30
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .note.gnu.build-id NOTE            41a12134 000134 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        41a12158 000158 000704 04   A  3   0  4
+  [ 3] .dynsym           DYNSYM          41a1285c 00085c 000cd0 10   A  4   3  4
+  [ 4] .dynstr           STRTAB          41a1352c 00152c 000eb1 00   A  0   0  1
+  [ 5] .gnu.version      VERSYM          41a143de 0023de 00019a 02   A  3   0  2
+  [ 6] .gnu.version_d    VERDEF          41a14578 002578 0000e4 00   A  4   7  4
+  [ 7] .gnu.version_r    VERNEED         41a1465c 00265c 0000b0 00   A  4   3  4
+  [ 8] .rel.dyn          REL             41a1470c 00270c 0002a0 08   A  3   0  4
+  [ 9] .rel.plt          REL             41a149ac 0029ac 000180 08  AI  3  23  4
+  [10] .init             PROGBITS        41a14b2c 002b2c 00000c 00  AX  0   0  4
+  [11] .plt              PROGBITS        41a14b38 002b38 000260 04  AX  0   0  4
+  [12] .text             PROGBITS        41a14d98 002d98 0053c8 00  AX  0   0  8
+  [13] .fini             PROGBITS        41a1a160 008160 000008 00  AX  0   0  4
+  [14] .rodata           PROGBITS        41a1a168 008168 001518 00   A  0   0  4
+  [15] .ARM.extab        PROGBITS        41a1b680 009680 000078 00   A  0   0  4
+  [16] .ARM.exidx        ARM_EXIDX       41a1b6f8 0096f8 000400 00  AL 12   0  4
+  [17] .eh_frame         PROGBITS        41a1baf8 009af8 000004 00   A  0   0  4
+  [18] .tbss             NOBITS          41a1c000 009afc 000004 00 WAT  0   0  4
+  [19] .init_array       INIT_ARRAY      41a1c000 00a000 000004 04  WA  0   0  4
+  [20] .fini_array       FINI_ARRAY      41a1c004 00a004 000004 04  WA  0   0  4
+  [21] .data.rel.ro      PROGBITS        41a1c008 00a008 00019c 00  WA  0   0  4
+  [22] .dynamic          DYNAMIC         41a1c1a4 00a1a4 000108 08  WA  4   0  4
+  [23] .got              PROGBITS        41a1d000 00b000 000104 04  WA  0   0  4
+  [24] .data             PROGBITS        41a1d104 00b104 000098 00  WA  0   0  4
+  [25] .bss              NOBITS          41a1d19c 00b19c 000114 00  WA  0   0  4
+  [26] .comment          PROGBITS        00000000 00b19c 000042 01  MS  0   0  1
+  [27] .gnu.liblist      GNU_LIBLIST     00000000 00b1e0 00003c 14     28   0  4
+  [28] .gnu.libstr       STRTAB          00000000 00b21c 000027 00      0   0  1
+  [29] .gnu.prelink_undo PROGBITS        00000000 00b244 00056c 01      0   0  4
+  [30] .shstrtab         STRTAB          00000000 00b7b0 000127 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Dynamic section at offset 0xa1a4 contains 31 entries:
+  Tag        Type                         Name/Value
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libjson-c.so.5]
+ 0x0000000c (INIT)                       0x41a14b2c
+ 0x0000000d (FINI)                       0x41a1a160
+ 0x00000019 (INIT_ARRAY)                 0x41a1c000
+ 0x0000001b (INIT_ARRAYSZ)               4 (bytes)
+ 0x0000001a (FINI_ARRAY)                 0x41a1c004
+ 0x0000001c (FINI_ARRAYSZ)               4 (bytes)
+ 0x6ffffef5 (GNU_HASH)                   0x41a12158
+ 0x00000005 (STRTAB)                     0x41a1352c
+ 0x00000006 (SYMTAB)                     0x41a1285c
+ 0x0000000a (STRSZ)                      3761 (bytes)
+ 0x0000000b (SYMENT)                     16 (bytes)
+ 0x00000003 (PLTGOT)                     0x41a1d000
+ 0x00000002 (PLTRELSZ)                   384 (bytes)
+ 0x00000014 (PLTREL)                     REL
+ 0x00000017 (JMPREL)                     0x41a149ac
+ 0x00000011 (REL)                        0x41a1470c
+ 0x00000012 (RELSZ)                      672 (bytes)
+ 0x00000013 (RELENT)                     8 (bytes)
+ 0x6ffffffc (VERDEF)                     0x41a14578
+ 0x6ffffffd (VERDEFNUM)                  7
+ 0x6ffffffe (VERNEED)                    0x41a1465c
+ 0x6fffffff (VERNEEDNUM)                 3
+ 0x6ffffff0 (VERSYM)                     0x41a143de
+ 0x6ffffffa (RELCOUNT)                   76
+ 0x6ffffdf8 (CHECKSUM)                   0x56764291
+ 0x6ffffdf5 (GNU_PRELINKED)              2026-11-11T21:44:42
+ 0x00000000 (NULL)                       0x0
+
+String dump of section '.comment':
+  [     0]  GCC: (Tizen GCC 14.2.0 20240801 1.42) 14.2.0
+  [    2d]  clang version 22.1.8
+

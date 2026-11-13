@@ -558,3 +558,11 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 已闭合：118 个文件按互斥筛选分为应用/厂商路径 15、仅 GCC `.comment` 23、仅 clang 标记 ARM 0、汇编/向量特征较多 16、无法判断 64；其 `.text`、唯一驻留和文件映射 Pss 逐类见 `class_summary.tsv`。`.comment` 实际为仅 GCC 33、GCC+clang 85，没有纯 clang，不能由混合标记判定整个 ELF 的编译器。唯一同名 ARM/Thumb 比较为两对 `libtvs-api.so`，`.text` Thumb/ARM 比值 0.677745、0.687952（中位 0.682849）；两对导出 FUNC 数都不同，不是同版本受控实验。套中位比值仅作参考算术推算：仅 GCC 类 `.text` 4,355.272 KiB、唯一驻留 2,662.804 KiB；仅 clang 类 0。可核查路径按 Pss 降序在 `to_check_paths.txt`。5 项 QA 全通过；证据 `summary.json`、`arm_thumb_pairs.tsv`、`file_properties.tsv`、`sample_disassembly.tsv`、`qa.json` 和报告。
 
 挂账：3,130 个不同页样本中 1,450 个无法由局部符号覆盖或双模式合法指令比例判别，整段 ARM 字节比例只能粗估；`.dynsym` 不覆盖内部函数。应用/厂商路径能否获取源码和重编未确定；混合 `.comment` 的具体包编译器未确定。仅 2 对且导出数不同，无法从现有数据量出纯 Thumb-2 体积或驻留收益，需内网核查 spec 并在同源码/同选项下构建成对实验。
+
+### noPIE LLVM 镜像恢复预链接验证：第一部分（2026-11-13）
+
+计划与进度：在 `BUILD_ID=T-KSU2EJAKUC-0101-PERF-202611120549` 的 VD LLVM 板上只读核对 19 个预链接目标与 8 个配置目录，冷启动两次并以 `memdiff/tools/image_budget/{collect,budget,compare}.py` 原样采集、预算、比较；未开始第二部分的库撤销实验。两次 boot ID 为 `48c5ccb1-cd54-4b94-b518-2486cf0a0d42` 与 `2cf21223-81d9-4623-81da-c556dcf62577`，分别在开机后 823/799 秒满足稳定判据。进度、命令返回码、结束状态和 UID 恢复证据在 `memdiff/data/noPIE_prelink_validation/`。
+
+已闭合：19 个目标均存在且为 EXEC，18 个同时带 GNU_LIBLIST 与 `.gnu.prelink_undo`；TIFSDaemon 无标记。419 个库候选中交叉 readelf 确认 418 个带预链接标记；`LD_DEBUG=libs /usr/bin/pulseaudio --version` 打印 `prelink checking: ok`。两次采集分别有 315/314 个完整 PID、各 6 个退出或不完整 PID，拉回 ELF 1,384/1,385 个且 SHA 全匹配，root off 后 UID=5001。新镜像的 410 库 `r--+rw-` 私脏：15 程序组 5,428/5,216 KiB，其余进程 67,808/67,108 KiB。乙组固定 62 库 r-x Pss 6,132/6,172 KiB；13 对象加载器节 r-x 驻留两次均 596.417 KiB。跨镜像差异不单独归因预链接，详见 `memdiff/reports/noPIE_prelink_validation.md`、`memdiff/data/noPIE_prelink_validation/{first_part_summary.json,three_image_comparison.tsv,loader13_comparison.tsv}`。
+
+质量与挂账：十个要求的程序只有 9 个在两次快照中运行，`acm-service` 缺席；当前 6 个失败单元，但 11-11 无同项基线；当前 crash 目录无常规文件，旧基线缺失，新增数未确定。除了 pulseaudio，其他目标无安全快速退出诊断，`ld-linux --list tvs-daemon` 未打印 prelink 检查结果。11-11 和 GCC 的 13 对象 pagemap 仅各单次，LTO/MLGO/PIE 同时变化，因此预链接的同镜像收益仍待第二部分控制变量实验。第一部分提交推送并回报后，再决定是否执行第二部分。

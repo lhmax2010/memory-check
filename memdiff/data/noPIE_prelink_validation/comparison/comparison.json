@@ -1,0 +1,11 @@
+{
+  "baseline_boots": 1,
+  "new_boots": 2,
+  "paired_process_keys": 64,
+  "baseline_only_process_keys": 38,
+  "new_only_process_keys": 39,
+  "intermittent_process_keys": 1,
+  "common_files": 1587,
+  "single_side_files": 132,
+  "noise_note": "无波动数据，差值仅供参考"
+}
