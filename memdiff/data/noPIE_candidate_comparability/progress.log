@@ -1,0 +1,23 @@
+2026-11-13T16:08:31.283666+08:00 begin
+2026-11-13T16:08:31.779973+08:00 classified focused C mappings 608
+2026-11-13T16:08:31.941693+08:00 all-mappers GCC1 0 vorbisenc
+2026-11-13T16:08:32.101551+08:00 all-mappers GCC2 0 vorbisenc
+2026-11-13T16:08:32.256315+08:00 all-mappers LLVM31 19 vorbisenc
+2026-11-13T16:08:32.410816+08:00 all-mappers LLVM32 19 vorbisenc
+2026-11-13T16:08:32.469105+08:00 all-mappers noPIE1 19 vorbisenc
+2026-11-13T16:08:32.523919+08:00 all-mappers noPIE2 19 vorbisenc
+2026-11-13T16:08:32.543745+08:00 ELF GCC /usr/lib/libpisa-ipc.so
+2026-11-13T16:08:32.549813+08:00 ELF LLVM3 /usr/lib/libpisa-ipc.so
+2026-11-13T16:08:32.555950+08:00 ELF noPIE /usr/lib/libpisa-ipc.so
+2026-11-13T16:08:32.560434+08:00 ELF LLVM3 /usr/lib/libvorbisenc.so.2.0.12
+2026-11-13T16:08:32.564801+08:00 ELF noPIE /usr/lib/libvorbisenc.so.2.0.12
+2026-11-13T16:08:32.569035+08:00 ELF GCC /usr/lib/libsndfile.so.1.0.37
+2026-11-13T16:08:32.573294+08:00 ELF LLVM3 /usr/lib/libsndfile.so.1.0.37
+2026-11-13T16:08:32.578130+08:00 ELF noPIE /usr/lib/libsndfile.so.1.0.37
+2026-11-13T16:08:32.582615+08:00 ELF GCC /usr/bin/avocd
+2026-11-13T16:08:32.588476+08:00 ELF LLVM3 /usr/bin/avocd
+2026-11-13T16:08:32.595196+08:00 ELF noPIE /usr/bin/avocd
+2026-11-13T16:08:32.614576+08:00 ELF noPIE /usr/apps/com.samsung.tizen.argot/bin/argot
+2026-11-13T16:08:32.619031+08:00 ELF noPIE /opt/usr/share/argot/.local/bin/tsr
+2026-11-13T16:08:32.622487+08:00 ELF noPIE /opt/usr/share/argot/.local/bin/tsr-bwrap
+2026-11-13T16:08:32.623298+08:00 complete

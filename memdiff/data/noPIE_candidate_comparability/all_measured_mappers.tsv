@@ -1,0 +1,7 @@
+boot	all_measured_sndfile_mappers	all_measured_vorbisenc_mappers	vorbisenc_without_sndfile	mapped_vorbisenc_paths	source
+GCC1	21	0	0	not_observed	memdiff/data/gcc_baseline/boot1/memcheck/gcc_boot1_20261102_182343/02_steady/smaps_raw.txt.gz
+GCC2	21	0	0	not_observed	memdiff/data/gcc_baseline/boot2/memcheck/gcc_boot2_20261102_192351/02_steady/smaps_raw.txt.gz
+LLVM31	19	19	0	/usr/lib/libvorbisenc.so.2.0.12	memdiff/data/llvm_round3/boot1/memcheck/llvm_boot1_20261103_015124/02_steady/smaps_raw.txt.gz
+LLVM32	19	19	0	/usr/lib/libvorbisenc.so.2.0.12	memdiff/data/llvm_round3/boot2/memcheck/llvm_boot2_20261103_030258/02_steady/smaps_raw.txt.gz
+noPIE1	19	19	0	/usr/lib/libvorbisenc.so.2.0.12	memdiff/data/noPIE_prelink_validation/boots/boot1/budget/vmas_all.tsv
+noPIE2	19	19	0	/usr/lib/libvorbisenc.so.2.0.12	memdiff/data/noPIE_prelink_validation/boots/boot2/budget/vmas_all.tsv

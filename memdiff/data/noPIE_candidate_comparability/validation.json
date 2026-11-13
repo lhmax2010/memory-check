@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "libpisa_C_totals_kB": {
+    "GCC1": 1003,
+    "GCC2": 1001,
+    "LLVM31": 1472,
+    "LLVM32": 1472,
+    "noPIE1": 1460,
+    "noPIE2": 1460
+  },
+  "libvorbisenc_C_totals_kB": {
+    "GCC1": 0,
+    "GCC2": 0,
+    "LLVM31": 1005,
+    "LLVM32": 1005,
+    "noPIE1": 819,
+    "noPIE2": 819
+  },
+  "ELF_pull_hash_matches": 14,
+  "readelf_commands": 61,
+  "all_measured_vorbisenc_mappers": {
+    "GCC1": 0,
+    "GCC2": 0,
+    "LLVM31": 19,
+    "LLVM32": 19,
+    "noPIE1": 19,
+    "noPIE2": 19
+  }
+}

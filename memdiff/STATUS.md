@@ -588,3 +588,10 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 - 已离线重读相同六次快照，按固定 94 个 `(comm, exe)` 身份对 298,788 条 C 内 VMA 做互斥分类和文件汇总；另分类 argot 路径族 1,117 条 VMA。逐进程主类、六次 C、文件映射总和均精确守恒；相对 GCC/第三轮 LLVM 的 C 差值仍为 −20,183/−26,145 KiB。证据 `reports/noPIE_memory_hotspot_analysis.md`、`data/noPIE_memory_hotspot_analysis/{validation.json,C_process_comparisons.tsv,C_file_comparisons.tsv}`；脚本 `scripts/nopie_memory_hotspots.py`、`scripts/nopie_hotspot_static.py`、`scripts/nopie_hotspot_report.py`，7 项小样本测试通过。
 - 已闭合的事实：相对 LLVM3，`enlightenment` +3,773.5 KiB 的均值增量受 `/dev/dri/card0` 0/8,100 KiB 状态差异影响，不能归为代码增长；相对 GCC，`libpisa-ipc.so` 在固定 C 中 +458 KiB，其 `.text` 副本为 479,996/885,568 B，但同源码/版本未证实。`argot`、`tsr`、`tsr-bwrap` 路径族三项在 noPIE 两次合计 13,172/13,144 KiB，旧四次已测台账无同身份；保存的 PPid 显示 `systemd→tsr→tsr-bwrap→tsr→argot` 链，历史同程序内存不可比。详见报告与 `argot_capture_audit.tsv`、`static_elf_evidence.tsv`。
 - 挂账：noPIE 两次各 6 个采集中退出 PID 无完整身份/内存；历史约 45 分钟与新镜像约 13 分钟采样时刻不同；多处 ELF 包版本和同源码构建记录缺失（GCC `libvorbisenc` 副本未取得）。候选清单 `data/noPIE_memory_hotspot_analysis/candidates.tsv` 仅给最小验证，不承诺收益；原始快照与板端状态未改。
+
+## noPIE 四组候选可比性核查（2026-11-13）
+
+- 离线限定核查完成：报告 `reports/noPIE_candidate_comparability.md`；脚本 `scripts/nopie_candidate_comparability.py`；输入哈希、四组 VMA、全已测 `libsndfile`/`libvorbisenc` 映射者、ELF 身份/动态段及校验见 `data/noPIE_candidate_comparability/`。14 份可得 ELF 均与拉回记录 SHA256 一致，61 条交叉 readelf 返回码均为 0；既有 `libpisa` 和 `libvorbisenc` 六次固定 C 合计复核通过。未上板、未联网取新材料、未重跑全量热点。
+- 已闭合：`libvorbisenc` 映射差定位到 LLVM3/noPIE `libsndfile` 有直接 DT_NEEDED、GCC 没有；旧两次全部已测映射者均未加载它，新两版各 19 个。`avocd` 自身文件 noPIE−LLVM3 +80 KiB，但整个进程 −310 KiB，属于分项而非整进程净回退。两者本轮均不进入优化实验。
+- 缺材料：`libpisa-ipc` 的 +458 KiB 是固定 C 5 个身份的 r-x PSS；旧两版包版本相同不证明同源码，三版 SOURCERPM、源码 revision/patch、实际编译/链接日志和 noPIE 完整 NEVRA 缺失。argot/tsr 链 13,158 KiB 是已测进程集合差，但链首触发/角色缺实际 unit/manifest、包元数据及完整启动日志；旧镜像是否在其他时刻运行未证实。这两项不进入实验。本轮合格受控实验 0 个。
+- 仍有边界：`libvorbisenc` 的额外 NEEDED 为什么被链接、功能是否通过动态查找使用未定；`avocd` r-x PSS 分摊/驻留细因未定；上述未知均不改变本轮四项决策。原始快照和旧报告未修改。
