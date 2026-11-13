@@ -1,0 +1,19 @@
+boot	exe	capture_state	instances	Pss_kB	SwapPss_kB	total_kB	pids	parent_evidence
+GCC1	/opt/usr/share/argot/.local/bin/tsr	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+GCC1	/opt/usr/share/argot/.local/bin/tsr-bwrap	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+GCC1	/usr/apps/com.samsung.tizen.argot/bin/argot	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+GCC2	/opt/usr/share/argot/.local/bin/tsr	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+GCC2	/opt/usr/share/argot/.local/bin/tsr-bwrap	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+GCC2	/usr/apps/com.samsung.tizen.argot/bin/argot	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+LLVM31	/opt/usr/share/argot/.local/bin/tsr	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+LLVM31	/opt/usr/share/argot/.local/bin/tsr-bwrap	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+LLVM31	/usr/apps/com.samsung.tizen.argot/bin/argot	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+LLVM32	/opt/usr/share/argot/.local/bin/tsr	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+LLVM32	/opt/usr/share/argot/.local/bin/tsr-bwrap	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+LLVM32	/usr/apps/com.samsung.tizen.argot/bin/argot	not_in_measured_ledger	0	0	0	0	NA	no same-snapshot parent record
+noPIE1	/opt/usr/share/argot/.local/bin/tsr	measured	2	628	340	968	2057,2079	2057<-1 systemd | /usr/lib/systemd/systemd; 2079<-2078 tsr-bwrap | /opt/usr/share/argot/.local/bin/tsr-bwrap
+noPIE1	/opt/usr/share/argot/.local/bin/tsr-bwrap	measured	1	96	68	164	2078	2078<-2057 tsr | /opt/usr/share/argot/.local/bin/tsr
+noPIE1	/usr/apps/com.samsung.tizen.argot/bin/argot	measured	1	8536	3504	12040	2084	2084<-2079 tsr | /opt/usr/share/argot/.local/bin/tsr
+noPIE2	/opt/usr/share/argot/.local/bin/tsr	measured	2	612	356	968	2061,2095	2061<-1 systemd | /usr/lib/systemd/systemd; 2095<-2094 tsr-bwrap | /opt/usr/share/argot/.local/bin/tsr-bwrap
+noPIE2	/opt/usr/share/argot/.local/bin/tsr-bwrap	measured	1	96	68	164	2094	2094<-2061 tsr | /opt/usr/share/argot/.local/bin/tsr
+noPIE2	/usr/apps/com.samsung.tizen.argot/bin/argot	measured	1	8576	3436	12012	2105	2105<-2095 tsr | /opt/usr/share/argot/.local/bin/tsr

@@ -1,0 +1,9 @@
+boot	pid	name	exe	identity_key	Pss_kB	SwapPss_kB	total_kB	vma_count	file_exec_Pss_kB	file_exec_SwapPss_kB	file_exec_total_kB	file_readonly_Pss_kB	file_readonly_SwapPss_kB	file_readonly_total_kB	file_writable_Pss_kB	file_writable_SwapPss_kB	file_writable_total_kB	file_other_Pss_kB	file_other_SwapPss_kB	file_other_total_kB	stack_Pss_kB	stack_SwapPss_kB	stack_total_kB	anonymous_Pss_kB	anonymous_SwapPss_kB	anonymous_total_kB	special_Pss_kB	special_SwapPss_kB	special_total_kB
+noPIE1	2057	tsr	/opt/usr/share/argot/.local/bin/tsr	tsr | /opt/usr/share/argot/.local/bin/tsr	481	268	749	48	425	0	425	52	0	52	0	36	36	0	0	0	4	100	104	0	132	132	0	0	0
+noPIE1	2078	tsr-bwrap	/opt/usr/share/argot/.local/bin/tsr-bwrap	tsr-bwrap | /opt/usr/share/argot/.local/bin/tsr-bwrap	96	68	164	17	72	0	72	20	0	20	0	16	16	0	0	0	4	4	8	0	48	48	0	0	0
+noPIE1	2079	tsr	/opt/usr/share/argot/.local/bin/tsr	tsr | /opt/usr/share/argot/.local/bin/tsr	147	72	219	29	67	0	67	48	0	48	8	24	32	0	0	0	12	12	24	12	36	48	0	0	0
+noPIE1	2084	argot	/usr/apps/com.samsung.tizen.argot/bin/argot	argot | /usr/apps/com.samsung.tizen.argot/bin/argot	8536	3504	12040	464	6311	0	6311	1193	0	1193	68	544	612	0	0	0	428	532	960	536	2428	2964	0	0	0
+noPIE2	2061	tsr	/opt/usr/share/argot/.local/bin/tsr	tsr | /opt/usr/share/argot/.local/bin/tsr	481	268	749	47	425	0	425	52	0	52	0	36	36	0	0	0	4	104	108	0	128	128	0	0	0
+noPIE2	2094	tsr-bwrap	/opt/usr/share/argot/.local/bin/tsr-bwrap	tsr-bwrap | /opt/usr/share/argot/.local/bin/tsr-bwrap	96	68	164	17	72	0	72	20	0	20	0	16	16	0	0	0	4	4	8	0	48	48	0	0	0
+noPIE2	2095	tsr	/opt/usr/share/argot/.local/bin/tsr	tsr | /opt/usr/share/argot/.local/bin/tsr	131	88	219	29	67	0	67	48	0	48	4	28	32	0	0	0	8	16	24	4	44	48	0	0	0
+noPIE2	2105	argot	/usr/apps/com.samsung.tizen.argot/bin/argot	argot | /usr/apps/com.samsung.tizen.argot/bin/argot	8576	3436	12012	466	6335	0	6335	1193	0	1193	68	544	612	0	0	0	60	208	268	920	2684	3604	0	0	0

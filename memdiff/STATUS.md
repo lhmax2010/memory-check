@@ -582,3 +582,9 @@ TIFSDaemon：保存 ELF 的 NEEDED 闭包可追到 284 个路径，`libfkpIntern
 - 新镜像相对第三轮 LLVM：全部已采集用户进程均值 −12,781 KiB，94 身份 −26,145 KiB，R 组 +13,364 KiB；其中新侧两次确认的 argot、tsr、tsr-bwrap 路径族合计 +13,158 KiB。相对 GCC：T −23,380、C −20,183、R −3,197 KiB。
 - 六次 `T=C+R`、两组 `ΔT=ΔC+ΔR`、R 的逐身份及类别合计均精确守恒；旧报告数字与本轮一致，无数值更正。5 项小样本测试通过。
 - 覆盖挂账：noPIE 两次各 6 个采集期间退出 PID 没有身份或完整 smaps，不把未知当成已确认缺席；历史四次均约 45 分钟上限采样且 `steady=no`，noPIE 两次在 823/799 秒满足稳定条件。跨镜像差值为会计分解，不能单独归因预链接、LTO 或 MLGO。
+
+## noPIE 剩余内存热点定位（2026-11-13）
+
+- 已离线重读相同六次快照，按固定 94 个 `(comm, exe)` 身份对 298,788 条 C 内 VMA 做互斥分类和文件汇总；另分类 argot 路径族 1,117 条 VMA。逐进程主类、六次 C、文件映射总和均精确守恒；相对 GCC/第三轮 LLVM 的 C 差值仍为 −20,183/−26,145 KiB。证据 `reports/noPIE_memory_hotspot_analysis.md`、`data/noPIE_memory_hotspot_analysis/{validation.json,C_process_comparisons.tsv,C_file_comparisons.tsv}`；脚本 `scripts/nopie_memory_hotspots.py`、`scripts/nopie_hotspot_static.py`、`scripts/nopie_hotspot_report.py`，7 项小样本测试通过。
+- 已闭合的事实：相对 LLVM3，`enlightenment` +3,773.5 KiB 的均值增量受 `/dev/dri/card0` 0/8,100 KiB 状态差异影响，不能归为代码增长；相对 GCC，`libpisa-ipc.so` 在固定 C 中 +458 KiB，其 `.text` 副本为 479,996/885,568 B，但同源码/版本未证实。`argot`、`tsr`、`tsr-bwrap` 路径族三项在 noPIE 两次合计 13,172/13,144 KiB，旧四次已测台账无同身份；保存的 PPid 显示 `systemd→tsr→tsr-bwrap→tsr→argot` 链，历史同程序内存不可比。详见报告与 `argot_capture_audit.tsv`、`static_elf_evidence.tsv`。
+- 挂账：noPIE 两次各 6 个采集中退出 PID 无完整身份/内存；历史约 45 分钟与新镜像约 13 分钟采样时刻不同；多处 ELF 包版本和同源码构建记录缺失（GCC `libvorbisenc` 副本未取得）。候选清单 `data/noPIE_memory_hotspot_analysis/candidates.tsv` 仅给最小验证，不承诺收益；原始快照与板端状态未改。

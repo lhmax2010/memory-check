@@ -1,0 +1,14 @@
+rank	path	selection_score_kB	reason	scope
+1	/usr/bin/enlightenment	3773.5	main executable noPIE_minus_LLVM3	A_top10
+2	/usr/bin/team-launcher	1325.5	main executable noPIE_minus_GCC	A_top10
+3	/usr/lib/libvorbisenc.so.2.0.12	819.0	file noPIE_minus_GCC	A_top10
+4	/usr/lib/libpisa-ipc.so	458.0	file noPIE_minus_GCC	A_top10
+5	/usr/bin/launchpad-loader	414.0	main executable noPIE_minus_GCC	A_top10
+6	/opt/usr/apps/com.samsung.tv.ContentsBrowser/shared/res/libcompcb.so	360.0	file noPIE_minus_GCC	A_top10
+7	/usr/bin/avocd	312.0	file noPIE_minus_GCC	A_top10
+8	/usr/bin/cynara	308.0	main executable noPIE_minus_GCC	A_top10
+9	/usr/lib/libgstreamer-1.0.so.0.2411.0	307.5	file noPIE_minus_GCC	A_top10
+10	/usr/share/connectivity-common-daemon/plugins/libbtapp-lite.so	280.0	file noPIE_minus_GCC	A_top10
+11	/usr/apps/com.samsung.tizen.argot/bin/argot	NA	B historical comparability	B_argot
+12	/opt/usr/share/argot/.local/bin/tsr	NA	B historical comparability	B_argot
+13	/opt/usr/share/argot/.local/bin/tsr-bwrap	NA	B historical comparability	B_argot

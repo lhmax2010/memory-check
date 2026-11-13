@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "input_manifest_sha256": "2f600bd3ccc854371ff8d2c02a625cc9d520d9c247513c53089143969ee0fd1b",
+  "fixed94_sha256": "8374257c4089d653f44c0be9ad2d25df36dc29852cab832fbed31619a7f721f0",
+  "checks": {
+    "GCC1": {
+      "C_kB": "515309",
+      "category_error_kB": "0",
+      "file_error_kB": "0",
+      "categories_kB": {
+        "file_exec": "178402",
+        "file_readonly": "92777",
+        "file_writable": "68589",
+        "file_other": "0",
+        "stack": "30865",
+        "anonymous": "141372",
+        "special": "3304"
+      },
+      "VMA_count_C": 50257,
+      "C_processes": 94
+    },
+    "GCC2": {
+      "C_kB": "502846",
+      "category_error_kB": "0",
+      "file_error_kB": "0",
+      "categories_kB": {
+        "file_exec": "171751",
+        "file_readonly": "90734",
+        "file_writable": "67785",
+        "file_other": "0",
+        "stack": "29421",
+        "anonymous": "131833",
+        "special": "11322"
+      },
+      "VMA_count_C": 50072,
+      "C_processes": 94
+    },
+    "LLVM31": {
+      "C_kB": "518574",
+      "category_error_kB": "0",
+      "file_error_kB": "0",
+      "categories_kB": {
+        "file_exec": "178420",
+        "file_readonly": "106824",
+        "file_writable": "65457",
+        "file_other": "0",
+        "stack": "24335",
+        "anonymous": "132918",
+        "special": "10620"
+      },
+      "VMA_count_C": 49761,
+      "C_processes": 94
+    },
+    "LLVM32": {
+      "C_kB": "511505",
+      "category_error_kB": "0",
+      "file_error_kB": "0",
+      "categories_kB": {
+        "file_exec": "178465",
+        "file_readonly": "106845",
+        "file_writable": "65463",
+        "file_other": "0",
+        "stack": "25983",
+        "anonymous": "132040",
+        "special": "2709"
+      },
+      "VMA_count_C": 49779,
+      "C_processes": 94
+    },
+    "noPIE1": {
+      "C_kB": "489377",
+      "category_error_kB": "0",
+      "file_error_kB": "0",
+      "categories_kB": {
+        "file_exec": "161660",
+        "file_readonly": "94647",
+        "file_writable": "64359",
+        "file_other": "0",
+        "stack": "27705",
+        "anonymous": "129696",
+        "special": "11310"
+      },
+      "VMA_count_C": 49451,
+      "C_processes": 94
+    },
+    "noPIE2": {
+      "C_kB": "488412",
+      "category_error_kB": "0",
+      "file_error_kB": "0",
+      "categories_kB": {
+        "file_exec": "161758",
+        "file_readonly": "94649",
+        "file_writable": "64347",
+        "file_other": "0",
+        "stack": "27741",
+        "anonymous": "128621",
+        "special": "11296"
+      },
+      "VMA_count_C": 49468,
+      "C_processes": 94
+    }
+  },
+  "selected_processes": 572,
+  "selected_C_processes": 564,
+  "classified_VMA_rows": 299905,
+  "files_per_boot_rows": 9289,
+  "missing_primary_fields": 0
+}
